@@ -1,12 +1,23 @@
+BETA V03
+
+
+[DEV NOTE]: Please note that with this update, your ores will all transform into Emendatus Enigmatica ones and new chunks will spawn new ores.
+
 Additions:
 + PneumaticCraft: Repressurized by desht_08
 + Emendatus Enigmatica by Ridanisaurus
 + Cooking for blockheads by BlayTheNinth
++ Magma Monsters by Kashdeya
++ Eldritch Mobs by cyborg_pigeon
+
 Changes and Fixes:
 = Changed all recipes to make them use Emendatus Enigmatica instead.
 = More mods were updated.
-= Added more quests.
+= Added more quests. [Total quest count is now nearing 500!]
 = Added more custom recipes.
 = Fixed an issue with Sluices and Jars
 = Increased JEI size a tiny bit.
+= Fixed orientation of main menu.
 = Decreased download size from 120MBs to 20MBs only.
+= Added more singularities!
+= Fixed some issues with some singularities
