@@ -1,6 +1,6 @@
 # MC Odyssey 2
 
-A 1.16.5 Kitchen Sink pack with over than 425 mods, 300+ Quests and an emphasis on both entertaining (And rewarding) exploration and automation.
+A 1.16.5 Kitchen Sink pack with over than 450 mods, 500+ Quests and an emphasis on both entertaining (And rewarding) exploration and automation.
 
 
 This is the official github page for MC Odyssey 2, here you can find upcoming patches, figure out what I'm working on and report issues to be fixed. 
