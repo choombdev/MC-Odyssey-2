@@ -1,0 +1,32 @@
+Additions:
++ Overworld Two by Corgi_Taco
++ Entity Culling by tr9zw
++ Adaptive Performance Tweaks (APTweaks) by Kaworru
++ Yung's Better Caves by YungNickYoung
++ MiniCoal by KiwiOfLesbos
++ Apotheosis by Shadows_Of_Fire 
+Changes:
+= Coal no longer drops Coal Chunks
+= Fixed issue with Internal Servers giving out after five minutes.
+= Fixed JEI clutter by removing multiple useless pages (i.e facades)
+= Fixed an issue with duplicate ores spawning in the overworld.
+= Fixed an issue with Quartz and Cobalt spawning in the overworld.
+= Disabled Apotheosis' Enchantment Module
+= Ice and Fire mobs spawn less frequently now.
+= Fixed an issue where Ice and Fire config reset itself.
+= Added more structures to the repurposed structures mod.
+= Minimized chances of some BoP biomes generating.
+= Buffed Mowzie's Mobs
+= Moved TheOneProbe location due to conflicting with FTBUltimine
+= Added more quests.
+= Changed player starter gear.
+= Updated the Akashic Tome and added it to the shop.
+= Added more items to the shop.
+= More custom recipes and creative items were added. 
+Removals:
+- Dynamic View
+- JustEnoughBeacons
+- Dynamic Lights
+- Shrine Structures
+- Yung's Better Dungeons
+- Save my Stronghold 
