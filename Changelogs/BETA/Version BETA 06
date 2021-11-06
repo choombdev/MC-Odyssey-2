@@ -1,0 +1,61 @@
+BETA 06
+
+#DEV NOTE:
+I've removed most if not all useless mods I could find to better the performance and world loading, I'm pretty sure that this patch should fix all issues with chunk loading. 
+Quality > Quantity, after all. 
+
+The pack now should run much much much smoother than it did before, I no longer face lag spikes even on higher settings than I usually run.
+
+Hopefully more to come in the next patch, I want to make this pack as optimized as possible while not having to cut out any of the main features.
+
+Additions:
++ RandomPatches
++ Chisel
++  Spice Of Life: Carrot Edition by lordcazsius
++ Two Players One Horse by Beethoven92
++ DeLogger by UnRealDinnerbone
++ Blame by telepathicgrunt
++ Grappling Hook Mod by yyonne
++ Game Menu Mod Option [Forge] by morimori0317
++ Game Menu Remove GFARB by morimori0317
++ Dungeons Enhanced by mo6301
++ Awesome Dungeons by Jtorleon
++ QuantumStorage by GigaBit101
++ Atmospheric by TeamAbnormals
++ Environmental by TeamAbnormals
++ Abnormals Delight by TeamAbnormals
++ Farmer's Delight by vectorwing
++ Autumnity by TeamAbnormals
++ Neapolitan by TeamAbnormals
++ Farmer's Delight Compats by burritoeatinghamster
++ Croptopia [FABRIC/FORGE] by thethonk
++ Nether's Delight by lumpazl 
+Fixes and Changes:
+= Added a way to actually make money.
+= Added more quests. (Current count reached 550)
+= Added more creative items.
+= Changed Ancient Ingot color.
+= Fixed Ancient Ingot texture being missing.
+= Disabled Demon Rats for being problematic.
+= Modified Yung's Caves to make them run better.
+= Added more items to Sluices.
+= Changed more recipes.
+= Fixed issue with lagspikes. (Mostly)
+= More mods were updated.
+= Modified Mowzie's Mobs spawn chances. 
+Removals:
+- Clumps for being redundant
+- LazyDFU to replace it.
+- Shut Up Experimental Settings to replace it.
+- DungeonCrawl
+- FlatBedrock for replacing it
+- Biomes O Plenty
+- Compactor
+- Chipped
+- Mixin Bootstrap
+- OhMyGourd
+- Odd Water Mobs
+- Productive Bees
+- Absent by Design
+- Corail Pillar
+- Project Red 
