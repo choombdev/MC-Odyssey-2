@@ -1,0 +1,18 @@
+Additions:
++ DrawerFPS
++ Extended Caves
++ Metal Barrels
++ Occultism
++ Paintings ++ 
++ Pretty Pipes
++ Dark Paintings
++ Pretty Pipes Fluids 
+Changes and Fixes:
+= Changed even more recipes for balancing issues.
+= Fixed a bug with Advanced Lootboxes.
+= Removed useless items from JEI to make performance better.
+= Fixed Polymorph
+= Added more Quests
+= Added Emendatus Enigmatica ores to the forge:ores tag. 
+Removals:
+- FastWorkbench 
