@@ -1,0 +1,26 @@
+Additions:
++ Castle in the Sky by songxia23
++ The Graveyard (FORGE) by finallion_13
++ Kobolds! by Jusey1z
++ Stables by f1ashfyre
++ Structures Plus II by Qra5
++ Mo' Structures (Forge) by ffrannny
++ Extractures by itsminiLink
++ Adventures Structures by erixon_07 
+Changes and Fixes:
+= Changed the loading screen and added a new animation to it.
+= Changed the textures on all buttons in the main menu to make it easier to look at.
+= Fixed Mekanism Quests being broken.
+= Added more quests.
+= Added more custom recipes.
+= Fixed issue with Draconic Evolution progression breaking.
+= Fixed an issue with the Ancient Ingot
+= Added Custom Ancient Armor.
+= Added Custom Choombium ore, ingot and block.
+= Added Custom Choombium Tools.
+= Added Custom Choombium Armor.
+= Added both a seed and a singularity for Choombium. 
+Removals:
+- Environmental
+- Atmospheric
+- Autumnity
