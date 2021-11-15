@@ -1,0 +1,30 @@
+Additions:
++ Serene Seasons by TheAdubbz
++ [Forge] Snad by lazynessmind
++  Crash Utilities by darkere
++ Decorative Blocks by stohun 
++ Decorative Blocks modded compat by Evo_934
++ Not Enough Crashes (Forge) by NatanFudge
++ CraftPresence
++ Discord Integration Forge by ErdbeerbaerLP 
+Changes:
+= Finalized Quests (Added information, added quests for any remaining mods)
+= Re-did all custom textures in preparation for the update.
+= Updated mods in preparation.
+= Fixed some oredict issues with Emendatus Enigmatica.
+= Added more customized recipes for QoL.
+= Fixed an issue with textures for Ancient Armor.
+= Added more custom made items. [Choomburgers]
+= Changed custom starter gear.
+= Fixed Choombium Singularities and Seeds.
+= Added a tooltip to Choombium Ores.
+= Updated Discord's rich presence.
+= Added a /discord command
+= Fixed an issue with custom made Tips
+= Added new generator uses.
+= Added more items to Sluices.
+= Added more hammering recipes.
+= Fixed an issue with FTB Jars. 
+Removals:
+- AdFinders
+- Simple RPC
