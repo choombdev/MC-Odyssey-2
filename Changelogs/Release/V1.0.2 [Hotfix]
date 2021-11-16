@@ -1,0 +1,18 @@
+Additions:
++ My Server Is Compatible by Focamacho
++ OAuth by sintinium 
+Fixes and Changes:
+= Fixed an issue where choomburgers took an hour to eat.
+= Increased food of Choomburgers to make them actually worth it.
+= Updated the following mods (KubeJS, Supplementaries, Tinker's Construct, Mysticalworld, MysticalAgradditions)
+= Disabled Quark's sorter and Inventory Tweaks sorter
+= Fixed missing textures with Choombium seeds
+= Re-did the introduction section of quests and added more quests.
+= Fixed Choombium ores not spawning (Hopefully)
+= Added new custom recipes.
+= Re-added missing mods. 
+Removals:
+- Actually removed Advanced Finders this time.
+- NotEnoughCrashes
+- ReAuth
+- Treasure2
