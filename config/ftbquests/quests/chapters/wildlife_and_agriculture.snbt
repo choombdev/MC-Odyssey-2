@@ -1,0 +1,776 @@
+{
+	id: "69896EE71B5AF2D2"
+	group: "4E139BB973FD0007"
+	order_index: 1
+	filename: "wildlife_and_agriculture"
+	title: "Wildlife and Agriculture"
+	icon: "minecraft:wheat_seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -3.5d
+			description: ["To transfer any essence in Mystical Agriculture to a higher level you'll need a crystal!"]
+			id: "4DDA7D554C806A09"
+			tasks: [{
+				id: "14FD7ADA294049E7"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D1A3E60D2181618"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: ["Crystal but unbreakable!"]
+			dependencies: ["4DDA7D554C806A09"]
+			id: "48ED44ADABE7A877"
+			tasks: [{
+				id: "71A42DB1D93A3AD5"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+			rewards: [
+				{
+					id: "51B6AEAFC641B630"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "5F139BC6691DFB20"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["4DDA7D554C806A09"]
+			id: "565E04522AC1668B"
+			tasks: [{
+				id: "05FF921B5470C61E"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+			rewards: [{
+				id: "0DB98BEB5F9BF760"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["565E04522AC1668B"]
+			id: "6D03DF787DE799BD"
+			tasks: [{
+				id: "7E5BF61926F6C73C"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [
+				{
+					id: "577E0C58628F694F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "6A3EB0EB09BC2CC8"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["6D03DF787DE799BD"]
+			id: "6F69AD44AC33FB4A"
+			tasks: [{
+				id: "03D48859BAEA8F89"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [
+				{
+					id: "15245668D34F3FCE"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "423917D5B173B29A"
+					type: "ftbmoney:money"
+					ftb_money: 700L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["6F69AD44AC33FB4A"]
+			id: "24E5F561D312D14B"
+			tasks: [{
+				id: "5A8CEFEE0B8D5DFC"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [
+				{
+					id: "23F866098ACB544A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2A13A1DAF201A9E9"
+					type: "ftbmoney:money"
+					ftb_money: 800L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			dependencies: ["24E5F561D312D14B"]
+			id: "57ABB3638DFBDA82"
+			tasks: [{
+				id: "0929341AC5E7EFFC"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [
+				{
+					id: "22DC592D7B6E5536"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "028BCD066A03FE81"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -9.5d
+			dependencies: ["57ABB3638DFBDA82"]
+			id: "470CE8D1DBBF6BCB"
+			tasks: [{
+				id: "7B3D09364DE98B96"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [
+				{
+					id: "2A4B5E045CD30B11"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "62CE472E5D13D0E3"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -9.5d
+			dependencies: ["2F66A61AA636DDA0"]
+			id: "63E4AB461B679690"
+			tasks: [{
+				id: "0B5432E1B8693689"
+				type: "item"
+				item: "mysticaladaptations:insanium_furnace"
+			}]
+			rewards: [
+				{
+					id: "6A5468ACC579A03F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "3A33473A49585059"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "4479EA2553EC36C7"
+					type: "ftbmoney:money"
+					ftb_money: 2700L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			dependencies: ["484D7697C60C55C6"]
+			id: "7C4197C1DF8BBBEE"
+			tasks: [{
+				id: "6482DFA85036F0DF"
+				type: "item"
+				item: "mysticalagriculture:supremium_furnace"
+			}]
+			rewards: [
+				{
+					id: "2718FD6B8ABE5120"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0529E706314BBDE3"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			dependencies: ["686BC656DCC60CE7"]
+			id: "5DBDECC59ABB7960"
+			tasks: [{
+				id: "0F4659E4BD87C618"
+				type: "item"
+				item: "mysticalagriculture:imperium_furnace"
+			}]
+			rewards: [
+				{
+					id: "2EC97A181013E2FA"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2929DA937D00DC8A"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["01323C1C2BE46AFE"]
+			id: "0DE0D741C0B4DFDF"
+			tasks: [{
+				id: "23892CA110D018C4"
+				type: "item"
+				item: "mysticalagriculture:tertium_furnace"
+			}]
+			rewards: [
+				{
+					id: "4454157DA41E77CF"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "440661CCB3171D48"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			dependencies: ["5C25C0FC4734BED1"]
+			id: "41461410380FA900"
+			tasks: [{
+				id: "17BD517E20933F46"
+				type: "item"
+				item: "mysticalagriculture:prudentium_furnace"
+			}]
+			rewards: [
+				{
+					id: "0C6278CA3144AED9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "6D2B01E0A8E29A62"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["3F139919CFCFFB4A"]
+			id: "51F3D86488E7601B"
+			tasks: [{
+				id: "386B093EF08927C1"
+				type: "item"
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+			rewards: [
+				{
+					id: "4821A860CA5B7884"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "1182235B0B9DC51D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: [
+				"565E04522AC1668B"
+				"3D48AF1CA6F99BCF"
+			]
+			id: "3F139919CFCFFB4A"
+			tasks: [{
+				id: "6C6E649DAC645099"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+			}]
+			rewards: [
+				{
+					id: "54C8A9660BEE69A7"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6763C8E61A6EC393"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			dependencies: ["6D03DF787DE799BD"]
+			id: "5C25C0FC4734BED1"
+			tasks: [{
+				id: "5147614C6BAA5B63"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+			}]
+			rewards: [
+				{
+					id: "3204B9E1E952221B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "20E3ADCC938D99DF"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			dependencies: ["6F69AD44AC33FB4A"]
+			id: "01323C1C2BE46AFE"
+			tasks: [{
+				id: "6D4C63304E31A32D"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+			}]
+			rewards: [
+				{
+					id: "307284A74C4088E7"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "2EED003FC0BC32CB"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -7.5d
+			dependencies: ["24E5F561D312D14B"]
+			id: "686BC656DCC60CE7"
+			tasks: [{
+				id: "2526413B503ABC95"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+			}]
+			rewards: [
+				{
+					id: "5C636A0A580ECB3A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "3F96FAC1BF5377C5"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			dependencies: ["57ABB3638DFBDA82"]
+			id: "484D7697C60C55C6"
+			tasks: [{
+				id: "3D37FA71418FD1DF"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+			}]
+			rewards: [
+				{
+					id: "080CBE4B11F4DC05"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "358CA45F45D9C358"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -9.5d
+			dependencies: ["470CE8D1DBBF6BCB"]
+			id: "2F66A61AA636DDA0"
+			tasks: [{
+				id: "3B74C6687170A150"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+			}]
+			rewards: [
+				{
+					id: "7344037224AD5805"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "04C251D1CE2ABB10"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "02FCF49718C7178D"
+					type: "ftbmoney:money"
+					ftb_money: 2700L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			description: ["Prosperity ingots are the basis to all ingots."]
+			dependencies: ["4DDA7D554C806A09"]
+			id: "3D48AF1CA6F99BCF"
+			tasks: [{
+				id: "3B3056C73A5D6F15"
+				type: "item"
+				item: "mysticalagriculture:prosperity_ingot"
+			}]
+			rewards: [{
+				id: "181D218AD13CBB15"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: ["You'll need an infusion altar if you'd like to craft any sort of special seeds."]
+			dependencies: ["4DDA7D554C806A09"]
+			id: "37DEB361A5008B05"
+			tasks: [{
+				id: "4D58D8B22F78BACB"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+			rewards: [{
+				id: "33E91CEDD824D92A"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			id: "7C3EF2B25BE36084"
+			tasks: [{
+				id: "2A377BAD18534ACF"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_base"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "649D2F9A2ED6FA6B"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["7C3EF2B25BE36084"]
+			id: "560C82EB6D4507AC"
+			tasks: [{
+				id: "7B3809B5BA276C73"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A74876311AF57B5"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: ["560C82EB6D4507AC"]
+			id: "02C3E0D6FD26075B"
+			tasks: [{
+				id: "74458F61040E6A7C"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist_solid"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "346D8943F3692354"
+				type: "ftbmoney:money"
+				ftb_money: 3000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.5d
+			dependencies: ["02C3E0D6FD26075B"]
+			id: "55F6EA4A5A546EE5"
+			tasks: [{
+				id: "2CABB17DBEC2F95A"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist_reinforced"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "671AB29090EA8A1A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "24E9B18D66BCBCEB"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			dependencies: ["7C3EF2B25BE36084"]
+			id: "6380715756550A7F"
+			tasks: [
+				{
+					id: "63FE03C06649A2C0"
+					type: "item"
+					item: {
+						id: "waterstrainer:worm_bin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "26ECC420C76210C8"
+					type: "item"
+					item: {
+						id: "waterstrainer:bait_pot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "763C97C58B4960C9"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			dependencies: ["6380715756550A7F"]
+			id: "1CFEC5ACB1470730"
+			tasks: [{
+				id: "0F7D58B9C623F810"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6215961E9A492415"
+				type: "ftbmoney:money"
+				ftb_money: 3000L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -10.0d
+			dependencies: ["1CFEC5ACB1470730"]
+			id: "077F3EB10E1F0CFD"
+			tasks: [{
+				id: "5D447B118341C3BE"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman_solid"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DB4541D0E30924D"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.5d
+			dependencies: ["077F3EB10E1F0CFD"]
+			id: "25C454873F370535"
+			tasks: [{
+				id: "58CA5B0AE317E96D"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman_reinforced"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4DFAB3B45132273F"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "68611088E2691A66"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			id: "44AE44FD879B1795"
+			tasks: [{
+				id: "3832C668BB982587"
+				type: "item"
+				item: {
+					id: "hole_filler_mod:throwable_hole_filler"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "78B7259CE3962D0E"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+	]
+}

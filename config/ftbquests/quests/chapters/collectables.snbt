@@ -1,0 +1,1323 @@
+{
+	id: "5119A9A8774F375B"
+	group: "3A1BC4382F0B65EC"
+	order_index: 1
+	filename: "collectables"
+	title: "Collectables"
+	icon: "twilightforest:shader_bag_ie_masterwork"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -0.5d
+			subtitle: "Twilight Forest!"
+			size: 1.5d
+			id: "67D1EC5DF7F7C271"
+			tasks: [{
+				id: "3CC15FFF0372B400"
+				type: "item"
+				item: "twilightforest:trophy_pedestal"
+			}]
+			rewards: [{
+				id: "441FFFECFDD67F38"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "573755D81E6993BE"
+			tasks: [{
+				id: "0373E6372357214A"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2487E294A0F78509"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "3655EC0C7EC7AA36"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "1AB9EC311000794B"
+			tasks: [{
+				id: "250A273974B505A5"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CF0392F8ACA5801"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "53526FBFC009488C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "63EC5084937140E4"
+			tasks: [{
+				id: "54093C78BE198EE9"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [
+				{
+					id: "3AF01D89D7B6E334"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "15F731CC6820296C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "3315172EBA1619A1"
+			tasks: [{
+				id: "57B402050DD4E795"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [
+				{
+					id: "35B16C1DC418D60D"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "50454F9C5C596005"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "7699E96178AF7F40"
+			tasks: [{
+				id: "4AF46B59D23266C0"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [
+				{
+					id: "6A86739B43F91493"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "67953F2BB1F618C8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "153905015114C35C"
+			tasks: [{
+				id: "7B722583E78B2277"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [
+				{
+					id: "21ACF0544F0454C2"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "3407CCD937E68C17"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "0B1704A37B123EB7"
+			tasks: [{
+				id: "272D843751BF070B"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [
+				{
+					id: "2852255C6CB99A4A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "77E719DAAF3B781E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "0D620986501F64D5"
+			tasks: [{
+				id: "6D442B8AB71F7D5A"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+			rewards: [
+				{
+					id: "7E25A2015FEA72A0"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "0EFD1F651ECCFA88"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "0CAC745829141129"
+			tasks: [{
+				id: "74806C544516FCBC"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [
+				{
+					id: "40D9864885972069"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "66CE09101506FF83"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			dependencies: ["67D1EC5DF7F7C271"]
+			id: "7D20920F7E565918"
+			tasks: [{
+				id: "78631B7CA8636A58"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+			rewards: [
+				{
+					id: "7E635E95C485791C"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "16AD74CB52E818EA"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "610733501DB72649"
+			tasks: [{
+				id: "24ED6B12F508AACA"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+			}]
+			rewards: [
+				{
+					id: "47831F440BB79747"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "3EBABF7C8FBB772A"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["610733501DB72649"]
+			id: "12285F2372AF79A2"
+			tasks: [{
+				id: "646D60BB6BC4D5DA"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+			rewards: [
+				{
+					id: "4ED18A216DD0CE1B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "214FC1E5CE4E0CB7"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["12285F2372AF79A2"]
+			id: "038902464BACA929"
+			tasks: [{
+				id: "5ADDF6A5EADCE8EF"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+			}]
+			rewards: [
+				{
+					id: "30919D5D0E35850E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "59F18B0BF57D92D9"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["610733501DB72649"]
+			id: "48841E98C5AEFBEF"
+			tasks: [{
+				id: "4F945D87CCA7A054"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "631CB3908CE6789B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "0564C67957B019AC"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["610733501DB72649"]
+			id: "3E10AFB3872CA637"
+			tasks: [{
+				id: "08B155147F4D316A"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3AC770CAD704AC23"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "1D66BFCA82323578"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["610733501DB72649"]
+			id: "7888785F42E625A1"
+			tasks: [{
+				id: "572F846269F8ABFD"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77BD225117A48F49"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "4119F6C911C5B1F1"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["610733501DB72649"]
+			id: "4A1C38A56ACC2A11"
+			tasks: [{
+				id: "216C173E00E958EF"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40DF8709F4021203"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "6E63E65FEB7FF7E5"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["610733501DB72649"]
+			id: "1A7A313D7C119E1E"
+			tasks: [{
+				id: "134A862F2608C07F"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CCE07A3F5857A52"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "3F054EB00E00DED8"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["610733501DB72649"]
+			id: "225821B8C6108881"
+			tasks: [{
+				id: "384C5C5F46BB761F"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "141362BC0377C413"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "0062C9D9CB1D086F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["12285F2372AF79A2"]
+			id: "2FB47EAFD2DD1FE4"
+			tasks: [{
+				id: "23B754B298FE7B68"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0457090017F59A3F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "751A1EF50E94480B"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["12285F2372AF79A2"]
+			id: "0C5E7DA211A3ED66"
+			tasks: [{
+				id: "462A867A5EEF4014"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4B2928E4ED7C62C8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "09E3C4071CAE3CD2"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["12285F2372AF79A2"]
+			id: "4E33DB47EF5BADCA"
+			tasks: [{
+				id: "2BA4A71BFD85D1BC"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B3F956C72A4DC75"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "14F8EB4660CAD4C0"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["12285F2372AF79A2"]
+			id: "3FF604C9007BAEDE"
+			tasks: [{
+				id: "4BA9C757C63CFC29"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C2F437C5E63DBA1"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "35409041C19659F1"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["12285F2372AF79A2"]
+			id: "78165D101D152EE6"
+			tasks: [{
+				id: "736C985BAA5A3473"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "608357ACF3236616"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "2702AC44B5F0EE09"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			dependencies: ["12285F2372AF79A2"]
+			id: "4FFE0591596F6C39"
+			tasks: [{
+				id: "0FC20DDE2B289CA4"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66BB9C251A47B34D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "1DFA06631136D243"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["038902464BACA929"]
+			id: "6372F610F6572B6E"
+			tasks: [{
+				id: "2C8325D7883AD9A8"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "38EE736FF9825D02"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "609A0E4F6A34AC0F"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["038902464BACA929"]
+			id: "34537F73C5792DBE"
+			tasks: [{
+				id: "44D80D88B9F9F237"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07D6700F8784FB4D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "200107D2F0058652"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			dependencies: ["038902464BACA929"]
+			id: "72F4C9877C5ED423"
+			tasks: [{
+				id: "22C7DE44E4636F95"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1CECA17634931208"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "050F221D58F03B64"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["038902464BACA929"]
+			id: "6AAC4B60A41D4FD1"
+			tasks: [{
+				id: "2D014A084A067280"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1EE85CEA83B4B48E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2316A376D36B1546"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["038902464BACA929"]
+			id: "5C61F9897A84AE4E"
+			tasks: [{
+				id: "2E8BB5739AD58768"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2BAD16B7B7795759"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "1A01F1865B3B95D0"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			dependencies: ["038902464BACA929"]
+			id: "07AAF8EC5EEED2E2"
+			tasks: [{
+				id: "26DFE59FDE27AF75"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CA108D9911FC3D0"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "718C735ACA6025E0"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			dependencies: ["5C61F9897A84AE4E"]
+			id: "55F55560E9207EEC"
+			tasks: [{
+				id: "37D01D72C6DB35DE"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_sniper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54C1F5EB27E8C9F2"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "1D65BE5BC5B6DA4D"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -2.0d
+			dependencies: ["038902464BACA929"]
+			id: "3D92B7080D6AC65B"
+			tasks: [{
+				id: "308BC9174FE7B04D"
+				type: "item"
+				item: "gobber2:dragon_star"
+			}]
+			rewards: [
+				{
+					id: "246741B07BD379A8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "6694D19945761D4C"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -3.0d
+			dependencies: ["3D92B7080D6AC65B"]
+			id: "0DEC7C10A4B21ABD"
+			tasks: [{
+				id: "08A786BFCDE61641"
+				type: "item"
+				item: "gobber2:dragon_elytra"
+			}]
+			rewards: [
+				{
+					id: "21D7C67B175948D3"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "63C75DF0E4F94005"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -3.0d
+			dependencies: ["3D92B7080D6AC65B"]
+			id: "39AA61EF0692F7CC"
+			tasks: [{
+				id: "0FD76CF39E7759D7"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "49514386D2830FBF"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "7C64D683C0740F27"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -4.5d
+			dependencies: ["0DEC7C10A4B21ABD"]
+			id: "5F3A69638D48040C"
+			tasks: [{
+				id: "0CC322648EC68899"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6E10FC6577C390EB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "68842963A67CC740"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			dependencies: ["3D92B7080D6AC65B"]
+			id: "02F09C3C2638DEC1"
+			tasks: [{
+				id: "69B83CB5FC08AE93"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D925589A3B9C752"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "5C17855A0A5F9461"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -1.0d
+			dependencies: ["3D92B7080D6AC65B"]
+			id: "305B21459CE3AC0D"
+			tasks: [{
+				id: "5546F388B7381CEF"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7D74426163B49C03"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "711BD8403B87DFC0"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "14441678560044BF"
+			tasks: [{
+				id: "6EF66C4AAEBF847F"
+				type: "item"
+				item: "kubejs:choombium_ingot"
+			}]
+			rewards: [{
+				id: "1D50D568D937BCD0"
+				type: "ftbmoney:money"
+				ftb_money: 1500L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["14441678560044BF"]
+			id: "51B5E1867D541C00"
+			tasks: [{
+				id: "1F4544B6461853C6"
+				type: "item"
+				item: {
+					id: "kubejs:choombium_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CD140DCF20B3F7B"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "7CEDCB2F510881A1"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["14441678560044BF"]
+			id: "7B741D18C1FA4425"
+			tasks: [{
+				id: "4FF05B1D45ADB8D2"
+				type: "item"
+				item: {
+					id: "kubejs:choombium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							318692136
+							975258880
+							-1594368411
+							-709450327
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "538682704E27A8F5"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "641E9AC563B5D1C3"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["14441678560044BF"]
+			id: "7EBF86613C02F82B"
+			tasks: [{
+				id: "04E2455952502C95"
+				type: "item"
+				item: {
+					id: "kubejs:choombium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							318692136
+							975258880
+							-1594368411
+							-709450327
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F347EDC69831EF2"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "2C67E5DE0EE6DF80"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["14441678560044BF"]
+			id: "392BD72DC11019BF"
+			tasks: [{
+				id: "3A2B5AC001E7E8FD"
+				type: "item"
+				item: {
+					id: "kubejs:choombium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							318692136
+							975258880
+							-1594368411
+							-709450327
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E32A1B6FB1CBC2A"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "4BBAE9127EB1C75C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["14441678560044BF"]
+			id: "3528C12B5E169A9D"
+			tasks: [{
+				id: "50749D81356360DA"
+				type: "item"
+				item: {
+					id: "kubejs:choombium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							318692136
+							975258880
+							-1594368411
+							-709450327
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "078058978CE67770"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "27FAA202FC122E00"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["14441678560044BF"]
+			id: "16135F55ACB2B964"
+			tasks: [{
+				id: "34C2107D1F2901C6"
+				type: "item"
+				item: {
+					id: "kubejs:choombium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A9D7ADF90D255A4"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "50CF09227D765449"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["14441678560044BF"]
+			id: "6C1381CBB41C0FFF"
+			tasks: [{
+				id: "182C8A0FF0F31C03"
+				type: "item"
+				item: {
+					id: "kubejs:choombium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48739A21FDA99CDB"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "3EE6D6485C921669"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["14441678560044BF"]
+			id: "7032E417A5991F96"
+			tasks: [{
+				id: "00BDAA111233FEA6"
+				type: "item"
+				item: {
+					id: "kubejs:choombium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13AE7F72EA8599E4"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "61CAAACE3A43272F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+	]
+}

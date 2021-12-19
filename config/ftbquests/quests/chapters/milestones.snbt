@@ -1,0 +1,815 @@
+{
+	id: "1CA4BC3795BC6020"
+	group: "72AF1BD9594D1077"
+	order_index: 0
+	filename: "milestones"
+	title: "Milestones"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Power to the people!"
+			x: -2.0d
+			y: -0.5d
+			id: "31BB9F2392781208"
+			tasks: [{
+				id: "77BAE8616FCF6611"
+				type: "forge_energy"
+				value: 1000000000000L
+			}]
+			rewards: [
+				{
+					id: "26B2C7D8C09439F1"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "75C99E8E2C0F5364"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "44FED27AD380EF61"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Five days? Seriously?"
+			id: "3CEC0CADBEED17E3"
+			tasks: [{
+				id: "150C935CB28C5350"
+				type: "stat"
+				stat: "minecraft:play_one_minute"
+				value: 10000000
+			}]
+			rewards: [
+				{
+					id: "0A5989AAA8336C58"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "2C8D4CE373229E0E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Pain"
+			x: -2.0d
+			y: -4.5d
+			id: "745E62B8D94BE7B3"
+			tasks: [{
+				id: "2CEF5513393A27F0"
+				type: "item"
+				item: "compressium:netherite_9"
+			}]
+			rewards: [
+				{
+					id: "0FC03C5472D825E4"
+					type: "ftbmoney:money"
+					ftb_money: 25000000L
+				}
+				{
+					id: "4777FCB1733A9745"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			id: "38FA7667FC2BA556"
+			tasks: [{
+				id: "10F086094AEF50C0"
+				type: "stat"
+				stat: "minecraft:time_since_death"
+				value: 1734000
+			}]
+			rewards: [
+				{
+					id: "3E6BAE818C57C44D"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "302BFE513A5D39F9"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "I'm Sorry."
+			x: 0.5d
+			y: -6.0d
+			id: "57C0284FE0774AC4"
+			tasks: [
+				{
+					id: "69F9F15D29B4D0D5"
+					type: "item"
+					item: "compressium:cobblestone_9"
+				}
+				{
+					id: "56C3563F167194D5"
+					type: "item"
+					item: "compressium:endstone_9"
+				}
+				{
+					id: "35EE93E9E0D330C3"
+					type: "item"
+					item: "compressium:diamond_9"
+				}
+				{
+					id: "74A874B828527261"
+					type: "item"
+					item: "compressium:quartz_9"
+				}
+			]
+			rewards: [{
+				id: "1487F105FC91FA95"
+				type: "ftbmoney:money"
+				ftb_money: 5000000L
+			}]
+		}
+		{
+			title: "You're Insane-ium"
+			x: 1.5d
+			y: -4.5d
+			id: "6FF85E8707535B82"
+			tasks: [
+				{
+					id: "34BC01E33647850A"
+					type: "item"
+					item: "mysticalagradditions:insanium_ingot_block"
+					count: 64L
+				}
+				{
+					id: "0971A3D49323E1C9"
+					type: "item"
+					item: "mysticalagradditions:insanium_gemstone_block"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "428690ECE37943EE"
+					type: "ftbmoney:money"
+					ftb_money: 100000L
+				}
+				{
+					id: "49249361A4A1C45E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "A thousand buckets of meat."
+			x: 1.5d
+			y: -2.5d
+			id: "3691201C1C5EB613"
+			tasks: [{
+				id: "026A62100E27F6C7"
+				type: "fluid"
+				fluid: "industrialforegoing:meat_fluid"
+				amount: 1000000L
+			}]
+			rewards: [
+				{
+					id: "4F071F6F233FBE1A"
+					type: "ftbmoney:money"
+					ftb_money: 100000L
+				}
+				{
+					id: "3014D8463A4B6326"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Collect All Pets!"
+			x: 1.5d
+			y: -0.5d
+			description: ["\"Master Petter\" ~ TGS, Circa Odyssey 1"]
+			id: "35428CE92FD72EFE"
+			tasks: [
+				{
+					id: "5CBD813031CA1D2A"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_juggernaut"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4022A3C5A04A2377"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_jukebox"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "676A5630BBC87CCF"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_lead"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74D801FFBB03B1E4"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_loot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3300BFB4626AF210"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_magma_cube"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								318692136
+								975258880
+								-1594368411
+								-709450327
+							]
+						}
+					}
+				}
+				{
+					id: "03FCA81C4B362A51"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_meta"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60FBCBC48603651F"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_mickerson"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7ADBFAE2375D9819"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_moon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13EDF20683DEEDB8"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_mooshroom"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5EAD12C6032081C9"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_anvil"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "692D1DC835740533"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_apple"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4524D738F426FE66"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_bed"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20FECD69903EF7BA"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_banana"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0B4B80314697BBD0"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_biome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D87885BB74A4E05"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_black_hole"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39E89F3D25F54E79"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_blaze"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6077699F53E5C3C2"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_brewing_stand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10A37BB104C00009"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_cheetah"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FCAFBE7A69152B9"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_chicken"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6141669CFA82F6A9"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_cloud"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D9529C4386650DD"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_cow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C3D93632A966347"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_crafting_table"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E9704C543B5D786"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_creeper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26EDD1DCBC40C90E"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_dirt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74CC5BD0D31C79A7"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_dubstep"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A6CC551B1B10187"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_enchanting_table"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64420B6F4E670033"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_ender_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D619616929ED63A"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_enderman"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "57FA022DFB4E1799"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_furnace"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "452B6ED2C6E0D69B"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_ghast"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40B39648553A70CE"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_grave"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F61E03A6AEBED82"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_heart"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69C2AFA0BCA0EAE6"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_house"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BBD18043FBB380E"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_illuminati"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F82F1F99E3CE3E4"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_iron_golem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "529DB2AC4C113519"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_sheep"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DCA32830F321EFD"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_saddle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D1F71AA52A2478E"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_quiver"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E6D598E783AF620"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_qcm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04D5638C56E36240"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_squid"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								318692136
+								975258880
+								-1594368411
+								-709450327
+							]
+						}
+					}
+				}
+				{
+					id: "4FB544D6AC5E05FF"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_torch"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E7E096E4BBB65B8"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_sun"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72C160C5FACEFC94"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_purplicious_cow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F32D83872290EC0"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_sponge"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E88C4CCCFE22FB5"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_ocelot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "437D9638B7618D08"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_pacman"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34E24F37BDF9C18D"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_pig"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41A5B88935A17AF8"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_wither"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "562A19098880F6A0"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1DD0D86D75A0F4A0"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_siamese"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12196391A04314BB"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_pufferfish"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "38E06995F9DA9479"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_slime"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01DB6443F6BFF704"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_spider"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1172BE290010D853"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "25FB48A6C3A3BA07"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+	]
+}

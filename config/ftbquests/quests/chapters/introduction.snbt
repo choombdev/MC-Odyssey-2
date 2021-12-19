@@ -1,0 +1,1084 @@
+{
+	id: "6BEF40915BB93D21"
+	group: "4E139BB973FD0007"
+	order_index: 0
+	filename: "introduction"
+	title: "Introduction"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to MC Odyssey 2!"
+			x: -6.5d
+			y: 2.0d
+			subtitle: "Let's start off our adventure with 16 Logs of wood, try using FTB Ultimine to get them!"
+			size: 2.0d
+			id: "14168BB4FF230CBD"
+			tasks: [{
+				id: "30F3C60926F41140"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "237BABCDB0E06465"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			title: "Botany Pots"
+			x: -5.5d
+			y: -1.0d
+			subtitle: "Planting made easy!"
+			description: ["Instead of building massive tree farms, use botany pots!"]
+			dependencies: ["14168BB4FF230CBD"]
+			id: "1D1B46AF5F444C92"
+			tasks: [{
+				id: "500DF00295C1E4B1"
+				type: "item"
+				title: "Any #botanypots:botany_pots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:botany_pots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D0CD30C65078AA0"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			title: "Automating Pots"
+			x: -6.5d
+			y: -1.0d
+			subtitle: "Just add a hopper."
+			dependencies: ["1D1B46AF5F444C92"]
+			id: "1E7978A2C11A03F4"
+			tasks: [{
+				id: "1C999FD2A05F066D"
+				type: "item"
+				title: "Any #botanypots:hopper_botany_pots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:hopper_botany_pots"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1987A7D468924648"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "589901F234399DF6"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			subtitle: "Let's start making tools, shall we?"
+			description: ["Craft a Tinker's Construct Crafting Station, Tool Station and a Part Builder."]
+			dependencies: ["14168BB4FF230CBD"]
+			id: "289D664C1EAF075A"
+			tasks: [
+				{
+					id: "72296F36E15808E1"
+					type: "item"
+					title: "Any #tconstruct:tables"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:tables"
+						}
+					}
+				}
+				{
+					id: "1C462D0089FAE3C9"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "1475907C2030AE29"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "64E2F4F2C774207C"
+					type: "item"
+					item: "tconstruct:materials_and_you"
+				}
+			]
+			rewards: [{
+				id: "1DB7B49A90A6F142"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			title: "Tinker Smeltery"
+			x: -8.0d
+			y: 5.0d
+			description: ["To make metal tools you'll need a smeltery, so, make one!"]
+			dependencies: ["289D664C1EAF075A"]
+			id: "29972BDE24023AC5"
+			tasks: [
+				{
+					id: "2E2D987BA42F08B8"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 16L
+				}
+				{
+					id: "2B072A348DFBB956"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "0232BE6A7E90FBA6"
+					type: "item"
+					item: "tconstruct:seared_drain"
+					count: 3L
+				}
+				{
+					id: "242EBA9A7D406361"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "19145E66053F2B28"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 3L
+				}
+				{
+					id: "0B033C68D854F767"
+					type: "item"
+					item: "tconstruct:seared_table"
+					count: 2L
+				}
+				{
+					id: "2A4841A358627EF1"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "261AA7D4763D5282"
+					type: "item"
+					item: "tconstruct:puny_smelting"
+				}
+				{
+					id: "67CF57E2DE04DE31"
+					type: "item"
+					item: "tconstruct:fantastic_foundry"
+				}
+			]
+			rewards: [
+				{
+					id: "2E08D347FAAEFFD0"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "18B5F5F9F7950BDE"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 6.0d
+			description: ["Making Actual tools now!"]
+			dependencies: ["29972BDE24023AC5"]
+			id: "060256CA4AE8F941"
+			tasks: [{
+				id: "2E0FED6B2DEA3EBA"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "mekanism:block_steel"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1F6D38B015B3C02B"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "4C7BC81CB2CF7CFF"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "152E7E2FCCF401B1"
+			tasks: [{
+				id: "2EA44B4EFE358B27"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "378025F7EB8DF8F0"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "77DE382CC78DA0A9"
+			tasks: [{
+				id: "06F9CDC00688D1F6"
+				type: "item"
+				item: "toolbelt:belt"
+			}]
+			rewards: [{
+				id: "70B1448C2FEFF884"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "71B131FE36C2384E"
+			tasks: [
+				{
+					id: "1F1D679EA8BE2CC2"
+					type: "item"
+					item: "mob_grinding_utils:saw"
+				}
+				{
+					id: "2CBE433ED25CBB45"
+					type: "item"
+					item: "mob_grinding_utils:fan"
+				}
+			]
+			rewards: [{
+				id: "6A29B4B0F1FE2AB3"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Metal Collecting"
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "15E3F50286845BFC"
+			tasks: [
+				{
+					id: "69F8255EAFF00C20"
+					type: "item"
+					title: "Any #forge:ingots/iron"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/iron"
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "4E529096EFA0AE58"
+					type: "item"
+					title: "Any #forge:ingots/gold"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/gold"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "33EE7E9178E629D5"
+					type: "item"
+					title: "Any #forge:ingots/silver"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "6DC9009D6F48F200"
+					type: "item"
+					title: "Any #forge:ingots/copper"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "2266D329B23955A2"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Making Metals"
+			x: -8.5d
+			y: 1.0d
+			dependencies: ["15E3F50286845BFC"]
+			id: "1922F179DBD03F9A"
+			tasks: [
+				{
+					id: "7D1AC7D155C319E7"
+					type: "item"
+					title: "Any #forge:ingots/steel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/steel"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "50F792A3EFB4AE52"
+					type: "item"
+					title: "Any #forge:ingots/bronze"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/bronze"
+						}
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "5B87D37E7B4FEC85"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "68C66E1D2B953963"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			description: ["We've got far too many decoration mods."]
+			id: "7DC0A7F9C095227E"
+			tasks: [{
+				id: "26014B8C2C9BF47A"
+				type: "checkmark"
+				title: "Decorations"
+			}]
+			rewards: [{
+				id: "22BD4A3C52EBC50F"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			title: "Macaw's"
+			x: -7.0d
+			y: -4.5d
+			description: ["Hammers, Doors, Windows, Furniture and more!"]
+			dependencies: ["7DC0A7F9C095227E"]
+			id: "5E00B597F09E3155"
+			tasks: [{
+				id: "3ED69537A472969C"
+				type: "item"
+				item: "mcwroofs:roofing_hammer"
+			}]
+			rewards: [{
+				id: "7180441A7C8F6E18"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "MrCrayfish"
+			x: -6.5d
+			y: -2.5d
+			description: ["More and more furniture!"]
+			dependencies: ["7DC0A7F9C095227E"]
+			id: "13799BA1DAF3298F"
+			tasks: [{
+				id: "5022667D071B6D59"
+				type: "item"
+				item: {
+					id: "cfm:spatula"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "03D3CCF77F5192F5"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["7DC0A7F9C095227E"]
+			id: "38507B92B83013F0"
+			tasks: [{
+				id: "0B2522BA8704CB27"
+				type: "item"
+				item: {
+					id: "chisel:diamond_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						chiseldata: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D4A3558BDDDA146"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			dependencies: ["7DC0A7F9C095227E"]
+			id: "0724E7F2B502D423"
+			tasks: [{
+				id: "26AE2170EABAFDFA"
+				type: "item"
+				item: {
+					id: "chiselsandbits:chisel_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FA76B0BD3AA7CA1"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Framed Blocks!"
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["7DC0A7F9C095227E"]
+			id: "16F78BF1C9686E86"
+			tasks: [{
+				id: "4A2F3B77783AFB1E"
+				type: "item"
+				item: "framedblocks:framed_hammer"
+			}]
+			rewards: [{
+				id: "64FC1DE648FB49E8"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["7DC0A7F9C095227E"]
+			id: "1FC26D411DB05936"
+			tasks: [{
+				id: "362EF2AC6894B39C"
+				type: "item"
+				item: {
+					id: "cb_microblock:stone_saw"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "61E374FBAF11F02F"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["7DC0A7F9C095227E"]
+			id: "60281CBCFC102CC9"
+			tasks: [{
+				id: "1BB13D58415F6464"
+				type: "item"
+				item: "platforms:platformer"
+			}]
+			rewards: [{
+				id: "287E2D84EC0ACE85"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			title: "Blast Furnace"
+			x: -6.0d
+			y: 6.5d
+			dependencies: ["4EDE00A2D405A5B4"]
+			id: "331E37E4DADD8396"
+			tasks: [{
+				id: "5E27F9AAD6EBD5BC"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "1306CB6F73968294"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "27E976BA3ED59276"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Coke Furnace"
+			x: -7.0d
+			y: 5.5d
+			dependencies: ["289D664C1EAF075A"]
+			id: "4EDE00A2D405A5B4"
+			tasks: [
+				{
+					id: "62EDCE5596750191"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "46AE946978F413B1"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0998604E5CCB0139"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "29FF07EBE01F9E5A"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "The Outputs!"
+			x: -5.0d
+			y: 7.5d
+			dependencies: ["331E37E4DADD8396"]
+			id: "254EC46ACB83EC4B"
+			tasks: [
+				{
+					id: "4C20E1678BB07C07"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 64L
+				}
+				{
+					id: "7E467A914579B8DA"
+					type: "item"
+					title: "Any #forge:ingots/steel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/steel"
+						}
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "6B243D161A870976"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "093D95C66498D744"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 3.5d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "49CDF0015A2CFE25"
+			tasks: [{
+				id: "6A10DA382079AF46"
+				type: "item"
+				item: "mining_dimension:teleporter"
+			}]
+			rewards: [
+				{
+					id: "779787BD7F6F6852"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "53BDBC578BA990F8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Mining Gear"
+			x: -8.0d
+			y: 2.0d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "258750A5132B5FA8"
+			tasks: [
+				{
+					id: "5A819252365B5C1D"
+					type: "item"
+					item: {
+						id: "mining_helmet:mining_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "124C823BDAFB53CB"
+					type: "item"
+					item: {
+						id: "engineerstools:ariadne_coal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "113A858CE635E134"
+					type: "item"
+					item: {
+						id: "engineerstools:sleeping_bag"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "72596ECC2206E229"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "132CE8AA64DC44A8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Compasssesses"
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "61305DD8AF7270EA"
+			tasks: [
+				{
+					id: "401EDA33B4966D2A"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "186DD6A4A2F65758"
+					type: "item"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "121352244B5FF422"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["745984480906EDA9"]
+			id: "58302DECD722BBF0"
+			tasks: [{
+				id: "501BA7A46B87AC82"
+				type: "item"
+				item: "rats:cheese_stick"
+			}]
+			rewards: [{
+				id: "0F4934E5AEA6C2B9"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["58302DECD722BBF0"]
+			id: "2FC8FDC98F02BB1B"
+			tasks: [{
+				id: "0064016BAA72114A"
+				type: "item"
+				item: "rats:rat_upgrade_basic"
+			}]
+			rewards: [{
+				id: "5E116EE123B66AB4"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "4DDF07771F975B09"
+			tasks: [{
+				id: "4ED7A4709F1DA341"
+				type: "item"
+				item: "silentgear:blueprint_paper"
+			}]
+			rewards: [{
+				id: "638DF6E51BE7C2A3"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			id: "0D94F94390E47E0C"
+			tasks: [{
+				id: "63BE06E38DDBC774"
+				type: "item"
+				item: "ftbsluice:oak_sluice"
+			}]
+			rewards: [{
+				id: "0447F9F6BA120605"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 2.5d
+			dependencies: ["0D94F94390E47E0C"]
+			id: "69E934F315947F48"
+			tasks: [{
+				id: "75A6C9BC0213EE55"
+				type: "item"
+				item: "ftbsluice:iron_sluice"
+			}]
+			rewards: [{
+				id: "6864E19CE233B4C9"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.5d
+			dependencies: ["69E934F315947F48"]
+			id: "27B31FBE26ECE4EF"
+			tasks: [{
+				id: "4AA32F37FAFE459C"
+				type: "item"
+				item: "ftbsluice:diamond_sluice"
+			}]
+			rewards: [{
+				id: "0C613AAE895FF587"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			dependencies: ["27B31FBE26ECE4EF"]
+			id: "62D348AAF9C5DC29"
+			tasks: [{
+				id: "799A64F6118589F9"
+				type: "item"
+				item: "ftbsluice:netherite_sluice"
+			}]
+			rewards: [
+				{
+					id: "5767B42B2625F4D8"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+				{
+					id: "0285161B2B0D1B53"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 0.5d
+			dependencies: ["27B31FBE26ECE4EF"]
+			id: "7D5CB397902E0156"
+			tasks: [{
+				id: "59F9BA856BBB3170"
+				type: "item"
+				item: "ftbjarmod:tempered_jar"
+			}]
+			rewards: [{
+				id: "1774A5D84D4226DD"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			dependencies: ["7D5CB397902E0156"]
+			id: "5C4C87A18A6E7A24"
+			tasks: [{
+				id: "3522C797DE44390C"
+				type: "item"
+				item: "ftbjarmod:auto_processing_block"
+			}]
+			rewards: [
+				{
+					id: "0D98859A8F6FD3E0"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "33E8D285F364C4FB"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			id: "1C167BBB2C106D09"
+			tasks: [{
+				id: "2F1A67152A777D5B"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [{
+				id: "3B786F4CD4B51725"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "02259A99730F1937"
+			tasks: [{
+				id: "573FA72E83E8B2DC"
+				type: "item"
+				item: "snad:snad"
+			}]
+			rewards: [{
+				id: "366B743BC9E79671"
+				type: "ftbmoney:money"
+				ftb_money: 12L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["1C167BBB2C106D09"]
+			id: "745984480906EDA9"
+			tasks: [{
+				id: "030B53C012D8C02C"
+				type: "item"
+				item: "rats:cheese"
+				count: 32L
+			}]
+			rewards: [{
+				id: "1F881102EFF6EF33"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["745984480906EDA9"]
+			id: "5B136BA45276EB0B"
+			tasks: [{
+				id: "643D2D697D40498C"
+				type: "item"
+				item: "rats:auto_curdler"
+			}]
+			rewards: [{
+				id: "46122E334F5478EC"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			title: "The Shop!"
+			x: -7.5d
+			y: 8.5d
+			description: [
+				"Once you've got enough money, head over to the shop on the top right corner and buy stuff!"
+				"Also, if you happen to lose your money, do /pay @p 1 and you'll get it back!"
+			]
+			id: "067503F948A4F5DE"
+			tasks: [{
+				id: "37F8C6ED972194F6"
+				type: "ftbmoney:money"
+				value: 1L
+			}]
+			rewards: [{
+				id: "72949C146A67C40E"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			dependencies: ["37B7A4D2792475C6"]
+			id: "308C7730F933EC37"
+			tasks: [{
+				id: "7C419ED3EBF99138"
+				type: "item"
+				item: {
+					id: "lightingwand:wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EB1BCCDF8EA00E3"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "37B7A4D2792475C6"
+			tasks: [{
+				id: "2A9454D1BB825CB9"
+				type: "item"
+				item: {
+					id: "cyclic:torch_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2AE7BA253373CA08"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+	]
+}

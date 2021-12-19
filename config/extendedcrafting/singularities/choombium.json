@@ -1,0 +1,10 @@
+{
+  "name": "Choombium",
+  "colors": [
+    "5AAD22",
+    "82D550"
+  ],
+  "ingredient": {
+    "item": "kubejs:choombium_ingot"
+  }
+}

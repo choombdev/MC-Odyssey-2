@@ -1,0 +1,24 @@
+{
+  "name": "repurposed_structures:village/swamp/houses",
+  "fallback": "repurposed_structures:village/swamp/terminators",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "immersiveengineering:village/houses/swamp_engineer",
+        "processors": "repurposed_structures:village/swamp/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:village/swamp/houses/medium_house_3",
+        "processors": "repurposed_structures:village/swamp/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

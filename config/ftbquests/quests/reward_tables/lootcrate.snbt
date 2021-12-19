@@ -1,0 +1,401 @@
+{
+	id: "0066AB8DDC73AEE5"
+	order_index: 1
+	title: "Lootcrate"
+	icon: "outer_end:azure_chest"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "refinedstorage:1k_storage_disk", weight: 30 }
+		{ item: "xreliquary:angelheart_vial", weight: 15 }
+		{ item: "xreliquary:catalyzing_gland", weight: 50 }
+		{ item: "xreliquary:eye_of_the_storm", weight: 30 }
+		{ item: "xreliquary:frozen_core", weight: 60 }
+		{ item: "darkutils:book_restore", count: 2, weight: 40 }
+		{ item: "pamhc2crops:kiwiitem", count: 16, weight: 90 }
+		{ item: "ironchest:wood_to_iron_chest_upgrade", weight: 70 }
+		{ item: "additional_lights:al_torch_glass", weight: 60 }
+		{ item: "compactmachines:personal_shrinking_device", weight: 60 }
+		{
+			item: {
+				id: "cfm:spatula"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{
+			item: {
+				id: "naturesaura:infused_iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{ item: "farmingforblockheads:market", weight: 60 }
+		{ item: "farmingforblockheads:chicken_nest", weight: 50 }
+		{ item: "sophisticatedbackpacks:upgrade_base", count: 8, weight: 50 }
+		{
+			item: {
+				id: "sophisticatedbackpacks:smelting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:crafting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+			weight: 60
+		}
+		{ item: "sophisticatedbackpacks:stonecutter_upgrade", weight: 60 }
+		{ item: "sophisticatedbackpacks:deposit_upgrade", weight: 60 }
+		{ item: "sophisticatedbackpacks:advanced_magnet_upgrade", weight: 50 }
+		{ item: "sophisticatedbackpacks:pickup_upgrade", weight: 50 }
+		{ item: "mekanism:energy_tablet", weight: 40 }
+		{ item: "envirocore:litherite_crystal", count: 16, weight: 55 }
+		{ item: "xreliquary:emperor_chalice", weight: 20 }
+		{
+			item: {
+				id: "tiab:timeinabottle"
+				Count: 1b
+				tag: {
+					timeData: { }
+				}
+			}
+			weight: 65
+		}
+		{
+			item: {
+				id: "dungeons_mobs:chef_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 90
+		}
+		{
+			item: {
+				id: "dungeons_mobs:diamond_vindicator_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 76
+		}
+		{
+			item: {
+				id: "dungeons_mobs:royal_guard_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 55
+		}
+		{ item: "pamhc2trees:mangoitem", count: 16, weight: 80 }
+		{ item: "pamhc2trees:roastedcashewitem", count: 16, weight: 80 }
+		{ item: "mininggadgets:upgrade_empty", count: 10, weight: 70 }
+		{ item: "ironjetpacks:bronze_thruster", count: 4, weight: 65 }
+		{ item: "mysticalagriculture:tertium_essence", count: 16, weight: 65 }
+		{ item: "rats:crimson_liquid", weight: 70 }
+		{ item: "rats:cheese", count: 32, weight: 80 }
+		{ item: "rats:rat_upgrade_speed", count: 2, weight: 60 }
+		{ item: "iceandfire:sapphire_gem", count: 12, weight: 70 }
+		{ item: "thermal:rf_coil_augment", weight: 70 }
+		{ item: "thermal:wrench", weight: 75 }
+		{ item: "thermal:redprint", weight: 65 }
+		{
+			item: {
+				id: "thermal:flux_saw"
+				Count: 1b
+				tag: { }
+			}
+			weight: 32
+		}
+		{
+			item: {
+				id: "thermal:flux_drill"
+				Count: 1b
+				tag: { }
+			}
+			weight: 32
+		}
+		{
+			item: {
+				id: "thermal:watering_can"
+				Count: 1b
+				tag: { }
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "thermal:hazmat_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "thermal:hazmat_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "thermal:hazmat_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "thermal:hazmat_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "mob_grinding_utils:monocle"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 90
+		}
+		{ item: "pamhc2foodextended:hazelnutchocolateitem", count: 8, weight: 100 }
+		{ item: "pamhc2foodextended:energydrinkitem", count: 8, weight: 100 }
+		{ item: "pamhc2foodextended:maplecandiedbaconitem", count: 8, weight: 100 }
+		{ item: "pamhc2foodextended:brownieitem", count: 8, weight: 100 }
+		{ item: "pamhc2foodextended:broccolimacitem", count: 16, weight: 100 }
+		{ item: "pamhc2foodextended:carrotjuiceitem", count: 16, weight: 100 }
+		{ item: "pamhc2foodextended:cheezepuffsitem", count: 32, weight: 100 }
+		{ item: "gobber2:gobber2_ingot", count: 12, weight: 30 }
+		{ item: "comforts:sleeping_bag_white", weight: 60 }
+		{ item: "rftoolsstorage:storage_module0", weight: 55 }
+		{
+			item: {
+				id: "inventorypets:pet_creeper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 43
+		}
+		{
+			item: {
+				id: "inventorypets:pet_sheep"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "inventorypets:pet_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "inventorypets:pet_pig"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30
+		}
+		{
+			item: {
+				id: "inventorypets:pet_pingot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{ item: "tdelight:gildedfern_ingot", count: 12, weight: 38 }
+		{ item: "industrialforegoing:mob_imprisonment_tool", weight: 65 }
+		{ item: "botanypots:botany_pot", count: 10, weight: 45 }
+		{ item: "fluxnetworks:flux_dust", count: 64, weight: 30 }
+		{ item: "advgenerators:turbine_rotor_tier1", count: 32, weight: 42 }
+		{ item: "advgenerators:turbine_rotor_tier2", count: 16, weight: 32 }
+		{
+			item: {
+				id: "create_stuff_additions:blaze_flame_thrower"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 45
+		}
+		{
+			item: {
+				id: "create_stuff_additions:sticky_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 65
+		}
+		{ item: "ob_aquamirae:luminescent_bubble_item", count: 6, weight: 60 }
+		{
+			item: {
+				id: "villagers_and_mosnetrs_legacy:swamp_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{ item: "mowziesmobs:glowing_jelly", count: 10, weight: 70 }
+		{ item: "twilightforest:steeleaf_ingot", count: 16, weight: 65 }
+		{
+			item: {
+				id: "spartanweaponry:greatsword_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_wood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_wood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{
+			item: {
+				id: "cyclic:spawn_inspector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "cyclic:prospector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "cyclic:charm_speed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30
+		}
+		{
+			item: {
+				id: "cyclic:charm_water"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "cyclic:charm_boostpotion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{ item: "cyclic:charm_stealthpotion", weight: 70 }
+		{
+			item: {
+				id: "cyclic:slingshot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{ item: "fluidtank:tank_iron", weight: 30 }
+		{ item: "mutantmore:formula_y", weight: 30 }
+		{ item: "torchmaster:feral_flare_lantern", weight: 60 }
+		{ item: "torchmaster:megatorch", weight: 50 }
+		{ item: "pipez:item_pipe", count: 8, weight: 70 }
+		{ item: "omgourd:jack_o_lantern_11", weight: 80 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "lootcrate"
+	}
+}

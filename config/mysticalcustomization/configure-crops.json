@@ -1,0 +1,15 @@
+{
+    "mysticalagriculture:awakened_draconium": {
+      "enabled": false    },
+    "mysticalagriculture:draconium": {
+        "enabled": false      },
+    "mysticalagriculture:rubber": {
+      "name": "Rubber",
+      "tier": "mysticalagriculture:2",
+      "type": "resource",
+      "ingredient": {
+        "item": "industrialforegoing:dryrubber"
+      }
+    }
+  }
+  

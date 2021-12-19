@@ -1,0 +1,650 @@
+{
+	id: "0149696DC05777C5"
+	group: "3A1BC4382F0B65EC"
+	order_index: 0
+	filename: "bounties"
+	title: "Bounties"
+	icon: {
+		id: "minecraft:diamond_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: -3.5d
+			id: "7FEE48A8E84AEBA7"
+			tasks: [{
+				id: "0F865E4FB6FB3C88"
+				type: "kill"
+				icon: "dungeonsmod:kraken_tentacle"
+				entity: "dungeonsmod:kraken"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "52631897DB4FDDAB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "20607E99FC64B343"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			dependencies: ["72082BA487C1B154"]
+			id: "0BDA1D67AD5CD3E2"
+			tasks: [{
+				id: "2FD66ABA6564F6F8"
+				type: "kill"
+				icon: "mutantmore:mutant_hoglin_tusk"
+				entity: "mutantmore:mutant_hoglin"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "341206FF260067F5"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "798098D7A42AC79F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -1.5d
+			dependencies: ["72082BA487C1B154"]
+			id: "4CD5928E219533C0"
+			tasks: [{
+				id: "45A9BFFA910161B1"
+				type: "kill"
+				icon: "tconstruct:husk_head"
+				entity: "mutantmore:mutant_husk"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6E4FCAA020BD1217"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "1822862A35213825"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -1.5d
+			dependencies: ["72082BA487C1B154"]
+			id: "0AB9454B5716ED53"
+			tasks: [{
+				id: "5F824D65F4F11B42"
+				type: "kill"
+				icon: "mutantmore:mutant_shulker_box"
+				entity: "mutantmore:mutant_shulker"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "57579F7CF36569BB"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "531E7DEE58FBBC10"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 0.5d
+			dependencies: ["72082BA487C1B154"]
+			id: "5560C86BCC116BCF"
+			tasks: [{
+				id: "310F816057B0F256"
+				type: "kill"
+				icon: {
+					id: "mutantmore:mutant_wither_skeleton_skull"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mutantmore:mutant_wither_skeleton"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "77DB9D6775473CAF"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "7614B53C4D96D038"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			dependencies: ["72082BA487C1B154"]
+			id: "1399766F1113F17E"
+			tasks: [{
+				id: "0D009EFFDFE67041"
+				type: "kill"
+				icon: {
+					id: "mutantmore:mutant_blaze_core"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "mutantmore:mutant_blaze"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3D6387B194186573"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "63A9604A904460CF"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -1.5d
+			id: "72082BA487C1B154"
+			tasks: [{
+				id: "62C066C8A2D38066"
+				type: "checkmark"
+				title: "Mutants"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			id: "3DB73462DFE2FF20"
+			tasks: [{
+				id: "2BAA33EB9EEAE923"
+				type: "kill"
+				entity: "minecraft:illusioner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0D2AA8F9BA3A31FE"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2AC92B4304B39091"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			id: "2595EADE0DA3485E"
+			tasks: [{
+				id: "7C0871CB1454BFF8"
+				type: "kill"
+				icon: {
+					id: "ob_core:paladin_extra_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "dungeonsmod:king"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "005D0CEB60767775"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "56A6758911B2A4B0"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -1.5d
+			id: "01620C33A84FBFCD"
+			tasks: [{
+				id: "370449F248D4BE9A"
+				type: "kill"
+				entity: "ob_aquamirae:anglerfish"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4E45543F7EC9EF08"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2619EDB6CACF88BA"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 0.5d
+			id: "0638FC3FAB0B6B11"
+			tasks: [{
+				id: "7DD2A3D7FC06DAE4"
+				type: "kill"
+				icon: {
+					id: "fairylights:ghost_light"
+					Count: 1b
+					tag: {
+						color: 16383998
+					}
+				}
+				entity: "ob_aquamirae:drowned_captain"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7329A1A9E252B4C4"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "03E0AF6B448D77D2"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 2.0d
+			id: "056F69FA3504B395"
+			tasks: [{
+				id: "12316DC77360ACB1"
+				type: "kill"
+				icon: {
+					id: "iceandfire:gorgon_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "iceandfire:gorgon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1840BAD75E61094C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "634A4B316E2352D1"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			id: "0566CB2C64A7077C"
+			tasks: [{
+				id: "6044A06DA5BF6FD5"
+				type: "kill"
+				icon: "iceandfire:troll_skull"
+				entity: "iceandfire:troll"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "08D06CD3298960B0"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "250C0E0A76127F61"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -3.5d
+			id: "65FB299C1848FE8A"
+			tasks: [{
+				id: "738BD5694A2C0630"
+				type: "kill"
+				icon: {
+					id: "iceandfire:siren_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "iceandfire:siren"
+				value: 5L
+			}]
+		}
+		{
+			x: -13.5d
+			y: -5.0d
+			id: "419381340EBD6AF1"
+			tasks: [{
+				id: "5B228D3E8343D9ED"
+				type: "kill"
+				icon: "mowziesmobs:grant_suns_blessing"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3A5839F37BE45D3C"
+				type: "loot"
+				table_id: 9158549027443165248L
+			}]
+		}
+		{
+			x: -11.5d
+			y: -5.0d
+			id: "0582B20522B76DE5"
+			tasks: [{
+				id: "524C10E39302242A"
+				type: "kill"
+				icon: "iceandfire:sea_serpent_scales_teal"
+				entity: "iceandfire:sea_serpent"
+				value: 1L
+			}]
+			rewards: [{
+				id: "36842F8B9DCF8914"
+				type: "loot"
+				table_id: 9158549027443165248L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.0d
+			id: "46F6F8D92E7F96D5"
+			tasks: [{
+				id: "5BEAD824CC372887"
+				type: "kill"
+				icon: {
+					id: "iceandfire:cyclops_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "iceandfire:cyclops"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4F38E22F02D6236A"
+				type: "loot"
+				table_id: 9158549027443165248L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			id: "4C3DD98505FCC4CF"
+			tasks: [{
+				id: "7453B4B20F496AC1"
+				type: "kill"
+				icon: {
+					id: "iceandfire:deathworm_gauntlet_yellow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "iceandfire:deathworm"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0D2D6BD078DE8B66"
+				type: "loot"
+				table_id: 9158549027443165248L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.0d
+			id: "7A58DBF89066B065"
+			tasks: [{
+				id: "1CD13A3175C7A321"
+				type: "kill"
+				icon: "iceandfire:fire_dragon_heart"
+				entity: "iceandfire:fire_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4B5A7993CB30444B"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "41EB100531518023"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -7.5d
+			id: "3EB3FD37A6EA61EE"
+			tasks: [{
+				id: "573170ECFE07FCFC"
+				type: "kill"
+				icon: "iceandfire:ice_dragon_heart"
+				entity: "iceandfire:ice_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "51311652A50BDCEF"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "4EB237B252F4A4C7"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "6E8A43E4B6975219"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -7.5d
+			id: "00CD78D6CD66262F"
+			tasks: [{
+				id: "30C59180B00A9DE9"
+				type: "kill"
+				icon: "iceandfire:lightning_dragon_heart"
+				entity: "iceandfire:lightning_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "35F3AA42A836C7F4"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "2B34A97AFA42E889"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "18454762F6552E24"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 3.0d
+			id: "1BFD0FD3E14A9BBF"
+			tasks: [{
+				id: "460FEFACAAAFB9DB"
+				type: "kill"
+				icon: "mowziesmobs:naga_fang"
+				entity: "mowziesmobs:naga"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			id: "2A56B2F774EE408B"
+			tasks: [{
+				id: "609D015A92F99F9F"
+				type: "kill"
+				icon: "mowziesmobs:wrought_axe"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "49617F88C8608919"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "6FAF71C2A6D7669F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 2.0d
+			id: "0CB3804099099063"
+			tasks: [{
+				id: "2BAA6ABF9B3A760F"
+				type: "kill"
+				icon: {
+					id: "silentgems:soul_gem"
+					Count: 1b
+					tag: {
+						SGems_SoulGem: "mowziesmobs:frostmaw"
+					}
+				}
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1059212D40451D3F"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "51D5106F58B741FE"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -3.5d
+			id: "3BC8BB1CF003348D"
+			tasks: [{
+				id: "1A1AA67AE3ED751B"
+				type: "kill"
+				icon: "iceandfire:dread_shard"
+				entity: "iceandfire:dread_lich"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5F8C77D11E4EFE3C"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "495F8D9FC0990BC3"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.5d
+			id: "62881EB169DD82F1"
+			tasks: [{
+				id: "3A8FDA2FAE975286"
+				type: "kill"
+				icon: "iceandfire:pixie_wings"
+				entity: "iceandfire:pixie"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "7421A11184C22CF4"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "65C4F350CC8C4E7C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+	]
+}

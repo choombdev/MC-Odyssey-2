@@ -1,0 +1,1685 @@
+{
+	id: "49DDF948465AAB87"
+	group: "1961CD0117665BCC"
+	order_index: 1
+	filename: "spells"
+	title: "Spells"
+	icon: {
+		id: "lightingwand:wand"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Ars Nouveau"
+			x: -0.5d
+			y: 0.5d
+			id: "56A8E8F6695B4EFC"
+			tasks: [{
+				id: "1C3575FDE990EC89"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+			}]
+			rewards: [{
+				id: "4575A415B201D2F0"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["56A8E8F6695B4EFC"]
+			id: "2677B3D42ACD3686"
+			tasks: [{
+				id: "5D506384D674BD78"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [{
+				id: "61C65EE5C06371A8"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["3DAD2569E370EAB3"]
+			id: "39C9434C06AB991F"
+			tasks: [
+				{
+					id: "0FD38EA5C7FFB391"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78C13539E1C32E70"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D3723815C5494A4"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0AAE46875ACD9E16"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "75A5BC2F553756BB"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: [
+				"56A8E8F6695B4EFC"
+				"0E3395A664D59BDB"
+			]
+			id: "3DAD2569E370EAB3"
+			tasks: [
+				{
+					id: "3FF4C92A3211E12A"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "74BE5B75B24A54FD"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+			]
+			rewards: [{
+				id: "5841DA40091977AE"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["39C9434C06AB991F"]
+			id: "6BEEB7BDD305E044"
+			tasks: [
+				{
+					id: "30322D609C57F7E0"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63E0286E71A750D2"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "163FC42C1C9E1C93"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F579B9DF74AEAD9"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "08CDB7CA01B8BE69"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "236E3AA36AF1D6D5"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["6BEEB7BDD305E044"]
+			id: "37E1BA6F618FE1CD"
+			tasks: [
+				{
+					id: "4C349425529D2FA4"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A409B6EF3637F24"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27600BC81393C852"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50BFF4FCC57AC4E7"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4CF8E42743B6CD66"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "32F55B65E28092DB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["2677B3D42ACD3686"]
+			id: "022F2AFADC39A9CA"
+			tasks: [{
+				id: "55D8D6533DB0A68C"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "3777769DC20A4E3D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "4AAC2DAF20143A8F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["022F2AFADC39A9CA"]
+			id: "56EFC859C0787618"
+			tasks: [{
+				id: "3603331D3D62648D"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [
+				{
+					id: "170F5A30E10E0D3A"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "24F78AA7833BDA43"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["470DBEDE32DE22D1"]
+			id: "0E3395A664D59BDB"
+			tasks: [{
+				id: "25FD304734C8054D"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["470DBEDE32DE22D1"]
+			id: "34EFF5BFC38E14A8"
+			tasks: [{
+				id: "093344F59C317FDA"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["56A8E8F6695B4EFC"]
+			id: "30EDE215E3CF9054"
+			tasks: [{
+				id: "78E4F24AB32499A7"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["30EDE215E3CF9054"]
+			id: "0B153BC25B4595CF"
+			tasks: [{
+				id: "07B36F48CA731D9D"
+				type: "item"
+				item: "ars_nouveau:mana_condenser"
+			}]
+			rewards: [{
+				id: "7EE0E4BBE288B09C"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["30EDE215E3CF9054"]
+			id: "59404F63B46B5D2F"
+			tasks: [{
+				id: "3C65FA40F2E17FE2"
+				type: "item"
+				item: "ars_nouveau:volcanic_accumulator"
+			}]
+			rewards: [{
+				id: "1E9778AEA223D5ED"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["30EDE215E3CF9054"]
+			id: "05F997D9981A6BD0"
+			tasks: [{
+				id: "5C20527CAADBE128"
+				type: "item"
+				item: "ars_nouveau:alchemical_sourcelink"
+			}]
+			rewards: [{
+				id: "799F956E120F21A4"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["30EDE215E3CF9054"]
+			id: "404CD84BFE283169"
+			tasks: [{
+				id: "2A1F7F8DB8D0C181"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+			rewards: [{
+				id: "7771DF7DDCC7955E"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["30EDE215E3CF9054"]
+			id: "470DBEDE32DE22D1"
+			tasks: [{
+				id: "652BEAB47D80AFBC"
+				type: "item"
+				item: "ars_nouveau:arcane_relay"
+			}]
+			rewards: [{
+				id: "07B14924BEACCDB7"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			title: "Mahou Tsukai"
+			x: -4.5d
+			y: 5.5d
+			subtitle: "Stab yourself."
+			description: ["Stab yourself while looking at the ground then hit M."]
+			id: "52A65EFD6020BE70"
+			tasks: [{
+				id: "1FA26BF9EB3228FC"
+				type: "item"
+				item: "mahoutsukai:dagger"
+			}]
+			rewards: [{
+				id: "34FEA397AAD0266C"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			title: "Mana Storage"
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["52A65EFD6020BE70"]
+			id: "6325E57D6BA0765F"
+			tasks: [{
+				id: "01DC29EC21BB310D"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_emerald"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6173AF0209C80C05"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["6325E57D6BA0765F"]
+			id: "1362D85D0A88F438"
+			tasks: [{
+				id: "41ECF61FD2D8C64B"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_diamond"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "01462337EC9BDEA2"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.5d
+			description: ["Getting the dusts that you need for spells."]
+			dependencies: ["52A65EFD6020BE70"]
+			id: "22FFFBBFCB020743"
+			tasks: [{
+				id: "048550FFF6EF96FD"
+				type: "item"
+				item: "mahoutsukai:mortar_and_pestle"
+			}]
+			rewards: [{
+				id: "1E3F90C5628A0D15"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			dependencies: ["22FFFBBFCB020743"]
+			id: "75E9E191A4D6E341"
+			tasks: [{
+				id: "6E185D99CF4CA575"
+				type: "item"
+				item: "mahoutsukai:powdered_diamond"
+			}]
+			rewards: [{
+				id: "523CF69FC2C4606E"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.5d
+			dependencies: ["22FFFBBFCB020743"]
+			id: "6C7B6F2C5EBD6506"
+			tasks: [{
+				id: "0DDFABDB86BC1EC0"
+				type: "item"
+				item: "mahoutsukai:powdered_emerald"
+			}]
+			rewards: [{
+				id: "035189DAACCFA98B"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.5d
+			dependencies: ["22FFFBBFCB020743"]
+			id: "117C04C3B0834A22"
+			tasks: [{
+				id: "2F044985080240E4"
+				type: "item"
+				item: "mahoutsukai:powdered_ender"
+			}]
+			rewards: [{
+				id: "3CD9A92A5291B474"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.5d
+			dependencies: ["22FFFBBFCB020743"]
+			id: "5A7D5D6EF110ABB2"
+			tasks: [{
+				id: "0C2622C42B079BF7"
+				type: "item"
+				item: "mahoutsukai:powdered_eye"
+			}]
+			rewards: [{
+				id: "0FCF6C7C9B628884"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 7.0d
+			dependencies: ["22FFFBBFCB020743"]
+			id: "1D73A1DCA4C8648D"
+			tasks: [{
+				id: "69F2380340E2075B"
+				type: "item"
+				item: "mahoutsukai:powdered_iron"
+			}]
+			rewards: [{
+				id: "615E7DAC2A1BA5A9"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.0d
+			dependencies: ["22FFFBBFCB020743"]
+			id: "4F8CF8446386EBCE"
+			tasks: [{
+				id: "1CA595835B7A2961"
+				type: "item"
+				item: "mahoutsukai:powdered_gold"
+			}]
+			rewards: [{
+				id: "2C5357122B6B7787"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["22FFFBBFCB020743"]
+			id: "014A02F4465C052E"
+			tasks: [{
+				id: "4E82BE331B18412F"
+				type: "item"
+				item: "mahoutsukai:powdered_quartz"
+			}]
+			rewards: [{
+				id: "35609D4BD3266E0D"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			description: ["Projection Spells"]
+			dependencies: ["52A65EFD6020BE70"]
+			id: "25A25E71B53BB44E"
+			tasks: [{
+				id: "6B3DDFF5048F04FD"
+				type: "item"
+				item: "mahoutsukai:spell_cloth"
+			}]
+			rewards: [{
+				id: "3AB74549732D2CD0"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			title: "Mana and Artifice"
+			x: 1.0d
+			y: 5.5d
+			id: "312C3F120DC12D98"
+			tasks: [{
+				id: "107D053911889014"
+				type: "item"
+				item: "mana-and-artifice:guide_book"
+			}]
+			rewards: [{
+				id: "4B878FE9971CE559"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			description: ["Slower cheap furnace."]
+			dependencies: ["312C3F120DC12D98"]
+			id: "411C9EEB5104B01E"
+			tasks: [{
+				id: "738C60ECC7C3E109"
+				type: "item"
+				item: "mana-and-artifice:runeforge"
+			}]
+			rewards: [{
+				id: "701F63B6F9828F15"
+				type: "ftbmoney:money"
+				ftb_money: 120L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["312C3F120DC12D98"]
+			id: "66409C6FC3AA52E6"
+			tasks: [{
+				id: "25D6435356C786A0"
+				type: "item"
+				item: "mana-and-artifice:practitioners_pouch"
+			}]
+			rewards: [{
+				id: "6F211AC202DE14AB"
+				type: "ftbmoney:money"
+				ftb_money: 120L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			description: ["Do not convert all of your Vinteum dust to Iron Coated ones!"]
+			dependencies: ["312C3F120DC12D98"]
+			id: "1E6C1C95F26FC91C"
+			tasks: [
+				{
+					id: "679CD80F2928CF2E"
+					type: "item"
+					item: "mana-and-artifice:vinteum_coated_iron"
+					count: 32L
+				}
+				{
+					id: "16EDD0F9C6A356F2"
+					type: "item"
+					item: "mana-and-artifice:vinteum_dust"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "5B405FEFBB192BDE"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.0d
+			description: ["Progression through the mod is done through the Occulus."]
+			dependencies: ["1E6C1C95F26FC91C"]
+			id: "1719C7B9DA8636FF"
+			tasks: [{
+				id: "7CB94A431B844C6C"
+				type: "item"
+				item: "mana-and-artifice:occulus"
+			}]
+			rewards: [{
+				id: "568AE4DE5AFB272A"
+				type: "ftbmoney:money"
+				ftb_money: 175L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			dependencies: ["1719C7B9DA8636FF"]
+			id: "2BD8B3E88F91174F"
+			tasks: [{
+				id: "6DAD032CF8D3BDCA"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:wizard_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			dependencies: ["1719C7B9DA8636FF"]
+			id: "7230DDF9EDC280EA"
+			tasks: [{
+				id: "7D6765CA58990126"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:manaweaver_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			dependencies: ["411C9EEB5104B01E"]
+			id: "4116667B86B147C9"
+			tasks: [{
+				id: "3C13BC3AD6F811B7"
+				type: "item"
+				item: "mana-and-artifice:bone_ash"
+			}]
+			rewards: [{
+				id: "16156C6A4DBB439E"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			dependencies: ["1E6C1C95F26FC91C"]
+			id: "5D74B7CCEEFB1ED3"
+			tasks: [{
+				id: "15580DA4DAC51B76"
+				type: "item"
+				item: "mana-and-artifice:manaweaving_altar"
+			}]
+			rewards: [{
+				id: "307288697434E8D1"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.5d
+			dependencies: ["1E6C1C95F26FC91C"]
+			id: "5B8B0D7463F601BB"
+			tasks: [{
+				id: "1D413D249E2153AB"
+				type: "item"
+				item: "mana-and-artifice:inscription_table"
+			}]
+			rewards: [{
+				id: "51B0F805A979A40D"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 9.5d
+			description: ["Throw leather in a cauldron with water."]
+			dependencies: ["5B8B0D7463F601BB"]
+			id: "1F6C4E0D5B2DA163"
+			tasks: [{
+				id: "539905A0262A5739"
+				type: "item"
+				item: "mana-and-artifice:vellum"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			dependencies: ["1E6C1C95F26FC91C"]
+			id: "392919260D704964"
+			tasks: [{
+				id: "7C2E8E7B889306B0"
+				type: "item"
+				item: "mana-and-artifice:runescribing_table"
+			}]
+			rewards: [{
+				id: "0D14E6CB2285A758"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			dependencies: ["392919260D704964"]
+			id: "099FC7CF213CDDB0"
+			tasks: [{
+				id: "0AA982BEBAEAEDB5"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:arcanist_ink"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6859BB5E61E8429A"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			dependencies: ["392919260D704964"]
+			id: "25331D30CDA71A8F"
+			tasks: [{
+				id: "57AD4DBBE6756688"
+				type: "item"
+				item: "mana-and-artifice:runic_anvil"
+			}]
+			rewards: [{
+				id: "172975607F5B728A"
+				type: "ftbmoney:money"
+				ftb_money: 550L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			subtitle: "The begining of Psi"
+			description: ["Ah, Psi, the programmers spell mod. This mod has unparalelled spell customisation, as long as you know what you are doing! pressing C will bring up the Psi compendium for reading, which is highly advised!"]
+			id: "4169CD7D9EEEE058"
+			tasks: [
+				{
+					id: "0A12FAF740881881"
+					type: "item"
+					item: "psi:cad_assembly_iron"
+				}
+				{
+					id: "3EFCC4ABFFDFD763"
+					type: "item"
+					item: "psi:cad_assembler"
+				}
+			]
+			rewards: [{
+				id: "7F1E1E69D1F06D7A"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			subtitle: "Pinkstone"
+			description: [
+				"Using the Rod constructor and the blank rod frame you can make a rudimentry wand to infuse redstone into Psidust, a very valuable crafting component!"
+				"NOTE: you can craft the iron rod frame back into a blank rod for the next step"
+			]
+			dependencies: ["4169CD7D9EEEE058"]
+			id: "6BE3149A8E2B7BC6"
+			tasks: [{
+				id: "12309F5AFE66E2F1"
+				type: "item"
+				item: "psi:psidust"
+			}]
+			rewards: [{
+				id: "0240F04FA27DDB9E"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Spellcrafting time!"
+			description: [
+				"With your iron rod safely back its blank state, you can now create it again but this time with some components! these components allow the rod to cast spells, more complex components will reduce the limitations on these."
+				"The spell inscriber is where you will be doing most of your work, Right Click an empty cell to bring up the component placer, do not be intimidated by the 8 pages! The old Psi tutorials are still avaliable in the compendium and do a great job teaching you the basics of spellcrafting!"
+			]
+			dependencies: ["6BE3149A8E2B7BC6"]
+			id: "04D8C8E43E1D2C01"
+			tasks: [
+				{
+					id: "3CD47ED4D4B00F0C"
+					type: "item"
+					item: "psi:programmer"
+				}
+				{
+					id: "490250D6B4CF944E"
+					type: "item"
+					item: {
+						id: "psi:spell_bullet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "468DB6792AFBD85E"
+					type: "item"
+					item: "psi:cad_core_basic"
+				}
+				{
+					id: "29EB02C403A481DA"
+					type: "item"
+					item: "psi:cad_socket_basic"
+				}
+				{
+					id: "74746748CF1832EE"
+					type: "item"
+					item: "psi:cad_battery_basic"
+				}
+			]
+			rewards: [
+				{
+					id: "0A69C9B8E52E7B68"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "5CB728DF1114DAA8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			subtitle: "The Standard"
+			description: ["These components are the next logical step for your rod's, but require Psimetal to make!"]
+			dependencies: [
+				"04D8C8E43E1D2C01"
+				"0B8C5DD5ECABA6ED"
+			]
+			id: "52A7215C5C1AEC26"
+			tasks: [
+				{
+					id: "208FC2EC5F1324E4"
+					type: "item"
+					item: "psi:cad_core_overclocked"
+				}
+				{
+					id: "1A0789513F800DEB"
+					type: "item"
+					item: "psi:cad_socket_signaling"
+				}
+				{
+					id: "620EE7FFE3A9F093"
+					type: "item"
+					item: "psi:cad_battery_extended"
+				}
+			]
+			rewards: [{
+				id: "4B3BF6D1B581827D"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			subtitle: "Rose Gold"
+			description: ["Using Trick: Infusion on its own, a rod can infuse Gold With Psionic energy, turning it into Psimetal!"]
+			dependencies: ["04D8C8E43E1D2C01"]
+			id: "0B8C5DD5ECABA6ED"
+			tasks: [{
+				id: "29A34C7CB1DBA0F6"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+			rewards: [{
+				id: "5EAE7FA40C479FE3"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			subtitle: "The Alternative"
+			description: ["In case you need a slightly more specialised wand, these alternative components have differing stats!"]
+			dependencies: [
+				"0B8C5DD5ECABA6ED"
+				"04D8C8E43E1D2C01"
+			]
+			id: "04D452CCD0BC96F2"
+			tasks: [
+				{
+					id: "60AD728FA118768C"
+					type: "item"
+					item: "psi:cad_core_conductive"
+				}
+				{
+					id: "35C63833525393D5"
+					type: "item"
+					item: "psi:cad_socket_large"
+				}
+				{
+					id: "7B2A51A24A101A5F"
+					type: "item"
+					item: "psi:cad_battery_extended"
+				}
+			]
+			rewards: [{
+				id: "7901736A25C95888"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			subtitle: "Better Rod, Better Mage"
+			description: ["The Psimetal wand allows for more powerful spells, and more efficient use of Psi Energy! I recomend putting in a higher tier of components too!"]
+			dependencies: ["0B8C5DD5ECABA6ED"]
+			id: "2D34B54D625B546B"
+			tasks: [{
+				id: "4A7484A5F2EDE005"
+				type: "item"
+				item: "psi:cad_assembly_psimetal"
+			}]
+			rewards: [{
+				id: "2C48313794AB7888"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			subtitle: "Casting Options"
+			description: ["Asside from the regular spell node, there are some other varieties that may be more useful to you"]
+			dependencies: ["04D8C8E43E1D2C01"]
+			id: "4F4EB2D76E4B14BA"
+			tasks: [{
+				id: "324DC19EC52DE29A"
+				type: "checkmark"
+				title: "Aditional Node Types"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			subtitle: "Pew!"
+			description: ["The projectile spell node allows for a spell to be cast far away from you, extending the 32 block range to the point of impact!"]
+			dependencies: ["4F4EB2D76E4B14BA"]
+			id: "701F48674872EC19"
+			tasks: [{
+				id: "3FC0186E084B41E1"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_projectile"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7F89575C7E6EAF9A"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			subtitle: "On, and On, and On, and On, and On, and"
+			description: [
+				"The Loopcast spell node does exactly what you might expect, casting your spell repeatedly! If your spell is Energy efficient you may never run out of energy too!"
+				"NOTE: Trick: Break Loop may be useful if you wish to end the loop prematurely"
+				"NOTE 2: Spells consume health if you run out of energy, remember to switch off of your rod before the spell kills you!"
+			]
+			dependencies: ["4F4EB2D76E4B14BA"]
+			id: "165DB062517BF692"
+			tasks: [{
+				id: "398BA3C104F9B263"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_loop"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "603A58D71FFB10CE"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			subtitle: "Looping on a Budget"
+			description: [
+				"The Circle spell node costs as much as 15 itterations of your spell, but executes 20 of them!"
+				"When cast it places a circle on the ground, forming the focal point of the spell, casting an itteration 4 times per second."
+			]
+			dependencies: ["4F4EB2D76E4B14BA"]
+			id: "1C47305AA7CBE19D"
+			tasks: [{
+				id: "0446010AFD2E73F5"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_circle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "53E5F09E19D35E82"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			subtitle: "Gravity? Who gives a crap about Gravity?"
+			description: [
+				"Grenade spell nodes are similar to projectiles, except they obey gravity, allowing for you to lob spells over walls or hills!"
+				"The other notable difference is that the spell detonates after 3 seconds exactly, no matter what."
+			]
+			dependencies: ["4F4EB2D76E4B14BA"]
+			id: "30B3364152D9BA43"
+			tasks: [{
+				id: "15825A8D9293A595"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_grenade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "56F02BB33C954A37"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			subtitle: "Planting the bomb....."
+			description: [
+				"A grenade node that lasts 5 minutes but fizzles at the end of the timer... so how do you use it? Two ways!"
+				"The first is to carry a spell detonator, which will let you detonate ALL nearby spell charges, The second being Trick: Detonate."
+				"Spell charges also store the last entity to touch them in Selector: Attack Target, do with this information what you will."
+			]
+			dependencies: ["4F4EB2D76E4B14BA"]
+			id: "713D63343542645D"
+			tasks: [
+				{
+					id: "723C74179486046D"
+					type: "item"
+					item: {
+						id: "psi:spell_bullet_charge"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0684C1DED708E127"
+					type: "item"
+					item: "psi:detonator"
+				}
+			]
+			rewards: [{
+				id: "23BC2FFC35261950"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			subtitle: "Boobytrapped!"
+			description: [
+				"Exactly the same as the charge node except one key difference, instead of requiring a spell detonator, first an entity must step on the mine to prime it, then once all entities have moved off from the mine it will cast the spell, again storing the last touched entity in Selector: Attack Target"
+				"NOTE: If someone notices your mine and is clever, they can just wait out the 5 minute timer."
+			]
+			dependencies: ["4F4EB2D76E4B14BA"]
+			id: "0704BDE0C16B88FB"
+			tasks: [{
+				id: "08A4E52BE7D39EC6"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_mine"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "17EB8D8091BEA6D9"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			subtitle: "Rose Quartz"
+			description: ["Using Trick: Greater Infusion, one can also infuse Diamonds into Psigems!"]
+			dependencies: ["0B8C5DD5ECABA6ED"]
+			id: "20EB554F1553329F"
+			tasks: [{
+				id: "32C57E3BB7F65D17"
+				type: "item"
+				item: "psi:psigem"
+			}]
+			rewards: [
+				{
+					id: "56BEBD3FF23AAFE4"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "2E5EDAC06743F081"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			subtitle: "The Norm"
+			description: ["These Components are some of the best Psi can buy!"]
+			dependencies: [
+				"20EB554F1553329F"
+				"52A7215C5C1AEC26"
+			]
+			id: "008947CAD5495EBF"
+			tasks: [
+				{
+					id: "5D20F35DA0FEADA1"
+					type: "item"
+					item: "psi:cad_core_hyperclocked"
+				}
+				{
+					id: "74EE16442F552D10"
+					type: "item"
+					item: "psi:cad_socket_transmissive"
+				}
+				{
+					id: "717BF9E8A9D34F4F"
+					type: "item"
+					item: "psi:cad_battery_ultradense"
+				}
+			]
+			rewards: [
+				{
+					id: "3FF025895DEDDF4C"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "5005F7E803833D14"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			subtitle: "The Hipster"
+			description: ["While not as good as the Norm, These alternate components may provide some use!"]
+			dependencies: [
+				"20EB554F1553329F"
+				"04D452CCD0BC96F2"
+			]
+			id: "30E2655F76A1383A"
+			tasks: [
+				{
+					id: "54EF82D3CB94ECBE"
+					type: "item"
+					item: "psi:cad_core_radiative"
+				}
+				{
+					id: "0C23C74AB5387326"
+					type: "item"
+					item: "psi:cad_socket_huge"
+				}
+				{
+					id: "7153F2A2D3B6EDCE"
+					type: "item"
+					item: "psi:cad_battery_ultradense"
+				}
+			]
+			rewards: [
+				{
+					id: "2ADC698E14E17BDC"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "05179360C53EC429"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Ebony/Ivory"
+			x: 9.0d
+			y: -4.0d
+			subtitle: "Power/Efficiency"
+			description: [
+				"The Choice is yours."
+				"Trick: Ebony/Ivory targeting Coal or Quartz while in the End should suffice."
+			]
+			dependencies: ["20EB554F1553329F"]
+			id: "2859098646917577"
+			tasks: [
+				{
+					id: "67156FF893E713F3"
+					type: "item"
+					item: "psi:ebony_substance"
+				}
+				{
+					id: "3ABFD65738695436"
+					type: "item"
+					item: "psi:ivory_substance"
+				}
+			]
+			rewards: [
+				{
+					id: "084FBA5A34B37C7A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "1B79310EA29261B1"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "06027DA261E2777D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			subtitle: "Power"
+			description: ["Ebony Psimetal rod's hold the most casting power of any rod, allowing you to cast the strongest spells possible."]
+			dependencies: ["2859098646917577"]
+			id: "3CB153391819E94A"
+			tasks: [
+				{
+					id: "0449A112801738A2"
+					type: "item"
+					item: "psi:ebony_psimetal"
+				}
+				{
+					id: "216081891F6FCDD9"
+					type: "item"
+					item: "psi:cad_assembly_ebony_psimetal"
+				}
+			]
+			rewards: [
+				{
+					id: "573D9C76321011DF"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "37CC6FE717A17F64"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			subtitle: "Efficiency"
+			description: ["Ivory Psimetal rod's hold the most casting efficiency of any rod, allowing for more expensive spells to be cast."]
+			dependencies: ["2859098646917577"]
+			id: "7F1E4601DADD6AD3"
+			tasks: [
+				{
+					id: "28CC4D7DEC6BBDA7"
+					type: "item"
+					item: "psi:ivory_psimetal"
+				}
+				{
+					id: "601EED98981D0348"
+					type: "item"
+					item: "psi:cad_assembly_ivory_psimetal"
+				}
+			]
+			rewards: [
+				{
+					id: "2929B7C51384AEAC"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "5466AA0AC6A53896"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -7.5d
+			subtitle: "Casting spells with Armor?"
+			description: [
+				"Yes you heard that right! your armor too, can cast spells!"
+				"There is far too much to mention here, please read the official book for each piece's unique casting variations."
+			]
+			dependencies: ["20EB554F1553329F"]
+			id: "4B09ECD474D5F974"
+			tasks: [
+				{
+					id: "3876980CB9B13C1C"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "125F277EFCA82D02"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "439EF53F5D18B14B"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16A52B6A469813D0"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F5BEA7B65E3E3F5"
+					type: "item"
+					item: "psi:exosuit_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "41540ECC42C21A3B"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "667A3A1DA2D59C71"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "06A8944BA2661407"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			subtitle: "Dear Stone...."
+			description: ["Using Selector: Block Broken or Selector: Block Broken Side can allow this pickaxe to cast spells to aid you while mining!"]
+			dependencies: ["20EB554F1553329F"]
+			id: "10BF050A943FB755"
+			tasks: [{
+				id: "25E25A942C1A1058"
+				type: "item"
+				item: {
+					id: "psi:psimetal_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "186ECD2CC872724B"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "6ED8BD60C012069D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			subtitle: "Dear Tree...."
+			description: ["Using Selector: Block Broken or Selector: Block Broken Side can allow this axe to cast spells while you chop!"]
+			dependencies: ["20EB554F1553329F"]
+			id: "48D112251E049688"
+			tasks: [{
+				id: "4E64B73FB20086B0"
+				type: "item"
+				item: {
+					id: "psi:psimetal_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B7CAA0B77D0B974"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "7372B08F84E0F7FF"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			subtitle: "Dear Sand...."
+			description: ["Using Selector: Block Broken or Selector: Block Broken Side can allow this shovel to cast spells while digging!"]
+			dependencies: ["20EB554F1553329F"]
+			id: "0AC7228B753BF29A"
+			tasks: [{
+				id: "56396E0CC8D78AF5"
+				type: "item"
+				item: {
+					id: "psi:psimetal_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1ED8CC3164F9FF88"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "186BF3E7A32A3A58"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			subtitle: "Dear Enemy...."
+			description: ["Using a spell node inside the sword and Selector: Attack Target, one can cast many spells on their adversaries....."]
+			dependencies: ["20EB554F1553329F"]
+			id: "3C5D566E570BA90E"
+			tasks: [{
+				id: "0B7DF36B3931A614"
+				type: "item"
+				item: {
+					id: "psi:psimetal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B77E2AD48D71999"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "787368B7737DDD1A"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "Spell Library"
+			description: ["Storing your spells in spare inscribers or nodes must get tedious after a while, and you cant use the inscriber while storing the spell, and you cannot edit the node, there has to be a better way...."]
+			dependencies: ["0B8C5DD5ECABA6ED"]
+			id: "4E552094AD166C90"
+			tasks: [{
+				id: "18CABEA059FF7D95"
+				type: "item"
+				item: {
+					id: "psi:spell_drive"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4B2960AE678610B7"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6DD6971016829AB9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+	]
+}

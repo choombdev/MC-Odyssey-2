@@ -1,0 +1,13 @@
+{
+  "recipes": {
+    "bn_glowstone_dust[def: true]": true,
+    "cincinnasite_chains[def: true]": true,
+    "glowstone_pile_to_dust[def: true]": true,
+    "bn_yellow_dye[def: true]": true,
+    "bn_golden_vine[def: true]": true,
+    "wall_mushroom_brown_1[def: true]": true,
+    "wall_mushroom_brown_2[def: true]": true,
+    "wall_mushroom_red_1[def: true]": true,
+    "wall_mushroom_red_2[def: true]": true
+  }
+}

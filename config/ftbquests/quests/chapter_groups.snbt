@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "4E139BB973FD0007", title: "Odyssey Beginnings" }
+		{ id: "7BA60458025E99B0", title: "Technical Advances" }
+		{ id: "1961CD0117665BCC", title: "The Supernatural" }
+		{ id: "3A1BC4382F0B65EC", title: "Exploration" }
+		{ id: "72AF1BD9594D1077", title: "The End" }
+	]
+}

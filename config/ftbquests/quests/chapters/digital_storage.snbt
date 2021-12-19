@@ -1,0 +1,1690 @@
+{
+	id: "526D37C3AF83694C"
+	group: "7BA60458025E99B0"
+	order_index: 0
+	filename: "digital_storage"
+	title: "Digital Storage"
+	icon: "mekanism:qio_drive_supermassive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Refined Storage"
+			x: -6.0d
+			y: -0.5d
+			description: ["AE2 but without the boring"]
+			id: "6B148D943000B0C9"
+			tasks: [{
+				id: "110D6FA4FE80D433"
+				type: "item"
+				title: "Any #refinedstorage:controller"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:controller"
+					}
+				}
+			}]
+			rewards: [{
+				id: "22D24790AD5A5300"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["4F0804C869CAA39C"]
+			id: "2B909D2F5BEBF5E7"
+			tasks: [{
+				id: "1544DF37521AEA88"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+			rewards: [
+				{
+					id: "6CBB7192D37215BD"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "608BB77ED92E0389"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Applied Energistics"
+			x: -0.5d
+			y: -0.5d
+			id: "3177786194699BF1"
+			tasks: [{
+				id: "55ABD32552C6B15C"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+			rewards: [{
+				id: "1EF204E0D0938660"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["3177786194699BF1"]
+			id: "4F0804C869CAA39C"
+			tasks: [{
+				id: "0712AD27515BE556"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+			rewards: [{
+				id: "56BE75F3B30DCAAA"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["2B909D2F5BEBF5E7"]
+			id: "5D53A4A18E1E4E2D"
+			tasks: [{
+				id: "07FCB384DC2AF271"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+			rewards: [{
+				id: "5D312B7ABEB84EA2"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["5D53A4A18E1E4E2D"]
+			id: "30F040D2C091B2AC"
+			tasks: [{
+				id: "7C1EE6A3EB4432ED"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "37DAAA5987FA71EF"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["30F040D2C091B2AC"]
+			id: "414D14A2F92547ED"
+			tasks: [{
+				id: "6D52EB3FFC4AA9A5"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "72ED079CA860D8F2"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+				{
+					id: "710C2C199A4DEA0F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["414D14A2F92547ED"]
+			id: "2E947FF150D285B0"
+			tasks: [{
+				id: "3345ACE750EC4078"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "26D735437F274F2C"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "764F0E7091771081"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["2E947FF150D285B0"]
+			id: "123590004B4D4DD3"
+			tasks: [{
+				id: "3787AB34E9CA7E6E"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "671141FE7DB88512"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "5916E9A59E79A713"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["123590004B4D4DD3"]
+			id: "3AFED58A8ABBCB74"
+			tasks: [{
+				id: "4BFF719C2CEDAA44"
+				type: "item"
+				item: {
+					id: "ae2extras:256k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "10452BB89DAC9491"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "25ACBD47A5706DCD"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["5D53A4A18E1E4E2D"]
+			id: "63AF6D3E5876307A"
+			tasks: [{
+				id: "2201E8E6C2561198"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "2F8C7B31EED6E343"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["2B909D2F5BEBF5E7"]
+			id: "2E42C8A00B01547E"
+			tasks: [
+				{
+					id: "1313E1F3A6DC0881"
+					type: "item"
+					item: "appliedenergistics2:crafting_accelerator"
+				}
+				{
+					id: "7851B0A00EBC1602"
+					type: "item"
+					item: "appliedenergistics2:crafting_unit"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["5D53A4A18E1E4E2D"]
+			id: "584DDCB279E54E5C"
+			tasks: [{
+				id: "6903DEFF0FE0D1FB"
+				type: "item"
+				item: "appliedenergistics2:storage_bus"
+			}]
+			rewards: [{
+				id: "634C3E120FA7C9F4"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["2E42C8A00B01547E"]
+			id: "145D8060467237F6"
+			tasks: [{
+				id: "32955C2CDCD7C774"
+				type: "item"
+				item: "appliedenergistics2:cable_interface"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["2E42C8A00B01547E"]
+			id: "37510FA06723A7C6"
+			tasks: [{
+				id: "252A4618BE49B7CE"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["6B148D943000B0C9"]
+			id: "2B15023D6763F10F"
+			tasks: [{
+				id: "7E58E91886E9085E"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "4880F6D306D84716"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			dependencies: ["2B15023D6763F10F"]
+			id: "00EEB08DF0C387F2"
+			tasks: [{
+				id: "0C0611A2FF1D3585"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "0B24FD2A8A59A3D0"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			dependencies: ["00EEB08DF0C387F2"]
+			id: "5587B843F0ABAD25"
+			tasks: [{
+				id: "0A43353D2D6ACC49"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "568B5DF469F9ADDB"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "1F7E00F12EC02EAA"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			dependencies: ["5587B843F0ABAD25"]
+			id: "64B4EC0BAD898D74"
+			tasks: [{
+				id: "660B5906245C7D5A"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "6505647751CBFD23"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "220D24D01ABD66F8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			dependencies: ["64B4EC0BAD898D74"]
+			id: "6C3E5062577C3436"
+			tasks: [{
+				id: "0270CB02E9C5DF5F"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "5105E2F89F11CB3A"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "235AD7313072F6F2"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			dependencies: ["6B148D943000B0C9"]
+			id: "6383BB6A24DFAF29"
+			tasks: [{
+				id: "36DD0037699B7467"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			rewards: [{
+				id: "4F3AAC3C202B3C0C"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			dependencies: ["6383BB6A24DFAF29"]
+			id: "12D62A0E94BC30C9"
+			tasks: [{
+				id: "74A26AFA97AE3934"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "7181ECA3B398B252"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			dependencies: ["6383BB6A24DFAF29"]
+			id: "2DEC6A4BC9AF8BBD"
+			tasks: [{
+				id: "362442818443C373"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+			rewards: [{
+				id: "226DA484853C3294"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["7D28779FDBF7F394"]
+			id: "0FFCF3A1CE05F260"
+			tasks: [{
+				id: "75ED84F82B8F11AE"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+			rewards: [
+				{
+					id: "2E6D4E39BA3712A4"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "4B7662EEA5620F3C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			id: "7D28779FDBF7F394"
+			tasks: [{
+				id: "56355DB466A2A2E8"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+			rewards: [
+				{
+					id: "03E181F07ABFE613"
+					type: "ftbmoney:money"
+					ftb_money: 3500L
+				}
+				{
+					id: "7C043C323BFB86D6"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["7D28779FDBF7F394"]
+			id: "7CF2C33B7BC083D7"
+			tasks: [{
+				id: "7E061A7344073567"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+			rewards: [
+				{
+					id: "31BBCF9F5B66F888"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "2B0F05D9EEBB9519"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["7CF2C33B7BC083D7"]
+			id: "09C5ECDA2AE4821C"
+			tasks: [{
+				id: "2E16F442A4F88151"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+			rewards: [
+				{
+					id: "3268D986013A45C2"
+					type: "ftbmoney:money"
+					ftb_money: 6000L
+				}
+				{
+					id: "569F02CBEBAB4C10"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["09C5ECDA2AE4821C"]
+			id: "15B197DB592785C2"
+			tasks: [{
+				id: "684BF9F2DBE92825"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+			rewards: [
+				{
+					id: "17119E0924AC3082"
+					type: "ftbmoney:money"
+					ftb_money: 6000L
+				}
+				{
+					id: "4B3ED3DB5BB05F7E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["15B197DB592785C2"]
+			id: "2634E1C1F748620F"
+			tasks: [{
+				id: "5DE1F693589EEB99"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+			rewards: [
+				{
+					id: "1E635A258B01440C"
+					type: "ftbmoney:money"
+					ftb_money: 6000L
+				}
+				{
+					id: "7AEDCDB70885E269"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["7D28779FDBF7F394"]
+			id: "6EE7EEFD35F6B4B8"
+			tasks: [{
+				id: "3FDF39D83E7DAE79"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
+			rewards: [
+				{
+					id: "5966CFA78D41B71B"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "0A4EABAC9A67C16A"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			subtitle: "Tier 1 Crafter"
+			description: ["Crafts items with Patterns"]
+			dependencies: ["6383BB6A24DFAF29"]
+			id: "0FA58DACED8A90FF"
+			tasks: [
+				{
+					id: "7507A0C4C28D774C"
+					type: "item"
+					item: "refinedstorage:crafter"
+				}
+				{
+					id: "2946722AEFE9CC26"
+					type: "item"
+					item: "refinedstorage:crafter_manager"
+				}
+			]
+			rewards: [
+				{
+					id: "5A8A09EA7FEA9DD7"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "26AFC5382C5CE675"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			subtitle: "Tier 2 Crafter"
+			dependencies: ["0FA58DACED8A90FF"]
+			id: "2A48BF4296950C50"
+			tasks: [{
+				id: "4D48FAB58DB64F89"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+			rewards: [
+				{
+					id: "483CCD968B5A6D06"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "6AC969D7E37C1087"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			subtitle: "Tier 3 Crafter"
+			dependencies: ["2A48BF4296950C50"]
+			id: "3C0235CCFF09BAA4"
+			tasks: [{
+				id: "4EE83828555D21D6"
+				type: "item"
+				item: "extrastorage:gold_crafter"
+			}]
+			rewards: [
+				{
+					id: "092FF0B2DBA42BE6"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "5B332D27BE268246"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			subtitle: "Tier 4 Crafter"
+			dependencies: ["3C0235CCFF09BAA4"]
+			id: "282305A05567C9E9"
+			tasks: [{
+				id: "43C0AF742F6A0318"
+				type: "item"
+				item: "extrastorage:diamond_crafter"
+			}]
+			rewards: [
+				{
+					id: "0C8CCFC45653E410"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "174A87137B992EC3"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			dependencies: ["6C3E5062577C3436"]
+			id: "2F836747554111EE"
+			tasks: [{
+				id: "6BECB855238C5117"
+				type: "item"
+				title: "256k Storage Part"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "extrastorage:storagepart_256k"
+								Count: 1b
+							}
+							{
+								id: "extradisks:256k_storage_part"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3225A1F476AC9197"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "0E893B62D2AF98CB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 5.5d
+			dependencies: ["2F836747554111EE"]
+			id: "37BB777071A90DC4"
+			tasks: [{
+				id: "49CB466E34A6A5F1"
+				type: "item"
+				title: "1024k Storage Part"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "extrastorage:storagepart_1024k"
+								Count: 1b
+							}
+							{
+								id: "extradisks:1024k_storage_part"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "435159D2881EF33B"
+					type: "ftbmoney:money"
+					ftb_money: 2750L
+				}
+				{
+					id: "3190DFEB9F94DBD6"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			dependencies: ["37BB777071A90DC4"]
+			id: "7A9B6685734A262E"
+			tasks: [{
+				id: "6BB19CD5C221FD2E"
+				type: "item"
+				title: "4096k Storage Part"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "extrastorage:storagepart_4096k"
+								Count: 1b
+							}
+							{
+								id: "extradisks:4096k_storage_part"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70A8F55B8CC81889"
+					type: "ftbmoney:money"
+					ftb_money: 3250L
+				}
+				{
+					id: "069F25A07FDEA6A7"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 6.5d
+			dependencies: ["7A9B6685734A262E"]
+			id: "30CD3CA004B6FC11"
+			tasks: [{
+				id: "6779A66425BA208E"
+				type: "item"
+				title: "16384k Storage Part"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "extradisks:16384k_storage_part"
+								Count: 1b
+							}
+							{
+								id: "extrastorage:storagepart_16384k"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5CA7154CFD7A8A9D"
+					type: "ftbmoney:money"
+					ftb_money: 3750L
+				}
+				{
+					id: "77238BE203358495"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["30CD3CA004B6FC11"]
+			id: "3F7871F19D51FEFB"
+			tasks: [{
+				id: "4F2B4533E806F189"
+				type: "item"
+				item: "extradisks:65536k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "5464576275D049BA"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "6B328D3451F8B268"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 7.5d
+			dependencies: ["3F7871F19D51FEFB"]
+			id: "50E3CA3B15B2066F"
+			tasks: [{
+				id: "2638B5EEFCF5E09A"
+				type: "item"
+				item: "extradisks:262144k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "16F777E495E84C72"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "01F7404CB6AB54C6"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 7.5d
+			dependencies: ["50E3CA3B15B2066F"]
+			id: "088479985AEF3BD9"
+			tasks: [{
+				id: "0097885B7F29A736"
+				type: "item"
+				item: "extradisks:1048576k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "1F390520ECF51B13"
+					type: "ftbmoney:money"
+					ftb_money: 15000L
+				}
+				{
+					id: "38E83C127FDF78E8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 9.0d
+			dependencies: ["088479985AEF3BD9"]
+			id: "5E7CC065B9875AA7"
+			tasks: [{
+				id: "3D257CF1A969195E"
+				type: "item"
+				item: "extradisks:infinite_storage_part"
+			}]
+			rewards: [
+				{
+					id: "3757EBEDE0986D51"
+					type: "ftbmoney:money"
+					ftb_money: 35000L
+				}
+				{
+					id: "4F9BCA41467608CF"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0F5B99237B904423"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["6B148D943000B0C9"]
+			id: "7FAA544D26889D63"
+			tasks: [{
+				id: "39F594950C373E35"
+				type: "item"
+				item: {
+					id: "refinedstorage:portable_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5CC0731D87366888"
+				type: "ftbmoney:money"
+				ftb_money: 1250L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 5.0d
+			subtitle: "Tier 5 Crafter"
+			dependencies: ["282305A05567C9E9"]
+			id: "72A2563618F18FC9"
+			tasks: [{
+				id: "02E54DC80532CB7F"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+			rewards: [
+				{
+					id: "223295DA762AD970"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "5FEF329B5D35495F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			description: ["Connect with the controller"]
+			dependencies: ["0F2C879016BB2417"]
+			id: "5C0CB9F9251AF126"
+			tasks: [{
+				id: "480DEB0DDC162022"
+				type: "item"
+				item: "refinedstorage:wireless_crafting_monitor"
+			}]
+			rewards: [
+				{
+					id: "1E0E0E5DEFC5A2A6"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "2DD88EC62167A654"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -0.5d
+			subtitle: "Bluetooth"
+			dependencies: ["6383BB6A24DFAF29"]
+			id: "0F2C879016BB2417"
+			tasks: [{
+				id: "7F66FF6530FA1C7B"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+			rewards: [{
+				id: "65849224B57FC97F"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -0.5d
+			dependencies: ["0F2C879016BB2417"]
+			id: "30CBE5B92E805984"
+			tasks: [{
+				id: "1CF1B46F4251A80B"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+			rewards: [{
+				id: "38B3B72CA8C08789"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 4.0d
+			subtitle: "SPEED IS KEY"
+			dependencies: ["74053A617D678FD7"]
+			id: "561A4404E1123D5C"
+			tasks: [{
+				id: "43D648134C2E1E44"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+			rewards: [
+				{
+					id: "382746CBF4496461"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "5F1BF6BA4557233F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 2.5d
+			subtitle: "Now we getting somewhere"
+			dependencies: [
+				"18158838203F6965"
+				"0550EE829A9503CA"
+				"2B4AE79612768118"
+				"2A43025D1F9C463A"
+			]
+			dependency_requirement: "one_completed"
+			id: "74053A617D678FD7"
+			tasks: [{
+				id: "0668132868EBC112"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+			rewards: [{
+				id: "7634157FECA27AC2"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -0.5d
+			dependencies: ["30CBE5B92E805984"]
+			id: "4B5517C438C20E75"
+			tasks: [{
+				id: "7D0135C33325089F"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+			rewards: [
+				{
+					id: "7A21058119ECD530"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "279F9C9DE174225C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -0.5d
+			dependencies: ["4B5517C438C20E75"]
+			id: "79F8BB7199B3CA6A"
+			tasks: [{
+				id: "546854655B89B704"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+			rewards: [
+				{
+					id: "5328AD774F76BDA4"
+					type: "ftbmoney:money"
+					ftb_money: 3500L
+				}
+				{
+					id: "5D846563700E80AF"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -1.5d
+			description: ["Connect with the Controller"]
+			dependencies: ["0F2C879016BB2417"]
+			id: "28FEB65F398B7BB8"
+			tasks: [{
+				id: "04AA841ACB361434"
+				type: "item"
+				item: "refinedstorage:wireless_fluid_grid"
+			}]
+			rewards: [
+				{
+					id: "54A6054FE4421B58"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "678D906E144E325F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			dependencies: ["6383BB6A24DFAF29"]
+			id: "233D38D98524D3DB"
+			tasks: [{
+				id: "3BFCA951E2B74D04"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [{
+				id: "67024BF3FE342216"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			subtitle: "Tier 1 Importer"
+			description: ["Imports items or fluids from an inventory in front of the block"]
+			dependencies: ["0B5F3BEF4A79398B"]
+			id: "0550EE829A9503CA"
+			tasks: [{
+				id: "7EA55B951B86D86B"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+			rewards: [{
+				id: "421B8049B46CFC44"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 3.0d
+			subtitle: "Tier 2 Importer"
+			dependencies: ["0550EE829A9503CA"]
+			id: "198ED82DEB6F387C"
+			tasks: [{
+				id: "783BA9D0CD3A4A00"
+				type: "item"
+				item: "cabletiers:elite_importer"
+			}]
+			rewards: [
+				{
+					id: "775A33F82E9950C9"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "1F03E9E9222D3650"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 4.0d
+			subtitle: "Tier 3 Importer"
+			dependencies: ["198ED82DEB6F387C"]
+			id: "6604DE450FFF8D1B"
+			tasks: [{
+				id: "75FA80DFAD8ED57D"
+				type: "item"
+				item: "cabletiers:ultra_importer"
+			}]
+			rewards: [
+				{
+					id: "7139A50AE21A21C0"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "44F9EFBAB6A1AE61"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 2.0d
+			subtitle: "Tier 1 Exporter"
+			description: ["Extracts items or fluids from the Storage Network and inserts it in the inventory or tank in front of it"]
+			dependencies: ["0B5F3BEF4A79398B"]
+			id: "18158838203F6965"
+			tasks: [{
+				id: "29B0F7945446AC72"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+			rewards: [{
+				id: "17CB3424EE7950F9"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 3.0d
+			subtitle: "Tier 2 Exporter"
+			dependencies: ["18158838203F6965"]
+			id: "40B82F1D4FFD454A"
+			tasks: [{
+				id: "6191B732C98DC1F7"
+				type: "item"
+				item: "cabletiers:elite_exporter"
+			}]
+			rewards: [
+				{
+					id: "60DC50E80AE38BCB"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "6BEA899D22412ED1"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			subtitle: "Tier 3 Exporter"
+			dependencies: ["40B82F1D4FFD454A"]
+			id: "6988FFF90CBBD0E5"
+			tasks: [{
+				id: "5E977CB98089ED89"
+				type: "item"
+				item: "cabletiers:ultra_exporter"
+			}]
+			rewards: [
+				{
+					id: "42A829CA5D656D23"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "30DA6F0564E56F3E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["6B148D943000B0C9"]
+			id: "0A1C773F354C50BC"
+			tasks: [
+				{
+					id: "37F424CCCF8B296F"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "0A01B6D9E0385646"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "505CB2314723CA1F"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
+			rewards: [{
+				id: "70E8F0601A1EA0C7"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.5d
+			dependencies: ["233D38D98524D3DB"]
+			id: "2DAA53BDCBEAD944"
+			tasks: [{
+				id: "02541E440D8602CC"
+				type: "item"
+				item: "refinedstorage:fluid_interface"
+			}]
+			rewards: [{
+				id: "3EB57E11622FDE84"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.0d
+			dependencies: ["6383BB6A24DFAF29"]
+			id: "0B5F3BEF4A79398B"
+			tasks: [{
+				id: "08A98997FB5742FF"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+			rewards: [{
+				id: "1084CAAC0CCA0031"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.0d
+			subtitle: "Tier 4 Exporter"
+			dependencies: ["6988FFF90CBBD0E5"]
+			id: "60C8973C0E17BCA9"
+			tasks: [{
+				id: "777E3400409189BE"
+				type: "item"
+				item: "cabletiers:creative_exporter"
+			}]
+			rewards: [
+				{
+					id: "441B6F2615398974"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "41FE9C8B9E143639"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 5.0d
+			subtitle: "Tier 4 Importer"
+			dependencies: ["6604DE450FFF8D1B"]
+			id: "10950989AB54B5F4"
+			tasks: [{
+				id: "333AFD96D51C6FC5"
+				type: "item"
+				item: "cabletiers:creative_importer"
+			}]
+			rewards: [
+				{
+					id: "73A2B80AD5BE6B10"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "3DE7DEF0B4E2FB1D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			subtitle: "Tier 1 Constructor"
+			description: ["Places items or fluids from the Storage Network"]
+			dependencies: ["0B5F3BEF4A79398B"]
+			id: "2B4AE79612768118"
+			tasks: [{
+				id: "79A9992FC0B4620F"
+				type: "item"
+				item: "refinedstorage:constructor"
+			}]
+			rewards: [{
+				id: "7F1DA659667B6C06"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 3.0d
+			subtitle: "Tier 2 Constructor"
+			dependencies: ["2B4AE79612768118"]
+			id: "3B0F75F5B63463A2"
+			tasks: [{
+				id: "145BDCEE32E86C69"
+				type: "item"
+				item: "cabletiers:elite_constructor"
+			}]
+			rewards: [
+				{
+					id: "326D6B88E7CAD8C3"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "7BE29A801C3D8B3D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 4.0d
+			subtitle: "Tier 3 Constructor"
+			dependencies: ["3B0F75F5B63463A2"]
+			id: "0A606A12FDA04C26"
+			tasks: [{
+				id: "7F71B1117B289B0D"
+				type: "item"
+				item: "cabletiers:ultra_constructor"
+			}]
+			rewards: [
+				{
+					id: "171D6028E9ADCF79"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "4CB151AA608107EE"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 5.0d
+			subtitle: "Tier 4 Constructor"
+			dependencies: ["0A606A12FDA04C26"]
+			id: "6279C906C42A4A44"
+			tasks: [{
+				id: "5A8D8BA71B0FC1A0"
+				type: "item"
+				item: "cabletiers:creative_constructor"
+			}]
+			rewards: [
+				{
+					id: "2C53B69D4E72B764"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "258FBCB8D2A7B684"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 2.0d
+			subtitle: "Tier 1 Destructor"
+			description: ["Destroys items or fluids in front of it and puts the drop in the Storage Network"]
+			dependencies: ["0B5F3BEF4A79398B"]
+			id: "2A43025D1F9C463A"
+			tasks: [{
+				id: "42B9F27D5BEED522"
+				type: "item"
+				item: "refinedstorage:destructor"
+			}]
+			rewards: [{
+				id: "70787E3230374009"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 3.0d
+			subtitle: "Tier 2 Destructor"
+			dependencies: ["2A43025D1F9C463A"]
+			id: "30383CC50F3B7C84"
+			tasks: [{
+				id: "28A8CA9865234646"
+				type: "item"
+				item: "cabletiers:elite_destructor"
+			}]
+			rewards: [
+				{
+					id: "3426470C42247CFF"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "118E8D28FFB593F3"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 4.0d
+			subtitle: "Tier 3 Destructor"
+			dependencies: ["30383CC50F3B7C84"]
+			id: "572B713691A60FD8"
+			tasks: [{
+				id: "5879F9E1ACCEA8B9"
+				type: "item"
+				item: "cabletiers:ultra_destructor"
+			}]
+			rewards: [
+				{
+					id: "48A6BEC711317511"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "10246D926FB9E919"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 5.0d
+			subtitle: "Tier 4 Destructor"
+			dependencies: ["572B713691A60FD8"]
+			id: "004E0CA4B63AB8B7"
+			tasks: [{
+				id: "0A6E6BD7F6C272D8"
+				type: "item"
+				item: "cabletiers:creative_destructor"
+			}]
+			rewards: [
+				{
+					id: "2B4A42FA3940844B"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "21E3766AEF62889F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 1.0d
+			description: ["Provides the Storage Network with storage of the inventory or fluid tank in front of the device"]
+			dependencies: ["0B5F3BEF4A79398B"]
+			id: "65D9852EAF2943A9"
+			tasks: [{
+				id: "70FD27C0B6D422C4"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+			rewards: [{
+				id: "61E1EFF554722833"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Ender Chest but Cooler!"
+			id: "710CA35D8597702E"
+			tasks: [{
+				id: "1DAC01F341A852D6"
+				type: "item"
+				item: "dimstorage:dimensional_chest"
+			}]
+			rewards: [
+				{
+					id: "37A1E665B018D126"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "41AA51BD12EA1353"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Ender Tank but Cooler!"
+			id: "53756B4FAB33D121"
+			tasks: [{
+				id: "1911A869ED76E64F"
+				type: "item"
+				item: "dimstorage:dimensional_tank"
+			}]
+			rewards: [
+				{
+					id: "4F70494E92BDB86F"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "584AC909A32DBD63"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+	]
+}

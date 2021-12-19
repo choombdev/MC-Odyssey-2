@@ -1,0 +1,2973 @@
+{
+	id: "1B3EDAD0D04478C9"
+	group: "1961CD0117665BCC"
+	order_index: 0
+	filename: "rituals"
+	title: "Rituals"
+	icon: "hexblades:fire_pedestal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Elemental Craft"
+			x: -6.5d
+			y: -1.5d
+			id: "1FA03DB31A5D26CF"
+			tasks: [{
+				id: "107FBC5FF81F252B"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
+			}]
+			rewards: [{
+				id: "191F8BF95427F8DF"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			dependencies: ["3BC86E4F4F74AE9C"]
+			id: "3018FF75B6203F71"
+			tasks: [{
+				id: "43B3A4DDB9C998F4"
+				type: "item"
+				item: "elementalcraft:tank"
+			}]
+			rewards: [
+				{
+					id: "7A8D5DECFB06E47C"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "56E0F532187715F3"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			dependencies: ["644D12387E0E5350"]
+			id: "70A96CE61C8191C9"
+			tasks: [{
+				id: "0ADA8180671FA8C5"
+				type: "item"
+				item: "elementalcraft:elementpipe_impaired"
+			}]
+			rewards: [{
+				id: "10AE3089BBEDCEBD"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			dependencies: [
+				"70A96CE61C8191C9"
+				"3BC86E4F4F74AE9C"
+			]
+			id: "7DF55AAC29181052"
+			tasks: [{
+				id: "4DBEDD9425B03B08"
+				type: "item"
+				item: "elementalcraft:elementpipe"
+			}]
+			rewards: [{
+				id: "776FE031FB2E4346"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			dependencies: [
+				"7DF55AAC29181052"
+				"2C1AA4355F597C2C"
+			]
+			id: "3EDCA3AA4AC37B94"
+			tasks: [{
+				id: "21C0CD6BA45F3156"
+				type: "item"
+				item: "elementalcraft:elementpipe_improved"
+			}]
+			rewards: [{
+				id: "255542041916B315"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			dependencies: ["4B7624003F6E48A7"]
+			id: "644D12387E0E5350"
+			tasks: [{
+				id: "63A57A3B6BA60494"
+				type: "item"
+				item: "elementalcraft:tank_small"
+			}]
+			rewards: [{
+				id: "52D5669342650337"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["1FA03DB31A5D26CF"]
+			id: "4B7624003F6E48A7"
+			tasks: [{
+				id: "5AB19EE7313B5E04"
+				type: "item"
+				item: "elementalcraft:extractor"
+			}]
+			rewards: [{
+				id: "6D5F6D41B16C6DCE"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.5d
+			dependencies: ["644D12387E0E5350"]
+			id: "3BC86E4F4F74AE9C"
+			tasks: [{
+				id: "3D6C65238C8B6560"
+				type: "item"
+				item: "elementalcraft:infuser"
+			}]
+			rewards: [{
+				id: "0DB23E111839E3CA"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			dependencies: ["644D12387E0E5350"]
+			id: "2C1AA4355F597C2C"
+			tasks: [{
+				id: "483CFB0121F0670B"
+				type: "item"
+				item: "elementalcraft:binder"
+			}]
+			rewards: [{
+				id: "7F88C197D1BE978B"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["2C1AA4355F597C2C"]
+			id: "23246BFBD33885EF"
+			tasks: [{
+				id: "08DFCA3DD8928C7F"
+				type: "item"
+				item: "elementalcraft:pureinfuser"
+			}]
+			rewards: [{
+				id: "37CA6E38C35E57E9"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["23246BFBD33885EF"]
+			id: "342D03A0EA28E888"
+			tasks: [{
+				id: "38C53B3B9DE63746"
+				type: "item"
+				item: "elementalcraft:pedestal_fire"
+			}]
+			rewards: [
+				{
+					id: "1052467924658549"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "7C73976362B70B00"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["23246BFBD33885EF"]
+			id: "03CF35A8B70F63DF"
+			tasks: [{
+				id: "3EBDC3214D8B206C"
+				type: "item"
+				item: "elementalcraft:pedestal_water"
+			}]
+			rewards: [
+				{
+					id: "332E58938EA73419"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "5173DD9D18FD20F2"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["23246BFBD33885EF"]
+			id: "38A749F8DD72CCAF"
+			tasks: [{
+				id: "18C70DD98A892249"
+				type: "item"
+				item: "elementalcraft:pedestal_earth"
+			}]
+			rewards: [
+				{
+					id: "5CE2147AC1941FE4"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "42FEB7AC9EA104DE"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["23246BFBD33885EF"]
+			id: "1066BB7E5B334900"
+			tasks: [{
+				id: "64CFEAE0EC4DBDAF"
+				type: "item"
+				item: "elementalcraft:pedestal_air"
+			}]
+			rewards: [
+				{
+					id: "203FFB2551ABF456"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "077CD2F488E0046D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: [
+				"2C1AA4355F597C2C"
+				"23246BFBD33885EF"
+			]
+			id: "53162FF13A80F592"
+			tasks: [{
+				id: "409167EAA0DEEC9F"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+			}]
+			rewards: [
+				{
+					id: "657A42AE1A0BD905"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "773EF4618B5B8457"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			dependencies: ["4FBC8C311F1D9CE2"]
+			id: "39C8874D47B97E68"
+			tasks: [{
+				id: "008B32610A0BD726"
+				type: "item"
+				item: "elementalcraft:purifier"
+			}]
+			rewards: [
+				{
+					id: "0425EA3B9C272929"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "47BB7AC3BB291D7E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			dependencies: ["4FBC8C311F1D9CE2"]
+			id: "5F6A512CEAE54351"
+			tasks: [{
+				id: "76430AF7E29ACFB8"
+				type: "item"
+				item: "elementalcraft:extractor_improved"
+			}]
+			rewards: [
+				{
+					id: "1454467ECE9607BB"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "01100C0E48C74F07"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			dependencies: ["4FBC8C311F1D9CE2"]
+			id: "5C7D7C3C9629DF67"
+			tasks: [{
+				id: "3BE3B889D24EA74D"
+				type: "item"
+				item: "elementalcraft:binder_improved"
+			}]
+			rewards: [
+				{
+					id: "5025468D948D38CE"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "3AC6700668D62CA6"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["23246BFBD33885EF"]
+			id: "4FBC8C311F1D9CE2"
+			tasks: [{
+				id: "568176C735B41B94"
+				type: "item"
+				item: "elementalcraft:purecrystal"
+			}]
+			rewards: [
+				{
+					id: "7C38AAFFBECC00B1"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "1E944C9476657048"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["4FBC8C311F1D9CE2"]
+			id: "77B3D4988A1AF219"
+			tasks: [{
+				id: "108E1C30B203894F"
+				type: "item"
+				item: "elementalcraft:firefurnace"
+			}]
+			rewards: [
+				{
+					id: "6A0B765B1C6F0161"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "67646700E5272A5A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["4FBC8C311F1D9CE2"]
+			id: "5581E0D5FBE1B033"
+			tasks: [{
+				id: "3FE2ABA6A022C2CB"
+				type: "item"
+				item: "elementalcraft:fireblastfurnace"
+			}]
+			rewards: [
+				{
+					id: "438DC5621B29E439"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "46D8C222C237653C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			dependencies: ["3BC86E4F4F74AE9C"]
+			id: "5BB4708286BB53D0"
+			tasks: [
+				{
+					id: "4A5B74BC6B121B33"
+					type: "item"
+					item: "elementalcraft:spell_desk"
+				}
+				{
+					id: "54CEEB020CFEF01F"
+					type: "item"
+					item: "elementalcraft:scroll_paper"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "7DF57C4FF35E7101"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 5.5d
+			dependencies: ["5BB4708286BB53D0"]
+			id: "4726917ED18E030C"
+			tasks: [{
+				id: "2C7738AD5387F48F"
+				type: "item"
+				item: "elementalcraft:focus"
+			}]
+			rewards: [{
+				id: "4D670845FA748C56"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			description: ["In this mod, you focus on harnessing the power of Starlight and the constellations. Remember that this mod is mostly effective on night time"]
+			id: "16CF05CE326F514E"
+			tasks: [{
+				id: "49F8E9EC1A9D2A37"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+			rewards: [{
+				id: "0773BED527457653"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			description: ["If you want to craft items you first need to craft a Resonating wand"]
+			dependencies: ["16CF05CE326F514E"]
+			id: "0E9D5A2A6255CB7A"
+			tasks: [{
+				id: "5CD81BAF9092C0ED"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			description: [
+				"To transform a crafting table to a luminous crafting table you need to find an ancient shrine and dig inside to find a crystal that will transform your crafting table"
+				"P.S create a hole above the crystal, to give it starlight"
+			]
+			dependencies: ["0E9D5A2A6255CB7A"]
+			id: "26D32F4E059FBD02"
+			tasks: [{
+				id: "38AA05A1DD2DE13E"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "03E1D45A061AFBAB"
+				type: "ftbmoney:money"
+				ftb_money: 450L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: ["Generates Liquid Starlight from Aquamarines and Rock crystals"]
+			dependencies: ["26D32F4E059FBD02"]
+			id: "102FCE49A6BB1D43"
+			tasks: [{
+				id: "128DB06267FABA26"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [{
+				id: "089815CDD0D3DF89"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: ["Used to bring more Starlight (check tome for multistructure), set the target Constellation of an attunement altar, or to provide items for an Iridescent Altar"]
+			dependencies: ["26D32F4E059FBD02"]
+			id: "1DB886FB474B46F5"
+			tasks: [{
+				id: "2992D3CF25C6956D"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+			rewards: [{
+				id: "24561DEAF3A3BD04"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			description: ["Second tier of crafting altar, unlocks more recipes. Is used throughout the Attunement chapter"]
+			dependencies: ["26D32F4E059FBD02"]
+			id: "5C843E33ABB74525"
+			tasks: [{
+				id: "14CBF0D2B78B1D34"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [
+				{
+					id: "58031BB79D1B551D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "651F3ED141FF8AE0"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			description: ["Used to locate high concentrations of starlight"]
+			dependencies: ["26D32F4E059FBD02"]
+			id: "006502C25CCF1484"
+			tasks: [{
+				id: "435A69BAE5ED8396"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C91A27CC45E62DD"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			description: ["Upgraded version of looking glass"]
+			dependencies: [
+				"5C843E33ABB74525"
+				"2FD3B1DCBB797917"
+			]
+			id: "78AB4182A4C59E8B"
+			tasks: [{
+				id: "50356DBFB62C40F0"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [
+				{
+					id: "3C5D67FA6A35F084"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "01232B08C8C51AF2"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			description: ["With the looking glass you can find constellations at night time that will help you later on in this mod"]
+			dependencies: ["26D32F4E059FBD02"]
+			id: "2FD3B1DCBB797917"
+			tasks: [{
+				id: "549D75E314602033"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "473AC6E7C2F4B489"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			description: ["It is used to attune Rock crystals, Celestial Crystals and players for further crafting, rituals, and PERKS"]
+			dependencies: ["5C843E33ABB74525"]
+			id: "4C9657B4CC39A277"
+			tasks: [{
+				id: "3CC103BFD3801ED6"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			rewards: [{
+				id: "41A08967DB73513F"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.0d
+			description: ["Used to teleport to other Celestial Gateaways (Check the tome for multistructure)"]
+			dependencies: ["5C843E33ABB74525"]
+			id: "5555037B63D729F3"
+			tasks: [{
+				id: "498573CF3414D85E"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "399BD99437F0ED70"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "48F1E928FAAA0545"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			dependencies: ["4C9657B4CC39A277"]
+			id: "4965DF3FBD519B32"
+			tasks: [{
+				id: "3B313763FB1B9EB0"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
+			rewards: [
+				{
+					id: "62BFF5946D27305E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "22219B6919407F40"
+					type: "ftbmoney:money"
+					ftb_money: 650L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 11.5d
+			description: ["Third tier of crafting altar, unlocks even more recipes. Is used throughout the Constellation chapter"]
+			dependencies: ["5C843E33ABB74525"]
+			id: "4A56F0EC6F911299"
+			tasks: [{
+				id: "6D8E3260BE2F4B16"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			rewards: [
+				{
+					id: "1C0B823B7F7F2609"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "3374DEF49EADDB9F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 14.5d
+			description: ["Final tier of crafting altar and is used throughout the Radiance chapter, Iridescent Altar's recipes also requires items to be placed on Spectral Relays surrounding the altar"]
+			dependencies: ["4A56F0EC6F911299"]
+			id: "133584E044DC46C5"
+			tasks: [{
+				id: "08B54745661E6BED"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+			rewards: [
+				{
+					id: "48E1BD63FEA7B62C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "156849BFA3E14398"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 11.0d
+			dependencies: ["4A56F0EC6F911299"]
+			id: "1E4AFDEDB38E9A7C"
+			tasks: [{
+				id: "6E07D6D1F5AFEBE0"
+				type: "item"
+				item: "astralsorcery:refraction_table"
+			}]
+			rewards: [
+				{
+					id: "1A1A3F15311F794B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "14B0165288A544D9"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			description: ["Is used to infuse various items with Starlight (Check JEI for recipes)"]
+			dependencies: ["4A56F0EC6F911299"]
+			id: "2CFF73013BF683A7"
+			tasks: [{
+				id: "32D0235E56C6CF99"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			rewards: [
+				{
+					id: "5744FBADAD7D7A1B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "2C11E4BE6654905E"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			description: ["Used to redirect Starlight in the Starlight network"]
+			dependencies: ["5C843E33ABB74525"]
+			id: "3728415CF8D90BCC"
+			tasks: [{
+				id: "1F891CD1E28AF63A"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C9AB8CD6EDAB7F0"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "1D6ED0DFACBB53A1"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 12.5d
+			description: ["Works similar to the crystal lens, but can redirect multiple beams from one prism. The amount of Starlight is divided between all outgoing beams"]
+			dependencies: ["4A56F0EC6F911299"]
+			id: "097B8C982286E5E3"
+			tasks: [{
+				id: "0BC177C10E980A46"
+				type: "item"
+				item: {
+					id: "astralsorcery:prism"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "38CC1423AEE9822B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "561373A2DE5DCC0D"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 12.5d
+			dependencies: ["4A56F0EC6F911299"]
+			id: "2F146DBDDFF87A6C"
+			tasks: [{
+				id: "23B18553248355BC"
+				type: "item"
+				item: "astralsorcery:tree_beacon"
+			}]
+			rewards: [
+				{
+					id: "47493C99B38C43DD"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "58B307C01413C917"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			description: ["Final Tier of looking glass. Used to find any Constellations"]
+			dependencies: ["133584E044DC46C5"]
+			id: "2F7990444495FEE1"
+			tasks: [{
+				id: "54739B5BA7A7B60F"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [
+				{
+					id: "2DCDB107B86612BB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2A453EA388FBB6B9"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 15.5d
+			description: ["Can be attuned to gain some very powerful effects. Each Constellations gives different effects."]
+			dependencies: ["133584E044DC46C5"]
+			id: "0ABBB17ACFA4158C"
+			tasks: [{
+				id: "1E1AFE3DA0B8F989"
+				type: "item"
+				item: {
+					id: "astralsorcery:mantle"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "314444631867A595"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "5F01577D724DA716"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 16.0d
+			description: ["Fluid storage block that can be used with a lightwell to automatically store Liquid Starlight. And interact with other Chalices to create different types of blocks"]
+			dependencies: ["133584E044DC46C5"]
+			id: "1C74D3B625F7A5C3"
+			tasks: [{
+				id: "55737C073EC5F623"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+			rewards: [
+				{
+					id: "0B934BB945BF0F62"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "000D4D6555A6AE44"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 16.0d
+			dependencies: ["133584E044DC46C5"]
+			id: "0ADC689D6B1A9FC5"
+			tasks: [{
+				id: "262CA413802E31C1"
+				type: "item"
+				item: "astralsorcery:fountain"
+			}]
+			rewards: [
+				{
+					id: "640D9CD33CF979B9"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "4045531C1FCD90A6"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 8.0d
+			description: ["Everything you need to know about Botania"]
+			id: "7A871E20B15809A4"
+			tasks: [{
+				id: "548602501D928C30"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "49AD09D7954BC345"
+				type: "ftbmoney:money"
+				ftb_money: 75L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 9.5d
+			description: ["Stores only mystical flowers"]
+			dependencies: ["7A871E20B15809A4"]
+			id: "2581C5F9F21BB917"
+			tasks: [{
+				id: "52C77EE050B8656B"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+			rewards: [{
+				id: "6BED1A12B20F184F"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 11.5d
+			description: ["Used to infuse petals and runes to create some generational and functional flowers"]
+			dependencies: ["2581C5F9F21BB917"]
+			id: "4966DC4C43B7B006"
+			tasks: [{
+				id: "00F045C5211A047E"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "7F2930B3D8E0EF3F"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 9.5d
+			subtitle: "Magic Wrench"
+			dependencies: ["2581C5F9F21BB917"]
+			id: "1A563899E336DD82"
+			tasks: [{
+				id: "2E743545BBDA4E5F"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "09DF4BA8F21EABBB"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 11.0d
+			description: ["Mostly used for converting Wood and Stone to Livingwood and Livingrock"]
+			dependencies: ["4966DC4C43B7B006"]
+			id: "538808F73D2FE528"
+			tasks: [{
+				id: "1C2E8CFFA532F43C"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "1C3595F6D8588339"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 10.0d
+			description: ["Mana storage, stores 1,000,000 Mana. Mana can be inserted into the Mana pool via a Mana Spreader"]
+			dependencies: ["538808F73D2FE528"]
+			id: "03D50EBCFE8FD89F"
+			tasks: [{
+				id: "67ED19C34189D137"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "6A5E4A17EF8C949F"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 11.5d
+			description: ["Used to transport Mana"]
+			dependencies: ["538808F73D2FE528"]
+			id: "1E34E59A5440A139"
+			tasks: [{
+				id: "1E3D9B375356E6C5"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "529DB5F8AF018B1E"
+				type: "ftbmoney:money"
+				ftb_money: 450L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 12.5d
+			description: ["Equally shares the mana it receives to mana pool around it."]
+			dependencies: ["538808F73D2FE528"]
+			id: "3F14EBE22C389004"
+			tasks: [{
+				id: "148C083D74AA7625"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+			rewards: [{
+				id: "2C1D7F4812505C16"
+				type: "ftbmoney:money"
+				ftb_money: 450L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 11.0d
+			dependencies: ["7C87612E29392822"]
+			id: "6E1E26BD73920BCF"
+			tasks: [{
+				id: "5AD00FB12A537CB9"
+				type: "item"
+				item: "botania:hydroangeas_motif"
+			}]
+			rewards: [{
+				id: "3116B503A12DA55E"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 11.0d
+			description: ["Produces mana from water sources, but only lasts 1 hour"]
+			dependencies: ["4966DC4C43B7B006"]
+			id: "7C87612E29392822"
+			tasks: [{
+				id: "5541BF61488C302F"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [{
+				id: "74DAC548D051507F"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 12.5d
+			description: ["Generating Flower, produces mana from any fuel expect lava"]
+			dependencies: ["4966DC4C43B7B006"]
+			id: "6040421A88A34BC5"
+			tasks: [{
+				id: "2284E5A52B635659"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "77C4714E4E096067"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 15.5d
+			description: ["Only used to craft Terrasteel. Requires 500,000 Mana for a single Terrasteel. Good time to use Spark"]
+			dependencies: ["74F1005757FCA069"]
+			id: "1F90F44A9C85AF3A"
+			tasks: [{
+				id: "2D5078BC7B117D69"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [
+				{
+					id: "1106C142AC99CA3B"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "08DE258B9CF5A50E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 14.0d
+			description: ["Used to craft Runes. (Check JEI for recipes)"]
+			dependencies: ["4966DC4C43B7B006"]
+			id: "74F1005757FCA069"
+			tasks: [{
+				id: "27AD0828781988D1"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "282E27DB5F3731D6"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 16.5d
+			dependencies: ["1F90F44A9C85AF3A"]
+			id: "552D8B8AA880C89E"
+			tasks: [{
+				id: "692F9E7B0E35D7FA"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "796EA90F7E7514B1"
+				type: "loot"
+				table_id: 28899073401794277L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 13.0d
+			description: ["Is used to transport huge amount of Mana. Used mostly on Terrestrial Agglomeration Plate"]
+			dependencies: [
+				"3F14EBE22C389004"
+				"1E34E59A5440A139"
+			]
+			id: "3F6DC057084E3D1B"
+			tasks: [{
+				id: "35B23C5DC95932E4"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "659B9E419841AD2F"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 15.5d
+			description: ["Produces Mana by consuming Lava around it. (ca 5 minutes cooldown)"]
+			dependencies: ["74F1005757FCA069"]
+			id: "3F6E2EC8E6609F68"
+			tasks: [{
+				id: "0C6200BD2F8EAC61"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "6DB960B9341AD528"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 16.5d
+			description: ["Produces Mana by consuming Experience"]
+			dependencies: ["74F1005757FCA069"]
+			id: "357E5B0B18827446"
+			tasks: [{
+				id: "3A766FF4B02211B3"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "4194A25840F6CD3E"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 14.5d
+			description: ["Produces Mana by consuming Leaves"]
+			dependencies: ["74F1005757FCA069"]
+			id: "5CDABC7CBB9E7AA1"
+			tasks: [{
+				id: "18910D0BE7BA171F"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+			rewards: [{
+				id: "49FE9C8032673A6F"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 17.0d
+			description: ["Produces Mana by consuming food items"]
+			dependencies: ["74F1005757FCA069"]
+			id: "5ADE88A159073DED"
+			tasks: [{
+				id: "52410BCE9524C891"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+			rewards: [{
+				id: "2FF98751E2A3609A"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 13.5d
+			description: ["Produces Mana from cakes"]
+			dependencies: ["74F1005757FCA069"]
+			id: "3F95BF0E19EEC473"
+			tasks: [{
+				id: "254CD6ADB89AB0DD"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "56CE70190E0BD58A"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 16.5d
+			description: ["Produces Mana by absorbing the explosion of a TNT block"]
+			dependencies: ["74F1005757FCA069"]
+			id: "5158BFCE38E90646"
+			tasks: [{
+				id: "20B8228BF2D49993"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "31A0E0C983E1CA74"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 17.5d
+			description: ["Allows players to exchange certain blocks and items. (Check JEI for trades)"]
+			dependencies: ["552D8B8AA880C89E"]
+			id: "40BE8A0853D010A1"
+			tasks: [
+				{
+					id: "102911B09F420D38"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "59AE7D89050F741B"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "659A3F5E05316205"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "41E834FC37B5CC8A"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 16.5d
+			description: ["End-game resource"]
+			dependencies: ["40BE8A0853D010A1"]
+			id: "6E6BCF6A42C85EBB"
+			tasks: [{
+				id: "5A736EE84BAC4046"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 15.5d
+			description: ["Upgraded version of the Mana Spreader"]
+			dependencies: ["6E6BCF6A42C85EBB"]
+			id: "54E4373ED970836D"
+			tasks: [{
+				id: "35939D7320ACBE8F"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [
+				{
+					id: "080EDD69528E6B1B"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "1AA7A4A26096FC2C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 14.5d
+			dependencies: ["6E6BCF6A42C85EBB"]
+			id: "622E6D56E619B195"
+			tasks: [{
+				id: "411FA22434DAEA3C"
+				type: "item"
+				item: "botania:prism"
+			}]
+			rewards: [
+				{
+					id: "12236D7D8D69F104"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "37C84BF54A6995C6"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 14.5d
+			subtitle: "RAINBOW"
+			dependencies: ["6E6BCF6A42C85EBB"]
+			id: "2FEF971979F0A553"
+			tasks: [{
+				id: "569F6A71BB052B52"
+				type: "item"
+				item: "botania:fabulous_pool"
+			}]
+			rewards: [
+				{
+					id: "7AAF489951BB425E"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "06AA6F656345DE80"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 17.0d
+			description: ["Produces Mana by consuming Wool of specific colors"]
+			dependencies: ["6E6BCF6A42C85EBB"]
+			id: "37CF9DEF6404B92B"
+			tasks: [{
+				id: "61E3164B2028E894"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+			rewards: [
+				{
+					id: "7F61B696DA4FD4D2"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "0BD604A67435213F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 18.0d
+			description: ["Produces Mana by consuming other Botania flowers"]
+			dependencies: ["6E6BCF6A42C85EBB"]
+			id: "76CFDC3E36805547"
+			tasks: [{
+				id: "2A35D7D02412BFA3"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+			rewards: [
+				{
+					id: "201EA8CEDA66B89B"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "443C9C0522F878B8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 15.0d
+			description: ["Is used to build the structure for the Ritual of Gaia. If used in place of Bookshelf near Enchanting Table, enchanting level will increase by 30"]
+			dependencies: ["6E6BCF6A42C85EBB"]
+			id: "4A5C639869CE21DA"
+			tasks: [{
+				id: "63631E13C22A23A2"
+				type: "item"
+				item: "botania:gaia_pylon"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "2AC0ECD8FDAB1DDD"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "61A793D5D1A5AB88"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: 15.0d
+			description: ["Obtained from Gaia Guardian. Used to craft some powerful Baubles and more"]
+			dependencies: ["4A5C639869CE21DA"]
+			id: "6CCF7F7E5472E110"
+			tasks: [{
+				id: "4D81733CF822024E"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [
+				{
+					id: "606C3B2CC13118D0"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "4BAE78067DB4932F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: 15.0d
+			description: ["Can be used to summon the hard version of Gaia Guardian"]
+			dependencies: ["6CCF7F7E5472E110"]
+			id: "3FE602F70364270C"
+			tasks: [{
+				id: "46AC547D1F11E8AE"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "31D7F5D60FA056D8"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 3.0d
+			id: "655DD925922FCC51"
+			tasks: [{
+				id: "264A2A0D838187FE"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+			rewards: [{
+				id: "2596E521432405DB"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 0.0d
+			dependencies: ["45AECB11745A927D"]
+			id: "6A34E83ED7EB00C2"
+			tasks: [{
+				id: "42F2F53C71B6150B"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "2543B85B40D81B31"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -1.5d
+			dependencies: ["6A34E83ED7EB00C2"]
+			id: "655C0E429F19CDAA"
+			tasks: [{
+				id: "7D316C6AEFD06FB7"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "668814D4F259B1D9"
+					type: "ftbmoney:money"
+					ftb_money: 650L
+				}
+				{
+					id: "443B8CAA8FFE01AF"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -1.5d
+			dependencies: ["655C0E429F19CDAA"]
+			id: "6CE06D0F272A336C"
+			tasks: [{
+				id: "098C367DAC8DF809"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: {
+						souls: 256.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "3927A6A044505C44"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -1.5d
+			dependencies: ["6CE06D0F272A336C"]
+			id: "37FB55EA9007DFCC"
+			tasks: [{
+				id: "43A3EB39244A843C"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 1024.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "26E248A536123E2F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "78296D26A116B189"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+			]
+		}
+		{
+			x: -21.0d
+			y: -1.5d
+			dependencies: ["37FB55EA9007DFCC"]
+			id: "13A85F496115BDC6"
+			tasks: [{
+				id: "5A4396FD0A332AF7"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 4096.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "781086E90F6F4E96"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2FD3B8F9AD0C7027"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 0.5d
+			dependencies: ["6A34E83ED7EB00C2"]
+			id: "3B3D771070368A29"
+			tasks: [{
+				id: "22EC2FACBC748544"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05307370A87253A9"
+					type: "ftbmoney:money"
+					ftb_money: 650L
+				}
+				{
+					id: "4A9E63214D96C55D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: 0.5d
+			dependencies: ["3B3D771070368A29"]
+			id: "03F356DA98D2B917"
+			tasks: [{
+				id: "611E9A62E59888FE"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "721086C9AB2DDCB6"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 2.0d
+			dependencies: ["3B3D771070368A29"]
+			id: "0EBE3660F403A98C"
+			tasks: [{
+				id: "5F588310C87856BA"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulpickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "69ABDDD0E8485A87"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 2.0d
+			dependencies: ["3B3D771070368A29"]
+			id: "5E056E6B00190C44"
+			tasks: [{
+				id: "1823463C3D7E608F"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulshovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0288D578E59DEB77"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			dependencies: ["655DD925922FCC51"]
+			id: "45AECB11745A927D"
+			tasks: [{
+				id: "67680AA534E983B5"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [
+				{
+					id: "79596D51BB3A2569"
+					type: "ftbmoney:money"
+					ftb_money: 650L
+				}
+				{
+					id: "1DBE35B53F13695D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -1.5d
+			subtitle: "Pricking your fingers"
+			dependencies: ["45AECB11745A927D"]
+			id: "063279528F3BC2B0"
+			tasks: [{
+				id: "3F106258DF4FE329"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2F8DC3D0B2A9AA1C"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -2.5d
+			dependencies: ["45AECB11745A927D"]
+			id: "2317D11B1869AD84"
+			tasks: [{
+				id: "27FB415E264BE30E"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "770068049043A337"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -2.5d
+			dependencies: ["2317D11B1869AD84"]
+			id: "738462E539C83C52"
+			tasks: [{
+				id: "62C57EF523DEB2D6"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [{
+				id: "5D07201F5FF78511"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: -17.5d
+			y: -2.5d
+			dependencies: ["738462E539C83C52"]
+			id: "1A7EC8751DBBD139"
+			tasks: [{
+				id: "080C6B5CF7BDAA48"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [
+				{
+					id: "7631F17857BB0567"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "67E48CC4A9208721"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -19.0d
+			y: -2.5d
+			dependencies: ["1A7EC8751DBBD139"]
+			id: "6F198CC8C385272F"
+			tasks: [{
+				id: "29B06FA59192936A"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [
+				{
+					id: "287E5A6B85D5EAF5"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "4677312DC6FDE301"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -4.0d
+			dependencies: ["08EB3B79317587F1"]
+			id: "7294E0DDE66947A5"
+			tasks: [{
+				id: "5525A58E4F0CACFA"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+			rewards: [{
+				id: "0C5762326482B563"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -13.5d
+			y: -3.5d
+			dependencies: ["45AECB11745A927D"]
+			id: "08EB3B79317587F1"
+			tasks: [{
+				id: "4CE3BB2F060E5F1D"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [{
+				id: "5F266F6DA6ACCAE8"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			dependencies: ["45AECB11745A927D"]
+			id: "384CE4F121E4EAE3"
+			tasks: [{
+				id: "26440BAD538C75ED"
+				type: "item"
+				item: "bloodmagic:incensealtar"
+			}]
+			rewards: [{
+				id: "14331FE303011E56"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.0d
+			dependencies: ["1889846A90D42983"]
+			id: "2B6AFBB16E43A194"
+			tasks: [{
+				id: "091FD89885558BDB"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "66FB254D3FDC0B5E"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.5d
+			dependencies: ["08EB3B79317587F1"]
+			id: "1889846A90D42983"
+			tasks: [{
+				id: "4DAEFD6A56F5279B"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [{
+				id: "325B3421670BEB81"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.5d
+			dependencies: ["063279528F3BC2B0"]
+			id: "7C1F66EC4578A6FF"
+			tasks: [{
+				id: "272DADF20AF4585C"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [{
+				id: "682347CC9B9B491F"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 1.5d
+			dependencies: ["6A34E83ED7EB00C2"]
+			id: "12B036275550F568"
+			tasks: [{
+				id: "28B77014A95DE3F4"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+			rewards: [{
+				id: "45572413B7FC1F0B"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 2.5d
+			dependencies: ["12B036275550F568"]
+			id: "72E0C7902A0024B4"
+			tasks: [{
+				id: "1EFB902129AB9AF3"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+			rewards: [{
+				id: "362922E24D40BC62"
+				type: "ftbmoney:money"
+				ftb_money: 1250L
+			}]
+		}
+		{
+			title: "Eidolon"
+			x: -18.5d
+			y: 8.0d
+			description: ["I cannot add every single ritual to this questline so the book will help you ALOT!"]
+			size: 1.5d
+			id: "02464900C729916A"
+			tasks: [
+				{
+					id: "53892F7D19401A6C"
+					type: "item"
+					item: "eidolon:pewter_ingot"
+				}
+				{
+					id: "47E691357DB2DF5B"
+					type: "item"
+					item: "eidolon:codex"
+				}
+			]
+			rewards: [{
+				id: "56105B4BB052AC08"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -21.0d
+			y: 8.0d
+			description: ["Enchanted Ash prevents undead creatures from crossing it, just like real life!"]
+			dependencies: ["02464900C729916A"]
+			id: "5D85C41059A4C5FC"
+			tasks: [{
+				id: "4BB70227A702EA0F"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+			}]
+			rewards: [{
+				id: "29409C6DBA005AE0"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -23.0d
+			y: 9.5d
+			description: ["The central point for rituals."]
+			dependencies: ["02464900C729916A"]
+			size: 1.3d
+			id: "7CBF6FCD25813331"
+			tasks: [{
+				id: "1FFEE7D2311C9852"
+				type: "item"
+				item: "eidolon:brazier"
+			}]
+			rewards: [{
+				id: "5C0FBA536DD0D9C2"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -24.5d
+			y: 9.0d
+			description: ["An Item Receptacle that can hold assisting items for a Brazier."]
+			dependencies: ["7CBF6FCD25813331"]
+			id: "4275BFEFFD04BAC9"
+			tasks: [{
+				id: "1977AAA68E26E3F4"
+				type: "item"
+				item: "eidolon:stone_hand"
+			}]
+			rewards: [{
+				id: "60C981934FEA700C"
+				type: "ftbmoney:money"
+				ftb_money: 75L
+			}]
+		}
+		{
+			x: -23.0d
+			y: 8.0d
+			description: ["A different Receptacle for rituals, needs to be used in specific rituals instead of a hand."]
+			dependencies: ["7CBF6FCD25813331"]
+			id: "38E92F669E739F8E"
+			tasks: [{
+				id: "22445CCF64F0D8E8"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+			rewards: [{
+				id: "7546BE1FD3B8ADD6"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 9.5d
+			dependencies: ["02464900C729916A"]
+			size: 1.4d
+			id: "2AA21CBC23CF6B22"
+			tasks: [{
+				id: "78D224C117A6D032"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [{
+				id: "3FB55C421C728DED"
+				type: "ftbmoney:money"
+				ftb_money: 275L
+			}]
+		}
+		{
+			x: -24.0d
+			y: 10.5d
+			description: ["Obtainable through a ritual."]
+			dependencies: ["7CBF6FCD25813331"]
+			id: "2CA870EC2725626C"
+			tasks: [{
+				id: "55A293E97644A47E"
+				type: "item"
+				item: {
+					id: "eidolon:sapping_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C1D6D825FAC58D3"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "74BD0D40DD86B4B1"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -22.0d
+			y: 10.5d
+			description: ["Acquired through a ritual."]
+			dependencies: ["7CBF6FCD25813331"]
+			id: "68CF3337175B3936"
+			tasks: [{
+				id: "76676F3234158C0C"
+				type: "item"
+				item: "eidolon:sanguine_amulet"
+			}]
+			rewards: [
+				{
+					id: "4ACAB8824124BC3D"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "0384A5DB4FF4EE2E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 10.0d
+			dependencies: ["2AA21CBC23CF6B22"]
+			id: "4D1A6602C8FEB359"
+			tasks: [{
+				id: "31A826EC6FDB6A57"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+			rewards: [{
+				id: "27351E217D2F9164"
+				type: "ftbmoney:money"
+				ftb_money: 550L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 11.0d
+			dependencies: ["2AA21CBC23CF6B22"]
+			id: "1A1797397C0441DB"
+			tasks: [{
+				id: "12116CF6A20D8B5B"
+				type: "item"
+				item: "eidolon:ender_calx"
+			}]
+			rewards: [{
+				id: "66DA7D08D6C7C6BF"
+				type: "ftbmoney:money"
+				ftb_money: 550L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 11.0d
+			dependencies: ["2AA21CBC23CF6B22"]
+			id: "4E54558EBB7B5F51"
+			tasks: [{
+				id: "1728FEB26B0BB3DF"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+			rewards: [
+				{
+					id: "315F7D28F18E953B"
+					type: "ftbmoney:money"
+					ftb_money: 550L
+				}
+				{
+					id: "2AF81DF66DEE2C49"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 10.0d
+			dependencies: ["2AA21CBC23CF6B22"]
+			id: "1FC071CDC794B4A7"
+			tasks: [{
+				id: "1B759772F33847F8"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+			rewards: [
+				{
+					id: "5244145E30D6F2F3"
+					type: "ftbmoney:money"
+					ftb_money: 550L
+				}
+				{
+					id: "2FF560550DAD1D26"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 7.5d
+			description: ["Instead of using a brewing stand, you can use an Apothecary Stand which is the same except for using a Crucible instead of Blaze Powder."]
+			dependencies: [
+				"02464900C729916A"
+				"2AA21CBC23CF6B22"
+			]
+			id: "701A25B0143378D0"
+			tasks: [{
+				id: "4EDE414D02A151A1"
+				type: "item"
+				item: "eidolon:wooden_brewing_stand"
+			}]
+			rewards: [{
+				id: "68224897A5AC76E2"
+				type: "ftbmoney:money"
+				ftb_money: 165L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 5.5d
+			description: ["Enchanting at the cost of Souls"]
+			dependencies: ["62B301E9C1348918"]
+			id: "60BABD30925B2D99"
+			tasks: [{
+				id: "08300F68360A630E"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [{
+				id: "5ED05990BC290DED"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -19.0d
+			y: 5.0d
+			dependencies: ["02464900C729916A"]
+			size: 1.5d
+			id: "62B301E9C1348918"
+			tasks: [{
+				id: "5DD0CE0ABC2C16A8"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [{
+				id: "5AB4F0D04BF9983B"
+				type: "ftbmoney:money"
+				ftb_money: 450L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 4.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "6236ED745A39CC47"
+			tasks: [
+				{
+					id: "35E0BABDD528AD3E"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "11FFA2CC30108B80"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2082B0848D071C35"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "640B1316DF4C003E"
+					type: "ftbmoney:money"
+					ftb_money: 1550L
+				}
+				{
+					id: "14F795DF3AABE0A8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: 3.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "2DDEC7BF6B7B871D"
+			tasks: [{
+				id: "1D42F50A99BDDA6B"
+				type: "item"
+				item: "eidolon:void_amulet"
+			}]
+			rewards: [
+				{
+					id: "446BA15A03C64C41"
+					type: "ftbmoney:money"
+					ftb_money: 700L
+				}
+				{
+					id: "3DA74D52F57EB909"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: 3.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "56D9E53BE6260DB0"
+			tasks: [{
+				id: "22F994F53DE93E20"
+				type: "item"
+				item: "eidolon:warded_mail"
+			}]
+			rewards: [
+				{
+					id: "51995542DDDF7268"
+					type: "ftbmoney:money"
+					ftb_money: 700L
+				}
+				{
+					id: "39E966973F1055A9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 4.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "49C57B307C51CFAB"
+			tasks: [{
+				id: "39C3B1CAA841EA31"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "44DFBF20D9F26627"
+					type: "ftbmoney:money"
+					ftb_money: 700L
+				}
+				{
+					id: "4BFB225A5E5B1441"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -19.5d
+			y: 3.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "6110ACF9BA7A18AF"
+			tasks: [{
+				id: "0035993F594E2159"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -20.5d
+			y: 3.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "04D4D27632066D23"
+			tasks: [{
+				id: "35622CAE4438AEB7"
+				type: "item"
+				item: {
+					id: "eidolon:cleaving_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "296BE1AFC6BE5208"
+					type: "ftbmoney:money"
+					ftb_money: 700L
+				}
+				{
+					id: "3B99AA43ACC58BD5"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 5.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "4B944BA39AE375DF"
+			tasks: [{
+				id: "5339FDD3EEDAE49C"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+			rewards: [
+				{
+					id: "6576ADDC383DB38E"
+					type: "ftbmoney:money"
+					ftb_money: 700L
+				}
+				{
+					id: "6A80312CDB9CFF82"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: 6.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "27E79DA905BFC230"
+			tasks: [{
+				id: "00AED0AF7E3DB19B"
+				type: "item"
+				item: "eidolon:mind_shielding_plate"
+			}]
+			rewards: [
+				{
+					id: "1FC691C188F36291"
+					type: "ftbmoney:money"
+					ftb_money: 700L
+				}
+				{
+					id: "658AC0EA473E41C9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -21.0d
+			y: 6.5d
+			dependencies: ["62B301E9C1348918"]
+			id: "442504FB84D37489"
+			tasks: [{
+				id: "41F05167D3BAA7BB"
+				type: "item"
+				item: "eidolon:gravity_belt"
+			}]
+		}
+		{
+			x: -18.5d
+			y: 10.0d
+			dependencies: ["02464900C729916A"]
+			id: "1FA655E8C8C137DC"
+			tasks: [{
+				id: "25422DDF770814F3"
+				type: "item"
+				item: "eidolon:wooden_altar"
+			}]
+			rewards: [{
+				id: "4A652D34A32369B6"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 12.5d
+			dependencies: ["1FA655E8C8C137DC"]
+			id: "2662DD2600A22D24"
+			tasks: [{
+				id: "0A7F3931E9061F18"
+				type: "item"
+				item: "eidolon:stone_altar"
+			}]
+			rewards: [{
+				id: "21A800FD86CD4B11"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 10.0d
+			dependencies: ["1FA655E8C8C137DC"]
+			id: "10E5E48F35B790C5"
+			tasks: [{
+				id: "23A3BE90EDB1ED86"
+				type: "item"
+				item: "eidolon:straw_effigy"
+			}]
+			rewards: [{
+				id: "3ED156D29390E47E"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 12.5d
+			dependencies: ["2662DD2600A22D24"]
+			id: "09167AE9DA2C252B"
+			tasks: [{
+				id: "404C33FBA70FED79"
+				type: "item"
+				item: "eidolon:unholy_effigy"
+			}]
+			rewards: [{
+				id: "696ED8C5A7351629"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -20.0d
+			y: 10.0d
+			dependencies: ["1FA655E8C8C137DC"]
+			id: "329874FD55A236A2"
+			tasks: [{
+				id: "07C5307C1173833D"
+				type: "item"
+				title: "Any #forge:heads"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:heads"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E2BDD42D6C81759"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: -20.0d
+			y: 11.5d
+			dependencies: ["1FA655E8C8C137DC"]
+			id: "49D4A4CED2679E84"
+			tasks: [{
+				id: "420744C39F3F8AB8"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "7A0C1FFA34DF218A"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 11.0d
+			dependencies: ["1FA655E8C8C137DC"]
+			id: "4FF51C0B5AF9E6C4"
+			tasks: [{
+				id: "60771BC373FE0975"
+				type: "item"
+				item: "eidolon:candle"
+			}]
+			rewards: [{
+				id: "3A52309FA67D4599"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			dependencies: ["0B2A7B7F622E582A"]
+			id: "55636A5CC711E29F"
+			tasks: [{
+				id: "72BA5E5006B55F8C"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2A7904C86229C2BC"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "65C84FAD7A34927C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Occultism"
+			x: -2.0d
+			y: -1.5d
+			description: [
+				"Demon's Dream Fruit allows you to see and interact with otherworldy things."
+				"Throwing it to the ground and burning it with flint and steel creates a special type of fire called Spiritfire!"
+			]
+			id: "7F657083D2A0D916"
+			tasks: [{
+				id: "6364D3C1F8EFDE67"
+				type: "item"
+				item: {
+					id: "occultism:datura"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "23BA31AF0800965D"
+				type: "ftbmoney:money"
+				ftb_money: 65L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			dependencies: ["6846FFE5745F1B89"]
+			id: "0B2A7B7F622E582A"
+			tasks: [{
+				id: "0BBE7E6BAF81A5F6"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "647F6D65FF493B94"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			description: ["Starting with Rituals!"]
+			dependencies: ["7F657083D2A0D916"]
+			id: "1FC42A8331A56885"
+			tasks: [
+				{
+					id: "72D56ACF41593BF3"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0FF4C394743D5939"
+					type: "item"
+					item: {
+						id: "occultism:brush"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7BFDA359358CAC67"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["1FC42A8331A56885"]
+			id: "6846FFE5745F1B89"
+			tasks: [
+				{
+					id: "48160FA56C3F6BB6"
+					type: "item"
+					item: {
+						id: "occultism:sacrificial_bowl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3DBE079863AA736E"
+					type: "item"
+					item: {
+						id: "occultism:candle_white"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3D013DC9FC89604B"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["7F657083D2A0D916"]
+			id: "14EF3674CA111302"
+			tasks: [{
+				id: "63BEB203A75FB216"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3697256DD8450F99"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+	]
+}

@@ -1,0 +1,63 @@
+// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
+const colors = [
+    'cyan',
+    'purple',
+    'blue',
+    'brown',
+    'green',
+    'red',
+    'black',
+    'white',
+    'orange',
+    'magenta',
+    'light_blue',
+    'yellow',
+    'lime',
+    'pink',
+    'gray',
+    'light_gray'];
+
+const AllMaterials = [
+    'iron',
+    'gold',
+    'copper',
+    'silver',
+    'zinc',
+    'brass',
+    'lead',
+    'tin',
+    'nickel',
+    'aluminum',
+    'uranium',
+    'bronze',
+    'electrum',
+    'constantan',
+    'steel',
+    'osmium',
+    'coal',
+    'charcoal',
+    'obsidian',
+    'ender',
+    'fluix',
+    'fluorite',
+    'invar',
+    'signalum',
+    'lumium',
+    'enderium'
+];
+
+const RS = [
+    '_grid',
+    '_crafting_grid',
+    '_controller',
+    '_creative_controller',
+    '_network_transmitter',
+    '_disk_manipulator',
+    '_crafter',
+    '_crafting_monitor',
+    '_wireless_transmitter',
+    '_security_manager',
+    '_detector',
+    '_relay',
+    '_fluid_grid'
+];

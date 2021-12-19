@@ -1,0 +1,539 @@
+{
+	id: "24E88D1097B3DE63"
+	group: "72AF1BD9594D1077"
+	order_index: 1
+	filename: "creative_items"
+	title: "Creative Items"
+	icon: "extendedcrafting:ultimate_singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "47A09F01106FD88D"
+			tasks: [{
+				id: "4B716452AE23DB56"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [
+				{
+					id: "4B2ECA44CC005BE0"
+					type: "ftbmoney:money"
+					ftb_money: 500000L
+				}
+				{
+					id: "11B80ABCA56DBE98"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "47DF944695B74B49"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "6124E0DAC985A993"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["47A09F01106FD88D"]
+			id: "29526B7B61AFCFEB"
+			tasks: [{
+				id: "20619B44A0F97E3B"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [
+				{
+					id: "736373720476C60F"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "00F1ADDE87981960"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "7084083786293140"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "62714415C232919D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["29526B7B61AFCFEB"]
+			id: "110B3A491CF09D5B"
+			tasks: [{
+				id: "457818006DFB88C3"
+				type: "item"
+				item: "kubejs:ancientingot"
+			}]
+			rewards: [
+				{
+					id: "7F675691BB400069"
+					type: "ftbmoney:money"
+					ftb_money: 50000000L
+				}
+				{
+					id: "5CE8724BB219F70F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0C5AF530E3A2A127"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "6B0962775B225FA9"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: ["Won't give you special powers."]
+			dependencies: ["110B3A491CF09D5B"]
+			id: "707DBA642F78DB80"
+			tasks: [{
+				id: "4B36CC9459E7AB5D"
+				type: "item"
+				item: {
+					id: "kubejs:ancientarrow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "39124D4D03E2994E"
+					type: "ftbmoney:money"
+					ftb_money: 250000L
+				}
+				{
+					id: "7652A9D31567D2EE"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "15B6DCE659B19B63"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "72E2E9B542E5926D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "7C89326C647A0C14"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["110B3A491CF09D5B"]
+			id: "6950C46EB391B8AC"
+			tasks: [{
+				id: "544961256B465132"
+				type: "item"
+				item: {
+					id: "refinedstorage:creative_portable_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "220B9132A1A8CD2A"
+					type: "ftbmoney:money"
+					ftb_money: 250000L
+				}
+				{
+					id: "07A1F63CBFBDA3F6"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "6ADB7ECC94952612"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "7EF2C9D18B7AB39C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "290E9920E2419E5D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["110B3A491CF09D5B"]
+			id: "5A9BC310FB619A4E"
+			tasks: [{
+				id: "64C9CBF9586B251A"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+			rewards: [
+				{
+					id: "352AF2F5BD033A9A"
+					type: "ftbmoney:money"
+					ftb_money: 250000L
+				}
+				{
+					id: "19C3F4CC34DB8F00"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "1FDA44D1908B4A66"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "262CAE6F2376E648"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "11F8E510F66B4435"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["110B3A491CF09D5B"]
+			id: "19EA113189217C19"
+			tasks: [{
+				id: "0DAC983529C11045"
+				type: "item"
+				item: {
+					id: "ironjetpacks:creative_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "754DDE6456028A78"
+					type: "ftbmoney:money"
+					ftb_money: 250000L
+				}
+				{
+					id: "31AFA7F1AEBF96CD"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "7AD43A4E72E51D1E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "10AB02852FC423BB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "075F387C85A07F97"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["110B3A491CF09D5B"]
+			id: "5925523D4254FBDB"
+			tasks: [{
+				id: "734883A6CD2A43CD"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [
+				{
+					id: "3299D87A084A0524"
+					type: "ftbmoney:money"
+					ftb_money: 250000L
+				}
+				{
+					id: "6A8B9488C1061C58"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "1B43C8055FB955ED"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0E34D99B7643A97F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "084EBE8797EEC2FF"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["110B3A491CF09D5B"]
+			id: "3082656667F6A48B"
+			tasks: [{
+				id: "1CA5167EA4E96D36"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1AD45CB202D1A8D7"
+					type: "ftbmoney:money"
+					ftb_money: 250000L
+				}
+				{
+					id: "645C6956A9541F75"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+				{
+					id: "2DDB65C756757030"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "37DBF4385D421535"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "4467CDE7C521AA62"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["110B3A491CF09D5B"]
+			id: "6CEDDC962D88A3BD"
+			tasks: [{
+				id: "2B3E9CD40679E114"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [
+				{
+					id: "6C9EE084A14F957F"
+					type: "ftbmoney:money"
+					ftb_money: 100000000L
+				}
+				{
+					id: "44B2CEE366500CA8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2144709F015211D9"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "451FF7C65C4B271A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["110B3A491CF09D5B"]
+			id: "7B375A41D7A9B6E1"
+			tasks: [{
+				id: "40576D490C4DCD42"
+				type: "item"
+				item: "create:handheld_worldshaper"
+			}]
+			rewards: [
+				{
+					id: "5C2B078A97AC286C"
+					type: "ftbmoney:money"
+					ftb_money: 10000000L
+				}
+				{
+					id: "61BC3F6FF3F83EFC"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "78EE47E1A3823373"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "6283E1960C0ABF6E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "26504BA0726D9722"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["110B3A491CF09D5B"]
+			id: "0A30E4B7C781CF75"
+			tasks: [{
+				id: "4BAF521A744D48E3"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [
+				{
+					id: "7A3F9F5146CFEDAB"
+					type: "ftbmoney:money"
+					ftb_money: 1250000L
+				}
+				{
+					id: "4F04447019CEE63D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0F1B4E0EA1B035F8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "57040763CDAD5AB7"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2D17A37CA70D2E10"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["707DBA642F78DB80"]
+			id: "502DA3266AECBE4F"
+			tasks: [
+				{
+					id: "7A0CC53CAB3A7F15"
+					type: "item"
+					item: {
+						id: "kubejs:ancient_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6467D48C35661855"
+					type: "item"
+					item: {
+						id: "kubejs:ancient_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74B7C016CFB2CB1E"
+					type: "item"
+					item: {
+						id: "kubejs:ancient_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63D7E9D824590CE7"
+					type: "item"
+					item: {
+						id: "kubejs:ancient_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "330C8E770250007E"
+					type: "ftbmoney:money"
+					ftb_money: 7500000L
+				}
+				{
+					id: "4163F45F61E821ED"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+	]
+}

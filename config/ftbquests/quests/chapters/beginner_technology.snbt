@@ -1,0 +1,2634 @@
+{
+	id: "0AF79C8F74FB2429"
+	group: "7BA60458025E99B0"
+	order_index: 1
+	filename: "beginner_technology"
+	title: "Beginner Technology"
+	icon: "refinedstorage:machine_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Crescent Hammer"
+			x: -8.5d
+			y: -1.0d
+			subtitle: "Trusty Wrench"
+			description: ["This mod's wrench is strangely called a hammer, but works all the same! right click to rotate, shift right click to pick things up!"]
+			dependencies: ["2DF4CD1522E06B1E"]
+			id: "0DEC3B359C3DBE6B"
+			tasks: [{
+				id: "5DCD0AB342B0B842"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [{
+				id: "74F4A660AFE062AC"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			subtitle: "Read all about it!"
+			description: ["Thermal Expansion, now known as the Thermal Series is a very handy tech mod to start with, being quite simple to use."]
+			id: "2DF4CD1522E06B1E"
+			tasks: [
+				{
+					id: "1369D940E1DC53AA"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+				}
+				{
+					id: "08945FBA6FFEBAEB"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "38F4CAB914A429F3"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			title: "Starting to make Machines"
+			x: -12.0d
+			y: -3.0d
+			subtitle: "Framing is Key"
+			description: ["Lets see what we can do with some old frames eh?"]
+			dependencies: ["2DF4CD1522E06B1E"]
+			size: 2.0d
+			id: "34E5BB50948CB926"
+			tasks: [{
+				id: "349A21CAB8D53F3C"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [{
+				id: "0C88EE5451AE4CDF"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			subtitle: "Servo'ing redstone since 1997!"
+			description: ["Redstone Servo's are useful crafting components for a wide variety of machines!"]
+			dependencies: ["2DF4CD1522E06B1E"]
+			size: 2.0d
+			id: "086E00FDC4B9C080"
+			tasks: [{
+				id: "6B66C2FEC2264744"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+			rewards: [{
+				id: "3D1A3F3549B3DB3D"
+				type: "ftbmoney:money"
+				ftb_money: 75L
+			}]
+		}
+		{
+			x: -12.0d
+			y: -5.5d
+			subtitle: "...When 2 become seperate as one!"
+			description: ["Ever want to split some items apart? accidentaly craft some extra magma cream? this block is for you! spinning your items around in this tumbledrye- er, CENTRIFUGE... will split items up!"]
+			dependencies: ["34E5BB50948CB926"]
+			id: "77E8F37D23ACF104"
+			tasks: [{
+				id: "354989A4952BCC73"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "7E0765C5042F72CF"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "4D7D5D4666549A25"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -5.0d
+			subtitle: "Now we're cooking with Flux!"
+			description: [
+				"Do i really need to explain this one? Furnace + RF = Powered Furnace!"
+				"Sidenote: The Redstone furnace may be capable of aditional recipies so please consult JEI!"
+			]
+			dependencies: ["34E5BB50948CB926"]
+			id: "78EE65D74804A0B5"
+			tasks: [{
+				id: "52781A8E4615AA8C"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [
+				{
+					id: "602A48E13834D566"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "2587B72722399044"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -4.0d
+			subtitle: "Hyrdaulic Press Channel"
+			description: ["Using this block and a particular item known as a \"Die\" you can crush items into various other items!"]
+			dependencies: ["34E5BB50948CB926"]
+			id: "229009645312EA73"
+			tasks: [{
+				id: "5694F3C14A6E7785"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [
+				{
+					id: "305F0E49D6A441A6"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "1C8758F875A83F22"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -2.5d
+			subtitle: "Ah'lloy there scurvy dog!"
+			description: ["The Induction Smelter is Thermal Series's alloy furnace. simply stick in 2 items and they will get smelted into a new alloy! can also be used to get more from your ore using slag!"]
+			dependencies: ["34E5BB50948CB926"]
+			id: "0768A5D7C5A5AA6B"
+			tasks: [{
+				id: "508A6DFC36FDD311"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [
+				{
+					id: "55D36878B2005E69"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "52DBB8DCD07C6C59"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -1.0d
+			subtitle: "Not to be confused with the Discord Member"
+			description: ["The Pyrolyzer will decompose solid items, like coal into other items and fluids! can be used as a means to get oil."]
+			dependencies: ["34E5BB50948CB926"]
+			id: "1B43C52DA8B1B43A"
+			tasks: [{
+				id: "6652E2060FE1238E"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [
+				{
+					id: "0B24B66862786978"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "5EF463BEA10DACF6"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -0.5d
+			subtitle: "Fluid Manipulation"
+			description: ["The Magma Crucible melts objects down into fluids, and the Fluid Encapsulator can imbue the fluid into certain items! (or buckets)"]
+			dependencies: ["34E5BB50948CB926"]
+			id: "3802229456AE1ACC"
+			tasks: [
+				{
+					id: "0016B87105771E57"
+					type: "item"
+					item: "thermal:machine_crucible"
+				}
+				{
+					id: "71229EF021E3B07D"
+					type: "item"
+					item: "thermal:machine_bottler"
+				}
+			]
+			rewards: [
+				{
+					id: "7BD80ABD0D0060FE"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "0EB5A7D642E30E3C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			subtitle: "For Tinkertown!"
+			description: ["The Tinkers Workbench is like an energetic enfuser and a fluid tank in one, while it cannot be automated it is a great manual worktable for handheld items"]
+			dependencies: ["2DF4CD1522E06B1E"]
+			id: "4E80486778551FAC"
+			tasks: [{
+				id: "28DC1275A95C4FC3"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			rewards: [{
+				id: "0DBF4532D3A6678A"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -2.0d
+			subtitle: "Power Storage"
+			description: ["Redstone Flux Cells can store power and transmit them through attached cables! "]
+			dependencies: ["2DF4CD1522E06B1E"]
+			id: "29A4F68A5FF3AEC4"
+			tasks: [
+				{
+					id: "44A7290B4CDD2001"
+					type: "item"
+					item: "thermal:energy_cell_frame"
+				}
+				{
+					id: "1D942F844F213592"
+					type: "item"
+					item: {
+						id: "thermal:energy_cell"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								EnergyMax: 1000000
+								EnergySend: 1000
+								Energy: 0
+								EnergyRecv: 1000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4E6CEE9A5CEB4C17"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6B9C753D7A9BA9D5"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			subtitle: "CHAAAAAAAARGE!"
+			description: ["The go-to block for recharing electrical devices, the Energetic infuser will recharge any items put into its input slot, and can be automated to output them to adjecent inventories or pipes."]
+			dependencies: ["2DF4CD1522E06B1E"]
+			id: "72042686351B1CE4"
+			tasks: [{
+				id: "698197D74D1D66FA"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+			rewards: [
+				{
+					id: "1B81125BA01E2C5E"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "7212B3B71B192A74"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			subtitle: "Housekeeping?"
+			description: ["The Vaccumulator Attracts nearby grounded items into its inventory! can also be filtered just in case you only want one or two items!"]
+			dependencies: ["086E00FDC4B9C080"]
+			id: "128626DF319ED6C8"
+			tasks: [{
+				id: "026C84948739C052"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			rewards: [
+				{
+					id: "3FC74D9146308641"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "1C669463A0BF05B7"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			subtitle: "Blub... Blub...."
+			description: ["The Aqueous Accumulator is a great infinite water source, simply place it next to 2 water source blocks!"]
+			dependencies: ["086E00FDC4B9C080"]
+			id: "32DCD82F3D7829A9"
+			tasks: [{
+				id: "42C2AA08DB056E2D"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			rewards: [
+				{
+					id: "6267832EE843B0EF"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "71181C7C570A150B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Buzzy Bees!"
+			description: ["Ever wanted to automate a beehive without angering the bees? look no further than the Hive Hopper!"]
+			dependencies: ["086E00FDC4B9C080"]
+			id: "0C5AB0A2F0EC52CA"
+			tasks: [{
+				id: "3BAD0C658D0BA330"
+				type: "item"
+				item: "thermal:device_hive_extractor"
+			}]
+			rewards: [
+				{
+					id: "1E3FADCA4A1C1AC6"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "4997A9E3CC070438"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Because you're hot and you're cold...."
+			description: ["A fancy cobble generator that extracts different stone based on the block underneath it!"]
+			dependencies: ["086E00FDC4B9C080"]
+			id: "6ABC25702349930A"
+			tasks: [{
+				id: "5C39CE92F62E5C0E"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [
+				{
+					id: "225617150BE7630E"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "0CF8258367250A7E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "Fabreeze"
+			description: ["Ever wanted to just have a pleasant aroma fill your room? well now you can with all new Fabree- wait this isnt Fabreeze? it just spreads potion effects in a small area with a slot for boosting reagents? darn.... gotta work on my sales pitch."]
+			dependencies: ["086E00FDC4B9C080"]
+			id: "7B816515A7387515"
+			tasks: [{
+				id: "09392F47DD16DF2D"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+			rewards: [
+				{
+					id: "2215C735A70D9D75"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "2CC37C3535B3BB48"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			subtitle: "Here Fishy Fishy..."
+			description: ["An automated fishing machine, requires a large body of water!"]
+			dependencies: ["086E00FDC4B9C080"]
+			id: "467F04391F2242E1"
+			tasks: [{
+				id: "231F7DC2B5BB0E45"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+			rewards: [
+				{
+					id: "31FD9A5F08113D35"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "7E37394AC91BEB11"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			subtitle: "Ctrl+C, Ctrl+V "
+			description: ["Need to copy machine settings quickly? look no further than Redprint!"]
+			dependencies: ["2DF4CD1522E06B1E"]
+			id: "462D6EFB855C0B1F"
+			tasks: [{
+				id: "7073070AFFBDCC94"
+				type: "item"
+				item: "thermal:redprint"
+			}]
+			rewards: [{
+				id: "7014693DDE51A5DF"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.5d
+			subtitle: "Fossil fuels!"
+			description: ["The Stirling Dynamo is a very simple generator, Coal or other fuels go in, Power go out, simple!"]
+			dependencies: ["2DF4CD1522E06B1E"]
+			id: "2BC1E4C0C7C277BD"
+			tasks: [{
+				id: "4DFB6E675E93B7CA"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [
+				{
+					id: "70335DE334938BF3"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "772023EC60D15777"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -5.5d
+			subtitle: "We're moving to the Nether!"
+			description: ["The magmatic dynamo requires a steady stream of lava to operate, but its very easy power!"]
+			dependencies: ["2BC1E4C0C7C277BD"]
+			id: "1584648300FE241C"
+			tasks: [{
+				id: "2303D74A3093871A"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [
+				{
+					id: "16CCAD9555511CA2"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "7236758AF8868785"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			subtitle: "Ooooh, Shiny!"
+			description: ["This dynamo loves the taste of shiny gemstones, and will happily grant you energy in exchange for feeding it!"]
+			dependencies: ["2BC1E4C0C7C277BD"]
+			id: "1B54CB75E2D42C7B"
+			tasks: [{
+				id: "1B8C798084F81B8A"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [
+				{
+					id: "1B0147FEE3B9BC4F"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "188D5F18BB2AABE8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Immersive Engineering"
+			x: -9.5d
+			y: 1.5d
+			subtitle: "Complete Immersive Engineering quests in Introduction to unlock!"
+			description: [
+				"Not only is Immersive Engineering one of the most aesthetic mods out there,  it's also incredibly useful."
+				"This questline won't cover anything but the essentials of the mod, please head into it yourself to try out things like oil extraction and drills which are VERY useful."
+			]
+			dependencies: ["7E467A914579B8DA"]
+			id: "3A4EA8AC67C86B5B"
+			tasks: [
+				{
+					id: "1F823523475E747B"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					id: "46CD3963B36F50D8"
+					type: "item"
+					item: "immersivepetroleum:projector"
+				}
+			]
+			rewards: [{
+				id: "65B3A212EA22782D"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -5.700000000000001d
+			y: 1.9000000000000004d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "69F148FE18DA90FF"
+			tasks: [{
+				id: "70EBB9AA5268E067"
+				type: "item"
+				item: "silents_mechanisms:basic_alloy_smelter"
+			}]
+			rewards: [{
+				id: "00575CEA1500708B"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -6.200000000000001d
+			y: 2.9000000000000004d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "5244383D4F13978B"
+			tasks: [{
+				id: "7DEDFA0BF9DC07D5"
+				type: "item"
+				item: "silents_mechanisms:basic_crusher"
+			}]
+			rewards: [{
+				id: "7F4A2F6E07C26207"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -7.700000000000001d
+			y: 1.4d
+			dependencies: [
+				"5244383D4F13978B"
+				"69F148FE18DA90FF"
+			]
+			id: "1972FA7A42F9839F"
+			tasks: [{
+				id: "3DF2AB028244EEE8"
+				type: "item"
+				item: "silents_mechanisms:coal_generator"
+			}]
+			rewards: [{
+				id: "7B521F646BFF5904"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -4.800000000000001d
+			y: 2.8000000000000003d
+			id: "1D0A9E72FAAF4011"
+			tasks: [{
+				id: "7B9729278A79CA25"
+				type: "item"
+				item: "silents_mechanisms:diesel_generator"
+			}]
+			rewards: [{
+				id: "39A7A1B82A7789A0"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -2.6999999999999997d
+			y: 1.4d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "195F7609A14088C3"
+			tasks: [{
+				id: "5B27301DFD08007F"
+				type: "item"
+				item: "silents_mechanisms:crusher"
+			}]
+			rewards: [
+				{
+					id: "4545F6B9C8ED7CB7"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "54374B1CBCB4B05B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.6999999999999997d
+			y: 3.4000000000000004d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "0EF33D9D71F9B093"
+			tasks: [{
+				id: "31F870D433BF9D2F"
+				type: "item"
+				item: "silents_mechanisms:alloy_smelter"
+			}]
+			rewards: [
+				{
+					id: "47BC439A05578E23"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "5D144772AF11D951"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.700000000000001d
+			y: 5.399999999999999d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "1A61FCE88AF73A0A"
+			tasks: [{
+				id: "7B090F3BD4332E77"
+				type: "item"
+				item: "silents_mechanisms:electric_furnace"
+			}]
+			rewards: [
+				{
+					id: "1189ABB04AFADE34"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "39043F83D647C7ED"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.1999999999999997d
+			y: 4.4d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "49A331F64BDE8CFE"
+			tasks: [{
+				id: "1E1DE47E403EC383"
+				type: "item"
+				item: "silents_mechanisms:solidifier"
+			}]
+			rewards: [
+				{
+					id: "56A5ECB6A977DE76"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "7AFB019CE4219D2A"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.6999999999999997d
+			y: 2.4000000000000004d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "1AFFC1B482689AA3"
+			tasks: [{
+				id: "7226DF057034F4B7"
+				type: "item"
+				item: "silents_mechanisms:infuser"
+			}]
+			rewards: [
+				{
+					id: "5463BAF2B556AB5E"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "19C66E4D0BE2E884"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.700000000000001d
+			y: 0.8999999999999999d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "7D5777FD00210E34"
+			tasks: [{
+				id: "7433558E6903718A"
+				type: "item"
+				item: "silents_mechanisms:pump"
+			}]
+			rewards: [
+				{
+					id: "0AFD46C9E3665EB3"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "4C2B06AA4E181170"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.700000000000001d
+			y: 5.399999999999999d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "45C0C8DD02136873"
+			tasks: [{
+				id: "2F6EBFD57E651C19"
+				type: "item"
+				item: "silents_mechanisms:lava_generator"
+			}]
+			rewards: [
+				{
+					id: "47AD8AD5453FD680"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "1883FAB6BD7ED143"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.700000000000001d
+			y: 0.8999999999999999d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "4A00CF0B04E9D378"
+			tasks: [{
+				id: "6D08811728D02AEF"
+				type: "item"
+				item: "silents_mechanisms:mixer"
+			}]
+			rewards: [
+				{
+					id: "7D560899927665BD"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "5927E12DBAB64A17"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.700000000000001d
+			y: 5.399999999999999d
+			dependencies: ["1D0A9E72FAAF4011"]
+			id: "6900FE4A79B3DE4D"
+			tasks: [{
+				id: "0284585F8B24FDC8"
+				type: "item"
+				item: "silents_mechanisms:refinery"
+			}]
+			rewards: [
+				{
+					id: "689BE02102855DD7"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "186E88290B13DBF8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Industrial Foregoing"
+			x: -13.0d
+			y: 6.5d
+			description: ["Industrial Foregoing's building block is, well, plastic, so you're going to need alot."]
+			id: "2A294A4A8F818925"
+			tasks: [
+				{
+					id: "131D36311AF887A5"
+					type: "item"
+					item: "industrialforegoing:latex_processing_unit"
+				}
+				{
+					id: "42EFBC0E8D0CD3E4"
+					type: "item"
+					item: "industrialforegoing:fluid_extractor"
+				}
+				{
+					id: "178FE802ADF03303"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+					only_from_crafting: true
+				}
+			]
+			rewards: [{
+				id: "58B7B8AB393933BD"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			dependencies: ["3A4EA8AC67C86B5B"]
+			id: "5239A8E85B20DDD1"
+			tasks: [{
+				id: "42EAC1578C8E5AB4"
+				type: "item"
+				item: "immersiveengineering:blastbrick_reinforced"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "7571B3ED6F5E9019"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "3AD5C3ADD46C7518"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 3.5d
+			dependencies: ["3A4EA8AC67C86B5B"]
+			id: "2664D1DFB62398EC"
+			tasks: [{
+				id: "7C2D0B85DE829FA8"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 3.5d
+			dependencies: ["3A4EA8AC67C86B5B"]
+			id: "6F62FD7325EC35E1"
+			tasks: [{
+				id: "036487906A7944E4"
+				type: "item"
+				item: "immersiveengineering:circuit_table"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.5d
+			dependencies: [
+				"6F62FD7325EC35E1"
+				"2664D1DFB62398EC"
+			]
+			id: "72D396A911D6F8FA"
+			tasks: [{
+				id: "400F855ECF58D207"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [
+				{
+					id: "0384B6DDE87F75DF"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "562170B6808E1045"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Metal Press"
+			x: -12.5d
+			y: 1.5d
+			dependencies: ["3A4EA8AC67C86B5B"]
+			id: "1D32460AF0BAEC74"
+			tasks: [
+				{
+					id: "10C23A4E911C82FC"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "6B8286B569E2763E"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "51D131D0571F379B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "1A223ACB0C2FD6AE"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "3CE852E8086BA26C"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "7BB5B4EB984FC299"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "4A435513E8F52BA1"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Crusher"
+			x: -13.5d
+			y: 2.5d
+			subtitle: "Ore processing!"
+			dependencies: ["3A4EA8AC67C86B5B"]
+			id: "2287A154139C2B39"
+			tasks: [
+				{
+					id: "533A7AA559CF5200"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "2447F57DF79BEB58"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "3188A894D5390249"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "20CDE9F84B297255"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "5B3895C96CFF0F7A"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "78A47CB73CFB7E31"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "5BDA2CF7E806DCBB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Refinery"
+			x: -13.5d
+			y: 3.5d
+			dependencies: ["13D27A28ABE4BAE2"]
+			id: "1265CFAA338AF5E0"
+			tasks: [
+				{
+					id: "5E8A3E853F8718F8"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "315C9C705A285956"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "1167D95698A43C93"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "5CCB6AB28349AD70"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 16L
+				}
+				{
+					id: "29D72A8787F84A35"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "24C1C9B5ED45EC39"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "7236EC701EF5EFEB"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "3288618370350422"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 3.0d
+			dependencies: ["3A4EA8AC67C86B5B"]
+			id: "7F8784A16A01DECE"
+			tasks: [{
+				id: "1AB2EB59D1B49288"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+			}]
+		}
+		{
+			title: "Squeezer"
+			x: -12.5d
+			y: 3.5d
+			dependencies: ["7F8784A16A01DECE"]
+			id: "13D27A28ABE4BAE2"
+			tasks: [
+				{
+					id: "7C02876EE2016429"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "3112524DE3959408"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "15E7A16D5898EBAC"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "54E290287AA31ED8"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "09871483658F2D50"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "26AF3B75E93E7C19"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "0AA7199A5589A70E"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 3.0d
+			dependencies: ["1265CFAA338AF5E0"]
+			id: "5D0DDD44300915A0"
+			tasks: [
+				{
+					id: "2BFB4E9D104E95CD"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "49ACCA7DEB7A04D7"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "0408C0A12C05C721"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "0E435EFED4A6EEB5"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "72522545362D3C3F"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+				{
+					id: "487F9D0F2CCDD693"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "199FA86C4AFECD45"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "6B914B7D44A57DEA"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 5.5d
+			subtitle: "Looking in here will show you who's awesome!"
+			description: ["Solar flux is a great passive RF providing mod, this questline will reward you for using it!"]
+			id: "5BAA9C833AF69168"
+			tasks: [{
+				id: "323ADA3BF192F15F"
+				type: "item"
+				item: "solarflux:mirror"
+			}]
+			rewards: [{
+				id: "06A1AC8B97A0BE77"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.0d
+			id: "509D309238176812"
+			tasks: [{
+				id: "35796AAE6AB88EAD"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 32L
+			}]
+			rewards: [{
+				id: "164332D5CAB60AA6"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "0B3F57E677B6C88C"
+			tasks: [{
+				id: "03A7BCB050498B88"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget_simple"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4F002D411A45822A"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "244F7D7F027DC810"
+			tasks: [{
+				id: "12C3B861A43B225A"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "78F5BC6BE9777A8E"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			id: "309DF866EFC85914"
+			tasks: [{
+				id: "7C12FE311B86886D"
+				type: "item"
+				item: "envirotech:litherite_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "1D21DDE992E9790A"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "49E5DFACAED2A6BC"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["309DF866EFC85914"]
+			id: "52C4ADF09E84B194"
+			tasks: [{
+				id: "1CD63DA37CA817F5"
+				type: "item"
+				item: "envirotech:erodium_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "68E5E7AF31C94C4B"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "0A77779292C7D678"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["52C4ADF09E84B194"]
+			id: "4D0DCA9C8BDD6989"
+			tasks: [{
+				id: "0E5AD5E4AC4232BB"
+				type: "item"
+				item: "envirotech:kyronite_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "5FA86F3216956A9C"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "5D78F5A7CAC87FE3"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 7.0d
+			subtitle: "The first of many"
+			description: ["Solar panels require direct sunlight to operate, but i'm sure you knew that already!"]
+			dependencies: ["5BAA9C833AF69168"]
+			id: "4EEEADB39C5A1E07"
+			tasks: [{
+				id: "17FCFD728CD4D3E6"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [{
+				id: "7E0A6BB5AFAC4B44"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.5d
+			subtitle: "Climbing up the solar ladder"
+			description: ["Each upgrade gets exponentially more expensive, can you make it to the top?"]
+			dependencies: ["4EEEADB39C5A1E07"]
+			id: "4D70D1918986C245"
+			tasks: [{
+				id: "4D06FEE0C66CACB8"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [{
+				id: "24834E2D5CB2C42A"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 8.5d
+			subtitle: "Triple Trouble"
+			description: ["Fun fact: solar panels need to be cleaned on a regular basis for maximum efficiency! (not in this mod, just a real life fact)"]
+			dependencies: ["4D70D1918986C245"]
+			id: "541350A2D9F641D5"
+			tasks: [{
+				id: "2982B65A22A32639"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [{
+				id: "20514F015A98B42F"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.0d
+			subtitle: "Praise the Quad Sun!"
+			description: ["Fun fact: At around 1,000 acres, the world’s largest solar power plant is located in the Mojave Desert!"]
+			dependencies: ["541350A2D9F641D5"]
+			id: "6CFA09DCF85948B2"
+			tasks: [{
+				id: "5D68688C1D5A8C8E"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [
+				{
+					id: "5A0AD42EAF62649C"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "7D43EA4ABC8C8C71"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			subtitle: "Solar wars: Revenge of the fifth!"
+			description: ["Fun fact: To power the whole earth with solar energy, it would require 191,000 square miles of solar panels."]
+			dependencies: ["6CFA09DCF85948B2"]
+			id: "1BB55106C2CE4F60"
+			tasks: [{
+				id: "1C664195D55E6B48"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [
+				{
+					id: "63618929FF21C04A"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "00B775909EEFDDA5"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			subtitle: "Lunar is so last year"
+			description: ["Fun fact: The average solar panel system operates at 20% efficiency, meaning that it converts 20% of the sunlight that hits it into electricity."]
+			dependencies: ["1BB55106C2CE4F60"]
+			id: "63B56EE342D536D8"
+			tasks: [{
+				id: "2576E0E764D24705"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [
+				{
+					id: "47B3CB29E15BA07C"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "6EE29A43D7DFCD6A"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 7.0d
+			dependencies: ["509D309238176812"]
+			id: "04699271C55827C4"
+			tasks: [{
+				id: "713CF300326F6338"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [{
+				id: "0335D215EA7CCAD7"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 8.0d
+			dependencies: ["04699271C55827C4"]
+			id: "6D39BAF314E8692A"
+			tasks: [{
+				id: "7F6FE3FFE228C54C"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "0BF0A8AE0FEDF57C"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "6BA9AD51A2F00481"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 8.5d
+			dependencies: ["6D39BAF314E8692A"]
+			id: "206C8E56453F5635"
+			tasks: [{
+				id: "3496FBFEB7584605"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "419F27008C879FCB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "1B1F1F3B5B9350B0"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 9.5d
+			dependencies: ["206C8E56453F5635"]
+			id: "1840E3C5CC2D4000"
+			tasks: [{
+				id: "105D74AB298C6A08"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "1A5177A3E8312C0D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2AC4B6479169FF27"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 5.0d
+			dependencies: ["2A294A4A8F818925"]
+			id: "029CCDAD443D53BC"
+			tasks: [{
+				id: "0832F05ECDD508E4"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [{
+				id: "5EA57106C519F7A0"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 5.0d
+			dependencies: ["029CCDAD443D53BC"]
+			id: "40D2A4C6679A4CEE"
+			tasks: [{
+				id: "27EA6E59C3E5123A"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [{
+				id: "0175B8C3122187A0"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 5.0d
+			dependencies: [
+				"40D2A4C6679A4CEE"
+				"6D6B0E039C960863"
+			]
+			id: "55E2905EF6873BF5"
+			tasks: [
+				{
+					id: "70FA9CE27947D1D1"
+					type: "item"
+					item: "industrialforegoing:bioreactor"
+				}
+				{
+					id: "3E03EC3B4B28965F"
+					type: "item"
+					item: "industrialforegoing:biofuel_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "66BB093A92D835AE"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "7D1D058A5428072A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 8.0d
+			dependencies: ["2A294A4A8F818925"]
+			size: 1.5d
+			id: "0E0C810D057B459F"
+			tasks: [{
+				id: "2044AFF60A6D6360"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [{
+				id: "1F357459797940B7"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 6.5d
+			dependencies: ["0E0C810D057B459F"]
+			id: "6D6B0E039C960863"
+			tasks: [{
+				id: "2B405EDFFDD9C496"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [
+				{
+					id: "2F25D0F727A550F4"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "4DC3F309FE8DE9CA"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 7.0d
+			dependencies: ["0E0C810D057B459F"]
+			id: "798454193A827011"
+			tasks: [{
+				id: "09947D7459D08D24"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [
+				{
+					id: "205552363351579C"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "2836E60BF82BFD6D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 8.5d
+			dependencies: ["0E0C810D057B459F"]
+			id: "2195E46D2E3D0DBA"
+			tasks: [
+				{
+					id: "3C0BDBDF73B966AB"
+					type: "item"
+					item: "industrialforegoing:mob_duplicator"
+				}
+				{
+					id: "73C686D211BCE7CC"
+					type: "item"
+					item: "industrialforegoing:mob_imprisonment_tool"
+				}
+			]
+			rewards: [
+				{
+					id: "1F2520A2FDFF7BE3"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "4207B3B9621CA22F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 9.5d
+			dependencies: ["0E0C810D057B459F"]
+			id: "4550A8107CE63139"
+			tasks: [{
+				id: "3F1923F2171CA3E1"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			rewards: [
+				{
+					id: "39A2E4B0B3E67B09"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "07323839A7551138"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 9.5d
+			dependencies: ["0E0C810D057B459F"]
+			id: "3480799FCD4BA866"
+			tasks: [
+				{
+					id: "0F5CB597DC3D8562"
+					type: "item"
+					item: "industrialforegoing:plant_gatherer"
+				}
+				{
+					id: "5AC09981080854AB"
+					type: "item"
+					item: "industrialforegoing:plant_sower"
+				}
+				{
+					id: "771FDF61F4D02746"
+					type: "item"
+					item: "industrialforegoing:plant_fertilizer"
+				}
+			]
+			rewards: [
+				{
+					id: "6F402180A376D587"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "6F552E9F18ACF1F8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: 7.5d
+			dependencies: [
+				"2195E46D2E3D0DBA"
+				"798454193A827011"
+			]
+			id: "0696AAD167A4848E"
+			tasks: [{
+				id: "71B9F8DABEBF04A4"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [
+				{
+					id: "4971A000267D0C8F"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "10CD5B33BEBE3534"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 10.0d
+			dependencies: ["0E0C810D057B459F"]
+			id: "34F3A81D713D7E1A"
+			tasks: [
+				{
+					id: "4F2CD7949BE10577"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+				{
+					id: "4BF132B645465029"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1065A30206F63C6F"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "36E56B5F232F7CF7"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 9.0d
+			dependencies: ["43C565688320C2AA"]
+			id: "5CAF662869F6983F"
+			tasks: [{
+				id: "443DCE574A207653"
+				type: "item"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+			rewards: [
+				{
+					id: "23A93AC5C9C23ED2"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "369680D0F479CD75"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 8.0d
+			dependencies: ["0E0C810D057B459F"]
+			id: "43C565688320C2AA"
+			tasks: [{
+				id: "4D3F1F9BF2DFD163"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [
+				{
+					id: "0914572B1DA36E80"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "1E64FF02858C61EE"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			id: "6340B2F9981C377F"
+			tasks: [{
+				id: "600F0753040D0BDC"
+				type: "item"
+				item: "quarryplus:workbenchplus"
+			}]
+			rewards: [{
+				id: "2052861B30A3983E"
+				type: "ftbmoney:money"
+				ftb_money: 1250L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			dependencies: ["6340B2F9981C377F"]
+			id: "0EE8B6A21CB94DC0"
+			tasks: [{
+				id: "7695E38758545A6F"
+				type: "item"
+				item: "quarryplus:statuschecker"
+			}]
+			rewards: [{
+				id: "1B230D04BB8778E1"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["6340B2F9981C377F"]
+			id: "19F22BBA42D7D4CA"
+			tasks: [{
+				id: "2B1BA662ABD24C4F"
+				type: "item"
+				item: "quarryplus:markerplus"
+			}]
+			rewards: [{
+				id: "2BF777269E18AE1A"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			dependencies: ["19F22BBA42D7D4CA"]
+			id: "7CEBD0C56A74DB86"
+			tasks: [{
+				id: "6B6CDAB039F854CA"
+				type: "item"
+				item: "quarryplus:pumpplus"
+			}]
+			rewards: [
+				{
+					id: "1B84CE3F194B978A"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "7BC4A5E3317D31E9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			dependencies: ["19F22BBA42D7D4CA"]
+			id: "5B837AC050EBD9AD"
+			tasks: [{
+				id: "2DC4A4FA0767B25D"
+				type: "item"
+				item: "quarryplus:solidquarry"
+			}]
+			rewards: [
+				{
+					id: "102DB605748C2F70"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "79B8B38CD30324F3"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 9.0d
+			dependencies: ["19F22BBA42D7D4CA"]
+			id: "632434D02ECF3988"
+			tasks: [{
+				id: "367B33AA9DA62FAA"
+				type: "item"
+				item: "quarryplus:quarry"
+			}]
+			rewards: [
+				{
+					id: "39BD25C30126E3DF"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "43A6D8694A6B3BFD"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["6340B2F9981C377F"]
+			id: "48157798FE073A66"
+			tasks: [{
+				id: "47DFCD6622C70B96"
+				type: "item"
+				item: "quarryplus:miningwellplus"
+			}]
+			rewards: [{
+				id: "228DCC755EA7CC5B"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			title: "PneumaticCraft : Repressurized"
+			x: -18.5d
+			y: 2.0d
+			description: ["Teaching you only the very basics here, if you need to get into logistics and all that cool stuff, the guide is VERY good."]
+			size: 1.5d
+			id: "19871F3AC75FD175"
+			tasks: [
+				{
+					id: "246E4EB068E720E8"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					count: 64L
+				}
+				{
+					id: "114AD2FFCE1100E4"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "50B01BD43A5D684D"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 0.0d
+			dependencies: ["19871F3AC75FD175"]
+			id: "2821B20D34ED3D9F"
+			tasks: [{
+				id: "1FD1F0B91D869196"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+				count: 64L
+			}]
+		}
+		{
+			x: -20.0d
+			y: 1.5d
+			dependencies: ["2821B20D34ED3D9F"]
+			id: "7D2E3A3EEFD43DFC"
+			tasks: [{
+				id: "448310FD9F0DEBA5"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+			rewards: [{
+				id: "55A32B57E1584EED"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -21.0d
+			y: 2.5d
+			dependencies: [
+				"7D2E3A3EEFD43DFC"
+				"36206D88A2724C4A"
+			]
+			id: "76003835EF171037"
+			tasks: [{
+				id: "4FC1309FBD61BCE4"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+			rewards: [{
+				id: "0E55A5A9521785F6"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: -22.0d
+			y: 3.5d
+			dependencies: ["76003835EF171037"]
+			id: "46889CF1B4BB0FE0"
+			tasks: [{
+				id: "62A81180981FF482"
+				type: "item"
+				item: "pneumaticcraft:thermal_compressor"
+			}]
+			rewards: [
+				{
+					id: "6CE747D59D9E2936"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "1359902A5457EEA8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -1.0d
+			subtitle: "Pushing mobs away!"
+			dependencies: ["2821B20D34ED3D9F"]
+			id: "6501BCB09A995F32"
+			tasks: [{
+				id: "1D41A84C8D9C15A0"
+				type: "item"
+				item: "pneumaticcraft:air_grate_module"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 1.5d
+			dependencies: ["2821B20D34ED3D9F"]
+			id: "3D8AE22B1446A208"
+			tasks: [
+				{
+					id: "2FC25909A6EC7D91"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+				}
+				{
+					id: "5CC713C8255F7A26"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+				}
+				{
+					id: "6095494521379C61"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "129508E3E203E0D4"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+				}
+			]
+			rewards: [
+				{
+					id: "3ACD0257DF4EF89F"
+					type: "ftbmoney:money"
+					ftb_money: 800L
+				}
+				{
+					id: "55AC754BF17B617F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -0.5d
+			dependencies: ["3D8AE22B1446A208"]
+			id: "1E4C423EC4A5D924"
+			tasks: [{
+				id: "1E10F507DED3FE7B"
+				type: "item"
+				item: "pneumaticcraft:advanced_pcb"
+			}]
+			rewards: [{
+				id: "3225E9BFBF4FCB1E"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -20.0d
+			y: 0.0d
+			dependencies: ["2821B20D34ED3D9F"]
+			id: "3715D1B4A9501539"
+			tasks: [{
+				id: "0BCDDEC176F200CC"
+				type: "item"
+				item: "pneumaticcraft:charging_module"
+			}]
+			rewards: [{
+				id: "57F6A45A35930AD2"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -19.0d
+			y: -1.0d
+			dependencies: ["2821B20D34ED3D9F"]
+			id: "68C643795747B4B7"
+			tasks: [
+				{
+					id: "6356BD041CC33012"
+					type: "item"
+					item: "pneumaticcraft:logistics_module"
+				}
+				{
+					id: "0A85BDEF17A61AC6"
+					type: "item"
+					item: "pneumaticcraft:logistics_frame_requester"
+				}
+				{
+					id: "5EC985FAAE9DF1C0"
+					type: "item"
+					item: "pneumaticcraft:logistics_frame_passive_provider"
+				}
+				{
+					id: "4E0DF2E90A9870E0"
+					type: "item"
+					item: "pneumaticcraft:logistics_frame_storage"
+				}
+			]
+			rewards: [{
+				id: "38131741FF2D725D"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -20.5d
+			y: -1.0d
+			dependencies: ["2821B20D34ED3D9F"]
+			id: "1FD2D441D7179C19"
+			tasks: [{
+				id: "70E7D0140CA56B73"
+				type: "item"
+				item: "pneumaticcraft:regulator_tube_module"
+			}]
+			rewards: [{
+				id: "6022FEF005BC40DE"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -2.0d
+			dependencies: ["2821B20D34ED3D9F"]
+			id: "6E033F21328D6397"
+			tasks: [{
+				id: "0EC82CD3B82FD630"
+				type: "item"
+				item: "pneumaticcraft:pressure_gauge_module"
+			}]
+			rewards: [{
+				id: "32DCBCE4044610D1"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -19.5d
+			y: 3.5d
+			dependencies: ["19871F3AC75FD175"]
+			id: "36206D88A2724C4A"
+			tasks: [{
+				id: "0808B3E979B434E4"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+			}]
+			rewards: [{
+				id: "2C8332467AC55A93"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 4.5d
+			dependencies: [
+				"36206D88A2724C4A"
+				"3D8AE22B1446A208"
+			]
+			id: "3FD9A095E2481C6F"
+			tasks: [{
+				id: "7E5957D3ED9961BC"
+				type: "item"
+				item: "pneumaticcraft:fluid_mixer"
+			}]
+			rewards: [{
+				id: "0E33C1D04AE312C2"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: -19.5d
+			y: 5.0d
+			dependencies: ["36206D88A2724C4A"]
+			id: "13214A4821A8B5C9"
+			tasks: [{
+				id: "4B6DE7A7949210A3"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+			rewards: [{
+				id: "40F137F911E16C91"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 1.0d
+			dependencies: ["19871F3AC75FD175"]
+			id: "2B66B00D46A5B8E7"
+			tasks: [{
+				id: "2C7528C77A5B311B"
+				type: "item"
+				item: "pneumaticcraft:heat_frame"
+			}]
+			rewards: [{
+				id: "0662F974DAE50950"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 2.0d
+			dependencies: ["19871F3AC75FD175"]
+			id: "6FCAE2A08BD7FD55"
+			tasks: [{
+				id: "2488CC7C260286BC"
+				type: "item"
+				item: "pneumaticcraft:crop_support"
+			}]
+			rewards: [{
+				id: "4DC949CAC71C2478"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 0.0d
+			dependencies: ["2821B20D34ED3D9F"]
+			id: "1C9120D4061C49E6"
+			tasks: [{
+				id: "15DDE2D42DF012A1"
+				type: "item"
+				item: "pneumaticcraft:manometer"
+			}]
+			rewards: [{
+				id: "6F8DD1261C3689BF"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -2.5d
+			subtitle: "Upgrades people, Upgrades!"
+			description: ["Each machine has a set of augment slots that can accept upgrades, the most universal of those being the upgraded integral components! a machine will use the highest level of components found within the augment slots, so stacking them is impossible."]
+			dependencies: ["0768A5D7C5A5AA6B"]
+			id: "5BC6A7E8EEE26408"
+			tasks: [{
+				id: "5594744ADFE76397"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "642CF4CFA3A3261A"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -4.0d
+			subtitle: "Reinforcements have arrived!"
+			description: ["3x is much better than 2x! Did you know these components can also go inside Dynamo's and the Redstone Flux Cell?"]
+			dependencies: ["5BC6A7E8EEE26408"]
+			id: "10E53B4B5D289250"
+			tasks: [{
+				id: "06D70DB44F0B28CC"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [
+				{
+					id: "428130BD2114F703"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "4023FF6EF50CEEC3"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -5.5d
+			subtitle: "Resonance Disk"
+			description: ["The almighty 4x multiplier, Requiring Enderium, a hard to make but rewarding alloy!"]
+			dependencies: ["10E53B4B5D289250"]
+			id: "360A879740D92A28"
+			tasks: [{
+				id: "352FA9E87AF81432"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [
+				{
+					id: "344811B8E618A36D"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "1737B14CC7CBAA70"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -6.5d
+			subtitle: "AMERICA, F YEAH!"
+			description: [
+				"Oil power!"
+				"The compression dynamo takes a variety of liquid fuels, being mostly oils or refined oils!"
+			]
+			dependencies: ["2BC1E4C0C7C277BD"]
+			id: "03366473C29E9311"
+			tasks: [{
+				id: "700D7DE7B1ECFFC4"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [
+				{
+					id: "55429E084F0F9028"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+				{
+					id: "183C9FEE80953F9F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			subtitle: "Mr Krabs in a block"
+			description: ["Money!- Er i mean, this Dynamo accepts coin and \"trades\" it for power!"]
+			dependencies: ["2BC1E4C0C7C277BD"]
+			id: "7D99BEC807891BD0"
+			tasks: [{
+				id: "5DE392B351FE5CEB"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [
+				{
+					id: "265EF86F942559E9"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "5A4ECBBAD01ADF3A"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -19.0d
+			y: -4.0d
+			id: "219EAB6607B0FCE5"
+			tasks: [{
+				id: "13EC7F42D01099F8"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			rewards: [{
+				id: "5E0627ECAFACC824"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -20.0d
+			y: -5.0d
+			dependencies: ["219EAB6607B0FCE5"]
+			id: "06842752E02A370D"
+			tasks: [{
+				id: "05F190F81E5A841D"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			rewards: [{
+				id: "797FBDA3EF3DDFB3"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -18.0d
+			y: -5.0d
+			dependencies: ["219EAB6607B0FCE5"]
+			id: "543D564085E160EC"
+			tasks: [{
+				id: "7332A991F52985DD"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "53EBC38E2081C87D"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -19.0d
+			y: -5.0d
+			dependencies: ["219EAB6607B0FCE5"]
+			id: "29DFD9AD57807F78"
+			tasks: [{
+				id: "2555ACC1075C3FDD"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "6EAFB716CF1C893C"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -19.0d
+			y: -6.5d
+			dependencies: [
+				"06842752E02A370D"
+				"29DFD9AD57807F78"
+				"543D564085E160EC"
+			]
+			id: "68E8CDE80AA5787A"
+			tasks: [{
+				id: "3BE62A4D7E28FE16"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+			rewards: [{
+				id: "74CC0E2136C282E9"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+	]
+}

@@ -1,0 +1,560 @@
+{
+	tabs: [
+		{
+			title: "Resources"
+			icon: "minecraft:stone"
+			entries: [
+				{
+					item: "minecraft:oak_log"
+					buy: 5L
+				}
+				{
+					item: "minecraft:spruce_log"
+					buy: 5L
+				}
+				{
+					item: "minecraft:jungle_log"
+					buy: 5L
+				}
+				{
+					item: "minecraft:birch_log"
+					buy: 5L
+				}
+				{
+					item: "minecraft:acacia_log"
+					buy: 5L
+				}
+				{
+					item: "minecraft:dark_oak_log"
+					buy: 5L
+				}
+				{
+					item: "minecraft:stone"
+					buy: 2L
+				}
+				{
+					item: "minecraft:cobblestone"
+					buy: 1L
+				}
+				{
+					item: "minecraft:clay"
+					buy: 2L
+				}
+				{
+					item: "minecraft:sand"
+					buy: 2L
+				}
+				{
+					item: "minecraft:dirt"
+					buy: 2L
+				}
+				{
+					item: "minecraft:gravel"
+					buy: 2L
+				}
+				{
+					item: "tconstruct:grout"
+					buy: 10L
+				}
+				{
+					item: "minecraft:gold_block"
+					buy: 250L
+				}
+				{
+					item: "minecraft:diamond_block"
+					buy: 500L
+				}
+				{
+					item: "minecraft:iron_block"
+					buy: 150L
+				}
+				{
+					item: "minecraft:coal_block"
+					buy: 100L
+				}
+				{
+					item: "minecraft:redstone_block"
+					buy: 250L
+				}
+				{
+					item: "appliedenergistics2:quartz_block"
+					buy: 100L
+				}
+				{
+					item: "appliedenergistics2:charged_certus_quartz_crystal"
+					buy: 50L
+				}
+			]
+		}
+		{
+			title: "Random Items"
+			icon: "minecraft:enchanted_golden_apple"
+			entries: [
+				{
+					item: "appliedenergistics2:engineering_processor_press"
+					buy: 50000L
+				}
+				{
+					item: "appliedenergistics2:silicon_press"
+					buy: 50000L
+				}
+				{
+					item: "appliedenergistics2:calculation_processor_press"
+					buy: 50000L
+				}
+				{
+					item: "appliedenergistics2:logic_processor_press"
+					buy: 50000L
+				}
+				{
+					item: { id: "appliedenergistics2:calculation_processor", Count: 6b }
+					buy: 25000L
+				}
+				{
+					item: { id: "appliedenergistics2:logic_processor", Count: 6b }
+					buy: 25000L
+				}
+				{
+					item: { id: "appliedenergistics2:engineering_processor", Count: 6b }
+					buy: 25000L
+				}
+				{
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+					buy: 1000000L
+				}
+				{
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+					buy: 1000000L
+				}
+				{
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "armor"
+						}
+					}
+					buy: 1000000L
+				}
+				{
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "souls"
+						}
+					}
+					buy: 1000000L
+				}
+				{
+					item: {
+						id: "constructionwand:infinity_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+						}
+					}
+					buy: 100000L
+				}
+				{
+					item: "farmingforblockheads:market"
+					buy: 5000L
+				}
+				{
+					item: {
+						id: "akashictome:tome"
+						Count: 1b
+						tag: {
+							"akashictome:data": {
+								industrialforegoing: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+								resourcefulbees: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+									}
+								}
+								astralsorcery: {
+									id: "astralsorcery:tome"
+									Count: 1b
+								}
+								immersiveengineering: {
+									id: "immersiveengineering:manual"
+									Count: 1b
+								}
+								mana-and-artifice: {
+									id: "mana-and-artifice:guide_book"
+									Count: 1b
+								}
+								alexsmobs: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "alexsmobs:animal_dictionary"
+									Count: 1b
+								}
+								woot: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "woot:wootguide"
+									}
+								}
+								elementalcraft: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "elementalcraft:element_book"
+									}
+								}
+								silentgear: {
+									id: "silentgear:guide_book"
+									Count: 1b
+								}
+								botania: {
+									id: "botania:lexicon"
+									Count: 1b
+								}
+								thermal: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+								essentials: {
+									id: "essentials:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "essentials:manual"
+									}
+								}
+								storagenetwork: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "storagenetwork:network_book"
+									}
+								}
+								integratedtunnels: {
+									id: "integrateddynamics:on_the_dynamics_of_integration"
+									Count: 1b
+								}
+								powah: {
+									id: "powah:book"
+									Count: 1b
+								}
+								pneumaticcraft: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+								simpleplanes: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "simpleplanes:planes_book"
+									}
+								}
+								mahoutsukai: {
+									id: "mahoutsukai:guidebook"
+									Count: 1b
+								}
+								occultism: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "occultism:dictionary_of_spirits"
+									Count: 1b
+								}
+								ars_nouveau: {
+									id: "ars_nouveau:worn_notebook"
+									Count: 1b
+								}
+								bloodmagic: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "bloodmagic:guide"
+									}
+								}
+								twilightforest: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "twilightforest:guide"
+									}
+								}
+								supplementaries: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "supplementaries:supplementaries_guide"
+									}
+								}
+								cyclic: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "cyclic:cyclic_guide_book"
+									}
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+			]
+		}
+		{
+			title: "Magic"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:depth_strider"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:thorns"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "naturesaura:aura_mending"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:infinity"
+							}]
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+					buy: 100000L
+				}
+				{
+					item: "botania:black_lotus"
+					buy: 50000L
+				}
+			]
+		}
+		{
+			title: "Kits and Crates"
+			icon: "quark:nether_brick_chest"
+			entries: [
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "advanced_lootcrate"
+						}
+					}
+					buy: 75000L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "lootcrate"
+						}
+					}
+					buy: 50000L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dragon_egg"
+						}
+					}
+					buy: 100000L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"type": "compactcrafting:miniaturization",
+	"recipeSize": 5,
+	"layers": [
+	  {
+		"type": "compactcrafting:filled",
+		"component": "C"
+	  },
+	  {
+		"type": "compactcrafting:hollow",
+		"wall": "C"
+	  },
+	  {
+		"type": "compactcrafting:mixed",
+		"pattern": [
+		  ["C", "C", "C", "C", "C"],
+		  ["C", "D", "F", "D", "C"],
+		  ["C", "F", "X", "F", "C"],
+		  ["C", "D", "F", "D", "C"],
+		  ["C", "C", "C", "C", "C"]
+		]
+	  },
+	  {
+		"type": "compactcrafting:hollow",
+		"wall": "C"
+	  },
+	  {
+		"type": "compactcrafting:filled",
+		"component": "C"
+	  }
+	],
+  
+	"catalyst": {
+	  "id": "mekanism:ultimate_control_circuit",
+	  "Count": 1
+	},
+  
+	"components": {
+	  "C": {
+		"type": "compactcrafting:block",
+		"block": "emendatusenigmatica:enderium_block"
+	  },
+	  "F": {
+		"type": "compactcrafting:block",
+		"block": "ftbsluice:crushed_endstone"
+	  },
+	  "X": {
+		"type": "compactcrafting:block",
+		"block": "industrialforegoing:machine_frame_advanced"
+	  },
+	  "D": {
+		"type": "compactcrafting:block",
+		"block": "minecraft:beacon"
+	  }
+	},
+  
+	"outputs": [
+	  {
+		"id": "minecraft:enderman_spawn_egg",
+		"Count": 2
+	  }
+	]
+  }

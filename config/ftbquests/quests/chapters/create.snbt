@@ -1,0 +1,1766 @@
+{
+	id: "7447BCE027B35959"
+	group: "4E139BB973FD0007"
+	order_index: 3
+	filename: "create"
+	title: "Create"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 13.0d
+			y: 2.0d
+			subtitle: "Kelp Drive"
+			description: [
+				"When placed on 2 shafts in a line, a mechanical belt can move items, players, mobs, and even power to other shafts in the line!"
+				"Note: Belts take a small amount of stress to run, so in cases where you are just moving power, consider encased chain drives instead!"
+			]
+			dependencies: ["7536A887C2E080C3"]
+			id: "47E04423BF757CA5"
+			tasks: [{
+				id: "4194410C3C396A9E"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "4A11D35D3C81AD08"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -9.5d
+			subtitle: "Craft like your gears depend on it!"
+			description: ["The mechanical crafter can be used to automate any crafting recipie, however it is also used in crafting several bigger components such as the ever useful crushing wheels!"]
+			dependencies: [
+				"27C726BC20CB85C1"
+				"6289C2E29492A5CB"
+			]
+			id: "7D3C1ECE485B9988"
+			tasks: [{
+				id: "555EAEF6E6946A2A"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [
+				{
+					id: "3648EE513740A562"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "7C9BC65FB3641390"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -11.0d
+			subtitle: "Millstone 2.0"
+			description: ["The Crushing Wheels, when placed in the right way they are capable of crushing many items (and even damaging mobs), this is also the main component in ore processing, crushing ore into crushed ore for washing."]
+			dependencies: ["7D3C1ECE485B9988"]
+			id: "587E46F79E740D35"
+			tasks: [{
+				id: "56AD58B8BDB584E8"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "1847A25604955B5A"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "2E66D8AE4CE0EFE6"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -11.0d
+			subtitle: "Straight From Factorio"
+			description: [
+				"Using the mechanical arm you can move items around without the use of belts. By shift clicking certain items such as funnels and depots, you can set them as inputs or outputs, and when placed it will attempt to move items accordingly."
+				"Note: the arm will obey filters, and can have multiple inputs and outputs"
+			]
+			dependencies: ["13C1D644D9A7D1E1"]
+			id: "3C82F79F92D1D43E"
+			tasks: [{
+				id: "6D1207A5EC26EFF7"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [
+				{
+					id: "1327034D8D560890"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "743B670B4F011A07"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			subtitle: "Better Hoppers"
+			description: ["Andesite Funnels allow for Belts and other machines to input and output to one another, simply attach an andesite funnel to something like a chest, and you can have items go in or out depending on which way the belt runs."]
+			dependencies: ["2062F29662C8AD3A"]
+			id: "3B347F455CAD21D9"
+			tasks: [{
+				id: "4CC6F8C94EAD56A5"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+			rewards: [{
+				id: "6472CD912D63B6A7"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.0d
+			subtitle: "Better, Better Hoppers"
+			description: ["The brass funnel allows for filters to be placed inside, and can also set a stack size to input or output at once."]
+			dependencies: [
+				"3B347F455CAD21D9"
+				"6B9063E46B519AF6"
+				"6289C2E29492A5CB"
+			]
+			id: "251EE17828BAB3DB"
+			tasks: [{
+				id: "66B6C0008DC66EA8"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+			rewards: [
+				{
+					id: "692A1E407A90261E"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "5E1132E88C0CDEB9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			subtitle: "For use with Brass"
+			description: ["Many brass items contain a filter slot, which can be used for a single item. If that isnt enough or you need some more control, try using a filter!"]
+			id: "6F183F0B0C9BA699"
+			tasks: [{
+				id: "0614CE036C4E06A8"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2730B0D13FEA2348"
+					type: "item"
+					item: {
+						id: "create:attribute_filter"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5448FF452ADF8653"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			subtitle: "Comming in Clutch!"
+			description: ["When supplied with a redstone signal, a clutch will stop all rotational energy from passing through it!"]
+			dependencies: [
+				"7536A887C2E080C3"
+				"127306029C76FD27"
+			]
+			id: "0055BAADD196F14B"
+			tasks: [{
+				id: "6B5A4DF428668C67"
+				type: "item"
+				item: "create:clutch"
+			}]
+			rewards: [{
+				id: "6ECDB6C28F1C1521"
+				type: "ftbmoney:money"
+				ftb_money: 175L
+			}]
+		}
+		{
+			title: "Speedometer/Stressometer"
+			x: 12.5d
+			y: 0.0d
+			subtitle: "Measuring the Network"
+			description: [
+				"A Speedometer will allow you to see how fast a given shaft is rotating. more precsice information can be obtained by wearing goggles."
+				"You can turn a Speedometer into a Stressometer which will instead tell you how much stress the attached network is using."
+			]
+			dependencies: [
+				"7536A887C2E080C3"
+				"127306029C76FD27"
+			]
+			id: "09234C08A8EF2954"
+			tasks: [{
+				id: "1A441B06F58B08B7"
+				type: "item"
+				item: "create:speedometer"
+			}]
+			rewards: [{
+				id: "6DAE8B4DDF8ED116"
+				type: "ftbmoney:money"
+				ftb_money: 175L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			subtitle: "Lets Speed it up!"
+			description: ["Rotation Speed Controllers can input power from a shaft, and then relay it to a large cogwheel above them, altering the speed in the process."]
+			dependencies: [
+				"7536A887C2E080C3"
+				"27C726BC20CB85C1"
+				"13C1D644D9A7D1E1"
+			]
+			id: "1D3307DCC75D2E10"
+			tasks: [{
+				id: "776D4C71555FDADF"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [
+				{
+					id: "1B6D804D9BE94363"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6F1CE02F24C1A775"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 4.0d
+			subtitle: "Tunnel Snakes Rule"
+			description: ["Not super useful at this stage, an Andesite tunnel can either be used as a nice belt decoration or as a means to spilt one item from an oncomming stack."]
+			dependencies: ["2062F29662C8AD3A"]
+			id: "75D37A756EFA2214"
+			tasks: [{
+				id: "71C994E337FADE9A"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+			rewards: [{
+				id: "246F9BF323C136A5"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			subtitle: "Splitting in Style"
+			description: ["However the Brass tunnel has many more functions! You can split items between belts much more precsicely, add filters, and much more! I would reccomend pondering to see just how many ways the Brass tunnel can be used."]
+			dependencies: [
+				"75D37A756EFA2214"
+				"6B9063E46B519AF6"
+				"6289C2E29492A5CB"
+			]
+			id: "2C7203B4651674F1"
+			tasks: [{
+				id: "016E763D389F589D"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+			rewards: [
+				{
+					id: "0F9C616B366BC5F7"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+				{
+					id: "5E71BAD988852BB4"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -9.5d
+			subtitle: "No it is NOT a litter picker"
+			description: ["When held in the offhand slot, this item increases your reach, neat!"]
+			dependencies: ["7D3C1ECE485B9988"]
+			id: "68CFB98D98355F0A"
+			tasks: [{
+				id: "39CF8D1345453BFA"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "025ACEB255C797DE"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "25037A7F58247232"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "Basic Building Block"
+			description: ["Andesite alloy is required for most things in Create, absolutely worth automating this in the future!"]
+			id: "2062F29662C8AD3A"
+			tasks: [{
+				id: "0811D2FA78A5B3EF"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "3A071A4F0146C954"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "The Andesite Age"
+			description: ["With your new Andesite alloy you can craft Andesite Casings."]
+			dependencies: ["2062F29662C8AD3A"]
+			id: "127306029C76FD27"
+			tasks: [{
+				id: "7AB7D4CACDF9FFBC"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "46FFF3A2B7F5E7C0"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			subtitle: "Just keep spinnin'"
+			description: ["Shafts are the main power transfer blocks in create, able to move rotational power from one place to another."]
+			dependencies: ["2062F29662C8AD3A"]
+			id: "7536A887C2E080C3"
+			tasks: [{
+				id: "609CC23B52063737"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "7C6EBC9EECB31D4C"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			title: "Cogwheels"
+			x: 7.5d
+			y: 2.0d
+			subtitle: "Rotational!"
+			description: ["Second to shafts are cogwheels, able to transfer rotation to other cogwheels nearby, while also rotating in the other direction."]
+			dependencies: ["2062F29662C8AD3A"]
+			id: "7330C7731DD6331C"
+			tasks: [
+				{
+					id: "53B379FFEB7452AC"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "19637F7AE3829C89"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+			rewards: [{
+				id: "7AE87D5CFEC66416"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			subtitle: "Cogwheel Alternative"
+			description: ["Placing encased chain drives in a line will allow you to transfer power paralell to the shaft, without changing its direction, they also look stylish and unlike belts do not take up stress!"]
+			dependencies: [
+				"7536A887C2E080C3"
+				"127306029C76FD27"
+			]
+			id: "4E8EA8B400409860"
+			tasks: [{
+				id: "6AF307D0AE27483A"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "2C981F0219B49083"
+				type: "ftbmoney:money"
+				ftb_money: 175L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "4 Gears chillin' in a box!"
+			description: [
+				"Gearboxes function like a compact set of cogwheels, allowing you to change the direction and rotation of your shaft all in one block!"
+				"(can also be crafted into a vertical variant)"
+			]
+			dependencies: [
+				"7330C7731DD6331C"
+				"127306029C76FD27"
+			]
+			id: "66A75F0C907C0999"
+			tasks: [{
+				id: "4161C29C3963706B"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "02CF01AA326E1BF2"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "Important!"
+			description: [
+				"If at any point you want to know what a component does, just hover over it in your inventory and press the button labeled \"Hold _ to ponder\", to get a more detailed explanation!"
+				""
+				"   "
+				"Credits to Killeroid356 for this beautiful quest chapter too!"
+			]
+			id: "564FE540413CFA70"
+			tasks: [{
+				id: "316BB77587F98B52"
+				type: "checkmark"
+				title: "INFO: Create"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			subtitle: "KLANG"
+			description: ["The mechanical press allows you to smash ingots underneath it into plates, which are used to make many items and machines in create. They can also automatically smash items moving under them via mechanical belts."]
+			dependencies: ["127306029C76FD27"]
+			id: "3FB36516692E2FB0"
+			tasks: [{
+				id: "7529B33AA1E037E9"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "1903AC9A7176B97F"
+					type: "item"
+					item: "create:golden_sheet"
+				}
+				{
+					id: "7F905A19EDE4F0D1"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "6CC3158413A8F62D"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			subtitle: "Fine Tuning"
+			description: ["Ah the wrench, the almighty tool of Create. It can do most things you would expect from a wrench, rotate, pick up, and adjust machines."]
+			dependencies: [
+				"7330C7731DD6331C"
+				"3FB36516692E2FB0"
+			]
+			id: "54542D51636CC3CD"
+			tasks: [{
+				id: "4D07FCA3CCE5337B"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [
+				{
+					id: "3EAF845176458C76"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "47CEDDCA26E524E5"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			subtitle: "Debug Vision"
+			description: ["Need to know EXACTLY how things are running? Slap on some goggles and you can see all the details you could ever need, such as stress used and produced by machines, reading the numbers on Speedometers, and much more!"]
+			dependencies: ["3FB36516692E2FB0"]
+			id: "495231651BBDB6D3"
+			tasks: [{
+				id: "13F8F18B12D25135"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [
+				{
+					id: "6CF9FFACD4F597BC"
+					type: "item"
+					item: "create:builders_tea"
+				}
+				{
+					id: "331183E90EF6FB4C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			subtitle: "Scrub-a-dub, Item in a Tub"
+			description: [
+				"The trusty basin, can hold fluids and items for use with the Mechanical press or the Mechanical Mixer."
+				"To take items out, either use a funnel or a belt placed one block below on any side."
+			]
+			dependencies: ["2062F29662C8AD3A"]
+			id: "343575A28EA1EECB"
+			tasks: [{
+				id: "431A39BD65289493"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "141E75C32279FA64"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			subtitle: "Whrrrrr"
+			description: [
+				"The mechanical mixer will mix up items placed inside a basin below it, this can automate shapeless recipies, brew potions, and much more!"
+				"Note: the mechanical mixer requires power via cogwheels to run"
+			]
+			dependencies: [
+				"3FB36516692E2FB0"
+				"343575A28EA1EECB"
+			]
+			id: "2EACBFE8C4A59BB7"
+			tasks: [{
+				id: "00680B626C21EE6B"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [
+				{
+					id: "1B0696FBFE88EB41"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "7EC4EBCB44718A18"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			shape: "rsquare"
+			subtitle: "Gotta catch a blaze!"
+			description: ["The blaze burner can be placed underneath a basin to provide heat when fueled, this enables potion brewing and more importantly....."]
+			id: "2036A0961B76B9C2"
+			tasks: [
+				{
+					id: "09F03A634780BFE4"
+					type: "item"
+					item: "create:empty_blaze_burner"
+				}
+				{
+					id: "4FAF8A8485ADE1EA"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+			rewards: [{
+				id: "533C46E7BB6CE608"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "The Brass Age!"
+			description: [
+				"With a heated basin, some copper and zinc, and some mechanical mixing, BANG! Brass ingots!"
+				"These are used for more advanced Machines in Create, and marks a significant step in your Mechanical Career!"
+			]
+			dependencies: [
+				"2EACBFE8C4A59BB7"
+				"2036A0961B76B9C2"
+			]
+			id: "6B9063E46B519AF6"
+			tasks: [{
+				id: "25CC5F2B9FDD0736"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+			}]
+			rewards: [
+				{
+					id: "75AB6632E00197C6"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "4E5180B4554AFD70"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Splash!"
+			description: ["A simple to use but not very powerful source of rotational energy, useful in mass or in spots where other power sources will not work."]
+			dependencies: ["7330C7731DD6331C"]
+			id: "63D5D554570EDAC7"
+			tasks: [{
+				id: "3F6EE15338D65C45"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "5A677611FC1F9AA3"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			subtitle: "Not just for milling!"
+			description: [
+				"The windmill, a large source of easy power that can be a little tricky to set up. Using either wool or filled sails this block captures the power of the winds."
+				"Note: it may be wise to ponder this item for more information on how to assemble a windmill"
+			]
+			dependencies: ["7536A887C2E080C3"]
+			id: "5BCDF1A9BFAA032E"
+			tasks: [
+				{
+					id: "43B803F7BF3B507D"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "1D097C8B8D9D2B29"
+					type: "item"
+					item: "create:sail_frame"
+				}
+				{
+					id: "1FB48B9C33C96E4C"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+			]
+			rewards: [{
+				id: "0158BF25507C171A"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -7.5d
+			shape: "square"
+			subtitle: "Precision Incarnate"
+			description: ["Time to create some more advanced machines!"]
+			dependencies: ["6B9063E46B519AF6"]
+			id: "27C726BC20CB85C1"
+			tasks: [{
+				id: "77376A6FCE34BD1C"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "02490C0FFABF2058"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			subtitle: "Stonecutter 2.0"
+			description: ["The mechanical saw can be used to chop logs. When on a moving contraption this block will chop down entire trees!"]
+			dependencies: ["3FB36516692E2FB0"]
+			id: "6CBD8820AAA3C994"
+			tasks: [{
+				id: "49086347AFAB77AA"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [
+				{
+					id: "4608D2B7742695CF"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "73E3D436BA7F65D9"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "0616AE3C997343CE"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			subtitle: "Block breaker!"
+			description: ["When powered as a block, the Drill will mine the block infront of it, which could be useful for a cobble gen. When on a moving contraption, the drill will break any blocks it runs into! Try making your own drilling machine!"]
+			dependencies: ["127306029C76FD27"]
+			id: "07C0F2E157E90559"
+			tasks: [{
+				id: "11BD53B2765F2264"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "20A8EAF8A455E2AA"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			subtitle: "I've got a brand new Combine harvester."
+			description: ["Automated farming! put one or more of these on a moving contraption and it will automatically harvest any blocks it runs over!"]
+			dependencies: ["3FB36516692E2FB0"]
+			id: "47F34C29DDD9BEBE"
+			tasks: [{
+				id: "3B2E903C4341EBDC"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [
+				{
+					id: "6CEAC9B43FFD459A"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "113E9DBB098BEDF1"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "5B9042CBBC3AC52B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			subtitle: "Whoosh!"
+			description: [
+				"Encased fans are very useful, you can use them for power (albiet very weak power) by placing them above a lit fire, but they have more practical uses for moving items and mobs via air curents."
+				"If placed behind certain blocks, like water, lava or a campfire, the stream of air can be modified to do other things, such as clean crushed ore, smelt items and food, wash concrete, and more!"
+			]
+			dependencies: ["3FB36516692E2FB0"]
+			id: "474B86AF0775829C"
+			tasks: [{
+				id: "7A69F9D84B8634F9"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "5F34057D9E46CD84"
+					type: "item"
+					item: "minecraft:feather"
+				}
+				{
+					id: "7612120BD6BF11F4"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+				{
+					id: "7949DC0D1601E34E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -6.0d
+			subtitle: "Beep Boop"
+			description: ["Hold rough Rose Quartz in one hand and sandpaper in the other, and then right click to polish the Quartz. Combine the refined Quartz with some iron and redstone to get the very useful Electron tubes!"]
+			id: "6289C2E29492A5CB"
+			tasks: [
+				{
+					id: "534081A411164D67"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+				{
+					id: "4773FD98C7DC2790"
+					type: "item"
+					item: "create:polished_rose_quartz"
+				}
+				{
+					id: "3F045A4A6252A39B"
+					type: "item"
+					item: {
+						id: "create:sand_paper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "156BE7F54AA62AD0"
+					type: "item"
+					item: "create:electron_tube"
+				}
+			]
+			rewards: [{
+				id: "7050DE419F280D96"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			subtitle: "Grind to a Pulp"
+			description: ["The millstone can be used for many simple crushing operations, such as wheat to flour. The millstone requires power from cogwheels directly as opposed to a shaft."]
+			dependencies: ["7330C7731DD6331C"]
+			id: "22F33959ACB6BAB1"
+			tasks: [{
+				id: "2C01FD407C12DCCE"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [
+				{
+					id: "7B75769167592690"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "01EC51A2C7A062D1"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -11.0d
+			subtitle: "Chugga Chugga...."
+			description: ["When you attach the furnace engine to an active furnace, the residual energy is captured and turned into rotational power to be extracted from a nearby flywheel. If used correctly this can be a massive source of power producing 16-32k Stress!"]
+			dependencies: ["7D3C1ECE485B9988"]
+			id: "3F201664052825DD"
+			tasks: [
+				{
+					id: "639BB244336B80D3"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "7021CAC6E449BA38"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+			rewards: [
+				{
+					id: "2C677FDF968F7042"
+					type: "item"
+					item: "minecraft:coal"
+				}
+				{
+					id: "7F75F579DEF14940"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "6636D58244AD011D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -9.5d
+			subtitle: "Poke"
+			description: ["The deployer can act as a player by using tools, right clicking, and placing blocks. When given a filter it will only accept matching items, which can be useful if you were to attach it to a moving contraption....."]
+			dependencies: [
+				"6B9063E46B519AF6"
+				"6289C2E29492A5CB"
+			]
+			id: "12426BAD042B4CA5"
+			tasks: [{
+				id: "2BE6B0674887D2A2"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [
+				{
+					id: "622A1298AC1B660D"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "59028B4792E94714"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -9.5d
+			subtitle: "Clockmaking"
+			description: ["Using a sequence of deployers, depots, and the right items, one can assemble precision mechanisms! a useful component in precise machines!"]
+			dependencies: ["12426BAD042B4CA5"]
+			id: "13C1D644D9A7D1E1"
+			tasks: [{
+				id: "094CC69C040E0071"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [
+				{
+					id: "32C24A4FEEDA780F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "36540E3354430D4F"
+					type: "ftbmoney:money"
+					ftb_money: 1600L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "Pipemaking"
+			description: ["Copper ingots are key in making brass, but can also be used to manipulate fluids!"]
+			id: "0FDC98E2A4D97C6D"
+			tasks: [{
+				id: "318956EE70AAB82E"
+				type: "item"
+				item: "emendatusenigmatica:copper_ingot"
+			}]
+			rewards: [{
+				id: "371CB97719282C26"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			subtitle: "The Copper Age"
+			description: ["Lets see what we can make with this...."]
+			dependencies: [
+				"0FDC98E2A4D97C6D"
+				"3FB36516692E2FB0"
+			]
+			id: "46C52CC21FAAE029"
+			tasks: [{
+				id: "287C89E3717FA9EA"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+			rewards: [{
+				id: "29EAA84CE0B37BDB"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Not that kind of Tank!"
+			description: ["Fluid tanks hold fluids. Do i need to say more? of course! they can combine with nearby tanks for up to a 3x3 base size and go vertically by more than 30 layers!"]
+			dependencies: ["46C52CC21FAAE029"]
+			id: "4D3889942D7D65D5"
+			tasks: [{
+				id: "33AEE5C126B557B6"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "5163C02AA2AF0492"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			subtitle: "Toob"
+			description: [
+				"Pipes allow for the transfer of fluids, but will not move fluids on their own."
+				"The mechanical pump accepts power from cogwheels and pulls fluids through the pipes, up to 16 blocks away! if the pump is facing the wrong direction, use a wrench or change the direction of the cogwheel's rotation"
+			]
+			dependencies: [
+				"0FDC98E2A4D97C6D"
+				"3FB36516692E2FB0"
+				"7330C7731DD6331C"
+			]
+			id: "6F7C3B0419530B8E"
+			tasks: [
+				{
+					id: "2A74E2662A6DA0EF"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "565F4DA7FA11D3A8"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+			rewards: [
+				{
+					id: "45D0997F3C09EF1E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "2C99D52192614B47"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			subtitle: "Filtered Fluids"
+			description: ["You can filter fluids using this pipe!"]
+			dependencies: [
+				"6289C2E29492A5CB"
+				"6B9063E46B519AF6"
+				"6F7C3B0419530B8E"
+			]
+			id: "20B9CB2D2EDB0555"
+			tasks: [{
+				id: "53EEE6EE5FA31BBD"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [{
+				id: "0D019234CA9AA8B2"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			subtitle: "Bottle filler"
+			description: ["The spout will automatically fill any item below it with its held fluid. Can also be used to coat items in fluids such as honey glazing an apple!"]
+			dependencies: ["4D3889942D7D65D5"]
+			id: "566D94DBA0635766"
+			tasks: [{
+				id: "5DF77A6DF7476497"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "3ED989D7C5B53C59"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Itsy bitsy spider...."
+			description: ["The drain will automatically empty any fluid containing item on top of it into an attached pipe network!"]
+			dependencies: ["46C52CC21FAAE029"]
+			id: "26611FC51F0138F0"
+			tasks: [{
+				id: "2F2A7DC66E7C7C1D"
+				type: "item"
+				item: "create:item_drain"
+			}]
+			rewards: [{
+				id: "6EF6D2A1679C9E39"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -11.0d
+			subtitle: "Its a Piece of Cake to Bake a Lava Cake!"
+			description: ["This step of the create journey will combine a large number of your previous machines to complete, but is required to super heat that blaze burner of yours!"]
+			dependencies: [
+				"587E46F79E740D35"
+				"566D94DBA0635766"
+			]
+			id: "4937AFE08F24BDC1"
+			tasks: [{
+				id: "4B36CDD09FBA9CA5"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "107D6266019A21DD"
+				type: "ftbmoney:money"
+				ftb_money: 2000L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -12.5d
+			subtitle: "Colours of joy!"
+			description: ["The most complex item to craft, requiring a large production chain to reach. This compound and its forms have few uses at the moment, but we may see more added soon!"]
+			dependencies: ["4937AFE08F24BDC1"]
+			id: "1798434D0BC097B1"
+			tasks: [{
+				id: "5DF9637C8142497D"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "25C35E57EF152719"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "4E35A6FE8EE04BEE"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -13.5d
+			subtitle: "ILLUMIATE!"
+			description: [
+				"The chromatic compound seems to resonate with the torches nearby, perhaps giving in to its desires may yield something useful?"
+				"The strong beam of a beacon seems to do the trick nicely as well..."
+			]
+			dependencies: ["1798434D0BC097B1"]
+			id: "7846A8CF1FBEDE37"
+			tasks: [{
+				id: "7170316374DA4DC4"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+			rewards: [
+				{
+					id: "635463D50FDDF1A4"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "41EE70FEA0937530"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -13.5d
+			subtitle: "Cast it into the void!"
+			description: ["Shadow steel seems to resonate with the void...."]
+			dependencies: ["1798434D0BC097B1"]
+			id: "51CD9095B233695D"
+			tasks: [{
+				id: "3DC33FBB1ED4ED32"
+				type: "item"
+				item: "create:shadow_steel"
+			}]
+			rewards: [
+				{
+					id: "4F1ED0AFA70DE46D"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "33FE9F8EABEC79E7"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -15.0d
+			subtitle: "SymetryrtemyS"
+			description: ["This wand can help when building something Symetrical!"]
+			dependencies: ["7846A8CF1FBEDE37"]
+			id: "18F3841045F13D73"
+			tasks: [{
+				id: "1A71010D3FD3B387"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+			rewards: [
+				{
+					id: "15213D40445B38EB"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "7721DA94E965EFF9"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0E481A02FCBA999B"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			subtitle: "R-R-R-Rewind"
+			description: ["When given a redstone signal, a gearshift will reverse the rotation of the connected shaft."]
+			dependencies: [
+				"7536A887C2E080C3"
+				"127306029C76FD27"
+				"7330C7731DD6331C"
+			]
+			id: "445AD5EDC3E5CE2A"
+			tasks: [{
+				id: "3119A1627974551D"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "5364D45C1401E615"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -7.5d
+			subtitle: "Sequencing and Remixing"
+			description: ["This complicated box can execute a pre-recorded sequence of events when given a redstone signal, extremely useful for the movement components in create!"]
+			dependencies: [
+				"27C726BC20CB85C1"
+				"6289C2E29492A5CB"
+			]
+			id: "6E3696CB3D5AFE70"
+			tasks: [{
+				id: "43C9291545958622"
+				type: "item"
+				item: "create:sequenced_gearshift"
+			}]
+			rewards: [{
+				id: "171534F7F9685C01"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.5d
+			subtitle: "Wires, who needs em?"
+			description: [
+				"Wireless redstone! set up a link in either a transmitting mode, or a receiving mode, set the channel using the 2 slots provided, and boom! wireless redstone!"
+				"Note: redstone links by default transmit the signal to other links, to set them to recieving mode shift right click on them."
+			]
+			dependencies: ["6B9063E46B519AF6"]
+			id: "78919160F38FCCAD"
+			tasks: [{
+				id: "0311EF716AD16D8C"
+				type: "item"
+				item: "create:redstone_link"
+			}]
+			rewards: [{
+				id: "34802A17EA4A7FCD"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.5d
+			subtitle: "A Contraptionist's best friend!"
+			description: ["What do you get if you slap 6 redstone links into one, WASD + Space + Shift accepting Controller? The Linked Controller! shift right click to open the UI to configure the channels, right click, and use your movement buttons to control your redstone links!"]
+			dependencies: ["78919160F38FCCAD"]
+			id: "3EEEDAB96AF0A2B4"
+			tasks: [{
+				id: "62F4CB22048BE67E"
+				type: "item"
+				item: "create:linked_controller"
+			}]
+			rewards: [
+				{
+					id: "18EF7B55B5E859DB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "5B595A83664CC5B9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			subtitle: "Aerial Faith Plate Who?"
+			description: [
+				"Travel in style with these Weighted Ejectors! Shift+Right click to set a destination, and place in a line to set it up!"
+				"Can even be used to fling items across, up, and around your factory!"
+			]
+			dependencies: [
+				"7330C7731DD6331C"
+				"3FB36516692E2FB0"
+			]
+			id: "49908C657A100F90"
+			tasks: [{
+				id: "683BC158F3AD40A0"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+			rewards: [{
+				id: "6970F1FE75134870"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			subtitle: "Explosive Building Style!"
+			description: [
+				"Using a Schematicannon alongside a saved schematic you can place structures automatically!"
+				"[WARNING]: Schematicannon uses gunpowder, keep away from kids under 3, terms and conditions apply"
+			]
+			id: "38175B74D11F7F9C"
+			tasks: [
+				{
+					id: "46AE48A86B4E1759"
+					type: "item"
+					item: "create:schematicannon"
+				}
+				{
+					id: "39CD98FC4F597305"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "746732C6E9157ED5"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+				{
+					id: "3C862D960D31E0C6"
+					type: "item"
+					item: "create:schematic_and_quill"
+				}
+			]
+			rewards: [
+				{
+					id: "6B57BFD7CB19CF81"
+					type: "ftbmoney:money"
+					ftb_money: 850L
+				}
+				{
+					id: "27576CF734BEC72E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "The Fun stuff"
+			description: ["Who needs all those Fancy-Schmancy machines anyway, we have all these items to make our bases look cool!"]
+			id: "251E8CE84F70CC45"
+			tasks: [{
+				id: "67BC0FE3B2F995DE"
+				type: "checkmark"
+				title: "Kinetics!"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "Lime Toothpaste!"
+			description: [
+				"Super glue is used to stick blocks together for use in contraptions!"
+				"Put the tube in your offhand to automatically stick blocks you place to the block you placed them on."
+			]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "7AD841EC97D24595"
+			tasks: [{
+				id: "1875E3829D94FAC1"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "74101AA988080DCB"
+					type: "ftbmoney:money"
+					ftb_money: 120L
+				}
+				{
+					id: "62C901225F404111"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			subtitle: "EZ Contraption Blocks"
+			description: ["Chassis blocks automatically connect with others of the same type, not requiring glue to move together! even better, when you add a slime ball to one side it will stick to all blocks placed outwards from that block! (range configured by scrolling with a wrench)"]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "48283DB767BBD1C8"
+			tasks: [
+				{
+					id: "069FFC52E98C0EB5"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "7ACD0E121BC5C6D8"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+			]
+			rewards: [{
+				id: "582A1DF2AC6584C4"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			subtitle: "Puuuuush!"
+			description: [
+				"Mechanical pistons behave like normal pistons except for a few key differences, Namely requiring piston extention poles to set the range of motion on the piston."
+				"Great for Sliding doors or elevators!"
+			]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "29C3BF9242415B0D"
+			tasks: [{
+				id: "2C5B71771C636A48"
+				type: "item"
+				item: "create:mechanical_piston"
+			}]
+			rewards: [{
+				id: "76FDB1D1C6354BC1"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			subtitle: "Speeeeeeeeen!"
+			description: ["Rotates all connected blocks in the direction and speed of rotation! Great for blenders, swinging doors, fancy elevators (use a second bearing to stabilise the platform) and much more!"]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "3A131211C3DD835D"
+			tasks: [{
+				id: "3461428A6B649C20"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [
+				{
+					id: "7DD8451123821131"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "6821B7BE3B14629D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			subtitle: "Fancy Vertical Piston"
+			description: ["The Rope Lift is the perfect choice for Fancy Elevators, Mineshaft platforms, and all things vertical! unlike the Mechanical piston this does not even need any extention poles!"]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "10256A70FC8FC647"
+			tasks: [{
+				id: "2998C94C77B1722E"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [{
+				id: "18055383E512F227"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			subtitle: "Custom Clockmaking"
+			description: ["Adding 2 seperate contraptions infront of a Clockwork bearing will make your very own custom clock!"]
+			dependencies: ["3A131211C3DD835D"]
+			id: "2381769C748CBA69"
+			tasks: [{
+				id: "6804406266E14A37"
+				type: "item"
+				item: "create:clockwork_bearing"
+			}]
+			rewards: [
+				{
+					id: "644D3692F8F1BCC8"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "0537FDEC60539F9E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Shaft-Based-Motion"
+			description: [
+				"A great, Stress free Motion device, the gantry will move along the shaft in the direction of motion. powering the shaft will stop the contraption and allow the gantry to provide rotational energy through it instead!"
+				"Some Ideas for a gantry include, a tramline, an elevator, and even a 3D Scaffold system using 3 seperate gantry rails!"
+			]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "7238A17C8E0A9904"
+			tasks: [
+				{
+					id: "39FFDEAEAA93BBF4"
+					type: "item"
+					item: "create:gantry_shaft"
+				}
+				{
+					id: "7CE100383AC1675B"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+			]
+			rewards: [{
+				id: "109F4950806D1869"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			subtitle: "Planes, Trains, and Automobiles"
+			description: [
+				"The Cart Assembler, the holy grail of cart contraptions, either aesthetic or functional, this one block holds the power to attach blocks to a minecart (or multiple, for smoother rotation)"
+				"Suggested uses include a Train, a tunnel bore, automated mobile farms, a Tank, anything you can dream of really!"
+			]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "325C0599AE4B3E62"
+			tasks: [{
+				id: "3F50482B9B4F5AF0"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "6A80A54AEC342598"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			subtitle: "Stick together!"
+			description: ["Minecart coupling's allow for seperate minecarts to follow eachother at a fixed distance!"]
+			dependencies: ["325C0599AE4B3E62"]
+			id: "26BA5DFDA23D66B8"
+			tasks: [{
+				id: "28FD09E05D9E9443"
+				type: "item"
+				item: "create:minecart_coupling"
+			}]
+			rewards: [{
+				id: "6410D87C776E9175"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			subtitle: "\"But how do i get the items out?\""
+			description: ["A common question for moving contraptions is how one would get items (or for fluids, see the fluid version) out from a moving contraption. Well the Portable storage interface has you covered! when 2 of these meet they will transfer items between eachother until a period of inactivity is detected, resuming the contraption(s) involved!"]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "2152BCCA05BF74DF"
+			tasks: [{
+				id: "0E056FA2806F5F04"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
+			rewards: [{
+				id: "0692F00B6C939882"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			subtitle: "Not great at Non-Contact sports...."
+			description: ["Similar to the Portable Storage interface, When 2 of these meet a redstone signal will be generated!"]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "39CCADEAC6532AAC"
+			tasks: [{
+				id: "50BDEA18659005CE"
+				type: "item"
+				item: "create:redstone_contact"
+			}]
+			rewards: [{
+				id: "6616E6916702A3F1"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "Toggle-able Slime block"
+			description: ["When given a redstone signal, the slime face of this block will extend or retract, allowing for some contraptions to pick up and drop off other parts!"]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "07E8873878FE9DA0"
+			tasks: [{
+				id: "723199BA18EDB77F"
+				type: "item"
+				item: "create:sticker"
+			}]
+			rewards: [{
+				id: "6BDB67D70FD4AEAE"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			subtitle: "Take a Seat!"
+			description: ["The simple seat, can be used to sit down and enjoy life while you cruise by on your contraption (or just as a static decoration)"]
+			dependencies: ["251E8CE84F70CC45"]
+			id: "411EB82120FC2AC9"
+			tasks: [{
+				id: "01A264D6CEF96341"
+				type: "item"
+				item: "create:white_seat"
+			}]
+			rewards: [{
+				id: "042660CA033E6E38"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+	]
+}

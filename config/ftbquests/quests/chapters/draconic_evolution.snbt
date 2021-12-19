@@ -1,0 +1,1163 @@
+{
+	id: "1B1C70BA60985302"
+	group: "1961CD0117665BCC"
+	order_index: 2
+	filename: "draconic_evolution"
+	title: "Draconic Evolution"
+	icon: "minecraft:dragon_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.5d
+			id: "48D63353110DDEA2"
+			tasks: [{
+				id: "1C21E79FCBD8CF38"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
+			rewards: [{
+				id: "0C050777EB5D50FC"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["48D63353110DDEA2"]
+			id: "30F5DA7AA17508BC"
+			tasks: [{
+				id: "73CF17DCF3D0A207"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+			}]
+			rewards: [{
+				id: "4E02AAC4CFF5BF36"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			dependencies: ["0B6C2B44EC6FC390"]
+			id: "7AC4FBB102275A8F"
+			tasks: [{
+				id: "26250B4622FCDD02"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			rewards: [
+				{
+					id: "7EC4F26D0076C07F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3FF1F420D0A38AC8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["30F5DA7AA17508BC"]
+			id: "5BA4F05BF0856113"
+			tasks: [{
+				id: "458373A20505261D"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [{
+				id: "3936361A7CF56AAF"
+				type: "ftbmoney:money"
+				ftb_money: 1250L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["5BA4F05BF0856113"]
+			id: "713BE88B51BB7966"
+			tasks: [{
+				id: "3FFACF2F07314B8A"
+				type: "item"
+				item: "draconicevolution:grinder"
+			}]
+			rewards: [{
+				id: "4635C1AAE42B9FF2"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["5BA4F05BF0856113"]
+			id: "42A1A8FE4591CC69"
+			tasks: [{
+				id: "68387438DF6CE1FE"
+				type: "item"
+				item: "draconicevolution:generator"
+			}]
+			rewards: [{
+				id: "6EDEFC4994C6B151"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["7AC4FBB102275A8F"]
+			id: "318FDAF6BF26C3E2"
+			tasks: [{
+				id: "054D478F7798C089"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1273001658
+									-281589519
+									-1795238142
+									-526401102
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "09B1A7173DFCB638"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "66EEC303830FFA66"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["7AC4FBB102275A8F"]
+			id: "345C11320E56E561"
+			tasks: [{
+				id: "16ADDC160013598F"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-70228346
+									-1903999103
+									-1592868040
+									-969757663
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "58F41B170394D28A"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "3F177E44F1BDDE80"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			dependencies: ["7AC4FBB102275A8F"]
+			id: "60CAFD8EEA3DDDC5"
+			tasks: [{
+				id: "466EB1251B9A35AD"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									516028280
+									2041925567
+									-1676192263
+									22791684
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C27DCA187C70325"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "1048DF299503CF2D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["7AC4FBB102275A8F"]
+			id: "11AEC0D3D277AF38"
+			tasks: [{
+				id: "519657A1EC66A72C"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									510799256
+									1192969040
+									-1877044259
+									967629328
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0264AE630A0349C9"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "694BBB3B18371CFF"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["7AC4FBB102275A8F"]
+			id: "210CF77AE255EC96"
+			tasks: [{
+				id: "2E5F350B9826A09E"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_shovel"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-789574902
+									379865159
+									-1179366501
+									-1068290864
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5190C0A88D1F06E0"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "508496A11FB7AD9D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			dependencies: ["7AC4FBB102275A8F"]
+			id: "0AD8AF92D4FB5FE4"
+			tasks: [{
+				id: "2EEA68D34BE71C1A"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_hoe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1600611590
+									-270055258
+									-2096703679
+									-464376983
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "272C0157715BC153"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "6793CF28267E713E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["5BA4F05BF0856113"]
+			id: "0B6C2B44EC6FC390"
+			tasks: [
+				{
+					id: "36D9D666D0ED0A4D"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+				{
+					id: "2C3468314D826002"
+					type: "item"
+					item: "draconicevolution:basic_crafting_injector"
+				}
+			]
+			rewards: [{
+				id: "25CC18DCE908BA2A"
+				type: "ftbmoney:money"
+				ftb_money: 1200L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -10.0d
+			dependencies: ["7AC4FBB102275A8F"]
+			id: "6EA5C1F10C0513D9"
+			tasks: [{
+				id: "2338D77B06F44318"
+				type: "item"
+				item: "draconicevolution:draconic_energy_core"
+			}]
+			rewards: [
+				{
+					id: "6992DB5AD383A905"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "47842BC819A2AB2F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -11.0d
+			dependencies: ["6EA5C1F10C0513D9"]
+			id: "24523B9383D15D48"
+			tasks: [{
+				id: "05F5E40764617E7B"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1122350386
+									-1163572943
+									-1573913745
+									1135084925
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1998011018573B36"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "23647A00E58F5FD5"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			dependencies: ["6EA5C1F10C0513D9"]
+			id: "2C5E1102B3AEB815"
+			tasks: [{
+				id: "37A70EFC46241F23"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									702256956
+									-108380021
+									-1708638022
+									-652053755
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7ACD644009D3E49B"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "06BA666B9075CC92"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -7.5d
+			dependencies: ["6EA5C1F10C0513D9"]
+			id: "7FFF05DCCA0196CB"
+			tasks: [{
+				id: "61208DF4ECA09050"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_shovel"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1585976365
+									1482313576
+									-1832659426
+									-1109954156
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4875DED64AD6952F"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "5C93D73A80AEF54D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -12.5d
+			dependencies: ["6EA5C1F10C0513D9"]
+			id: "6427F151FFAEEB89"
+			tasks: [{
+				id: "528CEF7B0545D0A8"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_axe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									109313951
+									-1529002490
+									-1663148221
+									483060219
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53D75E89C14C5247"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "688AA3C18F547619"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -10.5d
+			dependencies: ["6EA5C1F10C0513D9"]
+			id: "16C014D592CAC8C2"
+			tasks: [{
+				id: "786D17BD9261CAEE"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1979430963
+									1900695266
+									-1214960519
+									1558355583
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55EB3CFE51F349DC"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "06FA9AE28170FAE4"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -10.0d
+			dependencies: ["6EA5C1F10C0513D9"]
+			id: "3F4041F9EDD7391C"
+			tasks: [{
+				id: "1D670542A64CCC1C"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-35923942
+									-703641040
+									-1241953055
+									669207086
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4EA39DEE34F65EC8"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "4D73F79626A44225"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -7.5d
+			dependencies: [
+				"2C5E1102B3AEB815"
+				"7FFF05DCCA0196CB"
+				"16C014D592CAC8C2"
+			]
+			id: "78C896602492DA06"
+			tasks: [{
+				id: "1280C44C2CCB3605"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									15056918
+									-1673376574
+									-1577760226
+									2094213655
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "49351FB197450FE8"
+					type: "ftbmoney:money"
+					ftb_money: 2750L
+				}
+				{
+					id: "6C511BBC4F312CC3"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -14.0d
+			dependencies: ["6EA5C1F10C0513D9"]
+			id: "3C7E0A52CC57973E"
+			tasks: [{
+				id: "54A8C7A3BCBB8012"
+				type: "item"
+				item: "draconicevolution:chaotic_energy_core"
+			}]
+			rewards: [
+				{
+					id: "43F82D696E3D2C39"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "354F06CB44DAF263"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -14.5d
+			dependencies: ["3C7E0A52CC57973E"]
+			id: "1517C3DA4F7C1E81"
+			tasks: [{
+				id: "27B6F2223B2EB3F8"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1497099342
+									1861239090
+									-1787898817
+									1825246922
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "09C8C52A4AF042C7"
+					type: "ftbmoney:money"
+					ftb_money: 4500L
+				}
+				{
+					id: "7EA0E87005379196"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -13.0d
+			dependencies: ["3C7E0A52CC57973E"]
+			id: "730B65DEF5C8236E"
+			tasks: [{
+				id: "2A78080411CA502B"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									924447946
+									-1657779054
+									-1271874502
+									-1738083740
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B87A7EF7182C9CD"
+					type: "ftbmoney:money"
+					ftb_money: 4500L
+				}
+				{
+					id: "12A19833069A8B40"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -12.0d
+			dependencies: ["3C7E0A52CC57973E"]
+			id: "5ACCC4AC24B672BD"
+			tasks: [{
+				id: "6110F3211A9FF119"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_shovel"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									2066535884
+									1815363829
+									-1128308737
+									541727411
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B2AB553E9E32D1B"
+					type: "ftbmoney:money"
+					ftb_money: 4500L
+				}
+				{
+					id: "2EA0D2437B229887"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -16.0d
+			dependencies: ["3C7E0A52CC57973E"]
+			id: "7DCBC7949DBB86E2"
+			tasks: [{
+				id: "4971060FC043A1E2"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_axe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									378760664
+									349195545
+									-1175674319
+									-355357162
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05CE831920AFBCDB"
+					type: "ftbmoney:money"
+					ftb_money: 4500L
+				}
+				{
+					id: "627EE45B7F2A793B"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -15.0d
+			dependencies: ["3C7E0A52CC57973E"]
+			id: "0202D25BB09F443C"
+			tasks: [{
+				id: "084D5FC20ED1A2FA"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1874743729
+									-1978251954
+									-1299284262
+									-632661229
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D3C8A2646815160"
+					type: "ftbmoney:money"
+					ftb_money: 4500L
+				}
+				{
+					id: "76D0C70489A2BD32"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -13.5d
+			dependencies: ["3C7E0A52CC57973E"]
+			id: "045DD3F7AF5825A9"
+			tasks: [{
+				id: "245B4ADD4106F0BE"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1618247663
+									1892239067
+									-1503154703
+									-825465569
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6FEFD48889875002"
+					type: "ftbmoney:money"
+					ftb_money: 4500L
+				}
+				{
+					id: "4344160AD5C39C98"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -11.5d
+			dependencies: [
+				"730B65DEF5C8236E"
+				"1517C3DA4F7C1E81"
+				"5ACCC4AC24B672BD"
+			]
+			id: "38868DBB7CC14B0B"
+			tasks: [{
+				id: "09F7638023E7C552"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1815599579
+									1755529461
+									-2133685627
+									422095914
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3288FBE6B71762AD"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "1C36DD12A7038EA5"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["0B6C2B44EC6FC390"]
+			id: "637C52D15ECB92E2"
+			tasks: [{
+				id: "45C6B936A8FE0C6C"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+			rewards: [{
+				id: "3FA8ACE546E6EC1C"
+				type: "ftbmoney:money"
+				ftb_money: 1500L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["637C52D15ECB92E2"]
+			id: "60F6BF0E0A809BD9"
+			tasks: [{
+				id: "309BC4A40407AC27"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "1311017C5B5E104C"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "535BD29B005814F8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["60F6BF0E0A809BD9"]
+			id: "547D0AADB4829272"
+			tasks: [{
+				id: "42929673C32E9B9E"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "2995DEFBC12828CD"
+					type: "ftbmoney:money"
+					ftb_money: 3500L
+				}
+				{
+					id: "2D0B47A0B7F3AFE4"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1140 @@
+{
+	id: "6700CB1F8A80BE7D"
+	group: "4E139BB973FD0007"
+	order_index: 2
+	filename: "beginner_storage_systems"
+	title: "Beginner Storage Systems"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: 0.0d
+			id: "3ECD37340439C271"
+			tasks: [{
+				id: "4BA8723E0B6E907B"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "0C5AE515DE954F8A"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["3ECD37340439C271"]
+			id: "652E9C58CD0F3CBC"
+			tasks: [{
+				id: "4D3CA15913649A4A"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+			rewards: [{
+				id: "4B566F1E8ED29FCA"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["652E9C58CD0F3CBC"]
+			id: "19A6668B15FBEE91"
+			tasks: [{
+				id: "7F4AAA751B147DB9"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+			rewards: [{
+				id: "6FC8E7EA0DDAF4DE"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			dependencies: ["19A6668B15FBEE91"]
+			id: "24442EE3869E66C7"
+			tasks: [{
+				id: "59A8B8D46667556A"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+			rewards: [
+				{
+					id: "685AA9E7B7E7D956"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "44C3156F897C4AA8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["24442EE3869E66C7"]
+			id: "483641731E7D315A"
+			tasks: [{
+				id: "6D2A30CD8BF961F2"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+			rewards: [
+				{
+					id: "0AED5130D440849A"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "73423F5E79956247"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			dependencies: ["483641731E7D315A"]
+			id: "676501274C50712B"
+			tasks: [{
+				id: "229CFF63324F42CD"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+			rewards: [
+				{
+					id: "1113C25394C350AB"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "7F4A63407583C877"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			dependencies: ["676501274C50712B"]
+			id: "18713BA2B2B2B67D"
+			tasks: [{
+				id: "49CA74F04C356E10"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+			rewards: [
+				{
+					id: "0AA182EA883DA466"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "0FB9137076DAC93F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: ["3ECD37340439C271"]
+			id: "4B3E46952D4E70C2"
+			tasks: [{
+				id: "45D0B8F911A575BF"
+				type: "item"
+				item: {
+					id: "tanknull:tank_1"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "39B0F9D583130C2B"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["4B3E46952D4E70C2"]
+			id: "1A2195AD28778B56"
+			tasks: [{
+				id: "6C7D4846A0468B6E"
+				type: "item"
+				item: {
+					id: "tanknull:tank_2"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "031AB5C7E7FBD51E"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["1A2195AD28778B56"]
+			id: "64B0B595C259ED3C"
+			tasks: [{
+				id: "63619CEA87DCA1F4"
+				type: "item"
+				item: {
+					id: "tanknull:tank_3"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "68E8B1BB446191CA"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["64B0B595C259ED3C"]
+			id: "63A99C7DEC4EA86E"
+			tasks: [{
+				id: "4AC42D7E2DE489A2"
+				type: "item"
+				item: {
+					id: "tanknull:tank_4"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3FBB65AE6E16F923"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "31A99ED6B6093725"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			dependencies: ["63A99C7DEC4EA86E"]
+			id: "50A66C3E007549EB"
+			tasks: [{
+				id: "6A8ECAB8CDECB426"
+				type: "item"
+				item: {
+					id: "tanknull:tank_5"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "46F262D8B1708DDE"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "5E446D1BD18C2023"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			dependencies: ["50A66C3E007549EB"]
+			id: "3E01A71F0D335507"
+			tasks: [{
+				id: "43F99612FB77A8A5"
+				type: "item"
+				item: {
+					id: "tanknull:tank_6"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2D7DBA7EAC4717F1"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "6DA12C4259703953"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			dependencies: ["3E01A71F0D335507"]
+			id: "753B94FAFA34D94B"
+			tasks: [{
+				id: "279624E9582C39C5"
+				type: "item"
+				item: {
+					id: "tanknull:tank_7"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2571A16E839423B7"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "75B293E0D4689B88"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["7A5AF297F8861784"]
+			id: "7878AEFB50EF3E57"
+			tasks: [{
+				id: "152512321697CA6C"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7D09F54BA9B74B7A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "4E06D06863F8CD10"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["7A5AF297F8861784"]
+			id: "2BD6FD47E9B9DE93"
+			tasks: [{
+				id: "35BFD27BF207BC8E"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [
+				{
+					id: "78323EB4B89D3C89"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "7EAFE4F35405CB3B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["7A5AF297F8861784"]
+			id: "18C2DC2535AF5376"
+			tasks: [{
+				id: "6532B1C67A605612"
+				type: "item"
+				item: {
+					id: "quark:backpack"
+					Count: 1b
+					tag: {
+						Inventory: [
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0D0BE323788619D5"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "2E0FB785E97C3154"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "7A5AF297F8861784"
+			tasks: [{
+				id: "39A8CEB797A254E9"
+				type: "checkmark"
+				title: "Backpacks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["2BD6FD47E9B9DE93"]
+			id: "713C28BF416627DD"
+			tasks: [{
+				id: "2888FB0652D29BF6"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+			rewards: [{
+				id: "6D4F9A3E9B2B9F21"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["713C28BF416627DD"]
+			id: "6864649E7446230B"
+			tasks: [{
+				id: "1291D3E00F3EF419"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+			rewards: [{
+				id: "04EEA1F88ED013DE"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["2BD6FD47E9B9DE93"]
+			id: "3EF0B430A3F355A0"
+			tasks: [{
+				id: "0F9DDA53EB1022ED"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [{
+				id: "170A5297DA184E8B"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["2BD6FD47E9B9DE93"]
+			id: "6B67730F9EEA9E55"
+			tasks: [{
+				id: "6B445D1B3C1D25F5"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "7775FEC62772AB4D"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "7C8ABBE4C2D5BA43"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["191C30E8A854FD5D"]
+			id: "5EA80BE8AABE48B7"
+			tasks: [{
+				id: "7857A7DAF057CBDB"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+			rewards: [
+				{
+					id: "302EA308B08CCA8A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "7304338A2D7DC159"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["09CA0FEFD23CC8D9"]
+			id: "293A96961D16C928"
+			tasks: [{
+				id: "24C1728E99E8E343"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+			}]
+			rewards: [
+				{
+					id: "78F7E73FF05A26EE"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "4ECB993CC1701C52"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["5EA80BE8AABE48B7"]
+			id: "41F6EFA704A78EFF"
+			tasks: [{
+				id: "2E70C8A6E2BD01A9"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+			rewards: [
+				{
+					id: "17206F1BBBC18AE9"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "13E6281327A3C4EF"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["41F6EFA704A78EFF"]
+			id: "5F6FA55F1E28789D"
+			tasks: [{
+				id: "5C536B26E24BC6D3"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+			rewards: [
+				{
+					id: "610570A9D5617D73"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "4E44A0E33649B357"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["2BD6FD47E9B9DE93"]
+			id: "09CA0FEFD23CC8D9"
+			tasks: [{
+				id: "389F9D4283FA7403"
+				type: "item"
+				item: "sophisticatedbackpacks:restock_upgrade"
+			}]
+			rewards: [{
+				id: "35B0CBA91B30CC2E"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["2BD6FD47E9B9DE93"]
+			id: "035942DE1D3FFA01"
+			tasks: [{
+				id: "3964304F175B6C13"
+				type: "item"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+			rewards: [{
+				id: "503B8AEFA2A093C3"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["035942DE1D3FFA01"]
+			id: "2A12C0FE1C7773EC"
+			tasks: [{
+				id: "26FC1EB53C41E3C9"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+			rewards: [
+				{
+					id: "78BE0E816F327943"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3EF5F51986042C60"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["6864649E7446230B"]
+			id: "5B325BC53434ADDF"
+			tasks: [{
+				id: "5D6B20FAADC5861B"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4B905C4019ED0B35"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "410ECBB8810E1330"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["7A5AF297F8861784"]
+			id: "08816B386B383D09"
+			tasks: [{
+				id: "618467A1C28A11CD"
+				type: "item"
+				item: {
+					id: "cyclic:storage_bag"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 81
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6EA376474450EFD7"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+				{
+					id: "79A25CD45324E84E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["7A5AF297F8861784"]
+			id: "3DE30F2328971061"
+			tasks: [{
+				id: "4609FD4AEB0EEFAB"
+				type: "item"
+				item: "cyclic:tile_transporter_empty"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["7A5AF297F8861784"]
+			id: "6635FBB0F06E35C7"
+			tasks: [{
+				id: "02E820952912A413"
+				type: "item"
+				item: "cyclic:ender_bag"
+			}]
+		}
+		{
+			title: "Storage Drawers"
+			x: 3.0d
+			y: 3.5d
+			id: "6657879CD63B4982"
+			tasks: [{
+				id: "55AB41A838F4075F"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1219B5E1FCED0FAE"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["6657879CD63B4982"]
+			id: "4F83AE6D7CBFA725"
+			tasks: [{
+				id: "30A24CEAD79E9DD8"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "1C9EB00E877E1ABF"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "24BE6164ED216134"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			id: "7154B1E6CA52E19E"
+			tasks: [
+				{
+					id: "3C5AFFCBB09BD4C9"
+					type: "item"
+					item: "storagenetwork:master"
+				}
+				{
+					id: "6C48820B4BF82135"
+					type: "item"
+					item: "storagenetwork:kabel"
+					count: 32L
+				}
+				{
+					id: "30434419F860CAEC"
+					type: "item"
+					item: "storagenetwork:storage_kabel"
+				}
+			]
+			rewards: [
+				{
+					id: "61A3E735C33D4C83"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "076BB7E84FFAB68D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["7154B1E6CA52E19E"]
+			id: "05D019DB6F2CA9AB"
+			tasks: [{
+				id: "3CCF26834AC49B65"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			rewards: [
+				{
+					id: "27A9523D97E44F85"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "4EC21BA19BB9D344"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["7A5AF297F8861784"]
+			id: "39C5DA4899B5472F"
+			tasks: [{
+				id: "65020BE49D2ED993"
+				type: "item"
+				item: "engineerstools:material_box"
+			}]
+			rewards: [
+				{
+					id: "5FC91125083BD125"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "6824B53CE1B7D953"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			id: "29363BCC595DC79E"
+			tasks: [{
+				id: "1B90954BEB19F9D4"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+			rewards: [{
+				id: "44E1D1285FAC6B9E"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["29363BCC595DC79E"]
+			id: "2D78F5FBE28E058F"
+			tasks: [{
+				id: "72E94536A8DDB4D1"
+				type: "item"
+				item: "metalbarrels:gold_barrel"
+			}]
+			rewards: [{
+				id: "24FF7BB0F8B55D40"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			dependencies: ["2D78F5FBE28E058F"]
+			id: "6ED52FF6E7763295"
+			tasks: [{
+				id: "3740550F3A910A7A"
+				type: "item"
+				item: "metalbarrels:diamond_barrel"
+			}]
+			rewards: [
+				{
+					id: "6AD8EA39A5D1C9A6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "03C75612383ED566"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			dependencies: ["6ED52FF6E7763295"]
+			id: "5B28587C4A870C58"
+			tasks: [{
+				id: "0AAA70EB11E883A7"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+			rewards: [
+				{
+					id: "34D0C773ED14AE1A"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "6DC09726CD4B1FB1"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["58FE40A3ECB51C3C"]
+			id: "0F33220240B8D926"
+			tasks: [{
+				id: "3D77A6A9367A9D43"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [{
+				id: "65AB7BD319723A35"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			dependencies: ["0F33220240B8D926"]
+			id: "4D6A8D3AED7288E0"
+			tasks: [{
+				id: "14BA684D636FEB5A"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "65F0FBD7E71DC1EA"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "7EE766A3AF3F96C1"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			dependencies: ["4D6A8D3AED7288E0"]
+			id: "0EF9C532DC0F1558"
+			tasks: [{
+				id: "5E1CCDF9CF60FF67"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "64F880105AC10CC6"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "2ACB8E4D91B6B770"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			dependencies: ["58FE40A3ECB51C3C"]
+			id: "7FF7C2AC0CF01132"
+			tasks: [{
+				id: "15C16C65614C1845"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+			rewards: [{
+				id: "5F2734E8BFA9C2BC"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			dependencies: ["7FF7C2AC0CF01132"]
+			id: "1886E92D3962806D"
+			tasks: [{
+				id: "3F23ACFFFA555D4A"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "5C0127C850EFC22F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3D9369B0EC9597C9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			dependencies: ["1886E92D3962806D"]
+			id: "6727FC4187D17839"
+			tasks: [{
+				id: "5D91DAA990563A19"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "607B3090A0D32454"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "073F25598C5FAA19"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			id: "58FE40A3ECB51C3C"
+			tasks: [{
+				id: "2F8BA3677A427E18"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [{
+				id: "4470AD9854FA6356"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["2BD6FD47E9B9DE93"]
+			id: "191C30E8A854FD5D"
+			tasks: [{
+				id: "7CB4EB6093707AC4"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+			rewards: [
+				{
+					id: "057C29009E533C8D"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "2641D8C14DFBF1C9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["3EF0B430A3F355A0"]
+			id: "0DAE1B24AC6BDEC5"
+			tasks: [{
+				id: "0310EDC8A061777D"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+			}]
+			rewards: [
+				{
+					id: "6E667F83A0FF185C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "2C5F1A6865F86B16"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+	]
+}

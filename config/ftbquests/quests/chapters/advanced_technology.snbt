@@ -1,0 +1,2513 @@
+{
+	id: "467F58A8EE07CA4C"
+	group: "7BA60458025E99B0"
+	order_index: 2
+	filename: "advanced_technology"
+	title: "Advanced Technology"
+	icon: "compactmachines:machine_maximum"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -13.0d
+			y: 0.5d
+			description: ["A quarry that not only gives you infinite materials but can also provide both infinite lava and filters."]
+			id: "26F0DF4E7E78572D"
+			tasks: [{
+				id: "5A370A4575777DE0"
+				type: "item"
+				item: "quantumquarryplus:quantum_quarry_plus"
+			}]
+			rewards: [
+				{
+					id: "281A2E85BFBA0C94"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "061CCA83D1042694"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			id: "7E7F72C33C766BE0"
+			tasks: [{
+				id: "170E92E337DC257F"
+				type: "item"
+				item: "powersuits:tinkertable"
+			}]
+			rewards: [
+				{
+					id: "070C21A800546E99"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+				{
+					id: "314E328D6EF51959"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			id: "42496BE29A964640"
+			tasks: [{
+				id: "103BB9D7E54F0F65"
+				type: "item"
+				item: {
+					id: "powersuits:powerarmor_head"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2969553070942C9A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2601F0DF0EB8A8B1"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "753B0D8574574A08"
+			tasks: [{
+				id: "1E1537F281818F28"
+				type: "item"
+				item: {
+					id: "powersuits:powerarmor_torso"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7A3E6A9C6E26AD86"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "306B54486039B374"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "0271620089394E3D"
+			tasks: [{
+				id: "4E808A2677EF4819"
+				type: "item"
+				item: {
+					id: "powersuits:powerarmor_legs"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "634F3D6ADEA93F3E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "1D1C259263AA0A76"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			id: "5E6EC5BBE8B8943F"
+			tasks: [{
+				id: "37D805502ACEBF54"
+				type: "item"
+				item: {
+					id: "powersuits:powerarmor_feet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2BF1FD10F0DB84CD"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2A6A10AD551F96B4"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "77ACAE1A2541C8D0"
+			tasks: [{
+				id: "6E0EEDC9248984DA"
+				type: "item"
+				item: {
+					id: "powersuits:powerfist"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2E47FDC43FADD6EA"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "019A918285ABB27C"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "768921BA45A41DA6"
+			tasks: [{
+				id: "276ABF9C7C3017F2"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "64ECD1DE5A231D8A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "3FF9F3BFBBC0CB0B"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "29F9F8719D2FEFB2"
+			tasks: [{
+				id: "4CD90DC5DE3E6CAD"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "052093CB1713F51E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "11D5728BE1BFB4D6"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "187D60F19179F9D2"
+			tasks: [{
+				id: "2F04323A5739F83D"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "515A61C224ACD2EA"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "04B3B9D86EA5D13B"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "59872538F22FC997"
+			tasks: [{
+				id: "52D251C6CF4CD7EA"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4DDC31DFBF0651F9"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2085BEB51B7CB136"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "6E8F377AD9A307AE"
+			tasks: [{
+				id: "59F5410415AFD06C"
+				type: "item"
+				item: {
+					id: "mekanism:meka_tool"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "443ADEDE1D94B0E2"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "04B41863632735F4"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "7B8FEC2C4DDBC83A"
+			tasks: [{
+				id: "3B10CD989203E70D"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+			rewards: [
+				{
+					id: "77EE6D093CFE2841"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "720850AA13D2A349"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -0.5d
+			dependencies: ["64C6C28A6A9AE74F"]
+			id: "65E8B9EE7B89B755"
+			tasks: [{
+				id: "653F868570A1A488"
+				type: "item"
+				item: "envirotech:ionite_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "08D2AFE1870A3CF3"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "1C58874A39E73E37"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 0.5d
+			dependencies: ["65E8B9EE7B89B755"]
+			id: "4A0A3C5F54139182"
+			tasks: [{
+				id: "087DCFC03ED68B5B"
+				type: "item"
+				item: "envirotech:aethium_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "6D935F9D9B1D77C4"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "346BF75E22D2BCBA"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 1.5d
+			dependencies: ["4A0A3C5F54139182"]
+			id: "404AC36D94D75659"
+			tasks: [{
+				id: "01508AD94FF5C371"
+				type: "item"
+				item: "envirotech:nanorite_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "320AC3868109B639"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "6D0FCC7BF8707FDD"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 2.5d
+			dependencies: ["404AC36D94D75659"]
+			id: "682D36950B684021"
+			tasks: [{
+				id: "24643D62765415D7"
+				type: "item"
+				item: "envirotech:xerothium_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "4275ECA911C310BE"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "402E2ED6ABB2B91F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -1.5d
+			dependencies: ["0E5AD5E4AC4232BB"]
+			id: "64C6C28A6A9AE74F"
+			tasks: [{
+				id: "53E4AEF6175AABD6"
+				type: "item"
+				item: "envirotech:pladium_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "49E3FDE24F44E69D"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+				{
+					id: "3E5925BCFC558BDD"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -0.5d
+			subtitle: "Too... much... POWER!"
+			description: ["Welcome back to Solar Flux, feeling the pain of making these yet?"]
+			dependencies: ["63B56EE342D536D8"]
+			id: "446DD10FD6A7BB62"
+			tasks: [{
+				id: "7721CF6452B962EF"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [
+				{
+					id: "2E75B7B1E003ED81"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "72CDADE5FE6F6592"
+					type: "ftbmoney:money"
+					ftb_money: 4000L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			subtitle: "Cracking Dragon eggs for power!"
+			description: ["Getting multiple eggs is required for these panels, might need a few if you want to upgrade further!"]
+			dependencies: ["446DD10FD6A7BB62"]
+			id: "36E1C9F2A2BEA8A3"
+			tasks: [{
+				id: "781D0BE013FC987E"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [
+				{
+					id: "314D35E6441CCC4C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "626A67D78F0119B8"
+					type: "ftbmoney:money"
+					ftb_money: 6000L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -2.0d
+			subtitle: "Almost there...."
+			description: ["One more upgrade... can you make the final push?"]
+			dependencies: ["2C6AAB52CD314111"]
+			id: "1528D6C962441D1F"
+			tasks: [{
+				id: "2B90C69B0330327E"
+				type: "item"
+				item: "solarflux:sp_de.draconic"
+			}]
+			rewards: [
+				{
+					id: "78E5E2658F7EA49C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "3F84651D7FD886B8"
+					type: "ftbmoney:money"
+					ftb_money: 30000L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			subtitle: "Overkill? I'll show you overkill!"
+			description: ["Getting into Draconic Evolution now, but you are so close to the end!"]
+			dependencies: ["36E1C9F2A2BEA8A3"]
+			id: "2C6AAB52CD314111"
+			tasks: [{
+				id: "612E94D4B20F4A9C"
+				type: "item"
+				item: "solarflux:sp_de.wyvern"
+			}]
+			rewards: [
+				{
+					id: "13BD9604A4B25135"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0A3AE666017DFC2C"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			subtitle: "CHAOS, CONTROL!!!!"
+			description: ["CONGRATULATIONS! ironicaly, the solar panels you infused to reach this quest wouldve been great for powering the infuser, but now you should never run out of power..... during the day!"]
+			dependencies: ["1528D6C962441D1F"]
+			id: "28760A8B5061095E"
+			tasks: [{
+				id: "270744907B1630B0"
+				type: "item"
+				item: "solarflux:sp_de.chaotic"
+			}]
+			rewards: [
+				{
+					id: "248D7F7D484C0F64"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "6ECA38EC9B973C2C"
+					type: "ftbmoney:money"
+					ftb_money: 100000L
+				}
+				{
+					id: "7FCF522B4FD2DDF2"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 1.5d
+			id: "6E2B420466AE22ED"
+			tasks: [{
+				id: "4E549C51D2019272"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "7C3B838CCBB859A6"
+				type: "ftbmoney:money"
+				ftb_money: 700L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			dependencies: ["6E2B420466AE22ED"]
+			id: "5DD8EDEED61AFF86"
+			tasks: [{
+				id: "399A919E92F2EA6E"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+			rewards: [
+				{
+					id: "31387F2ACC176428"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+				{
+					id: "05815B95CDEB22C6"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["5DD8EDEED61AFF86"]
+			id: "7309177E88FDDF5F"
+			tasks: [{
+				id: "12EB195B6D451585"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [
+				{
+					id: "3157D82604C39C83"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "593411DAC474DB93"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Mekanism"
+			x: -13.0d
+			y: 8.5d
+			subtitle: "Mekkanized!"
+			description: [
+				"Mekanism! a truly versatile tech mod that will see you through a large portion of the game, if not till the very end! Mekanism has a large variety of upgrades and machines to automate everything efficiently, and is home to 5x ore duplication through a lengthy process!                                       "
+				"                                                 Special Thanks to Killeroid356 for the beautiful descriptions!                   "
+			]
+			size: 2.0d
+			id: "2B9FE0B3C92BD351"
+			tasks: [{
+				id: "79FDA4766CD9DFFC"
+				type: "item"
+				title: "Any #forge:ingots/osmium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/osmium"
+					}
+				}
+				count: 64L
+			}]
+			rewards: [{
+				id: "734AC75891108277"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			title: "Metalurgic Infuser"
+			x: -10.0d
+			y: 8.5d
+			subtitle: "Alloy's galore!"
+			description: ["The Metalurgic Infuser is used to infuse materials with other materials, some examples include iron + coal for steel dust, redstone + osmium for circuits, Etc."]
+			dependencies: ["2B9FE0B3C92BD351"]
+			size: 1.5d
+			id: "4DA4F601F12F5329"
+			tasks: [{
+				id: "580FA651D524608B"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "3B8EA5E815815DC7"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 8.5d
+			subtitle: "AI Integrated!"
+			description: ["Osmium and Redstone get you the first Tier of circuits that are used in a wide variety of recipies, so craft many of them!"]
+			dependencies: ["4DA4F601F12F5329"]
+			id: "2EA68F9EC25D0FD1"
+			tasks: [{
+				id: "3EB83C6E681DCAFD"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [{
+				id: "02D6CB0674E02E2C"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 6.0d
+			subtitle: "Not a Red Eye...."
+			description: ["Iron and Redstone in a Metalurgic infuser gets you this super useful alloy!"]
+			dependencies: ["4DA4F601F12F5329"]
+			id: "64CCB3F4B761BA47"
+			tasks: [{
+				id: "247EA32169FEB2DF"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [{
+				id: "4AA39FA95B26DB97"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 8.5d
+			subtitle: "AI Takeover"
+			description: ["The second tier of circuits, for more advanced factories!"]
+			dependencies: [
+				"64CCB3F4B761BA47"
+				"2EA68F9EC25D0FD1"
+			]
+			id: "3432EECF8824F032"
+			tasks: [{
+				id: "4DB1874A85DB5A8A"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "64940182A9BAD058"
+					type: "ftbmoney:money"
+					ftb_money: 900L
+				}
+				{
+					id: "52D1F5B3137393EC"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 6.0d
+			subtitle: "Reinforcement is key!"
+			description: ["A sparkly upgrade to your alloys with diamond dust!"]
+			dependencies: ["64CCB3F4B761BA47"]
+			id: "56F5A2376B508AAD"
+			tasks: [{
+				id: "4F38A6650F02D087"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [{
+				id: "1A98C5F430442588"
+				type: "ftbmoney:money"
+				ftb_money: 900L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			subtitle: "AI OVERLORD."
+			description: ["Tier 3 Circuit. Beep-Boop."]
+			dependencies: [
+				"3432EECF8824F032"
+				"56F5A2376B508AAD"
+			]
+			id: "50458F79FB5301E1"
+			tasks: [{
+				id: "68AA6CBF1254142A"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "64F863902EC4219A"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+				{
+					id: "4E1E025816BC06F3"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 8.5d
+			subtitle: "AI."
+			description: ["Make Good Factory. Efficiency Rise To 100%. Comply."]
+			dependencies: [
+				"609E568AA9FD0765"
+				"50458F79FB5301E1"
+			]
+			id: "336C6AC3F8D1C409"
+			tasks: [{
+				id: "207700A9324E6378"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "4433D7A86D5C12B7"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "1B9A23354606192F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			subtitle: "Welcome to the Atomic Era"
+			description: ["Finish those alloys off with diamond infused obsidian dust!"]
+			dependencies: ["56F5A2376B508AAD"]
+			id: "609E568AA9FD0765"
+			tasks: [{
+				id: "7C205D085EE50607"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [
+				{
+					id: "108E0700ED297CB8"
+					type: "ftbmoney:money"
+					ftb_money: 1200L
+				}
+				{
+					id: "625BADC5AB2DA6B4"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 11.0d
+			subtitle: "Smelt em up!"
+			description: ["A powered furnace, what's not to love?"]
+			dependencies: ["4DA4F601F12F5329"]
+			id: "75AE331202D5F4E0"
+			tasks: [{
+				id: "394FEA2E35CB042E"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [{
+				id: "462236937DE04CA9"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 12.0d
+			subtitle: "Krush em!"
+			description: ["This loud machine can crush items into dust! I would advise making some muffler upgrades for this one...."]
+			dependencies: ["4DA4F601F12F5329"]
+			id: "3CFEA593609B7EA1"
+			tasks: [{
+				id: "5080743B894D9355"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [
+				{
+					id: "3D45B1D2001F811D"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "5593BA9F3D520B6E"
+					type: "item"
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 13.0d
+			subtitle: "Not to be confused with a Video Compressor!"
+			description: ["Using the power of Osmium you too can create Refined metal!"]
+			dependencies: ["4DA4F601F12F5329"]
+			id: "385B3795BF7EF1F3"
+			tasks: [{
+				id: "0274135D91B1D69F"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [{
+				id: "4103805E3F00D748"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 14.0d
+			subtitle: "The Enrichment Center promises to always provide a safe testing environment"
+			description: ["Unlike the Chamber from Portal, this device can process ores and other items into various enhanced items! enhancing redstone will make it 8x more efficient in the infuser!"]
+			dependencies: ["4DA4F601F12F5329"]
+			id: "262F0C9D6B8A999C"
+			tasks: [{
+				id: "5B58F3DE45B7AF8F"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "6B25B3090BD60301"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 15.0d
+			subtitle: "Turning ingots back into ore"
+			description: ["Not the most useful machine... perhaps you may find a use for it?"]
+			dependencies: ["4DA4F601F12F5329"]
+			id: "3D5AB7146208A2C4"
+			tasks: [{
+				id: "49F4D1C97C62BAE1"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+			rewards: [{
+				id: "2CF73B700C2A95DD"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			subtitle: "Using the latest in Digital Technology"
+			description: ["The digital miner will mine any blocks in its defined range, as long as you explicitly filter them! one of the best mining solutions out there!"]
+			dependencies: [
+				"17EF29A2E04BE8E0"
+				"705DD746605C5183"
+			]
+			id: "0E5E5690E65317EC"
+			tasks: [{
+				id: "3765F52E3E6A3969"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [
+				{
+					id: "1A56372787A7094F"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "75ED3826DFD02CFC"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "To there!    From here...."
+			description: ["A key component in many teleportation based technolgies!"]
+			dependencies: ["609E568AA9FD0765"]
+			id: "17EF29A2E04BE8E0"
+			tasks: [{
+				id: "69BE958B4358EAAF"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+			rewards: [
+				{
+					id: "69B809408051AF34"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "3CB2174C35EFF41D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			subtitle: "Tesseract who?"
+			description: ["A pair or more of these blocks will allow the instant transfer of items, fluids, gasses and power! even across dimentions!"]
+			dependencies: ["17EF29A2E04BE8E0"]
+			id: "5D51EFCDB9A94898"
+			tasks: [{
+				id: "19CDEBA15C5AFD1F"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [
+				{
+					id: "318757E83C094978"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "771B79D005403A17"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			subtitle: "Friend.EXE"
+			description: ["A cute little robit to hold your items, let you craft, smelt for you, and be a companion! Charge him on a charge pad for best results."]
+			dependencies: ["609E568AA9FD0765"]
+			id: "705DD746605C5183"
+			tasks: [{
+				id: "1F53310C7167DE1F"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+			rewards: [
+				{
+					id: "7C3465FA97C393C0"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "6C27959DCBC0F5DA"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 10.0d
+			dependencies: [
+				"4DA4F601F12F5329"
+				"2EA68F9EC25D0FD1"
+			]
+			id: "6C0DD0781ECEE029"
+			tasks: [{
+				id: "3826BF4DE6F8F407"
+				type: "item"
+				item: "mekanism:basic_infusing_factory"
+			}]
+			rewards: [{
+				id: "3BCAA003025C0F41"
+				type: "ftbmoney:money"
+				ftb_money: 900L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 10.0d
+			dependencies: [
+				"6C0DD0781ECEE029"
+				"3432EECF8824F032"
+			]
+			id: "35BB35278F7669A2"
+			tasks: [{
+				id: "4744C7A343EB3833"
+				type: "item"
+				item: "mekanism:advanced_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "5C52331861B11AC1"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "1C8ADB6E413C6E45"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 10.0d
+			dependencies: [
+				"35BB35278F7669A2"
+				"50458F79FB5301E1"
+			]
+			id: "4F33785D4887AD76"
+			tasks: [{
+				id: "438632A5749AEB06"
+				type: "item"
+				item: "mekanism:elite_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "054ECE7175E3BA2E"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "34AAB1723E4FDD7C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 10.0d
+			dependencies: [
+				"4F33785D4887AD76"
+				"336C6AC3F8D1C409"
+			]
+			id: "292FD1619F037EE3"
+			tasks: [{
+				id: "7F7A6D2726A64A4C"
+				type: "item"
+				item: "mekanism:ultimate_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "6D717377E95714BC"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "5DEA9EF387E43787"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 11.0d
+			dependencies: [
+				"75AE331202D5F4E0"
+				"2EA68F9EC25D0FD1"
+			]
+			id: "36960F400CE7F48B"
+			tasks: [{
+				id: "29C932328609C4E9"
+				type: "item"
+				item: "mekanism:basic_smelting_factory"
+			}]
+			rewards: [{
+				id: "5BF8B39F28FAE390"
+				type: "ftbmoney:money"
+				ftb_money: 900L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 11.0d
+			dependencies: [
+				"36960F400CE7F48B"
+				"3432EECF8824F032"
+			]
+			id: "0BED2FD2BADE7AE0"
+			tasks: [{
+				id: "62142316A59C827E"
+				type: "item"
+				item: "mekanism:advanced_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "2840AFDDD70BF7B4"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "400F453141747588"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 11.0d
+			dependencies: [
+				"0BED2FD2BADE7AE0"
+				"50458F79FB5301E1"
+			]
+			id: "189E9A7A11F06187"
+			tasks: [{
+				id: "245383E190833415"
+				type: "item"
+				item: "mekanism:elite_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "3C92EE4DCDF5FA83"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "685E4073F54EB801"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 11.0d
+			dependencies: [
+				"189E9A7A11F06187"
+				"336C6AC3F8D1C409"
+			]
+			id: "68A7C3604E0FA3E8"
+			tasks: [{
+				id: "7E52FC4FFFFD16AD"
+				type: "item"
+				item: "mekanism:ultimate_smelting_factory"
+			}]
+			rewards: [
+				{
+					id: "28439F79DB77E7FD"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "3D08B9ADB46C9DF4"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 12.0d
+			dependencies: [
+				"3CFEA593609B7EA1"
+				"2EA68F9EC25D0FD1"
+			]
+			id: "76F9FEC3E8F5BF1C"
+			tasks: [{
+				id: "247D4855A0C14CCF"
+				type: "item"
+				item: "mekanism:basic_crushing_factory"
+			}]
+			rewards: [{
+				id: "2E93E42AD06FBC25"
+				type: "ftbmoney:money"
+				ftb_money: 900L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 12.0d
+			dependencies: [
+				"76F9FEC3E8F5BF1C"
+				"3432EECF8824F032"
+			]
+			id: "1DFC4A74470FFF7E"
+			tasks: [{
+				id: "6B17AD1CA42E30ED"
+				type: "item"
+				item: "mekanism:advanced_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "1DDB260067CA9A4B"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "097D53506A148699"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 12.0d
+			dependencies: [
+				"1DFC4A74470FFF7E"
+				"50458F79FB5301E1"
+			]
+			id: "6336E4562DB2C469"
+			tasks: [{
+				id: "5F3A0346939EB7B1"
+				type: "item"
+				item: "mekanism:elite_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "0214D9F5DB66E336"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "1B04FD2477E5F746"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 12.0d
+			dependencies: [
+				"6336E4562DB2C469"
+				"336C6AC3F8D1C409"
+			]
+			id: "37330DA4028221A0"
+			tasks: [{
+				id: "197D34BBC15A2B3E"
+				type: "item"
+				item: "mekanism:ultimate_crushing_factory"
+			}]
+			rewards: [
+				{
+					id: "29731285B8C9E0B0"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "5ED44F02A3054E4B"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 13.0d
+			dependencies: [
+				"385B3795BF7EF1F3"
+				"2EA68F9EC25D0FD1"
+			]
+			id: "2504BE99DBB6E09F"
+			tasks: [{
+				id: "2F5D7DBC305E0388"
+				type: "item"
+				item: "mekanism:basic_compressing_factory"
+			}]
+			rewards: [{
+				id: "6EB5E6C7CE130AD9"
+				type: "ftbmoney:money"
+				ftb_money: 900L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 13.0d
+			dependencies: [
+				"2504BE99DBB6E09F"
+				"3432EECF8824F032"
+			]
+			id: "2ADC8247A5443F88"
+			tasks: [{
+				id: "7C5A72E49F802F75"
+				type: "item"
+				item: "mekanism:advanced_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "10EE4A92874385DB"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "2E7300749F46DCB8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 13.0d
+			dependencies: [
+				"2ADC8247A5443F88"
+				"50458F79FB5301E1"
+			]
+			id: "7CD7C829B82B8137"
+			tasks: [{
+				id: "5B7041FED73194BE"
+				type: "item"
+				item: "mekanism:elite_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "5DCA69D99510921C"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "13E4C31CF38D48D1"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 13.0d
+			dependencies: [
+				"7CD7C829B82B8137"
+				"336C6AC3F8D1C409"
+			]
+			id: "1A06D76E80E7E3E8"
+			tasks: [{
+				id: "2B9AEA501ADA7E3F"
+				type: "item"
+				item: "mekanism:ultimate_compressing_factory"
+			}]
+			rewards: [
+				{
+					id: "563AC09CA447CEF1"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "2A0D77746D47F0E9"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 14.0d
+			dependencies: [
+				"262F0C9D6B8A999C"
+				"2EA68F9EC25D0FD1"
+			]
+			id: "5478993FC265C5AD"
+			tasks: [{
+				id: "27450DF8AB4FEEDA"
+				type: "item"
+				item: "mekanism:basic_enriching_factory"
+			}]
+			rewards: [{
+				id: "2F4B72E9AED5B532"
+				type: "ftbmoney:money"
+				ftb_money: 900L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 14.0d
+			dependencies: [
+				"5478993FC265C5AD"
+				"3432EECF8824F032"
+			]
+			id: "341EC6D21C63EB1C"
+			tasks: [{
+				id: "4C55E92D3B00589E"
+				type: "item"
+				item: "mekanism:advanced_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "5647D587D02539BE"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "1497DB9525EF9378"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 14.0d
+			dependencies: [
+				"341EC6D21C63EB1C"
+				"50458F79FB5301E1"
+			]
+			id: "415677D901231C35"
+			tasks: [{
+				id: "57F4EC425B4DE4C9"
+				type: "item"
+				item: "mekanism:elite_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "0FF2E556A27ABC4B"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "7E109317EBA61887"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 14.0d
+			dependencies: [
+				"415677D901231C35"
+				"336C6AC3F8D1C409"
+			]
+			id: "6FFA52AB0E028A56"
+			tasks: [{
+				id: "353D7C23BE2D8CF5"
+				type: "item"
+				item: "mekanism:ultimate_enriching_factory"
+			}]
+			rewards: [
+				{
+					id: "7D29E2A03A6768C2"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "76D3048A2E17036D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 15.0d
+			dependencies: [
+				"3D5AB7146208A2C4"
+				"2EA68F9EC25D0FD1"
+			]
+			id: "6DFED12253290F37"
+			tasks: [{
+				id: "6868FAFC0BFC105A"
+				type: "item"
+				item: "mekanism:basic_combining_factory"
+			}]
+			rewards: [{
+				id: "71EBDF33B6137DE2"
+				type: "ftbmoney:money"
+				ftb_money: 900L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 15.0d
+			dependencies: [
+				"6DFED12253290F37"
+				"3432EECF8824F032"
+			]
+			id: "1AC3F10F4FEFA40B"
+			tasks: [{
+				id: "71BF8A7148375CD7"
+				type: "item"
+				item: "mekanism:advanced_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "23B6AF5D9C354EF6"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+				{
+					id: "365315A15D9ADE9F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 15.0d
+			dependencies: [
+				"1AC3F10F4FEFA40B"
+				"50458F79FB5301E1"
+			]
+			id: "09664596099ACD68"
+			tasks: [{
+				id: "152C73D876ED92BB"
+				type: "item"
+				item: "mekanism:elite_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "64D21383D7E8043D"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "016367CAF3B3DB61"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 15.0d
+			dependencies: [
+				"09664596099ACD68"
+				"336C6AC3F8D1C409"
+			]
+			id: "13AF0634E7A7EA72"
+			tasks: [{
+				id: "0A66C756530E0259"
+				type: "item"
+				item: "mekanism:ultimate_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "20D11E50CF1D0E90"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "26EF1286D8820EE6"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 11.0d
+			subtitle: "Light, Cables, Power!"
+			description: ["Solar panels capture the rays of the sun, turning them into useful energy!"]
+			dependencies: ["764627E6358AC624"]
+			id: "792F7779286B9FDF"
+			tasks: [{
+				id: "73F30D9420B37735"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+			rewards: [{
+				id: "47A57A9DE5A60D96"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 10.0d
+			subtitle: "Bask in the Heat"
+			description: [
+				"A heat generator makes power from hot items, such as coal and lava."
+				"PROTIP: when placed next to lava source blocks, a heat generator can generate passive power!"
+			]
+			dependencies: ["764627E6358AC624"]
+			id: "4671279E4F7277C0"
+			tasks: [{
+				id: "1B365908E19BCC5D"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [{
+				id: "1890BE02ECE78EC8"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -16.5d
+			y: 11.0d
+			subtitle: "Leafmuncher"
+			description: ["The Bio-Generator takes biofuel and plant matter and crunches it into lovely energy, how eco friendly!"]
+			dependencies: ["764627E6358AC624"]
+			id: "26D24F05AB29D520"
+			tasks: [{
+				id: "3764988536D693D3"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+			rewards: [
+				{
+					id: "08C5D9DB9024051C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "529DE90E4F0F14BF"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 9.0d
+			subtitle: "Burn baby burn!"
+			description: ["The gas burning generator takes burnable gasses and well, burns them!"]
+			dependencies: ["764627E6358AC624"]
+			id: "61350D274A9A7165"
+			tasks: [{
+				id: "38811205354EDD9A"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+			rewards: [
+				{
+					id: "44F00201716BACF4"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "179B6AC831EC3701"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 9.0d
+			subtitle: "Not to be confused with a horizontal blender"
+			description: ["Wind power is a convenient 24/7 power source that gets a boost from foul weather!"]
+			dependencies: ["764627E6358AC624"]
+			id: "2E0B8EFEAF814EFE"
+			tasks: [{
+				id: "019028E4DE067A03"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [
+				{
+					id: "1BB239B0FCC5034C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "6947F79943B83542"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 12.0d
+			subtitle: "Bigger and better than ever!"
+			description: ["The advanced solar generator generates more power than its smaller counterpart, and is a vital component in Thermal Evaporation plants!"]
+			dependencies: ["792F7779286B9FDF"]
+			id: "5B70B0ED7474DEBD"
+			tasks: [{
+				id: "1A2FA3895AAF386A"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [
+				{
+					id: "4962992FFCB1C807"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "19F612634B66A2C3"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 12.5d
+			subtitle: "Vat-O-Brine"
+			description: [
+				"The Thermal Evaporation plant is a multiblock structure used to evaporate liquids into other liquids using heat from the sun, most commonly used to turn water into brine for 4x ore duplication."
+				"Note that this isn't the required amount since the building can vary."
+			]
+			dependencies: [
+				"5B70B0ED7474DEBD"
+				"2A8868963E1C1744"
+			]
+			id: "540819034B33988D"
+			tasks: [
+				{
+					id: "27E6A602B5C93F05"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "4FAE667250185911"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+				{
+					id: "4A69F076449EDA24"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+				}
+			]
+			rewards: [
+				{
+					id: "726DE70C2E9E5446"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "43769731B6ABF4DE"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 14.0d
+			subtitle: "Who says the sun isn't awesome?"
+			description: ["The solar neutron activator can alter liquids placed inside using solar radiation! the aforementioned Lithium for example becomes Tritium!"]
+			dependencies: ["16AA86CA02B3192F"]
+			id: "136BF8890E007219"
+			tasks: [{
+				id: "4F93CFC0CCFC777B"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [
+				{
+					id: "76AD238A97AA4DB2"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "6C3E6F98F2F06070"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 12.5d
+			subtitle: "Thirsty?"
+			description: ["The electric pump simply pumps liquids below into an internal tank, simple enough. When given a filter upgrade however, ordinary water becomes Heavy water!"]
+			dependencies: ["764627E6358AC624"]
+			id: "2A8868963E1C1744"
+			tasks: [
+				{
+					id: "781961E6104D2D71"
+					type: "item"
+					item: "mekanism:electric_pump"
+				}
+				{
+					id: "0BD6860DF207023D"
+					type: "item"
+					item: "mekanism:upgrade_filter"
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "4879614593A33169"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -20.0d
+			y: 12.5d
+			description: [
+				"The electrolytic seperator seperates fluids using electricity! very useful for turning water into oxygen and hydrogen."
+				"This questline wants you to seperate Heavy water into deuterium for D-T fuel however."
+			]
+			dependencies: ["2A8868963E1C1744"]
+			id: "751A1DBE5E33BEF2"
+			tasks: [{
+				id: "6027256EB6F5A6B0"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [
+				{
+					id: "45A425F04677D9E7"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "2FA43838A343FE4D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 14.0d
+			subtitle: "Gas<->Liquid Exchanger"
+			description: ["As the subtitle says, this block can take a liquid or gas and turn it into its counterpart! this questline wants you to turn lithium into its gaseous state for the next quest..."]
+			dependencies: ["540819034B33988D"]
+			id: "16AA86CA02B3192F"
+			tasks: [{
+				id: "067D3C28F5130E60"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [
+				{
+					id: "760BF1683D3C3826"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "7AB4400B75B97E2F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: 14.0d
+			subtitle: "Fusion fuel!"
+			description: ["This tiny container can be filled with your newly aquired D-T fuel obtained by combining Deuterium and Tritium!"]
+			dependencies: [
+				"136BF8890E007219"
+				"751A1DBE5E33BEF2"
+			]
+			id: "59A51DF724834341"
+			tasks: [{
+				id: "1388BFD43A3AB91E"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:hohlraum"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "mekanismgenerators:fusion_fuel"
+									amount: 10L
+								}
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CD8D4F65E4A106B"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "327B8B6C13B0789B"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: 14.0d
+			subtitle: "FUUUUU.... SION.... HAAAA!"
+			description: ["A freshly constructed fusion reactor, filled with a hohlraum of D-T fuel, and activated with lasers will generate a large quantity of power!"]
+			dependencies: [
+				"59A51DF724834341"
+				"156EA0EE63CF6F4A"
+			]
+			id: "7840F4F342F4AE41"
+			tasks: [
+				{
+					id: "548E2FC0A3389F88"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "0607EC00DE0DB1DB"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+				}
+				{
+					id: "1E01932B992618B2"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+				}
+			]
+			rewards: [
+				{
+					id: "3F074EB2C1BF118B"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "2B84E0758AE452D1"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 7.0d
+			dependencies: ["2B9FE0B3C92BD351"]
+			id: "33B1991870795FAF"
+			tasks: [{
+				id: "21CE9D79556EBAAE"
+				type: "item"
+				item: "mekanism:oredictionificator"
+			}]
+			rewards: [{
+				id: "040F0BF5F0D88388"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 6.0d
+			subtitle: "CRAFT ALL THE THINGS!"
+			description: ["A neat autocrafter that doubles as an advanced crafting table for yourself, what's not to love?"]
+			dependencies: ["2B9FE0B3C92BD351"]
+			id: "392F96EC9430E2DD"
+			tasks: [{
+				id: "24B8865922A3AE5F"
+				type: "item"
+				item: "mekanism:formulaic_assemblicator"
+			}]
+			rewards: [{
+				id: "1A72D8C19C253E58"
+				type: "ftbmoney:money"
+				ftb_money: 700L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 6.0d
+			subtitle: "Pipes of the future"
+			description: ["The logistical sorter is a device that inputs items to the mekanism pipe system, routing them to where they need to go based on logistical features! look up a guide if you want to use this to sort your chests!"]
+			dependencies: ["2B9FE0B3C92BD351"]
+			id: "5160BF7B63D10D5C"
+			tasks: [{
+				id: "735FCB625E60C069"
+				type: "item"
+				item: {
+					id: "mekanism:logistical_sorter"
+					Count: 1b
+					tag: {
+						mekData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "759EEF1D9E4AEA84"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 7.0d
+			subtitle: "zzzZZZZZ!!!!"
+			description: ["The almighty chargepad is one of the most convenient ways to charge all items in your inventory! simply plug it in, and stand on it! it will charge all items in your inventory one by one in seconds!"]
+			dependencies: ["2B9FE0B3C92BD351"]
+			id: "556B7C08C6647BDC"
+			tasks: [{
+				id: "2F9DB321909E546B"
+				type: "item"
+				item: "mekanism:chargepad"
+			}]
+			rewards: [{
+				id: "242884BD9A680C04"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			subtitle: "Security to the front please..."
+			description: ["The security station isnt really needed as FTB claim chunks exist, unless you really dont trust your teammates!"]
+			dependencies: ["17EF29A2E04BE8E0"]
+			id: "6521358FCE7B7F66"
+			tasks: [{
+				id: "0A55E0698FF1CE26"
+				type: "item"
+				item: "mekanism:security_desk"
+			}]
+			rewards: [
+				{
+					id: "13CC54063BD61D19"
+					type: "ftbmoney:money"
+					ftb_money: 1350L
+				}
+				{
+					id: "3FB7DD85723BE8E6"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 6.0d
+			subtitle: "Xray!"
+			description: ["Power a Seismic vibrator and it will vibrate blocks in a small radius around it, using a seismic reader you can view the entire column of blocks you are standing on!"]
+			dependencies: ["2B9FE0B3C92BD351"]
+			id: "1F2364F489604FB8"
+			tasks: [
+				{
+					id: "5DF1FD9EBA280056"
+					type: "item"
+					item: "mekanism:seismic_vibrator"
+				}
+				{
+					id: "2FBAB4A8F0D76033"
+					type: "item"
+					item: "mekanism:seismic_reader"
+				}
+			]
+			rewards: [{
+				id: "69AD3884DEBD722D"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 15.5d
+			subtitle: "With great power comes... storing it."
+			description: ["Now that you have all that power how about we make a giant multiblock battery, eh?"]
+			dependencies: ["7840F4F342F4AE41"]
+			id: "2B748A9EAE304F6C"
+			tasks: [
+				{
+					id: "0F996E5227269C72"
+					type: "item"
+					item: "mekanism:induction_casing"
+				}
+				{
+					id: "7264BBD83AA0BBE9"
+					type: "item"
+					item: "mekanism:induction_port"
+				}
+				{
+					id: "661F628BD9331D8D"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "63A9D8873E355312"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "08CAD66B996E079F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "32147E0D42E403BC"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: 16.5d
+			subtitle: "Recent Advancements have lead to more power!"
+			description: ["For when basic is not enough"]
+			dependencies: ["2B748A9EAE304F6C"]
+			id: "3DA4C768E25362B4"
+			tasks: [
+				{
+					id: "641A7BA9248805D3"
+					type: "item"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					id: "394B5C4F74D90A2C"
+					type: "item"
+					item: "mekanism:advanced_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "7430F7EE6CC535BB"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "04F8981AEEEB5C3B"
+					type: "ftbmoney:money"
+					ftb_money: 1250L
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: 17.5d
+			subtitle: "The elite among us recomend this option"
+			description: ["Just how much power do you need???"]
+			dependencies: ["3DA4C768E25362B4"]
+			id: "7E29DC5595FAEBA7"
+			tasks: [
+				{
+					id: "2191AE8F35770CC0"
+					type: "item"
+					item: "mekanism:elite_induction_provider"
+				}
+				{
+					id: "7C56E05B4DBB0CF6"
+					type: "item"
+					item: "mekanism:elite_induction_cell"
+				}
+			]
+			rewards: [
+				{
+					id: "6106BE325E732A89"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "52F053DD5715C1A7"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: 18.5d
+			subtitle: "The Ultimate solution."
+			description: ["Power."]
+			dependencies: ["7E29DC5595FAEBA7"]
+			id: "657B3BE0E48AC0F3"
+			tasks: [
+				{
+					id: "2249518A627ED323"
+					type: "item"
+					item: "mekanism:ultimate_induction_cell"
+				}
+				{
+					id: "1A698D00F67B3B9C"
+					type: "item"
+					item: "mekanism:ultimate_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "73A13D641CB74A91"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "01CAB0C010D55C03"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			title: "Fission Reactors"
+			x: -19.0d
+			y: 9.5d
+			subtitle: "Not to be confused with a fizzle reactor"
+			description: [
+				"The Fission reactor is used to turn Uranium Hexaflouride, also known as fissile fuel, into nuclear waste, steam, and power!"
+				""
+			]
+			dependencies: ["764627E6358AC624"]
+			id: "654B231B35DF93A9"
+			tasks: [
+				{
+					id: "3D7A94F20A3D10FC"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 4L
+				}
+				{
+					id: "3A106ED239220C11"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+				{
+					id: "2FC907BB0BFBC34F"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					count: 15L
+				}
+				{
+					id: "2944DFA1FFCBBA0C"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+				{
+					id: "68D1003B4E5DFAF2"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+				}
+			]
+			rewards: [
+				{
+					id: "5825CE7B9CE35348"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "5496B5385B9A35E2"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Antimatter!"
+			x: -23.5d
+			y: 10.5d
+			dependencies: ["156EA0EE63CF6F4A"]
+			id: "66394246F034324A"
+			tasks: [
+				{
+					id: "0EE44DE17951F62F"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "0B2448AD0A18F2FB"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "24A1B8F6E8B13A27"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+				{
+					id: "7223316626C94560"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "63655475B9BC1CF2"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "75F960BE4829EC08"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -23.5d
+			y: 12.5d
+			description: ["What even?"]
+			dependencies: ["66394246F034324A"]
+			id: "542480EE665D5FF8"
+			tasks: [{
+				id: "79EB8C6AF3FFCC78"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+			rewards: [
+				{
+					id: "0ADF13FE455F7F2D"
+					type: "ftbmoney:money"
+					ftb_money: 20000L
+				}
+				{
+					id: "492A93A8AF5B9B02"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: 10.5d
+			subtitle: "Marconium when?"
+			description: ["I have no clue why polonium pellets are a frequent crafting requirement, but here we are!"]
+			dependencies: [
+				"69D7E21D4D513322"
+				"654B231B35DF93A9"
+			]
+			id: "156EA0EE63CF6F4A"
+			tasks: [{
+				id: "790E5376363D21B0"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [
+				{
+					id: "5B48186F87EE6775"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "4EBA04914CE35D03"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -19.0d
+			y: 11.0d
+			subtitle: "Under pressure"
+			description: ["The PRC is used to automate a large number of recipies, but using it with the fission reactor will let you make polonium!"]
+			dependencies: ["654B231B35DF93A9"]
+			id: "69D7E21D4D513322"
+			tasks: [{
+				id: "21E73D605323F4D8"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [
+				{
+					id: "488470B910ED3787"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "223CEB32AB9D684A"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 16.5d
+			subtitle: "Readme!"
+			description: [
+				"Adding a description to every factory would get Tedious and repetitive fast, so lets cut to the chase."
+				"Basic factories can process 3 items at a time, Advanced factories 5, Elite 7, and Ultimate 9!"
+			]
+			dependencies: [
+				"6DFED12253290F37"
+				"5478993FC265C5AD"
+				"2504BE99DBB6E09F"
+				"76F9FEC3E8F5BF1C"
+				"36960F400CE7F48B"
+				"6C0DD0781ECEE029"
+			]
+			dependency_requirement: "one_completed"
+			id: "757B28F51766B5B8"
+			tasks: [{
+				id: "2BF9C1F35B233AC9"
+				type: "checkmark"
+				title: "Info: Factories"
+			}]
+			rewards: [
+				{
+					id: "4CE883106735E991"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+				{
+					id: "0E5AE5873AD4D8BD"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0C137631267A71E9"
+					type: "ftbmoney:money"
+					ftb_money: 7L
+				}
+				{
+					id: "5AE36F90E2D052EE"
+					type: "ftbmoney:money"
+					ftb_money: 9L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 10.0d
+			dependencies: ["2B9FE0B3C92BD351"]
+			id: "764627E6358AC624"
+			tasks: [{
+				id: "364A505B3810C513"
+				type: "checkmark"
+				title: "Power Generation"
+			}]
+		}
+	]
+}

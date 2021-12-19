@@ -1,0 +1,517 @@
+{
+	id: "7F19B3D0FEBFC840"
+	order_index: 0
+	title: "Advanced Lootcrate"
+	icon: "ars_nouveau:archwood_chest"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "fluxnetworks:flux_block", count: 64, weight: 90 }
+		{ item: "twilightforest:fiery_tears", count: 6, weight: 50 }
+		{ item: "mana-and-artifice:superheated_purified_vinteum_ingot", count: 8, weight: 12 }
+		{ item: "mysticalagriculture:supremium_essence", count: 16, weight: 2 }
+		{ item: "advgenerators:turbine_rotor_tier3", count: 16, weight: 10 }
+		{ item: "advgenerators:turbine_rotor_tier5", count: 8, weight: 30 }
+		{ item: "cabletiers:ultra_exporter", count: 2, weight: 25 }
+		{ item: "cabletiers:ultra_importer", count: 2, weight: 25 }
+		{
+			item: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{ item: "waystones:waystone", weight: 40 }
+		{ item: "bigreactors:yellorium_ingot", count: 32, weight: 60 }
+		{ item: "refinedstorage:64k_storage_disk", weight: 15 }
+		{ item: "pipez:advanced_upgrade", weight: 30 }
+		{ item: "pamhc2foodextended:anchovypepperonipizzaitem", count: 8, weight: 70 }
+		{
+			item: {
+				id: "cyclic:antigravity"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 65
+		}
+		{ item: "cyclic:apple_ender", count: 5, weight: 60 }
+		{ item: "mana-and-artifice:arcane_ash", count: 8, weight: 30 }
+		{ item: "stalwart_dungeons:blaze_armor_scrap", count: 12, weight: 50 }
+		{
+			item: {
+				id: "cyclic:boomerang_damage"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 55
+		}
+		{ item: "cyclic:carrot_ender", count: 7, weight: 76 }
+		{
+			item: {
+				id: "cyclic:charm_antidote"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 68
+		}
+		{
+			item: {
+				id: "cyclic:charm_antipotion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "cyclic:charm_attack_speed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "cyclic:charm_fire"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "cyclic:charm_invisible"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "cyclic:charm_luck"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "cyclic:charm_starvation"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 75
+		}
+		{
+			item: {
+				id: "cyclic:charm_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 75
+		}
+		{
+			item: {
+				id: "cyclic:charm_ultimate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "cyclic:charm_void"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "cyclic:charm_wing"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "cyclic:charm_wither"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 55
+		}
+		{ item: "pamhc2foodextended:chipsanddipitem", count: 8, weight: 80 }
+		{ item: "stalwart_dungeons:chorundum", count: 2, weight: 50 }
+		{ item: "mutantmore:compound_z", weight: 40 }
+		{ item: "pamhc2foodextended:cookedtofuttonitem", count: 8, weight: 80 }
+		{
+			item: {
+				id: "cyclic:crystal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "cyclic:crystal_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_netherite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 45
+		}
+		{ item: "thermal:rf_coil_xfer_augment", weight: 52 }
+		{ item: "mekanism:robit", weight: 28 }
+		{ item: "ob_aquamirae:rune_of_the_storm", weight: 35 }
+		{ item: "tconstruct:slimesteel_reinforcement", count: 5, weight: 25 }
+		{
+			item: {
+				id: "cyclic:soulstone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20
+		}
+		{ item: "solarflux:sp_5", count: 4, weight: 22 }
+		{
+			item: {
+				id: "spartanweaponry:spear_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "mana-and-artifice:staff_b"
+				Count: 1b
+				tag: {
+					Damage: 0
+					spell: { }
+				}
+			}
+			weight: 50
+		}
+		{ item: "forbidden_arcanus:dark_nether_star", count: 3, weight: 35 }
+		{ item: "draconicevolution:draconium_dust", weight: 25 }
+		{ item: "iceandfire:dragonsteel_fire_ingot", count: 15, weight: 15 }
+		{ item: "iceandfire:dragonsteel_ice_ingot", count: 7, weight: 18 }
+		{ item: "iceandfire:dragonsteel_lightning_ingot", count: 5, weight: 15 }
+		{
+			item: {
+				id: "cyclic:emerald_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{ item: "xreliquary:emperor_chalice", weight: 40 }
+		{
+			item: {
+				id: "xreliquary:ender_staff"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							filter: {
+								id: "minecraft:ender_pearl"
+								Count: 1b
+							}
+							amount: 0
+						}]
+					}
+				}
+			}
+			weight: 40
+		}
+		{ item: "envirocore:erodium_crystal", count: 32, weight: 48 }
+		{ item: "lazierae2:fluix_steel_ingot", count: 8, weight: 62 }
+		{ item: "xreliquary:fortune_coin", weight: 32 }
+		{
+			item: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "cyclic:glowing_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{ item: "gobber2:gobber2_ingot_end" }
+		{ item: "gobber2:gobber2_ingot_nether", count: 4, weight: 12 }
+		{
+			item: {
+				id: "ironjetpacks:gold_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+			weight: 25
+		}
+		{ item: "ironchest:gold_to_diamond_chest_upgrade", weight: 30 }
+		{
+			item: {
+				id: "spartanweaponry:halberd_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{ item: "cyclic:heart", weight: 40 }
+		{
+			item: {
+				id: "chisel:hitech_chisel"
+				Count: 1b
+				tag: {
+					Damage: 0
+					chiseldata: { }
+				}
+			}
+			weight: 50
+		}
+		{ item: "xreliquary:holy_hand_grenade", count: 6, weight: 60 }
+		{ item: "industrialforegoing:infinity_saw", weight: 15 }
+		{
+			item: {
+				id: "industrialforegoing:infinity_trident"
+				Count: 1b
+				tag: { }
+			}
+			weight: 15
+		}
+		{ item: "pipez:infinity_upgrade", weight: 10 }
+		{ item: "cyclic:inventory_cake", weight: 15 }
+		{ item: "ironchest:iron_to_gold_chest_upgrade", weight: 60 }
+		{ item: "pamhc2foodextended:meatfeastpizzaitem", count: 8, weight: 80 }
+		{ item: "compactmachines:machine_large", weight: 30 }
+		{
+			item: {
+				id: "xreliquary:mercy_cross"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{ item: "pamhc2foodextended:nachoesitem", count: 8, weight: 80 }
+		{
+			item: {
+				id: "cyclic:netherbrick_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "villagers_and_mosnetrs_legacy:osiris_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "pamhc2foodextended:pepperonipizzaitem", count: 8, weight: 80 }
+		{
+			item: {
+				id: "inventorypets:pet_crafting_table"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "inventorypets:pet_enchanting_table"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "inventorypets:pet_ender_chest"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "inventorypets:pet_furnace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "inventorypets:pet_iron_golem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 55
+		}
+		{
+			item: {
+				id: "inventorypets:pet_nether_portal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "inventorypets:pet_wither"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30
+		}
+		{
+			item: {
+				id: "villagers_and_mosnetrs_legacy:pig_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_platinum"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{ item: "pamhc2foodextended:popcornitem", count: 32, weight: 80 }
+		{ item: "quarryplus:pump_module", weight: 50 }
+		{ item: "rats:purifying_liquid", weight: 70 }
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
+		{ item: "thermal:rf_coil_storage_augment", weight: 50 }
+		{ item: "rftoolsstorage:storage_module3", weight: 30 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		glow: 1b
+		string_id: "advanced_lootcrate"
+	}
+}

@@ -1,0 +1,1122 @@
+{
+  "generator": {
+    "biome": {
+      "minecraft": {
+        "nether_wastes": {
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "null": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "blackstone_stalactite": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "stalactite_stalactite": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "blackstone_stalagmite": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "basalt_stalagmite": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "noise_density[def: 0.35]": 0.35
+        },
+        "crimson_forest": {
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "warped_forest": {
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "basalt_deltas": {
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "soul_sand_valley": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        }
+      },
+      "betternether": {
+        "gravel_desert": {
+          "fog_color": {
+            "red[def: 170]": 170,
+            "green[def: 48]": 48,
+            "blue[def: 0]": 0
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "null": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "lucis": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false,
+                "density[def: 0.05]": 0.05
+              },
+              "jungle_moss": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true,
+                "density[def: 0.4]": 0.4
+              },
+              "wall_moss": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true,
+                "density[def: 0.8]": 0.8
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true,
+                "density[def: 0.4]": 0.4,
+                "density[def: 0.9]": 0.9
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true,
+                "density[def: 0.9]": 0.9,
+                "density[def: 0.4]": 0.4
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "nether_cactus": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "agave": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "barrel_cactus": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false,
+                "density[def: 0.05]": 0.05,
+                "density[def: 0.8]": 0.8
+              },
+              "stalagnate": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "rubeus_tree": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "bush_rubeus": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "magma_flower": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false,
+                "limit[def: true]": true,
+                "density[def: 0.05]": 0.05,
+                "density[def: 0.4]": 0.4
+              },
+              "egg_plant": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "jellyfish_mushroom": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: true]": true,
+                "density[def: 0.02]": 0.02
+              },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "jungle_plant": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "wart_deadwood": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: false]": false
+              },
+              "wart_tree": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "nether_wart": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false,
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true,
+                "density[def: 0.02]": 0.02,
+                "density[def: 0.005]": 0.005
+              },
+              "wart_seed": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false,
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true,
+                "density[def: 0.01]": 0.01,
+                "density[def: 0.002]": 0.002
+              },
+              "black_bush": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false,
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true,
+                "density[def: 0.01]": 0.01,
+                "density[def: 0.002]": 0.002
+              },
+              "soul_lily": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "smoker": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true,
+                "density[def: 0.005]": 0.005,
+                "limit[def: false]": false
+              },
+              "ink_bush": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true,
+                "density[def: 0.005]": 0.005
+              },
+              "black_apple": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true,
+                "density[def: 0.001]": 0.001
+              },
+              "nether_grass": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true,
+                "density[def: 0.04]": 0.04
+              },
+              "large_red_mushroom": {
+                "density[def: 0.12]": 0.12,
+                "limit[def: true]": true
+              },
+              "large_brown_mushroom": {
+                "density[def: 0.12]": 0.12,
+                "limit[def: true]": true
+              },
+              "giant_mold": {
+                "density[def: 0.12]": 0.12,
+                "limit[def: true]": true
+              },
+              "mushroom_fir": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "vanilla_mushrooms": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false,
+                "density[def: 0.5]": 0.5
+              },
+              "orange_mushroom": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "red_mold": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: true]": true,
+                "limit[def: false]": false,
+                "density[def: 0.9]": 0.9
+              },
+              "gray_mold": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: true]": true,
+                "limit[def: false]": false,
+                "density[def: 0.9]": 0.9
+              },
+              "bone_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "bone_reef": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "bone_grass": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "sulfuric_bone_grass": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "willow": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false,
+                "density[def: 0.02]": 0.02
+              },
+              "willow_bush": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true,
+                "density[def: 0.1]": 0.1
+              },
+              "soul_vein": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false,
+                "limit[def: true]": true
+              },
+              "swamp_grass": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: false]": false
+              },
+              "geyser": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "obsidian_crystals": {
+                "density[def: 0.04]": 0.04,
+                "limit[def: true]": true
+              },
+              "soul_grass": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: false]": false
+              },
+              "crimson_glowing_tree": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "wart_bush": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false,
+                "density[def: 0.1]": 0.1
+              },
+              "crimson_fungus": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "crimson_roots": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "big_warped_tree": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "warped_fungus": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "warped_roots": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "twisted_vine": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "crimson_pinewood": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "old_red_mushrooms": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "old_brown_mushrooms": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "blackstone_stalactite": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "stalactite_stalactite": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "nether_sakura_bush": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "moss_cover": {
+                "density[def: 0.6]": 0.6,
+                "limit[def: false]": false
+              },
+              "forest_litter": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "old_willow": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "eye": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "black_vine": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true,
+                "density[def: 0.4]": 0.4,
+                "density[def: 0.3]": 0.3
+              },
+              "golden_vine": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true,
+                "density[def: 0.2]": 0.2,
+                "density[def: 0.3]": 0.3
+              },
+              "flowered_vine": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "bone_stalagmite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "lumabus_vine": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: true]": true
+              },
+              "golden_lumabus_vine": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: true]": true
+              },
+              "blackstone_stalagmite": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "basalt_stalagmite": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "anchor_tree": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "anchor_tree_root": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: false]": false
+              },
+              "anchor_tree_branch": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "nether_sakura": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "ceiling_mushrooms": {
+                "density[def: 1.0]": 1.0,
+                "limit[def: false]": false
+              },
+              "neon_equisetum": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "hook_mushroom": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: true]": true
+              },
+              "whispering_gourd": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "noise_density[def: 0.35]": 0.35,
+          "noise_density[def: 0.5]": 0.5,
+          "noise_density[def: 0.45]": 0.45
+        },
+        "nether_jungle": {
+          "fog_color": {
+            "red[def: 62]": 62,
+            "green[def: 169]": 169,
+            "blue[def: 61]": 61
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 40]": 40,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 5]": 5,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "wart_forest": {
+          "fog_color": {
+            "red[def: 151]": 151,
+            "green[def: 6]": 6,
+            "blue[def: 6]": 6
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 20]": 20,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 5]": 5,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "nether_grasslands": {
+          "fog_color": {
+            "red[def: 113]": 113,
+            "green[def: 73]": 73,
+            "blue[def: 133]": 133
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "nether_mushroom_forest": {
+          "fog_color": {
+            "red[def: 166]": 166,
+            "green[def: 38]": 38,
+            "blue[def: 95]": 95
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "nether_mushroom_forest_edge": {
+          "fog_color": {
+            "red[def: 200]": 200,
+            "green[def: 121]": 121,
+            "blue[def: 157]": 157
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "wart_forest_edge": {
+          "fog_color": {
+            "red[def: 191]": 191,
+            "green[def: 28]": 28,
+            "blue[def: 28]": 28
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 20]": 20,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 5]": 5,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "bone_reef": {
+          "fog_color": {
+            "red[def: 47]": 47,
+            "green[def: 221]": 221,
+            "blue[def: 202]": 202
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "sulfuric_bone_reef": {
+          "fog_color": {
+            "red[def: 154]": 154,
+            "green[def: 144]": 144,
+            "blue[def: 49]": 49
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "poor_nether_grasslands": {
+          "fog_color": {
+            "red[def: 113]": 113,
+            "green[def: 73]": 73,
+            "blue[def: 133]": 133
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "nether_swampland": {
+          "fog_color": {
+            "red[def: 137]": 137,
+            "green[def: 19]": 19,
+            "blue[def: 78]": 78
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "nether_swampland_terraces": {
+          "fog_color": {
+            "red[def: 137]": 137,
+            "green[def: 19]": 19,
+            "blue[def: 78]": 78
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "magma_land": {
+          "fog_color": {
+            "red[def: 248]": 248,
+            "green[def: 158]": 158,
+            "blue[def: 68]": 68
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "soul_plain": {
+          "fog_color": {
+            "red[def: 196]": 196,
+            "green[def: 113]": 113,
+            "blue[def: 239]": 239
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "crimson_glowing_woods": {
+          "fog_color": {
+            "red[def: 51]": 51,
+            "green[def: 3]": 3,
+            "blue[def: 3]": 3
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 10]": 10,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 5]": 5,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "old_warped_woods": {
+          "fog_color": {
+            "red[def: 26]": 26,
+            "green[def: 5]": 5,
+            "blue[def: 26]": 26
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "crimson_pinewood": {
+          "fog_color": {
+            "red[def: 51]": 51,
+            "green[def: 3]": 3,
+            "blue[def: 3]": 3
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 20]": 20,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 5]": 5,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "old_fungiwoods": {
+          "fog_color": {
+            "red[def: 166]": 166,
+            "green[def: 38]": 38,
+            "blue[def: 95]": 95
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "flooded_deltas": {
+          "fog_color": {
+            "red[def: 104]": 104,
+            "green[def: 95]": 95,
+            "blue[def: 112]": 112
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "upside_down_forest": {
+          "fog_color": {
+            "red[def: 111]": 111,
+            "green[def: 188]": 188,
+            "blue[def: 111]": 111
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "old_swampland": {
+          "fog_color": {
+            "red[def: 137]": 137,
+            "green[def: 19]": 19,
+            "blue[def: 78]": 78
+          },
+          "mobs": {
+            "minecraft": {
+              "pig": {
+                "weight[def: 5]": 5,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 6]": 6,
+                "weight[def: 2]": 2,
+                "max_group_size[def: 4]": 4,
+                "weight[def: 20]": 20,
+                "max_group_size[def: 5]": 5
+              }
+            }
+          },
+          "plants_and_structures_density[def: 1.0]": 1.0
+        }
+      },
+      "byg": {
+        "null": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "noise_density[def: 0.35]": 0.35
+        },
+        "warped_desert": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "sythian_torrids": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "glowstone_gardens": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "embur_bog": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "brimstone_caverns": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "crimson_gardens": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "magma_wastes": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "subzero_hypogeal": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "wailing_garth": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "withering_woods": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "weeping_mire": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        },
+        "quartz_desert": {
+          "plants_and_structures_density[def: 1.0]": 1.0
+        }
+      }
+    }
+  }
+}

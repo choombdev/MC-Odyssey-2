@@ -1,0 +1,502 @@
+{
+	id: "1CBFF16506CB415A"
+	group: "3A1BC4382F0B65EC"
+	order_index: 3
+	filename: "dimensions_and_otherworlds"
+	title: "Dimensions and Otherworlds"
+	icon: "iceandfire:dread_portal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visit the End"
+			x: -1.5d
+			y: -0.5d
+			id: "270FCD2C8FE8C9EA"
+			tasks: [{
+				id: "0B1EEAF3D72F2A98"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "0A17DDAEE7E63E65"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "4D0D5BE1D2944DCC"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit the Abyss"
+			x: -3.0d
+			y: -0.5d
+			id: "11F50E56AC533340"
+			tasks: [{
+				id: "3F556BCCB9800197"
+				type: "dimension"
+				dimension: "theabyss:theabyssdim"
+			}]
+			rewards: [
+				{
+					id: "446CD067F0AC569E"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "3E1487A39F2570ED"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit the Mining Dimension"
+			x: -4.5d
+			y: -0.5d
+			id: "716FE6F6DD21FDB0"
+			tasks: [{
+				id: "696485A71AFB79F7"
+				type: "dimension"
+				dimension: "mining_dimension:mining"
+			}]
+			rewards: [
+				{
+					id: "543EA53D769985E2"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "0485E7F0037C756A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit the Twilight Forest"
+			x: -6.0d
+			y: -0.5d
+			id: "231C635E3CB30FDB"
+			tasks: [{
+				id: "7F563AB809919D2C"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [
+				{
+					id: "716184D3C841CEE7"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "0AE9C68CA38E3170"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit the Nether"
+			x: -7.5d
+			y: -0.5d
+			id: "376230EBED25ED65"
+			tasks: [{
+				id: "3B82A00D6A771E38"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "510BF1537615C896"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "42EF1E8CB2A4C3F6"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit the Atum"
+			x: -9.0d
+			y: -0.5d
+			id: "058808A43B34BC7D"
+			tasks: [{
+				id: "111E8C199658EB80"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+			rewards: [
+				{
+					id: "4BFEC8396A717B1D"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "40060ED5A53428CC"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["231C635E3CB30FDB"]
+			id: "3F3A4E6854FEFBFC"
+			tasks: [{
+				id: "3CE6D64072D49000"
+				type: "item"
+				item: "twilightforest:magic_map_focus"
+			}]
+			rewards: [{
+				id: "79B04697DBD51008"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			dependencies: ["3F3A4E6854FEFBFC"]
+			id: "105C5B8D64CCF4F8"
+			tasks: [{
+				id: "4941E8D166C79DB3"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+			rewards: [{
+				id: "5CFC981E1C4935B2"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			dependencies: ["105C5B8D64CCF4F8"]
+			id: "4EA0A51127B03239"
+			tasks: [{
+				id: "4A2C5F120893BC10"
+				type: "kill"
+				icon: "twilightforest:naga_trophy"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "02B31D08AE062398"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "1CCC55EBBB4EA5D9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			dependencies: ["4EA0A51127B03239"]
+			id: "274BF80D6AC76DBE"
+			tasks: [{
+				id: "3B8CC2A95AC44ABA"
+				type: "kill"
+				icon: "twilightforest:lich_trophy"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "663C9C3B0113C8FF"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "1BF4FA0AB1DFE89D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -8.0d
+			dependencies: ["274BF80D6AC76DBE"]
+			id: "2AE8A45A938B47D3"
+			tasks: [{
+				id: "589EEE78C0098948"
+				type: "kill"
+				icon: "twilightforest:knight_phantom_trophy"
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2ECE7142ED87D515"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "634AB979B9C15809"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			dependencies: ["274BF80D6AC76DBE"]
+			id: "6D817342C3F8E755"
+			tasks: [{
+				id: "4F586ED0EB60186D"
+				type: "kill"
+				icon: "twilightforest:yeti_trophy"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "34E15279B1C74B29"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "77A598E6DDB00473"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -8.0d
+			dependencies: ["274BF80D6AC76DBE"]
+			id: "50BFE86CB3628AD7"
+			tasks: [{
+				id: "093EE6CE0DCF60AD"
+				type: "kill"
+				icon: "twilightforest:minoshroom_trophy"
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "798680DD9C89723A"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "7F6D4AB870DF504B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -9.5d
+			dependencies: ["2AE8A45A938B47D3"]
+			id: "4D1E10352D52B517"
+			tasks: [{
+				id: "1045CF1978F18D01"
+				type: "kill"
+				icon: "twilightforest:ur_ghast_trophy"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2994E93B0618540E"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "4A57BC825F444C49"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -9.5d
+			dependencies: ["6D817342C3F8E755"]
+			id: "4B5EF5C70B1DEB40"
+			tasks: [{
+				id: "73800FDD2E55E8B5"
+				type: "kill"
+				icon: "twilightforest:snow_queen_trophy"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3ECD14712FB53177"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "518564DD58F8C328"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -9.5d
+			dependencies: ["50BFE86CB3628AD7"]
+			id: "7E6902C462ABBF62"
+			tasks: [{
+				id: "0B162B41A607CE86"
+				type: "kill"
+				icon: "twilightforest:hydra_trophy"
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "58E8F4B4AE767E4E"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "30934059A94A5A43"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "twilightforest:giant_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -11.0d
+			dependencies: [
+				"4D1E10352D52B517"
+				"4B5EF5C70B1DEB40"
+				"7E6902C462ABBF62"
+			]
+			id: "4B5FD6FECB38A035"
+			tasks: [
+				{
+					id: "2D53C022902CC92B"
+					type: "kill"
+					entity: "twilightforest:armored_giant"
+					value: 1L
+				}
+				{
+					id: "304E4FD59689968D"
+					type: "kill"
+					entity: "twilightforest:giant_miner"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "20534BE4BAA2B102"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+				{
+					id: "3A21947489364606"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -6.0d
+			dependencies: ["105C5B8D64CCF4F8"]
+			id: "4B9E827C980B9289"
+			tasks: [{
+				id: "294D60550D1C7FE4"
+				type: "kill"
+				icon: "twilightforest:quest_ram_trophy"
+				entity: "twilightforest:quest_ram"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "45D7E3800A3F3BAC"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "0D268255B0BAEB17"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["270FCD2C8FE8C9EA"]
+			id: "556BC81E56C7747B"
+			tasks: [{
+				id: "114C39FCB381EE7C"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+			rewards: [
+				{
+					id: "51B07F41AB445139"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "6605ECFDB5EF0C07"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["556BC81E56C7747B"]
+			id: "64B399E3F769378A"
+			tasks: [{
+				id: "736A9C2BFF16B38A"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3C1FA1DD82C26A38"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "76EBD0722BE858ED"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+	]
+}

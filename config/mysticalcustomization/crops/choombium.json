@@ -1,0 +1,19 @@
+{
+    "name": "Choombium",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+        "item": "kubejs:choombium_ingot"
+    },
+    "colors": {
+        "flower": "8AE556",
+        "essence": "8AE556",
+        "seeds": "78C941"},
+  "textures": {
+        "flower": "mysticalagriculture:block/flower_ingot",
+        "essence": "mysticalagriculture:item/essence_ingot",
+        "seeds": "mysticalagriculture:item/mystical_seeds"
+  }
+
+  }
+  

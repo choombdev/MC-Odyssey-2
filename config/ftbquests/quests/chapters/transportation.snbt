@@ -1,0 +1,489 @@
+{
+	id: "29A0FC7FD23FD265"
+	group: "3A1BC4382F0B65EC"
+	order_index: 2
+	filename: "transportation"
+	title: "Transportation "
+	icon: {
+		id: "simpleplanes:large_plane"
+		Count: 1b
+		tag: {
+			EntityTag: {
+				material: "minecraft:oak_planks"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: -1.5d
+			id: "7EA05CE7DB41CDA2"
+			tasks: [{
+				id: "744EE83F51EE1DDB"
+				type: "item"
+				item: {
+					id: "simpleplanes:plane"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							material: "minecraft:oak_planks"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C6EC70F7D9F5F5C"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "3B094DED76D38F93"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			id: "7B18DF096C1D5D1E"
+			tasks: [{
+				id: "7133FD507662BEC6"
+				type: "item"
+				item: "smallships:oak_galley"
+			}]
+			rewards: [{
+				id: "215B0B8CADA3D4A6"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["7B18DF096C1D5D1E"]
+			id: "262063188FF56C24"
+			tasks: [{
+				id: "191B812ABFC96E01"
+				type: "item"
+				item: "smallships:oak_brigg"
+			}]
+			rewards: [
+				{
+					id: "25340F2512EBD00A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "20075C91FEF47404"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["7B18DF096C1D5D1E"]
+			id: "168554E599E97D0E"
+			tasks: [{
+				id: "2A6A75F46B44925C"
+				type: "item"
+				item: "smallships:oak_war_galley"
+			}]
+			rewards: [
+				{
+					id: "6E010D1E1C3186E9"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "44EBF958E91E8AA1"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "5BACDA1349840E16"
+			tasks: [
+				{
+					id: "7130237D7FFB601A"
+					type: "item"
+					title: "Any #tconstruct:slimeslings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:slimeslings"
+						}
+					}
+				}
+				{
+					id: "0E7C1356397D4365"
+					type: "item"
+					item: {
+						id: "minecraft:elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "609596D89B4671F4"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "60D3690AF161747B"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			id: "218ACA06B16A3F94"
+			tasks: [{
+				id: "7621325C84C73955"
+				type: "item"
+				item: {
+					id: "ironjetpacks:bronze_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "220821C40C4CA6A7"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "1F7B68B12FE5032D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["218ACA06B16A3F94"]
+			id: "61EEF1F4FCA18C88"
+			tasks: [{
+				id: "53C9255793816393"
+				type: "item"
+				item: {
+					id: "ironjetpacks:gold_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7C82A5C9C9AFE8BC"
+					type: "ftbmoney:money"
+					ftb_money: 20000L
+				}
+				{
+					id: "72E18C85F3EA465C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["61EEF1F4FCA18C88"]
+			id: "357D4D2356895DAB"
+			tasks: [{
+				id: "7003507069DBDAC3"
+				type: "item"
+				item: {
+					id: "ironjetpacks:diamond_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "15752B2C505543E0"
+					type: "ftbmoney:money"
+					ftb_money: 20000L
+				}
+				{
+					id: "364E83E83D882D85"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["357D4D2356895DAB"]
+			id: "36B90C4FA6E4785D"
+			tasks: [{
+				id: "418E8C12776978C5"
+				type: "item"
+				item: {
+					id: "ironjetpacks:emerald_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05D1C0743F9C5291"
+					type: "ftbmoney:money"
+					ftb_money: 50000L
+				}
+				{
+					id: "79AEADC553C76AAB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			description: ["Note that this isn't enough to make a working portal"]
+			id: "01B506BE8796163E"
+			tasks: [
+				{
+					id: "45A3BCD6B4755C7E"
+					type: "item"
+					item: "portality:controller"
+				}
+				{
+					id: "348A8E2A16C2A935"
+					type: "item"
+					item: "portality:frame"
+					count: 11L
+				}
+			]
+			rewards: [
+				{
+					id: "7388E9CA5332A1B8"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "6CA0F6A3A5736816"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "26F494A6767E5861"
+			tasks: [{
+				id: "7BC4B1E63F79B857"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [
+				{
+					id: "56D9E838C0F98828"
+					type: "ftbmoney:money"
+					ftb_money: 7500L
+				}
+				{
+					id: "6BA6967F09FDF69B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			id: "0BC526AF42093EAC"
+			tasks: [
+				{
+					id: "30E1B00A0EC20AA1"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+				}
+				{
+					id: "4BF140B443094BDA"
+					type: "item"
+					item: "mekanism:teleporter"
+				}
+			]
+			rewards: [
+				{
+					id: "1E0E75CCC74E5B2F"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "30569AA538C13358"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			id: "52574E056A2DD3FE"
+			tasks: [{
+				id: "172534C9514A6CC5"
+				type: "item"
+				item: "gobber2:gobber2_ring_teleport"
+			}]
+			rewards: [
+				{
+					id: "50193A5CD4E16EC4"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+				{
+					id: "0BCBE1B9A58380D8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "60D11DB20DE260F4"
+			tasks: [{
+				id: "017C3F666CF5A4B6"
+				type: "item"
+				item: {
+					id: "mekanism:portable_teleporter"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "1000000"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1E980DAB0AF03D76"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "1226F13AEFB244D5"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "130F5DF96CF576FA"
+			tasks: [{
+				id: "30AD3F083C53095B"
+				type: "item"
+				item: {
+					id: "grapplemod:grapplinghook"
+					Count: 1b
+					tag: {
+						Damage: 0
+						custom: {
+							doublehook: 0b
+							motor: 0b
+							phaserope: 0b
+							attract: 0b
+							rocket: 0b
+							hookgravity: 1.0d
+							repelforce: 1.0d
+							attractradius: 3.0d
+							pullbackwards: 1b
+							smartmotor: 0b
+							detachonkeyrelease: 0b
+							angle: 20.0d
+							rocket_vertical_angle: 0.0d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							motordampener: 0b
+							rocket_active_time: 0.5d
+							throwspeed: 2.0d
+							motoracceleration: 0.2d
+							enderstaff: 0b
+							oneropepull: 0b
+							sneakingverticalthrowangle: 0.0d
+							smartdoublemotor: 1b
+							repel: 0b
+							sneakingangle: 10.0d
+							motormaxspeed: 4.0d
+							playermovementmult: 1.0d
+							reelin: 1b
+							sticky: 0b
+							verticalthrowangle: 0.0d
+							maxlen: 30.0d
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "335DB4A6BE20FCE4"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "6FA272409E4D4236"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "3DA6C2350B45B6A4"
+			tasks: [{
+				id: "3841B6A6FCBD8838"
+				type: "item"
+				item: {
+					id: "grapplemod:longfallboots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D207026CB68952A"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+	]
+}

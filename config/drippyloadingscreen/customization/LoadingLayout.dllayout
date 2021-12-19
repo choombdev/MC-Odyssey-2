@@ -1,0 +1,92 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  backgroundimage = config/resources/bg.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 
+}
+
+customization {
+  visible = false
+  action = editforgememoryinfo
+  y = 9
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editforgestatustext
+}
+
+customization {
+  visible = false
+  x = 6
+  action = editprogressbar
+  y = -6
+}
+
+customization {
+  orientation = bottom-centered
+  x = -1
+  width = 472
+  y = 0
+  action = addcustomprogressbar
+  height = 20
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -8
+  textcolor = #ffffff
+  action = addtext
+  actionid = a20de894-eb3a-4e4c-8476-ad84f084ac051635242665118
+  y = -20
+  scale = 1.0
+  alignment = left
+  value = Loading into MC Odyssey 2
+}
+
+customization {
+  path = packmenu/resources/assets/packmenu/textures/gui/logo.png
+  orientation = top-right
+  x = 0
+  width = 133
+  action = addtexture
+  actionid = addbcbde-36cc-4c9c-b91a-7799afec17861635247247740
+  y = 10
+  height = 100
+}
+
+customization {
+  path = resources/logoanimation.gif
+  orientation = top-left
+  x = 717
+  width = 20
+  action = addtexture
+  actionid = e999c605-8502-4796-9eba-71a7c60b005d1636576690057
+  y = 519
+  height = 20
+}
+
+customization {
+  path = resources/logoanimation.gif
+  orientation = top-left
+  x = 221
+  width = 20
+  action = addtexture
+  actionid = 49e67048-783d-435f-bc57-297453795c7c1636576723595
+  y = 519
+  height = 20
+}
+
