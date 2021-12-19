@@ -143,7 +143,6 @@ customization {
   orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config\resources\bisectHover.png
   label =   Get a Server for 20% off today!
   loopbackgroundanimations = true
   x = -100
@@ -152,6 +151,7 @@ customization {
   action = addbutton
   y = -16
   backgroundnormal = config\resources\bisect.png
+  backgroundhovered = config\resources\bisectHover.png
   value = https://bisecthosting.com/odyssey
   height = 20
 }
