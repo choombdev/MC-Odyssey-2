@@ -3,9 +3,11 @@ name: Bug report
 about: Create a report to help us improve
 title: "[BUG]"
 labels: bug
-assignees: ''
+assignees: YahiaTGF
 
 ---
+
+<-- Note that if the bug is simple as 'Recipe missing for [ITEM]' or '[ITEM] is uncraftable, you can simply skip the Reproduction, Expected Behaviour and Screenshot steps -->
 
 **Describe the bug**
 A clear and concise description of what the bug is.
