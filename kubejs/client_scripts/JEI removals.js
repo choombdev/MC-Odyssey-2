@@ -47,10 +47,6 @@ onEvent('jei.hide.items', event => {
   // StructureAdventures
   event.hide({mod:'structuresadventures'})
 
-
-  // Enchanted Books
-  event.hide('#forge:books')
-
   const RemoveItems = []
 
   AllMaterials.forEach((material) => {
@@ -79,18 +75,16 @@ onEvent('jei.hide.items', event => {
     if (!Item.of(item).isEmpty()) {
       event.hide(item)}});
 
-
-
   colors.forEach((color) => {
       event.hide('refinedstorage:' + color + RS)
   });
-
-  onEvent('jei.add.items', event => {
-    event.add(Item.of('mekanism:creative_chemical_tank'))
-    event.add(Item.of('mekanism:creative_fluid_tank'))
-    event.add(Item.of('xreliquary:mob_charm_belt'))
-  })
-
 });
+onEvent('jei.add.items', event => {
+  event.add(Item.of('mekanism:creative_chemical_tank'))
+  event.add(Item.of('mekanism:creative_fluid_tank'))
+  event.add(Item.of('xreliquary:mob_charm_belt'))
+  event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"bloodmagic:guide"}'))
+})
+
 
 console.info('- - - Finished Loading JEI Removals - - -')

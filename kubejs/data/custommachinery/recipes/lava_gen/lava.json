@@ -1,0 +1,24 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:lava_gen",
+	"time": 50,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:cobblestone",
+			"amount": 32,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 200,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "minecraft:lava",
+			"amount": 1000,
+			"mode": "output"
+		}
+	]
+}

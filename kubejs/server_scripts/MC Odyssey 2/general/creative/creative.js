@@ -149,7 +149,7 @@ onEvent('recipes', event => {
     ], {
   
     X: 'kubejs:ancientingot',
-    A: 'refinedstorage:wireless_crafting_monitor'
+    A: Item.of('refinedstorage:wireless_crafting_monitor').ignoreNBT()
   })
   event.recipes.createMechanicalCrafting('refinedstorage:creative_wireless_grid', [
     'AAA',
@@ -158,7 +158,7 @@ onEvent('recipes', event => {
     ], {
   
     X: 'kubejs:ancientingot',
-    A: 'refinedstorage:wireless_grid'
+    A: Item.of('refinedstorage:wireless_grid').ignoreNBT()
   })
   event.recipes.createMechanicalCrafting('refinedstorage:creative_wireless_fluid_grid', [
     'AAA',
@@ -167,7 +167,7 @@ onEvent('recipes', event => {
     ], {
   
     X: 'kubejs:ancientingot',
-    A: 'refinedstorage:wireless_fluid_grid'
+    A: Item.of('refinedstorage:wireless_fluid_grid').ignoreNBT()
   })
 
   event.recipes.createMechanicalCrafting('refinedstorage:creative_portable_grid', [
@@ -177,7 +177,7 @@ onEvent('recipes', event => {
     ], {
   
     X: 'kubejs:ancientingot',
-    A: 'refinedstorage:portable_grid'
+    A: Item.of('refinedstorage:portable_grid').ignoreNBT()
   })
 
   event.recipes.createMechanicalCrafting('mekanism:creative_fluid_tank', [
@@ -189,9 +189,9 @@ onEvent('recipes', event => {
     X: 'kubejs:ancientingot',
     A: 'mekanism:ultimate_fluid_tank',
     B: 'dimstorage:dimensional_tank',
-    C: 'fluidtank:tank_silver',
-    D: 'industrialforegoing:supreme_black_hole_tank',
-    E: 'pedestals:coin/fluidtank',
+    C: Item.of('fluidtank:tank_silver').ignoreNBT(),
+    D: Item.of( 'industrialforegoing:supreme_black_hole_tank').ignoreNBT(),
+    E: Item.of('pedestals:coin/fluidtank').ignoreNBT(),
     
   })
 
@@ -239,7 +239,7 @@ onEvent('recipes', event => {
   
     Y:'thermal:rf_coil_creative_augment',
     X:'draconicevolution:draconium_ingot',
-    A: Item.of('ironjetpacks:emerald_jetpack', '{Throttle:1.0d}')
+    A: 'ironjetpacks:emerald_thruster'
   })
 
   event.recipes.createMechanicalCrafting(Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}'), [
@@ -253,6 +253,7 @@ onEvent('recipes', event => {
     A: 'mekanism:ultimate_energy_cube'
   })
 
+
   event.recipes.createMechanicalCrafting('exchangers:creative_exchanger', [
     'XXXX',
     'XAYX',
@@ -264,21 +265,23 @@ onEvent('recipes', event => {
     A:'exchangers:ultimate_exchanger'
   })
 
+
   event.recipes.createMechanicalCrafting('storagedrawers:creative_vending_upgrade', [
     'YABXCAY',
     'YDXOXEY',
     'YACXFAY'
     ], {
       X: 'kubejs:ancientingot',
-      A: Item.of('dankstorage:dank_7', '{inv:{}}'),
-      B: 'ae2extras:16m_fluid_storage_cell',
-      C: 'compactmachines:machine_maximum',
-      D: 'extradisks:infinite_storage_block',
-      E: 'extradisks:infinite_fluid_storage_block',
-      F: 'ae2extras:16m_storage_cell',
-      Y: 'industrialagriculture:bag_tier_six',
-      O: 'mekanism:qio_drive_supermassive'
+      A: 'forbidden_arcanus:dark_nether_star_block',
+      B: Item.of('ae2extras:16m_fluid_storage_cell').ignoreNBT(),
+      C: Item.of('compactmachines:machine_maximum').ignoreNBT(),
+      D: Item.of('extradisks:infinite_storage_block').ignoreNBT(),
+      E: Item.of('extradisks:infinite_fluid_storage_block').ignoreNBT(),
+      F: Item.of('ae2extras:16m_storage_cell').ignoreNBT(),
+      Y: 'metalbarrels:netherite_barrel',
+      O: Item.of('mekanism:qio_drive_supermassive').ignoreNBT()
   })
+
 
   event.recipes.createMechanicalCrafting('appliedenergistics2:creative_storage_cell', [
     'XXXX',

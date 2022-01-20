@@ -35,6 +35,24 @@ event.remove({output: 'minecraft:nether_wart_block'})
 event.shapeless('minecraft:nether_wart_block', ['9x minecraft:nether_wart'])
 event.shapeless('9x minecraft:nether_wart', ['minecraft:nether_wart_block'])
 
+
+// Chainmail
+
+event.remove({id: 'iceandfire:chainmail_helmet'})
+event.remove({id: 'iceandfire:chainmail_chestplate'})
+event.remove({id: 'iceandfire:chainmail_leggings'})
+event.remove({id: 'iceandfire:chainmail_boots'})
+
+event.remove({id: 'mana-and-artifice:chainmail_helmet'})
+event.remove({id: 'mana-and-artifice:chainmail_chestplate'})
+event.remove({id: 'mana-and-artifice:chainmail_leggings'})
+event.remove({id: 'mana-and-artifice:chainmail_boots'})
+
+event.remove({id: 'minecolonies:chainmailhelmet'})
+event.remove({id: 'minecolonies:chainmailchestplate'})
+event.remove({id: 'minecolonies:chainmailleggings'})
+event.remove({id: 'minecolonies:chainmailboots'})
+
 })
 
 

@@ -140,23 +140,6 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  label =   Get a Server for 20% off today!
-  loopbackgroundanimations = true
-  x = -100
-  width = 199
-  actionid = a211ee47-2c93-444b-944a-be7c19c27f161639925915690
-  action = addbutton
-  y = -16
-  backgroundnormal = config\resources\bisect.png
-  backgroundhovered = config\resources\bisectHover.png
-  value = https://bisecthosting.com/odyssey
-  height = 20
-}
-
-customization {
   orientation = top-left
   restartbackgroundanimations = true
   buttonaction = openlink
@@ -219,5 +202,22 @@ customization {
   actionid = 8e936b48-c834-4195-a632-af5d592858381639926468376
   y = 45
   height = 159
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Create your own Server
+  loopbackgroundanimations = true
+  x = -100
+  width = 199
+  actionid = 3273c2c7-1805-4662-bf0f-ea554e6d99691640854563657
+  action = addbutton
+  y = -15
+  backgroundnormal = config\resources\Bisect.png
+  backgroundhovered = config\resources\bisectHover.png
+  value = 
+  height = 20
 }
 

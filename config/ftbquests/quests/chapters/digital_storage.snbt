@@ -1015,7 +1015,7 @@
 		}
 		{
 			x: -11.0d
-			y: -1.5d
+			y: -2.0d
 			description: ["Connect with the controller"]
 			dependencies: ["0F2C879016BB2417"]
 			id: "5C0CB9F9251AF126"
@@ -1164,8 +1164,8 @@
 			]
 		}
 		{
-			x: -12.0d
-			y: -1.5d
+			x: -13.0d
+			y: -2.0d
 			description: ["Connect with the Controller"]
 			dependencies: ["0F2C879016BB2417"]
 			id: "28FEB65F398B7BB8"
@@ -1681,6 +1681,37 @@
 				}
 				{
 					id: "584AC909A32DBD63"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			dependencies: ["0F2C879016BB2417"]
+			id: "489B8B071DB581B7"
+			tasks: [{
+				id: "6048DDC8C629093A"
+				type: "item"
+				item: {
+					id: "refinedstorageaddons:wireless_crafting_grid"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54B376A857CC4CBB"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "743469999D34BFEF"
 					type: "loot"
 					table_id: 28899073401794277L
 				}

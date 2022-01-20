@@ -1,10 +1,10 @@
 // This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
 console.info('- - - Loading Powersuits Modules - - -')
 onEvent('recipes', event => {
-
-
-
-event.shaped('powersuits:flight_control', [
+  
+  
+  event.remove({output:['powersuits:swim_assist','powersuits:invisibility','powersuits:mob_repulsor','powersuits:aqua_affinity', 'powersuits:parachute', 'powersuits:flight_control','powersuits:shock_absorber','powersuits:jetpack','powersuits:jet_boots','powersuits:climb_assist','powersuits:silk_touch']})
+  event.shaped('powersuits:flight_control', [
         ' S ',
         'AXA',
         ' B '
@@ -31,16 +31,6 @@ event.shaped('powersuits:shock_absorber', [
     S: '#minecraft:logs'
   })
 
-event.shaped('powersuits:jump_assist', [
-        'CXC',
-        'BAB',
-        'CXC'
-      ], {
-        S: 'mekanism:free_runners',
-        C: 'createaddition:iron_wire',
-        B: 'numina:component_wiring',
-        X: 'mekanism:alloy_infused' 
-      })
 event.shaped('powersuits:jetpack', [
         'ABA',
         'AYA',
@@ -60,7 +50,6 @@ event.shaped('powersuits:jet_boots', [
     Y: 'mekanism:alloy_reinforced',
     X: 'numina:component_ion_thruster'
   })
-
 
 event.shaped('powersuits:climb_assist', [
         'BSB',
@@ -115,17 +104,5 @@ event.shaped('powersuits:swim_assist', [
     B: 'numina:component_wiring'  
 
   })
-event.shaped('powersuits:sprint_assist', [
-        'CXC',
-        'BAB',
-        'CXC'
-      ], {
-        S: 'mekanism:free_runners',
-        C: 'createaddition:gold_wire',
-        B: 'numina:component_wiring',
-        X: 'mekanism:alloy_infused'
-
-      })
-    
-        })
+})
 console.info('- - - Finished Loading Powersuits Modules - - -')

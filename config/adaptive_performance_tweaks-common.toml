@@ -2,19 +2,19 @@
 #Adaptive Performance Tweaks (General configuration)
 [Optimization]
 	#Enable/Disable optimization which are happening during player login.
-	optimizePlayerLogin = true
+	optimizePlayerLogin = false
 	#Enable/Disable view distance optimization depending on the server load.
-	optimizeViewDistance = true
+	optimizeViewDistance = false
 	#Enable/Disable passive mobs optimization depending on the server load.
-	optimizePassiveMobs = true
+	optimizePassiveMobs = false
 	#Enable/Disable neutral mobs optimization depending on the server load.
-	optimizeNeutralMobs = true
+	optimizeNeutralMobs = false
 	#Enable/Disable hostile mobs optimization depending on the server load.
-	optimizeHostileMobs = true
+	optimizeHostileMobs = false
 	#Enable/Disable boss mobs optimization depending on the server load.
-	optimizeBossMobs = true
+	optimizeBossMobs = false
 	#Enable/Disable general mobs optimization depending on the server load.
-	optimizeGeneralMobs = true
+	optimizeGeneralMobs = false
 
 [Items]
 	#Enable/Disable items optimization.

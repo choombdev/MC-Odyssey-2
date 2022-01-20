@@ -37,7 +37,7 @@
 		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 700
+		"Generate Dragon Cave Chance" = 100
 		#Whether to generate dragon roosts or not
 		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation

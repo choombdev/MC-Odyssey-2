@@ -5,6 +5,69 @@ console.info('- - - Loading QualityOfLife- - -')
 onEvent('recipes', event => {
 
 
+// Totem of Undying
+event.shaped('minecraft:totem_of_undying', [
+  'SCS',
+  'ABA',
+  'SCS'
+], {
+  S: 'envirocore:litherite_crystal',
+  A: 'tconstruct:rose_gold_block',
+  B: 'minecraft:enchanted_golden_apple',
+  C: Item.of('minecraft:potion', '{Potion:"minecraft:strong_healing"}')
+})
+  // Craftable Elytra
+  event.shaped('minecraft:elytra', [
+    'SSS',
+    'ABA',
+    'A A'
+  ], {
+    S: 'minecraft:netherite_ingot',
+    A: 'rats:dragon_wing',
+    B: 'minecraft:nether_star'
+  })
+
+
+  // Shard
+
+  event.shapeless('3x progressivebosses:nether_star_fragment', ['minecraft:nether_star'])
+
+  // Ender Scales
+  
+  event.shapeless('3x mysticalagriculture:dragon_egg_essence', ['forbidden_arcanus:dragon_scale'])
+  event.shapeless('3x mysticalagriculture:dragon_egg_essence', ['mysticalagradditions:dragon_scale'])
+  event.shapeless('3x mysticalagriculture:dragon_egg_essence', ['tconstruct:dragon_scale'])
+  event.shapeless('3x mysticalagriculture:dragon_egg_essence', ['quark:dragon_scale'])
+
+  event.shaped('forbidden_arcanus:dragon_scale', [
+    'SS ',
+    'S  '
+  ], {
+    S: 'mysticalagriculture:dragon_egg_essence'
+  })
+  event.shaped('tconstruct:dragon_scale', [
+    ' SS',
+    '  S'
+  ], {
+    S: 'mysticalagriculture:dragon_egg_essence'
+  })
+  event.shaped('mysticalagradditions:dragon_scale', [
+    'SSS',
+    'S S'
+  ], {
+    S: 'mysticalagriculture:dragon_egg_essence'
+  })
+  event.shaped('quark:dragon_scale', [
+    '  S',
+    ' SS'
+  ], {
+    S: 'mysticalagriculture:dragon_egg_essence'
+  })
+
+// Animal Feed
+event.remove({id:'essentials:animal_feed'})
+event.shapeless('essentials:animal_feed', ['2x minecraft:carrot', 'minecraft:wheat_seeds'])
+
 // Cracked Stone
 event.shapeless('minecraft:cracked_stone_bricks', ['minecraft:stone_bricks','#forge:pickaxes'])
 
@@ -12,6 +75,27 @@ event.shapeless('minecraft:cracked_stone_bricks', ['minecraft:stone_bricks','#fo
 event.shapeless('minecraft:white_wool',['#thermal:rockwool', 'minecraft:string'])
 // Smelting Dusts
 event.smelting('emendatusenigmatica:certus_quartz_gem', 'emendatusenigmatica:certus_quartz_dust' )
+
+// Ender Dust
+event.shapeless('emendatusenigmatica:ender_dust',['appliedenergistics2:ender_dust'])
+event.shapeless('appliedenergistics2:ender_dust',['emendatusenigmatica:ender_dust'])
+
+// Lead Ingots
+event.shapeless('emendatusenigmatica:lead_ingot', ['eidolon:lead_ingot'])
+event.shapeless('eidolon:lead_ingot', ['emendatusenigmatica:lead_ingot'])
+
+// Chains
+event.remove({output:'forbidden_arcanus:iron_chain'})
+event.shapeless('3x forbidden_arcanus:iron_chain', ['minecraft:chain'])
+event.shapeless('minecraft:chain', ['3x forbidden_arcanus:iron_chain'])
+event.shaped('3x forbidden_arcanus:iron_chain', [
+  '  S',
+  ' I ',
+  'S  '
+], {
+  I: '#forge:ingots/iron',
+  S: '#forge:nuggets/iron'
+})
 
 
 // Netherite Craftable

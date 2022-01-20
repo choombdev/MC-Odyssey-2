@@ -2,6 +2,9 @@
 console.info('- - - Loading Draconic/Balancing - - -')
 
 onEvent('recipes', event => {
+// Seed Removal
+event.remove({id:'mysticalagriculture:seed/infusion/draconium'})
+event.remove({id:'mysticalagriculture:seed/infusion/awakened_draconium'})
 
 
 // Draconic Core

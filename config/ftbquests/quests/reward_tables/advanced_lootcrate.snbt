@@ -224,16 +224,6 @@
 		{ item: "solarflux:sp_5", count: 4, weight: 22 }
 		{
 			item: {
-				id: "spartanweaponry:spear_electrum"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
 				id: "mana-and-artifice:staff_b"
 				Count: 1b
 				tag: {
@@ -298,16 +288,6 @@
 		}
 		{
 			item: {
-				id: "spartanweaponry:glaive_diamond"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 70
-		}
-		{
-			item: {
 				id: "cyclic:glowing_helmet"
 				Count: 1b
 				tag: {
@@ -329,16 +309,6 @@
 			weight: 25
 		}
 		{ item: "ironchest:gold_to_diamond_chest_upgrade", weight: 30 }
-		{
-			item: {
-				id: "spartanweaponry:halberd_silver"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 60
-		}
 		{ item: "cyclic:heart", weight: 40 }
 		{
 			item: {
@@ -386,16 +356,6 @@
 				}
 			}
 			weight: 70
-		}
-		{
-			item: {
-				id: "villagers_and_mosnetrs_legacy:osiris_helmet"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
 		}
 		{ item: "pamhc2foodextended:pepperonipizzaitem", count: 8, weight: 80 }
 		{
@@ -468,39 +428,9 @@
 			}
 			weight: 30
 		}
-		{
-			item: {
-				id: "villagers_and_mosnetrs_legacy:pig_pickaxe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "spartanweaponry:pike_platinum"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 50
-		}
 		{ item: "pamhc2foodextended:popcornitem", count: 32, weight: 80 }
 		{ item: "quarryplus:pump_module", weight: 50 }
 		{ item: "rats:purifying_liquid", weight: 70 }
-		{
-			item: {
-				id: "spartanweaponry:quarterstaff_gold"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 60
-		}
 		{ item: "thermal:rf_coil_storage_augment", weight: 50 }
 		{ item: "rftoolsstorage:storage_module3", weight: 30 }
 	]

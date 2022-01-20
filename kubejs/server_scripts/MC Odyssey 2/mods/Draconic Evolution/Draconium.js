@@ -27,7 +27,7 @@ onEvent('recipes', event => {
     'minecraft:netherite_ingot']).superheated()
 
     // Missing Awakened recipes
-    event.shapeless('draconicevolution:awakened_draconium_block', ['draconicevolution:awakened_draconium_ingot'])
+    event.shapeless('9x draconicevolution:awakened_draconium_ingot', ['draconicevolution:awakened_draconium_block'])
     event.shaped('draconicevolution:awakened_draconium_ingot', [
       'SSS',
       'SSS',

@@ -1,5 +1,5 @@
 // This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Powersuits- - -')
+console.info('- - - Loading Modular Powersuits- - -')
 onEvent('recipes', event => {
     // Removals
 event.remove({output:'powersuits:powerarmor_head'})

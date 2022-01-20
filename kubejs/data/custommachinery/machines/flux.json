@@ -1,0 +1,77 @@
+{
+  "name": "Flux Dust Generator",
+  "appearance": {
+    "idle": {
+      "block": "pack:machine/flux_gen_model"
+    },
+    "running": {
+      "lightlevel": 15
+    }
+  },
+  "components": [
+    {
+      "capacity": 100000,
+      "id": "input1",
+      "type": "custommachinery:energy"
+    },
+    {
+      "mode": "input",
+      "id": "input2",
+      "capacity": 64,
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "capacity": 64,
+      "type": "custommachinery:item"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 47,
+      "y": 30,
+      "type": "custommachinery:energy",
+      "id": "input1"
+    },
+    {
+      "x": 67,
+      "y": 30,
+      "type": "custommachinery:slot",
+      "id": "input2"
+    },
+    {
+      "id": "output1",
+      "x": 149,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 105,
+      "y": 30,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Flux Dust Generator",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    }
+  ]
+}

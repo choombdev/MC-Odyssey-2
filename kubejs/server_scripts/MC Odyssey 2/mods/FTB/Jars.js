@@ -4,9 +4,10 @@ console.info('- - - Loading Jar - -')
 onEvent('recipes', event => {
     const jar = event.recipes.ftbjarmod.jar;
     // General Things
-    jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(3000).lowTemp();
 
-    jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(300).highTemp();
+    jar(Fluid.of("minecraft:lava", 1000), "16x #forge:cobblestone").time(3000).lowTemp();
+    jar(Fluid.of("minecraft:lava", 1000), "16x #forge:cobblestone").time(300).highTemp();
+    
     // Low Temp - Water
     jar('mekanism:dust_gold',['mekanism:dirty_dust_gold', Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
     jar('mekanism:dust_copper', ['mekanism:dirty_dust_copper', Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
@@ -20,8 +21,8 @@ onEvent('recipes', event => {
     jar('emendatusenigmatica:aluminum_dust', ['emendatusenigmatica:aluminum_dirty_dust', Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
     jar('2x silents_mechanisms:platinum_dust', ['silents_mechanisms:platinum_chunks', Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
     jar('emendatusenigmatica:cobalt_dust', ['emendatusenigmatica:cobalt_dirty_dust', Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
-    jar('emendatusenigmatica:certus_quartz_dirty_dust',  ['emendatusenigmatica:certus_quartz_dust',  Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
-    jar('emendatusenigmatica:charged_certus_quartz_dirty_dust', ['emendatusenigmatica:charged_certus_quartz_ore', Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
+    jar('emendatusenigmatica:certus_quartz_dust',  ['emendatusenigmatica:certus_quartz_dirty_dust',  Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
+    jar('emendatusenigmatica:charged_certus_quartz_ore', ['emendatusenigmatica:charged_certus_quartz_dirty_dust', Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
     jar('emendatusenigmatica:nickel_dust', ['emendatusenigmatica:nickel_dirty_dust', Fluid.of("minecraft:water", 500)]).time(100).lowTemp();
     // High Temp - Water
     jar('mekanism:dust_gold',['mekanism:dirty_dust_gold', Fluid.of("minecraft:water", 500)]).time(10).highTemp();
@@ -36,8 +37,8 @@ onEvent('recipes', event => {
     jar('emendatusenigmatica:aluminum_dust', ['emendatusenigmatica:aluminum_dirty_dust', Fluid.of("minecraft:water", 500)]).time(10).highTemp();
     jar('2x silents_mechanisms:platinum_dust', ['silents_mechanisms:platinum_chunks', Fluid.of("minecraft:water", 500)]).time(10).highTemp();
     jar('emendatusenigmatica:cobalt_dust', ['emendatusenigmatica:cobalt_dirty_dust', Fluid.of("minecraft:water", 500)]).time(10).highTemp();
-    jar('emendatusenigmatica:certus_quartz_dirty_dust',  ['emendatusenigmatica:certus_quartz_dust',  Fluid.of("minecraft:water", 500)]).time(10).highTemp();
-    jar('emendatusenigmatica:charged_certus_quartz_dirty_dust', ['emendatusenigmatica:charged_certus_quartz_ore', Fluid.of("minecraft:water", 500)]).time(10).highTemp();
+    jar('emendatusenigmatica:certus_quartz_dust',  ['emendatusenigmatica:certus_quartz_dirty_dust',  Fluid.of("minecraft:water", 500)]).time(10).highTemp();
+    jar('emendatusenigmatica:charged_certus_quartz_ore', ['emendatusenigmatica:charged_certus_quartz_dirty_dust', Fluid.of("minecraft:water", 500)]).time(10).highTemp();
     jar('emendatusenigmatica:nickel_dust', ['emendatusenigmatica:nickel_dirty_dust', Fluid.of("minecraft:water", 500)]).time(10).highTemp();
 
 })
