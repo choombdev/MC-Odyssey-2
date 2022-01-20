@@ -21,7 +21,7 @@ install:
 
   # Link to where the file where the modpack can be distributed
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-  modpackUrl: https://media.forgecdn.net/files/3574/94/MC+Odyssey+2-V1.2.01.zip
+  modpackUrl: https://media.forgecdn.net/files/3615/235/MC+Odyssey+2-V1.3.zip
   # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
   # current supported formats:
   # - curseforge or curse
@@ -61,6 +61,8 @@ install:
       - 282313 # TipTheScales
       - 502561 # EquipmentCompare
       - 233255 # LoginShield
+      - 238747 # Mod Name Tooltip
+
       
 
 
