@@ -13,7 +13,7 @@ install:
 
   loaderVersion: ~
 
-  installerUrl: https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar
+  installerUrl: https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar
 
 
   installerArguments:
