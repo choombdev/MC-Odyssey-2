@@ -50,7 +50,7 @@
 	  },
 	  "D": {
 		"type": "compactcrafting:block",
-		"block": "pneumaticcraft:compressed_iron_block'"
+		"block": "pneumaticcraft:compressed_iron_block"
 	  }
 	},
   

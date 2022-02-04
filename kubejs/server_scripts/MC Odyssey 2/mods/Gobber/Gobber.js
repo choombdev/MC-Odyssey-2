@@ -33,7 +33,7 @@ event.shaped('gobber2:gobber2_globette',[
     'ASA',
     'ZSZ'
   ], {
-    S: 'progressivebosses:nether_star_fragment', 
+    S: 'progressivebosses:nether_star_shard', 
     A: 'silentgear:blaze_gold_ingot',
     Z: 'create:chromatic_compound',
   })

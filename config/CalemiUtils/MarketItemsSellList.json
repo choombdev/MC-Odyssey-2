@@ -1,0 +1,401 @@
+{
+  "bronze_ingot":{
+  "index": 0,
+  "stackStr":"emendatusenigmatica:bronze_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":6
+  },
+  "brass_ingot":{
+  "index": 1,
+  "stackStr":"emendatusenigmatica:brass_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":8
+  },
+  "constantan_ingot":{
+  "index": 2,
+  "stackStr":"emendatusenigmatica:constantan_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":9
+  },
+  "electrum_ingot":{
+  "index": 3,
+  "stackStr":"emendatusenigmatica:electrum_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":8
+  },
+  "steel_ingot":{
+  "index": 4,
+  "stackStr":"emendatusenigmatica:steel_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":10
+  },
+  "invar_ingot":{
+  "index": 5,
+  "stackStr":"emendatusenigmatica:invar_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":6
+  },
+  "signalum_ingot":{
+  "index": 6,
+  "stackStr":"emendatusenigmatica:signalum_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":15
+  },
+  "lumium_ingot":{
+  "index": 7,
+  "stackStr":"emendatusenigmatica:lumium_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":15
+  },
+  "enderium_ingot":{
+  "index": 8,
+  "stackStr":"emendatusenigmatica:enderium_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":20
+  },
+  "oak_log":{
+  "index": 10,
+  "stackStr":"minecraft:oak_log",
+  "stackNBT":"",
+  "amount":64,
+  "value":1
+  },
+  "spruce_log":{
+  "index": 11,
+  "stackStr":"minecraft:spruce_log",
+  "stackNBT":"",
+  "amount":64,
+  "value":1
+  },
+  "birch_log":{
+  "index": 12,
+  "stackStr":"minecraft:birch_log",
+  "stackNBT":"",
+  "amount":64,
+  "value":1
+  },
+  "jungle_log":{
+  "index": 13,
+  "stackStr":"minecraft:jungle_log",
+  "stackNBT":"",
+  "amount":64,
+  "value":1
+  },
+  "acacia_log":{
+  "index": 14,
+  "stackStr":"minecraft:acacia_log",
+  "stackNBT":"",
+  "amount":64,
+  "value":1
+  },
+  "dark_oak_log":{
+  "index": 15,
+  "stackStr":"minecraft:dark_oak_log",
+  "stackNBT":"",
+  "amount":64,
+  "value":1
+  },
+  "redstone":{
+  "index": 20,
+  "stackStr":"minecraft:redstone",
+  "stackNBT":"",
+  "amount":64,
+  "value":3
+  },
+  "diamond":{
+  "index": 21,
+  "stackStr":"minecraft:diamond",
+  "stackNBT":"",
+  "amount":64,
+  "value":10
+  },
+  "emerald":{
+  "index": 22,
+  "stackStr":"minecraft:emerald",
+  "stackNBT":"",
+  "amount":64,
+  "value":10
+  },
+  "copper_ingot":{
+  "index": 23,
+  "stackStr":"emendatusenigmatica:copper_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":4
+  },
+  "aluminum_ingot":{
+  "index": 24,
+  "stackStr":"emendatusenigmatica:aluminum_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":5
+  },
+  "iron_ingot":{
+  "index": 25,
+  "stackStr":"minecraft:iron_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":5
+  },
+  "gold_ingot":{
+  "index": 26,
+  "stackStr":"minecraft:gold_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":7
+  },
+  "silver_ingot":{
+  "index": 27,
+  "stackStr":"emendatusenigmatica:silver_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":6
+  },
+  "lead_ingot":{
+  "index": 28,
+  "stackStr":"emendatusenigmatica:lead_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":6
+  },
+  "nickel_ingot":{
+  "index": 29,
+  "stackStr":"emendatusenigmatica:nickel_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":8
+  },
+  "uranium_ingot":{
+  "index": 30,
+  "stackStr":"emendatusenigmatica:uranium_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":14
+  },
+  "osmium_ingot":{
+  "index": 31,
+  "stackStr":"emendatusenigmatica:osmium_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":7
+  },
+  "cobalt_ingot":{
+  "index": 32,
+  "stackStr":"emendatusenigmatica:cobalt_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":12
+  },
+  "iridium_ingot":{
+  "index": 33,
+  "stackStr":"emendatusenigmatica:iridium_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":12
+  },
+  "zinc_ingot":{
+  "index": 34,
+  "stackStr":"emendatusenigmatica:zinc_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":6
+  },
+  "tin_ingot":{
+  "index": 35,
+  "stackStr":"emendatusenigmatica:tin_ingot",
+  "stackNBT":"",
+  "amount":64,
+  "value":4
+  },
+  "certus_quartz_gem":{
+  "index": 36,
+  "stackStr":"emendatusenigmatica:certus_quartz_gem",
+  "stackNBT":"",
+  "amount":64,
+  "value":5
+  },
+  "charged_certus_quartz_gem":{
+  "index": 37,
+  "stackStr":"emendatusenigmatica:charged_certus_quartz_gem",
+  "stackNBT":"",
+  "amount":64,
+  "value":8
+  },
+  "fluix_gem":{
+  "index": 38,
+  "stackStr":"emendatusenigmatica:fluix_gem",
+  "stackNBT":"",
+  "amount":64,
+  "value":18
+  },
+  "coal":{
+  "index": 39,
+  "stackStr":"minecraft:coal",
+  "stackNBT":"",
+  "amount":64,
+  "value":2
+  },
+  "bone_meal":{
+  "index": 40,
+  "stackStr":"minecraft:bone_meal",
+  "stackNBT":"",
+  "amount":128,
+  "value":1
+  },
+  "glowstone_dust":{
+  "index": 41,
+  "stackStr":"minecraft:glowstone_dust",
+  "stackNBT":"",
+  "amount":64,
+  "value":2
+  },
+  "dragon_egg":{
+  "index": 42,
+  "stackStr":"minecraft:dragon_egg",
+  "stackNBT":"",
+  "amount":1,
+  "value":1000
+  },
+  "dirt":{
+  "index": 45,
+  "stackStr":"minecraft:dirt",
+  "stackNBT":"",
+  "amount":128,
+  "value":1
+  },
+  "cobblestone_4":{
+  "index": 46,
+  "stackStr":"compressium:cobblestone_4",
+  "stackNBT":"",
+  "amount":1,
+  "value":100
+  },
+  "stone_4":{
+  "index": 47,
+  "stackStr":"compressium:stone_4",
+  "stackNBT":"",
+  "amount":1,
+  "value":200
+  },
+  "sand_4":{
+  "index": 48,
+  "stackStr":"compressium:sand_4",
+  "stackNBT":"",
+  "amount":1,
+  "value":150
+  },
+  "netherrack_4":{
+  "index": 49,
+  "stackStr":"compressium:netherrack_4",
+  "stackNBT":"",
+  "amount":1,
+  "value":300
+  },
+  "gravel_4":{
+  "index": 50,
+  "stackStr":"compressium:gravel_4",
+  "stackNBT":"",
+  "amount":1,
+  "value":150
+  },
+  "quartz_block":{
+  "index": 51,
+  "stackStr":"minecraft:quartz_block",
+  "stackNBT":"",
+  "amount":32,
+  "value":50
+  },
+  "block_of_cheese":{
+  "index": 52,
+  "stackStr":"rats:block_of_cheese",
+  "stackNBT":"",
+  "amount":32,
+  "value":40
+  },
+  "cheese":{
+  "index": 53,
+  "stackStr":"rats:cheese",
+  "stackNBT":"",
+  "amount":64,
+  "value":5
+  },
+  "clay_ball":{
+  "index": 54,
+  "stackStr":"minecraft:clay_ball",
+  "stackNBT":"",
+  "amount":128,
+  "value":1
+  },
+  "insanium_essence":{
+  "index": 55,
+  "stackStr":"mysticalagradditions:insanium_essence",
+  "stackNBT":"",
+  "amount":16,
+  "value":128
+  },
+  "supremium_essence":{
+  "index": 56,
+  "stackStr":"mysticalagriculture:supremium_essence",
+  "stackNBT":"",
+  "amount":16,
+  "value":32
+  },
+  "imperium_essence":{
+  "index": 57,
+  "stackStr":"mysticalagriculture:imperium_essence",
+  "stackNBT":"",
+  "amount":16,
+  "value":4
+  },
+  "tertium_essence":{
+  "index": 58,
+  "stackStr":"mysticalagriculture:tertium_essence",
+  "stackNBT":"",
+  "amount":16,
+  "value":1
+  },
+  "prudentium_essence":{
+  "index": 59,
+  "stackStr":"mysticalagriculture:prudentium_essence",
+  "stackNBT":"",
+  "amount":64,
+  "value":1
+  },
+  "inferium_essence":{
+  "index": 60,
+  "stackStr":"mysticalagriculture:inferium_essence",
+  "stackNBT":"",
+  "amount":256,
+  "value":1
+  },
+  "rotten_flesh":{
+  "index": 67,
+  "stackStr":"minecraft:rotten_flesh",
+  "stackNBT":"",
+  "amount":128,
+  "value":1
+  },
+  "string":{
+  "index": 68,
+  "stackStr":"minecraft:string",
+  "stackNBT":"",
+  "amount":64,
+  "value":1
+  },
+  "gunpowder":{
+  "index": 69,
+  "stackStr":"minecraft:gunpowder",
+  "stackNBT":"",
+  "amount":64,
+  "value":3
+  }
+  }

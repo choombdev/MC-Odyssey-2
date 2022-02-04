@@ -4,6 +4,13 @@ console.info('- - - Loading QualityOfLife- - -')
 
 onEvent('recipes', event => {
 
+// Akashic Tome
+event.remove({id:'akashictome:tome'})
+event.shapeless(Item.of('akashictome:tome', '{"akashictome:data":{industrialforegoing:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"industrialforegoing:industrial_foregoing"}},resourcefulbees:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"resourcefulbees:fifty_shades_of_bees"}},astralsorcery:{id:"astralsorcery:tome",Count:1b},immersiveengineering:{id:"immersiveengineering:manual",Count:1b},mana-and-artifice:{id:"mana-and-artifice:guide_book",Count:1b},alexsmobs:{ForgeCaps:{"dungeons_libraries:built_in_enchantments":{BuiltInEnchantments:[]}},id:"alexsmobs:animal_dictionary",Count:1b},woot:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"woot:wootguide"}},elementalcraft:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"elementalcraft:element_book"}},silentgear:{id:"silentgear:guide_book",Count:1b},botania:{id:"botania:lexicon",Count:1b},thermal:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"thermal:guidebook"}},essentials:{id:"essentials:guide_book",Count:1b,tag:{"patchouli:book":"essentials:manual"}},storagenetwork:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"storagenetwork:network_book"}},integratedtunnels:{id:"integrateddynamics:on_the_dynamics_of_integration",Count:1b},powah:{id:"powah:book",Count:1b},pneumaticcraft:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"pneumaticcraft:book"}},simpleplanes:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"simpleplanes:planes_book"}},mahoutsukai:{id:"mahoutsukai:guidebook",Count:1b},occultism:{ForgeCaps:{"dungeons_libraries:built_in_enchantments":{BuiltInEnchantments:[]}},id:"occultism:dictionary_of_spirits",Count:1b},ars_nouveau:{id:"ars_nouveau:worn_notebook",Count:1b},bloodmagic:{ForgeCaps:{"dungeons_libraries:built_in_enchantments":{BuiltInEnchantments:[]}},id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"bloodmagic:guide"}},twilightforest:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"twilightforest:guide"}},supplementaries:{ForgeCaps:{"dungeons_libraries:built_in_enchantments":{BuiltInEnchantments:[]}},id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"supplementaries:supplementaries_guide"}},cyclic:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"cyclic:cyclic_guide_book"}}}}'), ['3x minecraft:book'])
+
+//Charging
+event.recipes.mekanismEnriching('emendatusenigmatica:charged_certus_quartz_gem','emendatusenigmatica:certus_quartz_gem')
+event.recipes.mekanismEnriching('appliedenergistics2:charged_certus_quartz_crystal', 'appliedenergistics2:certus_quartz_crystal')
 
 // Totem of Undying
 event.shaped('minecraft:totem_of_undying', [
@@ -30,7 +37,7 @@ event.shaped('minecraft:totem_of_undying', [
 
   // Shard
 
-  event.shapeless('3x progressivebosses:nether_star_fragment', ['minecraft:nether_star'])
+  event.shapeless('3x progressivebosses:nether_star_shard', ['minecraft:nether_star'])
 
   // Ender Scales
   

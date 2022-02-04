@@ -13,9 +13,7 @@
 	WorkbenchTickBonus = 5
 	#Fasten quarry's head moving.
 	FastQuarryHeadMove = false
-	#True to allow machines to remove bedrock. (Just removing. Not collecting)
-	RemoveBedrock = false
-	#True to enable ChunkDestroyer to collect bedrock as item.
+	#True to enable ChunkDestroyer to collect bedrock as item if the machine has Bedrock Module in its module slots.
 	CollectBedrock = false
 	#DisableFrameChainBreak
 	DisableFrameChainBreak = false

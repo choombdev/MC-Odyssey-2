@@ -20,6 +20,19 @@ event.remove({output:'draconicevolution:awakened_draconium_ingot'})
          S: 'minecraft:end_stone'
         }) 
         
+
+
+    // Deepslate
+
+    event.shaped('32x quark:deepslate', [
+        'AAA',
+        'B B',
+        'AAA'
+        ],{
+            A: 'mysticalagriculture:stone_essence',
+            B: 'mysticalagriculture:coal_essence'
+    })
+
     // Enderium
     
     event.shaped('4x emendatusenigmatica:enderium_ingot', [
