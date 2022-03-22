@@ -2,7 +2,7 @@
   "name": "Flux Dust Generator",
   "appearance": {
     "idle": {
-      "block": "pack:machine/flux_gen_model"
+      "block": "custommachinery:machines/flux"
     },
     "running": {
       "lightlevel": 15

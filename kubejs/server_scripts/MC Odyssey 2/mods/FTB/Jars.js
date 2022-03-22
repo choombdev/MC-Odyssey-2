@@ -1,10 +1,7 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Jar - -')
-
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
     const jar = event.recipes.ftbjarmod.jar;
-    // General Things
-
+    // Lava
     jar(Fluid.of("minecraft:lava", 1000), "16x #forge:cobblestone").time(3000).lowTemp();
     jar(Fluid.of("minecraft:lava", 1000), "16x #forge:cobblestone").time(300).highTemp();
     
@@ -42,4 +39,3 @@ onEvent('recipes', event => {
     jar('emendatusenigmatica:nickel_dust', ['emendatusenigmatica:nickel_dirty_dust', Fluid.of("minecraft:water", 500)]).time(10).highTemp();
 
 })
-console.info('- - - Finished Loading Jar - - -')

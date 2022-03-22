@@ -1,9 +1,5 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Balancing- - -')
-
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
-
-
 // Illuminati Pet
 event.remove({output:Item.of('inventorypets:pet_illuminati')})
 event.recipes.createMechanicalCrafting(Item.of('inventorypets:pet_illuminati'), [
@@ -27,4 +23,3 @@ event.recipes.createMechanicalCrafting(Item.of('inventorypets:pet_meta'), [
     A: 'kubejs:ancientingot'
   })
     })
-console.info('- - - Finished Loading Balancing - - -')

@@ -1,5 +1,5 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Powersuits Modules - - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
+
 onEvent('recipes', event => {
   
   
@@ -105,4 +105,3 @@ event.shaped('powersuits:swim_assist', [
 
   })
 })
-console.info('- - - Finished Loading Powersuits Modules - - -')

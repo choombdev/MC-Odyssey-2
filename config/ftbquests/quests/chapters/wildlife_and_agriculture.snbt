@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.0d
+			x: -4.0d
 			y: -3.5d
 			description: ["To transfer any essence in Mystical Agriculture to a higher level you'll need a crystal!"]
 			id: "4DDA7D554C806A09"
@@ -31,7 +31,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.5d
 			y: -3.5d
 			description: ["Crystal but unbreakable!"]
 			dependencies: ["4DDA7D554C806A09"]
@@ -55,7 +55,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -4.0d
 			y: -4.5d
 			dependencies: ["4DDA7D554C806A09"]
 			id: "565E04522AC1668B"
@@ -71,7 +71,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.0d
 			y: -5.5d
 			dependencies: ["565E04522AC1668B"]
 			id: "6D03DF787DE799BD"
@@ -94,7 +94,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -4.0d
 			y: -6.5d
 			dependencies: ["6D03DF787DE799BD"]
 			id: "6F69AD44AC33FB4A"
@@ -117,8 +117,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -7.5d
+			x: -4.0d
+			y: -8.5d
 			dependencies: ["6F69AD44AC33FB4A"]
 			id: "24E5F561D312D14B"
 			tasks: [{
@@ -140,8 +140,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -8.5d
+			x: -4.0d
+			y: -9.5d
 			dependencies: ["24E5F561D312D14B"]
 			id: "57ABB3638DFBDA82"
 			tasks: [{
@@ -163,8 +163,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -9.5d
+			x: -4.0d
+			y: -10.5d
 			dependencies: ["57ABB3638DFBDA82"]
 			id: "470CE8D1DBBF6BCB"
 			tasks: [{
@@ -186,8 +186,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -9.5d
+			x: -6.0d
+			y: -10.5d
 			dependencies: ["2F66A61AA636DDA0"]
 			id: "63E4AB461B679690"
 			tasks: [{
@@ -214,8 +214,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -8.5d
+			x: -6.0d
+			y: -9.5d
 			dependencies: ["484D7697C60C55C6"]
 			id: "7C4197C1DF8BBBEE"
 			tasks: [{
@@ -237,7 +237,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: -7.5d
 			dependencies: ["686BC656DCC60CE7"]
 			id: "5DBDECC59ABB7960"
@@ -260,7 +260,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: -6.5d
 			dependencies: ["01323C1C2BE46AFE"]
 			id: "0DE0D741C0B4DFDF"
@@ -283,7 +283,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: -5.5d
 			dependencies: ["5C25C0FC4734BED1"]
 			id: "41461410380FA900"
@@ -306,7 +306,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: -4.5d
 			dependencies: ["3F139919CFCFFB4A"]
 			id: "51F3D86488E7601B"
@@ -329,7 +329,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -5.0d
 			y: -4.5d
 			dependencies: [
 				"565E04522AC1668B"
@@ -355,7 +355,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -5.0d
 			y: -5.5d
 			dependencies: ["6D03DF787DE799BD"]
 			id: "5C25C0FC4734BED1"
@@ -378,7 +378,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -5.0d
 			y: -6.5d
 			dependencies: ["6F69AD44AC33FB4A"]
 			id: "01323C1C2BE46AFE"
@@ -401,7 +401,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -5.0d
 			y: -7.5d
 			dependencies: ["24E5F561D312D14B"]
 			id: "686BC656DCC60CE7"
@@ -424,8 +424,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -8.5d
+			x: -5.0d
+			y: -9.5d
 			dependencies: ["57ABB3638DFBDA82"]
 			id: "484D7697C60C55C6"
 			tasks: [{
@@ -447,8 +447,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -9.5d
+			x: -5.0d
+			y: -10.5d
 			dependencies: ["470CE8D1DBBF6BCB"]
 			id: "2F66A61AA636DDA0"
 			tasks: [{
@@ -475,7 +475,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -5.0d
 			y: -3.5d
 			description: ["Prosperity ingots are the basis to all ingots."]
 			dependencies: ["4DDA7D554C806A09"]
@@ -492,8 +492,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -4.5d
+			x: -3.0d
+			y: -2.5d
 			description: ["You'll need an infusion altar if you'd like to craft any sort of special seeds."]
 			dependencies: ["4DDA7D554C806A09"]
 			id: "37DEB361A5008B05"
@@ -620,7 +620,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 0.0d
 			y: -7.0d
 			dependencies: ["7C3EF2B25BE36084"]
 			id: "6380715756550A7F"
@@ -662,7 +662,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 0.0d
 			y: -8.5d
 			dependencies: ["6380715756550A7F"]
 			id: "1CFEC5ACB1470730"
@@ -689,7 +689,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 0.0d
 			y: -10.0d
 			dependencies: ["1CFEC5ACB1470730"]
 			id: "077F3EB10E1F0CFD"
@@ -716,7 +716,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 0.0d
 			y: -11.5d
 			dependencies: ["077F3EB10E1F0CFD"]
 			id: "25C454873F370535"
@@ -750,7 +750,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 0.0d
 			y: -3.5d
 			id: "44AE44FD879B1795"
 			tasks: [{
@@ -771,6 +771,1110 @@
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["565E04522AC1668B"]
+			id: "0F48D2CBC57F7293"
+			tasks: [{
+				id: "48A2C275D7723B16"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:inferium_farmland"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B5A11D5A5548759"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["6D03DF787DE799BD"]
+			id: "697874D2B7A0D189"
+			tasks: [{
+				id: "487079D15515C94D"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_farmland"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "02F6ED8365F72775"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["6F69AD44AC33FB4A"]
+			id: "012A53B05B9DA80A"
+			tasks: [{
+				id: "2F6074F67665D5C6"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:tertium_farmland"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DD67AB317CF8054"
+				type: "ftbmoney:money"
+				ftb_money: 700L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["24E5F561D312D14B"]
+			id: "38EE24799ECCF001"
+			tasks: [{
+				id: "26CDF335481BC46F"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:imperium_farmland"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2FA8D2A9FBD9BFD0"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.5d
+			dependencies: ["57ABB3638DFBDA82"]
+			id: "34C8AD0C142F2DB5"
+			tasks: [{
+				id: "270F6828D3A0D10B"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_farmland"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AF41B2463C8D532"
+				type: "ftbmoney:money"
+				ftb_money: 1500L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.5d
+			dependencies: ["470CE8D1DBBF6BCB"]
+			id: "622386A123DBBE44"
+			tasks: [{
+				id: "3C0524D1288C370D"
+				type: "item"
+				item: {
+					id: "mysticalagradditions:insanium_farmland"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E269FBCA076578C"
+				type: "ftbmoney:money"
+				ftb_money: 2500L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			subtitle: "British People's favourite"
+			id: "43F4605545E2B333"
+			tasks: [{
+				id: "6F86684283BECAFF"
+				type: "item"
+				item: {
+					id: "pamhc2foodextended:earlgreyteaitem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "5EF5E77A1987C078"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			subtitle: "Gonna stay up all night"
+			id: "6F2B0E0EB6B72363"
+			tasks: [{
+				id: "027E6425A5D91755"
+				type: "item"
+				item: {
+					id: "pamhc2foodextended:energydrinkitem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 64L
+			}]
+			rewards: [{
+				id: "543A1C45B7DB09CD"
+				type: "ftbmoney:money"
+				ftb_money: 600L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "The best flavour"
+			id: "27BA8195F6D4AA36"
+			tasks: [{
+				id: "5F3D7DAAFE4529F3"
+				type: "item"
+				item: {
+					id: "pamhc2foodextended:sourcreamandonionpotatochipsitem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 64L
+			}]
+			rewards: [{
+				id: "48516053E68253AD"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			subtitle: "Put milk in a cauldron"
+			id: "4EE935F45B2213C7"
+			tasks: [{
+				id: "359056718E4B42B9"
+				type: "item"
+				item: {
+					id: "rats:cheese"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "483CE97FB921CAB3"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			shape: "octagon"
+			subtitle: "Made by the God himself"
+			dependencies: ["617C054089AD4ACB"]
+			size: 1.2d
+			id: "1E429BBA65F231F5"
+			tasks: [{
+				id: "715E096EEB527446"
+				type: "item"
+				item: {
+					id: "kubejs:choomburgert4"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "18C402497DF61A97"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "108BA19C3D49FBD0"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -6.5d
+			shape: "diamond"
+			subtitle: "What everyone craves"
+			dependencies: ["4EE935F45B2213C7"]
+			id: "7C11005E1C628DAF"
+			tasks: [{
+				id: "42D0BC35A5226BFE"
+				type: "item"
+				item: {
+					id: "kubejs:choomburgert1"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "1958322A9F1326D6"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			shape: "pentagon"
+			dependencies: ["7C11005E1C628DAF"]
+			id: "7E2C76329A46448D"
+			tasks: [{
+				id: "7E4728C50106CC34"
+				type: "item"
+				item: {
+					id: "kubejs:choomburgert2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "26BDEDCB4030F79E"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			subtitle: "Poor Cow!"
+			dependencies: ["4EE935F45B2213C7"]
+			id: "6D2E5255CB234F65"
+			tasks: [{
+				id: "44DAE5156DF9171E"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:cow_jar"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1004A5188C170ADA"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			shape: "hexagon"
+			dependencies: ["7E2C76329A46448D"]
+			id: "617C054089AD4ACB"
+			tasks: [{
+				id: "2E4D3228D7CA6BEB"
+				type: "item"
+				item: {
+					id: "kubejs:choomburgert3"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C6CAE8EE48FB942"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "676C417CF337DB1B"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			dependencies: ["4EE935F45B2213C7"]
+			id: "37F96E1E8726CD70"
+			tasks: [{
+				id: "39697A04FC0FC44F"
+				type: "item"
+				item: {
+					id: "rats:auto_curdler"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "79FB70610770D163"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			dependencies: ["4EE935F45B2213C7"]
+			id: "3799D704BF308B8C"
+			tasks: [{
+				id: "7BD2BAEA773F4569"
+				type: "item"
+				item: {
+					id: "rats:rat_upgrade_basic"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "08911BABF555C25C"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.5d
+			subtitle: "WHERE'S THE LAMB SAUCE"
+			dependencies: ["3799D704BF308B8C"]
+			id: "5FBBE393220E09E1"
+			tasks: [{
+				id: "550322AA96367ACD"
+				type: "item"
+				item: {
+					id: "rats:rat_upgrade_chef"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7222AA5512C4D8CE"
+					type: "item"
+					item: {
+						id: "rats:chef_toque"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6236F8C18C2148AB"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -9.0d
+			subtitle: "Anyone can cook!"
+			dependencies: ["5FBBE393220E09E1"]
+			id: "314A279EBEBB75E6"
+			tasks: [{
+				id: "7EE40B45A7329805"
+				type: "item"
+				item: {
+					id: "rats:confit_byaldi"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "5190E5E308F34706"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.0d
+			dependencies: ["37F96E1E8726CD70"]
+			id: "12C5FFBC431FA87F"
+			tasks: [{
+				id: "21636E9C31F3A420"
+				type: "item"
+				item: {
+					id: "rats:cheese_stick"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C7AE078A46462A3"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			dependencies: ["37F96E1E8726CD70"]
+			id: "50B8A5155AF5685C"
+			tasks: [{
+				id: "11E0B5DA9B0B4E53"
+				type: "item"
+				item: {
+					id: "rats:block_of_cheese"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "327709267253E516"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			subtitle: "It couldn't be easier to farm"
+			id: "2CF9C37080305037"
+			tasks: [{
+				id: "68DA61039AC4481C"
+				type: "item"
+				item: {
+					id: "cyclic:scythe_harvest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3245DB3DAC60A0E8"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			subtitle: "Seeds!"
+			id: "31C681CC5DC35539"
+			tasks: [{
+				id: "0C7FB5ACEBAA8483"
+				type: "item"
+				item: {
+					id: "farmingforblockheads:market"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7614B6C8819605A5"
+					type: "item"
+					item: {
+						id: "minecraft:emerald"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "08FEE18EF75DBB7D"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "Kitchen"
+			x: 2.5d
+			y: -3.5d
+			subtitle: "You'll use the sink for cooking, right?"
+			id: "5882AFB1EB7664F5"
+			tasks: [
+				{
+					id: "4CCE3113CB638027"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:cooking_table"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "305376241105AFA1"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:oven"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "705D21E1C771FDB1"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:sink"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "35F4CE40A9E0B198"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:counter"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "6802C24B3203567F"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:fridge"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "11A0AF2AA96E1D9A"
+					type: "item"
+					item: {
+						id: "croptopia:guide"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4E79C45D28FBDBAF"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			title: "Kitchen Upgrade"
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["5882AFB1EB7664F5"]
+			id: "6B914F2414EE5718"
+			tasks: [
+				{
+					id: "5ECAC6D31B361534"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:heating_unit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "368CEAA7D0326559"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:ice_unit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5ABD041A441B3203"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:preservation_chamber"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "65C8BC330312B760"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:white_kitchen_floor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "223A061C3F6876D2"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Cooking Time!"
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["5882AFB1EB7664F5"]
+			id: "6A5AFAA023B70137"
+			tasks: [
+				{
+					id: "4F41E5FEDAE4623A"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:skilletitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "692449E9154D5FAA"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:juiceritem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3EDCF7094858D3B0"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:saucepanitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6134E6F44546AE0F"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:potitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "010BAE7B8194528E"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:cuttingboarditem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6EAAF222752734E2"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:bakewareitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2BE43482C9844C33"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:mixingbowlitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1A46179B21310F6F"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:grinderitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1D302EB92787207D"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:rolleritem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2A16E9F7AD6EBBDA"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:toaster"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0E626A8235DA1E75"
+					type: "ftbmoney:money"
+					ftb_money: 450L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			subtitle: "What Sweden has to offer!"
+			id: "1599FB37890D8C06"
+			tasks: [{
+				id: "5D4DF1DBA406586E"
+				type: "item"
+				item: {
+					id: "pamhc2foodextended:swedishmeatballsitem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "31209244F9E2D011"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			title: "Cakes Cakes!"
+			x: 3.5d
+			y: -1.0d
+			subtitle: "Party Time!"
+			id: "73CAE01697E8BB9D"
+			tasks: [
+				{
+					id: "078151583B77EDAF"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:pumpkincheesecakeitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "4DC2A4EC97B9A2C7"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:chocolatecakeitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "48F20242796D4985"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:cheesecakeitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "15E4413F2D00E7C1"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:carrotcakeitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "7B7F8EFB5B3AFF3B"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			subtitle: "Pasta with ink?!"
+			id: "58AF730B86F763A5"
+			tasks: [{
+				id: "6E5874E32E2B6E51"
+				type: "item"
+				item: {
+					id: "farmersdelight:squid_ink_pasta"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "49CC8643A26E4DCD"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			dependencies: ["24E5F561D312D14B"]
+			id: "4C57A1271182F9A6"
+			tasks: [{
+				id: "0528786894447587"
+				type: "item"
+				item: {
+					id: "rats:tiny_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "03676EC82F18AA68"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			description: ["Opening a portal to Ratlantis!"]
+			dependencies: ["4C57A1271182F9A6"]
+			id: "5A4FBCF0920E3CDA"
+			tasks: [{
+				id: "0C94C01BEFF9AB32"
+				type: "item"
+				item: {
+					id: "rats:chunky_cheese_token"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "299656667C556EFB"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "24473D68A3F5EC0C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
 		}
 	]
 }

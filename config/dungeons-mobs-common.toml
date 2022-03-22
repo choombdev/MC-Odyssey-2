@@ -396,6 +396,8 @@
 	enableSquallGolemsInRaids = true
 	#Enable the addition of Redstone Golems to raids. [true / false]
 	enableRedstoneGolemsInRaids = true
+	#Enable the addition of Mages to raids. [true / false]
+	enableMagesInRaids = false
 
 #Vanilla Mob Configuration
 [vanilla_mob_configuration]

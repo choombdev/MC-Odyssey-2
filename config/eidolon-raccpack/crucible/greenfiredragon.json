@@ -1,0 +1,9 @@
+{ "type": "eidolon:crucible", 
+    "steps": 
+    [
+    { "items": [{ "item": "eidolon:shadow_gem"  }, { "item": "xreliquary:attraction_potion" }, {"item": "botania:ender_air_bottle"}]}, 
+    { "stirs": 2, "items": [ { "item": "iceandfire:fire_stew"}, { "item": "iceandfire:fire_dragon_blood"},{"item": "botania:green_petal"}  ] }, 
+    { "stirs": 3 , "items": [ { "item": "minecraft:dragon_breath"  }, { "item": "forbidden_arcanus:dragon_scale"  }, {"item":"iceandfire:dragonbone" } ] }
+    ],
+    "result": { "item": "iceandfire:dragonegg_green"}
+}

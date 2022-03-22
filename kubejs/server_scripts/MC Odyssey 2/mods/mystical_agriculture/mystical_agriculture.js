@@ -1,5 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Mystical Agriculture- - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
 onEvent('recipes', event => {
     // Draconium
@@ -227,5 +226,3 @@ event.remove({output:'draconicevolution:awakened_draconium_ingot'})
             A: 'mysticalagriculture:saltpeter_essence'
     })
 })
-
-console.info('- - - Finished Loading Mystical Agriculture - - -')

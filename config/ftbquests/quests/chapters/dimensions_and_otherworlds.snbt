@@ -498,5 +498,28 @@
 				}
 			]
 		}
+		{
+			x: -10.5d
+			y: -0.5d
+			id: "1792D45E98E84A86"
+			tasks: [{
+				id: "56DB8149DF96C639"
+				type: "dimension"
+				title: "Visit Ratlantis!"
+				dimension: "rats:ratlantis"
+			}]
+			rewards: [
+				{
+					id: "6AFBEB8A5A1BB49D"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "06751FC106CC5BD1"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
 	]
 }

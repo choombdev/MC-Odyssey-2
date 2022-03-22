@@ -1,5 +1,5 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading netherrack/sluices - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
+
 
 onEvent("recipes", (event) => {
     const sluice = event.recipes.ftbsluice.sluice;
@@ -35,4 +35,3 @@ onEvent("recipes", (event) => {
 });
 
 
-console.info('- - - Finished Loading netherrack/sluices - - -')

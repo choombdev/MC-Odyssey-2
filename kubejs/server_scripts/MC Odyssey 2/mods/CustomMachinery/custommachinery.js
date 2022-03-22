@@ -1,12 +1,7 @@
 
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading CustomMachinery - -')
-
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
 onEvent('recipes', event => {
-
-//[, ,, , , , ]
-
 event.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:lava_gen"}'), [
   'SAS',
   'SBS',
@@ -27,7 +22,4 @@ event.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"custommac
   X: 'pneumaticcraft:compressed_iron_gear',
   B: 'industrialforegoing:machine_frame_simple'
 })
-
 })
-
-console.info('- - - Finished Loading CustomMachinery - - -')

@@ -15,30 +15,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -7.0d
-			y: -3.5d
-			id: "7FEE48A8E84AEBA7"
-			tasks: [{
-				id: "0F865E4FB6FB3C88"
-				type: "kill"
-				icon: "dungeonsmod:kraken_tentacle"
-				entity: "dungeonsmod:kraken"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "52631897DB4FDDAB"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-				{
-					id: "20607E99FC64B343"
-					type: "ftbmoney:money"
-					ftb_money: 1750L
-				}
-			]
-		}
-		{
 			x: -9.0d
 			y: 0.5d
 			dependencies: ["72082BA487C1B154"]
@@ -65,7 +41,7 @@
 		}
 		{
 			x: -9.0d
-			y: -1.5d
+			y: -1.0d
 			dependencies: ["72082BA487C1B154"]
 			id: "4CD5928E219533C0"
 			tasks: [{
@@ -90,7 +66,7 @@
 		}
 		{
 			x: -12.0d
-			y: -1.5d
+			y: -1.0d
 			dependencies: ["72082BA487C1B154"]
 			id: "0AB9454B5716ED53"
 			tasks: [{
@@ -146,7 +122,7 @@
 		}
 		{
 			x: -10.5d
-			y: -3.5d
+			y: -2.0d
 			dependencies: ["72082BA487C1B154"]
 			id: "1399766F1113F17E"
 			tasks: [{
@@ -179,7 +155,7 @@
 		}
 		{
 			x: -10.5d
-			y: -1.5d
+			y: -0.5d
 			id: "72082BA487C1B154"
 			tasks: [{
 				id: "62C066C8A2D38066"
@@ -189,7 +165,7 @@
 		}
 		{
 			x: -7.0d
-			y: -1.5d
+			y: -1.0d
 			id: "3DB73462DFE2FF20"
 			tasks: [{
 				id: "2BAA33EB9EEAE923"
@@ -207,64 +183,6 @@
 					id: "2AC92B4304B39091"
 					type: "ftbmoney:money"
 					ftb_money: 500L
-				}
-			]
-		}
-		{
-			x: -7.0d
-			y: 0.5d
-			id: "2595EADE0DA3485E"
-			tasks: [{
-				id: "7C0871CB1454BFF8"
-				type: "kill"
-				icon: {
-					id: "ob_core:paladin_extra_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "dungeonsmod:king"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "005D0CEB60767775"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-				{
-					id: "56A6758911B2A4B0"
-					type: "ftbmoney:money"
-					ftb_money: 1750L
-				}
-			]
-		}
-		{
-			x: -14.0d
-			y: -1.5d
-			id: "01620C33A84FBFCD"
-			tasks: [{
-				id: "370449F248D4BE9A"
-				type: "kill"
-				entity: "ob_aquamirae:anglerfish"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "4E45543F7EC9EF08"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-				{
-					id: "2619EDB6CACF88BA"
-					type: "ftbmoney:money"
-					ftb_money: 1750L
 				}
 			]
 		}
@@ -299,8 +217,8 @@
 			]
 		}
 		{
-			x: -12.0d
-			y: 2.0d
+			x: -13.5d
+			y: -2.5d
 			id: "056F69FA3504B395"
 			tasks: [{
 				id: "12316DC77360ACB1"
@@ -329,8 +247,8 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: 2.0d
+			x: -7.0d
+			y: 0.5d
 			id: "0566CB2C64A7077C"
 			tasks: [{
 				id: "6044A06DA5BF6FD5"
@@ -354,25 +272,7 @@
 		}
 		{
 			x: -14.0d
-			y: -3.5d
-			id: "65FB299C1848FE8A"
-			tasks: [{
-				id: "738BD5694A2C0630"
-				type: "kill"
-				icon: {
-					id: "iceandfire:siren_flute"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				entity: "iceandfire:siren"
-				value: 5L
-			}]
-		}
-		{
-			x: -13.5d
-			y: -5.0d
+			y: -1.0d
 			id: "419381340EBD6AF1"
 			tasks: [{
 				id: "5B228D3E8343D9ED"
@@ -388,8 +288,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -5.0d
+			x: -9.0d
+			y: -2.5d
 			id: "0582B20522B76DE5"
 			tasks: [{
 				id: "524C10E39302242A"
@@ -405,8 +305,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: -5.0d
+			x: -8.5d
+			y: -3.5d
 			id: "46F6F8D92E7F96D5"
 			tasks: [{
 				id: "5BEAD824CC372887"
@@ -429,7 +329,7 @@
 		}
 		{
 			x: -7.5d
-			y: -5.0d
+			y: -2.5d
 			id: "4C3DD98505FCC4CF"
 			tasks: [{
 				id: "7453B4B20F496AC1"
@@ -452,7 +352,7 @@
 		}
 		{
 			x: -10.5d
-			y: -6.0d
+			y: -3.5d
 			id: "7A58DBF89066B065"
 			tasks: [{
 				id: "1CD13A3175C7A321"
@@ -476,7 +376,7 @@
 		}
 		{
 			x: -9.5d
-			y: -7.5d
+			y: -5.0d
 			id: "3EB3FD37A6EA61EE"
 			tasks: [{
 				id: "573170ECFE07FCFC"
@@ -505,7 +405,7 @@
 		}
 		{
 			x: -11.5d
-			y: -7.5d
+			y: -5.0d
 			id: "00CD78D6CD66262F"
 			tasks: [{
 				id: "30C59180B00A9DE9"
@@ -533,8 +433,8 @@
 			]
 		}
 		{
-			x: -10.5d
-			y: 3.0d
+			x: -12.5d
+			y: -3.5d
 			id: "1BFD0FD3E14A9BBF"
 			tasks: [{
 				id: "460FEFACAAAFB9DB"
@@ -576,10 +476,12 @@
 				id: "2BAA6ABF9B3A760F"
 				type: "kill"
 				icon: {
-					id: "silentgems:soul_gem"
+					id: "theabyss:frost_crystal"
 					Count: 1b
-					tag: {
-						SGems_SoulGem: "mowziesmobs:frostmaw"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 				entity: "mowziesmobs:frostmaw"
@@ -600,7 +502,7 @@
 		}
 		{
 			x: -12.0d
-			y: -3.5d
+			y: -2.5d
 			id: "3BC8BB1CF003348D"
 			tasks: [{
 				id: "1A1AA67AE3ED751B"
@@ -623,8 +525,10 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: -3.5d
+			x: -13.0d
+			y: -13.5d
+			dependencies: ["24D5BBF6F80F7FEF"]
+			hide: true
 			id: "62881EB169DD82F1"
 			tasks: [{
 				id: "3A8FDA2FAE975286"
@@ -635,14 +539,1353 @@
 			}]
 			rewards: [
 				{
-					id: "7421A11184C22CF4"
-					type: "ftbmoney:money"
-					ftb_money: 1500L
-				}
-				{
 					id: "65C4F350CC8C4E7C"
 					type: "loot"
 					table_id: 28899073401794277L
+				}
+				{
+					id: "78FFA4A7949D2102"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -13.5d
+			dependencies: ["27C969A6188678C4"]
+			hide: true
+			id: "3334EBE136241636"
+			tasks: [{
+				id: "5A07448866137B90"
+				type: "kill"
+				icon: {
+					id: "iceandfire:witherbone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "iceandfire:cockatrice"
+				value: 10L
+			}]
+			rewards: [{
+				id: "7B3E9D3B55BCFC38"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.5d
+			subtitle: "They sure can sing!"
+			dependencies: ["05AA4CC2B1EB00F4"]
+			hide: true
+			id: "152654C5017201D1"
+			tasks: [{
+				id: "4636262AE6065D97"
+				type: "kill"
+				icon: {
+					id: "iceandfire:siren_tear"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "iceandfire:siren"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "5462F2A5F5131A26"
+					type: "item"
+					item: {
+						id: "iceandfire:earplugs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3A024D323C7C57A7"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -14.5d
+			dependencies: ["24D5BBF6F80F7FEF"]
+			hide: true
+			id: "45A7730D20751594"
+			tasks: [{
+				id: "4187A537D9D76C12"
+				type: "kill"
+				icon: {
+					id: "iceandfire:dread_knight_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "iceandfire:dread_knight"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "44871B0DD731548B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "15AC85E181BD6FFC"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -8.5d
+			dependencies: ["05AA4CC2B1EB00F4"]
+			hide: true
+			id: "14FF4CA2CC1CE394"
+			tasks: [{
+				id: "0C1A5E02BE1C3E38"
+				type: "kill"
+				icon: {
+					id: "ars_nouveau:wilden_wing"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "ars_nouveau:wilden_stalker"
+				value: 20L
+			}]
+			rewards: [{
+				id: "1B3EDE26D55EF01D"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -13.0d
+			dependencies: ["674E735688EB4EBD"]
+			hide: true
+			id: "27C969A6188678C4"
+			tasks: [{
+				id: "55123FA11B825189"
+				type: "kill"
+				icon: {
+					id: "ars_nouveau:wilden_horn"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "ars_nouveau:wilden_hunter"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "6FB85812250A15C4"
+					type: "item"
+					item: {
+						id: "minecraft:bone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "5D73FEB447A365E6"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -9.5d
+			dependencies: ["625C78D680EECB0E"]
+			hide: true
+			id: "07238929E22A58FB"
+			tasks: [{
+				id: "1D712C308F709227"
+				type: "kill"
+				icon: {
+					id: "quark:forgotten_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "quark:forgotten"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4F419EE0EE616F3B"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Potion: "apotheosis:haste"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "447123DEE456D3E6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -14.5d
+			dependencies: ["27C969A6188678C4"]
+			hide: true
+			id: "18D1B299C32A1CAA"
+			tasks: [{
+				id: "6F389C5092B68BC6"
+				type: "kill"
+				icon: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:skeleton_druid"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "37F843EE2440BB4A"
+					type: "item"
+					item: {
+						id: "twilightforest:charm_of_keeping_2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "513E8AF8C71AAF8B"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -9.5d
+			subtitle: "Hello bigger Me!"
+			dependencies: ["152654C5017201D1"]
+			hide: true
+			id: "752CAFFC934128D7"
+			tasks: [{
+				id: "16148A75C0755C2B"
+				type: "kill"
+				icon: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:giant_miner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "23EBAFAC5F6586AA"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_cobblestone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "6873B0E07F73ACAA"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -8.5d
+			subtitle: "Cozy fur!"
+			dependencies: ["152654C5017201D1"]
+			hide: true
+			id: "4EF3B05655EFCE14"
+			tasks: [{
+				id: "2BF9F5AF594F0D09"
+				type: "kill"
+				icon: {
+					id: "twilightforest:arctic_fur"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:yeti"
+				value: 15L
+			}]
+			rewards: [
+				{
+					id: "6B4CE24CE11BD822"
+					type: "item"
+					item: {
+						id: "minecraft:campfire"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3F7014A85A1D30A6"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Certification of Bounty Hunting"
+			x: -10.5d
+			y: -11.5d
+			subtitle: "Show it to me!"
+			description: ["If you wanna go do Bounty Hunting then you gonna have to prove it to me!"]
+			id: "674E735688EB4EBD"
+			tasks: [
+				{
+					id: "68DB25C171C60E61"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 10L
+				}
+				{
+					id: "27DAA43C092E6C6E"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "1AA73E865CBD2E10"
+					type: "item"
+					item: {
+						id: "minecraft:paper"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Certification of Bounty Hunting\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7D669E1ACB842034"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -10.5d
+			dependencies: ["1B99D29E21C4AADE"]
+			hide: true
+			id: "11D2062DC76C1DF8"
+			tasks: [{
+				id: "718055003C9B1286"
+				type: "kill"
+				icon: {
+					id: "xreliquary:slime_pearl"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:slime"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "35F9116E38CD4D69"
+					type: "item"
+					item: {
+						id: "tconstruct:earth_slime_bucket"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4D499657FCBB4597"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -8.5d
+			dependencies: ["625C78D680EECB0E"]
+			hide: true
+			id: "746B0281DCA70866"
+			tasks: [{
+				id: "2B3F8330A7FE2471"
+				type: "kill"
+				icon: {
+					id: "tconstruct:ender_slime_ball"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "silentgems:ender_slime"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "7D9D32F5F24B4D9C"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_leaping"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "727B4F8A6FF99944"
+					type: "ftbmoney:money"
+					ftb_money: 450L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -13.0d
+			dependencies: ["674E735688EB4EBD"]
+			hide: true
+			id: "24D5BBF6F80F7FEF"
+			tasks: [{
+				id: "434E25DFBBE32C56"
+				type: "kill"
+				entity: "alexsmobs:endergrade"
+				value: 5L
+			}]
+			rewards: [{
+				id: "5A343A7F697D96A8"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -12.5d
+			y: -11.5d
+			subtitle: "Not warm enough!"
+			dependencies: ["674E735688EB4EBD"]
+			hide: true
+			id: "1B99D29E21C4AADE"
+			tasks: [{
+				id: "09639D1ADC6FD690"
+				type: "kill"
+				icon: {
+					id: "minecraft:magma_cream"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "magma_monsters:magma_monster"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "19759ECE230C19B5"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0ADF898C0712700B"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -10.0d
+			dependencies: ["674E735688EB4EBD"]
+			hide: true
+			id: "625C78D680EECB0E"
+			tasks: [{
+				id: "4E624F5ABA9D0846"
+				type: "kill"
+				icon: "ob_aquamirae:anglers_fang"
+				entity: "ob_aquamirae:anglerfish"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "7208614A5A9D48F3"
+					type: "item"
+					item: {
+						id: "thermal:diving_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "40D067D43F6235AD"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -11.5d
+			hide_dependency_lines: false
+			dependencies: ["674E735688EB4EBD"]
+			hide: true
+			id: "3D21183F0E0058C9"
+			tasks: [{
+				id: "31DC0D1703E96567"
+				type: "kill"
+				icon: "ob_aquamirae:fin"
+				entity: "ob_aquamirae:maw"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "07E6574F2714DEA5"
+					type: "item"
+					item: {
+						id: "minecraft:cod"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "4DC018E5458723BC"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -10.0d
+			subtitle: "See you in Hell!"
+			dependencies: ["674E735688EB4EBD"]
+			hide: true
+			id: "05AA4CC2B1EB00F4"
+			tasks: [{
+				id: "6ACB6942B30889B9"
+				type: "kill"
+				icon: {
+					id: "minecraft:blaze_powder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "mana-and-artifice:demon_imp"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "00BED2DD6E7E9841"
+					type: "item"
+					item: {
+						id: "minecraft:quartz"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "5AC111C405C30482"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -12.5d
+			dependencies: ["1B99D29E21C4AADE"]
+			hide: true
+			id: "074CE932DB164A4C"
+			tasks: [{
+				id: "715B168C5997CB04"
+				type: "kill"
+				icon: {
+					id: "hexblades:drowned_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:drowned"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "3CDCD87CF8FAF4C0"
+					type: "item"
+					item: {
+						id: "thermal:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3E5C19F995D566FA"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -10.5d
+			dependencies: ["3D21183F0E0058C9"]
+			hide: true
+			id: "1720F84A84CA3A1D"
+			tasks: [{
+				id: "4EA8740EEA130B5E"
+				type: "kill"
+				icon: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:pillager"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "56CFA634AD306A15"
+					type: "item"
+					item: {
+						id: "minecraft:spectral_arrow"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "692DBB9116394B21"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -13.5d
+			subtitle: "Chicken + Warrior = Chicken Warrior"
+			dependencies: ["62881EB169DD82F1"]
+			hide: true
+			id: "704B94A7EE84021E"
+			tasks: [{
+				id: "44CCBB8EF93F3829"
+				type: "kill"
+				icon: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "structuresadventures:chicken_warrior"
+				value: 15L
+			}]
+			rewards: [
+				{
+					id: "162B5DCE2204DDE8"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_chicken"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "0D8237BC1569AE60"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -14.5d
+			subtitle: "Chicken + Wizard = Chicken Wizard"
+			dependencies: ["3334EBE136241636"]
+			hide: true
+			id: "1C4E08D179F085D3"
+			tasks: [{
+				id: "59D133951A0FD793"
+				type: "kill"
+				icon: {
+					id: "hexblades:dye_warlock_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "structuresadventures:chicken_wizard"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "56D5F79389F21A53"
+					type: "item"
+					item: {
+						id: "farmersdelight:roast_chicken"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "03FE88157A2749E5"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -13.5d
+			dependencies: ["3334EBE136241636"]
+			hide: true
+			id: "400BFFF3D2F22AC6"
+			tasks: [{
+				id: "11FAEEAC0C4FEFD3"
+				type: "kill"
+				icon: {
+					id: "resourcefulbees:bee_nest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "resourcefulbees:dungeon_bee"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "5A3430ADC0727A67"
+					type: "item"
+					item: {
+						id: "resourcefulbees:catnip_honey_bottle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "3E97F84509E17C53"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -14.5d
+			dependencies: ["62881EB169DD82F1"]
+			hide: true
+			id: "70A581D382D5A74A"
+			tasks: [{
+				id: "759EA9F32BB2379C"
+				type: "kill"
+				icon: {
+					id: "alexsmobs:cachalot_whale_tooth"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "alexsmobs:cachalot_whale"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "62979EDA881061D1"
+					type: "item"
+					item: {
+						id: "thermal:diving_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "244455C0B1D6AB41"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -16.0d
+			dependencies: ["18D1B299C32A1CAA"]
+			hide: true
+			id: "7E69E988CE57BC3F"
+			tasks: [{
+				id: "000DAB7B8A8C2452"
+				type: "kill"
+				entity: "alexsmobs:orca"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "48AA0CB4DE73FCE4"
+					type: "item"
+					item: {
+						id: "thermal:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1543C37D8B2EF65D"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -15.5d
+			subtitle: "Who you gonna call?"
+			dependencies: ["45A7730D20751594"]
+			hide: true
+			id: "59AEABFFF760D13B"
+			tasks: [{
+				id: "48DEAE0391138BCD"
+				type: "kill"
+				icon: {
+					id: "fairylights:ghost_light"
+					Count: 1b
+					tag: {
+						color: 16383998
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "iceandfire:ghost"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0A2D3A735B172E3C"
+				type: "loot"
+				table_id: 28899073401794277L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -15.5d
+			dependencies: ["18D1B299C32A1CAA"]
+			hide: true
+			id: "6E2F613AA87E0E86"
+			tasks: [{
+				id: "493A64E095AD9F24"
+				type: "kill"
+				icon: {
+					id: "tconstruct:husk_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:husk"
+				value: 15L
+			}]
+			rewards: [
+				{
+					id: "71375AC440BA7187"
+					type: "item"
+					item: {
+						id: "structuresadventures:rotten_flesh_sandwith"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "1AF1312C3A648115"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -16.0d
+			dependencies: ["45A7730D20751594"]
+			hide: true
+			id: "4E9E61863E3EBD13"
+			tasks: [{
+				id: "17B07BDCA09581E5"
+				type: "kill"
+				icon: {
+					id: "eidolon:zombie_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:zombie_horse"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "7F8F77D0321324F2"
+					type: "item"
+					item: {
+						id: "minecraft:golden_carrot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "42008F6D5D3F6408"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -9.5d
+			dependencies: ["07238929E22A58FB"]
+			hide: true
+			id: "6FC2B8534876AD8D"
+			tasks: [{
+				id: "6651DAA4BFE80885"
+				type: "kill"
+				icon: {
+					id: "thermal:blitz_rod"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "thermal:blitz"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "1EF2568FD3C12611"
+					type: "item"
+					item: {
+						id: "thermal:blitz_rod"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "41F0F8F4FE878729"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -7.0d
+			dependencies: ["14FF4CA2CC1CE394"]
+			hide: true
+			id: "0A3BEF298F4A0CE9"
+			tasks: [{
+				id: "28E13B0B65AA73E8"
+				type: "kill"
+				icon: {
+					id: "thermal:basalz_powder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "thermal:basalz"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "308E883F9A9BB758"
+					type: "item"
+					item: {
+						id: "thermal:basalz_rod"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "60F55F23A07ECB51"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -8.5d
+			subtitle: "Let's just hope that wasn't Hamodran"
+			dependencies: ["07238929E22A58FB"]
+			hide: true
+			id: "61D03F9F98663605"
+			tasks: [{
+				id: "72978ED7EF84D7A8"
+				type: "kill"
+				entity: "alexsmobs:elephant"
+				value: 1L
+			}]
+			rewards: [{
+				id: "19438DBCA20FADB0"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -7.5d
+			dependencies: ["746B0281DCA70866"]
+			hide: true
+			id: "61D1727D6A7F079E"
+			tasks: [{
+				id: "6B5B12DB1EFBF797"
+				type: "kill"
+				icon: {
+					id: "iceandfire:stymphalian_skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "iceandfire:stymphalian_bird"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "1C1A9C3D1EFABE4D"
+					type: "item"
+					item: {
+						id: "iceandfire:stymphalian_feather_bundle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "499F110240FB2A16"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -7.5d
+			dependencies: ["14FF4CA2CC1CE394"]
+			hide: true
+			id: "45AA175EB926E71B"
+			tasks: [{
+				id: "5BD5DCAD90D4B6DC"
+				type: "kill"
+				icon: {
+					id: "graveyard:skeleton_hand"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "savageandravage:skeleton_villager"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "06A81FBECA162945"
+					type: "item"
+					item: {
+						id: "minecraft:emerald"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "09391D71F9F46E9A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -12.5d
+			dependencies: ["3D21183F0E0058C9"]
+			hide: true
+			id: "116F385AA716D28C"
+			tasks: [{
+				id: "71AF4EE6DDC8224B"
+				type: "kill"
+				icon: {
+					id: "upgrade_aquatic:guardian_spine"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:guardian"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "24FCCFF1941E174D"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_salmon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+				{
+					id: "482A24B615A63067"
+					type: "ftbmoney:money"
+					ftb_money: 500L
 				}
 			]
 		}

@@ -2,7 +2,7 @@
   "name": "Lava Generator",
   "appearance": {
     "idle": {
-      "block": "pack:machine/lava_gen_model"
+      "block": "custommachinery:machines/lava_gen"
     },
     "running": {
       "lightlevel": 15

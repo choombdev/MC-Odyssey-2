@@ -96,42 +96,67 @@
 			x: -7.5d
 			y: 4.0d
 			subtitle: "Let's start making tools, shall we?"
-			description: ["Craft a Tinker's Construct Crafting Station, Tool Station and a Part Builder."]
+			description: [
+				"Craft a Tinker's Construct Crafting Station, Tool Station and a Part Builder.              "
+				" *Unlocks Tinkers' Construct Questline*"
+			]
 			dependencies: ["14168BB4FF230CBD"]
 			id: "289D664C1EAF075A"
 			tasks: [
 				{
-					id: "72296F36E15808E1"
+					id: "3620E10BBBC06234"
 					type: "item"
-					title: "Any #tconstruct:tables"
 					item: {
-						id: "itemfilters:tag"
+						id: "tconstruct:crafting_station"
 						Count: 1b
-						tag: {
-							value: "tconstruct:tables"
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 				{
-					id: "1C462D0089FAE3C9"
+					id: "22D6BB645E7CE23E"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "365F7A80468ABDE1"
 					type: "item"
 					item: {
 						id: "tconstruct:part_builder"
 						Count: 1b
-						tag: {
-							texture: "minecraft:oak_planks"
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 				{
-					id: "1475907C2030AE29"
+					id: "5A4539874D9434BB"
 					type: "item"
-					item: "tconstruct:part_chest"
-				}
-				{
-					id: "64E2F4F2C774207C"
-					type: "item"
-					item: "tconstruct:materials_and_you"
+					item: {
+						id: "tconstruct:part_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -139,107 +164,6 @@
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
-		}
-		{
-			title: "Tinker Smeltery"
-			x: -8.0d
-			y: 5.0d
-			description: ["To make metal tools you'll need a smeltery, so, make one!"]
-			dependencies: ["289D664C1EAF075A"]
-			id: "29972BDE24023AC5"
-			tasks: [
-				{
-					id: "2E2D987BA42F08B8"
-					type: "item"
-					item: "tconstruct:seared_bricks"
-					count: 16L
-				}
-				{
-					id: "2B072A348DFBB956"
-					type: "item"
-					item: "tconstruct:seared_fuel_tank"
-				}
-				{
-					id: "0232BE6A7E90FBA6"
-					type: "item"
-					item: "tconstruct:seared_drain"
-					count: 3L
-				}
-				{
-					id: "242EBA9A7D406361"
-					type: "item"
-					item: "tconstruct:seared_basin"
-				}
-				{
-					id: "19145E66053F2B28"
-					type: "item"
-					item: "tconstruct:seared_faucet"
-					count: 3L
-				}
-				{
-					id: "0B033C68D854F767"
-					type: "item"
-					item: "tconstruct:seared_table"
-					count: 2L
-				}
-				{
-					id: "2A4841A358627EF1"
-					type: "item"
-					item: "tconstruct:smeltery_controller"
-				}
-				{
-					id: "261AA7D4763D5282"
-					type: "item"
-					item: "tconstruct:puny_smelting"
-				}
-				{
-					id: "67CF57E2DE04DE31"
-					type: "item"
-					item: "tconstruct:fantastic_foundry"
-				}
-			]
-			rewards: [
-				{
-					id: "2E08D347FAAEFFD0"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "18B5F5F9F7950BDE"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -8.5d
-			y: 6.0d
-			description: ["Making Actual tools now!"]
-			dependencies: ["29972BDE24023AC5"]
-			id: "060256CA4AE8F941"
-			tasks: [{
-				id: "2E0FED6B2DEA3EBA"
-				type: "item"
-				item: {
-					id: "tconstruct:tinkers_anvil"
-					Count: 1b
-					tag: {
-						texture: "mekanism:block_steel"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1F6D38B015B3C02B"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "4C7BC81CB2CF7CFF"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
 		}
 		{
 			x: -5.0d
@@ -786,38 +710,6 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.5d
-			dependencies: ["745984480906EDA9"]
-			id: "58302DECD722BBF0"
-			tasks: [{
-				id: "501BA7A46B87AC82"
-				type: "item"
-				item: "rats:cheese_stick"
-			}]
-			rewards: [{
-				id: "0F4934E5AEA6C2B9"
-				type: "ftbmoney:money"
-				ftb_money: 200L
-			}]
-		}
-		{
-			x: 1.5d
-			y: 4.5d
-			dependencies: ["58302DECD722BBF0"]
-			id: "2FC8FDC98F02BB1B"
-			tasks: [{
-				id: "0064016BAA72114A"
-				type: "item"
-				item: "rats:rat_upgrade_basic"
-			}]
-			rewards: [{
-				id: "5E116EE123B66AB4"
-				type: "ftbmoney:money"
-				ftb_money: 250L
-			}]
-		}
-		{
 			x: -6.5d
 			y: 4.0d
 			dependencies: ["14168BB4FF230CBD"]
@@ -943,21 +835,6 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
-			id: "1C167BBB2C106D09"
-			tasks: [{
-				id: "2F1A67152A777D5B"
-				type: "item"
-				item: "cookingforblockheads:cow_jar"
-			}]
-			rewards: [{
-				id: "3B786F4CD4B51725"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
 			x: -6.5d
 			y: 0.0d
 			dependencies: ["14168BB4FF230CBD"]
@@ -971,39 +848,6 @@
 				id: "366B743BC9E79671"
 				type: "ftbmoney:money"
 				ftb_money: 12L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 3.0d
-			dependencies: ["1C167BBB2C106D09"]
-			id: "745984480906EDA9"
-			tasks: [{
-				id: "030B53C012D8C02C"
-				type: "item"
-				item: "rats:cheese"
-				count: 32L
-			}]
-			rewards: [{
-				id: "1F881102EFF6EF33"
-				type: "ftbmoney:money"
-				ftb_money: 250L
-			}]
-		}
-		{
-			x: 1.0d
-			y: 2.0d
-			dependencies: ["745984480906EDA9"]
-			id: "5B136BA45276EB0B"
-			tasks: [{
-				id: "643D2D697D40498C"
-				type: "item"
-				item: "rats:auto_curdler"
-			}]
-			rewards: [{
-				id: "46122E334F5478EC"
-				type: "ftbmoney:money"
-				ftb_money: 750L
 			}]
 		}
 		{

@@ -4,5 +4,15 @@ console.info('- - - Loading Tooltips - - -')
 onEvent('item.tooltip', tooltip => {
   tooltip.add(['kubejs:ancientarrow'], 'Attempting to stab yourself with your arrow returns strange effects')
   tooltip.add(['kubejs:choombium_ore'], 'This ore spawns in the End only in very rare quantities.')
+  tooltip.add(['pamhc2foodextended:swedishmeatballsitem'], "Cooked by Odyssey's very own RealCordex")
+  tooltip.add(['pamhc2foodextended:coffeeconlecheitem'], "Cooked by Odyssey's very own Alyx")
+  tooltip.add(['create:controller_rail'], "You can build rather KILLER trains with this bad boy.")
+  tooltip.add(['rats:rat_and_sickle_banner_pattern'], "Pedro's favourite item")
+  tooltip.add(['mekanism:ultimate_universal_cable'], "RealCordex's internet cable")
+  tooltip.add(['kubejs:lightningdragonsummon'], "Summons a random tiered lightning dragon!")
+  tooltip.add(['kubejs:icedragonsummon'], "Summons a random tiered ice dragon!")
+  tooltip.add(['kubejs:firedragonsummon'], "Summons a random tiered fire dragon!")
+
+
 })
 console.info('- - - Finished Loading Tooltips - - -')

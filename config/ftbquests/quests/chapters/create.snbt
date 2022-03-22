@@ -30,8 +30,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -9.5d
+			x: 9.0d
+			y: -8.5d
 			subtitle: "Craft like your gears depend on it!"
 			description: ["The mechanical crafter can be used to automate any crafting recipie, however it is also used in crafting several bigger components such as the ever useful crushing wheels!"]
 			dependencies: [
@@ -58,8 +58,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: -11.0d
+			x: 7.5d
+			y: -8.5d
 			subtitle: "Millstone 2.0"
 			description: ["The Crushing Wheels, when placed in the right way they are capable of crushing many items (and even damaging mobs), this is also the main component in ore processing, crushing ore into crushed ore for washing."]
 			dependencies: ["7D3C1ECE485B9988"]
@@ -84,8 +84,8 @@
 			]
 		}
 		{
-			x: 16.0d
-			y: -11.0d
+			x: 19.0d
+			y: -10.5d
 			subtitle: "Straight From Factorio"
 			description: [
 				"Using the mechanical arm you can move items around without the use of belts. By shift clicking certain items such as funnels and depots, you can set them as inputs or outputs, and when placed it will attempt to move items accordingly."
@@ -315,8 +315,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: -9.5d
+			x: 15.5d
+			y: -8.5d
 			subtitle: "No it is NOT a litter picker"
 			description: ["When held in the offhand slot, this item increases your reach, neat!"]
 			dependencies: ["7D3C1ECE485B9988"]
@@ -650,8 +650,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -6.0d
+			x: 13.5d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "The Brass Age!"
 			description: [
@@ -733,8 +733,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -7.5d
+			x: 13.5d
+			y: -7.0d
 			shape: "square"
 			subtitle: "Precision Incarnate"
 			description: ["Time to create some more advanced machines!"]
@@ -863,8 +863,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: -6.0d
+			x: 17.0d
+			y: -5.5d
 			subtitle: "Beep Boop"
 			description: ["Hold rough Rose Quartz in one hand and sandpaper in the other, and then right click to polish the Quartz. Combine the refined Quartz with some iron and redstone to get the very useful Electron tubes!"]
 			id: "6289C2E29492A5CB"
@@ -928,8 +928,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: -11.0d
+			x: 14.0d
+			y: -9.0d
 			subtitle: "Chugga Chugga...."
 			description: ["When you attach the furnace engine to an active furnace, the residual energy is captured and turned into rotational power to be extracted from a nearby flywheel. If used correctly this can be a massive source of power producing 16-32k Stress!"]
 			dependencies: ["7D3C1ECE485B9988"]
@@ -965,8 +965,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: -9.5d
+			x: 17.0d
+			y: -9.0d
 			subtitle: "Poke"
 			description: ["The deployer can act as a player by using tools, right clicking, and placing blocks. When given a filter it will only accept matching items, which can be useful if you were to attach it to a moving contraption....."]
 			dependencies: [
@@ -993,8 +993,8 @@
 			]
 		}
 		{
-			x: 16.0d
-			y: -9.5d
+			x: 19.0d
+			y: -9.0d
 			subtitle: "Clockmaking"
 			description: ["Using a sequence of deployers, depots, and the right items, one can assemble precision mechanisms! a useful component in precise machines!"]
 			dependencies: ["12426BAD042B4CA5"]
@@ -1136,8 +1136,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -3.5d
+			x: 3.0d
+			y: -5.0d
 			subtitle: "Bottle filler"
 			description: ["The spout will automatically fill any item below it with its held fluid. Can also be used to coat items in fluids such as honey glazing an apple!"]
 			dependencies: ["4D3889942D7D65D5"]
@@ -1172,8 +1172,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -11.0d
+			x: 3.0d
+			y: -10.0d
 			subtitle: "Its a Piece of Cake to Bake a Lava Cake!"
 			description: ["This step of the create journey will combine a large number of your previous machines to complete, but is required to super heat that blaze burner of yours!"]
 			dependencies: [
@@ -1193,7 +1193,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 2.5d
 			y: -12.5d
 			subtitle: "Colours of joy!"
 			description: ["The most complex item to craft, requiring a large production chain to reach. This compound and its forms have few uses at the moment, but we may see more added soon!"]
@@ -1222,7 +1222,7 @@
 			]
 		}
 		{
-			x: 8.5d
+			x: 3.5d
 			y: -13.5d
 			subtitle: "ILLUMIATE!"
 			description: [
@@ -1250,7 +1250,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 1.5d
 			y: -13.5d
 			subtitle: "Cast it into the void!"
 			description: ["Shadow steel seems to resonate with the void...."]
@@ -1275,7 +1275,7 @@
 			]
 		}
 		{
-			x: 8.5d
+			x: 3.5d
 			y: -15.0d
 			subtitle: "SymetryrtemyS"
 			description: ["This wand can help when building something Symetrical!"]
@@ -1327,8 +1327,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -7.5d
+			x: 16.5d
+			y: -7.0d
 			subtitle: "Sequencing and Remixing"
 			description: ["This complicated box can execute a pre-recorded sequence of events when given a redstone signal, extremely useful for the movement components in create!"]
 			dependencies: [
@@ -1761,6 +1761,297 @@
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
+		}
+		{
+			x: 5.5d
+			y: -11.0d
+			description: ["Tesla Coils are used to charge items or electrocute your friends (Which we don't support!)"]
+			dependencies: [
+				"0CA8469A9CA65DE2"
+				"7D3C1ECE485B9988"
+			]
+			id: "29F2CD1AC7FE9F1C"
+			tasks: [{
+				id: "40745078034A3B23"
+				type: "item"
+				item: {
+					id: "createaddition:tesla_coil"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "67275FEDD15C5F80"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			title: "The World of Electricity!"
+			x: 9.0d
+			y: -12.5d
+			description: ["To be able to create RF using Create, you'll need to get into the Crafts and Additions addon!"]
+			id: "0CA8469A9CA65DE2"
+			tasks: [{
+				id: "080BACB4F662DF2A"
+				type: "item"
+				item: {
+					id: "createaddition:capacitor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "79CA0F6CAC3846CD"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -11.5d
+			description: ["You can overcharge an alloy using a Tesla Coil!"]
+			dependencies: [
+				"29F2CD1AC7FE9F1C"
+				"1798434D0BC097B1"
+			]
+			id: "597E66960D7B49DB"
+			tasks: [{
+				id: "552EC9369276DED5"
+				type: "item"
+				item: {
+					id: "createaddition:overcharged_alloy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "736B8CA9528CA1B4"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "7662D27024E224EB"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -13.0d
+			subtitle: "The Power of Thor!"
+			dependencies: ["597E66960D7B49DB"]
+			id: "75347D7E15272ECD"
+			tasks: [{
+				id: "4B2F993F71B906F4"
+				type: "item"
+				item: {
+					id: "createaddition:overcharged_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7299C24AC98B9CCA"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "4F97492DB1F97C89"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -10.5d
+			description: ["Heating your furnace with electricity!"]
+			dependencies: [
+				"0CA8469A9CA65DE2"
+				"7D3C1ECE485B9988"
+			]
+			id: "6CE5BB97F44D77EC"
+			tasks: [{
+				id: "0FBA0ACBC5D6FFE1"
+				type: "item"
+				item: {
+					id: "createaddition:heater"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C1931FEEE70AADE"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -10.5d
+			description: ["Generating Electricity using RPM!"]
+			dependencies: [
+				"0CA8469A9CA65DE2"
+				"7D3C1ECE485B9988"
+			]
+			id: "45BE1F2B77490FC6"
+			tasks: [{
+				id: "61F5E43B72E3F185"
+				type: "item"
+				item: {
+					id: "createaddition:alternator"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D9651E4025E01CB"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "69F2CC186D926822"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -11.0d
+			description: ["Generating RPM from Electricity!"]
+			dependencies: [
+				"0CA8469A9CA65DE2"
+				"7D3C1ECE485B9988"
+			]
+			id: "55C7FAD1EA060AFE"
+			tasks: [{
+				id: "11F445345D12A09B"
+				type: "item"
+				item: {
+					id: "createaddition:electric_motor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "769F303AA6C86E7C"
+					type: "ftbmoney:money"
+					ftb_money: 650L
+				}
+				{
+					id: "0ED0CF6AC5343A7E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -13.5d
+			description: ["Battery.. Technically."]
+			dependencies: [
+				"0CA8469A9CA65DE2"
+				"082AA86C7DE71CB4"
+			]
+			id: "02DAF49265FA4009"
+			tasks: [{
+				id: "6103312A9AEDC790"
+				type: "item"
+				item: {
+					id: "createaddition:accumulator"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C212639F2C8E01E"
+					type: "ftbmoney:money"
+					ftb_money: 650L
+				}
+				{
+					id: "502088E321EAA040"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -11.5d
+			description: ["Creating Wires!"]
+			dependencies: [
+				"0CA8469A9CA65DE2"
+				"7D3C1ECE485B9988"
+			]
+			id: "082AA86C7DE71CB4"
+			tasks: [{
+				id: "05A522E7EB355A3B"
+				type: "item"
+				item: {
+					id: "createaddition:rolling_mill"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23AD9C8FAC853EA0"
+					type: "ftbmoney:money"
+					ftb_money: 650L
+				}
+				{
+					id: "1FE22398BD698A1B"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
 		}
 	]
 }

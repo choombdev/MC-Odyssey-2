@@ -1,6 +1,4 @@
-
-    // This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading sand/sluices - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
 onEvent("recipes", (event) => {
 const sluice = event.recipes.ftbsluice.sluice;
@@ -80,4 +78,3 @@ const sluice = event.recipes.ftbsluice.sluice;
 
 
 
-console.info('- - - Finished Loading sand/sluices - - -')

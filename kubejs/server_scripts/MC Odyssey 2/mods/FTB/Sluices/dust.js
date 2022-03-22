@@ -1,6 +1,4 @@
-
-    // This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-    console.info('- - - Loading dust/sluices - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
     onEvent("recipes", (event) => {
     const sluice = event.recipes.ftbsluice.sluice;
@@ -31,11 +29,11 @@
             ['minecraft:bone_meal', 0.7],
             ['forbidden_arcanus:arcane_crystal',0.41],
             ['emendatusenigmatica:arcane_gem',0.35],
-            ["mysticalagriculture:prosperity_shard", 0.62]
+            ["mysticalagriculture:prosperity_shard", 0.62],
+            ['mana-and-artifice:vinteum_dust', 0.4]
     
         ]);
     });
     
     
     
-    console.info('- - - Finished Loading dust/sluices - - -')

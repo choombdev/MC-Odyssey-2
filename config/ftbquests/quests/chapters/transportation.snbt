@@ -485,5 +485,28 @@
 				ftb_money: 300L
 			}]
 		}
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "69A6E556483E904B"
+			tasks: [{
+				id: "0144469FFCEE93E3"
+				type: "item"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "588E34DC743B2677"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
 	]
 }
