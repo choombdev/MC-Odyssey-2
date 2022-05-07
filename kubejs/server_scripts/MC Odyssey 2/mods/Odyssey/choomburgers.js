@@ -12,7 +12,7 @@ onEvent('recipes', event =>{
     'SSS'
   ], {
     S: 'pamhc2foodcore:toastitem',
-    A: 'rats:cheese',
+    A: 'pamhc2foodcore:cheeseitem',
     B: 'farmersdelight:beef_patty'
   })
 

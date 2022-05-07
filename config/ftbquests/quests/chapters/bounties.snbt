@@ -15,155 +15,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -9.0d
-			y: 0.5d
-			dependencies: ["72082BA487C1B154"]
-			id: "0BDA1D67AD5CD3E2"
-			tasks: [{
-				id: "2FD66ABA6564F6F8"
-				type: "kill"
-				icon: "mutantmore:mutant_hoglin_tusk"
-				entity: "mutantmore:mutant_hoglin"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "341206FF260067F5"
-					type: "ftbmoney:money"
-					ftb_money: 2500L
-				}
-				{
-					id: "798098D7A42AC79F"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -9.0d
-			y: -1.0d
-			dependencies: ["72082BA487C1B154"]
-			id: "4CD5928E219533C0"
-			tasks: [{
-				id: "45A9BFFA910161B1"
-				type: "kill"
-				icon: "tconstruct:husk_head"
-				entity: "mutantmore:mutant_husk"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "6E4FCAA020BD1217"
-					type: "ftbmoney:money"
-					ftb_money: 2500L
-				}
-				{
-					id: "1822862A35213825"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -12.0d
-			y: -1.0d
-			dependencies: ["72082BA487C1B154"]
-			id: "0AB9454B5716ED53"
-			tasks: [{
-				id: "5F824D65F4F11B42"
-				type: "kill"
-				icon: "mutantmore:mutant_shulker_box"
-				entity: "mutantmore:mutant_shulker"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "57579F7CF36569BB"
-					type: "ftbmoney:money"
-					ftb_money: 2500L
-				}
-				{
-					id: "531E7DEE58FBBC10"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -12.0d
-			y: 0.5d
-			dependencies: ["72082BA487C1B154"]
-			id: "5560C86BCC116BCF"
-			tasks: [{
-				id: "310F816057B0F256"
-				type: "kill"
-				icon: {
-					id: "mutantmore:mutant_wither_skeleton_skull"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				entity: "mutantmore:mutant_wither_skeleton"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "77DB9D6775473CAF"
-					type: "ftbmoney:money"
-					ftb_money: 2500L
-				}
-				{
-					id: "7614B53C4D96D038"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -10.5d
-			y: -2.0d
-			dependencies: ["72082BA487C1B154"]
-			id: "1399766F1113F17E"
-			tasks: [{
-				id: "0D009EFFDFE67041"
-				type: "kill"
-				icon: {
-					id: "mutantmore:mutant_blaze_core"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "mutantmore:mutant_blaze"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "3D6387B194186573"
-					type: "ftbmoney:money"
-					ftb_money: 2500L
-				}
-				{
-					id: "63A9604A904460CF"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -10.5d
-			y: -0.5d
-			id: "72082BA487C1B154"
-			tasks: [{
-				id: "62C066C8A2D38066"
-				type: "checkmark"
-				title: "Mutants"
-			}]
-		}
-		{
 			x: -7.0d
 			y: -1.0d
 			id: "3DB73462DFE2FF20"
@@ -187,8 +38,8 @@
 			]
 		}
 		{
-			x: -14.0d
-			y: 0.5d
+			x: -12.0d
+			y: -1.0d
 			id: "0638FC3FAB0B6B11"
 			tasks: [{
 				id: "7DD2A3D7FC06DAE4"
@@ -247,8 +98,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: 0.5d
+			x: -10.5d
+			y: -0.5d
 			id: "0566CB2C64A7077C"
 			tasks: [{
 				id: "6044A06DA5BF6FD5"
@@ -445,8 +296,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 2.0d
+			x: -9.0d
+			y: -1.0d
 			id: "2A56B2F774EE408B"
 			tasks: [{
 				id: "609D015A92F99F9F"
@@ -469,21 +320,13 @@
 			]
 		}
 		{
-			x: -13.5d
-			y: 2.0d
+			x: -10.5d
+			y: -2.0d
 			id: "0CB3804099099063"
 			tasks: [{
 				id: "2BAA6ABF9B3A760F"
 				type: "kill"
-				icon: {
-					id: "theabyss:frost_crystal"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				icon: "outer_end:cobalt_crystal_bud"
 				entity: "mowziesmobs:frostmaw"
 				value: 1L
 			}]
@@ -964,7 +807,7 @@
 		{
 			x: -14.5d
 			y: -10.5d
-			dependencies: ["1B99D29E21C4AADE"]
+			dependencies: ["3C0145F8F3DD5666"]
 			hide: true
 			id: "11D2062DC76C1DF8"
 			tasks: [{
@@ -1004,51 +847,6 @@
 			]
 		}
 		{
-			x: -12.0d
-			y: -8.5d
-			dependencies: ["625C78D680EECB0E"]
-			hide: true
-			id: "746B0281DCA70866"
-			tasks: [{
-				id: "2B3F8330A7FE2471"
-				type: "kill"
-				icon: {
-					id: "tconstruct:ender_slime_ball"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "silentgems:ender_slime"
-				value: 5L
-			}]
-			rewards: [
-				{
-					id: "7D9D32F5F24B4D9C"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_leaping"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "727B4F8A6FF99944"
-					type: "ftbmoney:money"
-					ftb_money: 450L
-				}
-			]
-		}
-		{
 			x: -11.5d
 			y: -13.0d
 			dependencies: ["674E735688EB4EBD"]
@@ -1065,52 +863,6 @@
 				type: "ftbmoney:money"
 				ftb_money: 750L
 			}]
-		}
-		{
-			x: -12.5d
-			y: -11.5d
-			subtitle: "Not warm enough!"
-			dependencies: ["674E735688EB4EBD"]
-			hide: true
-			id: "1B99D29E21C4AADE"
-			tasks: [{
-				id: "09639D1ADC6FD690"
-				type: "kill"
-				icon: {
-					id: "minecraft:magma_cream"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "magma_monsters:magma_monster"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "19759ECE230C19B5"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_fire_resistance"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0ADF898C0712700B"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-			]
 		}
 		{
 			x: -11.5d
@@ -1232,7 +984,7 @@
 		{
 			x: -14.5d
 			y: -12.5d
-			dependencies: ["1B99D29E21C4AADE"]
+			dependencies: ["3C0145F8F3DD5666"]
 			hide: true
 			id: "074CE932DB164A4C"
 			tasks: [{
@@ -1763,7 +1515,7 @@
 		{
 			x: -13.0d
 			y: -7.5d
-			dependencies: ["746B0281DCA70866"]
+			dependencies: ["6371EFC0C4A0A947"]
 			hide: true
 			id: "61D1727D6A7F079E"
 			tasks: [{
@@ -1888,6 +1640,125 @@
 					ftb_money: 500L
 				}
 			]
+		}
+		{
+			x: -11.5d
+			y: -7.0d
+			dependencies: ["6371EFC0C4A0A947"]
+			hide: true
+			id: "201254114AD1FD20"
+			tasks: [{
+				id: "1A6B237F32BC003D"
+				type: "kill"
+				icon: {
+					id: "mowziesmobs:barakoa_mask_fear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "mowziesmobs:barakoaya"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "2DCE6513BA5A2CD5"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "mowziesmobs:long_poison_resist"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "089DA945853484B5"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -8.5d
+			dependencies: ["625C78D680EECB0E"]
+			hide: true
+			id: "6371EFC0C4A0A947"
+			tasks: [{
+				id: "784875589E4BB223"
+				type: "kill"
+				icon: {
+					id: "alexsmobs:maggot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "alexsmobs:fly"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "20232150EA6D80B2"
+					type: "item"
+					item: {
+						id: "alexsmobs:banana"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "77DDD82ECF097773"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -11.5d
+			dependencies: ["674E735688EB4EBD"]
+			hide: true
+			id: "3C0145F8F3DD5666"
+			tasks: [{
+				id: "22C880C3C9F8008A"
+				type: "kill"
+				icon: {
+					id: "aquaculture:jellyfish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "aquaculture:jellyfish"
+				value: 5L
+			}]
+			rewards: [{
+				id: "708E6C027C65E211"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
 		}
 	]
 }

@@ -188,22 +188,6 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 0.5d
-			dependencies: ["14168BB4FF230CBD"]
-			id: "77DE382CC78DA0A9"
-			tasks: [{
-				id: "06F9CDC00688D1F6"
-				type: "item"
-				item: "toolbelt:belt"
-			}]
-			rewards: [{
-				id: "70B1448C2FEFF884"
-				type: "ftbmoney:money"
-				ftb_money: 250L
-			}]
-		}
-		{
 			x: -4.5d
 			y: 3.0d
 			dependencies: ["14168BB4FF230CBD"]
@@ -631,17 +615,6 @@
 			id: "258750A5132B5FA8"
 			tasks: [
 				{
-					id: "5A819252365B5C1D"
-					type: "item"
-					item: {
-						id: "mining_helmet:mining_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "124C823BDAFB53CB"
 					type: "item"
 					item: {
@@ -852,10 +825,10 @@
 		}
 		{
 			title: "The Shop!"
-			x: -7.5d
-			y: 8.5d
+			x: -8.5d
+			y: 6.0d
 			description: [
-				"Once you've got enough money, head over to the shop on the top right corner and buy stuff!"
+				"Once you've got enough money, head over to the shop on the top right corner and buy coins!"
 				"Also, if you happen to lose your money, do /pay @p 1 and you'll get it back!"
 			]
 			id: "067503F948A4F5DE"
@@ -922,6 +895,199 @@
 				id: "2AE7BA253373CA08"
 				type: "ftbmoney:money"
 				ftb_money: 250L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 6.0d
+			subtitle: "Better than Crypto!"
+			description: ["Once you've got enough money on you (Or want to enter the market yourself as a seller) you can go on and start making some sweet moolah through this place (Or buy items if you're lazy but, the prices are going to be WAAY higher)"]
+			id: "16D890637A64E7A9"
+			tasks: [{
+				id: "3CA7BA60AD2F6EEB"
+				type: "item"
+				item: "calemiutils:market"
+			}]
+			rewards: [{
+				id: "4A903D26BA190E5A"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.0d
+			subtitle: "Cha-ching!"
+			description: ["Now, make yourself a wallet to store all those casheronies and you're ready to go!"]
+			id: "77F40E94C3344285"
+			tasks: [{
+				id: "0F6C56F8CBD7F623"
+				type: "item"
+				item: {
+					id: "calemiutils:wallet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.0d
+			id: "2FE32173AC42E118"
+			tasks: [{
+				id: "13DE0DEBF807BCD5"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [
+				{
+					id: "621D280A4DBBE99A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "24DE84F1A2623488"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "0B3F3FA515D5126C"
+			tasks: [{
+				id: "400B780A64036F0B"
+				type: "item"
+				item: "omni_card:blank_card"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7202B24B224B2468"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			title: "Craft them all Cores!"
+			x: -4.0d
+			y: -1.0d
+			dependencies: ["0B3F3FA515D5126C"]
+			id: "522AEE6AEE735961"
+			tasks: [
+				{
+					id: "300C6D9FD3FB1E84"
+					type: "item"
+					item: "omni_card:field_core"
+					count: 8L
+				}
+				{
+					id: "7B97A6207772DA22"
+					type: "item"
+					item: "omni_card:purification_core"
+					count: 8L
+				}
+				{
+					id: "68FCCA88E9E82E63"
+					type: "item"
+					item: "omni_card:seal_core"
+					count: 8L
+				}
+				{
+					id: "7FEF3D986B79E25C"
+					type: "item"
+					item: "omni_card:sunny_core"
+					count: 8L
+				}
+				{
+					id: "4F2C8486E84E2B18"
+					type: "item"
+					item: "omni_card:rainy_core"
+					count: 8L
+				}
+				{
+					id: "704BC2A444C64D64"
+					type: "item"
+					item: "omni_card:thunderstorm_core"
+					count: 8L
+				}
+				{
+					id: "61CADBFCAFF364BE"
+					type: "item"
+					item: "omni_card:bloom_core"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "64E4F8A347FE228E"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "407855770BC18667"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "The power to control the weather!"
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["0B3F3FA515D5126C"]
+			id: "0D9911C927F08A52"
+			tasks: [
+				{
+					id: "5975328C9B5AEE7E"
+					type: "item"
+					item: "omni_card:sunny_card"
+					count: 4L
+				}
+				{
+					id: "0BDD78FD963DDBA4"
+					type: "item"
+					item: "omni_card:rainy_card"
+					count: 2L
+				}
+				{
+					id: "736ACE6244E85DE6"
+					type: "item"
+					item: "omni_card:thunderstorm_card"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "3BDAA41C1BF8E721"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			title: "Peace and Quiet"
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["0B3F3FA515D5126C"]
+			id: "315FC5E882834E41"
+			tasks: [
+				{
+					id: "6977B12B852D8D62"
+					type: "item"
+					item: "omni_card:seal_card"
+					count: 4L
+				}
+				{
+					id: "2DAB41333A2DFC65"
+					type: "item"
+					item: "omni_card:bloom_card"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "02B3526EDA5E292E"
+				type: "ftbmoney:money"
+				ftb_money: 500L
 			}]
 		}
 	]

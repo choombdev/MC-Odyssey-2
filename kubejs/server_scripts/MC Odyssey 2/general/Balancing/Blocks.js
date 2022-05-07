@@ -4,11 +4,10 @@ onEvent('recipes', event => {
     // Mining Dimension
     event.remove({output: 'mining_dimension:teleporter'})   
     event.shaped('mining_dimension:teleporter', [
-      'XBX',
-      'BAB',
-      'XBX'
+      'XXX',
+      'XAX',
+      'XXX'
     ], {
-      B: 'mininggadgets:upgrade_empty',
       A: 'minecraft:nether_star',
       X: 'compressium:cobblestone_5'
 

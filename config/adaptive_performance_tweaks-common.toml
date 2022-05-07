@@ -66,7 +66,7 @@
 
 	[Gamerule."Entity Cramming"]
 		#Enable/Disable dynamic entity cramming adjustments.
-		entityCrammingEnabled = true
+		entityCrammingEnabled = false
 		#Defines the min. numbers of mob singularity on a single block.
 		#Range: 0 ~ 64
 		minEntityCramming = 5
@@ -83,7 +83,7 @@
 
 [Spawner]
 	#Enable/Disable spawner optimizations.
-	spawnerEnabled = true
+	spawnerEnabled = false
 	#Defines the max. number of entities per world for spawners.
 	#Range: 1 ~ 4096
 	spawnerMaxEntityPerWorld = 1000
@@ -102,7 +102,7 @@
 	denyList = [""]
 
 	[Spawn.Minecraft]
-		minecraftEnabled = true
+		minecraftEnabled = false
 		#e.g. mostly bats
 		#Range: 1 ~ 64
 		minecraftMaxPassiveMobsPerPlayer = 2
@@ -131,7 +131,7 @@
 
 	[Spawn.Limitations]
 		#Enable/Disable general spawn limitations for unknown mobs.
-		spawnLimitationEnabled = true
+		spawnLimitationEnabled = false
 		#Blocks every x spawn of unknown mobs to avoid an over population with the limited spawn area. Use 0 to disable this optimization.
 		#Range: 0 ~ 100
 		spawnLimitationLimiter = 10
@@ -158,7 +158,7 @@
 [Mod]
 
 	[Mod."Alex's Mobs"]
-		modAlexmobsEnabled = true
+		modAlexmobsEnabled = false
 		#Range: 1 ~ 64
 		modAlexmobsMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
@@ -225,7 +225,7 @@
 		modMekanismadditionsMaxHostileMobsPerWorld = 16
 
 	[Mod."Mowzie's Mobs"]
-		modMowziesMobsEnabled = true
+		modMowziesMobsEnabled = false
 		#Range: 1 ~ 64
 		modMowziesMobsMaxNeutralMobsPerPlayer = 2
 		#Range: 1 ~ 512

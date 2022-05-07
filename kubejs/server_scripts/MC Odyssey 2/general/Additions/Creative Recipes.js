@@ -15,12 +15,11 @@ onEvent('recipes', event => {
 // Creative in Normal Crafting Table
 onEvent('recipes', event => {
       event.shaped('pipez:infinity_upgrade', [
-        'YXY',
         'XAX',
-        'YXY'
+        'AAA',
+        'XAX'
         ], {
         
-        Y:'theabyss:unorithe_ingot',
         X:'pipez:ultimate_upgrade',
         A: 'xreliquary:witherless_rose'
       })
@@ -107,29 +106,6 @@ onEvent('recipes', event => {
     
   })
 
-  event.recipes.createMechanicalCrafting('rats:rat_upgrade_creative', [
-    'EDABADE',
-    'EDCXCDE',
-    'EDABADE'
-    ], {
-  
-    X: 'kubejs:ancientingot',
-    A: 'rats:rat_upgrade_beast_mount',
-    B: 'rats:rat_upgrade_angel',
-    C: 'rats:rat_upgrade_extreme_energy',
-    D: 'rats:rat_upgrade_god',
-    E: 'rats:cheese'
-    
-  })
-  event.recipes.createMechanicalCrafting('rats:creative_cheese', [
-    'AAAAA',
-    'AAXAA',
-    'AAAAA'
-    ], {
-  
-    X: 'rats:rat_upgrade_creative',
-    A: 'rats:cheese'
-  })
 
   event.recipes.createMechanicalCrafting('iceandfire:creative_dragon_meal', [
     'AAAAA',
@@ -451,10 +427,8 @@ onEvent('recipes', event => {
     A: 'kubejs:ancientingot',
     B: 'botania:elementium_block',
     X: Item.of('botania:terra_sword', '{Damage:0}'),
-    Y: 'mysticaladaptations:insanium_sword',
-    Z: Item.of('mysticalagriculture:hostile_soulium_dagger', '{Damage:0}'),
-    F: 'pneumaticcraft:advanced_air_compressor'
-  })
+    Y: Item.of('iceandfire:dragonbone_sword'),
+    Z: Item.of('mysticalagriculture:hostile_soulium_dagger', '{Damage:0}')  })
 
 
   event.recipes.createMechanicalCrafting('botania:creative_pool', [

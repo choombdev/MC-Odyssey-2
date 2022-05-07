@@ -52,6 +52,10 @@ event.remove({id: 'minecolonies:chainmailchestplate'})
 event.remove({id: 'minecolonies:chainmailleggings'})
 event.remove({id: 'minecolonies:chainmailboots'})
 
+// Useless Piston Recipe:
+event.remove({id: 'minecolonies:piston'})
+
+
 })
 
 

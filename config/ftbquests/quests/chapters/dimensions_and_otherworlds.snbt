@@ -32,29 +32,6 @@
 			]
 		}
 		{
-			title: "Visit the Abyss"
-			x: -3.0d
-			y: -0.5d
-			id: "11F50E56AC533340"
-			tasks: [{
-				id: "3F556BCCB9800197"
-				type: "dimension"
-				dimension: "theabyss:theabyssdim"
-			}]
-			rewards: [
-				{
-					id: "446CD067F0AC569E"
-					type: "ftbmoney:money"
-					ftb_money: 3000L
-				}
-				{
-					id: "3E1487A39F2570ED"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
 			title: "Visit the Mining Dimension"
 			x: -4.5d
 			y: -0.5d
@@ -493,29 +470,6 @@
 				}
 				{
 					id: "76EBD0722BE858ED"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -10.5d
-			y: -0.5d
-			id: "1792D45E98E84A86"
-			tasks: [{
-				id: "56DB8149DF96C639"
-				type: "dimension"
-				title: "Visit Ratlantis!"
-				dimension: "rats:ratlantis"
-			}]
-			rewards: [
-				{
-					id: "6AFBEB8A5A1BB49D"
-					type: "ftbmoney:money"
-					ftb_money: 3000L
-				}
-				{
-					id: "06751FC106CC5BD1"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}

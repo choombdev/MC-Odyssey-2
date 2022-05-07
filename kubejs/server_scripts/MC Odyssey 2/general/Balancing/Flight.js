@@ -42,7 +42,7 @@ event.shaped('angelring:itemring', [
         'IBI'
         ],{
          I: 'minecraft:netherite_ingot',
-         N: 'rats:dragon_wing',
+         N: 'mysticalagradditions:dragon_egg_chunk',
          B:'mysticalagradditions:dragon_scale',
          C: 'gobber2:dragon_star'  
         }) 

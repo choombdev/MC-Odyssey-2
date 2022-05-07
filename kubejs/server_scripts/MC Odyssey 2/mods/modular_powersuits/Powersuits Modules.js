@@ -42,7 +42,7 @@ event.shaped('powersuits:jetpack', [
     X:'numina:component_ion_thruster'
   })
 event.shaped('powersuits:jet_boots', [
-    'ABA',
+    'A A',
     'AYA',
     'X X'
   ], {
@@ -56,7 +56,7 @@ event.shaped('powersuits:climb_assist', [
         'BAB',
         'BSB'
       ], {
-        A: 'aquaculture:heavy_hook',
+        A: Item.of('immersiveengineering:skyhook'),
         S: 'mekanism:alloy_infused',
         B: 'numina:component_wiring'  
       })

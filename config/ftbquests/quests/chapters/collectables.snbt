@@ -1319,5 +1319,470 @@
 				}
 			]
 		}
+		{
+			title: "Redstone Flux and it's wonders!"
+			x: 10.5d
+			y: 5.5d
+			description: ["Now, once you've got your hand on enough Redstone, Gold and such, you can get your hand on some powerful armor that only works when powered!"]
+			id: "15ECFE818A809A88"
+			tasks: [{
+				id: "00718271CC075C9D"
+				type: "item"
+				item: "redstone_arsenal:flux_ingot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "3F2059742E0E545B"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			dependencies: ["15ECFE818A809A88"]
+			id: "070DE08B24BA0AE6"
+			tasks: [{
+				id: "00033E537F10AD66"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_sword"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "743ACCF75C3C2490"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "2F399B260A7893D0"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			dependencies: ["070DE08B24BA0AE6"]
+			id: "3CC579A595F209D4"
+			tasks: [{
+				id: "19CE003CABD785E2"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_trident"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "570C98BF314F976B"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "3B026A1098ACE9C8"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["070DE08B24BA0AE6"]
+			id: "0E9D4A86BDB33361"
+			tasks: [{
+				id: "4B4E6C7A55B7607C"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_wrench"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "46144FDBDFBF8FA3"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "32FF9A1641924866"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			dependencies: ["15ECFE818A809A88"]
+			id: "3682EDB15537427F"
+			tasks: [{
+				id: "6C69E783B65454BC"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_bow"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "160C470B7DAC9EDD"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "285F16C2DAF51629"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			dependencies: ["3682EDB15537427F"]
+			id: "78E7EC9684558F40"
+			tasks: [{
+				id: "71BB89A62368003B"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_crossbow"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "057DEA35E6C5F672"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "377BC7863D33F81C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			dependencies: ["15ECFE818A809A88"]
+			id: "2319BD1F66C0402E"
+			tasks: [{
+				id: "49401A351FDF274A"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_pickaxe"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "785059545738EAF1"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "27EE48CE6FAF70CE"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			dependencies: ["2319BD1F66C0402E"]
+			id: "5B3A19088DBF2FEA"
+			tasks: [{
+				id: "4644B7D0766A44EA"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_hammer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6B51D381F3FEAFC5"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "6FAFD68FC4B80325"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 5.5d
+			dependencies: ["15ECFE818A809A88"]
+			id: "16D355CEA7E6BB59"
+			tasks: [{
+				id: "32477D9564A11421"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_axe"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0042E55C183D229D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "48D0E3C8A461AA85"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 7.0d
+			dependencies: ["15ECFE818A809A88"]
+			id: "583C28D71207FD56"
+			tasks: [{
+				id: "7E671F35A9F4056F"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_fishing_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "763B2B10CDB70393"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "3571661FC4E403F4"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			dependencies: ["15ECFE818A809A88"]
+			id: "5277B8E11ACF1E7E"
+			tasks: [{
+				id: "749943F2721550F7"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_shovel"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "35E067E11470F5FC"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "34B02E20627202D4"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			dependencies: ["5277B8E11ACF1E7E"]
+			id: "101C25233A173328"
+			tasks: [{
+				id: "0EC6D99D99FB48B2"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_excavator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "508CED0FA76B66D8"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "5A4D89823563DECC"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 7.0d
+			dependencies: ["15ECFE818A809A88"]
+			id: "30E721C86D5F2208"
+			tasks: [{
+				id: "3F981F35B0EB1E4D"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_shield"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "12907DC2066FEF96"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "2ECD365FAB309727"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 8.0d
+			dependencies: ["15ECFE818A809A88"]
+			id: "651B665FF01A74A8"
+			tasks: [
+				{
+					id: "1B82E81F42831EE5"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_helmet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "20C807011FC05D97"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_chestplate"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "70E12CB52530B584"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_leggings"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "750B802E0F0394F7"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_boots"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6D39F709E474CF93"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "44B1C21EF2EC2A6C"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			dependencies: ["651B665FF01A74A8"]
+			id: "6EF4706C25D0D917"
+			tasks: [{
+				id: "381992A9FEFDB8D5"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_elytra"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "33864072B66FFAED"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "2029772AA2580DF2"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			dependencies: ["6EF4706C25D0D917"]
+			id: "3C9FEFCD5DEBDB32"
+			tasks: [{
+				id: "37C902875BB05DB8"
+				type: "item"
+				item: "redstone_arsenal:flux_controller"
+			}]
+			rewards: [
+				{
+					id: "1554B885D701842A"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "241F07BD48C4CE0C"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			subtitle: "The 2nd Ammendment Right."
+			description: ["Go on, shoot some people."]
+			id: "7DB7342508FE63EF"
+			tasks: [{
+				id: "157FBB5226B9C18C"
+				type: "item"
+				item: "cgm:workbench"
+			}]
+			rewards: [{
+				id: "37FF6092525C72A4"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
 	]
 }

@@ -38,7 +38,7 @@
 
 	[features.World]
 		#No comment
-		CertusQuartzWorldGen = true
+		CertusQuartzWorldGen = false
 		#No comment
 		MeteoriteWorldGen = true
 		#No comment

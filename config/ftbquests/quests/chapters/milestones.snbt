@@ -9,34 +9,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Power to the people!"
-			x: -2.0d
-			y: -0.5d
-			id: "31BB9F2392781208"
-			tasks: [{
-				id: "77BAE8616FCF6611"
-				type: "forge_energy"
-				value: 1000000000000L
-			}]
-			rewards: [
-				{
-					id: "26B2C7D8C09439F1"
-					type: "ftbmoney:money"
-					ftb_money: 1000000L
-				}
-				{
-					id: "75C99E8E2C0F5364"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-				{
-					id: "44FED27AD380EF61"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
 			x: -2.0d
 			y: -2.5d
 			subtitle: "Five days? Seriously?"
@@ -172,33 +144,9 @@
 			]
 		}
 		{
-			title: "A thousand buckets of meat."
-			x: 1.5d
-			y: -2.5d
-			id: "3691201C1C5EB613"
-			tasks: [{
-				id: "026A62100E27F6C7"
-				type: "fluid"
-				fluid: "industrialforegoing:meat_fluid"
-				amount: 1000000L
-			}]
-			rewards: [
-				{
-					id: "4F071F6F233FBE1A"
-					type: "ftbmoney:money"
-					ftb_money: 100000L
-				}
-				{
-					id: "3014D8463A4B6326"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
 			title: "Collect All Pets!"
 			x: 1.5d
-			y: -0.5d
+			y: -2.5d
 			description: ["\"Master Petter\" ~ TGS, Circa Odyssey 1"]
 			id: "35428CE92FD72EFE"
 			tasks: [
