@@ -1,7 +1,7 @@
 {
 	id: "4347EFAD97399857"
 	group: "4E139BB973FD0007"
-	order_index: 6
+	order_index: 5
 	filename: "minecoloinids"
 	title: "THISQUESTLINEWONTGOAWAY"
 	icon: "artifacts:villager_hat"
@@ -48,10 +48,6 @@
 			y: 5.0d
 			shape: "hexagon"
 			subtitle: "Gives you alot of information about your Colony"
-			dependencies: [
-				"4CD43D40C15C6225"
-				"1749F47DE500A87E"
-			]
 			dependency_requirement: "one_completed"
 			id: "23CDE34D526A4BA2"
 			tasks: [
@@ -83,7 +79,6 @@
 			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Can't build without a Builder"
-			dependencies: ["196EE4FD0E0FB054"]
 			id: "25AA4534E7A59664"
 			tasks: [
 				{
@@ -109,7 +104,6 @@
 			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Houses 4 Citizens at Level 1"
-			dependencies: ["6DB71317A14680AB"]
 			id: "68C281AD354660E5"
 			tasks: [
 				{
@@ -135,7 +129,6 @@
 			y: 8.5d
 			shape: "hexagon"
 			subtitle: "More Citizens More Houses"
-			dependencies: ["45DCEE4441134DDB"]
 			id: "4A3B18B3B467AB47"
 			tasks: [{
 				id: "1A0F07E167B6C233"
@@ -154,7 +147,6 @@
 			shape: "diamond"
 			subtitle: "Research Time"
 			description: ["Lets you Research different Skill trees, unlocks more buildings and other stuff"]
-			dependencies: ["6DB71317A14680AB"]
 			id: "60F531A43E437FFA"
 			tasks: [{
 				id: "5ADBCF166C9C39C6"
@@ -179,7 +171,6 @@
 			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Keeps track of resources for Builder"
-			dependencies: ["6DB71317A14680AB"]
 			id: "190C4EE6B541E831"
 			tasks: [{
 				id: "42524EDDC8F23FCE"
@@ -200,7 +191,6 @@
 			x: 7.5d
 			y: 5.0d
 			shape: "hexagon"
-			dependencies: ["196EE4FD0E0FB054"]
 			id: "23F324A0AE7CF21F"
 			tasks: [{
 				id: "7FC10C00327410E0"
@@ -219,7 +209,6 @@
 			shape: "hexagon"
 			subtitle: "Research Skill tree for your Citizens"
 			description: ["This Skill Tree focuses on helping your Citizens"]
-			dependencies: ["6B54C45BD0628DD4"]
 			id: "62183205D4565F34"
 			tasks: [{
 				id: "465D65FEF1174FAD"
@@ -233,7 +222,6 @@
 			shape: "hexagon"
 			subtitle: "Research Skill tree for your Guards"
 			description: ["Wanna build a bigger Town? Then you need some better protection for your Citizens"]
-			dependencies: ["3F0C32FC054B099D"]
 			id: "775B88C065DCCE15"
 			tasks: [{
 				id: "567A1E60608107FD"
@@ -247,7 +235,6 @@
 			shape: "hexagon"
 			subtitle: "Research Skill tree for Technology"
 			description: ["This Skill Tree focuses on unlocking most of the buildings and could make your town fully automated"]
-			dependencies: ["6B54C45BD0628DD4"]
 			id: "1FC92CDA17275C3A"
 			tasks: [{
 				id: "692A285ECCEC8BC0"
@@ -261,11 +248,6 @@
 			shape: "hexagon"
 			subtitle: "They got Choomburger?"
 			description: ["A place for Citizens to eat"]
-			dependencies: [
-				"65D8A359210FB824"
-				"457ED5CFF4BC723A"
-				"1A14C714D12CE23E"
-			]
 			dependency_requirement: "one_completed"
 			id: "2B36AD9E21D13E83"
 			tasks: [{
@@ -284,7 +266,6 @@
 			y: 10.5d
 			shape: "hexagon"
 			subtitle: "Big Brain"
-			dependencies: ["39E2F959F2CECE23"]
 			id: "109343854810B345"
 			tasks: [{
 				id: "25F45813F7582C7B"
@@ -302,7 +283,6 @@
 			y: 12.5d
 			shape: "hexagon"
 			subtitle: "R.I.P"
-			dependencies: ["39E2F959F2CECE23"]
 			id: "33950A6E8628AB75"
 			tasks: [{
 				id: "160F92CA13F0408B"
@@ -320,7 +300,6 @@
 			y: 10.5d
 			shape: "hexagon"
 			subtitle: "Big Brain Jr."
-			dependencies: ["39E2F959F2CECE23"]
 			id: "15EA470D3753C9CE"
 			tasks: [{
 				id: "6743E7D579EC7184"
@@ -338,7 +317,6 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "Better build some fields for your farm"
-			dependencies: ["45DCEE4441134DDB"]
 			id: "6749576AC55CE112"
 			tasks: [{
 				id: "23ECBF7AA3E8ADC2"
@@ -356,7 +334,6 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "Chop Chop down those Trees"
-			dependencies: ["45DCEE4441134DDB"]
 			id: "76FB9E2EDD5CA938"
 			tasks: [{
 				id: "69F13B0B455F85B2"
@@ -374,7 +351,6 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "The Mine without the craft"
-			dependencies: ["45DCEE4441134DDB"]
 			id: "571E00F92D4BC32F"
 			tasks: [
 				{
@@ -400,7 +376,6 @@
 			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Now we Fishin'"
-			dependencies: ["45DCEE4441134DDB"]
 			id: "68EA17C6A50071F7"
 			tasks: [{
 				id: "6711C9F0763BA63B"
@@ -419,7 +394,6 @@
 			shape: "hexagon"
 			subtitle: "Mr, Stark I don't feel so good"
 			description: ["A place for your sick Citizens"]
-			dependencies: ["39E2F959F2CECE23"]
 			id: "13A9D25D2C3CFF35"
 			tasks: [{
 				id: "54D1C94130C1C87C"
@@ -437,7 +411,6 @@
 			y: 12.5d
 			shape: "hexagon"
 			subtitle: "What's so Mystical about it?"
-			dependencies: ["39E2F959F2CECE23"]
 			id: "4DF547E674A6A36E"
 			tasks: [{
 				id: "396E8D22FA14609E"
@@ -455,7 +428,6 @@
 			y: 5.5d
 			shape: "hexagon"
 			subtitle: "Bread"
-			dependencies: ["65D8A359210FB824"]
 			dependency_requirement: "one_completed"
 			id: "77D5109F52A6796A"
 			tasks: [{
@@ -475,7 +447,6 @@
 			shape: "hexagon"
 			subtitle: "Steals stuff from other Citizens to store in their Warehouse"
 			description: ["And of course gives Citizens what they need"]
-			dependencies: ["0DF31032E016730F"]
 			id: "23B83B311C4229D9"
 			tasks: [{
 				id: "5AE6D5DB17E451AB"
@@ -493,7 +464,6 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "That's alot of storage"
-			dependencies: ["6DB71317A14680AB"]
 			dependency_requirement: "one_completed"
 			id: "56754B52A8B1E803"
 			tasks: [
@@ -520,7 +490,6 @@
 			y: 8.5d
 			shape: "hexagon"
 			subtitle: "HONEY"
-			dependencies: ["45DCEE4441134DDB"]
 			id: "2E1C16222F55AAFE"
 			tasks: [{
 				id: "4260A1C254E0D635"
@@ -537,7 +506,6 @@
 			x: -2.0d
 			y: 7.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
 			id: "68B34A3A870543D2"
 			tasks: [{
 				id: "735BE51E656C90C2"
@@ -554,7 +522,6 @@
 			x: -2.0d
 			y: 5.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
 			id: "291870D493C47D4E"
 			tasks: [{
 				id: "6022EBBC82AD7B7B"
@@ -571,7 +538,6 @@
 			x: -2.0d
 			y: 6.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
 			id: "0E6ECE1846C3E836"
 			tasks: [{
 				id: "1E7A0414D2F0F970"
@@ -588,7 +554,6 @@
 			x: -2.0d
 			y: 8.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
 			id: "318A1F882EB7D7BB"
 			tasks: [{
 				id: "65D9050A4E337699"
@@ -605,7 +570,6 @@
 			x: -2.0d
 			y: 9.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
 			id: "4090E7272235817F"
 			tasks: [{
 				id: "664E10FBDC0C73E3"
@@ -623,7 +587,6 @@
 			y: 12.5d
 			shape: "hexagon"
 			subtitle: "Better protect those Citizens"
-			dependencies: ["6B54C45BD0628DD4"]
 			id: "2C82F6A9ED4C65F2"
 			tasks: [
 				{
@@ -650,7 +613,6 @@
 			shape: "hexagon"
 			subtitle: "Holds 4 Barrack Towers"
 			description: ["Each Barrack Tower houses 5 Guards"]
-			dependencies: ["55DF8B70AFF426A8"]
 			id: "44F2ECC71AEB4864"
 			tasks: [{
 				id: "1FB39FFF48C5155A"
@@ -675,7 +637,6 @@
 			y: 16.0d
 			shape: "hexagon"
 			subtitle: "Train your Knights here"
-			dependencies: ["0DF4740F37E6EC66"]
 			id: "78A4E0B1CDC22A9E"
 			tasks: [{
 				id: "6F330FF9AE33FB10"
@@ -700,7 +661,6 @@
 			y: 16.0d
 			shape: "hexagon"
 			subtitle: "Train your Archers Here"
-			dependencies: ["0DF4740F37E6EC66"]
 			id: "420C926D38922B01"
 			tasks: [{
 				id: "7BAD52E973F9AB49"
@@ -723,7 +683,6 @@
 		{
 			x: 10.5d
 			y: 9.5d
-			dependencies: ["12101E7FD1B9E158"]
 			id: "3847112329A93507"
 			tasks: [{
 				id: "377F000E53D78DE7"
@@ -739,7 +698,6 @@
 		{
 			x: 11.5d
 			y: 9.5d
-			dependencies: ["3FB3C4AAD8AA81CC"]
 			id: "241EE47E36D0CCF7"
 			tasks: [{
 				id: "27B18C950A08317B"
@@ -755,7 +713,6 @@
 		{
 			x: 11.5d
 			y: 8.5d
-			dependencies: ["3FB3C4AAD8AA81CC"]
 			id: "350FB2FE7FFAC905"
 			tasks: [{
 				id: "53E60C10FCB12FAC"
@@ -771,7 +728,6 @@
 		{
 			x: 12.5d
 			y: 9.5d
-			dependencies: ["21F1813235C76189"]
 			id: "20AA7DE63C0EB84A"
 			tasks: [{
 				id: "65523D0F3AAF9333"
@@ -787,7 +743,6 @@
 		{
 			x: 2.5d
 			y: 8.5d
-			dependencies: ["45DCEE4441134DDB"]
 			id: "752D4889B545A9AA"
 			tasks: [{
 				id: "773EBBCD94D8480F"
@@ -804,7 +759,6 @@
 			x: 10.5d
 			y: 10.5d
 			description: ["Crafts Tools, Weapons and Armor"]
-			dependencies: ["12101E7FD1B9E158"]
 			id: "1A76738894E76F2B"
 			tasks: [{
 				id: "54529BC359A24770"
@@ -820,7 +774,6 @@
 		{
 			x: 12.5d
 			y: 10.5d
-			dependencies: ["222102916B278337"]
 			id: "56A5E3726499404D"
 			tasks: [{
 				id: "41C3271F6EB048E0"
@@ -836,7 +789,6 @@
 		{
 			x: 10.5d
 			y: 11.5d
-			dependencies: ["12101E7FD1B9E158"]
 			id: "6059C78DEB08C2CF"
 			tasks: [{
 				id: "091DA10D255C8555"
@@ -853,7 +805,6 @@
 			x: 11.5d
 			y: 11.5d
 			subtitle: "Crusher that crushes"
-			dependencies: ["1EA05E7F5A161584"]
 			id: "324CFE64F71622D6"
 			tasks: [{
 				id: "5DE4F3A6033B0AD4"
@@ -869,7 +820,6 @@
 		{
 			x: 12.5d
 			y: 11.5d
-			dependencies: ["10569E4A297B3986"]
 			id: "74CB019941D1E1A2"
 			tasks: [{
 				id: "49FEE104EB764984"
@@ -885,7 +835,6 @@
 		{
 			x: 10.5d
 			y: 12.5d
-			dependencies: ["12101E7FD1B9E158"]
 			id: "1334CF3064A478B4"
 			tasks: [{
 				id: "553063FE585B5E80"
@@ -903,7 +852,6 @@
 			y: 12.5d
 			subtitle: "Archer's Best Friend"
 			description: ["Crafts mostly arrows and leather armor, but also plain items"]
-			dependencies: ["2BA5D155BF3C6F2C"]
 			id: "51DBBDAFA2674F92"
 			tasks: [{
 				id: "4443E458EBA28091"
@@ -919,7 +867,6 @@
 		{
 			x: 11.5d
 			y: 13.0d
-			dependencies: ["2BA5D155BF3C6F2C"]
 			id: "314F94AE9F267370"
 			tasks: [{
 				id: "4F6ECB50C208C0A0"
@@ -936,7 +883,6 @@
 			x: 10.5d
 			y: 13.5d
 			subtitle: "Smeltery that smelts"
-			dependencies: ["12101E7FD1B9E158"]
 			id: "5238BF248AF7E8CE"
 			tasks: [{
 				id: "26E97120C97860B0"
@@ -953,7 +899,6 @@
 			x: 12.5d
 			y: 13.5d
 			subtitle: "Stone Smeltery that smelts stone"
-			dependencies: ["4DA29D9C364760EE"]
 			id: "44BC2011309A2B9B"
 			tasks: [{
 				id: "79E01B3AC55C5006"
@@ -969,7 +914,6 @@
 		{
 			x: 11.5d
 			y: 14.0d
-			dependencies: ["4DA29D9C364760EE"]
 			id: "3BF31CCA254797C7"
 			tasks: [{
 				id: "6F45D589DDECED7E"
@@ -986,7 +930,6 @@
 			x: 8.5d
 			y: 8.5d
 			subtitle: "Build your Town Hall"
-			dependencies: ["457EED0C3D468F3E"]
 			id: "34D2F9A54C52B20E"
 			tasks: [{
 				id: "5D9B7B2F033F1A60"
@@ -1011,7 +954,6 @@
 			x: 7.5d
 			y: 8.5d
 			subtitle: "Level up your Builder"
-			dependencies: ["6DB71317A14680AB"]
 			id: "2C55F1BE756BFBEB"
 			tasks: [{
 				id: "61655CFA2A33F2B5"
@@ -1029,7 +971,6 @@
 			x: 3.0d
 			y: 5.5d
 			subtitle: "1+1=3"
-			dependencies: ["45DCEE4441134DDB"]
 			id: "04583B6D0871C044"
 			tasks: [{
 				id: "70C91E851D51C7C2"
@@ -1048,7 +989,6 @@
 			y: 9.5d
 			subtitle: "Now it starts to look like a Settlement"
 			description: ["Reach 10 Citizens"]
-			dependencies: ["457ED5CFF4BC723A"]
 			id: "5E2714121D636C85"
 			tasks: [{
 				id: "1726D78A26AAB840"
@@ -1074,7 +1014,6 @@
 			y: 10.5d
 			subtitle: "Woah, your Colony is now a Hamlet"
 			description: ["Reach 25 Citizens"]
-			dependencies: ["2F509F12D2A06EF2"]
 			id: "14BAA970ED68A8E2"
 			tasks: [{
 				id: "58D643CC2EE4439A"
@@ -1100,7 +1039,6 @@
 			y: 11.5d
 			subtitle: "Now that's alot of Citizens"
 			description: ["Reach 50 Citizens"]
-			dependencies: ["19ED20018C49EFA5"]
 			id: "2A1BC9177461E51A"
 			tasks: [{
 				id: "7D7575217913D923"
@@ -1125,7 +1063,6 @@
 			x: 3.0d
 			y: 9.5d
 			subtitle: "Choomburger Top Quality"
-			dependencies: ["45DCEE4441134DDB"]
 			id: "5D4884345A8D0201"
 			tasks: [{
 				id: "75A5D46D2C825D22"
@@ -1143,7 +1080,6 @@
 			x: 9.5d
 			y: 8.5d
 			subtitle: "Build Town Hall to Level 5"
-			dependencies: ["3B0D78340DB64C03"]
 			id: "0505562733F05681"
 			tasks: [{
 				id: "24ADEB56A1660119"
@@ -1168,7 +1104,6 @@
 			x: 7.5d
 			y: 13.0d
 			subtitle: "Have 8 Guards in your Colony"
-			dependencies: ["3F0C32FC054B099D"]
 			id: "51904C0BA66CD8E8"
 			tasks: [{
 				id: "036CB907A403C816"
@@ -1186,7 +1121,6 @@
 			x: 8.5d
 			y: 13.5d
 			subtitle: "Have 30 Guards in your Colony"
-			dependencies: ["4ECE9A49FF0218DB"]
 			id: "073EBAE008819C55"
 			tasks: [{
 				id: "53601D8E520B0DA8"
@@ -1211,7 +1145,6 @@
 			x: 3.0d
 			y: 13.5d
 			subtitle: "Know I get it"
-			dependencies: ["609897A0753A6F1B"]
 			id: "101F0CCF9A7E3B24"
 			tasks: [{
 				id: "304D9228DAC9398E"
@@ -1235,7 +1168,6 @@
 		{
 			x: 2.5d
 			y: 14.5d
-			dependencies: ["508F2700C0F9675C"]
 			id: "03B0283634C44C15"
 			tasks: [{
 				id: "3AC70F3635D43F48"
@@ -1260,7 +1192,6 @@
 			x: 4.0d
 			y: 13.5d
 			subtitle: "R.I.P 2.0"
-			dependencies: ["058F03388D335DC4"]
 			id: "766576F2282CA9C5"
 			tasks: [{
 				id: "1FA1439C047B9503"
@@ -1278,7 +1209,6 @@
 			x: 5.0d
 			y: 13.5d
 			subtitle: "Second Chance"
-			dependencies: ["058F03388D335DC4"]
 			id: "060F9D108D64AA57"
 			tasks: [{
 				id: "7544B2E675AFC597"
@@ -1304,7 +1234,6 @@
 			y: 5.5d
 			subtitle: "Welcome to the Underground"
 			description: ["Have a miner reach Bedrock"]
-			dependencies: ["1569DF6E21470CE8"]
 			id: "0D4CD4C81CCFBC4E"
 			tasks: [{
 				id: "6EE38ABE5159DC6F"
@@ -1322,7 +1251,6 @@
 			x: 5.5d
 			y: 8.5d
 			subtitle: "Learn a Builder how to craft a torch and the Builder will do the rest"
-			dependencies: ["6DB71317A14680AB"]
 			id: "2DEE486C44049D3B"
 			tasks: [{
 				id: "24442A649E96D2E6"

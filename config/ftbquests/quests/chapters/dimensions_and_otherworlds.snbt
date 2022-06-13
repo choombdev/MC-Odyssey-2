@@ -1,7 +1,7 @@
 {
 	id: "1CBFF16506CB415A"
 	group: "3A1BC4382F0B65EC"
-	order_index: 3
+	order_index: 5
 	filename: "dimensions_and_otherworlds"
 	title: "Dimensions and Otherworlds"
 	icon: "iceandfire:dread_portal"
@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "Visit the End"
-			x: -1.5d
+			x: -7.5d
 			y: -0.5d
 			id: "270FCD2C8FE8C9EA"
 			tasks: [{
@@ -79,7 +79,7 @@
 		}
 		{
 			title: "Visit the Nether"
-			x: -7.5d
+			x: -9.0d
 			y: -0.5d
 			id: "376230EBED25ED65"
 			tasks: [{
@@ -102,7 +102,7 @@
 		}
 		{
 			title: "Visit the Atum"
-			x: -9.0d
+			x: -1.5d
 			y: -0.5d
 			id: "058808A43B34BC7D"
 			tasks: [{
@@ -143,6 +143,7 @@
 			x: -6.0d
 			y: -3.5d
 			dependencies: ["3F3A4E6854FEFBFC"]
+			dependency_requirement: "all_started"
 			id: "105C5B8D64CCF4F8"
 			tasks: [{
 				id: "4941E8D166C79DB3"
@@ -399,8 +400,9 @@
 			]
 		}
 		{
-			x: -8.5d
-			y: -6.0d
+			x: -7.0d
+			y: -4.5d
+			subtitle: "So brutal!"
 			dependencies: ["105C5B8D64CCF4F8"]
 			id: "4B9E827C980B9289"
 			tasks: [{
@@ -424,8 +426,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
+			x: -7.5d
+			y: -2.0d
 			dependencies: ["270FCD2C8FE8C9EA"]
 			id: "556BC81E56C7747B"
 			tasks: [{
@@ -447,8 +449,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -2.5d
+			x: -7.5d
+			y: -3.0d
 			dependencies: ["556BC81E56C7747B"]
 			id: "64B399E3F769378A"
 			tasks: [{
@@ -470,6 +472,483 @@
 				}
 				{
 					id: "76EBD0722BE858ED"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit the Undergarden"
+			x: -3.0d
+			y: -0.5d
+			description: ["psst! make the cataclyst to build the portal!"]
+			id: "4E0E31D27593C492"
+			tasks: [{
+				id: "277D6E2C54059B76"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [
+				{
+					id: "40EE1726F94EE2DE"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "7A822B8720683903"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["105C5B8D64CCF4F8"]
+			id: "3E1695E40C0D8888"
+			tasks: [
+				{
+					id: "55BE55618122D005"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_3"
+				}
+				{
+					id: "628690E3BF06C0E1"
+					type: "item"
+					item: "twilightforest:charm_of_life_2"
+				}
+			]
+		}
+		{
+			title: "Cloggrum Armor"
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["4E0E31D27593C492"]
+			id: "19A271280B6B68C6"
+			tasks: [
+				{
+					id: "302C0A5DB5BA0576"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41DEF448C6D3161F"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79DD0E08F68F7761"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4846DB1AB1C4767F"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "35AAD68EF11A39B3"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "7EF88B611F58E800"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C74991D727A8A37"
+					type: "item"
+					item: "undergarden:gloomgourd_pie"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Froststeel Gear"
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["4E0E31D27593C492"]
+			id: "100AE74DC90A1238"
+			tasks: [
+				{
+					id: "260B2FE585000219"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3EC958A6F485DF78"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "261F6F0130863092"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BC8592356F6500B"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A55F39A0522A982"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6436347613C4A607"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "10A49D3CAA9DA2EE"
+					type: "item"
+					item: "undergarden:music_disc_mammoth"
+				}
+			]
+		}
+		{
+			title: "Utherium Armor"
+			x: -3.0d
+			y: -5.5d
+			subtitle: "Shiny red armor!"
+			dependencies: ["4E0E31D27593C492"]
+			id: "330442243B871C9C"
+			tasks: [
+				{
+					id: "0702F87749778FB1"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72847663807027F5"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A3F40D4EB2CFAEE"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39AF95993B8A0840"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "127A650C1EF3A02A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "61E3C0D748AE0C76"
+					type: "item"
+					item: "undergarden:utherium_ingot"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Trade with a Stoneborn"
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["4E0E31D27593C492"]
+			id: "3E37DBFA944307C7"
+			tasks: [{
+				id: "3920C7F60911E024"
+				type: "advancement"
+				advancement: "undergarden:undergarden/trade_with_stoneborn"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7E1BDD2022223447"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			icon: "undergarden:forgotten_block"
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["4E0E31D27593C492"]
+			id: "51AB89E43BD7AF03"
+			tasks: [{
+				id: "4E30E8F6B894C577"
+				type: "kill"
+				entity: "undergarden:forgotten_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4721C7F84EB9E205"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "2C55AE2FDB1EA8A6"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_battleaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 4s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			dependencies: ["274BF80D6AC76DBE"]
+			id: "35CB92A812664527"
+			tasks: [
+				{
+					id: "19D40483478937BC"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "325B720973E59AF1"
+					type: "item"
+					item: {
+						id: "twilightforest:lifedrain_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "319FE79460B31075"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			dependencies: ["274BF80D6AC76DBE"]
+			id: "512DBA92C4793D81"
+			tasks: [
+				{
+					id: "13F82AB6D6C0FD3E"
+					type: "item"
+					item: {
+						id: "twilightforest:zombie_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5EB8C2C425EC69C6"
+					type: "item"
+					item: {
+						id: "twilightforest:shield_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "657BDAF14C47A170"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			title: "Visit the Moon"
+			x: 0.0d
+			y: -0.5d
+			id: "0B44D60BD8F2B893"
+			tasks: [{
+				id: "5FE6B6F061ADC139"
+				type: "dimension"
+				dimension: "boss_tools:moon"
+			}]
+			rewards: [
+				{
+					id: "606F97BAEB2A16B9"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "05D2FC74A806C70B"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit Venus"
+			x: 4.5d
+			y: -0.5d
+			id: "59E134E40CA3E58D"
+			tasks: [{
+				id: "37F18088F8C16A61"
+				type: "dimension"
+				dimension: "boss_tools:venus"
+			}]
+			rewards: [
+				{
+					id: "27B21F5ACDC37597"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "615F4D9F63CC2FF2"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit Mercury"
+			x: 3.0d
+			y: -0.5d
+			id: "46A14EBB6C25C59B"
+			tasks: [{
+				id: "55B0411766339051"
+				type: "dimension"
+				dimension: "boss_tools:mercury"
+			}]
+			rewards: [
+				{
+					id: "36742C244115C744"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "183F8137676D4332"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Visit Mars"
+			x: 1.5d
+			y: -0.5d
+			id: "369CA242B4E0DE30"
+			tasks: [{
+				id: "3B6F5D87768D8650"
+				type: "dimension"
+				dimension: "boss_tools:mars"
+			}]
+			rewards: [
+				{
+					id: "6F88200A43586C55"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "07709297ACE9C10D"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}

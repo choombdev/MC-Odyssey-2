@@ -1,0 +1,20 @@
+{
+    "template": {
+        "type": "single",
+        "id": "pack:tree1"
+    },
+
+    "averageSpacing": 50,
+    "avoidOthers": true,
+    
+    "placement": {
+        "offset": -1,
+        "terraform": 1,
+        "minY": 60,
+        "type": "surface"
+    },
+
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}

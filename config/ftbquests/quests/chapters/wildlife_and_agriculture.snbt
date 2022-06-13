@@ -118,7 +118,7 @@
 		}
 		{
 			x: -4.0d
-			y: -8.5d
+			y: -7.5d
 			dependencies: ["6F69AD44AC33FB4A"]
 			id: "24E5F561D312D14B"
 			tasks: [{
@@ -141,7 +141,7 @@
 		}
 		{
 			x: -4.0d
-			y: -9.5d
+			y: -8.5d
 			dependencies: ["24E5F561D312D14B"]
 			id: "57ABB3638DFBDA82"
 			tasks: [{
@@ -164,7 +164,7 @@
 		}
 		{
 			x: -4.0d
-			y: -10.5d
+			y: -9.5d
 			dependencies: ["57ABB3638DFBDA82"]
 			id: "470CE8D1DBBF6BCB"
 			tasks: [{
@@ -187,7 +187,7 @@
 		}
 		{
 			x: -6.0d
-			y: -10.5d
+			y: -9.5d
 			dependencies: ["2F66A61AA636DDA0"]
 			id: "63E4AB461B679690"
 			tasks: [{
@@ -215,7 +215,7 @@
 		}
 		{
 			x: -6.0d
-			y: -9.5d
+			y: -8.5d
 			dependencies: ["484D7697C60C55C6"]
 			id: "7C4197C1DF8BBBEE"
 			tasks: [{
@@ -425,7 +425,7 @@
 		}
 		{
 			x: -5.0d
-			y: -9.5d
+			y: -8.5d
 			dependencies: ["57ABB3638DFBDA82"]
 			id: "484D7697C60C55C6"
 			tasks: [{
@@ -448,7 +448,7 @@
 		}
 		{
 			x: -5.0d
-			y: -10.5d
+			y: -9.5d
 			dependencies: ["470CE8D1DBBF6BCB"]
 			id: "2F66A61AA636DDA0"
 			tasks: [{
@@ -629,7 +629,7 @@
 		}
 		{
 			x: -3.0d
-			y: -9.5d
+			y: -8.5d
 			dependencies: ["57ABB3638DFBDA82"]
 			id: "34C8AD0C142F2DB5"
 			tasks: [{
@@ -653,7 +653,7 @@
 		}
 		{
 			x: -3.0d
-			y: -10.5d
+			y: -9.5d
 			dependencies: ["470CE8D1DBBF6BCB"]
 			id: "622386A123DBBE44"
 			tasks: [{
@@ -752,8 +752,9 @@
 		}
 		{
 			x: 2.5d
-			y: -7.0d
-			subtitle: "Put milk in a pot!"
+			y: -7.5d
+			subtitle: "Tasty cheese"
+			dependencies: ["6D2E5255CB234F65"]
 			id: "4EE935F45B2213C7"
 			tasks: [{
 				id: "784AD746D955483D"
@@ -767,8 +768,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -6.0d
+			x: 4.2d
+			y: -5.3999999999999995d
 			shape: "octagon"
 			subtitle: "Made by the God himself"
 			dependencies: ["617C054089AD4ACB"]
@@ -802,7 +803,7 @@
 		}
 		{
 			x: 4.0d
-			y: -6.5d
+			y: -7.0d
 			shape: "diamond"
 			subtitle: "What everyone craves"
 			dependencies: ["4EE935F45B2213C7"]
@@ -828,8 +829,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -7.0d
+			x: 5.5d
+			y: -7.5d
 			shape: "pentagon"
 			dependencies: ["7C11005E1C628DAF"]
 			id: "7E2C76329A46448D"
@@ -854,10 +855,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -8.0d
+			x: 2.5d
+			y: -5.5d
 			subtitle: "Poor Cow!"
-			dependencies: ["4EE935F45B2213C7"]
 			id: "6D2E5255CB234F65"
 			tasks: [{
 				id: "44DAE5156DF9171E"
@@ -879,8 +879,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -5.0d
+			x: 5.5d
+			y: -5.5d
 			shape: "hexagon"
 			dependencies: ["7E2C76329A46448D"]
 			id: "617C054089AD4ACB"
@@ -980,7 +980,7 @@
 		{
 			title: "Kitchen"
 			x: 2.5d
-			y: -3.5d
+			y: -4.0d
 			subtitle: "You'll use the sink for cooking, right?"
 			id: "5882AFB1EB7664F5"
 			tasks: [
@@ -1060,8 +1060,8 @@
 		}
 		{
 			title: "Kitchen Upgrade"
-			x: 2.0d
-			y: -4.5d
+			x: 3.5d
+			y: -3.5d
 			dependencies: ["5882AFB1EB7664F5"]
 			id: "6B914F2414EE5718"
 			tasks: [
@@ -1128,7 +1128,7 @@
 		{
 			title: "Cooking Time!"
 			x: 3.5d
-			y: -4.0d
+			y: -4.5d
 			dependencies: ["5882AFB1EB7664F5"]
 			id: "6A5AFAA023B70137"
 			tasks: [

@@ -1,7 +1,7 @@
 {
 	id: "494945ED448C1217"
 	group: "4E139BB973FD0007"
-	order_index: 6
+	order_index: 7
 	filename: "baubles__co"
 	title: "Baubles \\& Co"
 	icon: {
@@ -124,7 +124,7 @@
 				{
 					id: "054B8AE5D5891AB7"
 					type: "ftbmoney:money"
-					ftb_money: 250L
+					ftb_money: 500L
 				}
 				{
 					id: "42C93F7E087619DC"
@@ -194,7 +194,7 @@
 			rewards: [{
 				id: "0505FE6CAEA8A1FD"
 				type: "ftbmoney:money"
-				ftb_money: 500L
+				ftb_money: 750L
 			}]
 		}
 		{
@@ -219,7 +219,7 @@
 			rewards: [{
 				id: "0ADA613D4E7ED533"
 				type: "ftbmoney:money"
-				ftb_money: 500L
+				ftb_money: 750L
 			}]
 		}
 		{
@@ -346,17 +346,31 @@
 		{
 			x: -6.5d
 			y: -5.5d
+			subtitle: "<3"
 			id: "63CC2975AA39C41E"
 			tasks: [{
 				id: "1630AF9E22E0769F"
 				type: "item"
 				item: "cyclic:heart"
 			}]
-			rewards: [{
-				id: "18A5BE7506BFD1B6"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
+			rewards: [
+				{
+					id: "18A5BE7506BFD1B6"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "73A1FF30FBBFA39B"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_heart"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -422,6 +436,11 @@
 					type: "random"
 					table_id: 28899073401794277L
 				}
+				{
+					id: "52E80E1CDB59B46E"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
 			]
 		}
 		{
@@ -434,11 +453,24 @@
 				type: "item"
 				item: "artifacts:digging_claws"
 			}]
-			rewards: [{
-				id: "004E8DFE40810C17"
-				type: "ftbmoney:money"
-				ftb_money: 350L
-			}]
+			rewards: [
+				{
+					id: "004E8DFE40810C17"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "0E044277CC056154"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:strong_haste"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -512,11 +544,24 @@
 				type: "item"
 				item: "artifacts:running_shoes"
 			}]
-			rewards: [{
-				id: "03F66B45CCC07D16"
-				type: "ftbmoney:money"
-				ftb_money: 350L
-			}]
+			rewards: [
+				{
+					id: "03F66B45CCC07D16"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "4CBF120DDF070F74"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Animal Footwear"
@@ -570,6 +615,53 @@
 					table_id: 28899073401794277L
 				}
 			]
+		}
+		{
+			title: "Find an Artifact"
+			x: -4.0d
+			y: -8.5d
+			id: "20BCAC882900F2A0"
+			tasks: [{
+				id: "3BCE9177EB84E064"
+				type: "advancement"
+				advancement: "artifacts:amateur_archaeologist"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "67BA854EFD2CFBEE"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			id: "1AA83D8387B80287"
+			tasks: [{
+				id: "65FBD0D386FAB4D6"
+				type: "item"
+				item: "bountifulbaubles:balloon"
+			}]
+			rewards: [{
+				id: "042059270F02D675"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "6ED7F360D2A4FDA6"
+			tasks: [{
+				id: "5E876981CF5BFD26"
+				type: "item"
+				item: "bountifulbaubles:sunglasses"
+			}]
+			rewards: [{
+				id: "2E58C0D977150BDF"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
 		}
 	]
 }

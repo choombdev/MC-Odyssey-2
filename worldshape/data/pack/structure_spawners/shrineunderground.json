@@ -1,0 +1,20 @@
+{
+    "template": {
+        "type": "single",
+        "id": "pack:shrineunderground"
+    },
+
+    "averageSpacing": 100,
+    "avoidOthers": true,
+    
+    "placement": {
+        "offset": -1,
+        "terraform": 1,
+        "minY": 60,
+        "type": "cave"
+    },
+
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}

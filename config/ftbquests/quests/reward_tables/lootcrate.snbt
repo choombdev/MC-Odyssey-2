@@ -14,10 +14,21 @@
 		{ item: "darkutils:book_restore", count: 2, weight: 40 }
 		{ item: "pamhc2crops:kiwiitem", count: 16, weight: 90 }
 		{ item: "ironchest:wood_to_iron_chest_upgrade", weight: 70 }
+		{ item: "additional_lights:al_torch_glass", weight: 60 }
 		{ item: "compactmachines:personal_shrinking_device", weight: 60 }
 		{
 			item: {
 				id: "cfm:spatula"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{
+			item: {
+				id: "naturesaura:infused_iron_sword"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -65,10 +76,44 @@
 			}
 			weight: 65
 		}
+		{
+			item: {
+				id: "dungeons_mobs:chef_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 90
+		}
+		{
+			item: {
+				id: "dungeons_mobs:diamond_vindicator_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 76
+		}
+		{
+			item: {
+				id: "dungeons_mobs:royal_guard_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 55
+		}
 		{ item: "pamhc2trees:mangoitem", count: 16, weight: 80 }
 		{ item: "pamhc2trees:roastedcashewitem", count: 16, weight: 80 }
+		{ item: "mininggadgets:upgrade_empty", count: 10, weight: 70 }
 		{ item: "ironjetpacks:bronze_thruster", count: 4, weight: 65 }
 		{ item: "mysticalagriculture:tertium_essence", count: 16, weight: 65 }
+		{ item: "rats:crimson_liquid", weight: 70 }
+		{ item: "rats:cheese", count: 32, weight: 80 }
+		{ item: "rats:rat_upgrade_speed", count: 2, weight: 60 }
 		{ item: "iceandfire:sapphire_gem", count: 12, weight: 70 }
 		{ item: "thermal:rf_coil_augment", weight: 70 }
 		{ item: "thermal:wrench", weight: 75 }
@@ -88,6 +133,14 @@
 				tag: { }
 			}
 			weight: 32
+		}
+		{
+			item: {
+				id: "thermal:watering_can"
+				Count: 1b
+				tag: { }
+			}
+			weight: 40
 		}
 		{
 			item: {
@@ -225,6 +278,16 @@
 			weight: 65
 		}
 		{ item: "ob_aquamirae:luminescent_bubble_item", count: 6, weight: 60 }
+		{
+			item: {
+				id: "villagers_and_mosnetrs_legacy:swamp_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60
+		}
 		{ item: "mowziesmobs:glowing_jelly", count: 10, weight: 70 }
 		{ item: "twilightforest:steeleaf_ingot", count: 16, weight: 65 }
 		{
@@ -288,6 +351,8 @@
 			}
 			weight: 60
 		}
+		{ item: "fluidtank:tank_iron", weight: 30 }
+		{ item: "mutantmore:formula_y", weight: 30 }
 		{ item: "torchmaster:feral_flare_lantern", weight: 60 }
 		{ item: "torchmaster:megatorch", weight: 50 }
 		{ item: "pipez:item_pipe", count: 8, weight: 70 }

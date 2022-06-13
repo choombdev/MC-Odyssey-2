@@ -1,7 +1,7 @@
 {
 	id: "0149696DC05777C5"
 	group: "3A1BC4382F0B65EC"
-	order_index: 0
+	order_index: 1
 	filename: "bounties"
 	title: "Bounties"
 	icon: {
@@ -768,12 +768,14 @@
 				{
 					id: "68DB25C171C60E61"
 					type: "kill"
+					icon: "minecraft:rotten_flesh"
 					entity: "minecraft:zombie"
 					value: 10L
 				}
 				{
 					id: "27DAA43C092E6C6E"
 					type: "kill"
+					icon: "xreliquary:rib_bone"
 					entity: "minecraft:skeleton"
 					value: 10L
 				}
@@ -807,7 +809,7 @@
 		{
 			x: -14.5d
 			y: -10.5d
-			dependencies: ["3C0145F8F3DD5666"]
+			dependencies: ["5DD905A17C4A6784"]
 			hide: true
 			id: "11D2062DC76C1DF8"
 			tasks: [{
@@ -984,7 +986,7 @@
 		{
 			x: -14.5d
 			y: -12.5d
-			dependencies: ["3C0145F8F3DD5666"]
+			dependencies: ["5DD905A17C4A6784"]
 			hide: true
 			id: "074CE932DB164A4C"
 			tasks: [{
@@ -1067,143 +1069,6 @@
 				}
 				{
 					id: "692DBB9116394B21"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-			]
-		}
-		{
-			x: -14.5d
-			y: -13.5d
-			subtitle: "Chicken + Warrior = Chicken Warrior"
-			dependencies: ["62881EB169DD82F1"]
-			hide: true
-			id: "704B94A7EE84021E"
-			tasks: [{
-				id: "44CCBB8EF93F3829"
-				type: "kill"
-				icon: {
-					id: "minecraft:iron_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "structuresadventures:chicken_warrior"
-				value: 15L
-			}]
-			rewards: [
-				{
-					id: "162B5DCE2204DDE8"
-					type: "item"
-					item: {
-						id: "minecraft:cooked_chicken"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 8
-				}
-				{
-					id: "0D8237BC1569AE60"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-			]
-		}
-		{
-			x: -7.0d
-			y: -14.5d
-			subtitle: "Chicken + Wizard = Chicken Wizard"
-			dependencies: ["3334EBE136241636"]
-			hide: true
-			id: "1C4E08D179F085D3"
-			tasks: [{
-				id: "59D133951A0FD793"
-				type: "kill"
-				icon: {
-					id: "hexblades:dye_warlock_hat"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "structuresadventures:chicken_wizard"
-				value: 10L
-			}]
-			rewards: [
-				{
-					id: "56D5F79389F21A53"
-					type: "item"
-					item: {
-						id: "farmersdelight:roast_chicken"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 8
-				}
-				{
-					id: "03FE88157A2749E5"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: -13.5d
-			dependencies: ["3334EBE136241636"]
-			hide: true
-			id: "400BFFF3D2F22AC6"
-			tasks: [{
-				id: "11FAEEAC0C4FEFD3"
-				type: "kill"
-				icon: {
-					id: "resourcefulbees:bee_nest"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "resourcefulbees:dungeon_bee"
-				value: 5L
-			}]
-			rewards: [
-				{
-					id: "5A3430ADC0727A67"
-					type: "item"
-					item: {
-						id: "resourcefulbees:catnip_honey_bottle"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 8
-				}
-				{
-					id: "3E97F84509E17C53"
 					type: "ftbmoney:money"
 					ftb_money: 500L
 				}
@@ -1342,27 +1207,11 @@
 				entity: "minecraft:husk"
 				value: 15L
 			}]
-			rewards: [
-				{
-					id: "71375AC440BA7187"
-					type: "item"
-					item: {
-						id: "structuresadventures:rotten_flesh_sandwith"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 8
-				}
-				{
-					id: "1AF1312C3A648115"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-			]
+			rewards: [{
+				id: "1AF1312C3A648115"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
 		}
 		{
 			x: -11.5d
@@ -1607,37 +1456,26 @@
 			tasks: [{
 				id: "71AF4EE6DDC8224B"
 				type: "kill"
-				icon: {
-					id: "upgrade_aquatic:guardian_spine"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "minecraft:guardian"
-				value: 25L
+				icon: "upgrade_aquatic:guardian_spine"
+				entity: "boss_tools:pygro"
+				value: 10L
 			}]
 			rewards: [
-				{
-					id: "24FCCFF1941E174D"
-					type: "item"
-					item: {
-						id: "minecraft:cooked_salmon"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
-				}
 				{
 					id: "482A24B615A63067"
 					type: "ftbmoney:money"
 					ftb_money: 500L
+				}
+				{
+					id: "50619D235CF4A281"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
 				}
 			]
 		}
@@ -1734,31 +1572,338 @@
 			]
 		}
 		{
+			icon: { id: "undergarden:utheric_shard", Count: 2b }
 			x: -12.5d
 			y: -11.5d
+			hide_dependency_lines: false
 			dependencies: ["674E735688EB4EBD"]
 			hide: true
-			id: "3C0145F8F3DD5666"
+			id: "5DD905A17C4A6784"
 			tasks: [{
-				id: "22C880C3C9F8008A"
+				id: "6A21D417F866DE6E"
 				type: "kill"
-				icon: {
-					id: "aquaculture:jellyfish"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "aquaculture:jellyfish"
+				entity: "undergarden:rotbeast"
 				value: 5L
 			}]
 			rewards: [{
-				id: "708E6C027C65E211"
+				id: "21083F94FB77C4F4"
 				type: "ftbmoney:money"
 				ftb_money: 500L
 			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			id: "308F3700AFEC2C86"
+			tasks: [{
+				id: "28F736546DC3841A"
+				type: "kill"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "513C53B43B0A6794"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+				{
+					id: "53BE1258AB5A6B7F"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			id: "6EF5BC7299133CB8"
+			tasks: [{
+				id: "701C81902C31504E"
+				type: "kill"
+				icon: "cataclysm:monstrous_horn"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "39FA692629578487"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "21943B4220EBB7FA"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 0.0d
+			id: "7F635A9AB652B1F3"
+			tasks: [{
+				id: "06102C4E78A1BECC"
+				type: "kill"
+				icon: "cataclysm:void_core"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "22CBEEF2C32D2594"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "2AD16C4A6AFA96A3"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			icon: "cataclysm:gauntlet_of_guard"
+			x: -12.0d
+			y: 1.0d
+			id: "7868946C85285127"
+			tasks: [{
+				id: "45AEBE0D539C5466"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0C5455C1CD37C2D8"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "3686B5C47B42DD96"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -14.5d
+			dependencies: ["3334EBE136241636"]
+			hide: true
+			id: "09706A4856B6F9E9"
+			tasks: [{
+				id: "36DA9ED0FAE0B6BB"
+				type: "kill"
+				icon: {
+					id: "greekfantasy:unicorn_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "greekfantasy:unicorn"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "62116FE90BEA62E5"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "2DFA840142E4E85E"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_saddle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -13.5d
+			dependencies: ["3334EBE136241636"]
+			hide: true
+			id: "24537A865C991668"
+			tasks: [{
+				id: "2E9D982F5F52CFA9"
+				type: "kill"
+				icon: {
+					id: "botania:third_eye"
+					Count: 1b
+					tag: { }
+				}
+				entity: "greekfantasy:cyclopes"
+				value: 5L
+			}]
+			rewards: [{
+				id: "0573F952AB33BB85"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 1.0d
+			description: ["*Can be Summoned*"]
+			id: "7C66A05ADFC5F3C4"
+			tasks: [{
+				id: "4F11B98DA1D92E58"
+				type: "kill"
+				icon: {
+					id: "greekfantasy:horn_of_plenty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "greekfantasy:geryon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7B19475254B55EE1"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "690E48881D17914C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			description: ["*Can be Summoned*"]
+			id: "144548432CDC23FA"
+			tasks: [{
+				id: "1D10F64A1333AC10"
+				type: "kill"
+				icon: "greekfantasy:conch"
+				entity: "greekfantasy:charybdis"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "47DBAD76F81358D5"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "1534F7002744E448"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			description: ["*Can be Summoned*"]
+			id: "51484E4812AC6E1C"
+			tasks: [{
+				id: "19C866AA98866B01"
+				type: "kill"
+				icon: "greekfantasy:cerberus_head"
+				entity: "greekfantasy:cerberus"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4ED2B9E145BDC08E"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "22754C019BC47E9D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 2.0d
+			description: ["*Can be Summoned*"]
+			id: "7BFCDA8452ECE7F2"
+			tasks: [{
+				id: "0170E696F8EAE7A8"
+				type: "kill"
+				icon: "greekfantasy:fiery_gear"
+				entity: "greekfantasy:bronze_bull"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6F11558C187CF844"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "5A8C6450016E053E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			description: ["*Can be Summoned*"]
+			id: "3A63D52BFF0F2924"
+			tasks: [{
+				id: "74523AD720787684"
+				type: "kill"
+				icon: "greekfantasy:talos_heart"
+				entity: "greekfantasy:talos"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0847BE266FC6C1FC"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "759993CF757A859A"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -13.5d
+			dependencies: ["62881EB169DD82F1"]
+			hide: true
+			id: "34FC39CA120E5680"
+			tasks: [{
+				id: "0BFAFDD6A9629370"
+				type: "kill"
+				icon: "alexsmobs:emu_feather"
+				entity: "greekfantasy:harpy"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "4460D4D07DEC4FE9"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "45FFAB7516C753A5"
+					type: "item"
+					item: "farmersdelight:stuffed_pumpkin"
+					count: 4
+				}
+			]
 		}
 	]
 }

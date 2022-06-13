@@ -2509,5 +2509,113 @@
 				title: "Power Generation"
 			}]
 		}
+		{
+			x: -19.0d
+			y: 3.5d
+			description: ["Let's start getting multiblocks built for maximum efficiency!"]
+			id: "6FEA9715F1848377"
+			tasks: [{
+				id: "41B74EE7ED2D2AB7"
+				type: "item"
+				item: "mbd:energy"
+			}]
+			rewards: [{
+				id: "0E520E0F3E08D4A6"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -20.0d
+			y: 2.5d
+			dependencies: ["6FEA9715F1848377"]
+			id: "4F007710B443BD34"
+			tasks: [{
+				id: "5F8F900C5DF98CBB"
+				type: "item"
+				item: "mbd:fluxgen"
+			}]
+			rewards: [
+				{
+					id: "781791E67301E45C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "182CF6658B7EAA23"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 2.5d
+			dependencies: ["6FEA9715F1848377"]
+			id: "0DCC6CBB5B9FB069"
+			tasks: [{
+				id: "253B06C8B44EB80B"
+				type: "item"
+				item: "mbd:lavagen"
+			}]
+			rewards: [
+				{
+					id: "1169C5A1F69504BB"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "1BA2F988A9401674"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: 4.5d
+			dependencies: ["6FEA9715F1848377"]
+			id: "706A22EDAB0F2D2E"
+			tasks: [{
+				id: "4003F7A2FD612720"
+				type: "item"
+				item: "mbd:cookeria"
+			}]
+			rewards: [
+				{
+					id: "3B142F8B502DB4C5"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "62A3A49A883C4D0A"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 4.5d
+			dependencies: ["6FEA9715F1848377"]
+			id: "4FAB7B50EB3F0853"
+			tasks: [{
+				id: "79D0633D0368EE86"
+				type: "item"
+				item: "mbd:draconium"
+			}]
+			rewards: [
+				{
+					id: "77FCFA9A2B01AC27"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "463CBC9029CDE6C3"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
 	]
 }

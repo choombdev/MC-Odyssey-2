@@ -1,0 +1,250 @@
+{
+  "consumeCatalyst": false,
+  "location": "mbd:draconium",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:blocks/controllerbody",
+    "frontTexture": "multiblocked:blocks/controllerface",
+    "type": "gregtech"
+  },
+  "properties": {
+    "isOpaque": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "harvestLevel": 1,
+    "lightEmissive": 0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "hasCollision": true,
+    "tabGroup": "multiblocked.all",
+    "stackSize": 64
+  },
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "ACA",
+        "ACA",
+        "ACA",
+        "ACA",
+        "AAA"
+      ],
+      [
+        "DAE",
+        " FG",
+        " HG",
+        " FG",
+        " FG",
+        "AIE"
+      ],
+      [
+        " HG",
+        "  J",
+        "  J",
+        "  J",
+        " HJ",
+        "ACG"
+      ],
+      [
+        " HG",
+        "  J",
+        "  J",
+        "  J",
+        " HJ",
+        "ACG"
+      ],
+      [
+        "@AE",
+        " FG",
+        " HG",
+        " FG",
+        " FG",
+        "AIE"
+      ],
+      [
+        "AKA",
+        "AAA",
+        "ACA",
+        "ACA",
+        "ACA",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "minecraft:netherite_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "mbd:draconium",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "minecraft:barrel"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "botania:elementium_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "minecraft:chest"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "mekanism:teleporter"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "emendatusenigmatica:enderium_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "mekanism:teleporter_frame"
+          }
+        ],
+        "type": "blocks"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "emendatusenigmatica:cobalt_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "I": {
+        "blocks": [
+          {
+            "id": "minecraft:beacon"
+          }
+        ],
+        "type": "blocks"
+      },
+      "J": {
+        "blocks": [
+          {
+            "id": "twilightforest:carminite_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "K": {
+        "blocks": [
+          {
+            "id": "mbd:energy"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ]
+    }
+  },
+  "recipeMap": "draconium"
+}
