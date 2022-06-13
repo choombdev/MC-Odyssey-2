@@ -9,6 +9,10 @@
 	"SwED1 divide by" = 20
 	#Set the ratio of devotion -> elemental damage of the fire sword Tier 2.
 	"SwED2 divide by" = 15
+	#Set the base damage of the fire sword Tier 1
+	"Sword T1 base damage" = 6
+	#Set the base damage of the fire sword Tier 2
+	"Sword T2 base damage" = 7
 
 ["Weapon scaling - Katana"]
 	#Set the ratio of devotion -> attack power of the ice katana Tier 1.
@@ -21,6 +25,10 @@
 	"KAS2 divide by" = 80
 	#Set the ratio of devotion -> elemental damage of the ice katana Tier 1.
 	"KED divide by" = 20
+	#Set the base damage of the ice katana Tier 1
+	"Katana T1 base damage" = 5
+	#Set the base damage of the ice katana Tier 2
+	"Katana T2 base damage" = 5
 
 ["Weapon scaling - Saber"]
 	#Set the ratio of devotion -> attack power of the water saber Tier 1.
@@ -33,6 +41,10 @@
 	"SaSH2 divide by" = 15
 	#Set the ratio of devotion -> elemental damage of the water saber Tier 2.
 	"SaED2 divide by" = 15
+	#Set the base damage of the water saber Tier 1
+	"Saber T1 base damage" = 5
+	#Set the base damage of the water saber Tier 2
+	"Saber T2 base damage" = 6
 
 ["Weapon scaling - Dual"]
 	#Set the ratio of devotion -> attack power of the thunder duals Tier 1.
@@ -45,6 +57,10 @@
 	"DAS2 divide by" = 40
 	#Set the ratio of devotion -> recharge rate of the left thunder dual.
 	"DRR divide by" = 2
+	#Set the base damage of the left dagger
+	"Left dagger base damage" = 1
+	#Set the base damage of the right dagger
+	"Right dagger base damage" = 4
 
 ["Weapon scaling - Hammer"]
 	#Set the ratio of devotion -> attack power of the earth hammer Tier 1.
@@ -63,6 +79,10 @@
 	"HMS2 divide by" = 10
 	#Set the ratio of devotion -> knockback of the earth hammer Tier 2.
 	"HKB2 divide by" = 20
+	#Set the base damage of the earth hammer Tier 1
+	"Hammer T1 base damage" = 7
+	#Set the base damage of the earth hammer Tier 2
+	"Hammer T2 base damage" = 8
 
 ["MISC Configs"]
 	#Set the cooldown of the Urn of Endless Waters
@@ -73,6 +93,8 @@
 	"BSWS divide by" = 30
 	#Set the ratio of devotion -> wither damage of the Sapping sword upgrade
 	"BSED divide by" = 30
+	#Set the base damage of the upgraded Sapping Sword
+	"Blood Sword base damage" = 4
 
 #WorldGen Configs
 ["Fire Temple worldgen"]

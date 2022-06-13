@@ -1,8 +1,9 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Draconic/Balancing - - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
 onEvent('recipes', event => {
-
+// Seed Removal
+event.remove({id:'mysticalagriculture:seed/infusion/draconium'})
+event.remove({id:'mysticalagriculture:seed/infusion/awakened_draconium'})
 
 // Draconic Core
 event.remove({output:'draconicevolution:draconium_core'})
@@ -19,6 +20,4 @@ event.shaped('draconicevolution:draconium_core', [
     })
     
 })
-
-console.info('- - - Finished Loading Draconic/Balancing - - -')
 

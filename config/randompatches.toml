@@ -166,7 +166,7 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 120
-	keep_alive_timeout_seconds = 120
+	keep_alive_timeout_seconds = 1005
 
 # Options related to packet size limits.
 [packet_size_limits]

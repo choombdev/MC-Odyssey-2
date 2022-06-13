@@ -1,5 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Mystical Agriculture- - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
 onEvent('recipes', event => {
     // Draconium
@@ -20,6 +19,19 @@ event.remove({output:'draconicevolution:awakened_draconium_ingot'})
          S: 'minecraft:end_stone'
         }) 
         
+
+
+    // Deepslate
+
+    event.shaped('32x quark:deepslate', [
+        'AAA',
+        'B B',
+        'AAA'
+        ],{
+            A: 'mysticalagriculture:stone_essence',
+            B: 'mysticalagriculture:coal_essence'
+    })
+
     // Enderium
     
     event.shaped('4x emendatusenigmatica:enderium_ingot', [
@@ -214,5 +226,3 @@ event.remove({output:'draconicevolution:awakened_draconium_ingot'})
             A: 'mysticalagriculture:saltpeter_essence'
     })
 })
-
-console.info('- - - Finished Loading Mystical Agriculture - - -')

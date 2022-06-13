@@ -1,0 +1,597 @@
+{
+	id: "659C7A0539C480BA"
+	group: "3A1BC4382F0B65EC"
+	order_index: 0
+	filename: "space_travel"
+	title: "Space Travel"
+	icon: {
+		id: "boss_tools:rocket_t2"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["38C4A72C8E2FC04B"]
+			id: "1F327C7E3EA788BF"
+			tasks: [{
+				id: "1F6FBAB1EBEE782D"
+				type: "item"
+				item: "boss_tools:nasa_workbench"
+			}]
+			rewards: [
+				{
+					id: "255E60E19296DD7E"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "70CB395CE83DCDC6"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "TO THE MOON!!!"
+			description: ["Don't forget to craft the launch pad!"]
+			dependencies: ["1F327C7E3EA788BF"]
+			id: "140982B43CF1F143"
+			tasks: [{
+				id: "19C9A959989F82E1"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "102977A647BA9692"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Next Destination: Mars"
+			dependencies: ["140982B43CF1F143"]
+			hide: false
+			id: "3C16E4AFD39836AA"
+			tasks: [{
+				id: "41D2E323ABBACD35"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "435B22281CD463F1"
+				type: "ftbmoney:money"
+				ftb_money: 1250L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["3C16E4AFD39836AA"]
+			hide: false
+			id: "457D88785583D9E1"
+			tasks: [{
+				id: "76CE6F571703F071"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "441656FE427F80A5"
+					type: "ftbmoney:money"
+					ftb_money: 1750L
+				}
+				{
+					id: "7745CEBA653884D3"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: [
+				"59359EFB64992802"
+				"5ABF4E353C314E33"
+			]
+			dependency_requirement: "one_completed"
+			id: "041EC61DD1341307"
+			tasks: [{
+				id: "5C78BB336096BA02"
+				type: "item"
+				item: "boss_tools:solar_panel"
+			}]
+			rewards: [{
+				id: "0D01BC30AD757F06"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			id: "59359EFB64992802"
+			tasks: [{
+				id: "4E0ED476FF03AD1F"
+				type: "item"
+				item: "boss_tools:coal_generator"
+			}]
+			rewards: [
+				{
+					id: "1461C9CADAFA9BBB"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "029DE4DF96D48D5C"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["5ABF4E353C314E33"]
+			id: "38C4A72C8E2FC04B"
+			tasks: [{
+				id: "4F15AC1776C3F1C5"
+				type: "item"
+				item: "boss_tools:compressor"
+			}]
+			rewards: [
+				{
+					id: "293EF2BAB8212680"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "3DF25BAEA082F841"
+					type: "item"
+					item: "emendatusenigmatica:steel_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			id: "5ABF4E353C314E33"
+			tasks: [{
+				id: "599A58A551550408"
+				type: "item"
+				item: "boss_tools:blast_furnace"
+			}]
+			rewards: [{
+				id: "15FD176081990BB6"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["041EC61DD1341307"]
+			id: "7FFA08AA055C0A9C"
+			tasks: [{
+				id: "57D2E4205D5C86A6"
+				type: "item"
+				item: "boss_tools:fuel_refinery"
+			}]
+			rewards: [{
+				id: "1C4ABB1C15AE2669"
+				type: "ftbmoney:money"
+				ftb_money: 650L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			id: "308E1FE43BFD295C"
+			tasks: [{
+				id: "2196DFF969CD9E28"
+				type: "item"
+				item: "boss_tools:oxygen_loader"
+			}]
+			rewards: [{
+				id: "1CCAAD29F6A86219"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			shape: "circle"
+			id: "69E48DD87C4FEEF4"
+			tasks: [{
+				id: "3DC9ACFCFA35B0CA"
+				type: "item"
+				item: {
+					id: "boss_tools:oxygen_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2206838DE35BE5F9"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			shape: "circle"
+			id: "644B008C2367287E"
+			tasks: [{
+				id: "2F1B2F0D95DFE292"
+				type: "item"
+				item: {
+					id: "boss_tools:space_suit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2462FC76271B2665"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			shape: "circle"
+			id: "363E534980FAD172"
+			tasks: [{
+				id: "05D212495BFDF338"
+				type: "item"
+				item: {
+					id: "boss_tools:space_pants"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C837B05D2EBDBF0"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			shape: "circle"
+			id: "1559EE9109A02D7F"
+			tasks: [{
+				id: "148F88992D3AB177"
+				type: "item"
+				item: {
+					id: "boss_tools:space_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CEE4133F0607644"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			subtitle: "Mmmmm tasty cheese..."
+			description: ["*Can be found underground*"]
+			hide_dependency_lines: true
+			dependencies: ["140982B43CF1F143"]
+			hide: true
+			id: "59F7F95093FD1F3D"
+			tasks: [{
+				id: "3A986EE2830C24FB"
+				type: "item"
+				item: "boss_tools:moon_cheese_ore"
+				count: 32L
+			}]
+			rewards: [{
+				id: "01080F0BCE597B9F"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			subtitle: "Will be used for Tier 2 Rocket"
+			description: ["*Can be found underground*"]
+			hide_dependency_lines: true
+			dependencies: ["140982B43CF1F143"]
+			hide: true
+			id: "3A39665AEA823262"
+			tasks: [{
+				id: "1297512BC50BBA30"
+				type: "item"
+				item: "boss_tools:moon_desh_ore"
+				count: 16L
+			}]
+			rewards: [{
+				id: "6FB4A327E0D8BBC2"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			subtitle: "Star Crawler? Why not Space Crawler? HAHAHAH"
+			hide_dependency_lines: true
+			dependencies: ["140982B43CF1F143"]
+			hide: true
+			id: "08C7D04773F6C982"
+			tasks: [{
+				id: "55D7B12D75437076"
+				type: "kill"
+				entity: "boss_tools:star_crawler"
+				value: 5L
+			}]
+			rewards: [{
+				id: "2E729091985C0EDC"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "With Moon Sand you can make some sick Moon Glowstone"
+			hide_dependency_lines: true
+			dependencies: ["140982B43CF1F143"]
+			hide: true
+			id: "7EE92C3F72BC2835"
+			tasks: [{
+				id: "7E9DF44630E22A5B"
+				type: "item"
+				item: "boss_tools:moon_sand"
+				count: 16L
+			}]
+			rewards: [{
+				id: "11F815DCA5264EAC"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			id: "6F5FA978CAE51DFA"
+			tasks: [{
+				id: "7B1BFD672EEBDAE5"
+				type: "item"
+				item: "boss_tools:flag"
+			}]
+			rewards: [{
+				id: "227B1CD2985180F2"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "Will be used for Tier 3 Rocket"
+			description: ["*Can be found underground*"]
+			hide_dependency_lines: true
+			dependencies: ["3C16E4AFD39836AA"]
+			id: "15F4EA1D1330F0E8"
+			tasks: [{
+				id: "249776E7FBDB7CDE"
+				type: "item"
+				item: "boss_tools:mars_silicon_ore"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5454597E7A80A072"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Water found on Mars!!!"
+			description: ["*Can be found underground*"]
+			hide_dependency_lines: true
+			dependencies: ["3C16E4AFD39836AA"]
+			id: "41902F1DDE89457A"
+			tasks: [{
+				id: "54D479F79BF3D7BA"
+				type: "item"
+				item: "boss_tools:mars_ice_shard_ore"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3662F9EFE8CCCF63"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			subtitle: "They see me rollin' they hatin'"
+			dependencies: ["38C4A72C8E2FC04B"]
+			id: "044D4F4D8D7F3E53"
+			tasks: [{
+				id: "7D0C1F4DD27282AD"
+				type: "item"
+				item: {
+					id: "boss_tools:rover"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7B7F6BEA3BCCDFB3"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			shape: "circle"
+			id: "77E0437A5DCBBCE3"
+			tasks: [{
+				id: "305A195308435650"
+				type: "item"
+				item: {
+					id: "boss_tools:netherite_oxygen_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "28B3ED75E167A3A2"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			shape: "circle"
+			id: "172BE076CBA97821"
+			tasks: [{
+				id: "2FD34808A5D30190"
+				type: "item"
+				item: {
+					id: "boss_tools:netherite_space_suit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0102CB9E58BA7381"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			shape: "circle"
+			id: "0CDC865D7A5540EC"
+			tasks: [{
+				id: "32703F08A12BF97D"
+				type: "item"
+				item: {
+					id: "boss_tools:netherite_space_pants"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "32B4CF3BA73BE653"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			shape: "circle"
+			id: "7F37A3E271598CF1"
+			tasks: [{
+				id: "797F6155F9040679"
+				type: "item"
+				item: {
+					id: "boss_tools:netherite_space_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5ACF79C0A2701E3E"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["140982B43CF1F143"]
+			id: "006A39F860ECCF3E"
+			tasks: [{
+				id: "3572F6AF9297BA3A"
+				type: "item"
+				item: "boss_tools:desh_block"
+				count: 8L
+			}]
+			rewards: [{
+				id: "73AAE7E29E3513F1"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3C16E4AFD39836AA"]
+			id: "5FEA637BC3AC5F99"
+			tasks: [{
+				id: "015805CEBFB7396F"
+				type: "item"
+				item: "boss_tools:silicon_block"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3541598051CB8CDC"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+	]
+}

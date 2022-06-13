@@ -1,5 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading mining_gadgets - - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
 onEvent('recipes', event => {
     event.remove({output:'mininggadgets:mininggadget_simple'})
@@ -41,4 +40,3 @@ onEvent('recipes', event => {
       })
     })
 
-console.info('- - - Finished Loading mining_gadgets - - -')

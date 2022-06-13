@@ -1,10 +1,11 @@
 {
-	id: "5A0990A9CA021A17"
+	id: "4347EFAD97399857"
 	group: "4E139BB973FD0007"
 	order_index: 5
 	filename: "minecoloinids"
-	title: "Minecolonies 2.0"
+	title: "THISQUESTLINEWONTGOAWAY"
 	icon: "artifacts:villager_hat"
+	always_invisible: true
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,14 +14,14 @@
 			y: 4.0d
 			shape: "hexagon"
 			subtitle: "Starter Base"
-			id: "65C2D4D0F8EC5361"
+			id: "1818589EDDDF23D1"
 			tasks: [{
-				id: "3718C4C5FC93E3D2"
+				id: "41B53196086F952E"
 				type: "item"
 				item: "minecolonies:supplychestdeployer"
 			}]
 			rewards: [{
-				id: "36242049D6F754BE"
+				id: "1F6EC19869204F48"
 				type: "ftbmoney:money"
 				ftb_money: 50L
 			}]
@@ -30,14 +31,14 @@
 			y: 4.0d
 			shape: "hexagon"
 			subtitle: "Starter Base"
-			id: "1D93D7ECE317F108"
+			id: "722688354CFE4D3C"
 			tasks: [{
-				id: "6BB30DF3B82CAF20"
+				id: "78E30402DE29F0B3"
 				type: "item"
 				item: "minecolonies:supplycampdeployer"
 			}]
 			rewards: [{
-				id: "35959E032074851A"
+				id: "51A8EE001D9E9123"
 				type: "ftbmoney:money"
 				ftb_money: 50L
 			}]
@@ -47,32 +48,28 @@
 			y: 5.0d
 			shape: "hexagon"
 			subtitle: "Gives you alot of information about your Colony"
-			dependencies: [
-				"4CD43D40C15C6225"
-				"1749F47DE500A87E"
-			]
 			dependency_requirement: "one_completed"
-			id: "0B5914FC181A89E0"
+			id: "23CDE34D526A4BA2"
 			tasks: [
 				{
-					id: "612A6C4532F6B1BE"
+					id: "73A595AE165BB32F"
 					type: "item"
 					item: "minecolonies:blockhuttownhall"
 				}
 				{
-					id: "6AD8A4B1C12A7092"
+					id: "0358D916A29A9254"
 					type: "advancement"
 					advancement: "minecolonies:minecolonies/place_townhall"
 					criterion: ""
 				}
 				{
-					id: "790D753EDD3B075B"
+					id: "020AB974AA2CE491"
 					type: "item"
 					item: "structurize:sceptergold"
 				}
 			]
 			rewards: [{
-				id: "58CA6E93173C95B7"
+				id: "0F5FF3F1A8BC2E7D"
 				type: "ftbmoney:money"
 				ftb_money: 50L
 			}]
@@ -82,23 +79,22 @@
 			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Can't build without a Builder"
-			dependencies: ["196EE4FD0E0FB054"]
-			id: "690B7752762DC4D8"
+			id: "25AA4534E7A59664"
 			tasks: [
 				{
-					id: "01B5F2B6C4A8B125"
+					id: "0289D63C8C9139C2"
 					type: "item"
 					item: "minecolonies:blockhutbuilder"
 				}
 				{
-					id: "3FE4F6BDB8930388"
+					id: "23D45CE7194D3B14"
 					type: "advancement"
 					advancement: "minecolonies:minecolonies/build_builder"
 					criterion: ""
 				}
 			]
 			rewards: [{
-				id: "3727E78255F9D977"
+				id: "636B6C560DAADEC2"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -108,23 +104,22 @@
 			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Houses 4 Citizens at Level 1"
-			dependencies: ["6DB71317A14680AB"]
-			id: "31857F7A4EFE9ABD"
+			id: "68C281AD354660E5"
 			tasks: [
 				{
-					id: "4AC1A74AF32D25B4"
+					id: "4E54F85CF16A0B75"
 					type: "item"
 					item: "minecolonies:blockhuttavern"
 				}
 				{
-					id: "5CF63341F447BA1B"
+					id: "707AB10881971C3E"
 					type: "advancement"
 					advancement: "minecolonies:minecolonies/build_tavern"
 					criterion: ""
 				}
 			]
 			rewards: [{
-				id: "79D8DA49CCBC3280"
+				id: "1D10E2DE7BF7ABFB"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -134,15 +129,14 @@
 			y: 8.5d
 			shape: "hexagon"
 			subtitle: "More Citizens More Houses"
-			dependencies: ["45DCEE4441134DDB"]
-			id: "47DEC7EA6B5E5004"
+			id: "4A3B18B3B467AB47"
 			tasks: [{
-				id: "5FA95ED15E77A004"
+				id: "1A0F07E167B6C233"
 				type: "item"
 				item: "minecolonies:blockhutcitizen"
 			}]
 			rewards: [{
-				id: "5F03E0ED5B699F0A"
+				id: "4194E94908D4E4A9"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -153,21 +147,20 @@
 			shape: "diamond"
 			subtitle: "Research Time"
 			description: ["Lets you Research different Skill trees, unlocks more buildings and other stuff"]
-			dependencies: ["6DB71317A14680AB"]
-			id: "55A31BF170687D9E"
+			id: "60F531A43E437FFA"
 			tasks: [{
-				id: "3DB571C41AE157B0"
+				id: "5ADBCF166C9C39C6"
 				type: "item"
 				item: "minecolonies:blockhutuniversity"
 			}]
 			rewards: [
 				{
-					id: "067FAA49FAD84049"
+					id: "6EC31F8BA8DA4EAC"
 					type: "ftbmoney:money"
 					ftb_money: 100L
 				}
 				{
-					id: "34C4BD830B04344F"
+					id: "69D0E90796C73B0C"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -178,10 +171,9 @@
 			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Keeps track of resources for Builder"
-			dependencies: ["6DB71317A14680AB"]
-			id: "2DC0DF5115F53ECB"
+			id: "190C4EE6B541E831"
 			tasks: [{
-				id: "1944ADECB887F619"
+				id: "42524EDDC8F23FCE"
 				type: "item"
 				item: {
 					id: "minecolonies:resourcescroll"
@@ -190,7 +182,7 @@
 				}
 			}]
 			rewards: [{
-				id: "30D386D1FB8A56A1"
+				id: "7351823A1FFC2E1C"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -199,15 +191,14 @@
 			x: 7.5d
 			y: 5.0d
 			shape: "hexagon"
-			dependencies: ["196EE4FD0E0FB054"]
-			id: "51C949ACD5E111EB"
+			id: "23F324A0AE7CF21F"
 			tasks: [{
-				id: "3ED716CF916E28AA"
+				id: "7FC10C00327410E0"
 				type: "item"
 				item: "minecolonies:clipboard"
 			}]
 			rewards: [{
-				id: "37CB57EA899F7B2E"
+				id: "2F7306D31644DE64"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -218,10 +209,9 @@
 			shape: "hexagon"
 			subtitle: "Research Skill tree for your Citizens"
 			description: ["This Skill Tree focuses on helping your Citizens"]
-			dependencies: ["6B54C45BD0628DD4"]
-			id: "4990BADFBC060B6B"
+			id: "62183205D4565F34"
 			tasks: [{
-				id: "52583069E4992EA2"
+				id: "465D65FEF1174FAD"
 				type: "checkmark"
 				title: "Civilian"
 			}]
@@ -232,10 +222,9 @@
 			shape: "hexagon"
 			subtitle: "Research Skill tree for your Guards"
 			description: ["Wanna build a bigger Town? Then you need some better protection for your Citizens"]
-			dependencies: ["3F0C32FC054B099D"]
-			id: "15FC253C7214C0F4"
+			id: "775B88C065DCCE15"
 			tasks: [{
-				id: "6620C9C1B63E7CAA"
+				id: "567A1E60608107FD"
 				type: "checkmark"
 				title: "Combat"
 			}]
@@ -246,10 +235,9 @@
 			shape: "hexagon"
 			subtitle: "Research Skill tree for Technology"
 			description: ["This Skill Tree focuses on unlocking most of the buildings and could make your town fully automated"]
-			dependencies: ["6B54C45BD0628DD4"]
-			id: "10C31EF84165D163"
+			id: "1FC92CDA17275C3A"
 			tasks: [{
-				id: "1BDD20189486890A"
+				id: "692A285ECCEC8BC0"
 				type: "checkmark"
 				title: "Technology"
 			}]
@@ -260,20 +248,15 @@
 			shape: "hexagon"
 			subtitle: "They got Choomburger?"
 			description: ["A place for Citizens to eat"]
-			dependencies: [
-				"65D8A359210FB824"
-				"457ED5CFF4BC723A"
-				"1A14C714D12CE23E"
-			]
 			dependency_requirement: "one_completed"
-			id: "3FCF045DFCA14B6C"
+			id: "2B36AD9E21D13E83"
 			tasks: [{
-				id: "5AE7BF5007BB7132"
+				id: "6CB7D6710A919A39"
 				type: "item"
 				item: "minecolonies:blockhutcook"
 			}]
 			rewards: [{
-				id: "7E723706674DF265"
+				id: "17E8B8E6A04BDC50"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -283,15 +266,14 @@
 			y: 10.5d
 			shape: "hexagon"
 			subtitle: "Big Brain"
-			dependencies: ["39E2F959F2CECE23"]
-			id: "6E6525409EF87F4C"
+			id: "109343854810B345"
 			tasks: [{
-				id: "1FF6ED2D1D1C6675"
+				id: "25F45813F7582C7B"
 				type: "item"
 				item: "minecolonies:blockhutlibrary"
 			}]
 			rewards: [{
-				id: "31CFCEAE96E8133A"
+				id: "11D043EFCEEF52A2"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -301,15 +283,14 @@
 			y: 12.5d
 			shape: "hexagon"
 			subtitle: "R.I.P"
-			dependencies: ["39E2F959F2CECE23"]
-			id: "1C3BEA7E56B9CFA3"
+			id: "33950A6E8628AB75"
 			tasks: [{
-				id: "3D9427C2BDE11CC6"
+				id: "160F92CA13F0408B"
 				type: "item"
 				item: "minecolonies:blockhutgraveyard"
 			}]
 			rewards: [{
-				id: "54BA6165B84DCE87"
+				id: "3881A157C98A0363"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -319,15 +300,14 @@
 			y: 10.5d
 			shape: "hexagon"
 			subtitle: "Big Brain Jr."
-			dependencies: ["39E2F959F2CECE23"]
-			id: "3B48F70CCA54DA1C"
+			id: "15EA470D3753C9CE"
 			tasks: [{
-				id: "4DE4CF3857FAE2E3"
+				id: "6743E7D579EC7184"
 				type: "item"
 				item: "minecolonies:blockhutschool"
 			}]
 			rewards: [{
-				id: "6F57FF77AE955AEB"
+				id: "15BE7CB10BAA5355"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -337,15 +317,14 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "Better build some fields for your farm"
-			dependencies: ["45DCEE4441134DDB"]
-			id: "49F38E94388E4007"
+			id: "6749576AC55CE112"
 			tasks: [{
-				id: "25DC5C519597C941"
+				id: "23ECBF7AA3E8ADC2"
 				type: "item"
 				item: "minecolonies:blockhutfarmer"
 			}]
 			rewards: [{
-				id: "130DEE104FDC4303"
+				id: "6FF6E06F5921184A"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -355,15 +334,14 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "Chop Chop down those Trees"
-			dependencies: ["45DCEE4441134DDB"]
-			id: "10CA02D90ACCD14A"
+			id: "76FB9E2EDD5CA938"
 			tasks: [{
-				id: "205BE2BBCC68CEDE"
+				id: "69F13B0B455F85B2"
 				type: "item"
 				item: "minecolonies:blockhutlumberjack"
 			}]
 			rewards: [{
-				id: "724DA2A23DB5659B"
+				id: "3E4E6430632D6C77"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -373,23 +351,22 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "The Mine without the craft"
-			dependencies: ["45DCEE4441134DDB"]
-			id: "0967EEC6E8645461"
+			id: "571E00F92D4BC32F"
 			tasks: [
 				{
-					id: "7A9C333407525E73"
+					id: "2386766887C5B03A"
 					type: "item"
 					item: "minecolonies:blockhutminer"
 				}
 				{
-					id: "1EF0C7DF8CB706B4"
+					id: "454DFFF9A89D2A10"
 					type: "advancement"
 					advancement: "minecolonies:production/build_miner"
 					criterion: ""
 				}
 			]
 			rewards: [{
-				id: "22C3C620295D24D5"
+				id: "6097E7E9092BBE5A"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -399,15 +376,14 @@
 			y: 7.5d
 			shape: "hexagon"
 			subtitle: "Now we Fishin'"
-			dependencies: ["45DCEE4441134DDB"]
-			id: "0651463FD1CE5C72"
+			id: "68EA17C6A50071F7"
 			tasks: [{
-				id: "46BC03BC3BE864E2"
+				id: "6711C9F0763BA63B"
 				type: "item"
 				item: "minecolonies:blockhutfisherman"
 			}]
 			rewards: [{
-				id: "7562DA2716DB2485"
+				id: "19959C574CF8F024"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -418,15 +394,14 @@
 			shape: "hexagon"
 			subtitle: "Mr, Stark I don't feel so good"
 			description: ["A place for your sick Citizens"]
-			dependencies: ["39E2F959F2CECE23"]
-			id: "6BAD66D8CE28AD86"
+			id: "13A9D25D2C3CFF35"
 			tasks: [{
-				id: "61E07743BC52979C"
+				id: "54D1C94130C1C87C"
 				type: "item"
 				item: "minecolonies:blockhuthospital"
 			}]
 			rewards: [{
-				id: "23318ECA957F2BE2"
+				id: "18E19D550CE1170D"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -436,15 +411,14 @@
 			y: 12.5d
 			shape: "hexagon"
 			subtitle: "What's so Mystical about it?"
-			dependencies: ["39E2F959F2CECE23"]
-			id: "39D48858D11D6D20"
+			id: "4DF547E674A6A36E"
 			tasks: [{
-				id: "7F2E95AF415D89DF"
+				id: "396E8D22FA14609E"
 				type: "item"
 				item: "minecolonies:blockhutmysticalsite"
 			}]
 			rewards: [{
-				id: "1EFEFB6099D3B14D"
+				id: "3C14FC28E49CC54C"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -454,16 +428,15 @@
 			y: 5.5d
 			shape: "hexagon"
 			subtitle: "Bread"
-			dependencies: ["65D8A359210FB824"]
 			dependency_requirement: "one_completed"
-			id: "2DB616E6D853B423"
+			id: "77D5109F52A6796A"
 			tasks: [{
-				id: "369C4465B3EDD3A8"
+				id: "21D68C9A4939802B"
 				type: "item"
 				item: "minecolonies:blockhutbaker"
 			}]
 			rewards: [{
-				id: "1D04A572FDBE2844"
+				id: "11F8D89143A62B63"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -474,15 +447,14 @@
 			shape: "hexagon"
 			subtitle: "Steals stuff from other Citizens to store in their Warehouse"
 			description: ["And of course gives Citizens what they need"]
-			dependencies: ["0DF31032E016730F"]
-			id: "5F1D2F7F9018596E"
+			id: "23B83B311C4229D9"
 			tasks: [{
-				id: "51E4AB6C04A25D63"
+				id: "5AE6D5DB17E451AB"
 				type: "item"
 				item: "minecolonies:blockhutdeliveryman"
 			}]
 			rewards: [{
-				id: "7113BC216DBC0FE9"
+				id: "1B6F340864A5D16B"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -492,24 +464,23 @@
 			y: 6.5d
 			shape: "hexagon"
 			subtitle: "That's alot of storage"
-			dependencies: ["6DB71317A14680AB"]
 			dependency_requirement: "one_completed"
-			id: "2DF09C5BA2516810"
+			id: "56754B52A8B1E803"
 			tasks: [
 				{
-					id: "1BBA237CD74A1B09"
+					id: "64D53465C961DF48"
 					type: "item"
 					item: "minecolonies:blockhutwarehouse"
 				}
 				{
-					id: "1C0DB9D05EAAFE15"
+					id: "7F9BCB9875FCC619"
 					type: "advancement"
 					advancement: "minecolonies:production/build_warehouse"
 					criterion: ""
 				}
 			]
 			rewards: [{
-				id: "7B81D07B289745B6"
+				id: "4257970C65954A05"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -519,15 +490,14 @@
 			y: 8.5d
 			shape: "hexagon"
 			subtitle: "HONEY"
-			dependencies: ["45DCEE4441134DDB"]
-			id: "5644F61C4B5A6743"
+			id: "2E1C16222F55AAFE"
 			tasks: [{
-				id: "08A0F88D125BF47F"
+				id: "4260A1C254E0D635"
 				type: "item"
 				item: "minecolonies:blockhutbeekeeper"
 			}]
 			rewards: [{
-				id: "39745A6A5499E362"
+				id: "1F2513DC3986A952"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -536,15 +506,14 @@
 			x: -2.0d
 			y: 7.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
-			id: "5D41D76C10D62659"
+			id: "68B34A3A870543D2"
 			tasks: [{
-				id: "349C658716CA305D"
+				id: "735BE51E656C90C2"
 				type: "item"
 				item: "minecolonies:blockhutshepherd"
 			}]
 			rewards: [{
-				id: "79729A73EDCA3993"
+				id: "180C4270061339D9"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -553,15 +522,14 @@
 			x: -2.0d
 			y: 5.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
-			id: "64BF875D369BC114"
+			id: "291870D493C47D4E"
 			tasks: [{
-				id: "263510583660E6A5"
+				id: "6022EBBC82AD7B7B"
 				type: "item"
 				item: "minecolonies:blockhutcowboy"
 			}]
 			rewards: [{
-				id: "7EF672869C46C77D"
+				id: "2D59B17770E65E50"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -570,15 +538,14 @@
 			x: -2.0d
 			y: 6.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
-			id: "4B7C93BA098F3DE0"
+			id: "0E6ECE1846C3E836"
 			tasks: [{
-				id: "20550D6773689760"
+				id: "1E7A0414D2F0F970"
 				type: "item"
 				item: "minecolonies:blockhutchickenherder"
 			}]
 			rewards: [{
-				id: "6EAC2ED83319111C"
+				id: "262B02F1661FA4D2"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -587,15 +554,14 @@
 			x: -2.0d
 			y: 8.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
-			id: "1C18452311E933BD"
+			id: "318A1F882EB7D7BB"
 			tasks: [{
-				id: "2C2BB7C3F016C005"
+				id: "65D9050A4E337699"
 				type: "item"
 				item: "minecolonies:blockhutrabbithutch"
 			}]
 			rewards: [{
-				id: "1C2F5DC8909437C7"
+				id: "055AE68C6325DB4D"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -604,15 +570,14 @@
 			x: -2.0d
 			y: 9.5d
 			shape: "hexagon"
-			dependencies: ["70DEC1903E4877FE"]
-			id: "7561E56C7355F285"
+			id: "4090E7272235817F"
 			tasks: [{
-				id: "48C64E5E597FE231"
+				id: "664E10FBDC0C73E3"
 				type: "item"
 				item: "minecolonies:blockhutswineherder"
 			}]
 			rewards: [{
-				id: "4C3CFC9A3B6D5873"
+				id: "730DA72F57510739"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -622,23 +587,22 @@
 			y: 12.5d
 			shape: "hexagon"
 			subtitle: "Better protect those Citizens"
-			dependencies: ["6B54C45BD0628DD4"]
-			id: "41CB6C220FFD7A20"
+			id: "2C82F6A9ED4C65F2"
 			tasks: [
 				{
-					id: "0B84D6B4417814FC"
+					id: "764AC89A96F8D883"
 					type: "item"
 					item: "minecolonies:blockhutguardtower"
 				}
 				{
-					id: "22D7B08057C1D1E3"
+					id: "60840301AC6C53B4"
 					type: "advancement"
 					advancement: "minecolonies:minecolonies/build_guard_tower"
 					criterion: ""
 				}
 			]
 			rewards: [{
-				id: "3676873F34DC7811"
+				id: "4B38C62B131711C3"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -649,21 +613,20 @@
 			shape: "hexagon"
 			subtitle: "Holds 4 Barrack Towers"
 			description: ["Each Barrack Tower houses 5 Guards"]
-			dependencies: ["55DF8B70AFF426A8"]
-			id: "2B7FDB3D625A249F"
+			id: "44F2ECC71AEB4864"
 			tasks: [{
-				id: "37BCD787DEE14A5F"
+				id: "1FB39FFF48C5155A"
 				type: "item"
 				item: "minecolonies:blockhutbarracks"
 			}]
 			rewards: [
 				{
-					id: "4279A393684B5E4E"
+					id: "1087D78E54D9893B"
 					type: "ftbmoney:money"
 					ftb_money: 200L
 				}
 				{
-					id: "6816AC0365D8FCCC"
+					id: "6C68FBCB1C8815D1"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -674,21 +637,20 @@
 			y: 16.0d
 			shape: "hexagon"
 			subtitle: "Train your Knights here"
-			dependencies: ["0DF4740F37E6EC66"]
-			id: "74A78D858ABBE6AA"
+			id: "78A4E0B1CDC22A9E"
 			tasks: [{
-				id: "01BDD4D22C0EF92C"
+				id: "6F330FF9AE33FB10"
 				type: "item"
 				item: "minecolonies:blockhutcombatacademy"
 			}]
 			rewards: [
 				{
-					id: "5DCAE9E71779D9E4"
+					id: "2C0A226153A9B438"
 					type: "ftbmoney:money"
 					ftb_money: 200L
 				}
 				{
-					id: "2909D37A4277CFB4"
+					id: "46D07EFF46D1F13B"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -699,21 +661,20 @@
 			y: 16.0d
 			shape: "hexagon"
 			subtitle: "Train your Archers Here"
-			dependencies: ["0DF4740F37E6EC66"]
-			id: "56B491283D526F25"
+			id: "420C926D38922B01"
 			tasks: [{
-				id: "30652200DDE4C0A9"
+				id: "7BAD52E973F9AB49"
 				type: "item"
 				item: "minecolonies:blockhutarchery"
 			}]
 			rewards: [
 				{
-					id: "43C1548E512FF88A"
+					id: "6F3E0BA2779BA03E"
 					type: "ftbmoney:money"
 					ftb_money: 200L
 				}
 				{
-					id: "4A4690F4703EB660"
+					id: "32A9F1E518D27A49"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -722,15 +683,14 @@
 		{
 			x: 10.5d
 			y: 9.5d
-			dependencies: ["12101E7FD1B9E158"]
-			id: "0C8205A81955933F"
+			id: "3847112329A93507"
 			tasks: [{
-				id: "1BDC1776218D2560"
+				id: "377F000E53D78DE7"
 				type: "item"
 				item: "minecolonies:blockhutcomposter"
 			}]
 			rewards: [{
-				id: "678B57E04ACD0A17"
+				id: "5A93743ECBD6A192"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -738,15 +698,14 @@
 		{
 			x: 11.5d
 			y: 9.5d
-			dependencies: ["3FB3C4AAD8AA81CC"]
-			id: "1C605FBF6EC33477"
+			id: "241EE47E36D0CCF7"
 			tasks: [{
-				id: "155ABEB12C43AB1E"
+				id: "27B18C950A08317B"
 				type: "item"
 				item: "minecolonies:blockhutflorist"
 			}]
 			rewards: [{
-				id: "5A2513112706651A"
+				id: "44E0A63B77271EC0"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -754,15 +713,14 @@
 		{
 			x: 11.5d
 			y: 8.5d
-			dependencies: ["3FB3C4AAD8AA81CC"]
-			id: "69DFAFF92DE104D8"
+			id: "350FB2FE7FFAC905"
 			tasks: [{
-				id: "4DF990D009697375"
+				id: "53E60C10FCB12FAC"
 				type: "item"
 				item: "minecolonies:blockhutplantation"
 			}]
 			rewards: [{
-				id: "24A435716A056996"
+				id: "7B973E435B3F20A8"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -770,15 +728,14 @@
 		{
 			x: 12.5d
 			y: 9.5d
-			dependencies: ["21F1813235C76189"]
-			id: "0FAD25D664C20BAE"
+			id: "20AA7DE63C0EB84A"
 			tasks: [{
-				id: "7612EACA0F989FF1"
+				id: "65523D0F3AAF9333"
 				type: "item"
 				item: "minecolonies:blockhutdyer"
 			}]
 			rewards: [{
-				id: "4CDDB8E1B84D1DE5"
+				id: "2444C7F78161D454"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -786,15 +743,14 @@
 		{
 			x: 2.5d
 			y: 8.5d
-			dependencies: ["45DCEE4441134DDB"]
-			id: "16402923343E954F"
+			id: "752D4889B545A9AA"
 			tasks: [{
-				id: "298C5CC0D82A6B6A"
+				id: "773EBBCD94D8480F"
 				type: "item"
 				item: "minecolonies:blockhutenchanter"
 			}]
 			rewards: [{
-				id: "5423FF44296D4191"
+				id: "24EAF534FEA87D9A"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -803,15 +759,14 @@
 			x: 10.5d
 			y: 10.5d
 			description: ["Crafts Tools, Weapons and Armor"]
-			dependencies: ["12101E7FD1B9E158"]
-			id: "294D27219543952E"
+			id: "1A76738894E76F2B"
 			tasks: [{
-				id: "77956EA22638FD2B"
+				id: "54529BC359A24770"
 				type: "item"
 				item: "minecolonies:blockhutblacksmith"
 			}]
 			rewards: [{
-				id: "083F97A99E794A1E"
+				id: "2021AE6200321B98"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -819,15 +774,14 @@
 		{
 			x: 12.5d
 			y: 10.5d
-			dependencies: ["222102916B278337"]
-			id: "50EB7F0F2E8C975E"
+			id: "56A5E3726499404D"
 			tasks: [{
-				id: "7EB1CB19F28D3CBC"
+				id: "41C3271F6EB048E0"
 				type: "item"
 				item: "minecolonies:blockhutmechanic"
 			}]
 			rewards: [{
-				id: "3C3654C63850B491"
+				id: "26E98A50A2AC57EB"
 				type: "ftbmoney:money"
 				ftb_money: 250L
 			}]
@@ -835,15 +789,14 @@
 		{
 			x: 10.5d
 			y: 11.5d
-			dependencies: ["12101E7FD1B9E158"]
-			id: "3B8922B68378440A"
+			id: "6059C78DEB08C2CF"
 			tasks: [{
-				id: "22BA1E014D0297C3"
+				id: "091DA10D255C8555"
 				type: "item"
 				item: "minecolonies:blockhutstonemason"
 			}]
 			rewards: [{
-				id: "3763D2449F266075"
+				id: "29CD07CBC3F7336D"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -852,15 +805,14 @@
 			x: 11.5d
 			y: 11.5d
 			subtitle: "Crusher that crushes"
-			dependencies: ["1EA05E7F5A161584"]
-			id: "17AF98B4EE705A38"
+			id: "324CFE64F71622D6"
 			tasks: [{
-				id: "63D94A151DF37FF6"
+				id: "5DE4F3A6033B0AD4"
 				type: "item"
 				item: "minecolonies:blockhutcrusher"
 			}]
 			rewards: [{
-				id: "030FCE5A075C8FE4"
+				id: "779ABD11D35CB330"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -868,15 +820,14 @@
 		{
 			x: 12.5d
 			y: 11.5d
-			dependencies: ["10569E4A297B3986"]
-			id: "57B04626D4DAB154"
+			id: "74CB019941D1E1A2"
 			tasks: [{
-				id: "78C2C0731C54014A"
+				id: "49FEE104EB764984"
 				type: "item"
 				item: "minecolonies:blockhutconcretemixer"
 			}]
 			rewards: [{
-				id: "6FBBBDCDB8E85157"
+				id: "0BD3AEF91686580E"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -884,15 +835,14 @@
 		{
 			x: 10.5d
 			y: 12.5d
-			dependencies: ["12101E7FD1B9E158"]
-			id: "0EB5FB303A338A8A"
+			id: "1334CF3064A478B4"
 			tasks: [{
-				id: "08A06B533BFAF03A"
+				id: "553063FE585B5E80"
 				type: "item"
 				item: "minecolonies:blockhutsawmill"
 			}]
 			rewards: [{
-				id: "55E7D582B9F75046"
+				id: "1541BD6DA26BBD21"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -902,15 +852,14 @@
 			y: 12.5d
 			subtitle: "Archer's Best Friend"
 			description: ["Crafts mostly arrows and leather armor, but also plain items"]
-			dependencies: ["2BA5D155BF3C6F2C"]
-			id: "7515B148AD45A1CE"
+			id: "51DBBDAFA2674F92"
 			tasks: [{
-				id: "6EF494F9B6C5712C"
+				id: "4443E458EBA28091"
 				type: "item"
 				item: "minecolonies:blockhutfletcher"
 			}]
 			rewards: [{
-				id: "62DE0650C6B85B92"
+				id: "2CEF49792128F9D0"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -918,15 +867,14 @@
 		{
 			x: 11.5d
 			y: 13.0d
-			dependencies: ["2BA5D155BF3C6F2C"]
-			id: "041C5343DC55571F"
+			id: "314F94AE9F267370"
 			tasks: [{
-				id: "55386AC734C00AA6"
+				id: "4F6ECB50C208C0A0"
 				type: "item"
 				item: "minecolonies:blockhutsifter"
 			}]
 			rewards: [{
-				id: "1D7CC80D6C219849"
+				id: "4C01BCFB0819E62C"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -935,15 +883,14 @@
 			x: 10.5d
 			y: 13.5d
 			subtitle: "Smeltery that smelts"
-			dependencies: ["12101E7FD1B9E158"]
-			id: "78E072475F9D2C5E"
+			id: "5238BF248AF7E8CE"
 			tasks: [{
-				id: "06950A81D35CC7EC"
+				id: "26E97120C97860B0"
 				type: "item"
 				item: "minecolonies:blockhutsmeltery"
 			}]
 			rewards: [{
-				id: "5819BD1A7D8061A8"
+				id: "63CA85C18369C1DB"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -952,15 +899,14 @@
 			x: 12.5d
 			y: 13.5d
 			subtitle: "Stone Smeltery that smelts stone"
-			dependencies: ["4DA29D9C364760EE"]
-			id: "56816099B4B2270D"
+			id: "44BC2011309A2B9B"
 			tasks: [{
-				id: "37A6200CF720E375"
+				id: "79E01B3AC55C5006"
 				type: "item"
 				item: "minecolonies:blockhutstonesmeltery"
 			}]
 			rewards: [{
-				id: "56AA137007EC3B0A"
+				id: "0FF402EB2A5D0097"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -968,15 +914,14 @@
 		{
 			x: 11.5d
 			y: 14.0d
-			dependencies: ["4DA29D9C364760EE"]
-			id: "70D7EBE07ED29DF8"
+			id: "3BF31CCA254797C7"
 			tasks: [{
-				id: "226F4FCE4169D87F"
+				id: "6F45D589DDECED7E"
 				type: "item"
 				item: "minecolonies:blockhutglassblower"
 			}]
 			rewards: [{
-				id: "0E71ECE476842AF0"
+				id: "2F98CFF19167F165"
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
@@ -985,22 +930,21 @@
 			x: 8.5d
 			y: 8.5d
 			subtitle: "Build your Town Hall"
-			dependencies: ["457EED0C3D468F3E"]
-			id: "6F5C17C2E1BA333C"
+			id: "34D2F9A54C52B20E"
 			tasks: [{
-				id: "33911A4AC0A67707"
+				id: "5D9B7B2F033F1A60"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/build_town_hall"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "414341430AE69B5C"
+					id: "2D8032BDE0C8C1E1"
 					type: "ftbmoney:money"
 					ftb_money: 250L
 				}
 				{
-					id: "4B9F346F0DF6CBF4"
+					id: "79D8FB4501FBB1E2"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -1010,16 +954,15 @@
 			x: 7.5d
 			y: 8.5d
 			subtitle: "Level up your Builder"
-			dependencies: ["6DB71317A14680AB"]
-			id: "4DB30C0D030C230E"
+			id: "2C55F1BE756BFBEB"
 			tasks: [{
-				id: "41B0BDE81FA50BAF"
+				id: "61655CFA2A33F2B5"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/build_builder_2"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "01AFF3E93E5FC6A4"
+				id: "1F907E2C9BDDD62A"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -1028,16 +971,15 @@
 			x: 3.0d
 			y: 5.5d
 			subtitle: "1+1=3"
-			dependencies: ["45DCEE4441134DDB"]
-			id: "11F809FC035652D7"
+			id: "04583B6D0871C044"
 			tasks: [{
-				id: "66C3A1034FDB9C03"
+				id: "70C91E851D51C7C2"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/colony_population_5"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "4BDA1769E1E18FF1"
+				id: "20B516A732DE3FD6"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -1047,22 +989,21 @@
 			y: 9.5d
 			subtitle: "Now it starts to look like a Settlement"
 			description: ["Reach 10 Citizens"]
-			dependencies: ["457ED5CFF4BC723A"]
-			id: "583F5B3D9078D730"
+			id: "5E2714121D636C85"
 			tasks: [{
-				id: "1D6B4048E9BC0A96"
+				id: "1726D78A26AAB840"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/colony_population_10"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "13A416BD4C98FB87"
+					id: "5E5FC60E4B21F3D0"
 					type: "ftbmoney:money"
 					ftb_money: 150L
 				}
 				{
-					id: "65CEF5525C0FC6EC"
+					id: "1C6B731DB03D0EF6"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -1073,22 +1014,21 @@
 			y: 10.5d
 			subtitle: "Woah, your Colony is now a Hamlet"
 			description: ["Reach 25 Citizens"]
-			dependencies: ["2F509F12D2A06EF2"]
-			id: "5581500A6180D3FD"
+			id: "14BAA970ED68A8E2"
 			tasks: [{
-				id: "4B93C007A695D80E"
+				id: "58D643CC2EE4439A"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/colony_population_25"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "73A52229E5CC2733"
+					id: "719182C3CE3F7DBB"
 					type: "ftbmoney:money"
 					ftb_money: 500L
 				}
 				{
-					id: "34F11B5945FEBF9E"
+					id: "0F8036BF6E33615A"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -1099,22 +1039,21 @@
 			y: 11.5d
 			subtitle: "Now that's alot of Citizens"
 			description: ["Reach 50 Citizens"]
-			dependencies: ["19ED20018C49EFA5"]
-			id: "1EDF88EBF468AD24"
+			id: "2A1BC9177461E51A"
 			tasks: [{
-				id: "537C1BFC1F6945C9"
+				id: "7D7575217913D923"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/colony_population_50"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "7ED0F49AB4C6C430"
+					id: "46360349CE7EE7CC"
 					type: "ftbmoney:money"
 					ftb_money: 1000L
 				}
 				{
-					id: "58CE01A124FDB2A4"
+					id: "45A7E8A5AE8B0768"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}
@@ -1124,16 +1063,15 @@
 			x: 3.0d
 			y: 9.5d
 			subtitle: "Choomburger Top Quality"
-			dependencies: ["45DCEE4441134DDB"]
-			id: "03826CB5363B4559"
+			id: "5D4884345A8D0201"
 			tasks: [{
-				id: "21C6FB9F7A022023"
+				id: "75A5D46D2C825D22"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/citizen_eat_food_first"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "12D1EC7DE20C6ADC"
+				id: "098A93FFEA573C39"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -1142,22 +1080,21 @@
 			x: 9.5d
 			y: 8.5d
 			subtitle: "Build Town Hall to Level 5"
-			dependencies: ["3B0D78340DB64C03"]
-			id: "3A4244E44C9FBE4C"
+			id: "0505562733F05681"
 			tasks: [{
-				id: "1FE8918D918345F5"
+				id: "24ADEB56A1660119"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/build_town_hall_5"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "499A2E51F6CDA4D0"
+					id: "376ACF2F5328D24A"
 					type: "ftbmoney:money"
 					ftb_money: 350L
 				}
 				{
-					id: "73D789AD915BE804"
+					id: "63F630D33862FCB2"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}
@@ -1167,16 +1104,15 @@
 			x: 7.5d
 			y: 13.0d
 			subtitle: "Have 8 Guards in your Colony"
-			dependencies: ["3F0C32FC054B099D"]
-			id: "43FF28704F551E14"
+			id: "51904C0BA66CD8E8"
 			tasks: [{
-				id: "68A2CF00124642A6"
+				id: "036CB907A403C816"
 				type: "advancement"
 				advancement: "minecolonies:military/army_8"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "2A6CE337494A20AA"
+				id: "262CB0FBF3CAC4C8"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -1185,22 +1121,21 @@
 			x: 8.5d
 			y: 13.5d
 			subtitle: "Have 30 Guards in your Colony"
-			dependencies: ["4ECE9A49FF0218DB"]
-			id: "146C1A7FD8289EAB"
+			id: "073EBAE008819C55"
 			tasks: [{
-				id: "09747E54D572A077"
+				id: "53601D8E520B0DA8"
 				type: "advancement"
 				advancement: "minecolonies:military/army_30"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "48266BB519BEF752"
+					id: "2384E2DE0FF2E9B7"
 					type: "ftbmoney:money"
 					ftb_money: 300L
 				}
 				{
-					id: "7BC9677EC2B294FA"
+					id: "2C8AA122AEBA2BF7"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}
@@ -1210,22 +1145,21 @@
 			x: 3.0d
 			y: 13.5d
 			subtitle: "Know I get it"
-			dependencies: ["609897A0753A6F1B"]
-			id: "28F468FC277540FE"
+			id: "101F0CCF9A7E3B24"
 			tasks: [{
-				id: "1B6CDE5B734DA337"
+				id: "304D9228DAC9398E"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/build_mysticalsite"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "517AF0154F343857"
+					id: "333356D45BB83705"
 					type: "ftbmoney:money"
 					ftb_money: 100L
 				}
 				{
-					id: "42E02B00AF42CBA7"
+					id: "36CECDDFD52F0B7E"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -1234,22 +1168,21 @@
 		{
 			x: 2.5d
 			y: 14.5d
-			dependencies: ["508F2700C0F9675C"]
-			id: "7BF8DADB538C2A89"
+			id: "03B0283634C44C15"
 			tasks: [{
-				id: "3CD5698F94507422"
+				id: "3AC70F3635D43F48"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/build_mysticalsite_5"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "66AF1AD279700D06"
+					id: "336E538E4C7B5E17"
 					type: "ftbmoney:money"
 					ftb_money: 200L
 				}
 				{
-					id: "76BE8DA0C3481C3B"
+					id: "44F59FD486D8FAD2"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}
@@ -1259,16 +1192,15 @@
 			x: 4.0d
 			y: 13.5d
 			subtitle: "R.I.P 2.0"
-			dependencies: ["058F03388D335DC4"]
-			id: "1BED28789EC77459"
+			id: "766576F2282CA9C5"
 			tasks: [{
-				id: "5DDE2FA12F0BFB60"
+				id: "1FA1439C047B9503"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/citizen_bury"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "2847E55CD50F9A23"
+				id: "0600577CC55C1E3C"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
@@ -1277,22 +1209,21 @@
 			x: 5.0d
 			y: 13.5d
 			subtitle: "Second Chance"
-			dependencies: ["058F03388D335DC4"]
-			id: "66230F1590C26623"
+			id: "060F9D108D64AA57"
 			tasks: [{
-				id: "2B96A9730F303538"
+				id: "7544B2E675AFC597"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/citizen_resurrect"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "1A8DB14E10D465DD"
+					id: "59808D1EB63C8BCF"
 					type: "ftbmoney:money"
 					ftb_money: 300L
 				}
 				{
-					id: "6CDB986E3BF5DC67"
+					id: "1403D5B147A2B2B0"
 					type: "loot"
 					table_id: 28899073401794277L
 				}
@@ -1303,16 +1234,15 @@
 			y: 5.5d
 			subtitle: "Welcome to the Underground"
 			description: ["Have a miner reach Bedrock"]
-			dependencies: ["1569DF6E21470CE8"]
-			id: "3D6BA5801E91996D"
+			id: "0D4CD4C81CCFBC4E"
 			tasks: [{
-				id: "514CA0F5D848B38F"
+				id: "6EE38ABE5159DC6F"
 				type: "advancement"
 				advancement: "minecolonies:production/deep_mine"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "76B9E93D0FA6CFA2"
+				id: "28730E7A4FA4A5AA"
 				type: "ftbmoney:money"
 				ftb_money: 150L
 			}]
@@ -1321,16 +1251,15 @@
 			x: 5.5d
 			y: 8.5d
 			subtitle: "Learn a Builder how to craft a torch and the Builder will do the rest"
-			dependencies: ["6DB71317A14680AB"]
-			id: "744AF07FF16B32FE"
+			id: "2DEE486C44049D3B"
 			tasks: [{
-				id: "4A51535E63C84532"
+				id: "24442A649E96D2E6"
 				type: "advancement"
 				advancement: "minecolonies:minecolonies/building_add_recipe_torch"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "005B94319B3158AC"
+				id: "7F926C1AB859F0B2"
 				type: "ftbmoney:money"
 				ftb_money: 50L
 			}]

@@ -31,14 +31,14 @@
 	],
   
 	"catalyst": {
-	  "id": "mekanism:ultimate_control_circuit",
+	  "id": "mekanism:elite_control_circuit",
 	  "Count": 1
 	},
   
 	"components": {
 	  "C": {
 		"type": "compactcrafting:block",
-		"block": "emendatusenigmatica:enderium_block"
+		"block": "emendatusenigmatica:steel_block"
 	  },
 	  "F": {
 		"type": "compactcrafting:block",
@@ -50,7 +50,7 @@
 	  },
 	  "D": {
 		"type": "compactcrafting:block",
-		"block": "minecraft:beacon"
+		"block": "pneumaticcraft:compressed_iron_block"
 	  }
 	},
   

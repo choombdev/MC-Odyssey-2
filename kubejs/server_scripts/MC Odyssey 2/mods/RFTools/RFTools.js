@@ -12,7 +12,7 @@ event.shaped('rftoolsdim:dimension_builder', [
  I: 'mysticalagradditions:insanium_block',
  N: 'extendedcrafting:nether_star_block',
  C: 'draconicevolution:awakened_core',
- E: 'silents_mechanisms:enderium_block'   
+ E: 'emendatusenigmatica:enderium_block' 
 }) 
 
   })

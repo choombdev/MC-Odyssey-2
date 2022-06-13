@@ -17,22 +17,22 @@
 	carbuncleWeight = 5
 	#How often Sylphs spawn
 	#Range: 0 ~ 100
-	sylphWeight = 5
+	sylphWeight = 20
 	#How often Drygmys spawn
 	#Range: 0 ~ 100
-	drygmyWeight = 3
+	drygmyWeight = 20
 	#How much mana sylphs consume per generation
 	#Range: 0 ~ 10000
 	sylphManaCost = 250
 	#How often Wilden Guardians spawn
 	#Range: 0 ~ 200
-	wguardianWeight = 50
+	wguardianWeight = 70
 	#How often Wilden Stalkers spawn
 	#Range: 0 ~ 200
-	wstalkerWeight = 50
+	wstalkerWeight = 120
 	#How often Wilden Hunter spawn
 	#Range: 0 ~ 200
-	whunterWeight = 50
+	whunterWeight = 80
 	#Should the Wilden Hunter attack animals?
 	hunterHuntsAnimals = true
 	#Should the Wilden Stalker attack animals?
@@ -91,6 +91,15 @@
 	#Regen bonus per potion level
 	#Range: > 0
 	potionRegen = 10
+
+[Spells]
 	#Enforce augment cap on casting? Turn this off if you are a pack maker and want to create more powerful items than players.
 	enforceCapOnCast = true
+	#Enforce glyph per spell limit on casting? Turn this off if you are a pack maker and want to create more powerful items than players.
+	enforceGlyphLimitOnCast = true
+
+#Items
+[item]
+	#Spawn Caster Tomes in Dungeon Loot?
+	spawnTomes = true
 

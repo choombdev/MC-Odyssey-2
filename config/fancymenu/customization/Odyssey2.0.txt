@@ -9,8 +9,8 @@ customization-meta {
 }
 
 customization {
-  name = odyssey
-  action = animatebackground
+  path = config/resources/bgod.png
+  action = texturizebackground
 }
 
 customization {
@@ -21,9 +21,9 @@ customization {
 customization {
   identifier = %id=400322%
   orientation = mid-centered
-  x = -101
+  x = -123
   action = movebutton
-  y = -64
+  y = -26
 }
 
 customization {
@@ -43,9 +43,9 @@ customization {
 customization {
   identifier = %id=400382%
   orientation = mid-centered
-  x = 2
+  x = -20
   action = movebutton
-  y = -39
+  y = -2
 }
 
 customization {
@@ -67,9 +67,9 @@ customization {
 customization {
   identifier = %id=502382%
   orientation = mid-centered
-  x = -99
+  x = -121
   action = movebutton
-  y = 9
+  y = 46
 }
 
 customization {
@@ -96,9 +96,9 @@ customization {
 customization {
   identifier = %id=400298%
   orientation = mid-centered
-  x = -100
+  x = -123
   action = movebutton
-  y = -89
+  y = -49
 }
 
 customization {
@@ -113,9 +113,9 @@ customization {
 customization {
   identifier = %id=400346%
   orientation = mid-centered
-  x = -100
+  x = -122
   action = movebutton
-  y = -39
+  y = -2
 }
 
 customization {
@@ -140,23 +140,6 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  backgroundhovered = config\resources\bisectHover.png
-  label =   Get a Server for 20% off today!
-  loopbackgroundanimations = true
-  x = -100
-  width = 199
-  actionid = a211ee47-2c93-444b-944a-be7c19c27f161639925915690
-  action = addbutton
-  y = -16
-  backgroundnormal = config\resources\bisect.png
-  value = https://bisecthosting.com/odyssey
-  height = 20
-}
-
-customization {
   orientation = top-left
   restartbackgroundanimations = true
   buttonaction = openlink
@@ -164,11 +147,11 @@ customization {
   label =  
   loopbackgroundanimations = true
   hoverlabel = 
-  x = 580
+  x = 558
   width = 20
   actionid = 240e240b-66d3-4bb5-af3f-ac8c63413d441639926015619
   action = addbutton
-  y = 279
+  y = 315
   backgroundnormal = config\resources\DiscordButton.png
   value = https://discord.gg/JzSydC6UMR
   height = 20
@@ -182,11 +165,11 @@ customization {
   label = 
   loopbackgroundanimations = true
   hoverlabel = 
-  x = 580
+  x = 558
   width = 20
   actionid = f24d4054-6b54-46da-830a-088df069381f1639926104142
   action = addbutton
-  y = 254
+  y = 291
   backgroundnormal = config\resources\GithubButton.png
   value = https://github.com/YahiaTGF/MC-Odyssey-2
   height = 20
@@ -200,24 +183,30 @@ customization {
   label = 
   loopbackgroundanimations = true
   hoverlabel = 
-  x = 580
+  x = 558
   width = 20
   actionid = ab7dab25-c455-4a67-9e91-5b84d200d4851639926193613
   action = addbutton
-  y = 231
+  y = 268
   backgroundnormal = config\resources\RedditButton.png
   value = https://www.reddit.com/r/MCOdyssey/
   height = 20
 }
 
 customization {
-  path = config/resources/oddy.png
-  orientation = top-left
-  x = 391
-  width = 174
-  action = addtexture
-  actionid = 8e936b48-c834-4195-a632-af5d592858381639926468376
-  y = 45
-  height = 159
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\bisectHover.png
+  label = Create your own Server
+  loopbackgroundanimations = true
+  x = -122
+  width = 199
+  actionid = 3273c2c7-1805-4662-bf0f-ea554e6d99691640854563657
+  action = addbutton
+  y = 22
+  backgroundnormal = config\resources\Bisect.png
+  value = 
+  height = 20
 }
 

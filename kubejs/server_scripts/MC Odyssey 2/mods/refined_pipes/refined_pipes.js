@@ -1,5 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading refined_pipes - - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
     // Item Pipes
     event.remove({output:'refinedpipes:advanced_item_pipe'})
@@ -187,4 +186,3 @@ event.shaped('refinedpipes:basic_extractor_attachment', [
       F: 'refinedpipes:elite_extractor_attachment'
     })
     })
-console.info('- - - Finished Loading refined_pipes - - -')

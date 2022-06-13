@@ -1,0 +1,10 @@
+{ "type": "eidolon:crucible", 
+    "steps": 
+    [
+    { "items": [{ "item": "eidolon:shadow_gem" }, { "item": "tconstruct:necrotic_bone" }]}, 
+    { "stirs": 2, "items": [ { "item": "compressium:endstone_2"}, { "item": "gobber2:gobber2_foo" } ] }, 
+    { "stirs": 3 , "items": [ { "item": "tconstruct:rose_gold_ingot"  }, { "item": "tconstruct:manyullyn_ingot"} ] }
+    ],
+    "result": { "item": "draconicevolution:draconium_dust"}
+}
+

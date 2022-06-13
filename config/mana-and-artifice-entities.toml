@@ -150,7 +150,7 @@
 	[taiga."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -161,7 +161,7 @@
 	[taiga."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -172,7 +172,7 @@
 	[taiga."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -183,7 +183,7 @@
 	[taiga."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -194,7 +194,7 @@
 	[taiga."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -205,7 +205,7 @@
 	[taiga."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -240,7 +240,7 @@
 	[extreme_hills."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -251,7 +251,7 @@
 	[extreme_hills."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -262,7 +262,7 @@
 	[extreme_hills."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -273,7 +273,7 @@
 	[extreme_hills."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -284,7 +284,7 @@
 	[extreme_hills."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -295,7 +295,7 @@
 	[extreme_hills."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -330,7 +330,7 @@
 	[jungle."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -341,7 +341,7 @@
 	[jungle."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -352,7 +352,7 @@
 	[jungle."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -363,7 +363,7 @@
 	[jungle."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -374,7 +374,7 @@
 	[jungle."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -385,7 +385,7 @@
 	[jungle."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -420,7 +420,7 @@
 	[mesa."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -431,7 +431,7 @@
 	[mesa."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -442,7 +442,7 @@
 	[mesa."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -453,7 +453,7 @@
 	[mesa."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -464,7 +464,7 @@
 	[mesa."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -475,7 +475,7 @@
 	[mesa."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -510,7 +510,7 @@
 	[plains."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -521,7 +521,7 @@
 	[plains."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -532,7 +532,7 @@
 	[plains."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -543,7 +543,7 @@
 	[plains."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -554,7 +554,7 @@
 	[plains."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -565,7 +565,7 @@
 	[plains."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -600,7 +600,7 @@
 	[savanna."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -611,7 +611,7 @@
 	[savanna."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -622,7 +622,7 @@
 	[savanna."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -633,7 +633,7 @@
 	[savanna."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -644,7 +644,7 @@
 	[savanna."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -655,7 +655,7 @@
 	[savanna."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -690,7 +690,7 @@
 	[icy."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -701,7 +701,7 @@
 	[icy."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -712,7 +712,7 @@
 	[icy."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -723,7 +723,7 @@
 	[icy."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -734,7 +734,7 @@
 	[icy."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -745,7 +745,7 @@
 	[icy."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -870,7 +870,7 @@
 	[beach."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -881,7 +881,7 @@
 	[beach."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -892,7 +892,7 @@
 	[beach."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -903,7 +903,7 @@
 	[beach."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -914,7 +914,7 @@
 	[beach."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -925,7 +925,7 @@
 	[beach."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -960,7 +960,7 @@
 	[forest."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -971,7 +971,7 @@
 	[forest."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -982,7 +982,7 @@
 	[forest."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -993,7 +993,7 @@
 	[forest."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1004,7 +1004,7 @@
 	[forest."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1015,7 +1015,7 @@
 	[forest."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1050,7 +1050,7 @@
 	[ocean."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1061,7 +1061,7 @@
 	[ocean."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1072,7 +1072,7 @@
 	[ocean."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1083,7 +1083,7 @@
 	[ocean."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1094,7 +1094,7 @@
 	[ocean."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1105,7 +1105,7 @@
 	[ocean."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1140,7 +1140,7 @@
 	[desert."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1151,7 +1151,7 @@
 	[desert."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1162,7 +1162,7 @@
 	[desert."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1173,7 +1173,7 @@
 	[desert."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1184,7 +1184,7 @@
 	[desert."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1195,7 +1195,7 @@
 	[desert."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1230,7 +1230,7 @@
 	[river."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1241,7 +1241,7 @@
 	[river."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1252,7 +1252,7 @@
 	[river."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1263,7 +1263,7 @@
 	[river."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1274,7 +1274,7 @@
 	[river."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1285,7 +1285,7 @@
 	[river."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1320,7 +1320,7 @@
 	[swamp."mana-and-artifice:hulking_zombie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1331,7 +1331,7 @@
 	[swamp."mana-and-artifice:skeleton_assassin"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1342,7 +1342,7 @@
 	[swamp."mana-and-artifice:spell_breaker"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1353,7 +1353,7 @@
 	[swamp."mana-and-artifice:witch_hunter"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1364,7 +1364,7 @@
 	[swamp."mana-and-artifice:pixie"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1
@@ -1375,7 +1375,7 @@
 	[swamp."mana-and-artifice:mushroom_soldier"]
 		#Spawn Weight (0 disables)
 		#Range: 0 ~ 9999
-		spawnWeight = 16
+		spawnWeight = 6
 		#Min Pack Size
 		#Range: 1 ~ 3
 		minPackSize = 1

@@ -201,7 +201,7 @@
 		{
 			x: -14.0d
 			y: -1.0d
-			subtitle: "Not to be confused with the Discord Member"
+			subtitle: "Burn Baby, Burn."
 			description: ["The Pyrolyzer will decompose solid items, like coal into other items and fluids! can be used as a means to get oil."]
 			dependencies: ["34E5BB50948CB926"]
 			id: "1B43C52DA8B1B43A"
@@ -612,279 +612,6 @@
 				type: "ftbmoney:money"
 				ftb_money: 200L
 			}]
-		}
-		{
-			x: -5.700000000000001d
-			y: 1.9000000000000004d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "69F148FE18DA90FF"
-			tasks: [{
-				id: "70EBB9AA5268E067"
-				type: "item"
-				item: "silents_mechanisms:basic_alloy_smelter"
-			}]
-			rewards: [{
-				id: "00575CEA1500708B"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -6.200000000000001d
-			y: 2.9000000000000004d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "5244383D4F13978B"
-			tasks: [{
-				id: "7DEDFA0BF9DC07D5"
-				type: "item"
-				item: "silents_mechanisms:basic_crusher"
-			}]
-			rewards: [{
-				id: "7F4A2F6E07C26207"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -7.700000000000001d
-			y: 1.4d
-			dependencies: [
-				"5244383D4F13978B"
-				"69F148FE18DA90FF"
-			]
-			id: "1972FA7A42F9839F"
-			tasks: [{
-				id: "3DF2AB028244EEE8"
-				type: "item"
-				item: "silents_mechanisms:coal_generator"
-			}]
-			rewards: [{
-				id: "7B521F646BFF5904"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -4.800000000000001d
-			y: 2.8000000000000003d
-			id: "1D0A9E72FAAF4011"
-			tasks: [{
-				id: "7B9729278A79CA25"
-				type: "item"
-				item: "silents_mechanisms:diesel_generator"
-			}]
-			rewards: [{
-				id: "39A7A1B82A7789A0"
-				type: "ftbmoney:money"
-				ftb_money: 400L
-			}]
-		}
-		{
-			x: -2.6999999999999997d
-			y: 1.4d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "195F7609A14088C3"
-			tasks: [{
-				id: "5B27301DFD08007F"
-				type: "item"
-				item: "silents_mechanisms:crusher"
-			}]
-			rewards: [
-				{
-					id: "4545F6B9C8ED7CB7"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "54374B1CBCB4B05B"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -2.6999999999999997d
-			y: 3.4000000000000004d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "0EF33D9D71F9B093"
-			tasks: [{
-				id: "31F870D433BF9D2F"
-				type: "item"
-				item: "silents_mechanisms:alloy_smelter"
-			}]
-			rewards: [
-				{
-					id: "47BC439A05578E23"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "5D144772AF11D951"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -3.700000000000001d
-			y: 5.399999999999999d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "1A61FCE88AF73A0A"
-			tasks: [{
-				id: "7B090F3BD4332E77"
-				type: "item"
-				item: "silents_mechanisms:electric_furnace"
-			}]
-			rewards: [
-				{
-					id: "1189ABB04AFADE34"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "39043F83D647C7ED"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -3.1999999999999997d
-			y: 4.4d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "49A331F64BDE8CFE"
-			tasks: [{
-				id: "1E1DE47E403EC383"
-				type: "item"
-				item: "silents_mechanisms:solidifier"
-			}]
-			rewards: [
-				{
-					id: "56A5ECB6A977DE76"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "7AFB019CE4219D2A"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -2.6999999999999997d
-			y: 2.4000000000000004d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "1AFFC1B482689AA3"
-			tasks: [{
-				id: "7226DF057034F4B7"
-				type: "item"
-				item: "silents_mechanisms:infuser"
-			}]
-			rewards: [
-				{
-					id: "5463BAF2B556AB5E"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "19C66E4D0BE2E884"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -3.700000000000001d
-			y: 0.8999999999999999d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "7D5777FD00210E34"
-			tasks: [{
-				id: "7433558E6903718A"
-				type: "item"
-				item: "silents_mechanisms:pump"
-			}]
-			rewards: [
-				{
-					id: "0AFD46C9E3665EB3"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "4C2B06AA4E181170"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -4.700000000000001d
-			y: 5.399999999999999d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "45C0C8DD02136873"
-			tasks: [{
-				id: "2F6EBFD57E651C19"
-				type: "item"
-				item: "silents_mechanisms:lava_generator"
-			}]
-			rewards: [
-				{
-					id: "47AD8AD5453FD680"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "1883FAB6BD7ED143"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -4.700000000000001d
-			y: 0.8999999999999999d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "4A00CF0B04E9D378"
-			tasks: [{
-				id: "6D08811728D02AEF"
-				type: "item"
-				item: "silents_mechanisms:mixer"
-			}]
-			rewards: [
-				{
-					id: "7D560899927665BD"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "5927E12DBAB64A17"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -5.700000000000001d
-			y: 5.399999999999999d
-			dependencies: ["1D0A9E72FAAF4011"]
-			id: "6900FE4A79B3DE4D"
-			tasks: [{
-				id: "0284585F8B24FDC8"
-				type: "item"
-				item: "silents_mechanisms:refinery"
-			}]
-			rewards: [
-				{
-					id: "689BE02102855DD7"
-					type: "ftbmoney:money"
-					ftb_money: 600L
-				}
-				{
-					id: "186E88290B13DBF8"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
 		}
 		{
 			title: "Industrial Foregoing"
@@ -1298,54 +1025,8 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -2.5d
 			y: 0.0d
-			id: "0B3F57E677B6C88C"
-			tasks: [{
-				id: "03A7BCB050498B88"
-				type: "item"
-				item: {
-					id: "mininggadgets:mininggadget_simple"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "4F002D411A45822A"
-				type: "ftbmoney:money"
-				ftb_money: 750L
-			}]
-		}
-		{
-			x: 1.0d
-			y: 0.0d
-			id: "244F7D7F027DC810"
-			tasks: [{
-				id: "12C3B861A43B225A"
-				type: "item"
-				item: {
-					id: "buildinggadgets:gadget_building"
-					Count: 1b
-					tag: {
-						state: {
-							serializer: "buildinggadgets:dummy_serializer"
-							state: {
-								Name: "minecraft:air"
-							}
-							data: { }
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "78F5BC6BE9777A8E"
-				type: "ftbmoney:money"
-				ftb_money: 750L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 3.0d
 			id: "309DF866EFC85914"
 			tasks: [{
 				id: "7C12FE311B86886D"
@@ -1366,8 +1047,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 4.0d
+			x: -2.5d
+			y: 1.0d
 			dependencies: ["309DF866EFC85914"]
 			id: "52C4ADF09E84B194"
 			tasks: [{
@@ -1389,8 +1070,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 5.0d
+			x: -2.5d
+			y: 2.0d
 			dependencies: ["52C4ADF09E84B194"]
 			id: "4D0DCA9C8BDD6989"
 			tasks: [{
@@ -1945,138 +1626,6 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 7.0d
-			id: "6340B2F9981C377F"
-			tasks: [{
-				id: "600F0753040D0BDC"
-				type: "item"
-				item: "quarryplus:workbenchplus"
-			}]
-			rewards: [{
-				id: "2052861B30A3983E"
-				type: "ftbmoney:money"
-				ftb_money: 1250L
-			}]
-		}
-		{
-			x: -3.0d
-			y: 8.0d
-			dependencies: ["6340B2F9981C377F"]
-			id: "0EE8B6A21CB94DC0"
-			tasks: [{
-				id: "7695E38758545A6F"
-				type: "item"
-				item: "quarryplus:statuschecker"
-			}]
-			rewards: [{
-				id: "1B230D04BB8778E1"
-				type: "ftbmoney:money"
-				ftb_money: 750L
-			}]
-		}
-		{
-			x: -1.5d
-			y: 8.0d
-			dependencies: ["6340B2F9981C377F"]
-			id: "19F22BBA42D7D4CA"
-			tasks: [{
-				id: "2B1BA662ABD24C4F"
-				type: "item"
-				item: "quarryplus:markerplus"
-			}]
-			rewards: [{
-				id: "2BF777269E18AE1A"
-				type: "ftbmoney:money"
-				ftb_money: 750L
-			}]
-		}
-		{
-			x: -2.0d
-			y: 9.0d
-			dependencies: ["19F22BBA42D7D4CA"]
-			id: "7CEBD0C56A74DB86"
-			tasks: [{
-				id: "6B6CDAB039F854CA"
-				type: "item"
-				item: "quarryplus:pumpplus"
-			}]
-			rewards: [
-				{
-					id: "1B84CE3F194B978A"
-					type: "ftbmoney:money"
-					ftb_money: 1500L
-				}
-				{
-					id: "7BC4A5E3317D31E9"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -0.5d
-			y: 8.0d
-			dependencies: ["19F22BBA42D7D4CA"]
-			id: "5B837AC050EBD9AD"
-			tasks: [{
-				id: "2DC4A4FA0767B25D"
-				type: "item"
-				item: "quarryplus:solidquarry"
-			}]
-			rewards: [
-				{
-					id: "102DB605748C2F70"
-					type: "ftbmoney:money"
-					ftb_money: 1500L
-				}
-				{
-					id: "79B8B38CD30324F3"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: 9.0d
-			dependencies: ["19F22BBA42D7D4CA"]
-			id: "632434D02ECF3988"
-			tasks: [{
-				id: "367B33AA9DA62FAA"
-				type: "item"
-				item: "quarryplus:quarry"
-			}]
-			rewards: [
-				{
-					id: "39BD25C30126E3DF"
-					type: "ftbmoney:money"
-					ftb_money: 1500L
-				}
-				{
-					id: "43A6D8694A6B3BFD"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: 6.5d
-			dependencies: ["6340B2F9981C377F"]
-			id: "48157798FE073A66"
-			tasks: [{
-				id: "47DFCD6622C70B96"
-				type: "item"
-				item: "quarryplus:miningwellplus"
-			}]
-			rewards: [{
-				id: "228DCC755EA7CC5B"
-				type: "ftbmoney:money"
-				ftb_money: 750L
-			}]
-		}
-		{
 			title: "PneumaticCraft : Repressurized"
 			x: -18.5d
 			y: 2.0d
@@ -2628,6 +2177,229 @@
 				id: "74CC0E2136C282E9"
 				type: "ftbmoney:money"
 				ftb_money: 650L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			description: ["Very useful for telling what goes in and out of your RF system."]
+			id: "628937F23E5901EF"
+			tasks: [{
+				id: "0FC4D412C6B99F7E"
+				type: "item"
+				item: "energymeter:meter"
+			}]
+			rewards: [{
+				id: "299001A3A5CF7C07"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Little Logistics"
+			x: -3.75d
+			y: 5.25d
+			subtitle: "Everything you need to know about Little Logistics"
+			size: 1.5d
+			id: "7BD6E13612CCED60"
+			tasks: [{
+				id: "24F29C34592EF6B5"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "72803FBB99A0621A"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			title: "Docks"
+			x: -5.5d
+			y: 5.0d
+			description: ["Remember when hooking up docks together look at the top of the blocks so it's aligned"]
+			dependencies: ["7BD6E13612CCED60"]
+			id: "156E35E8387F04F0"
+			tasks: [
+				{
+					id: "50E911D3CD1AEBA8"
+					type: "item"
+					item: "littlelogistics:tug_dock"
+				}
+				{
+					id: "16C56BF657CDF458"
+					type: "item"
+					item: "littlelogistics:barge_dock"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "3F3F27C0C52CA92A"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			title: "Vessels Part 1"
+			x: -2.5d
+			y: 6.5d
+			subtitle: "Use the chains to connect!"
+			dependencies: ["7BD6E13612CCED60"]
+			id: "7C7C68BB4E66E205"
+			tasks: [
+				{
+					id: "3CA6DACB99A8BD35"
+					type: "item"
+					item: "littlelogistics:tug"
+				}
+				{
+					id: "1FB89AD1F35E4772"
+					type: "item"
+					item: "littlelogistics:fluid_barge"
+				}
+				{
+					id: "31370307294747F2"
+					type: "item"
+					item: "littlelogistics:barge"
+				}
+				{
+					id: "0A3BAC9800055C2F"
+					type: "item"
+					item: "littlelogistics:seater_barge"
+				}
+				{
+					id: "4FC90169DF0934B7"
+					type: "item"
+					item: {
+						id: "littlelogistics:spring"
+						Count: 1b
+						tag: { }
+					}
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "6885BCFD1DD2F070"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			subtitle: "With this you can set up a route for your tug!"
+			dependencies: ["7BD6E13612CCED60"]
+			id: "54C1B6B407A940E2"
+			tasks: [{
+				id: "1E582053D4EA2A3B"
+				type: "item"
+				item: "littlelogistics:tug_route"
+			}]
+			rewards: [{
+				id: "742A6D2B3CB6062B"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			title: "Vessels Part 2"
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["7C7C68BB4E66E205"]
+			id: "345FD37F1824794E"
+			tasks: [
+				{
+					id: "19039075A3B84A66"
+					type: "item"
+					item: "littlelogistics:energy_tug"
+				}
+				{
+					id: "658BA055FAF69E22"
+					type: "item"
+					item: "littlelogistics:fishing_barge"
+				}
+				{
+					id: "06E1AE090EB1AEA0"
+					type: "item"
+					item: "littlelogistics:chunk_loader_barge"
+				}
+			]
+			rewards: [{
+				id: "286EF89182722BE2"
+				type: "ftbmoney:money"
+				ftb_money: 700L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["7BD6E13612CCED60"]
+			id: "1B8C2E1273EAAE1A"
+			tasks: [{
+				id: "6DFDEE3F6FF8167D"
+				type: "item"
+				item: "littlelogistics:guide_rail_corner"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6EFA962F3B341927"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["7BD6E13612CCED60"]
+			id: "7594F8A41C06354E"
+			tasks: [{
+				id: "2B2F927BE133F1C7"
+				type: "item"
+				item: "littlelogistics:guide_rail_tug"
+				count: 8L
+			}]
+			rewards: [{
+				id: "455EFDB466D70023"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["7C7C68BB4E66E205"]
+			id: "1EC109AFDFD94577"
+			tasks: [{
+				id: "6FFDB29AB4E9F374"
+				type: "item"
+				item: "littlelogistics:fluid_hopper"
+			}]
+			rewards: [{
+				id: "67A5D94449EA7E6E"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			dependencies: ["345FD37F1824794E"]
+			id: "74E2257B48E874D9"
+			tasks: [{
+				id: "14846241D1BFA14A"
+				type: "item"
+				item: "littlelogistics:vessel_charger"
+			}]
+			rewards: [{
+				id: "55DFE19A1E63760D"
+				type: "ftbmoney:money"
+				ftb_money: 450L
 			}]
 		}
 	]

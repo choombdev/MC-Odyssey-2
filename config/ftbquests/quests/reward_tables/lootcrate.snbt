@@ -252,7 +252,6 @@
 			}
 			weight: 35
 		}
-		{ item: "tdelight:gildedfern_ingot", count: 12, weight: 38 }
 		{ item: "industrialforegoing:mob_imprisonment_tool", weight: 65 }
 		{ item: "botanypots:botany_pot", count: 10, weight: 45 }
 		{ item: "fluxnetworks:flux_dust", count: 64, weight: 30 }
@@ -291,36 +290,6 @@
 		}
 		{ item: "mowziesmobs:glowing_jelly", count: 10, weight: 70 }
 		{ item: "twilightforest:steeleaf_ingot", count: 16, weight: 65 }
-		{
-			item: {
-				id: "spartanweaponry:greatsword_stone"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 80
-		}
-		{
-			item: {
-				id: "spartanweaponry:lance_wood"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 80
-		}
-		{
-			item: {
-				id: "spartanweaponry:dagger_wood"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 80
-		}
 		{
 			item: {
 				id: "cyclic:spawn_inspector"
@@ -387,7 +356,6 @@
 		{ item: "torchmaster:feral_flare_lantern", weight: 60 }
 		{ item: "torchmaster:megatorch", weight: 50 }
 		{ item: "pipez:item_pipe", count: 8, weight: 70 }
-		{ item: "omgourd:jack_o_lantern_11", weight: 80 }
 	]
 	loot_crate: {
 		drops: {

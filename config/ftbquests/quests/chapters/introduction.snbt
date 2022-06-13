@@ -96,42 +96,67 @@
 			x: -7.5d
 			y: 4.0d
 			subtitle: "Let's start making tools, shall we?"
-			description: ["Craft a Tinker's Construct Crafting Station, Tool Station and a Part Builder."]
+			description: [
+				"Craft a Tinker's Construct Crafting Station, Tool Station and a Part Builder.              "
+				" *Unlocks Tinkers' Construct Questline*"
+			]
 			dependencies: ["14168BB4FF230CBD"]
 			id: "289D664C1EAF075A"
 			tasks: [
 				{
-					id: "72296F36E15808E1"
+					id: "3620E10BBBC06234"
 					type: "item"
-					title: "Any #tconstruct:tables"
 					item: {
-						id: "itemfilters:tag"
+						id: "tconstruct:crafting_station"
 						Count: 1b
-						tag: {
-							value: "tconstruct:tables"
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 				{
-					id: "1C462D0089FAE3C9"
+					id: "22D6BB645E7CE23E"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "365F7A80468ABDE1"
 					type: "item"
 					item: {
 						id: "tconstruct:part_builder"
 						Count: 1b
-						tag: {
-							texture: "minecraft:oak_planks"
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 				{
-					id: "1475907C2030AE29"
+					id: "5A4539874D9434BB"
 					type: "item"
-					item: "tconstruct:part_chest"
-				}
-				{
-					id: "64E2F4F2C774207C"
-					type: "item"
-					item: "tconstruct:materials_and_you"
+					item: {
+						id: "tconstruct:part_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -139,107 +164,6 @@
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
-		}
-		{
-			title: "Tinker Smeltery"
-			x: -8.0d
-			y: 5.0d
-			description: ["To make metal tools you'll need a smeltery, so, make one!"]
-			dependencies: ["289D664C1EAF075A"]
-			id: "29972BDE24023AC5"
-			tasks: [
-				{
-					id: "2E2D987BA42F08B8"
-					type: "item"
-					item: "tconstruct:seared_bricks"
-					count: 16L
-				}
-				{
-					id: "2B072A348DFBB956"
-					type: "item"
-					item: "tconstruct:seared_fuel_tank"
-				}
-				{
-					id: "0232BE6A7E90FBA6"
-					type: "item"
-					item: "tconstruct:seared_drain"
-					count: 3L
-				}
-				{
-					id: "242EBA9A7D406361"
-					type: "item"
-					item: "tconstruct:seared_basin"
-				}
-				{
-					id: "19145E66053F2B28"
-					type: "item"
-					item: "tconstruct:seared_faucet"
-					count: 3L
-				}
-				{
-					id: "0B033C68D854F767"
-					type: "item"
-					item: "tconstruct:seared_table"
-					count: 2L
-				}
-				{
-					id: "2A4841A358627EF1"
-					type: "item"
-					item: "tconstruct:smeltery_controller"
-				}
-				{
-					id: "261AA7D4763D5282"
-					type: "item"
-					item: "tconstruct:puny_smelting"
-				}
-				{
-					id: "67CF57E2DE04DE31"
-					type: "item"
-					item: "tconstruct:fantastic_foundry"
-				}
-			]
-			rewards: [
-				{
-					id: "2E08D347FAAEFFD0"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "18B5F5F9F7950BDE"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -8.5d
-			y: 6.0d
-			description: ["Making Actual tools now!"]
-			dependencies: ["29972BDE24023AC5"]
-			id: "060256CA4AE8F941"
-			tasks: [{
-				id: "2E0FED6B2DEA3EBA"
-				type: "item"
-				item: {
-					id: "tconstruct:tinkers_anvil"
-					Count: 1b
-					tag: {
-						texture: "mekanism:block_steel"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1F6D38B015B3C02B"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "4C7BC81CB2CF7CFF"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
 		}
 		{
 			x: -5.0d
@@ -259,22 +183,6 @@
 			}]
 			rewards: [{
 				id: "378025F7EB8DF8F0"
-				type: "ftbmoney:money"
-				ftb_money: 250L
-			}]
-		}
-		{
-			x: -4.0d
-			y: 0.5d
-			dependencies: ["14168BB4FF230CBD"]
-			id: "77DE382CC78DA0A9"
-			tasks: [{
-				id: "06F9CDC00688D1F6"
-				type: "item"
-				item: "toolbelt:belt"
-			}]
-			rewards: [{
-				id: "70B1448C2FEFF884"
 				type: "ftbmoney:money"
 				ftb_money: 250L
 			}]
@@ -707,17 +615,6 @@
 			id: "258750A5132B5FA8"
 			tasks: [
 				{
-					id: "5A819252365B5C1D"
-					type: "item"
-					item: {
-						id: "mining_helmet:mining_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "124C823BDAFB53CB"
 					type: "item"
 					item: {
@@ -783,38 +680,6 @@
 				id: "121352244B5FF422"
 				type: "ftbmoney:money"
 				ftb_money: 200L
-			}]
-		}
-		{
-			x: 1.0d
-			y: 3.5d
-			dependencies: ["745984480906EDA9"]
-			id: "58302DECD722BBF0"
-			tasks: [{
-				id: "501BA7A46B87AC82"
-				type: "item"
-				item: "rats:cheese_stick"
-			}]
-			rewards: [{
-				id: "0F4934E5AEA6C2B9"
-				type: "ftbmoney:money"
-				ftb_money: 200L
-			}]
-		}
-		{
-			x: 1.5d
-			y: 4.5d
-			dependencies: ["58302DECD722BBF0"]
-			id: "2FC8FDC98F02BB1B"
-			tasks: [{
-				id: "0064016BAA72114A"
-				type: "item"
-				item: "rats:rat_upgrade_basic"
-			}]
-			rewards: [{
-				id: "5E116EE123B66AB4"
-				type: "ftbmoney:money"
-				ftb_money: 250L
 			}]
 		}
 		{
@@ -943,21 +808,6 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
-			id: "1C167BBB2C106D09"
-			tasks: [{
-				id: "2F1A67152A777D5B"
-				type: "item"
-				item: "cookingforblockheads:cow_jar"
-			}]
-			rewards: [{
-				id: "3B786F4CD4B51725"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
 			x: -6.5d
 			y: 0.0d
 			dependencies: ["14168BB4FF230CBD"]
@@ -974,44 +824,11 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
-			dependencies: ["1C167BBB2C106D09"]
-			id: "745984480906EDA9"
-			tasks: [{
-				id: "030B53C012D8C02C"
-				type: "item"
-				item: "rats:cheese"
-				count: 32L
-			}]
-			rewards: [{
-				id: "1F881102EFF6EF33"
-				type: "ftbmoney:money"
-				ftb_money: 250L
-			}]
-		}
-		{
-			x: 1.0d
-			y: 2.0d
-			dependencies: ["745984480906EDA9"]
-			id: "5B136BA45276EB0B"
-			tasks: [{
-				id: "643D2D697D40498C"
-				type: "item"
-				item: "rats:auto_curdler"
-			}]
-			rewards: [{
-				id: "46122E334F5478EC"
-				type: "ftbmoney:money"
-				ftb_money: 750L
-			}]
-		}
-		{
 			title: "The Shop!"
-			x: -7.5d
-			y: 8.5d
+			x: -8.5d
+			y: 6.0d
 			description: [
-				"Once you've got enough money, head over to the shop on the top right corner and buy stuff!"
+				"Once you've got enough money, head over to the shop on the top right corner and buy coins!"
 				"Also, if you happen to lose your money, do /pay @p 1 and you'll get it back!"
 			]
 			id: "067503F948A4F5DE"
@@ -1078,6 +895,199 @@
 				id: "2AE7BA253373CA08"
 				type: "ftbmoney:money"
 				ftb_money: 250L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 6.0d
+			subtitle: "Better than Crypto!"
+			description: ["Once you've got enough money on you (Or want to enter the market yourself as a seller) you can go on and start making some sweet moolah through this place (Or buy items if you're lazy but, the prices are going to be WAAY higher)"]
+			id: "16D890637A64E7A9"
+			tasks: [{
+				id: "3CA7BA60AD2F6EEB"
+				type: "item"
+				item: "calemiutils:market"
+			}]
+			rewards: [{
+				id: "4A903D26BA190E5A"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.0d
+			subtitle: "Cha-ching!"
+			description: ["Now, make yourself a wallet to store all those casheronies and you're ready to go!"]
+			id: "77F40E94C3344285"
+			tasks: [{
+				id: "0F6C56F8CBD7F623"
+				type: "item"
+				item: {
+					id: "calemiutils:wallet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.0d
+			id: "2FE32173AC42E118"
+			tasks: [{
+				id: "13DE0DEBF807BCD5"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [
+				{
+					id: "621D280A4DBBE99A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "24DE84F1A2623488"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["14168BB4FF230CBD"]
+			id: "0B3F3FA515D5126C"
+			tasks: [{
+				id: "400B780A64036F0B"
+				type: "item"
+				item: "omni_card:blank_card"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7202B24B224B2468"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			title: "Craft them all Cores!"
+			x: -4.0d
+			y: -1.0d
+			dependencies: ["0B3F3FA515D5126C"]
+			id: "522AEE6AEE735961"
+			tasks: [
+				{
+					id: "300C6D9FD3FB1E84"
+					type: "item"
+					item: "omni_card:field_core"
+					count: 8L
+				}
+				{
+					id: "7B97A6207772DA22"
+					type: "item"
+					item: "omni_card:purification_core"
+					count: 8L
+				}
+				{
+					id: "68FCCA88E9E82E63"
+					type: "item"
+					item: "omni_card:seal_core"
+					count: 8L
+				}
+				{
+					id: "7FEF3D986B79E25C"
+					type: "item"
+					item: "omni_card:sunny_core"
+					count: 8L
+				}
+				{
+					id: "4F2C8486E84E2B18"
+					type: "item"
+					item: "omni_card:rainy_core"
+					count: 8L
+				}
+				{
+					id: "704BC2A444C64D64"
+					type: "item"
+					item: "omni_card:thunderstorm_core"
+					count: 8L
+				}
+				{
+					id: "61CADBFCAFF364BE"
+					type: "item"
+					item: "omni_card:bloom_core"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "64E4F8A347FE228E"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "407855770BC18667"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "The power to control the weather!"
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["0B3F3FA515D5126C"]
+			id: "0D9911C927F08A52"
+			tasks: [
+				{
+					id: "5975328C9B5AEE7E"
+					type: "item"
+					item: "omni_card:sunny_card"
+					count: 4L
+				}
+				{
+					id: "0BDD78FD963DDBA4"
+					type: "item"
+					item: "omni_card:rainy_card"
+					count: 2L
+				}
+				{
+					id: "736ACE6244E85DE6"
+					type: "item"
+					item: "omni_card:thunderstorm_card"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "3BDAA41C1BF8E721"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			title: "Peace and Quiet"
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["0B3F3FA515D5126C"]
+			id: "315FC5E882834E41"
+			tasks: [
+				{
+					id: "6977B12B852D8D62"
+					type: "item"
+					item: "omni_card:seal_card"
+					count: 4L
+				}
+				{
+					id: "2DAB41333A2DFC65"
+					type: "item"
+					item: "omni_card:bloom_card"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "02B3526EDA5E292E"
+				type: "ftbmoney:money"
+				ftb_money: 500L
 			}]
 		}
 	]

@@ -1,0 +1,1807 @@
+{
+	id: "7D3363343B94D430"
+	group: "4E139BB973FD0007"
+	order_index: 4
+	filename: "tinkers_construct"
+	title: "Tinkers' Construct"
+	icon: "tconstruct:earth_slime_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 9.5d
+			y: 1.0d
+			subtitle: "Everything you need to know about Tinkers'"
+			dependencies: ["29AFF0C0C3E8F30C"]
+			id: "42E1559A156B61A7"
+			tasks: [{
+				id: "2FCD65F9DA5A0A58"
+				type: "item"
+				item: {
+					id: "tconstruct:encyclopedia"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "73F727B0354F9AD3"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			title: "Grout"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "Get 20 grout"
+			description: ["and I will give you something as a extra"]
+			dependencies: ["289D664C1EAF075A"]
+			id: "01B1A14F8CD36B3C"
+			tasks: [{
+				id: "3ED3083CA419C79D"
+				type: "item"
+				item: {
+					id: "tconstruct:grout"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 20L
+			}]
+			rewards: [
+				{
+					id: "6210AADDA99BB674"
+					type: "item"
+					item: {
+						id: "tconstruct:puny_smelting"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: "melter.melter"
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "15D7A28527F0F1A8"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_brick"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "02BE45E24C9B6D24"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "Starter Smeltery"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "So smol"
+			dependencies: ["01B1A14F8CD36B3C"]
+			id: "48302D7B3FBEBAAF"
+			tasks: [
+				{
+					id: "313EEF791A8DDC76"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_heater"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "034BFDE802A3D37A"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_melter"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3AE0CFE4945FC6DC"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_basin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7B2092120DBD840E"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_table"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5F07E50492CC2834"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_faucet"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "64B7A22FA6E831C0"
+					type: "item"
+					item: {
+						id: "tconstruct:mighty_smelting"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: "smeltery.features"
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "41EC9E8361DF98EE"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+				{
+					id: "60F58B8050CA76BD"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Traveler's Gear"
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Not the best but it's something"
+			description: ["Craft some simple Traveler armor, offers alot of modification"]
+			dependencies: ["01B1A14F8CD36B3C"]
+			id: "0421134FAFF79D7C"
+			tasks: [
+				{
+					id: "70807BAD2A770EFA"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 110.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "699CB77743FEA663"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 160.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "220DDE9599A4A158"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 150.0f
+								"tconstruct:armor": 4.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7DCD74CCE69CFD86"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 130.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5BD11F4E84877E31"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			title: "Real Smeltery"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "Bigger and Better"
+			dependencies: ["48302D7B3FBEBAAF"]
+			id: "309E5ED488BB8BF3"
+			tasks: [
+				{
+					id: "66D886C7895AAEE2"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 36L
+				}
+				{
+					id: "519E26DFE44A39BF"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_drain"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "0445A6B44081688D"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_fuel_tank"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5BADE128A64ABF05"
+					type: "item"
+					item: {
+						id: "tconstruct:smeltery_controller"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0F1C1F63AC0C1844"
+					type: "item"
+					item: {
+						id: "minecraft:lava_bucket"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "10822302F425770A"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			subtitle: "Slightly inferior to Diamond Armor"
+			description: ["Remember that you can modify tinkers' armor "]
+			dependencies: ["3EA2BB1ED3090CE1"]
+			id: "1FC29C9380F96522"
+			tasks: [
+				{
+					id: "0CBF19CC12C9290B"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 330.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "070D1FCE12B6D868"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 480.0f
+								"tconstruct:armor": 7.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "73ED2363DCE1674A"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 450.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6A9EAF373BB32605"
+					type: "item"
+					item: {
+						id: "tconstruct:plate_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:durability": 390.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "04CA86EF0980E515"
+					type: "item"
+					item: {
+						id: "minecraft:diamond"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2EFAF93F31E24873"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "Bigger tools!"
+			description: ["With the new Smeltery you gotta have bigger tools too!"]
+			dependencies: ["309E5ED488BB8BF3"]
+			id: "4D3E83CF67F19B09"
+			tasks: [{
+				id: "0AE08696A378057B"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E15F72F08FBC7F0"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "384EBFB48A27E4E6"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			subtitle: "For when you have gold ingots"
+			description: ["Have some gold in return"]
+			dependencies: ["309E5ED488BB8BF3"]
+			id: "3A3225B7AC33FEF8"
+			tasks: [
+				{
+					id: "6743A6B2029F433F"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade_cast"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6E16E87C5F857394"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head_cast"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "51E45A1FA14857A9"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head_cast"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "47B95B1D5FB40B36"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding_cast"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3D8D069AAC9C4630"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle_cast"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1DBF926031A83C09"
+					type: "item"
+					item: {
+						id: "minecraft:gold_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "571568EE1D999D4B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "For when you don't have gold ingots"
+			description: ["Can only be used once"]
+			dependencies: ["48302D7B3FBEBAAF"]
+			id: "5D3CD39DE3368CE4"
+			tasks: [{
+				id: "56E520BBA8C346B2"
+				type: "item"
+				item: {
+					id: "tconstruct:blank_sand_cast"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "3C5A0E4AA1FCC0A7"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			title: "Slime Gear"
+			x: 3.5d
+			y: -3.5d
+			subtitle: "Cover the head with enderslime"
+			dependencies: [
+				"12DA750C2AE931AF"
+				"1FBEEDED4FECD134"
+			]
+			id: "5444AC6F27B0DBD2"
+			tasks: [
+				{
+					id: "65F3847DA4276FCE"
+					type: "item"
+					title: "Mob Head"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:blaze_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:enderman_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:stray_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:husk_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:drowned_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:spider_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:cave_spider_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "minecraft:zombie_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "minecraft:creeper_head"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "minecraft:skeleton_skull"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "minecraft:wither_skeleton_skull"
+									Count: 1b
+								}
+							]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4D02B01F66862A0E"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 672.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [{
+								name: "tconstruct:wings"
+								level: 1s
+							}]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:elyta": 1b
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4515D4BFAA11D8E5"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 630.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:pockets"
+									level: 1s
+								}
+								{
+									name: "tconstruct:protection"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:total_item_slots": 9
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4E502A61F6668CCF"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7E75A901A3E6E445"
+					type: "random"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0CA0B6047338CADA"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			subtitle: "You can find enderslime in the end"
+			dependencies: ["1FC29C9380F96522"]
+			id: "12DA750C2AE931AF"
+			tasks: [{
+				id: "1C4B5077DD1CA252"
+				type: "item"
+				item: {
+					id: "tconstruct:ender_slime_ball"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "3A158408FB76F3AF"
+				type: "random"
+				table_id: 28899073401794277L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "THATS HOT!!"
+			description: ["Pro tip: Take your smeltery with you to a blaze spawner"]
+			dependencies: ["309E5ED488BB8BF3"]
+			id: "770BA1C5D5DDA6B6"
+			tasks: [{
+				id: "6392E5D496A53906"
+				type: "item"
+				item: {
+					id: "tconstruct:blazing_blood_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2917F48F2BE751AC"
+					type: "item"
+					item: {
+						id: "tconstruct:blaze_head"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6EC2392BCA588416"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Best Early Pickaxe"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Before Nether"
+			description: ["If you haven't been in the nether then you better make a pretty good pickaxe for all the mining"]
+			dependencies: ["48302D7B3FBEBAAF"]
+			id: "24C79AE5F88E6F48"
+			tasks: [
+				{
+					id: "3B2904EBB75EA094"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "bettercompat:amethyst"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5C7A942D0E646F60"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "bettercompat:sapphire"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "02648C76880A6C11"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:bronze"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4FAB902867417BCF"
+					type: "item"
+					item: {
+						id: "minecraft:writable_book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3F4B6C7D9AB57D5F"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Everything needs an upgrade"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "With this nothing can stop you!"
+			description: ["You can always switch parts!"]
+			dependencies: ["24C79AE5F88E6F48"]
+			id: "00B1CE595AF26C06"
+			tasks: [{
+				id: "662260956E141B89"
+				type: "item"
+				title: "Mining Level 5 Pickaxe Head"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "mysticalagradditions:supremium"
+								}
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "bettercompat:aurinium"
+								}
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "297EABCE30C3266E"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "7F593BC87EC2E4AA"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			subtitle: "Spare discs anyone?"
+			description: ["Remember that you can add more upgrades and ability slots with certain items (check Tinkers' encyclopedia)"]
+			dependencies: ["24C79AE5F88E6F48"]
+			id: "5746E2522C3B5027"
+			tasks: [{
+				id: "352AE6DBB0260388"
+				type: "checkmark"
+				title: "Bonus!"
+			}]
+			rewards: [{
+				id: "487231732775BDB3"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "Cleaver"
+			x: 3.0d
+			y: -1.0d
+			subtitle: "Pretty handy Cleaver"
+			dependencies: ["4D3E83CF67F19B09"]
+			id: "7AB9925F5C1F31FF"
+			tasks: [
+				{
+					id: "2F808CDF1CD810AD"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_blade"
+						Count: 1b
+						tag: {
+							Material: "bettercompat:crystallized_obsidian"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "730ADE65E1E309C7"
+					type: "item"
+					title: "Large Plate"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:large_plate"
+									Count: 1b
+									tag: {
+										Material: "bettercompat:crystallized_obsidian"
+									}
+								}
+								{
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "tconstruct:large_plate"
+									Count: 1b
+									tag: {
+										Material: "mysticalagradditions:supremium"
+									}
+								}
+							]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "74F10505B040A78A"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:nahuatl"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0317131BED778AB9"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "bettercompat:ruby"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "38547605FA746EB0"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "730890EBB1A41C33"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "Foundry"
+			x: 8.0d
+			y: 1.0d
+			subtitle: "Gives you byproducts and can't alloy"
+			dependencies: ["3983004F78C57DB0"]
+			id: "29AFF0C0C3E8F30C"
+			tasks: [
+				{
+					id: "7142D3F6CEE00B82"
+					type: "item"
+					item: {
+						id: "tconstruct:foundry_controller"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3B59B64FD17081EA"
+					type: "item"
+					item: {
+						id: "tconstruct:scorched_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 166L
+				}
+				{
+					id: "301A085191095FEE"
+					type: "item"
+					item: {
+						id: "tconstruct:scorched_fuel_tank"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5558647108A9E321"
+					type: "item"
+					item: {
+						id: "tconstruct:scorched_drain"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "20A4BDE0D3DB31D1"
+					type: "item"
+					item: {
+						id: "tconstruct:scorched_faucet"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4A29F7961ED76604"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "3E6E63F0633BA4A0"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["309E5ED488BB8BF3"]
+			id: "3983004F78C57DB0"
+			tasks: [{
+				id: "04DECA14CA3BECBB"
+				type: "item"
+				item: {
+					id: "tconstruct:nether_grout"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 128L
+			}]
+			rewards: [
+				{
+					id: "31C500A86E374395"
+					type: "item"
+					item: {
+						id: "tconstruct:fantastic_foundry"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: "foundry.byproducts"
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6AB27E929861518B"
+					type: "item"
+					item: {
+						id: "tconstruct:scorched_brick"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "2FD50ACC63754B29"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			subtitle: "R.I.P Ardite"
+			dependencies: ["770BA1C5D5DDA6B6"]
+			id: "3EA2BB1ED3090CE1"
+			tasks: [{
+				id: "0129E2B888E491FD"
+				type: "item"
+				item: {
+					id: "tconstruct:manyullyn_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "558DEEF102CFC6E0"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "High Damage, Slow Speed"
+			description: ["And great for collecting heads"]
+			dependencies: ["4D3E83CF67F19B09"]
+			id: "1FBEEDED4FECD134"
+			tasks: [{
+				id: "41603D243EFA0F9B"
+				type: "item"
+				item: {
+					id: "tconstruct:cleaver"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.25f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.9f
+							"tconstruct:mining_speed": 0.25f
+							"tconstruct:attack_damage": 5.25f
+							"tconstruct:durability": 3.5f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:severing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						tic_materials: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "441F158CF6820EEA"
+					type: "item"
+					item: {
+						id: "minecraft:redstone_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "27411E9807B64440"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			subtitle: "Reduces the chances to lose durability"
+			id: "29D8E44183BCAC04"
+			tasks: [{
+				id: "6536355DA0CA5EC2"
+				type: "item"
+				item: {
+					id: "tconstruct:iron_reinforcement"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "4757988ABAC631E6"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			subtitle: "Adds More Overslime"
+			id: "770DFBCDDB0DF2CC"
+			tasks: [{
+				id: "0C9DD93F5FC52072"
+				type: "item"
+				item: {
+					id: "tconstruct:slimesteel_reinforcement"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "429F829DC7D75A2A"
+				type: "ftbmoney:money"
+				ftb_money: 450L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			subtitle: "Fire Protection"
+			id: "4D7C87567CFA8756"
+			tasks: [{
+				id: "1D92D4C8FC375AED"
+				type: "item"
+				item: {
+					id: "tconstruct:seared_reinforcement"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "03AD338D66930C6D"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			subtitle: "Magic Protection"
+			id: "7D3F230994E62ACB"
+			tasks: [{
+				id: "6E8198E400D86056"
+				type: "item"
+				item: {
+					id: "tconstruct:gold_reinforcement"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "71248DBC66F1811B"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			subtitle: "Blast Protection"
+			id: "79540D92B34B6B69"
+			tasks: [{
+				id: "132DBAF58E66A005"
+				type: "item"
+				item: {
+					id: "tconstruct:emerald_reinforcement"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "0B9E9844EE0133AC"
+				type: "ftbmoney:money"
+				ftb_money: 450L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.5d
+			subtitle: "Projectile Protection"
+			id: "2C63C6F41A36ADC3"
+			tasks: [{
+				id: "1C410E036D6342A3"
+				type: "item"
+				item: {
+					id: "tconstruct:bronze_reinforcement"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "6307A4D3DA391C70"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			subtitle: "Melee Protection"
+			id: "36395A73F26F3262"
+			tasks: [{
+				id: "5402D4DDCF4A6AEE"
+				type: "item"
+				item: {
+					id: "tconstruct:cobalt_reinforcement"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "11D31F2A0E3F4409"
+				type: "ftbmoney:money"
+				ftb_money: 450L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["309E5ED488BB8BF3"]
+			id: "328712532A6DFFAA"
+			tasks: [{
+				id: "7DF024BB60B1F0A4"
+				type: "item"
+				item: {
+					id: "tconstruct:cast_chest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "46F5A155C0965493"
+					type: "item"
+					item: {
+						id: "minecraft:gold_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "1D4DB1776D2597B5"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+	]
+}

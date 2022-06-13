@@ -1,0 +1,23 @@
+
+[flying_card_setting]
+	#Flying Card Brightness.
+	#Default is 0.2
+	#Range: 0.0 ~ 1.0
+	FLYING_CARD_SPEED = 0.2
+	#Should Flying Card Hurt Your Mount?
+	HURT_MOUNT = false
+	#Should Flying Card Hurt Your Pet?
+	HURT_PET = false
+
+[trap_card_setting]
+	#Trap Card Brightness.
+	#Default is 0
+	#Range: 0.0 ~ 1.0
+	TRAP_CARD_BRIGHTNESS = 0.0
+
+[field_card_setting]
+	#Field Card Brightness.
+	#Default is 3
+	#Range: 0 ~ 15
+	FIELD_CARD_BRIGHTNESS = 3
+

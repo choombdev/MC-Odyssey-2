@@ -2,10 +2,10 @@
 [towers]
 	#How rarely the towers will spawn (low: common, high: rare). Default: 20
 	#Range: 3 ~ 200
-	towerRarity = 20
+	towerRarity = 50
 	#How rarely the derelict towers will spawn (low: common, high: rare). Default: 72
 	#Range: 3 ~ 200
-	derelictTowerRarity = 72
+	derelictTowerRarity = 100
 	#Make towers spawn in the ocean. Default: true
 	spawnOceanTowers = true
 	#How rarely the ocean towers will spawn (low: common, high: rare). Default: 32

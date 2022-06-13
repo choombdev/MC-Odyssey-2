@@ -1,0 +1,667 @@
+{
+	id: "494945ED448C1217"
+	group: "4E139BB973FD0007"
+	order_index: 7
+	filename: "baubles__co"
+	title: "Baubles \\& Co"
+	icon: {
+		id: "cyclic:charm_antidote"
+		Count: 1b
+		tag: {
+			Damage: 0
+			onoff: 1
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.5d
+			y: -0.5d
+			id: "32B2E081AA214160"
+			tasks: [{
+				id: "0691055B1D7240F2"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AC352C9983FA260"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			title: "Charms"
+			x: -7.5d
+			y: -5.0d
+			id: "20EA8C84406F27E2"
+			tasks: [
+				{
+					id: "67E832D6850C6A99"
+					type: "item"
+					item: {
+						id: "cyclic:charm_speed"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "113BAED26A90122D"
+					type: "item"
+					item: {
+						id: "cyclic:charm_water"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0915610F69FF9204"
+					type: "item"
+					item: {
+						id: "cyclic:charm_wither"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BCCB2A98DE47FD4"
+					type: "item"
+					item: {
+						id: "cyclic:charm_antidote"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F648FD955E43532"
+					type: "item"
+					item: {
+						id: "cyclic:charm_void"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CBEEFF4D7C94879"
+					type: "item"
+					item: {
+						id: "cyclic:charm_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "237E6359E590EEA7"
+					type: "item"
+					item: {
+						id: "cyclic:antigravity"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "054B8AE5D5891AB7"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "42C93F7E087619DC"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -7.0d
+			id: "302151597387AF27"
+			tasks: [{
+				id: "7A109E6D16C0F881"
+				type: "item"
+				item: "bountifulbaubles:ankh_charm"
+			}]
+			rewards: [
+				{
+					id: "61F19924A8782A99"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "1E517F937EB52F59"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "34FBFB3EDAC36A85"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "6A13C36CCD92850B"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			subtitle: "Honey + Apple = Delicious"
+			id: "37F6D6DB6541D361"
+			tasks: [{
+				id: "0ACC3F9B00557734"
+				type: "item"
+				item: "cyclic:apple_honey"
+				count: 64L
+			}]
+			rewards: [{
+				id: "70F4D7DBD03783F8"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			id: "368ACFEDF396C1A8"
+			tasks: [{
+				id: "76052755663C4148"
+				type: "item"
+				item: "cyclic:anvil"
+			}]
+			rewards: [{
+				id: "0505FE6CAEA8A1FD"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			title: "Crystallized Gems"
+			x: -5.5d
+			y: -5.0d
+			id: "62E2287F02B4285D"
+			tasks: [
+				{
+					id: "67C9A354E8D0FD11"
+					type: "item"
+					item: "cyclic:gem_amber"
+					count: 16L
+				}
+				{
+					id: "77BCE505D41C82F0"
+					type: "item"
+					item: "cyclic:gem_obsidian"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "0ADA613D4E7ED533"
+				type: "ftbmoney:money"
+				ftb_money: 750L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			subtitle: "I'm a huge Odyssey fan"
+			id: "3DBA207CF3C21805"
+			tasks: [{
+				id: "47345C6E9C93559E"
+				type: "item"
+				item: "cyclic:fan"
+			}]
+			rewards: [{
+				id: "67A6AB1A0C91DBBE"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			id: "37E0E5D047DE80BA"
+			tasks: [
+				{
+					id: "6FBF652EC71A8506"
+					type: "item"
+					item: {
+						id: "cyclic:randomize_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E6E901F9B06282F"
+					type: "item"
+					item: {
+						id: "cyclic:build_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "286F9F898AB53490"
+					type: "item"
+					item: {
+						id: "cyclic:replace_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02140B80B371C68A"
+					type: "item"
+					item: {
+						id: "cyclic:offset_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5584D1C08313A021"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			subtitle: "Hmmm shouldn't this be in 2D?"
+			id: "366A3B0320B1444A"
+			tasks: [{
+				id: "4E1AB043F8A24EA3"
+				type: "item"
+				item: "cyclic:water_candle"
+			}]
+			rewards: [{
+				id: "5E91065E8BD02D40"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			subtitle: "Gateway to Hell"
+			description: ["Be careful when eating this, you will start to fall through blocks but will have infinite jumps for a limited time"]
+			id: "01DC54B4044367BE"
+			tasks: [{
+				id: "65EF93291B0D7B5D"
+				type: "item"
+				item: "cyclic:chorus_spectral"
+			}]
+			rewards: [{
+				id: "647DFD3569C6D9EA"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			subtitle: "Knock Knock, Who is it?"
+			id: "20338D21E8420C0E"
+			tasks: [{
+				id: "3534F02220755A36"
+				type: "item"
+				item: "cyclic:doorbell"
+			}]
+			rewards: [{
+				id: "2920487D632F490B"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			subtitle: "<3"
+			id: "63CC2975AA39C41E"
+			tasks: [{
+				id: "1630AF9E22E0769F"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+			rewards: [
+				{
+					id: "18A5BE7506BFD1B6"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "73A1FF30FBBFA39B"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_heart"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			subtitle: "The Holy Steak"
+			id: "4FA0C1F708699633"
+			tasks: [{
+				id: "29C74FB659BFF96C"
+				type: "item"
+				item: "artifacts:eternal_steak"
+			}]
+			rewards: [
+				{
+					id: "1E5A2A85490F4EE1"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "082E634C4A99A804"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "56201E4FD6BC55E9"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			id: "4EC7A179589C67B9"
+			tasks: [{
+				id: "3E38A959D9C1BDD3"
+				type: "item"
+				item: "artifacts:aqua_dashers"
+			}]
+			rewards: [{
+				id: "7D02E7D9BE426354"
+				type: "ftbmoney:money"
+				ftb_money: 350L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "How to become rich with one simple trick!"
+			id: "391B80098125BDA0"
+			tasks: [{
+				id: "5C6AE64D07DE6D74"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+			rewards: [
+				{
+					id: "3AA26198931874D6"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "0FB81C79928A25A9"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "52E80E1CDB59B46E"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			subtitle: "No need for a pickaxe!"
+			id: "26AA4E253D189A9C"
+			tasks: [{
+				id: "5751BE6A717FEDE4"
+				type: "item"
+				item: "artifacts:digging_claws"
+			}]
+			rewards: [
+				{
+					id: "004E8DFE40810C17"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "0E044277CC056154"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:strong_haste"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Why are you so attractive?"
+			id: "187E1D6C3C588EA7"
+			tasks: [{
+				id: "139641F2C15D960B"
+				type: "item"
+				item: "artifacts:universal_attractor"
+			}]
+			rewards: [{
+				id: "6EF1220EDFEDB668"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Where's the Pot-O-Gold?!"
+			id: "680B50F102252FA0"
+			tasks: [{
+				id: "34F7F966C4797F4F"
+				type: "item"
+				item: "artifacts:superstitious_hat"
+			}]
+			rewards: [{
+				id: "4C6D248765DD1638"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			subtitle: "FALCON PU- Wait, this is the wrong game!"
+			id: "20D928A2F46D64F2"
+			tasks: [
+				{
+					id: "1068C7329E80441D"
+					type: "item"
+					item: "artifacts:power_glove"
+				}
+				{
+					id: "30D5F9634F49171B"
+					type: "item"
+					item: "artifacts:fire_gauntlet"
+				}
+			]
+			rewards: [
+				{
+					id: "47B14F004DA34D15"
+					type: "ftbmoney:money"
+					ftb_money: 850L
+				}
+				{
+					id: "7BBFD6EE121FB319"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			subtitle: "Damn Daniel!"
+			id: "40DA3555B7590001"
+			tasks: [{
+				id: "535EF4E16BCCF278"
+				type: "item"
+				item: "artifacts:running_shoes"
+			}]
+			rewards: [
+				{
+					id: "03F66B45CCC07D16"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "4CBF120DDF070F74"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Animal Footwear"
+			x: -2.5d
+			y: -1.5d
+			id: "2E33B9C8481A1A71"
+			tasks: [
+				{
+					id: "04CE608CAE27F4CF"
+					type: "item"
+					item: "artifacts:bunny_hoppers"
+				}
+				{
+					id: "22DAD12F5E52620B"
+					type: "item"
+					item: "artifacts:kitty_slippers"
+				}
+			]
+			rewards: [
+				{
+					id: "7CAB31E519165270"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "6AF935227758CE41"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Amen"
+			id: "7BB82DE00F8032EB"
+			tasks: [{
+				id: "405117947A2BF5FC"
+				type: "item"
+				item: "artifacts:cross_necklace"
+			}]
+			rewards: [
+				{
+					id: "794294232CBFBC78"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+				{
+					id: "37BCC7AB65E0D856"
+					type: "random"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Find an Artifact"
+			x: -4.0d
+			y: -8.5d
+			id: "20BCAC882900F2A0"
+			tasks: [{
+				id: "3BCE9177EB84E064"
+				type: "advancement"
+				advancement: "artifacts:amateur_archaeologist"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "67BA854EFD2CFBEE"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			id: "1AA83D8387B80287"
+			tasks: [{
+				id: "65FBD0D386FAB4D6"
+				type: "item"
+				item: "bountifulbaubles:balloon"
+			}]
+			rewards: [{
+				id: "042059270F02D675"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "6ED7F360D2A4FDA6"
+			tasks: [{
+				id: "5E876981CF5BFD26"
+				type: "item"
+				item: "bountifulbaubles:sunglasses"
+			}]
+			rewards: [{
+				id: "2E58C0D977150BDF"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+	]
+}

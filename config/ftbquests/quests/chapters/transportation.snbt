@@ -1,7 +1,7 @@
 {
 	id: "29A0FC7FD23FD265"
 	group: "3A1BC4382F0B65EC"
-	order_index: 2
+	order_index: 3
 	filename: "transportation"
 	title: "Transportation "
 	icon: {
@@ -483,6 +483,29 @@
 				id: "0D207026CB68952A"
 				type: "ftbmoney:money"
 				ftb_money: 300L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "69A6E556483E904B"
+			tasks: [{
+				id: "0144469FFCEE93E3"
+				type: "item"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "588E34DC743B2677"
+				type: "ftbmoney:money"
+				ftb_money: 250L
 			}]
 		}
 	]
