@@ -1,0 +1,140 @@
+Additions:
++ Terraforged
++ Champions
++ UnderGarden (And addons)
++ Cataclysm
++ GreekFantasy
++ The Afterlight
++ Beyond Earth
++ TowersOfTheWild: Additions
++ InControl
++ Bountiful
++ BountifulBaubles
++ Ding
++ Energy Meter
++ Redstone Arsenal
++ World Shape
++ Joy of Painting
++ Omnipotent Card
++ Create Steam Powered
++ MrCrayFish's Gun Mod
++ Scannable
++ Botanical Machinery
++ Too Many Glyphs
++ Buzzier Bees
++ BlueSkies
++ Redstone Pen
++ Phi
++ Multiblocked
++ ResourcePacks (Updated Engineering, Create Guns)
++ Updated Several Mods (List on Github). 
+Changes:
+= Introduced a brand new Exploration experience through Terraforged, new structure mods and custom made structures!
+= Introduced brand new questlines for the several new adventure mods added. [With help from very nice contributors like RealCordex who designed entire questlines]
+= Reworked most questlines to add tutorials.
+= Added new multiblock structures replacing the custom machines for the better.
+= Added new custom requested items.
+= World Loading and game loading is much faster now.
+= Massively improved performance.
+= Fixed issues with mob spawning being sparse.
+= Fixed multiple broken quests, outdated quests and broken loot.
+= Petrified Slab recipe will no longer consume the entire axe, it'll instead damage it.
+= Fixed Market being exploitable.
+= Fixed AE2 Chargers being uncraftable.
+= Added more ways to charge Certus Quartz alongside allowing for Grindstone usage.
+= Added more QoL recipes to allow for changing between oredict items.
+= Added more recipes that were earlier missing (Like chests from Menril)
+= Modified Enigmatica Emendatus spawning chances; Gems now spawn way less to allow for less clutter and Ores now have a chance to spawn in different store types to allow for more variety.
+= Decreased the Apopheosis boss spawn chance.
+= Decreased frequency of Masoleums from Ice and Fire.
+= Decreased spawn frequency of Sea Serpents, Flies and other mobs to allow for better spawning.
+= More eastereggs for those forgotten.
+= Decreased spawn frequency of Dragon Skeletons.
+= Added more recipes for other mob spawn eggs (Now Villager, Horse and Bat)
+= Nerfed sluices slightly, gating it behind Immersive Engineering.
+= Changed the Pack's main menu background to a newer one.
+= Decreased Towers of the Wild spawnrates.
+= Moved TheOneProbe to the very left of the screen.
+= Fixed CraftPresence text on discord.
+= Fixed logo not showing in taskbar.
+Removals:
+- Many un-necessary mods, either since they have alternatives in the pack already or aren't useful at all, the remaining mods in the list are mods that could need checking to make sure your progress doesn't get ruined. (List on Github)
+- Mining Gadgets
+- Building Gadgets
+- Nature's Aura
+- Large Fluid Tanks
+- CarryOn
+- Quark Oddities
+- Refined Pipes
+- RoadRunner (Has issues with Chunk Pregeneration)
+- LargeOreDeposits
+- Thermal Cultivation and Thermal Locomotion
+- Environmental Materials
+- Serene Seasons
+- TheAbyss
+- PrettyPipes (And PrettyPipes Fluids)
+- Decorative Blocks
+- Aquaculture 2
+- Rats (And Ratlantis)
+- Create's Addon
+- Creative Apiary
+- Custom Machinery
+
+
+
+
+FULL VERSION:
+
+Removals:
+- Custom Machinery
+- Mining Gadgets
+- Building Gadgets
+- Stables
+- Industrial Agriculture (Silent's Mechanisms, Powah)
+- Mining Helmet
+- Water Strainers
+- TA2 Beginning
+- Villager Artifacts
+- More Crayfish
+- Nature Expansion
+- Nature's Aura
+- Large Fluid Tanks
+- FTB Structures
+- Colony4ComputerCraft
+- Managear
+- JustEnoughProfessions
+- Farmers Delight Integration, Nether Delight, Cultural Delight & Abnormals Delight
+- An Extra Entities Culling mod.
+- DEUF
+- DeLogger
+- BiomeIDFixer
+- CarryOn
+- ChunkSavingFix
+- Decorative Blocks Abnormals
+- BuzzierBees
+- ExperienceBugFix
+- Neapolitan
+- Overworld Two
+- Refined Pipes
+- RoadRunner
+- DarkPaintings
+- LargeOreDeposits
+- Thermal Cultivation and Thermal Locomotion
+- Extractures
+- AdditionalLights
+- Traveller's Titles.
+- Translocators
+- Toolbelt
+- MutantMore
+- Serene Seasons
+- TheAbyss
+- The Conjurer
+- PrettyPipes (And PrettyPipes Fluids)
+- DecorativeBlocks
+- Aquaculture 2
+- Rats (And Ratlantis)
+- Farmer's Delight Cookbook
+- Create's Addon
+- Adventure Structures
+- Resourceful Bees
+- Creative Apiary 
