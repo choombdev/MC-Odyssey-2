@@ -175,7 +175,6 @@
 		}
 		{ item: "pamhc2foodextended:chipsanddipitem", count: 8, weight: 80 }
 		{ item: "stalwart_dungeons:chorundum", count: 2, weight: 50 }
-		{ item: "mutantmore:compound_z", weight: 40 }
 		{ item: "pamhc2foodextended:cookedtofuttonitem", count: 8, weight: 80 }
 		{
 			item: {
@@ -196,16 +195,6 @@
 				}
 			}
 			weight: 35
-		}
-		{
-			item: {
-				id: "spartanweaponry:quarterstaff_netherite"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 45
 		}
 		{ item: "thermal:rf_coil_xfer_augment", weight: 52 }
 		{ item: "mekanism:robit", weight: 28 }
@@ -270,22 +259,6 @@
 		{ item: "envirocore:erodium_crystal", count: 32, weight: 48 }
 		{ item: "lazierae2:fluix_steel_ingot", count: 8, weight: 62 }
 		{ item: "xreliquary:fortune_coin", weight: 32 }
-		{
-			item: {
-				id: "buildinggadgets:gadget_building"
-				Count: 1b
-				tag: {
-					state: {
-						serializer: "buildinggadgets:dummy_serializer"
-						state: {
-							Name: "minecraft:air"
-						}
-						data: { }
-					}
-				}
-			}
-			weight: 35
-		}
 		{
 			item: {
 				id: "cyclic:glowing_helmet"
@@ -430,7 +403,6 @@
 		}
 		{ item: "pamhc2foodextended:popcornitem", count: 32, weight: 80 }
 		{ item: "quarryplus:pump_module", weight: 50 }
-		{ item: "rats:purifying_liquid", weight: 70 }
 		{ item: "thermal:rf_coil_storage_augment", weight: 50 }
 		{ item: "rftoolsstorage:storage_module3", weight: 30 }
 	]

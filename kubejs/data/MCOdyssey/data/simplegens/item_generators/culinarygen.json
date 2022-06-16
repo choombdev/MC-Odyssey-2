@@ -1,5 +1,0 @@
-{
-  "generator": "simplegens:simple_combustion",
-  "fuel": {"raw:item": "kubejs:choomburgert4"},
-  "energy": 80000000
-}
