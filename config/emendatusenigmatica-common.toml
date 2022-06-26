@@ -13,7 +13,7 @@
 		overworld_spread = 60
 		#Average Ores per Chunk [Default: 15]
 		#Range: 0 ~ 64
-		overworld_count = 15
+		overworld_count = 25
 		#Configure the ore Vein Size [Default: 17]
 		#Range: 0 ~ 64
 		overworld_size = 17
@@ -84,7 +84,7 @@
 		overworld_spread = 32
 		#Average Ores per Chunk [Default: 17]
 		#Range: 0 ~ 64
-		overworld_count = 17
+		overworld_count = 23
 		#Configure the ore Vein Size [Default: 11]
 		#Range: 0 ~ 64
 		overworld_size = 11
@@ -152,10 +152,10 @@
 		overworld_base = 16
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 16]
 		#Range: 0 ~ 256
-		overworld_spread = 16
+		overworld_spread = 17
 		#Average Ores per Chunk [Default: 7]
 		#Range: 0 ~ 64
-		overworld_count = 7
+		overworld_count = 10
 		#Configure the ore Vein Size [Default: 8]
 		#Range: 0 ~ 64
 		overworld_size = 8
@@ -368,7 +368,7 @@
 		overworld_spread = 8
 		#Average Ores per Chunk [Default: 4]
 		#Range: 0 ~ 64
-		overworld_count = 4
+		overworld_count = 15
 		#Configure the ore Vein Size [Default: 7]
 		#Range: 0 ~ 64
 		overworld_size = 7
@@ -439,7 +439,7 @@
 		overworld_spread = 8
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 15
 		#Configure the ore Vein Size [Default: 11]
 		#Range: 0 ~ 64
 		overworld_size = 11
@@ -501,7 +501,7 @@
 
 	["Nether Quartz Config".Overworld]
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 		#Baseline Y-Level [Default: 60]
 		#Range: 0 ~ 256
 		overworld_base = 60
@@ -524,19 +524,19 @@
 
 	["Nether Quartz Config"."The Nether"]
 		#Activate/Deactivate the Ore Gen in The Nether [Default: false]
-		generate_in_the_nether = false
+		generate_in_the_nether = true
 		#Baseline Y-Level [Default: 90]
 		#Range: 0 ~ 128
 		nether_base = 90
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 50]
 		#Range: 0 ~ 128
-		nether_spread = 50
+		nether_spread = 90
 		#Average Ores per Chunk [Default: 16]
 		#Range: 0 ~ 64
-		nether_count = 16
+		nether_count = 40
 		#Ore Vein Size [Default: 14]
 		#Range: 0 ~ 64
-		nether_size = 14
+		nether_size = 20
 		#Use spread mechanic instead of random range [Default: true]
 		nether_use_spread = true
 		#List of biome IDs in which the ore is not allowed to generate.
@@ -581,7 +581,7 @@
 		overworld_spread = 8
 		#Average Ores per Chunk [Default: 17]
 		#Range: 0 ~ 64
-		overworld_count = 17
+		overworld_count = 30
 		#Configure the ore Vein Size [Default: 7]
 		#Range: 0 ~ 64
 		overworld_size = 7
@@ -652,7 +652,7 @@
 		overworld_spread = 10
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 17
 		#Configure the ore Vein Size [Default: 5]
 		#Range: 0 ~ 64
 		overworld_size = 5
@@ -723,7 +723,7 @@
 		overworld_spread = 4
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 14
 		#Configure the ore Vein Size [Default: 5]
 		#Range: 0 ~ 64
 		overworld_size = 5
@@ -794,7 +794,7 @@
 		overworld_spread = 4
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 20
 		#Configure the ore Vein Size [Default: 5]
 		#Range: 0 ~ 64
 		overworld_size = 5
@@ -865,7 +865,7 @@
 		overworld_spread = 8
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 25
 		#Configure the ore Vein Size [Default: 4]
 		#Range: 0 ~ 64
 		overworld_size = 4
@@ -936,7 +936,7 @@
 		overworld_spread = 8
 		#Average Ores per Chunk [Default: 6]
 		#Range: 0 ~ 64
-		overworld_count = 6
+		overworld_count = 15
 		#Configure the ore Vein Size [Default: 6]
 		#Range: 0 ~ 64
 		overworld_size = 6
@@ -1007,7 +1007,7 @@
 		overworld_spread = 12
 		#Average Ores per Chunk [Default: 15]
 		#Range: 0 ~ 64
-		overworld_count = 15
+		overworld_count = 25
 		#Configure the ore Vein Size [Default: 6]
 		#Range: 0 ~ 64
 		overworld_size = 6
@@ -1078,7 +1078,7 @@
 		overworld_spread = 7
 		#Average Ores per Chunk [Default: 15]
 		#Range: 0 ~ 64
-		overworld_count = 15
+		overworld_count = 30
 		#Configure the ore Vein Size [Default: 7]
 		#Range: 0 ~ 64
 		overworld_size = 7
@@ -1149,7 +1149,7 @@
 		overworld_spread = 8
 		#Average Ores per Chunk [Default: 9]
 		#Range: 0 ~ 64
-		overworld_count = 9
+		overworld_count = 30
 		#Configure the ore Vein Size [Default: 5]
 		#Range: 0 ~ 64
 		overworld_size = 5
@@ -1211,7 +1211,7 @@
 
 	["Cobalt Config".Overworld]
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 		#Baseline Y-Level [Default: 32]
 		#Range: 0 ~ 256
 		overworld_base = 32
@@ -1234,7 +1234,7 @@
 
 	["Cobalt Config"."The Nether"]
 		#Activate/Deactivate the Ore Gen in The Nether [Default: false]
-		generate_in_the_nether = false
+		generate_in_the_nether = true
 		#Baseline Y-Level [Default: 62]
 		#Range: 0 ~ 128
 		nether_base = 62
@@ -1291,7 +1291,7 @@
 		overworld_spread = 8
 		#Average Ores per Chunk [Default: 6]
 		#Range: 0 ~ 64
-		overworld_count = 6
+		overworld_count = 15
 		#Configure the ore Vein Size [Default: 6]
 		#Range: 0 ~ 64
 		overworld_size = 6
@@ -1362,7 +1362,7 @@
 		overworld_spread = 32
 		#Average Ores per Chunk [Default: 16]
 		#Range: 0 ~ 64
-		overworld_count = 16
+		overworld_count = 20
 		#Configure the ore Vein Size [Default: 8]
 		#Range: 0 ~ 64
 		overworld_size = 8
@@ -1433,7 +1433,7 @@
 		overworld_spread = 16
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 12
 		#Configure the ore Vein Size [Default: 4]
 		#Range: 0 ~ 64
 		overworld_size = 4
@@ -1504,7 +1504,7 @@
 		overworld_spread = 16
 		#Average Ores per Chunk [Default: 5]
 		#Range: 0 ~ 64
-		overworld_count = 5
+		overworld_count = 12
 		#Configure the ore Vein Size [Default: 9]
 		#Range: 0 ~ 64
 		overworld_size = 9
@@ -1927,10 +1927,10 @@
 		overworld_base = 33
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 13]
 		#Range: 0 ~ 256
-		overworld_spread = 13
+		overworld_spread = 5
 		#Average Ores per Chunk [Default: 5]
 		#Range: 0 ~ 64
-		overworld_count = 5
+		overworld_count = 2
 		#Configure the ore Vein Size [Default: 6]
 		#Range: 0 ~ 64
 		overworld_size = 6
@@ -2072,7 +2072,7 @@
 		overworld_spread = 1
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 3
 		#Configure the ore Vein Size [Default: 12]
 		#Range: 0 ~ 64
 		overworld_size = 12
@@ -2143,7 +2143,7 @@
 		overworld_spread = 1
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 3
 		#Configure the ore Vein Size [Default: 12]
 		#Range: 0 ~ 64
 		overworld_size = 12
@@ -2214,7 +2214,7 @@
 		overworld_spread = 1
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
-		overworld_count = 8
+		overworld_count = 3
 		#Configure the ore Vein Size [Default: 12]
 		#Range: 0 ~ 64
 		overworld_size = 12
@@ -2277,79 +2277,79 @@
 	active = true
 
 ["Stratum Config: minecraft_andesite"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_granite"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_diorite"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_sand"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_gravel"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_netherrack"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_blackstone"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_basalt"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_soul_soil"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_end_stone"]
-	active = false
+	active = true
 
 ["Stratum Config: create_gabbro"]
-	active = false
+	active = true
 
 ["Stratum Config: create_limestone"]
-	active = false
+	active = true
 
 ["Stratum Config: create_scoria"]
-	active = false
+	active = true
 
 ["Stratum Config: create_weathered_limestone"]
-	active = false
+	active = true
 
 ["Stratum Config: quark_jasper"]
-	active = false
+	active = true
 
 ["Stratum Config: quark_marble"]
-	active = false
+	active = true
 
 ["Stratum Config: quark_slate"]
-	active = false
+	active = true
 
 ["Stratum Config: quark_deepslate"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_mossy_stone"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_brimstone"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_subzero_ash"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_blue_netherrack"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_nylium_soul_soil"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_ether_stone"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_cryptic_stone"]
-	active = false
+	active = true
 
 ["Stratum Config: betterend_flavolite"]
 	active = false
@@ -2361,5 +2361,5 @@
 	active = false
 
 ["Stratum Config: astral_marble"]
-	active = false
+	active = true
 

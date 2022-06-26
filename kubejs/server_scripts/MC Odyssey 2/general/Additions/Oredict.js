@@ -21,7 +21,9 @@ onEvent('recipes', event => {
     event.shapeless('appliedenergistics2:silicon', ['emendatusenigmatica:silicon_gem'])
     event.shapeless('emendatusenigmatica:silicon_gem',['appliedenergistics2:silicon'])
     event.shapeless('emendatusenigmatica:silicon_gem',['refinedstorage:silicon'])
-
+    
+    event.shapeless('emendatusenigmatica:ender_dust', ['appliedenergistics2:ender_dust'])
+    event.shapeless('appliedenergistics2:ender_dust', ['emendatusenigmatica:ender_dust'])
 
     
   // Ender Scales

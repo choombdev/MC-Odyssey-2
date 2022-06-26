@@ -308,7 +308,6 @@
 		{ item: "cyclic:inventory_cake", weight: 15 }
 		{ item: "ironchest:iron_to_gold_chest_upgrade", weight: 60 }
 		{ item: "pamhc2foodextended:meatfeastpizzaitem", count: 8, weight: 80 }
-		{ item: "compactmachines:machine_large", weight: 30 }
 		{
 			item: {
 				id: "xreliquary:mercy_cross"

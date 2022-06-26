@@ -14,7 +14,6 @@
 		{ item: "darkutils:book_restore", count: 2, weight: 40 }
 		{ item: "pamhc2crops:kiwiitem", count: 16, weight: 90 }
 		{ item: "ironchest:wood_to_iron_chest_upgrade", weight: 70 }
-		{ item: "compactmachines:personal_shrinking_device", weight: 60 }
 		{
 			item: {
 				id: "cfm:spatula"

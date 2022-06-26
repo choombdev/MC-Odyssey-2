@@ -1,7 +1,7 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
     // Gobber
-    event.recipes.bloodmagic.altar('gobber2:gobber2_globette', 'calemiutils:knob_netherite').upgradeLevel(3).altarSyphon(5000).consumptionRate(20).drainRate(20)
+    event.recipes.bloodmagic.altar('gobber2:gobber2_globette', 'thermal:netherite_gear').upgradeLevel(3).altarSyphon(5000).consumptionRate(20).drainRate(20)
     event.recipes.bloodmagic.altar('gobber2:gobber2_globette_nether', 'gobber2:gobber2_globette').upgradeLevel(3).altarSyphon(10000).consumptionRate(20).drainRate(20)
     event.recipes.bloodmagic.altar('gobber2:gobber2_globette_end', 'gobber2:gobber2_globette_end').upgradeLevel(4).altarSyphon(20000).consumptionRate(20).drainRate(20)
 

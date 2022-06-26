@@ -824,26 +824,6 @@
 			}]
 		}
 		{
-			title: "The Shop!"
-			x: -8.5d
-			y: 6.0d
-			description: [
-				"Once you've got enough money, head over to the shop on the top right corner and buy coins!"
-				"Also, if you happen to lose your money, do /pay @p 1 and you'll get it back!"
-			]
-			id: "067503F948A4F5DE"
-			tasks: [{
-				id: "37F8C6ED972194F6"
-				type: "ftbmoney:money"
-				value: 1L
-			}]
-			rewards: [{
-				id: "72949C146A67C40E"
-				type: "xp"
-				xp: 1
-			}]
-		}
-		{
 			x: -4.5d
 			y: 4.5d
 			dependencies: ["37B7A4D2792475C6"]
@@ -895,39 +875,6 @@
 				id: "2AE7BA253373CA08"
 				type: "ftbmoney:money"
 				ftb_money: 250L
-			}]
-		}
-		{
-			x: -11.5d
-			y: 6.0d
-			subtitle: "Better than Crypto!"
-			description: ["Once you've got enough money on you (Or want to enter the market yourself as a seller) you can go on and start making some sweet moolah through this place (Or buy items if you're lazy but, the prices are going to be WAAY higher)"]
-			id: "16D890637A64E7A9"
-			tasks: [{
-				id: "3CA7BA60AD2F6EEB"
-				type: "item"
-				item: "calemiutils:market"
-			}]
-			rewards: [{
-				id: "4A903D26BA190E5A"
-				type: "ftbmoney:money"
-				ftb_money: 30L
-			}]
-		}
-		{
-			x: -10.0d
-			y: 6.0d
-			subtitle: "Cha-ching!"
-			description: ["Now, make yourself a wallet to store all those casheronies and you're ready to go!"]
-			id: "77F40E94C3344285"
-			tasks: [{
-				id: "0F6C56F8CBD7F623"
-				type: "item"
-				item: {
-					id: "calemiutils:wallet"
-					Count: 1b
-					tag: { }
-				}
 			}]
 		}
 		{

@@ -13,9 +13,13 @@
 	#At a later time we will look into either combining with the Forge system or making the Forge system data pack capable.
 	useForgeBiomeDictionaries = true
 	#
-	#Set to true if you want easter egg bees to generate (WIP) [true/false]
-	#The only easter egg bee currently available is the Oreo bee
+	#Set to true if you want easter egg bees to generate [true/false]
+	#Easter Egg bees are: Oreo, Kitten, Starry and Yeti
 	enableEasterEggBees = true
+	#
+	#Set to true if you want patreon custom bees to generate [true/false]
+	#The only Patreon bee currently available is the AbBee
+	enableCustomPatreonBees = true
 	#
 	#Sets the max durability for the smoker
 	#Range: 100 ~ 5000
@@ -36,10 +40,6 @@
 	#Amount of honey Honey Pipes can transfer per tick.
 	#Range: 10 ~ 16000
 	maxHoneyPipeFlow = 250
-	#
-	#Set to true if you want patreon custom bees to generate [true/false]
-	#The only easter egg bee currently available is the Oreo bee
-	enableCustomPatreonBees = true
 
 ["Recipe Options"]
 	#
@@ -127,6 +127,10 @@
 	#Range: 1.0 ~ 128.0
 	beeconRegenerationValue = 2.5
 	#
+	#Multiplier for each level of range applied to the Ender Beecon's drain.
+	#Range: 0.0 ~ 2.0
+	beeconRangeMultiplier = 0.33
+	#
 	#The base drain rate for the Ender Beecon when an effect is active.
 	#Range: 1 ~ 128
 	beeconBaseDrain = 1
@@ -134,10 +138,6 @@
 	#The amount of fluid per tick the Ender Beecon can pull from below blocks.
 	#Range: 1 ~ 16000
 	beeconPullAmount = 250
-	#
-	#Multiplier for each level of range applied to the Ender Beecon's drain.
-	#Range: 0.0 ~ 2.0
-	beeconRangeMultiplier = 0.33
 
 ["Beehive Options"]
 	#

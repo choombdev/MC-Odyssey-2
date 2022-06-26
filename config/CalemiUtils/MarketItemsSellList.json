@@ -241,8 +241,8 @@
   "index": 34,
   "stackStr":"minecraft:coal",
   "stackNBT":"",
-  "amount":64,
-  "value":200
+  "amount":128,
+  "value":20
   },
   "bone_meal":{
   "index": 35,

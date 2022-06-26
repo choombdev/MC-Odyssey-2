@@ -12,10 +12,10 @@
 	[Spawn_Conditions.Blocks]
 		#
 		#Generate Old Stone
-		gen_block_oldstone = true
+		gen_block_oldstone = false
 		#
 		#Generate Broken Stone
-		gen_block_brokenstone = true
+		gen_block_brokenstone = false
 		#
 		#Generate Sediment Stone
 		gen_block_sedimentstone = true
@@ -38,7 +38,7 @@
 	[Spawn_Conditions.Mushrooms]
 		#
 		#Generate Mushrooms
-		gen_mushrooms = true
+		gen_mushrooms = false
 
 	[Spawn_Conditions.Mosses]
 		#

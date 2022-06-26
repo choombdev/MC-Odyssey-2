@@ -1,7 +1,7 @@
 {
 	id: "0149696DC05777C5"
 	group: "3A1BC4382F0B65EC"
-	order_index: 1
+	order_index: 0
 	filename: "bounties"
 	title: "Bounties"
 	icon: {
@@ -1030,7 +1030,7 @@
 		}
 		{
 			x: -6.5d
-			y: -10.5d
+			y: -11.5d
 			dependencies: ["3D21183F0E0058C9"]
 			hide: true
 			id: "1720F84A84CA3A1D"
@@ -1444,38 +1444,6 @@
 					id: "09391D71F9F46E9A"
 					type: "ftbmoney:money"
 					ftb_money: 500L
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: -12.5d
-			dependencies: ["3D21183F0E0058C9"]
-			hide: true
-			id: "116F385AA716D28C"
-			tasks: [{
-				id: "71AF4EE6DDC8224B"
-				type: "kill"
-				icon: "upgrade_aquatic:guardian_spine"
-				entity: "boss_tools:pygro"
-				value: 10L
-			}]
-			rewards: [
-				{
-					id: "482A24B615A63067"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "50619D235CF4A281"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:water"
-						}
-					}
 				}
 			]
 		}

@@ -74,10 +74,6 @@ onEvent('jei.hide.items', event => {
   RemoveItems.forEach((item) => {
     if (!Item.of(item).isEmpty()) {
       event.hide(item)}});
-
-  colors.forEach((color) => {
-      event.hide('refinedstorage:' + color + RS)
-  });
 });
 onEvent('jei.add.items', event => {
   event.add(Item.of('mekanism:creative_chemical_tank'))

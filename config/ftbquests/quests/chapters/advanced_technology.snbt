@@ -4,7 +4,7 @@
 	order_index: 2
 	filename: "advanced_technology"
 	title: "Advanced Technology"
-	icon: "compactmachines:machine_maximum"
+	icon: "mekanism:teleportation_core"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -585,67 +585,6 @@
 				}
 				{
 					id: "7FCF522B4FD2DDF2"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -10.5d
-			y: 1.5d
-			id: "6E2B420466AE22ED"
-			tasks: [{
-				id: "4E549C51D2019272"
-				type: "item"
-				item: "compactmachines:personal_shrinking_device"
-			}]
-			rewards: [{
-				id: "7C3B838CCBB859A6"
-				type: "ftbmoney:money"
-				ftb_money: 700L
-			}]
-		}
-		{
-			x: -9.0d
-			y: 1.5d
-			dependencies: ["6E2B420466AE22ED"]
-			id: "5DD8EDEED61AFF86"
-			tasks: [{
-				id: "399A919E92F2EA6E"
-				type: "item"
-				item: "compactmachines:machine_large"
-			}]
-			rewards: [
-				{
-					id: "31387F2ACC176428"
-					type: "ftbmoney:money"
-					ftb_money: 1200L
-				}
-				{
-					id: "05815B95CDEB22C6"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -7.5d
-			y: 1.5d
-			dependencies: ["5DD8EDEED61AFF86"]
-			id: "7309177E88FDDF5F"
-			tasks: [{
-				id: "12EB195B6D451585"
-				type: "item"
-				item: "compactmachines:machine_maximum"
-			}]
-			rewards: [
-				{
-					id: "3157D82604C39C83"
-					type: "ftbmoney:money"
-					ftb_money: 2000L
-				}
-				{
-					id: "593411DAC474DB93"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}
@@ -2528,6 +2467,7 @@
 		{
 			x: -20.0d
 			y: 2.5d
+			description: ["Turning one redstone dust to one flux dust."]
 			dependencies: ["6FEA9715F1848377"]
 			id: "4F007710B443BD34"
 			tasks: [{
@@ -2551,6 +2491,7 @@
 		{
 			x: -18.0d
 			y: 2.5d
+			description: ["Inserting Cobblestone (A stack) for a bucket of lava"]
 			dependencies: ["6FEA9715F1848377"]
 			id: "0DCC6CBB5B9FB069"
 			tasks: [{

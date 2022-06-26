@@ -1,0 +1,66 @@
+
+#Common configuration settings
+[common]
+	#Level of debug messages to be shown in the logs.
+	#0-All debug messages. 1-Warnings/Errors only. 2-Errors only. 3-No debug messages.
+	#Note: All debug messages will still be sent debug.log regardless of settings.
+	#Range: 0 ~ 3
+	debugLevel = 0
+
+	#Villager Related Settings.
+	[common.villagers]
+		#Whether the wandering trader will have additional trades that allow you to buy misc items with money.
+		addCustomWanderingTrades = true
+		#Whether the banker villager profession will have any registered trades. The banker sells Lightman's Currency items for coins.
+		addBanker = false
+		#Whether the cashier villager profession will have any registered trades.. The cashier sells an amalgamation of vanilla traders products for coins.
+		addCashier = true
+
+	#Entity loot settings. Accepts entity ids (i.e. minecraft:zombie)
+	[common.entity_loot]
+		#Whether coins can be dropped by entities. Does not effect chest loot generation.
+		enableEntityDrops = true
+		#Whether coins can be dropped by entities that were spawned by the vanilla spawner.
+		enableSpawnerEntityDrops = false
+		#Entities that will occasionally drop copper coins.
+		copper = ["minecraft:slime", "minecraft:silverfish"]
+		#Entities that will occasionally drop copper -> iron coins.
+		iron = ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider", "minecraft:husk", "minecraft:stray", "minecraft:magma_cube", "minecraft:zombie_villager", "minecraft:drowned"]
+		#Entities that will occasionally drop copper -> gold coins.
+		gold = ["minecraft:guardian", "minecraft:elder_guardian", "minecraft:phantom", "minecraft:blaze", "minecraft:ghast", "minecraft:witch", "minecraft:hoglin", "minecraft:piglin_brute", "minecraft:piglin", "minecraft:zombified_piglin"]
+		#Entities that will occasionally drop copper -> emerald coins.
+		emerald = ["minecraft:enderman", "minecraft:evoker", "minecraft:vindicator", "minecraft:pillager", "minecraft:ravager", "minecraft:shulker"]
+		#Entities that will occasionally drop copper -> diamond coins.
+		diamond = ["minecraft:wither_skeleton"]
+		#Entities that will occasionally drop copper -> netherite coins.
+		netherite = []
+		#Entities that will drop a large amount of copper coins.
+		boss_copper = []
+		#Entities that will drop a large amount of copper -> iron coins.
+		boss_iron = []
+		#Entities that will drop a large amount of copper -> gold coins.
+		boss_gold = []
+		#Entities that will drop a large amount of copper -> emerald coins.
+		boss_emerald = []
+		#Entities that will drop a large amount of copper -> diamond coins.
+		boss_diamond = ["minecraft:ender_dragon"]
+		#Entities that will drop a large amount of copper -> netherite coins.
+		boss_netherite = ["minecraft:wither"]
+
+	#Chest loot settings.
+	[common.chest_loot]
+		#Whether coins can spawn in chests Does not effect entity loot drops.
+		enableChestLoot = true
+		#Chests that will occasionally spawn copper coins.
+		copper = ["minecraft:chests/underwater_ruin_small", "minecraft:chests/underwater_ruin_big"]
+		#Chests that will occasionally spawn copper -> iron coins.
+		iron = []
+		#Chests that will occasionally spawn copper -> gold coins.
+		gold = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/simple_dungeon", "minecraft:chests/ruined_portal"]
+		#Chests that will occasionally spawn copper -> emerald coins.
+		emerald = ["minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_library"]
+		#Chests that will occasionally spawn copper -> diamond coins.
+		diamond = ["minecraft:chests/buried_treasure", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure", "minecraft:chests/end_city_treasure"]
+		#Chests that will occasionally spawn copper -> netherite coins.
+		netherite = []
+

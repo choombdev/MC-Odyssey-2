@@ -29,6 +29,20 @@ onEvent('worldgen.add', event => {
     ore.squared = true 
     ore.chance = 25 
   })
+  event.addOre(ore => {
+    ore.block = 'astralsorcery:rock_crystal_ore'
+    ore.spawnsIn.blacklist = false
+    ore.spawnsIn.values =  ['minecraft:stone','minecraft:andesite','minecraft:diorite','minecraft:granite','minecraft:blackstone','create:limestone','quark:slate','quark:deepslate']
+    ore.biomes.blacklist = true
+    ore.biomes.values = ['minecraft:the_nether', "minecraft:the_end"]
+    ore.clusterMaxSize = 1 
+    ore.clusterCount = 5
+    ore.minHeight = 0 
+    ore.maxHeight = 128 
+    ore.squared = true 
+    ore.chance = 20 
+  })
+
 })
 
 console.info('- - - Finished Loading WorldGenAdd - - -')

@@ -7,6 +7,9 @@ event.recipes.mekanismMetallurgicInfusing('mana-and-artifice:decoration/redstone
 // Petrified Slabs
 event.shapeless('minecraft:petrified_oak_slab', ['3x minecraft:oak_slab', '#forge:tools/axes']).damageItem(1)
 
+// Cast Iron
+event.shapeless('emendatusenigmatica:cast_iron_dust', ['emendatusenigmatica:iron_dust', '#supplementaries:fire_sources']).damageItem(1)
+event.recipes.createCompacting('emendatusenigmatica:cast_iron_dust', 'emendatusenigmatica:iron_dust').heated()
 // Bat Wing
 
 event.shaped('xreliquary:bat_wing', [

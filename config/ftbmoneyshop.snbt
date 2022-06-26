@@ -3,62 +3,34 @@
 		{
 			title: "Money Exchanging"
 			icon: {
-				id: "calemiutils:money_bag_rich"
+				id: "lightmanscurrency:wallet_copper"
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
+				tag: { }
 			}
 			entries: [
 				{
-					item: {
-						id: "calemiutils:coin_copper"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					item: "lightmanscurrency:coin_copper"
 					buy: 1L
 				}
 				{
-					item: {
-						id: "calemiutils:coin_silver"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 5L
+					item: "lightmanscurrency:coin_iron"
+					buy: 10L
 				}
 				{
-					item: {
-						id: "calemiutils:coin_gold"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 25L
-				}
-				{
-					item: {
-						id: "calemiutils:coin_platinum"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					item: "lightmanscurrency:coin_gold"
 					buy: 100L
+				}
+				{
+					item: "lightmanscurrency:coin_emerald"
+					buy: 1000L
+				}
+				{
+					item: "lightmanscurrency:coin_diamond"
+					buy: 10000L
+				}
+				{
+					item: "lightmanscurrency:coin_netherite"
+					buy: 100000L
 				}
 			]
 		}

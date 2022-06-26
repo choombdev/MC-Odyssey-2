@@ -1,7 +1,7 @@
 {
 	id: "1CBFF16506CB415A"
-	group: ""
-	order_index: 0
+	group: "3A1BC4382F0B65EC"
+	order_index: 4
 	filename: "dimensions_and_otherworlds"
 	title: "Dimensions and Otherworlds"
 	icon: "iceandfire:dread_portal"
@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "Visit the End"
-			x: -0.5d
-			y: -4.0d
+			x: -7.5d
+			y: -0.5d
 			id: "270FCD2C8FE8C9EA"
 			tasks: [{
 				id: "0B1EEAF3D72F2A98"
@@ -27,13 +27,14 @@
 				{
 					id: "4D0D5BE1D2944DCC"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
 			title: "Visit the Mining Dimension"
-			x: 0.5d
-			y: -3.0d
+			x: -4.5d
+			y: -0.5d
 			id: "716FE6F6DD21FDB0"
 			tasks: [{
 				id: "696485A71AFB79F7"
@@ -49,13 +50,14 @@
 				{
 					id: "0485E7F0037C756A"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
 			title: "Visit the Twilight Forest"
-			x: -13.5d
-			y: -2.0d
+			x: -6.0d
+			y: -0.5d
 			id: "231C635E3CB30FDB"
 			tasks: [{
 				id: "7F563AB809919D2C"
@@ -71,13 +73,14 @@
 				{
 					id: "0AE9C68CA38E3170"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
 			title: "Visit the Nether"
-			x: -1.5d
-			y: -3.0d
+			x: -9.0d
+			y: -0.5d
 			id: "376230EBED25ED65"
 			tasks: [{
 				id: "3B82A00D6A771E38"
@@ -93,13 +96,14 @@
 				{
 					id: "42EF1E8CB2A4C3F6"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
 			title: "Visit the Atum"
-			x: -12.5d
-			y: 0.0d
+			x: -1.5d
+			y: -0.5d
 			id: "058808A43B34BC7D"
 			tasks: [{
 				id: "111E8C199658EB80"
@@ -115,12 +119,13 @@
 				{
 					id: "40060ED5A53428CC"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
-			x: -13.5d
-			y: -3.5d
+			x: -6.0d
+			y: -2.0d
 			dependencies: ["231C635E3CB30FDB"]
 			id: "3F3A4E6854FEFBFC"
 			tasks: [{
@@ -135,9 +140,10 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: -5.0d
+			x: -6.0d
+			y: -3.5d
 			dependencies: ["3F3A4E6854FEFBFC"]
+			dependency_requirement: "all_started"
 			id: "105C5B8D64CCF4F8"
 			tasks: [{
 				id: "4941E8D166C79DB3"
@@ -151,8 +157,8 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: -6.5d
+			x: -6.0d
+			y: -5.0d
 			dependencies: ["105C5B8D64CCF4F8"]
 			id: "4EA0A51127B03239"
 			tasks: [{
@@ -171,12 +177,13 @@
 				{
 					id: "1CCC55EBBB4EA5D9"
 					type: "loot"
+					table_id: 28899073401794277L
 				}
 			]
 		}
 		{
-			x: -13.5d
-			y: -8.0d
+			x: -6.0d
+			y: -6.5d
 			dependencies: ["4EA0A51127B03239"]
 			id: "274BF80D6AC76DBE"
 			tasks: [{
@@ -195,12 +202,13 @@
 				{
 					id: "1BF4FA0AB1DFE89D"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
-			x: -15.0d
-			y: -9.5d
+			x: -7.5d
+			y: -8.0d
 			dependencies: ["274BF80D6AC76DBE"]
 			id: "2AE8A45A938B47D3"
 			tasks: [{
@@ -219,12 +227,13 @@
 				{
 					id: "634AB979B9C15809"
 					type: "loot"
+					table_id: 28899073401794277L
 				}
 			]
 		}
 		{
-			x: -13.5d
-			y: -9.5d
+			x: -6.0d
+			y: -8.0d
 			dependencies: ["274BF80D6AC76DBE"]
 			id: "6D817342C3F8E755"
 			tasks: [{
@@ -243,12 +252,13 @@
 				{
 					id: "77A598E6DDB00473"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
-			x: -12.0d
-			y: -9.5d
+			x: -4.5d
+			y: -8.0d
 			dependencies: ["274BF80D6AC76DBE"]
 			id: "50BFE86CB3628AD7"
 			tasks: [{
@@ -267,12 +277,13 @@
 				{
 					id: "7F6D4AB870DF504B"
 					type: "loot"
+					table_id: 28899073401794277L
 				}
 			]
 		}
 		{
-			x: -15.0d
-			y: -11.0d
+			x: -7.5d
+			y: -9.5d
 			dependencies: ["2AE8A45A938B47D3"]
 			id: "4D1E10352D52B517"
 			tasks: [{
@@ -291,12 +302,13 @@
 				{
 					id: "4A57BC825F444C49"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
-			x: -13.5d
-			y: -11.0d
+			x: -6.0d
+			y: -9.5d
 			dependencies: ["6D817342C3F8E755"]
 			id: "4B5EF5C70B1DEB40"
 			tasks: [{
@@ -315,12 +327,13 @@
 				{
 					id: "518564DD58F8C328"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
-			x: -12.0d
-			y: -11.0d
+			x: -4.5d
+			y: -9.5d
 			dependencies: ["50BFE86CB3628AD7"]
 			id: "7E6902C462ABBF62"
 			tasks: [{
@@ -339,6 +352,7 @@
 				{
 					id: "30934059A94A5A43"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
@@ -350,8 +364,8 @@
 					Damage: 0
 				}
 			}
-			x: -13.5d
-			y: -12.5d
+			x: -6.0d
+			y: -11.0d
 			dependencies: [
 				"4D1E10352D52B517"
 				"4B5EF5C70B1DEB40"
@@ -381,12 +395,14 @@
 				{
 					id: "3A21947489364606"
 					type: "loot"
+					table_id: 28899073401794277L
 				}
 			]
 		}
 		{
-			x: -16.0d
-			y: -7.5d
+			x: -7.0d
+			y: -4.5d
+			subtitle: "So brutal!"
 			dependencies: ["105C5B8D64CCF4F8"]
 			id: "4B9E827C980B9289"
 			tasks: [{
@@ -405,12 +421,13 @@
 				{
 					id: "0D268255B0BAEB17"
 					type: "loot"
+					table_id: 28899073401794277L
 				}
 			]
 		}
 		{
-			x: -0.5d
-			y: -5.0d
+			x: -7.5d
+			y: -2.0d
 			dependencies: ["270FCD2C8FE8C9EA"]
 			id: "556BC81E56C7747B"
 			tasks: [{
@@ -427,12 +444,13 @@
 				{
 					id: "6605ECFDB5EF0C07"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
-			x: -0.5d
-			y: -6.0d
+			x: -7.5d
+			y: -3.0d
 			dependencies: ["556BC81E56C7747B"]
 			id: "64B399E3F769378A"
 			tasks: [{
@@ -455,768 +473,64 @@
 				{
 					id: "76EBD0722BE858ED"
 					type: "loot"
+					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
-			title: "The Undergarden"
-			x: -7.0d
-			y: -4.0d
-			description: ["To visit the Undergarden, simply make a 4x5 portal (Just like the nether one!) from Stone Bricks and right click with the Catalyst"]
-			id: "520FBBDDC6827285"
+			title: "Visit the Undergarden"
+			x: -3.0d
+			y: -0.5d
+			description: ["psst! make the cataclyst to build the portal!"]
+			id: "4E0E31D27593C492"
 			tasks: [{
-				id: "1D4800E9BCE9F6EB"
-				type: "item"
-				item: "undergarden:catalyst"
+				id: "277D6E2C54059B76"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
 			}]
 			rewards: [
 				{
-					id: "443EB2A0ADE7BA2A"
+					id: "40EE1726F94EE2DE"
 					type: "ftbmoney:money"
-					ftb_money: 2000L
+					ftb_money: 3000L
 				}
 				{
-					id: "3FD1E4F64736F89B"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -11.0d
-			y: -5.5d
-			description: ["Resistant, but at what cost?"]
-			dependencies: ["789C6E4A46C6643D"]
-			id: "64E49E52930CC526"
-			tasks: [{
-				id: "0BCF677FEDE2145B"
-				type: "item"
-				item: "undergarden:inky_stew"
-			}]
-			rewards: [{
-				id: "0A321D8240E573FC"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -10.0d
-			y: -6.0d
-			description: ["I can see in the dark but at what cost?"]
-			dependencies: ["789C6E4A46C6643D"]
-			id: "6426CD89C757E9B1"
-			tasks: [{
-				id: "657B93D18BB30254"
-				type: "item"
-				item: "undergarden:indigo_stew"
-			}]
-			rewards: [{
-				id: "45148F31BA79FCDD"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -10.0d
-			y: -5.0d
-			dependencies: ["520FBBDDC6827285"]
-			id: "789C6E4A46C6643D"
-			tasks: [{
-				id: "62E5B37A2F4E01AA"
-				type: "item"
-				item: "minecraft:bowl"
-			}]
-			rewards: [{
-				id: "577488E8FDA82760"
-				type: "ftbmoney:money"
-				ftb_money: 1L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -5.5d
-			description: ["Strong yet brittle."]
-			dependencies: ["789C6E4A46C6643D"]
-			id: "63D702DA73F97313"
-			tasks: [{
-				id: "5E6B7281A411B645"
-				type: "item"
-				item: "undergarden:bloody_stew"
-			}]
-			rewards: [{
-				id: "38C814A0AE5B7439"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -8.0d
-			y: -3.0d
-			dependencies: ["520FBBDDC6827285"]
-			id: "518E6327783A8ED1"
-			tasks: [{
-				id: "6288773F188C5188"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:awkward"
-					}
-				}
-			}]
-			rewards: [{
-				id: "584551AF06E1588A"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -8.5d
-			y: -2.0d
-			dependencies: ["518E6327783A8ED1"]
-			id: "1750CFD6410D5F3E"
-			tasks: [{
-				id: "5EF276FD47E1516B"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "undergarden:featherweight"
-					}
-				}
-			}]
-			rewards: [{
-				id: "633ECEBD118DF22F"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -3.5d
-			description: ["Now you can swim"]
-			dependencies: ["518E6327783A8ED1"]
-			id: "30D50CDC1B65048D"
-			tasks: [{
-				id: "354FC3E7E955F4B8"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "undergarden:virulent_resistance"
-					}
-				}
-			}]
-			rewards: [{
-				id: "1F6AA87449AD701E"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -10.0d
-			y: -3.5d
-			dependencies: ["30D50CDC1B65048D"]
-			id: "2965A19725F62CA6"
-			tasks: [{
-				id: "03EC6D84EBD68FB2"
-				type: "item"
-				item: "undergarden:gloomgourd_pie"
-			}]
-			rewards: [{
-				id: "6176F9B54ADD3C83"
-				type: "ftbmoney:money"
-				ftb_money: 600L
-			}]
-		}
-		{
-			x: -4.5d
-			y: -3.0d
-			description: ["Not only are these Dwellers tasty, but riding them and using a underbean on a stick will get you some nice transportation!"]
-			dependencies: ["520FBBDDC6827285"]
-			id: "374E698E8A23047D"
-			tasks: [{
-				id: "4A234FC0EB0D70B2"
-				type: "item"
-				item: "undergarden:raw_dweller_meat"
-			}]
-			rewards: [{
-				id: "612A42F7BDC2D41C"
-				type: "ftbmoney:money"
-				ftb_money: 150L
-			}]
-		}
-		{
-			x: -5.5d
-			y: -2.0d
-			description: [
-				"Wool but disgusting. "
-				"Get it from shearing Mogs"
-			]
-			dependencies: ["520FBBDDC6827285"]
-			id: "76F82D3C19F040C9"
-			tasks: [{
-				id: "52D2E6ED4F44697F"
-				type: "item"
-				item: "undergarden:mogmoss"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -4.0d
-			description: ["The more hostile mobs you kill, the more Shards you get."]
-			dependencies: ["520FBBDDC6827285"]
-			id: "4D221851AEEF5618"
-			tasks: [{
-				id: "1AF79004AAF3E368"
-				type: "item"
-				item: "undergarden:utheric_shard"
-			}]
-			rewards: [{
-				id: "7ED69E79EF799D5A"
-				type: "ftbmoney:money"
-				ftb_money: 50L
-			}]
-		}
-		{
-			x: -4.0d
-			y: -5.0d
-			description: ["Better than diamond"]
-			dependencies: ["4D221851AEEF5618"]
-			id: "50130BDF3E05F774"
-			tasks: [{
-				id: "4365B3C2499C818E"
-				type: "item"
-				item: "undergarden:utherium_ingot"
-			}]
-			rewards: [{
-				id: "0839344849137CFF"
-				type: "ftbmoney:money"
-				ftb_money: 600L
-			}]
-		}
-		{
-			x: -4.5d
-			y: -6.5d
-			dependencies: ["50130BDF3E05F774"]
-			id: "7BE3B7010660768B"
-			tasks: [{
-				id: "517641230C90A39E"
-				type: "item"
-				item: {
-					id: "undergarden:utheric_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0494425FDD79F8FB"
-					type: "ftbmoney:money"
-					ftb_money: 200L
-				}
-				{
-					id: "0A5EB4FF2548DCEF"
+					id: "7A822B8720683903"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}
 			]
 		}
 		{
-			x: -3.5d
-			y: -6.5d
-			dependencies: ["50130BDF3E05F774"]
-			id: "13E4DD96C0236F66"
-			tasks: [{
-				id: "6A945CC5AC98F358"
-				type: "item"
-				item: {
-					id: "undergarden:utheric_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "753A61E19DDEF339"
-					type: "ftbmoney:money"
-					ftb_money: 200L
-				}
-				{
-					id: "05FC913AF0112C59"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -6.0d
-			dependencies: ["50130BDF3E05F774"]
-			id: "7CBBDCDB7FF34AE8"
-			tasks: [{
-				id: "73080941A2BFF8C7"
-				type: "item"
-				item: {
-					id: "undergarden:utheric_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1AEC58328A00B0D4"
-					type: "ftbmoney:money"
-					ftb_money: 200L
-				}
-				{
-					id: "013AF4B9BDCDBE97"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -5.0d
-			dependencies: ["50130BDF3E05F774"]
-			id: "7D996406A3363C2D"
-			tasks: [{
-				id: "3929A4302790933A"
-				type: "item"
-				item: {
-					id: "undergarden:utheric_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "152EB0FAA9207732"
-					type: "ftbmoney:money"
-					ftb_money: 200L
-				}
-				{
-					id: "03A17E4CC8BCEE49"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -8.5d
-			y: -8.5d
-			dependencies: [
-				"02CC42F397633BF5"
-				"2DC41007EFC09ABA"
-			]
-			id: "1351DF60F6993C33"
-			tasks: [{
-				id: "073C4B0C3733A7A5"
-				type: "item"
-				item: {
-					id: "undergarden:cloggrum_battleaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							lvl: 4s
-							id: "minecraft:knockback"
-						}]
-					}
-				}
-			}]
-			rewards: [{
-				id: "4ED5DD9325F39A16"
-				type: "loot"
-				table_id: 9158549027443165248L
-			}]
-		}
-		{
-			x: -8.5d
-			y: -6.5d
-			description: ["Slightly better than Iron"]
-			dependencies: ["520FBBDDC6827285"]
-			id: "3270A7440EEB2FF4"
-			tasks: [{
-				id: "79CB828C4A2C05B3"
-				type: "item"
-				item: "undergarden:cloggrum_ingot"
-			}]
-			rewards: [{
-				id: "3C33076EC2729380"
-				type: "ftbmoney:money"
-				ftb_money: 200L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -7.5d
-			dependencies: ["3270A7440EEB2FF4"]
-			id: "02CC42F397633BF5"
-			tasks: [{
-				id: "251C0F624D321536"
-				type: "item"
-				item: {
-					id: "undergarden:cloggrum_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -8.0d
-			y: -7.5d
-			description: ["Can be traded with Stoneborns for the Battleaxe"]
-			dependencies: ["3270A7440EEB2FF4"]
-			id: "2DC41007EFC09ABA"
-			tasks: [{
-				id: "369B689BA97C0DFA"
-				type: "item"
-				item: "undergarden:regalium_nugget"
-			}]
-		}
-		{
-			x: -6.0d
-			y: -5.5d
-			description: ["Slower than Cloggrum but better."]
-			dependencies: ["520FBBDDC6827285"]
-			id: "2F106919AA86430B"
-			tasks: [{
-				id: "4D566CD69A47355F"
-				type: "item"
-				item: "undergarden:froststeel_ingot"
-			}]
-			rewards: [{
-				id: "6E4E9E30D34AAEE4"
-				type: "ftbmoney:money"
-				ftb_money: 400L
-			}]
-		}
-		{
-			x: -7.0d
-			y: -7.0d
-			description: ["After raiding Catacombs and defeating the bosses, you'll be able to upgrade the Cloggrum using these."]
-			dependencies: ["3270A7440EEB2FF4"]
-			id: "0A448E4A152D42FA"
-			tasks: [{
-				id: "5B64D1C83ACB15A4"
-				type: "item"
-				item: "undergarden:forgotten_nugget"
-			}]
-			rewards: [{
-				id: "0CBB19278AF45E24"
-				type: "ftbmoney:money"
-				ftb_money: 1200L
-			}]
-		}
-		{
-			x: -7.0d
-			y: 0.0d
-			description: [
-				"In the Altar, surround void rock with crushed moon dust to create the portal block."
-				"To light it, surround a stick with two moon crystals and four dust."
-				"Remember, you can only do these at night."
-				"Most recipes are available on the Wiki."
-			]
-			id: "3FBCAC1D99D8B482"
-			tasks: [{
-				id: "40D4C7EE15D9CB8B"
-				type: "item"
-				item: "the_afterlight:ritual_altar"
-			}]
-			rewards: [{
-				id: "65EF046DC9807744"
-				type: "ftbmoney:money"
-				ftb_money: 600L
-			}]
-		}
-		{
-			x: -6.0d
-			y: 1.0d
-			description: ["Can both be crafted using the rituals or finding ores"]
-			dependencies: ["3FBCAC1D99D8B482"]
-			id: "7EBD299988436346"
-			tasks: [{
-				id: "68BCF0362A22D2A0"
-				type: "item"
-				item: "the_afterlight:crystillium_ingot"
-			}]
-			rewards: [{
-				id: "401D95DE61CC7A22"
-				type: "ftbmoney:money"
-				ftb_money: 200L
-			}]
-		}
-		{
-			x: -4.5d
-			y: 0.0d
-			dependencies: ["7EBD299988436346"]
-			id: "1C13DD4CD01B8110"
-			tasks: [{
-				id: "40CA330995629F05"
-				type: "item"
-				item: {
-					id: "the_afterlight:crystillium_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "586FCF75756F9536"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -3.5d
-			y: 0.5d
-			dependencies: ["7EBD299988436346"]
-			id: "00D26D23E6A3A316"
-			tasks: [{
-				id: "1F1A51DFED2E3E3A"
-				type: "item"
-				item: {
-					id: "the_afterlight:crystillium_armor_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "508BE52015E674C8"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -3.5d
-			y: 1.5d
-			dependencies: ["7EBD299988436346"]
-			id: "21F5C812DB49C0DE"
-			tasks: [{
-				id: "24A524053839ED30"
-				type: "item"
-				item: {
-					id: "the_afterlight:crystillium_armor_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "1E9C862AB80A046F"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -3.5d
-			y: 2.5d
-			dependencies: ["7EBD299988436346"]
-			id: "4087EC14F1DBC3FF"
-			tasks: [{
-				id: "5813769001D5B118"
-				type: "item"
-				item: {
-					id: "the_afterlight:crystillium_armor_leggings"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "281660BC0ED8712D"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -3.5d
-			y: 3.5d
-			dependencies: ["7EBD299988436346"]
-			id: "440124F0AFA0827F"
-			tasks: [{
-				id: "6A791589255D3CB6"
-				type: "item"
-				item: {
-					id: "the_afterlight:crystillium_armor_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "49D17737E0410427"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -5.5d
-			y: 0.0d
-			dependencies: ["7EBD299988436346"]
-			id: "6E050860F8E3B0D9"
-			tasks: [{
-				id: "27D6075771968FBB"
-				type: "item"
-				item: {
-					id: "the_afterlight:crystillium_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "572EF19A2183129B"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -7.0d
-			y: 1.5d
-			description: ["Moon shards drop Soul Prisms which, with Crystilum, creates better ingots."]
-			dependencies: ["3FBCAC1D99D8B482"]
-			id: "42A39C2DC965B03C"
-			tasks: [{
-				id: "43720268EAE485D7"
-				type: "item"
-				item: "the_afterlight:moon_shard"
-			}]
-			rewards: [{
-				id: "3E86CAE64ECAFFF2"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -6.0d
-			y: 2.5d
-			dependencies: [
-				"7EBD299988436346"
-				"42A39C2DC965B03C"
-			]
-			id: "18511D3C28960C4A"
-			tasks: [{
-				id: "6F165C4AF8F10F2E"
-				type: "item"
-				item: "the_afterlight:moonsteel_ingot"
-			}]
-			rewards: [{
-				id: "567BE149B2D12003"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -9.0d
-			y: 0.5d
-			dependencies: ["3FBCAC1D99D8B482"]
-			id: "217EFB6BAE5EE651"
-			tasks: [{
-				id: "34375F9688737CD5"
-				type: "item"
-				item: {
-					id: "the_afterlight:elemental_amulet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0CDF3FFBE102CFC0"
-					type: "ftbmoney:money"
-					ftb_money: 1500L
-				}
-				{
-					id: "44A358BC20B5CDA4"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -7.0d
-			y: 3.5d
-			dependencies: ["18511D3C28960C4A"]
-			id: "4480EF13071D10E6"
-			tasks: [{
-				id: "3ADF6901AD11D3D4"
-				type: "item"
-				item: "the_afterlight:lunariteingot"
-			}]
-			rewards: [{
-				id: "553D81A14DAE9EA5"
-				type: "ftbmoney:money"
-				ftb_money: 1500L
-			}]
-		}
-		{
-			x: -9.0d
-			y: 2.5d
-			dependencies: ["4480EF13071D10E6"]
-			id: "7C6A374BE961DA9C"
-			tasks: [{
-				id: "44342E7C02C04ED6"
-				type: "item"
-				item: {
-					id: "the_afterlight:moon_blade"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "695A410ECF223A8A"
-					type: "ftbmoney:money"
-					ftb_money: 2000L
-				}
-				{
-					id: "6A38281CBD7754AE"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 0.5d
-			description: [
-				"Buy these badboys from a Gatekeeper!"
-				"Your tools will be useless in the Blue Skies dimensions, take care!"
-			]
-			id: "44C9247B7AA952CF"
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["105C5B8D64CCF4F8"]
+			id: "3E1695E40C0D8888"
 			tasks: [
 				{
-					id: "314DAD2CEE03FCF7"
+					id: "55BE55618122D005"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_3"
+				}
+				{
+					id: "628690E3BF06C0E1"
+					type: "item"
+					item: "twilightforest:charm_of_life_2"
+				}
+			]
+		}
+		{
+			title: "Cloggrum Armor"
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["4E0E31D27593C492"]
+			id: "19A271280B6B68C6"
+			tasks: [
+				{
+					id: "302C0A5DB5BA0576"
 					type: "item"
 					item: {
-						id: "blue_skies:zeal_lighter"
+						id: "undergarden:cloggrum_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1224,366 +538,329 @@
 					}
 				}
 				{
-					id: "6270DA2938F7934C"
+					id: "41DEF448C6D3161F"
 					type: "item"
-					item: "blue_skies:blue_journal"
-				}
-			]
-			rewards: [{
-				id: "4182C80456D74B50"
-				type: "ftbmoney:money"
-				ftb_money: 200L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 0.5d
-			description: ["The chilly cold dimension"]
-			dependencies: ["44C9247B7AA952CF"]
-			id: "48E979AFE94FE715"
-			tasks: [{
-				id: "7767C269B23BA100"
-				type: "checkmark"
-				title: "Everbright!"
-			}]
-		}
-		{
-			x: 5.5d
-			y: 0.5d
-			description: ["Hot and warm dimension!"]
-			dependencies: ["44C9247B7AA952CF"]
-			id: "2B48EAEE78ED98F1"
-			tasks: [{
-				id: "545711DCDE147223"
-				type: "checkmark"
-				title: "Everdawn"
-			}]
-		}
-		{
-			x: -1.0d
-			y: -0.5d
-			subtitle: "Torch but cooler."
-			description: ["Dropped from killing a spirit, twice."]
-			dependencies: ["48E979AFE94FE715"]
-			id: "3A326A7EB304FBCF"
-			tasks: [{
-				id: "1C03B218CE440F00"
-				type: "item"
-				item: "blue_skies:star_flare"
-			}]
-			rewards: [{
-				id: "5621F3CB72671312"
-				type: "ftbmoney:money"
-				ftb_money: 100L
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.0d
-			dependencies: ["48E979AFE94FE715"]
-			id: "1FB1B2ACAA307C8F"
-			tasks: [{
-				id: "016F8F042A929694"
-				type: "item"
-				item: "blue_skies:snowcap_oven"
-			}]
-			rewards: [{
-				id: "2BCA73D04F75E27A"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 2.0d
-			dependencies: ["48E979AFE94FE715"]
-			id: "731701D48C171E81"
-			tasks: [{
-				id: "069D4272C2F1250F"
-				type: "item"
-				item: "blue_skies:moonstone_shard"
-			}]
-			rewards: [{
-				id: "6CB0F06A168C59B5"
-				type: "ftbmoney:money"
-				ftb_money: 150L
-			}]
-		}
-		{
-			x: -2.0d
-			y: 2.5d
-			dependencies: ["731701D48C171E81"]
-			id: "29746ADE7EF15E29"
-			tasks: [{
-				id: "7222083D46239D45"
-				type: "item"
-				item: {
-					id: "blue_skies:frostbright_spear"
-					Count: 1b
-					tag: {
-						Damage: 0
+					item: {
+						id: "undergarden:cloggrum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "19E72B2647C4936D"
-				type: "ftbmoney:money"
-				ftb_money: 250L
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.0d
-			description: ["No more hostiles!"]
-			dependencies: ["48E979AFE94FE715"]
-			id: "1A17BE7880A97A22"
-			tasks: [{
-				id: "0C3ECA7C32BC173A"
-				type: "item"
-				item: "blue_skies:warding_pearl"
-			}]
+				{
+					id: "79DD0E08F68F7761"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4846DB1AB1C4767F"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [
 				{
-					id: "1DE8D7B336782DA3"
+					id: "35AAD68EF11A39B3"
 					type: "ftbmoney:money"
 					ftb_money: 500L
 				}
 				{
-					id: "5CDFEDCED2E47C48"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: 2.0d
-			description: ["These keys, bought from the Gatekeeper, will let you access the Summoner boss in the dimension!"]
-			dependencies: ["48E979AFE94FE715"]
-			id: "6162D677DDEDE09F"
-			tasks: [{
-				id: "76DA87B5D402116B"
-				type: "item"
-				item: "blue_skies:blinding_key"
-			}]
-			rewards: [{
-				id: "727EEEB643CAAE41"
-				type: "ftbmoney:money"
-				ftb_money: 3000L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 2.0d
-			description: [
-				"Bring pickaxes when going here to make more damage to the mobs here. "
-				"Keys can also be bought if not found."
-			]
-			dependencies: ["48E979AFE94FE715"]
-			id: "60CE2A61FBF7A4C2"
-			tasks: [{
-				id: "70CED166D01AF196"
-				type: "item"
-				item: "blue_skies:nature_key"
-			}]
-			rewards: [
-				{
-					id: "39B87738934489E4"
-					type: "ftbmoney:money"
-					ftb_money: 3000L
-				}
-				{
-					id: "65952926BC53E92E"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: 3.5d
-			dependencies: ["6162D677DDEDE09F"]
-			id: "597F17E1B3DB01D0"
-			tasks: [{
-				id: "71A8689892D45F94"
-				type: "item"
-				item: {
-					id: "blue_skies:summoner_trophy"
-					Count: 1b
-					tag: {
-						BlockStateTag: {
-							tier: "bronze"
+					id: "7EF88B611F58E800"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 					}
 				}
-			}]
-			rewards: [
 				{
-					id: "5DAFDF15F8FB4C2D"
-					type: "ftbmoney:money"
-					ftb_money: 3000L
-				}
-				{
-					id: "2EFDA12BC1A3B325"
-					type: "loot"
-					table_id: 9158549027443165248L
+					id: "7C74991D727A8A37"
+					type: "item"
+					item: "undergarden:gloomgourd_pie"
+					count: 8
 				}
 			]
 		}
 		{
-			x: 0.5d
-			y: 3.5d
-			description: ["You have to harm him with an axe!"]
-			dependencies: ["60CE2A61FBF7A4C2"]
-			id: "5CC29905D784AA2B"
-			tasks: [{
-				id: "54984C51F2AFCAA5"
-				type: "item"
-				item: {
-					id: "blue_skies:starlit_crusher_trophy"
-					Count: 1b
-					tag: {
-						BlockStateTag: {
-							tier: "bronze"
+			title: "Froststeel Gear"
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["4E0E31D27593C492"]
+			id: "100AE74DC90A1238"
+			tasks: [
+				{
+					id: "260B2FE585000219"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 					}
 				}
-			}]
-			rewards: [
 				{
-					id: "57996579258814E6"
-					type: "ftbmoney:money"
-					ftb_money: 4000L
+					id: "3EC958A6F485DF78"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
-					id: "495C400B2B046A3E"
-					type: "loot"
-					table_id: 9158549027443165248L
+					id: "261F6F0130863092"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BC8592356F6500B"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A55F39A0522A982"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6436347613C4A607"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "10A49D3CAA9DA2EE"
+					type: "item"
+					item: "undergarden:music_disc_mammoth"
 				}
 			]
 		}
 		{
-			x: 5.5d
-			y: -1.0d
-			description: ["Auto-smelting tools~!"]
-			dependencies: ["2B48EAEE78ED98F1"]
-			id: "6EAFE704234CED0D"
+			title: "Utherium Armor"
+			x: -3.0d
+			y: -5.5d
+			subtitle: "Shiny red armor!"
+			dependencies: ["4E0E31D27593C492"]
+			id: "330442243B871C9C"
+			tasks: [
+				{
+					id: "0702F87749778FB1"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72847663807027F5"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A3F40D4EB2CFAEE"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39AF95993B8A0840"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "127A650C1EF3A02A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+				{
+					id: "61E3C0D748AE0C76"
+					type: "item"
+					item: "undergarden:utherium_ingot"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Trade with a Stoneborn"
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["4E0E31D27593C492"]
+			id: "3E37DBFA944307C7"
 			tasks: [{
-				id: "40357497B283E86D"
-				type: "item"
-				item: "blue_skies:horizonite_ingot"
+				id: "3920C7F60911E024"
+				type: "advancement"
+				advancement: "undergarden:undergarden/trade_with_stoneborn"
+				criterion: ""
 			}]
 			rewards: [{
-				id: "6895285AF8A2E99B"
+				id: "7E1BDD2022223447"
 				type: "ftbmoney:money"
-				ftb_money: 300L
+				ftb_money: 350L
 			}]
 		}
 		{
-			x: 5.5d
+			icon: "undergarden:forgotten_block"
+			x: -3.0d
 			y: -2.5d
-			description: ["Auto-smelting furnace!"]
-			dependencies: ["6EAFE704234CED0D"]
-			id: "79A12C56AF748B3D"
+			dependencies: ["4E0E31D27593C492"]
+			id: "51AB89E43BD7AF03"
 			tasks: [{
-				id: "73ED06E70AE94794"
-				type: "item"
-				item: "blue_skies:horizonite_forge"
+				id: "4E30E8F6B894C577"
+				type: "kill"
+				entity: "undergarden:forgotten_guardian"
+				value: 1L
 			}]
+			rewards: [
+				{
+					id: "4721C7F84EB9E205"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "2C55AE2FDB1EA8A6"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_battleaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 4s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			dependencies: ["274BF80D6AC76DBE"]
+			id: "35CB92A812664527"
+			tasks: [
+				{
+					id: "19D40483478937BC"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "325B720973E59AF1"
+					type: "item"
+					item: {
+						id: "twilightforest:lifedrain_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "14C647A8AE30033D"
+				id: "319FE79460B31075"
 				type: "ftbmoney:money"
-				ftb_money: 500L
+				ftb_money: 1000L
 			}]
 		}
 		{
-			x: 6.5d
-			y: 2.0d
-			description: ["Either buy or find the key!"]
-			dependencies: ["2B48EAEE78ED98F1"]
-			id: "36DA4AE150D704B7"
-			tasks: [{
-				id: "1F7984FDF2FEB0E7"
-				type: "item"
-				item: "blue_skies:poison_key"
-			}]
-			rewards: [
+			x: -5.0d
+			y: -5.5d
+			dependencies: ["274BF80D6AC76DBE"]
+			id: "512DBA92C4793D81"
+			tasks: [
 				{
-					id: "02E7E13E1176539E"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-				{
-					id: "21136716ABE06762"
-					type: "ftbmoney:money"
-					ftb_money: 3000L
-				}
-			]
-		}
-		{
-			x: 4.0d
-			y: 2.5d
-			dependencies: [
-				"2B48EAEE78ED98F1"
-				"6162D677DDEDE09F"
-			]
-			id: "5F1FD37F17753C30"
-			tasks: [{
-				id: "1C84A01BD085A5EB"
-				type: "item"
-				item: {
-					id: "blue_skies:alchemist_trophy"
-					Count: 1b
-					tag: {
-						BlockStateTag: {
-							tier: "bronze"
+					id: "13F82AB6D6C0FD3E"
+					type: "item"
+					item: {
+						id: "twilightforest:zombie_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 					}
 				}
-			}]
-			rewards: [
 				{
-					id: "60FB53AED5991874"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-				{
-					id: "75FD961DC97E29FB"
-					type: "ftbmoney:money"
-					ftb_money: 3000L
-				}
-			]
-		}
-		{
-			x: 6.5d
-			y: 3.0d
-			dependencies: ["36DA4AE150D704B7"]
-			id: "4BCD9E2BEBC27D4C"
-			tasks: [{
-				id: "4A5BF729C02FAC2F"
-				type: "item"
-				item: {
-					id: "blue_skies:arachnarch_trophy"
-					Count: 1b
-					tag: {
-						BlockStateTag: {
-							tier: "bronze"
+					id: "5EB8C2C425EC69C6"
+					type: "item"
+					item: {
+						id: "twilightforest:shield_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 					}
 				}
-			}]
-			rewards: [
-				{
-					id: "25A2427747A98960"
-					type: "ftbmoney:money"
-					ftb_money: 3000L
-				}
-				{
-					id: "7E54E0198F38A6AA"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
 			]
+			rewards: [{
+				id: "657BDAF14C47A170"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
 		}
 	]
 }

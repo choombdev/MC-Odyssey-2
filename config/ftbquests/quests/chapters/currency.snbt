@@ -1,0 +1,653 @@
+{
+	id: "11F38F712770CA15"
+	group: "4E139BB973FD0007"
+	order_index: 7
+	filename: "currency"
+	title: "Currency"
+	icon: "xreliquary:fortune_coin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Lightman's Currency!"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Beginning your journey to dominate the market!"
+			description: [
+				"To save money, withdraw from ATMs from far away as well as interact with traders, you'll need a wallet!"
+				"Each Wallet has it's own perks and so, you should try to get the best one, the Netherite Wallet."
+			]
+			id: "04E656B860AE05D3"
+			tasks: [{
+				id: "2813C423C3A164E7"
+				type: "item"
+				item: {
+					id: "lightmanscurrency:wallet_copper"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1C2396E629369536"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			title: "Online Trading!"
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"Now,you'll need to connect to the internet to be able to buy from others without actually being there."
+				"Well, it's not really the internet but, A trading Terminal!"
+				"Within this, you'll be able to either check other players' trading servers or the Odyssey ones and trade your items for money or the opposite."
+				"[NOTE: To withdraw money, you'll need to have a wallet]"
+			]
+			dependencies: ["04E656B860AE05D3"]
+			id: "0A1B32EF1E548227"
+			tasks: [{
+				id: "318B2041C241918D"
+				type: "item"
+				item: "lightmanscurrency:terminal"
+			}]
+			rewards: [{
+				id: "1DDCD67CE0721FD6"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			subtitle: "Amazon started somewhere, didn't it?"
+			description: [
+				"Now, let's start your own online business, shall we? "
+				"You'll need a server and set up the stock/items that you want to sell/buy then, Players will easily interact from their own terminals!"
+			]
+			dependencies: ["0A1B32EF1E548227"]
+			id: "2C92A05B4CA71A59"
+			tasks: [{
+				id: "6462F9811F36A756"
+				type: "item"
+				item: "lightmanscurrency:item_trader_server_sml"
+			}]
+			rewards: [{
+				id: "5896434FDE251252"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["2C92A05B4CA71A59"]
+			id: "72C02CBC403CC3C8"
+			tasks: [{
+				id: "38EA626F8DAA460A"
+				type: "item"
+				item: "lightmanscurrency:item_trader_server_med"
+			}]
+			rewards: [{
+				id: "3E4A735E9FAD6AEF"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["72C02CBC403CC3C8"]
+			id: "04CC2EE9619B7909"
+			tasks: [{
+				id: "4583F5D95221B67D"
+				type: "item"
+				item: "lightmanscurrency:item_trader_server_lrg"
+			}]
+			rewards: [
+				{
+					id: "188967821D258D87"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+				{
+					id: "5BEEE39241294AB1"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			dependencies: ["04CC2EE9619B7909"]
+			id: "483B6BE843B248AE"
+			tasks: [{
+				id: "68E0A2880602F052"
+				type: "item"
+				item: "lightmanscurrency:item_trader_server_xlrg"
+			}]
+			rewards: [
+				{
+					id: "17609D116ACBA117"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "2DD5A705309CC0AA"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: ["Just like you can trade items, you can also trade liquids!"]
+			dependencies: ["2C92A05B4CA71A59"]
+			id: "6F5C6B371021E809"
+			tasks: [{
+				id: "7BAFB327446BCDD2"
+				type: "item"
+				item: "lctech:fluid_trader_server_sml"
+			}]
+			rewards: [{
+				id: "60A3B49A8D4514F9"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["72C02CBC403CC3C8"]
+			id: "4096E31D49D9CC32"
+			tasks: [{
+				id: "6B4FE719080D050B"
+				type: "item"
+				item: "lctech:fluid_trader_server_med"
+			}]
+			rewards: [{
+				id: "10A905F48E7A5359"
+				type: "ftbmoney:money"
+				ftb_money: 300L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			dependencies: ["04CC2EE9619B7909"]
+			id: "466376CCA7A39863"
+			tasks: [{
+				id: "1404FBE92A0EC566"
+				type: "item"
+				item: "lctech:fluid_trader_server_lrg"
+			}]
+			rewards: [
+				{
+					id: "6C2FDAD871AEFA5F"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "496448A01AC917CC"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			dependencies: ["483B6BE843B248AE"]
+			id: "00EF15A0620CA6E5"
+			tasks: [{
+				id: "558F6A5096FB0808"
+				type: "item"
+				item: "lctech:fluid_trader_server_xlrg"
+			}]
+			rewards: [
+				{
+					id: "20A050FDD05C9ACE"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "6B389F55FA15C92F"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["Trading Energy!"]
+			dependencies: ["04CC2EE9619B7909"]
+			id: "6047D5B224952246"
+			tasks: [{
+				id: "2D27E7737B868D12"
+				type: "item"
+				item: "lctech:energy_trader_server"
+			}]
+			rewards: [
+				{
+					id: "3115EE2624E36C93"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6B27FDA51F14DD6D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Starting your own shop!"
+			description: [
+				"Got a big shop? Well, this'll help you restock it!"
+				"Linking a cash register with vending machines (more on it soon) and trading machines will help you restock them all from one block."
+			]
+			dependencies: ["04E656B860AE05D3"]
+			id: "53C03540D4962EE7"
+			tasks: [{
+				id: "4861933F1CBED20B"
+				type: "item"
+				item: "lightmanscurrency:cash_register"
+			}]
+			rewards: [{
+				id: "40E7A77D42C28653"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["53C03540D4962EE7"]
+			id: "78FE3EC6914DA12F"
+			tasks: [{
+				id: "5A8625DFB120CB92"
+				type: "item"
+				item: "lightmanscurrency:vending_machine"
+			}]
+			rewards: [
+				{
+					id: "41987666CEB4FE54"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "721003E5874F4546"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["53C03540D4962EE7"]
+			id: "338682B0288177DB"
+			tasks: [{
+				id: "427E37E9705E917D"
+				type: "item"
+				item: "lightmanscurrency:shelf_oak"
+			}]
+			rewards: [
+				{
+					id: "37EFBCDAD42124D7"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "0509857023392AA8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["53C03540D4962EE7"]
+			id: "7BEFA64D4CDD9C60"
+			tasks: [{
+				id: "3FB0E32016AED591"
+				type: "item"
+				item: "lightmanscurrency:freezer"
+			}]
+			rewards: [
+				{
+					id: "35FEFD025EDB0A9C"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "48A84AFABC2943DA"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["53C03540D4962EE7"]
+			id: "4A20C94C93426E74"
+			tasks: [{
+				id: "2E92A2CB2749897E"
+				type: "item"
+				item: "lightmanscurrency:display_case"
+			}]
+			rewards: [
+				{
+					id: "2BC544F051775206"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "2EC1D868A8BFE605"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["53C03540D4962EE7"]
+			id: "30D6352230EDC0BF"
+			tasks: [{
+				id: "085A8944C761AB6C"
+				type: "item"
+				item: "lightmanscurrency:card_display_oak"
+			}]
+			rewards: [
+				{
+					id: "19A7D05DE5C08A83"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "2AB037391503667F"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["78FE3EC6914DA12F"]
+			id: "5B326BA3651FCA3E"
+			tasks: [{
+				id: "53BB022E1567BC84"
+				type: "item"
+				item: "lightmanscurrency:vending_machine_large"
+			}]
+			rewards: [
+				{
+					id: "55022BA0EC5BD180"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "35F44D8CE2295678"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: [
+				"Sending money to players, storing your money (without a wallet) and more can be done here!"
+				"This could let you actually make a functioning bank!"
+			]
+			dependencies: ["04E656B860AE05D3"]
+			id: "2F55A4F33704FBC7"
+			tasks: [{
+				id: "5CB352C5C91437E1"
+				type: "item"
+				item: "lightmanscurrency:atm"
+			}]
+			rewards: [
+				{
+					id: "5A9CF1E73FCD927F"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "457F0BB7F492B857"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: [
+				"Want to make your visitors pay for entry? Paygate is your friend!"
+				"For a little fee, they can pay and the block will emit a redstone signal, letting them pass."
+			]
+			dependencies: ["04E656B860AE05D3"]
+			id: "6309A641BAC80DF1"
+			tasks: [{
+				id: "56D030027CA5DA15"
+				type: "item"
+				item: "lightmanscurrency:paygate"
+			}]
+			rewards: [
+				{
+					id: "62C5C65CCF89CF0D"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "301D9921680EE5F0"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: [
+				"Now, you can pair tickets with the Paygate and, in no time, you'll be able to allow entry in your train station!"
+				"Simply, craft a Ticket and a Ticket Station then create a Master Ticket."
+			]
+			dependencies: ["6309A641BAC80DF1"]
+			id: "26CF1A00DB3CE323"
+			tasks: [
+				{
+					id: "0FB6F7EB6FDC773B"
+					type: "item"
+					item: "lightmanscurrency:ticket_machine"
+				}
+				{
+					id: "265AC1F7B75EED6F"
+					type: "item"
+					item: "lightmanscurrency:ticket"
+				}
+			]
+			rewards: [{
+				id: "3F3A52DC92EB0135"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			description: [
+				"Ticket Kiosks have a Ticket Creator inside of them, meaning you don't necessarily have to create your tickets manually."
+				"Drag and drop the Master Ticket in the Kiosk's settings and supply paper, set the price and now people can create tickets to use on the paygate!"
+			]
+			dependencies: ["26CF1A00DB3CE323"]
+			id: "7426C8E24185FB44"
+			tasks: [{
+				id: "0AE84BC9A44248DC"
+				type: "item"
+				item: "lightmanscurrency:ticket_kiosk"
+			}]
+			rewards: [
+				{
+					id: "066C24CD1288C388"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+				{
+					id: "0E304D2EC1B96689"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["Building your wealth, one coin pile at a time."]
+			dependencies: ["04E656B860AE05D3"]
+			id: "30285845433C7CAC"
+			tasks: [{
+				id: "7DEB97B139FFC449"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+			rewards: [
+				{
+					id: "75C4359EA5429D2B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "67C30F0671D69EC3"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["30285845433C7CAC"]
+			id: "78D92614EF6EDA03"
+			tasks: [{
+				id: "21DC7AF912D4D91E"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+			rewards: [
+				{
+					id: "0841D558941D63E9"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "3EB55E5977183828"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["78D92614EF6EDA03"]
+			id: "0893DA1E458CF951"
+			tasks: [{
+				id: "1787A9BCA31E19B6"
+				type: "item"
+				item: "lightmanscurrency:coinpile_gold"
+			}]
+			rewards: [
+				{
+					id: "7B70E1AE8E20CEFF"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "0BB0AE2580748872"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["0893DA1E458CF951"]
+			id: "423A74639500DD6F"
+			tasks: [{
+				id: "7AE3AB0CF217D44F"
+				type: "item"
+				item: "lightmanscurrency:coinpile_diamond"
+			}]
+			rewards: [
+				{
+					id: "78ADF7D2EACC440D"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "5369C81A0484F2F1"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["423A74639500DD6F"]
+			id: "04C680CFA596AADC"
+			tasks: [{
+				id: "0EB6D3AD1A5F7EFB"
+				type: "item"
+				item: "lightmanscurrency:coinpile_emerald"
+			}]
+			rewards: [
+				{
+					id: "3A92AE70101FBADD"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "7D7313A929DC6CB2"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			description: ["Scrooge McDuck moment."]
+			dependencies: ["04C680CFA596AADC"]
+			id: "7E4A739FA9F0665C"
+			tasks: [{
+				id: "4D24F70C69154ADB"
+				type: "item"
+				item: "lightmanscurrency:coinpile_netherite"
+			}]
+			rewards: [
+				{
+					id: "7BC5678E1EE5A233"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "174A0643FAE29D8B"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+	]
+}
