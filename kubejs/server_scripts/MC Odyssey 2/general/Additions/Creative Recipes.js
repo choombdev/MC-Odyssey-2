@@ -51,7 +51,7 @@ event.recipes.createMechanicalCrafting('kubejs:ancientingot', [
   H: 'mysticalagradditions:insanium_gemstone_block'
   
 })
-event.recipes.createMechanicalCrafting('kubejs:ancientarrow', [
+event.recipes.createMechanicalCrafting(Item.of('kubejs:ancientarrow','{Unbreakable:1b}'), [
   'DXD',
   'BAB',
   'CAC'
@@ -63,11 +63,49 @@ event.recipes.createMechanicalCrafting('kubejs:ancientarrow', [
   C: 'gobber2:gobber2_ingot_end',
   D: 'minecraft:end_crystal'
   
-})})
+})
+
+event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_helmet','{Unbreakable:1b}'), [
+  'XXX',
+  'X X',
+  '   '
+  ], {
+
+  X: 'kubejs:ancientingot'
+  
+})
+
+event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_boots','{Unbreakable:1b}'), [
+  'X X',
+  'X X',
+  '   '
+  ], {
+
+  X: 'kubejs:ancientingot'
+
+})
+
+event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbreakable:1b}'), [
+  'XXX',
+  'X X',
+  'X X'
+  ], {
+
+  X: 'kubejs:ancientingot'
+})
+
+
+  event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_chestplate','{Unbreakable:1b}'), [
+    'X X',
+    'XXX',
+    'XXX'
+    ], {
+  
+    X: 'kubejs:ancientingot'
+  })
 
 // All Creative Recipes:
-onEvent('recipes', event => {
-  // Creative Turbine Generator
+// Creative Turbine Generator
   event.recipes.createMechanicalCrafting('bigreactors:basic_turbinecreativesteamgenerator', [
     'DABAD',
     'ECXCE',
@@ -443,4 +481,3 @@ onEvent('recipes', event => {
     Y: 'botania:gaia_ingot'
   })
 })
-

@@ -17,16 +17,6 @@ onEvent('item.modification', event => {
   event.modify('kubejs:ancientarrow', item => {
     item.fireResistant = true
     item.maxDamage = 1000
-    item.setFoodProperties((food) => {
-      food.meat(false);
-      food.alwaysEdible();
-      food.fastToEat(true);
-      food.effect("minecraft:strength", 200, 5, 1)
-      food.effect("minecraft:saturation", 200, 1, 1)
-      food.effect("minecraft:resistance", 200, 5, 1)
-
-
-    });
   })
 })
 
