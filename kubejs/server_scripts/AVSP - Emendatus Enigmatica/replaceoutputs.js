@@ -360,6 +360,8 @@ events.listen('recipes', (event) => {
 	event.replaceOutput({}, 'mekanism:ingot_uranium', 'emendatusenigmatica:uranium_ingot')
 	event.replaceOutput({}, 'immersiveengineering:ingot_uranium', 'emendatusenigmatica:uranium_ingot')
 	event.replaceOutput({}, '#forge:ingots/uranium', 'emendatusenigmatica:uranium_ingot')
+	event.replaceOutput({}, 'bigreactors:yellorium_ingot', 'emendatusenigmatica:uranium_ingot')
+
 	//Uranium block
 	event.replaceOutput({}, 'silents_mechanisms:uranium_block', 'emendatusenigmatica:uranium_block')
 	event.replaceOutput({}, 'mekanism:block_uranium', 'emendatusenigmatica:uranium_block')

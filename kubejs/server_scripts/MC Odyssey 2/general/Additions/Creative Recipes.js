@@ -291,14 +291,13 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
 
 
   event.recipes.createMechanicalCrafting('storagedrawers:creative_vending_upgrade', [
-    'YABXCAY',
+    'YABXAAY',
     'YDXOXEY',
-    'YACXFAY'
+    'YAAXFAY'
     ], {
       X: 'kubejs:ancientingot',
       A: 'forbidden_arcanus:dark_nether_star_block',
       B: Item.of('ae2extras:16m_fluid_storage_cell').ignoreNBT(),
-      C: Item.of('compactmachines:machine_maximum').ignoreNBT(),
       D: Item.of('extradisks:infinite_storage_block').ignoreNBT(),
       E: Item.of('extradisks:infinite_fluid_storage_block').ignoreNBT(),
       F: Item.of('ae2extras:16m_storage_cell').ignoreNBT(),

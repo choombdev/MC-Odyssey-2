@@ -581,8 +581,8 @@
 		}
 		{
 			x: -2.0d
-			y: -4.5d
-			dependencies: ["0893DA1E458CF951"]
+			y: -5.5d
+			dependencies: ["04C680CFA596AADC"]
 			id: "423A74639500DD6F"
 			tasks: [{
 				id: "7AE3AB0CF217D44F"
@@ -604,8 +604,8 @@
 		}
 		{
 			x: -2.0d
-			y: -5.5d
-			dependencies: ["423A74639500DD6F"]
+			y: -4.5d
+			dependencies: ["0893DA1E458CF951"]
 			id: "04C680CFA596AADC"
 			tasks: [{
 				id: "0EB6D3AD1A5F7EFB"
@@ -621,7 +621,7 @@
 				{
 					id: "7D7313A929DC6CB2"
 					type: "ftbmoney:money"
-					ftb_money: 2500L
+					ftb_money: 1000L
 				}
 			]
 		}
@@ -629,7 +629,7 @@
 			x: -2.0d
 			y: -6.5d
 			description: ["Scrooge McDuck moment."]
-			dependencies: ["04C680CFA596AADC"]
+			dependencies: ["423A74639500DD6F"]
 			id: "7E4A739FA9F0665C"
 			tasks: [{
 				id: "4D24F70C69154ADB"

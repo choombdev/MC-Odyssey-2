@@ -2075,7 +2075,7 @@
 		overworld_count = 3
 		#Configure the ore Vein Size [Default: 12]
 		#Range: 0 ~ 64
-		overworld_size = 12
+		overworld_size = 8
 		#Use spread mechanic instead of random range [Default: true]
 		overworld_use_spread = true
 		#List of biome IDs in which the ore is not allowed to generate.

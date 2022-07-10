@@ -12,7 +12,7 @@
       S: 'emendatusenigmatica:steel_ingot'
     })
     event.shaped('mbd:lavagen', [
-      'SXS ',
+      'SXS',
       'ABA',
       'SXS'
     ], {

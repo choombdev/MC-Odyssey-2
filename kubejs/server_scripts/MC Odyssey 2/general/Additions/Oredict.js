@@ -25,8 +25,8 @@ onEvent('recipes', event => {
     event.shapeless('emendatusenigmatica:ender_dust', ['appliedenergistics2:ender_dust'])
     event.shapeless('appliedenergistics2:ender_dust', ['emendatusenigmatica:ender_dust'])
 
-    
-  // Ender Scales
+    event.replaceOutput({},'emendatusenigmatica:enigmatic_hammer', 'immersiveengineering:hammer')
+  // Ender Scale
   
   event.shapeless('3x mysticalagriculture:dragon_egg_essence', ['forbidden_arcanus:dragon_scale'])
   event.shapeless('3x mysticalagriculture:dragon_egg_essence', ['mysticalagradditions:dragon_scale'])

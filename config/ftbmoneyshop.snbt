@@ -14,23 +14,23 @@
 				}
 				{
 					item: "lightmanscurrency:coin_iron"
-					buy: 10L
+					buy: 5L
 				}
 				{
 					item: "lightmanscurrency:coin_gold"
-					buy: 100L
+					buy: 50L
 				}
 				{
 					item: "lightmanscurrency:coin_emerald"
-					buy: 1000L
+					buy: 300L
 				}
 				{
 					item: "lightmanscurrency:coin_diamond"
-					buy: 10000L
+					buy: 1000L
 				}
 				{
 					item: "lightmanscurrency:coin_netherite"
-					buy: 100000L
+					buy: 50000L
 				}
 			]
 		}

@@ -244,23 +244,23 @@ onEvent('block.loot_tables', event => {
 	//NETHER QUARTZ
 	event.addBlock('emendatusenigmatica:quartz_netherrack_ore', table => {
 		table.addPool(pool => {
-			pool.setUniformRolls(1, 2)
+			pool.setUniformRolls(1, 4)
 			pool.survivesExplosion()
-			pool.addEntry({type: 'minecraft:item', name: 'emendatusenigmatica:quartz_chunk'})
+			pool.addEntry({type: 'minecraft:item', name: 'minecraft:quartz'})
 			})
 		})
 	event.addBlock('emendatusenigmatica:quartz_soul_soil_ore', table => {
 		table.addPool(pool => {
-			pool.setUniformRolls(1, 2)
+			pool.setUniformRolls(1, 4)
 			pool.survivesExplosion()
-			pool.addEntry({type: 'minecraft:item', name: 'emendatusenigmatica:quartz_chunk'})
+			pool.addEntry({type: 'minecraft:item', name: 'minecraft:quartz'})
 			})
 		})
 	event.addBlock('emendatusenigmatica:quartz_nylium_soul_soil_ore', table => {
 		table.addPool(pool => {
-			pool.setUniformRolls(1, 2)
+			pool.setUniformRolls(1, 4)
 			pool.survivesExplosion()
-			pool.addEntry({type: 'minecraft:item', name: 'emendatusenigmatica:quartz_chunk'})
+			pool.addEntry({type: 'minecraft:item', name: 'minecraft:quartz'})
 			})
 		})
 	//GEOLOSYS ANCIENT DEBRIS

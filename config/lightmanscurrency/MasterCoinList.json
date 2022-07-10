@@ -32,7 +32,7 @@
       "chain": "main",
       "worth": {
         "coin": "lightmanscurrency:coin_diamond",
-        "count": 10
+        "count": 100
       },
       "initial": "item.lightmanscurrency.coin_netherite.initial"
     },

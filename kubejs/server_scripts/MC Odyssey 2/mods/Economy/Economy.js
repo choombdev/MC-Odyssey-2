@@ -48,9 +48,8 @@ event.remove({output:'lightmanscurrency:coinmint'})
     'SOS'
   ], {
     S: 'emendatusenigmatica:steel_ingot',
-    O: 'minecraft:dispenser',
-    G: 'minecraft:glass_pane'
-  })
+    O: 'minecraft:dispenser'
+    })
   event.remove({id:'lightmanscurrency:atm'})
   event.shaped('lightmanscurrency:atm', [
     'SGS',
