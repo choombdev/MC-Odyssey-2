@@ -1,6 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Armor- - -')
-
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('item.registry.armor_tiers', event => {
   event.add('ancientarmor', tier => {
     tier.slotProtections = [50, 200, 100, 50]
@@ -19,4 +17,3 @@ onEvent('item.registry', event => {
   event.create('ancient_boots').displayName('Ancient Boots').glow(true).tooltip("A set of Armor crafted from an Ancient Ingot from a Meteor dropped ages ago, touching it's tip sends a shiver through your spine").type('boots').tier('ancientarmor')
 
 })
-console.info('- - - Finished Loading Armor - - -')

@@ -312,11 +312,9 @@
 			dependencies: ["6D817342C3F8E755"]
 			id: "4B5EF5C70B1DEB40"
 			tasks: [{
-				id: "73800FDD2E55E8B5"
-				type: "kill"
-				icon: "twilightforest:snow_queen_trophy"
-				entity: "twilightforest:snow_queen"
-				value: 1L
+				id: "336E2FCA54E4D6C3"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
 			}]
 			rewards: [
 				{
@@ -400,7 +398,7 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -7.5d
 			y: -4.5d
 			subtitle: "So brutal!"
 			dependencies: ["105C5B8D64CCF4F8"]

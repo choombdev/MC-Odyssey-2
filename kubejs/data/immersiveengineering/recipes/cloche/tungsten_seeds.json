@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:tungsten_essence",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:tungsten_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:tertium_farmland"
+  },
+  "time": 2600,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:tungsten_crop"
+  }
+}

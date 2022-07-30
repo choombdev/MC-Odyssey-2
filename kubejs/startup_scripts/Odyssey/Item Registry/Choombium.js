@@ -1,6 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Choombium- - -')
-
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('block.registry', event => {
   event.create('choombium_block').material('iron').hardness(5).displayName('Choombium Block')
   event.create('choombium_ore').material('rock').hardness(3).displayName('Choombium Ore')
@@ -44,8 +42,3 @@ onEvent('item.registry', event => {
   event.create('choombium_leggings').displayName('Choombium Leggings').type('leggings').tier('choombium')
   event.create('choombium_boots').displayName('Choombium Boots').type('boots').tier('choombium')
 })
-
-
-
-
-console.info('- - - Finished Loading Choombium - - -') 

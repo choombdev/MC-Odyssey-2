@@ -1,5 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Choomburgers- - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
 onEvent('item.registry', event => {
     event.create('nonepizza').displayName('§6None Pizza with Left Beef').tooltip("§5The title says it all")
@@ -45,5 +44,3 @@ onEvent('item.registry', event => {
       })
     })
     })
-
-console.info('- - - Finished Loading Choomburgers - - -')

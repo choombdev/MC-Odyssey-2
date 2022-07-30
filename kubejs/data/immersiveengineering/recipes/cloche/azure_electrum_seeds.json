@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:azure_electrum_essence",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:azure_electrum_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "time": 2600,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:azure_electrum_crop"
+  }
+}

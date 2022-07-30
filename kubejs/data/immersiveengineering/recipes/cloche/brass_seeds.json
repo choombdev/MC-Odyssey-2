@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:brass_essence",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:brass_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "time": 2000,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:brass_crop"
+  }
+}

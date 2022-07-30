@@ -1,5 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Choomburgers- - -')
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 
 onEvent('item.registry', event => {
     event.create('choomburgert1').displayName('§6Choomburger').tooltip("§6A Simple Choomburger family recipe from Choomb §5[TIER 1]")
@@ -48,5 +47,3 @@ onEvent('item.registry', event => {
       })
     })
   })
-
-console.info('- - - Finished Loading Choomburgers - - -')

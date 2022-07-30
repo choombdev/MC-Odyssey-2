@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:steeleaf_essence",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:steeleaf_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "time": 2000,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:steeleaf_crop"
+  }
+}

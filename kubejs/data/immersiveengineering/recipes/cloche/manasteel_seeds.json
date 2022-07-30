@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:manasteel_essence",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:manasteel_seeds"
+  },
+  "soil": {
+    "item": "minecraft:farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:manasteel_crop"
+  }
+}

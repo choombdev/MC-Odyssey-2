@@ -1,6 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading WorldGenAdd- - -')
-
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('worldgen.add', event => {
   event.addOre(ore => {
     ore.block = 'kubejs:choombium_ore'
@@ -44,5 +42,3 @@ onEvent('worldgen.add', event => {
   })
 
 })
-
-console.info('- - - Finished Loading WorldGenAdd - - -')

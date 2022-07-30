@@ -212,17 +212,6 @@
 					}
 				}
 				{
-					id: "03FCA81C4B362A51"
-					type: "item"
-					item: {
-						id: "inventorypets:pet_meta"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "60FBCBC48603651F"
 					type: "item"
 					item: {
@@ -513,17 +502,6 @@
 					type: "item"
 					item: {
 						id: "inventorypets:pet_house"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3BBD18043FBB380E"
-					type: "item"
-					item: {
-						id: "inventorypets:pet_illuminati"
 						Count: 1b
 						tag: {
 							Damage: 0

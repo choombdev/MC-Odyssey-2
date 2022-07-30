@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:inferium_essence",
+      "count": 7
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:inferium_seeds"
+  },
+  "soil": {
+    "item": "mysticalagradditions:insanium_farmland"
+  },
+  "time": 500,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:inferium_crop"
+  }
+}

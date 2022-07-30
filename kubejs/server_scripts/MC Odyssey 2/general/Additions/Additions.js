@@ -1,8 +1,19 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
 
+
 // Petrified Slabs
 event.shapeless('minecraft:petrified_oak_slab', ['3x minecraft:oak_slab', '#forge:tools/axes']).damageItem(1)
+
+// Fir Chest
+event.shaped('minecraft:chest', [
+  'SSS',
+  'S S',
+  'SSS'
+], {
+  S: 'byg:fir_planks'
+
+})
 
 // Cast Iron
 event.shapeless('emendatusenigmatica:cast_iron_dust', ['emendatusenigmatica:iron_dust', '#supplementaries:fire_sources']).damageItem(1)

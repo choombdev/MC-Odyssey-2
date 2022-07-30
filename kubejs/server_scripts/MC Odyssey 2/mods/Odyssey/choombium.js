@@ -6,7 +6,7 @@
   event.smithing('kubejs:choombium_chestplate', 'minecraft:netherite_chestplate', 'kubejs:choombium_ingot') 
   event.smithing('kubejs:choombium_leggings', 'minecraft:netherite_leggings', 'kubejs:choombium_ingot') 
   event.smithing('kubejs:choombium_boots', 'minecraft:netherite_boots', 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_blade', 'minecraft:netherite_sword', 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_blade', Item.of('minecraft:netherite_sword').ignoreNBT(), 'kubejs:choombium_ingot') 
   event.smithing('kubejs:choombium_pickaxe', 'minecraft:netherite_pickaxe', 'kubejs:choombium_ingot') 
   event.smithing('kubejs:choombium_axe', 'minecraft:netherite_axe', 'kubejs:choombium_ingot') 
   event.smithing('kubejs:choombium_shovel', 'minecraft:netherite_shovel', 'kubejs:choombium_ingot') 

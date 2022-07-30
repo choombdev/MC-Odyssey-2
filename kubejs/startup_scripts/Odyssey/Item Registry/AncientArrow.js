@@ -1,6 +1,4 @@
-// This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading Arrow- - -')
-
+// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('item.registry.tool_tiers', event => {
   event.add('creativetier', tier => {
     tier.speed = 6.0
@@ -19,5 +17,3 @@ onEvent('item.modification', event => {
     item.maxDamage = 1000
   })
 })
-
-console.info('- - - Finished Loading Arrow - - -')

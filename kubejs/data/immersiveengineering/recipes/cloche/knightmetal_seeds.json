@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:knightmetal_essence",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:knightmetal_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "time": 2000,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:knightmetal_crop"
+  }
+}

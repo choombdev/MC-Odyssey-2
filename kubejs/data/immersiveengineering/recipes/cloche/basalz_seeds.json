@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:basalz_essence",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:basalz_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:inferium_farmland"
+  },
+  "time": 1400,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:basalz_crop"
+  }
+}
