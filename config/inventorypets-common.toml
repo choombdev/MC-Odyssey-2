@@ -42,7 +42,7 @@
 	#Disable Sponge Pet absorb water (default:false)
 	disableSpongeWaterAbsorb = false
 	#Disable Illuminati Pet gives items ability (default:false)
-	disableIlluminatiGiveItems = false
+	disableIlluminatiGiveItems = true
 	#Illuminati Pet only gives craftable items (default:true)
 	illuminatiCraftedOnly = true
 	#Disable Machines that can Activate items (default:false)
@@ -161,7 +161,7 @@
 	#Disable the Cloud pet (default:false)
 	disableCloud = false
 	#Disable the Cobblestone pet (default:false)
-	disableCobblestone = false
+	disableCobblestone = true
 	#Disable the Cow pet (default:false)
 	disableCow = false
 	#Disable the disableing Table pet (default:false)
@@ -169,7 +169,7 @@
 	#Disable the Creeper pet (default:false)
 	disableCreeper = false
 	#Disable the Dirt pet (default:false)
-	disableDirt = false
+	disableDirt = true
 	#Disable the Double Chest pet (default:false)
 	disableDoubleChest = false
 	#Disable the Dubstep pet (default:false)

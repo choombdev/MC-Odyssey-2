@@ -3,24 +3,24 @@
     [
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "overworld"
       },
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "snowy"
       }
     ],
     [
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "overworld"
       },
       {
         "type": "BIOME_CATEGORY",
-        "negate": false,
+        "negate": true,
         "value": "icy"
       }
     ]

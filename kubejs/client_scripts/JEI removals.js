@@ -43,6 +43,11 @@ onEvent('jei.hide.items', event => {
 
   // Spawn Eggs
   event.hide('/_spawn_egg$/')
+  // Draconium
+  event.hide('mysticalagriculture:awakened_draconium_seeds')
+  event.hide('mysticalagriculture:draconium_seeds')
+  event.hide('mysticalagriculture:draconium_essence')
+  event.hide('mysticalagriculture:awakened_draconium_essence')
   
   // StructureAdventures
   event.hide({mod:'structuresadventures'})

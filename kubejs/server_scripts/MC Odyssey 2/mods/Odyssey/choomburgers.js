@@ -26,7 +26,7 @@ onEvent('recipes', event =>{
     X: 'kubejs:choomburgert2',
     A: 'farmersdelight:cooked_bacon',
     B: 'pamhc2crops:lettuceitem',
-    C: 'kubejs:choombium_ingot',
+    C: 'minecraft:netherite_ingot',
     Y: 'minecraft:brown_mushroom',
     Z: 'pamhc2foodcore:mayonaiseitem'
   })

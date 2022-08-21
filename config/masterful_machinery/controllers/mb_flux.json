@@ -1,0 +1,26 @@
+{
+    "controllerId": "mb_flux",
+    "name": "Flux Dust Generator",
+    "textureOverride": "kubejs:block/controllerbody",
+    "ports": [
+      {
+        "type": "masterfulmachinery:items",
+        "textureOverride": "kubejs:block/controllerbody",
+        "name": "Item",
+        "id": "items",
+        "data": {
+          "rows": 1,
+          "columns": 5
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "name": "Energy",
+        "id": "energy",
+        "data": {
+          "capacity": 10000000
+        }
+      }
+    ]
+  }
+  

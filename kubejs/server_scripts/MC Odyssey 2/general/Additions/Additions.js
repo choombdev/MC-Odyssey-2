@@ -1,6 +1,19 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
 
+//Ether Gas
+event.recipes.createMixing(Fluid.of("industrialforegoing:ether_gas",100), [
+  'forbidden_arcanus:dark_nether_star',
+  Fluid.of("mekanism:steam", 1500)
+]).superheated()
+
+// Soulium Dust
+event.recipes.createMixing('mysticalagriculture:soulium_dust', ['minecraft:soul_sand', 'occultism:otherworld_ashes'])
+// Cyanite
+event.recipes.createSandpaperPolishing('bigreactors:cyanite_ingot',['emendatusenigmatica:uranium_ingot'])
+
+// Ink Sac
+event.shapeless('minecraft:ink_sac', ['minecraft:black_dye', 'minecraft:leather'])
 
 // Petrified Slabs
 event.shapeless('minecraft:petrified_oak_slab', ['3x minecraft:oak_slab', '#forge:tools/axes']).damageItem(1)

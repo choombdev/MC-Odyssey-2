@@ -126,7 +126,7 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
     'AAAAA'
     ], {
   
-    X: 'bigreactors:reinforced_turbinecreativesteamgenerator',
+    X: 'bigreactors:basic_turbinecreativesteamgenerator',
     A: 'bigreactors:reinforced_reactorcasing'
   })
 
@@ -233,18 +233,8 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
     E: 'mekanismgenerators:gas_burning_generator',
     F: 'mekanismgenerators:advanced_solar_generator',
     H: 'mekanismgenerators:heat_generator'
-    
-  })
-  event.recipes.createMechanicalCrafting('thermal:rf_coil_creative_augment', [
-    'XXX',
-    'XAX',
-    'XXX'
-    ], {
   
-    X: 'minecraft:iron_ingot',
-    A: 'thermal:machine_efficiency_creative_augment'
   })
-
   event.recipes.createMechanicalCrafting('thermal:machine_efficiency_creative_augment', [
     'XXX',
     'XAX',
@@ -252,7 +242,27 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
     ], {
   
     X: 'minecraft:iron_ingot',
-    A: 'thermal:machine_efficiency_creative_augment'
+    A: 'thermal:rf_coil_creative_augment'
+  })
+
+  event.recipes.createMechanicalCrafting('thermal:fluid_tank_creative_augment', [
+    'XXX',
+    'XAX',
+    'XXX'
+    ], {
+  
+    X: 'minecraft:glass', 
+    A: 'thermal:rf_coil_creative_augment'
+  })
+
+  event.recipes.createMechanicalCrafting('thermal:machine_catalyst_creative_augment', [
+    'XXX',
+    'XAX',
+    'XXX'
+    ], {
+  
+    X: 'minecraft:sand',
+    A: 'thermal:rf_coil_creative_augment'
   })
 
   event.recipes.createMechanicalCrafting(Item.of('ironjetpacks:creative_jetpack', '{Throttle:1.0d}'), [
@@ -286,7 +296,7 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
   
     Y:'thermal:rf_coil_creative_augment',
     X:'draconicevolution:draconium_ingot',
-    A:'exchangers:ultimate_exchanger'
+    A:Item.of('exchangers:ultimate_exchanger').ignoreNBT()
   })
 
 

@@ -1,8 +1,10 @@
 {
     "mysticalagriculture:awakened_draconium": {
-      "enabled": false    },
+      "enabled": false    
+    },
     "mysticalagriculture:draconium": {
-        "enabled": false      },
+        "enabled": false      
+      },
     "mysticalagriculture:rubber": {
       "name": "Rubber",
       "tier": "mysticalagriculture:2",

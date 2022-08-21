@@ -3,6 +3,9 @@
 
 onEvent('recipes', event => {
 
+  event.remove({id:"compressium:cobble_stone_1"})
+  event.shapeless('compressium:cobblestone_1',  ['9x #forge:cobblestone'])
+
     event.shapeless('4x minecraft:cobblestone', ['#forge:cobblestone','#forge:cobblestone', '#forge:cobblestone',  '#forge:cobblestone'])
     event.shapeless('4x minecraft:stone', ['#forge:stone','#forge:stone','#forge:stone', '#forge:stone'])
 
