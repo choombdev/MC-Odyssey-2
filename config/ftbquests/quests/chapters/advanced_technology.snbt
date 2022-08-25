@@ -2449,114 +2449,493 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: 3.5d
-			description: ["Let's start getting multiblocks built for maximum efficiency!"]
-			id: "6FEA9715F1848377"
-			tasks: [{
-				id: "41B74EE7ED2D2AB7"
-				type: "item"
-				item: "mbd:energy"
-			}]
-			rewards: [{
-				id: "0E520E0F3E08D4A6"
-				type: "ftbmoney:money"
-				ftb_money: 250L
-			}]
-		}
-		{
-			x: -20.0d
+			title: "Gaia Realm"
+			x: -24.0d
 			y: 2.5d
-			description: ["Turning one redstone dust to one flux dust."]
-			dependencies: ["6FEA9715F1848377"]
-			id: "4F007710B443BD34"
-			tasks: [{
-				id: "5F8F900C5DF98CBB"
-				type: "item"
-				item: "mbd:fluxgen"
-			}]
-			rewards: [
+			subtitle: "A dimension full of clones.. of you."
+			description: ["So, why don't we just tap into where they're coming from instead of killing them over and over again? "]
+			dependencies: ["0AF7E2058DE01395"]
+			id: "302C863506DD8274"
+			tasks: [
 				{
-					id: "781791E67301E45C"
-					type: "loot"
-					table_id: 28899073401794277L
+					id: "117AD8BC64C3F197"
+					type: "item"
+					item: "masterfulmachinery:mb_gaia_controller"
 				}
 				{
-					id: "182CF6658B7EAA23"
-					type: "ftbmoney:money"
-					ftb_money: 750L
+					id: "260BD71C6E91B014"
+					type: "item"
+					item: "masterfulmachinery:mb_gaia_items_port_items_input"
+				}
+				{
+					id: "6DC7A2B450E3232A"
+					type: "item"
+					item: "masterfulmachinery:mb_gaia_items_port_items_output"
+				}
+				{
+					id: "405A73FF26C550C3"
+					type: "item"
+					item: "masterfulmachinery:mb_gaia_energy_port_energy_input"
+				}
+				{
+					id: "323F1BC47E616BD0"
+					type: "item"
+					item: "iceandfire:dragonsteel_fire_block"
+					count: 6L
+				}
+				{
+					id: "74F59571D64C7FCD"
+					type: "item"
+					item: "minecraft:dragon_head"
+					count: 2L
+				}
+				{
+					id: "2A63EBADAB9F2657"
+					type: "item"
+					item: "eidolon:pewter_block"
+				}
+				{
+					id: "5D4D8B5C4FF7A351"
+					type: "item"
+					item: "botania:gaia_spreader"
+					count: 4L
+				}
+				{
+					id: "485AA7289429D1F4"
+					type: "item"
+					item: "botania:elementium_block"
+					count: 4L
+				}
+				{
+					id: "3E7AA4C80993C349"
+					type: "item"
+					item: "eidolon:arcane_gold_block"
+				}
+				{
+					id: "7E7153E3B0C99F8E"
+					type: "item"
+					item: "botania:terrasteel_block"
+					count: 8L
 				}
 			]
-		}
-		{
-			x: -18.0d
-			y: 2.5d
-			description: ["Inserting Cobblestone (A stack) for a bucket of lava"]
-			dependencies: ["6FEA9715F1848377"]
-			id: "0DCC6CBB5B9FB069"
-			tasks: [{
-				id: "253B06C8B44EB80B"
-				type: "item"
-				item: "mbd:lavagen"
-			}]
 			rewards: [
 				{
-					id: "1169C5A1F69504BB"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-				{
-					id: "1BA2F988A9401674"
+					id: "4FBED6884F314CC3"
 					type: "ftbmoney:money"
-					ftb_money: 750L
-				}
-			]
-		}
-		{
-			x: -20.0d
-			y: 4.5d
-			dependencies: ["6FEA9715F1848377"]
-			id: "706A22EDAB0F2D2E"
-			tasks: [{
-				id: "4003F7A2FD612720"
-				type: "item"
-				item: "mbd:cookeria"
-			}]
-			rewards: [
-				{
-					id: "3B142F8B502DB4C5"
-					type: "loot"
-					table_id: 28899073401794277L
+					ftb_money: 5000L
 				}
 				{
-					id: "62A3A49A883C4D0A"
-					type: "ftbmoney:money"
-					ftb_money: 750L
-				}
-			]
-		}
-		{
-			x: -18.0d
-			y: 4.5d
-			dependencies: ["6FEA9715F1848377"]
-			id: "4FAB7B50EB3F0853"
-			tasks: [{
-				id: "79D0633D0368EE86"
-				type: "item"
-				item: "mbd:draconium"
-			}]
-			rewards: [
-				{
-					id: "77FCFA9A2B01AC27"
+					id: "3DF8B2064756DD5C"
 					type: "loot"
 					table_id: 9158549027443165248L
 				}
+			]
+		}
+		{
+			x: -22.5d
+			y: -0.5d
+			subtitle: "Yuck!"
+			description: ["Unethically gather animal essence through this little grinder here."]
+			dependencies: ["15FEA01D1506FF34"]
+			id: "287F4F0516FE095B"
+			tasks: [
 				{
-					id: "463CBC9029CDE6C3"
-					type: "ftbmoney:money"
-					ftb_money: 2500L
+					id: "4816A883F1C068A8"
+					type: "item"
+					item: "masterfulmachinery:mb_essence_controller"
+				}
+				{
+					id: "42E8BA08B09A5365"
+					type: "item"
+					item: "masterfulmachinery:mb_essence_items_port_items_input"
+				}
+				{
+					id: "1A54AF0BEA586CA8"
+					type: "item"
+					item: "masterfulmachinery:mb_essence_fluids_port_fluids_output"
+				}
+				{
+					id: "7E88AF22083D8289"
+					type: "item"
+					item: "masterfulmachinery:mb_essence_energy_port_energy_input"
+				}
+				{
+					id: "7D15F29A80EA262B"
+					type: "item"
+					item: "quark:grate"
+				}
+				{
+					id: "064ADAA8B344C2A2"
+					type: "item"
+					item: "emendatusenigmatica:steel_block"
+					count: 32L
+				}
+				{
+					id: "42CCCA6D62CFE42F"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 32L
+				}
+				{
+					id: "5A07EFD6DC073E16"
+					type: "item"
+					item: "create:mechanical_drill"
+					count: 4L
 				}
 			]
+			rewards: [
+				{
+					id: "14265D6136F69329"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "6A9D5EAE092F3593"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -24.0d
+			y: -0.5d
+			subtitle: "Unlimited (wireless) power!"
+			description: ["As fun as it is smashing redstone with obsidian, it should be automatable, no?"]
+			dependencies: ["15FEA01D1506FF34"]
+			id: "7689157AE0FDB618"
+			tasks: [
+				{
+					id: "5416988406963103"
+					type: "item"
+					item: "masterfulmachinery:mb_flux_controller"
+				}
+				{
+					id: "57B4ACFF6F2613CC"
+					type: "item"
+					item: "masterfulmachinery:mb_flux_items_port_items_input"
+				}
+				{
+					id: "5049A04ADF3A1BA1"
+					type: "item"
+					item: "masterfulmachinery:mb_flux_items_port_items_output"
+				}
+				{
+					id: "6DE5CFBD0A763DD8"
+					type: "item"
+					item: "masterfulmachinery:mb_flux_energy_port_energy_input"
+				}
+				{
+					id: "1771A46DBE42F769"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "7F80B84B13BB8401"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+					count: 12L
+				}
+				{
+					id: "40A8878FA12EFAF3"
+					type: "item"
+					item: "mekanism:block_refined_obsidian"
+					count: 8L
+				}
+				{
+					id: "3AFE06AC12158879"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 8L
+				}
+				{
+					id: "1FBC4CD02E753519"
+					type: "item"
+					item: "minecraft:glass"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "629188C0344FFA4B"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "4C1C4476BEDC4F7B"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -27.5d
+			y: -0.5d
+			subtitle: "Hot!"
+			description: ["The Electric Crucible allows you to turn Cobblestone (And RF) into Lava in one big multiblock!"]
+			dependencies: ["15FEA01D1506FF34"]
+			id: "34316074312F15C9"
+			tasks: [
+				{
+					id: "0867964C6387C90A"
+					type: "item"
+					item: "masterfulmachinery:mb_lava_controller"
+				}
+				{
+					id: "29CB772893ABD957"
+					type: "item"
+					item: "masterfulmachinery:mb_lava_items_port_items_input"
+				}
+				{
+					id: "74952BB0BEFC826B"
+					type: "item"
+					item: "masterfulmachinery:mb_lava_fluids_port_fluids_output"
+				}
+				{
+					id: "224A976F0E383560"
+					type: "item"
+					item: "masterfulmachinery:mb_lava_energy_port_energy_input"
+				}
+				{
+					id: "1F51EF25F26766C7"
+					type: "item"
+					item: "mekanism:superheating_element"
+					count: 9L
+				}
+				{
+					id: "5B7D0DEF20CF5BA7"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "5E8C4AF39CD1BCA4"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "6F358F460811B759"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: -0.5d
+			subtitle: "Crystal Blue Persuasion"
+			description: [
+				"We need to c-- make some rock crystals!"
+				"Instead of wasting time looking for them, just build this little lab and make them at home!"
+			]
+			dependencies: ["15FEA01D1506FF34"]
+			id: "3BF587667847294B"
+			tasks: [
+				{
+					id: "510E1C83A928E035"
+					type: "item"
+					item: "masterfulmachinery:mb_crystal_controller"
+				}
+				{
+					id: "33C91562996C4BDD"
+					type: "item"
+					item: "masterfulmachinery:mb_crystal_items_port_items_input"
+				}
+				{
+					id: "12B712325FEA568D"
+					type: "item"
+					item: "masterfulmachinery:mb_crystal_items_port_items_output"
+				}
+				{
+					id: "7919BC1584320458"
+					type: "item"
+					item: "masterfulmachinery:mb_crystal_energy_port_energy_input"
+				}
+				{
+					id: "279689D9F6C4EA77"
+					type: "item"
+					item: "quark:polished_marble"
+					count: 32L
+				}
+				{
+					id: "317402F9AC74A06B"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 16L
+				}
+				{
+					id: "1864FF2A538CDD40"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 3L
+				}
+				{
+					id: "69D02BFA72A85F1F"
+					type: "item"
+					item: "astralsorcery:well"
+					count: 4L
+				}
+				{
+					id: "2B7A7F28BC90EE50"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 4L
+				}
+				{
+					id: "357CAB748BAC941E"
+					type: "item"
+					item: "astralsorcery:altar_discovery"
+				}
+				{
+					id: "53632DA7B06872D2"
+					type: "item"
+					item: "create:mechanical_arm"
+				}
+				{
+					id: "18897E378C2D9A1D"
+					type: "item"
+					item: "astralsorcery:infused_wood"
+					count: 12L
+				}
+				{
+					id: "584D7D2BC53ABEEB"
+					type: "item"
+					item: "astralsorcery:infused_wood_slab"
+					count: 6L
+				}
+			]
+			rewards: [
+				{
+					id: "43342BED6727ACCB"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "024C7C7C5A738C2C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Draconium Portal!"
+			x: -26.0d
+			y: 2.5d
+			subtitle: "Heaven"
+			description: [
+				"The realm of dragons where you can easily find Draconium on top of Draconium, this will help you automate Draconium in more ways."
+				""
+			]
+			dependencies: ["0AF7E2058DE01395"]
+			id: "7C615ECA83F4BF29"
+			tasks: [
+				{
+					id: "4EC65A394E3F761C"
+					type: "item"
+					item: "botania:elementium_block"
+					count: 8L
+				}
+				{
+					id: "18FD05F5595EBC60"
+					type: "item"
+					item: "emendatusenigmatica:enderium_block"
+					count: 8L
+				}
+				{
+					id: "464452363901BCA7"
+					type: "item"
+					item: "twilightforest:carminite_block"
+					count: 6L
+				}
+				{
+					id: "1CC14CE67DDB1DA3"
+					type: "item"
+					item: "minecraft:beacon"
+					count: 2L
+				}
+				{
+					id: "086AD33676D89959"
+					type: "item"
+					item: "emendatusenigmatica:cobalt_block"
+					count: 8L
+				}
+				{
+					id: "319963F2EB2C79B9"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 16L
+				}
+				{
+					id: "01A13B64F49190D0"
+					type: "item"
+					item: "mekanism:teleporter"
+				}
+				{
+					id: "642D33BEFF631E77"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+					count: 8L
+				}
+				{
+					id: "74456AC2AA68ED73"
+					type: "item"
+					item: "masterfulmachinery:mb_draconium_controller"
+				}
+				{
+					id: "0794805066B277CF"
+					type: "item"
+					item: "masterfulmachinery:mb_draconium_items_port_items_input"
+				}
+				{
+					id: "53BC6C66E5C6FDDB"
+					type: "item"
+					item: "masterfulmachinery:mb_draconium_items_port_items_output"
+				}
+				{
+					id: "4F786C3841B712CA"
+					type: "item"
+					item: "masterfulmachinery:mb_draconium_energy_port_energy_input"
+				}
+			]
+			rewards: [
+				{
+					id: "017F0BF17D939EDB"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+				{
+					id: "6F62AC2A3D8A9FD1"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -25.0d
+			y: -2.5d
+			description: [
+				"Odyssey 2 has it's own custom made Multiblocks, available in JEI and helping you progress. "
+				"JEI only has the visuals and no item list, so, to avoid confusion, I'll be including all the required blocks in each quest!"
+			]
+			id: "15FEA01D1506FF34"
+			tasks: [{
+				id: "0276988B825EDA3B"
+				type: "checkmark"
+				title: "Odyssey's custom Multiblocks!"
+			}]
+		}
+		{
+			x: -25.0d
+			y: 1.0d
+			description: ["Endgame stuff, right here."]
+			dependencies: ["15FEA01D1506FF34"]
+			id: "0AF7E2058DE01395"
+			tasks: [{
+				id: "21101BD5581ADA01"
+				type: "checkmark"
+				title: "Now, the tough stuff."
+			}]
 		}
 	]
 }

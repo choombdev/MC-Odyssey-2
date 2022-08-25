@@ -11,6 +11,13 @@ onEvent('recipes', event => {
       C: 'quark:biotite',
       X: 'minecraft:iron_ingot'
     })
+    event.shaped('kubejs:ancientblock', [
+      'XXX',
+      'XXX',
+      'XXX'
+    ], {
+      X: 'kubejs:ancient_ingot'
+    })
   })
 // Creative in Normal Crafting Table
 onEvent('recipes', event => {

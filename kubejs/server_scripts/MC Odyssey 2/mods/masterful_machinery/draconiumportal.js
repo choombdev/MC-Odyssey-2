@@ -74,6 +74,7 @@ events.listen('recipes', function (e) {
     }
   }
 })
+// Parts
 
 // Recipe
 
@@ -81,16 +82,18 @@ e.custom({
   "type": "masterfulmachinery:machine_process",
   "structureId": "draconiumportal",
   "controllerId": "mb_draconium",
-  "ticks": 200,
+  "ticks": 800,
   "inputs": [
       {
           "type": "masterfulmachinery:energy",
+          "consumeInstantly": false,
           "data":{
               "amount" : 5000
           }
       },
       {
           "type": "masterfulmachinery:items",
+          "consumeInstantly": false,
           "data":{
               "item": "botania:gaia_ingot",
               "count": 4
@@ -98,6 +101,7 @@ e.custom({
       },
       {
         "type": "masterfulmachinery:items",
+        "consumeInstantly": false,
         "data":{
             "item": "minecraft:nether_star",
             "count": 5
@@ -105,6 +109,7 @@ e.custom({
     },
     {
       "type": "masterfulmachinery:items",
+      "consumeInstantly": false,
       "data":{
           "item": "forbidden_arcanus:end_crystal_gem",
           "count": 10
@@ -122,3 +127,54 @@ e.custom({
   ]
 })
 })
+
+// Part Recipes
+onEvent('recipes', event => {
+  event.shaped("masterfulmachinery:mb_draconium_items_port_items_input", [
+    'XXX',
+    'XAD',
+    'XXX'
+    ], {
+    
+    X: 'silents_mechanisms:redstone_alloy_ingot',
+    A: 'advgenerators:item_input',
+    D: 'draconicevolution:draconium_dust'
+  })
+
+
+  event.shaped("masterfulmachinery:mb_draconium_energy_port_energy_input", [
+    'XXX',
+    'XAD',
+    'XXX'
+    ], {
+    
+    X: 'silents_mechanisms:redstone_alloy_ingot',
+    A: 'advgenerators:power_capacitor_tier2',
+    D: 'draconicevolution:draconium_dust'
+  })
+
+  event.shaped("masterfulmachinery:mb_draconium_items_port_items_output", [
+    'XXX',
+    'XAD',
+    'XXX'
+    ], {
+    
+    X: 'silents_mechanisms:redstone_alloy_ingot',
+    A: 'advgenerators:item_output',
+    D: 'draconicevolution:draconium_dust'
+  })
+
+  event.shaped('masterfulmachinery:mb_draconium_controller', [
+    'XBX',
+    'BOB',
+    'XBX'
+    ], {
+    
+    X: 'draconicevolution:draconium_ingot',  
+    B: 'draconicevolution:draconium_core',
+    O: 'mekanism:ultimate_control_circuit'
+  })
+  
+  })
+  
+  

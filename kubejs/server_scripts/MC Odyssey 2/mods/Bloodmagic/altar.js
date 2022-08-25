@@ -15,5 +15,7 @@ onEvent('recipes', event => {
     // Draconium
     event.recipes.bloodmagic.altar('draconicevolution:draconium_dust', 'gobber2:gobber2_ingot_end').upgradeLevel(5).altarSyphon(7500).consumptionRate(20).drainRate(25)
     event.recipes.bloodmagic.altar('draconicevolution:draconium_ingot', 'gobber2:dragon_star').upgradeLevel(5).altarSyphon(10000).consumptionRate(20).drainRate(20)
+    // Astral Sorcery
+    event.recipes.bloodmagic.altar('astralsorcery:rock_crystal', 'ars_nouveau:mythical_clay').upgradeLevel(3).altarSyphon(1000).consumptionRate(20).drainRate(20)
 
 })

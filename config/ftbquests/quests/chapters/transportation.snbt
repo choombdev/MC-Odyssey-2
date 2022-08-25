@@ -51,9 +51,9 @@
 			y: -1.5d
 			id: "7B18DF096C1D5D1E"
 			tasks: [{
-				id: "7133FD507662BEC6"
+				id: "459F0DC80256772D"
 				type: "item"
-				item: "smallships:oak_galley"
+				item: "smallships:oak_cog"
 			}]
 			rewards: [{
 				id: "215B0B8CADA3D4A6"
@@ -90,9 +90,9 @@
 			dependencies: ["7B18DF096C1D5D1E"]
 			id: "168554E599E97D0E"
 			tasks: [{
-				id: "2A6A75F46B44925C"
+				id: "2ACB8A9C761BBD66"
 				type: "item"
-				item: "smallships:oak_war_galley"
+				item: "smallships:cannon_item"
 			}]
 			rewards: [
 				{

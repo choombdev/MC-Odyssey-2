@@ -2,6 +2,7 @@ type = hud
 
 customization-meta {
   randomgroup = 1
+  keepaspectratio = false
   backgroundimage = config/resources/bg.png
   renderorder = foreground
   randommode = false
@@ -36,6 +37,7 @@ customization {
   orientation = bottom-centered
   x = -1
   width = 472
+  actionid = 6d8fea38-608e-458b-b434-36460399e5911661438635916
   y = 0
   action = addcustomprogressbar
   height = 20
@@ -47,14 +49,14 @@ customization {
 customization {
   orientation = bottom-centered
   shadow = false
-  x = -8
+  x = -1
   textcolor = #ffffff
   action = addtext
   actionid = a20de894-eb3a-4e4c-8476-ad84f084ac051635242665118
-  y = -20
+  y = -21
   scale = 1.0
   alignment = left
-  value = Loading into MC Odyssey 2
+  value = Loading into Odyssey 2
 }
 
 customization {

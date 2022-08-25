@@ -8,6 +8,7 @@ onEvent('recipes', event =>{
     'GRE',
     'NXN'
   ], {
+    C: 'mysticalagriculture:soulium_gemstone',
     R: 'gobber2:gobber2_ring',
     B: 'minecraft:netherite_block',
     E: 'minecraft:elytra',
@@ -22,6 +23,7 @@ onEvent('recipes', event =>{
     'GRG',
     'NXN'
   ], {
+    C: 'mysticalagriculture:soulium_gemstone',
     R: 'angelring:itemdiamondring' ,
     B: 'emendatusenigmatica:lead_block',
     G: 'mekanismgenerators:reactor_glass',
@@ -34,6 +36,7 @@ onEvent('recipes', event =>{
     'GRG',
     'NXN'
   ], {
+    C: 'mysticalagriculture:soulium_gemstone',
     R: 'angelring:leadstone_angel_ring',
     B: 'emendatusenigmatica:electrum_block',
     G: 'thermal:lumium_glass',
@@ -46,6 +49,7 @@ onEvent('recipes', event =>{
     'GRG',
     'NXN'
   ], {
+    C: 'mysticalagriculture:soulium_gemstone',
     R: 'angelring:energetic_angel_ring', 
     B: 'emendatusenigmatica:invar_block',
     G: 'bigreactors:reinforced_reactorglass',
@@ -58,6 +62,7 @@ onEvent('recipes', event =>{
     'GRG',
     'NXN'
   ], {
+    C: 'mysticalagriculture:soulium_gemstone',
     R: 'angelring:hardened_angel_ring',
     B: 'emendatusenigmatica:signalum_block',
     G: 'thermal:obsidian_glass',
@@ -71,6 +76,7 @@ onEvent('recipes', event =>{
     'GRG',
     'NXN'
   ], {
+    C: 'mysticalagriculture:soulium_gemstone',
     R: 'angelring:reinforced_angel_ring',
     B: 'emendatusenigmatica:enderium_block',
     G: 'thermal:enderium_glass',

@@ -41,6 +41,14 @@ onEvent('recipes', event =>{
     X: 'kubejs:choomburgert3',
     Y: 'minecraft:nether_star'
   })
+  event.shaped('kubejs:choomburgert5', [
+    'XXX',
+    'XYX',
+    'XXX'
+  ], {
+    X: 'kubejs:choomburgert4',
+    Y: 'kubejs:ancientingot'
+  })
 
 })
 
