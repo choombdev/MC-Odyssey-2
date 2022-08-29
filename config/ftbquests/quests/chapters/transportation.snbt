@@ -17,8 +17,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.5d
-			y: -1.5d
+			x: -2.5d
+			y: -1.0d
 			id: "7EA05CE7DB41CDA2"
 			tasks: [{
 				id: "744EE83F51EE1DDB"
@@ -47,69 +47,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -1.5d
-			id: "7B18DF096C1D5D1E"
-			tasks: [{
-				id: "459F0DC80256772D"
-				type: "item"
-				item: "smallships:oak_cog"
-			}]
-			rewards: [{
-				id: "215B0B8CADA3D4A6"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -1.0d
-			y: -3.0d
-			dependencies: ["7B18DF096C1D5D1E"]
-			id: "262063188FF56C24"
-			tasks: [{
-				id: "191B812ABFC96E01"
-				type: "item"
-				item: "smallships:oak_brigg"
-			}]
-			rewards: [
-				{
-					id: "25340F2512EBD00A"
-					type: "ftbmoney:money"
-					ftb_money: 1000L
-				}
-				{
-					id: "20075C91FEF47404"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -3.0d
-			dependencies: ["7B18DF096C1D5D1E"]
-			id: "168554E599E97D0E"
-			tasks: [{
-				id: "2ACB8A9C761BBD66"
-				type: "item"
-				item: "smallships:cannon_item"
-			}]
-			rewards: [
-				{
-					id: "6E010D1E1C3186E9"
-					type: "ftbmoney:money"
-					ftb_money: 1000L
-				}
-				{
-					id: "44EBF958E91E8AA1"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -1.5d
+			x: -0.5d
+			y: -1.0d
 			id: "5BACDA1349840E16"
 			tasks: [
 				{
@@ -150,8 +89,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -1.5d
+			x: -5.5d
+			y: 0.0d
 			id: "218ACA06B16A3F94"
 			tasks: [{
 				id: "7621325C84C73955"
@@ -178,8 +117,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -2.5d
+			x: -4.5d
+			y: -1.0d
 			dependencies: ["218ACA06B16A3F94"]
 			id: "61EEF1F4FCA18C88"
 			tasks: [{
@@ -207,8 +146,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -3.0d
+			x: -5.5d
+			y: -2.0d
 			dependencies: ["61EEF1F4FCA18C88"]
 			id: "357D4D2356895DAB"
 			tasks: [{
@@ -236,8 +175,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: -4.0d
+			x: -4.5d
+			y: -3.0d
 			dependencies: ["357D4D2356895DAB"]
 			id: "36B90C4FA6E4785D"
 			tasks: [{
@@ -261,37 +200,6 @@
 					id: "79AEADC553C76AAB"
 					type: "loot"
 					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -6.0d
-			y: 0.0d
-			description: ["Note that this isn't enough to make a working portal"]
-			id: "01B506BE8796163E"
-			tasks: [
-				{
-					id: "45A3BCD6B4755C7E"
-					type: "item"
-					item: "portality:controller"
-				}
-				{
-					id: "348A8E2A16C2A935"
-					type: "item"
-					item: "portality:frame"
-					count: 11L
-				}
-			]
-			rewards: [
-				{
-					id: "7388E9CA5332A1B8"
-					type: "ftbmoney:money"
-					ftb_money: 5000L
-				}
-				{
-					id: "6CA0F6A3A5736816"
-					type: "loot"
-					table_id: 28899073401794277L
 				}
 			]
 		}
@@ -369,7 +277,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: 0.0d
 			id: "60D11DB20DE260F4"
 			tasks: [{
@@ -483,29 +391,6 @@
 				id: "0D207026CB68952A"
 				type: "ftbmoney:money"
 				ftb_money: 300L
-			}]
-		}
-		{
-			x: 0.5d
-			y: -2.5d
-			id: "69A6E556483E904B"
-			tasks: [{
-				id: "0144469FFCEE93E3"
-				type: "item"
-				item: {
-					id: "paraglider:paraglider"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "588E34DC743B2677"
-				type: "ftbmoney:money"
-				ftb_money: 250L
 			}]
 		}
 	]

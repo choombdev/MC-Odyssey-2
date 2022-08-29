@@ -16,7 +16,7 @@ onEvent('recipes', event => {
       'XXX',
       'XXX'
     ], {
-      X: 'kubejs:ancient_ingot'
+      X: 'kubejs:ancientingot'
     })
   })
 // Creative in Normal Crafting Table
@@ -213,15 +213,14 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
 
   event.recipes.createMechanicalCrafting('mekanism:creative_fluid_tank', [
     'EDABADE',
-    'EDCXCDE',
+    'EDAXADE',
     'EDABADE'
     ], {
   
     X: 'kubejs:ancientingot',
     A: 'mekanism:ultimate_fluid_tank',
     B: 'dimstorage:dimensional_tank',
-    C: Item.of('fluidtank:tank_silver').ignoreNBT(),
-    D: Item.of( 'industrialforegoing:supreme_black_hole_tank').ignoreNBT(),
+    D: Item.of('industrialforegoing:supreme_black_hole_tank').ignoreNBT(),
     E: Item.of('pedestals:coin/fluidtank').ignoreNBT(),
     
   })
@@ -350,16 +349,6 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
     ], {
   
     Y:'mekanism:creative_fluid_tank',
-    X:'draconicevolution:draconium_ingot',
-    A:'refinedstorage:64k_fluid_storage_block'
-  })
-  event.recipes.createMechanicalCrafting('refinedstorage:creative_fluid_storage_block', [
-    'XXXX',
-    'XAYX',
-    'XXXX'
-    ], {
-  
-    Y:'kubejs:ancientingot',
     X:'draconicevolution:draconium_ingot',
     A:'refinedstorage:64k_fluid_storage_block'
   })

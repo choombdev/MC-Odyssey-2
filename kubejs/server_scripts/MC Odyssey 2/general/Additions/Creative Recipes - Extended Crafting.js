@@ -312,16 +312,6 @@ event.recipes.extendedcrafting.shaped_table(Item.of('kubejs:ancient_leggings','{
     X:'draconicevolution:draconium_ingot',
     A:'refinedstorage:64k_fluid_storage_block'
   })
-  event.recipes.extendedcrafting.shaped_table('refinedstorage:creative_fluid_storage_block', [
-    'XXXX',
-    'XAYX',
-    'XXXX'
-    ], {
-  
-    Y:'kubejs:ancientingot',
-    X:'draconicevolution:draconium_ingot',
-    A:'refinedstorage:64k_fluid_storage_block'
-  })
   event.recipes.extendedcrafting.shaped_table(Item.of('tconstruct:creative_slot', '{slot:"abilities"}'), [
     'XXXX',
     'XAYX',

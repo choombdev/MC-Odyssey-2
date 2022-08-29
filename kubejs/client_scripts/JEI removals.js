@@ -1,6 +1,4 @@
 // This script was made by Choomb / YahiaTGF for MC Odyssey 2, reusing it without explicit permission is not allowed.
-console.info('- - - Loading JEI Removals - - -')
-
 onEvent('jei.hide.items', event => {
   // alkahestry_tome
   event.hide('xreliquary:alkahestry_tome')
@@ -43,6 +41,7 @@ onEvent('jei.hide.items', event => {
 
   // Spawn Eggs
   event.hide('/_spawn_egg$/')
+
   // Draconium
   event.hide('mysticalagriculture:awakened_draconium_seeds')
   event.hide('mysticalagriculture:draconium_seeds')
@@ -85,7 +84,23 @@ onEvent('jei.add.items', event => {
   event.add(Item.of('mekanism:creative_fluid_tank'))
   event.add(Item.of('xreliquary:mob_charm_belt'))
   event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"bloodmagic:guide"}'))
+
+  // Spawn Eggs
+  event.add('minecraft:cow_spawn_egg')
+  event.add('minecraft:chicken_spawn_egg')
+  event.add('minecraft:sheep_spawn_egg')
+  event.add('minecraft:mooshroom_spawn_egg')
+  event.add('minecraft:horse_spawn_egg')
+  event.add('minecraft:bat_spawn_egg')
+  event.add('minecraft:pig_spawn_egg')
+  event.add('minecraft:slime_spawn_egg')
+  event.add('minecraft:zombie_spawn_egg')
+  event.add('minecraft:wither_skeleton_spawn_egg')
+  event.add('minecraft:skeleton_spawn_egg')
+  event.add('minecraft:piglin_spawn_egg')
+  event.add('minecraft:creeper_spawn_egg')
+  event.add('minecraft:spider_spawn_egg')
+  event.add('minecraft:blaze_spawn_egg')
 })
 
 
-console.info('- - - Finished Loading JEI Removals - - -')

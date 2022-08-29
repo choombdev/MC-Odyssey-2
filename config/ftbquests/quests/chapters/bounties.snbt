@@ -1604,18 +1604,12 @@
 				"6F84027146FB4236"
 			]
 			id: "71F2D0671AE021CB"
-			tasks: [
-				{
-					id: "6EE495E29F7A101D"
-					type: "checkmark"
-					title: "Rank 5: Emerald"
-				}
-				{
-					id: "5B246FE48852D331"
-					type: "item"
-					item: "kubejs:medalliont3"
-				}
-			]
+			tasks: [{
+				id: "5B246FE48852D331"
+				type: "item"
+				item: "kubejs:medalliont3"
+				consume_items: true
+			}]
 			rewards: [{
 				id: "174F0D122A714E91"
 				type: "item"
@@ -1653,18 +1647,12 @@
 				"4C3DD98505FCC4CF"
 			]
 			id: "06ED1BB7C4554975"
-			tasks: [
-				{
-					id: "19DFFC2A55EE11AF"
-					type: "checkmark"
-					title: "Rank 3: Ruby"
-				}
-				{
-					id: "18E9B1ACEAAEB84F"
-					type: "item"
-					item: "kubejs:medalliont4"
-				}
-			]
+			tasks: [{
+				id: "18E9B1ACEAAEB84F"
+				type: "item"
+				item: "kubejs:medalliont4"
+				consume_items: true
+			}]
 			rewards: [{
 				id: "7ADFAC1B5F099AC6"
 				type: "item"
@@ -1701,18 +1689,12 @@
 				"51484E4812AC6E1C"
 			]
 			id: "3188DD78CAA6832A"
-			tasks: [
-				{
-					id: "26D2282E00290313"
-					type: "checkmark"
-					title: "Rank 2: Gold"
-				}
-				{
-					id: "25EAD06FA0BF1E1B"
-					type: "item"
-					item: "kubejs:medalliont5"
-				}
-			]
+			tasks: [{
+				id: "25EAD06FA0BF1E1B"
+				type: "item"
+				item: "kubejs:medalliont5"
+				consume_items: true
+			}]
 			rewards: [{
 				id: "056D1FA87C682DA6"
 				type: "item"
@@ -1748,18 +1730,12 @@
 				"1BFD0FD3E14A9BBF"
 			]
 			id: "1DEC62B7DA1E94CB"
-			tasks: [
-				{
-					id: "4117C4D8E8629876"
-					type: "checkmark"
-					title: "Rank 2: Gold"
-				}
-				{
-					id: "3B9938A31F8C38A9"
-					type: "item"
-					item: "kubejs:medalliont6"
-				}
-			]
+			tasks: [{
+				id: "3B9938A31F8C38A9"
+				type: "item"
+				item: "kubejs:medalliont6"
+				consume_items: true
+			}]
 			rewards: [
 				{
 					id: "035ACD49E177E47A"
@@ -1793,18 +1769,12 @@
 				"14FF4CA2CC1CE394"
 			]
 			id: "5702EBF2E5DCFDFE"
-			tasks: [
-				{
-					id: "50D59DB432B9F6DF"
-					type: "checkmark"
-					title: "Rank 6: Bronze"
-				}
-				{
-					id: "1B1CA6A538FA0323"
-					type: "item"
-					item: "kubejs:medalliont1"
-				}
-			]
+			tasks: [{
+				id: "1B1CA6A538FA0323"
+				type: "item"
+				item: "kubejs:medalliont1"
+				consume_items: true
+			}]
 			rewards: [{
 				id: "4883E793295655F1"
 				type: "item"
@@ -1813,7 +1783,7 @@
 		}
 		{
 			title: "Rank 5: Sapphire"
-			icon: "emendatusenigmatica:sapphire_gem"
+			icon: "kubejs:medalliont3"
 			x: -3.5d
 			y: -11.5d
 			shape: "pentagon"
@@ -1836,18 +1806,12 @@
 				"074E60D909CFF662"
 			]
 			id: "523A997774CB8A40"
-			tasks: [
-				{
-					id: "5966EE5F36BD2183"
-					type: "checkmark"
-					title: "Rank 5: Sapphire"
-				}
-				{
-					id: "547D1A1463AEC969"
-					type: "item"
-					item: "kubejs:medalliont2"
-				}
-			]
+			tasks: [{
+				id: "547D1A1463AEC969"
+				type: "item"
+				item: "kubejs:medalliont2"
+				consume_items: true
+			}]
 			rewards: [{
 				id: "0739AB212232DDDA"
 				type: "item"
