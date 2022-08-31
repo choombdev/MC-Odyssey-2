@@ -1,6 +1,17 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
 
+// Quartz Glass
+event.remove({output:"betternether:quartz_glass"})
+event.shaped('betternether:quartz_glass', [
+  'SSS',
+  'SQS',
+  'SSS'
+], {
+  S: 'minecraft:glass',
+  Q: "minecraft:quartz"
+})
+
 //Ether Gas
 event.recipes.createMixing(Fluid.of("industrialforegoing:ether_gas",100), [
   'forbidden_arcanus:dark_nether_star',
