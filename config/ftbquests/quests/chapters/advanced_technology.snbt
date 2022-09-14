@@ -2453,7 +2453,10 @@
 			x: -24.0d
 			y: 2.5d
 			subtitle: "A dimension full of clones.. of you."
-			description: ["So, why don't we just tap into where they're coming from instead of killing them over and over again? "]
+			description: [
+				"So, why don't we just tap into where they're coming from instead of killing them over and over again? "
+				"Takes (6) Nether Gobber, (1) Rosa Arcana and (2500) RF => Returns (1) Gaia Spirit Essence"
+			]
 			dependencies: ["0AF7E2058DE01395"]
 			id: "302C863506DD8274"
 			tasks: [
@@ -2535,7 +2538,11 @@
 			x: -22.5d
 			y: -0.5d
 			subtitle: "Yuck!"
-			description: ["Unethically gather animal essence through this little grinder here."]
+			description: [
+				"Unethically gather animal essence through this little grinder here."
+				"Takes the following items and returns Mob Essence, RF consumption, time and amount changing accordingly:"
+				"Gunpowder, Catalyzing Gland, Zombie Heart, Ender Pearl, Rotten Flesh, String, Spider Eye, Bone, Nebulous Heart, Molten Core, Withered Rib, Eye of the Storm, Squid Beak, Bat Wing, Rib Bone, Chelicerae, Slime Pearl"
+			]
 			dependencies: ["15FEA01D1506FF34"]
 			id: "287F4F0516FE095B"
 			tasks: [
@@ -2600,7 +2607,10 @@
 			x: -24.0d
 			y: -0.5d
 			subtitle: "Unlimited (wireless) power!"
-			description: ["As fun as it is smashing redstone with obsidian, it should be automatable, no?"]
+			description: [
+				"As fun as it is smashing redstone with obsidian, it should be automatable, no?"
+				"Takes (1) Redstone and (100) RF => Returns 1 Flux Dust"
+			]
 			dependencies: ["15FEA01D1506FF34"]
 			id: "7689157AE0FDB618"
 			tasks: [
@@ -2671,7 +2681,10 @@
 			x: -27.5d
 			y: -0.5d
 			subtitle: "Hot!"
-			description: ["The Electric Crucible allows you to turn Cobblestone (And RF) into Lava in one big multiblock!"]
+			description: [
+				"The Electric Crucible allows you to turn Cobblestone (And RF) into Lava in one big multiblock!"
+				"Takes cobblestone and turns it to Lava."
+			]
 			dependencies: ["15FEA01D1506FF34"]
 			id: "34316074312F15C9"
 			tasks: [
@@ -2728,6 +2741,7 @@
 			description: [
 				"We need to c-- make some rock crystals!"
 				"Instead of wasting time looking for them, just build this little lab and make them at home!"
+				"Takes (1) Litherite Crystal and 750 RF => returns (1) Rock Crystal"
 			]
 			dependencies: ["15FEA01D1506FF34"]
 			id: "3BF587667847294B"
@@ -2826,6 +2840,7 @@
 			description: [
 				"The realm of dragons where you can easily find Draconium on top of Draconium, this will help you automate Draconium in more ways."
 				""
+				"Takes (4) Gaia Ingot, (5) Nether Star, (10) End Crystal Gem, (5000) RF => Returns (1) Draconium Ingot"
 			]
 			dependencies: ["0AF7E2058DE01395"]
 			id: "7C615ECA83F4BF29"
@@ -2917,6 +2932,7 @@
 			description: [
 				"Odyssey 2 has it's own custom made Multiblocks, available in JEI and helping you progress. "
 				"JEI only has the visuals and no item list, so, to avoid confusion, I'll be including all the required blocks in each quest!"
+				"I have also added Create Schematics for each multiblock, to help build it."
 			]
 			id: "15FEA01D1506FF34"
 			tasks: [{

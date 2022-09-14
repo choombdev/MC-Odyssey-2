@@ -198,7 +198,6 @@
 		}
 		{ item: "thermal:rf_coil_xfer_augment", weight: 52 }
 		{ item: "mekanism:robit", weight: 28 }
-		{ item: "ob_aquamirae:rune_of_the_storm", weight: 35 }
 		{ item: "tconstruct:slimesteel_reinforcement", count: 5, weight: 25 }
 		{
 			item: {

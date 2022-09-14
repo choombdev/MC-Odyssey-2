@@ -43,7 +43,7 @@
 	#Range: > 0
 	archwoodForest = 3
 	#Crystallizer output item. Do not use a wrong ID!
-	crystallizer_output = "ars_nouveau:mana_gem"
+	crystallizer_output = "emendatusenigmatica:arcane_gem"
 
 [drygmy_production]
 	#How much mana drygmys consume per generation

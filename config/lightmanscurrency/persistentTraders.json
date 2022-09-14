@@ -966,18 +966,11 @@
             "type": "lctech:energy_trader",
             "TraderName": "Supercharge-your-wallets",
             "OwnerName": "Odyssey",
-            "Trades": [{
-                "TradeType": "PURCHASE",
-                "Price": [{
-                    "coin": "lightmanscurrency:coin_gold",
-                    "count": 1
-                }],
-                "Quantity": 1000
-            }, {
+            "Trades": [ {
                 "TradeType": "SALE",
                 "Price": [{
-                    "coin": "lightmanscurrency:coin_netherite",
-                    "count": 1
+                    "coin": "lightmanscurrency:coin_diamond",
+                    "count": 9
                 }],
                 "Quantity": 1000
             }]

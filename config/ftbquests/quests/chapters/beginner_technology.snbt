@@ -1025,8 +1025,19 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"Once you have the material needed to build, let the Multiblock build itself for you!"
+				"Just remember, some slots will be empty, needing either Modifiers (or their Null versions) and IO (or their null versions)"
+				"Fill only two IO areas with RF Input and Item Output and the rest with Null IO [IO is found on the outside]"
+				"And fill the Modifiers with either Modifiers or Null Modifiers [Found on the inside]"
+				"Once done, make sure the laser can see the sky or bedrock for it to function."
+			]
+			dependencies: [
+				"1FAE6D5CBC5D4538"
+				"2EB3B8E8C070CEA3"
+			]
 			id: "309DF866EFC85914"
 			tasks: [{
 				id: "7C12FE311B86886D"
@@ -1047,8 +1058,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			x: 0.5d
+			y: 2.5d
 			dependencies: ["309DF866EFC85914"]
 			id: "52C4ADF09E84B194"
 			tasks: [{
@@ -1070,8 +1081,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 2.0d
+			x: 0.5d
+			y: 3.5d
 			dependencies: ["52C4ADF09E84B194"]
 			id: "4D0DCA9C8BDD6989"
 			tasks: [{
@@ -2180,8 +2191,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 2.5d
+			x: -7.0d
+			y: 1.5d
 			description: ["Very useful for telling what goes in and out of your RF system."]
 			id: "628937F23E5901EF"
 			tasks: [{
@@ -2400,6 +2411,105 @@
 				id: "55DFE19A1E63760D"
 				type: "ftbmoney:money"
 				ftb_money: 450L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["To Program your Miner, you'll need to get a Memory Card and a Programmer then select what you'd like to mine."]
+			dependencies: ["01B108FB154FB8C3"]
+			id: "1FAE6D5CBC5D4538"
+			tasks: [
+				{
+					id: "197160FD30E6458F"
+					type: "item"
+					item: "envirocore:memory_programmer"
+				}
+				{
+					id: "4B59CCB6BDBEED43"
+					type: "item"
+					item: "envirocore:flash_memory"
+				}
+			]
+			rewards: [
+				{
+					id: "3AAD3CF722EC8B40"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "5ECAA5806B50127D"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"To create the parts necessary for a Miner, you'll need to create an Assembler"
+				"Note that parts are tiered with Crystals, you can upgrade them with the same recipe, replacing the crystal only."
+			]
+			dependencies: ["01B108FB154FB8C3"]
+			id: "2EB3B8E8C070CEA3"
+			tasks: [{
+				id: "403D4A1EA1AD266A"
+				type: "item"
+				item: "envirocore:assembler"
+			}]
+			rewards: [
+				{
+					id: "306DB480ED8D243F"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "399096055617F856"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Creating Lens to specify what to focus on."]
+			dependencies: ["01B108FB154FB8C3"]
+			id: "5564C0C361622AC7"
+			tasks: [{
+				id: "7104B148101DBFA5"
+				type: "item"
+				item: "envirocore:lens_grinder"
+			}]
+			rewards: [
+				{
+					id: "5E63B9300472937C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "0838E00A1A14C489"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Environmental Tech"
+			x: 0.5d
+			y: -1.5d
+			description: ["Welcome to Environmental Tech 3!"]
+			id: "01B108FB154FB8C3"
+			tasks: [{
+				id: "1CF105B99F9C3EC7"
+				type: "item"
+				item: "envirocore:obsidian_plate"
+			}]
+			rewards: [{
+				id: "0E7F58172CDF3104"
+				type: "ftbmoney:money"
+				ftb_money: 50L
 			}]
 		}
 	]

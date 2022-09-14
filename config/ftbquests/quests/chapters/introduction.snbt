@@ -1037,5 +1037,57 @@
 				ftb_money: 500L
 			}]
 		}
+		{
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Circles in Minecraft!"
+			description: ["By clicking 'Right Alt', a Radial Menu will appear, allowing you to build things effortlessly. "]
+			id: "47AA00947CF88DF9"
+			tasks: [{
+				id: "46816FB298965D92"
+				type: "checkmark"
+				title: "Effortless Building"
+			}]
+			rewards: [{
+				id: "47CBBE7DBA66031E"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			subtitle: "The Classics"
+			id: "09D1B3F52EB24077"
+			tasks: [{
+				id: "321FB9982309B631"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A877C5BFB7EA67E"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "27D81008BEA95D8C"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
 	]
 }
