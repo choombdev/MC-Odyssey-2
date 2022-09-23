@@ -1,0 +1,61 @@
+Additions:
++ Tips
++ Updated Mods (Cyclic and Lootr)
+Changes:
+= Created a brand new Patchouli Book (That spawns with you/is buyable from the Quests menu) that details all custom content to help find it.
+= Created 5 brand new Multiblocks (Simulated Moon Chamber, Simulated Sun Chamber, Choombium Manufacturer, Blazin Blood Extractor, Industrial Stoneworker)
+= Lowered Mowzie's Mobs spawnrates
+= Added missing Netherite Barrel recipe.
+= Removed Alkahestry Tome from Categories, considering it's disabled.
+= Added Heavy Water and Blazing Blood to Advanced Generators' Heat Exchanger to allow for more ways to earn steam.
+= Increased Mechanical Crucible's RF intake while reducing Cobblestone intake to balance it out more. (150RF to 1000RF and 64 Cobble/500mb to 32 Cobble/1000mb in 250 ticks instead of 250)
+= Modified Quests for Multiblocks
+= Added a in-smeltery way to make Rosenquartz
+= Changed the Crystal Lab to use Cave Illuminators instead of Wells
+= Added more methods to create Redstone Alloys. 
+= Made Sluice recipe harder once again.
+= Retextured Choombium items (Blocks, Ingots and Armor) to fit a more burger theme.
+= Retextured Ancient Ingot to look similar to all the other ingots in the pack.
+= Retextured Ancient Armor to fix some flaws.
+= Decreased Forbidden Arcanus' Temporary Orbs of Flight duration from 5 minutes to 30 seconds.
+= Re-enabled Masoleums from Ice and Fire due to their bug being fixed.
+= Decreased Ghost health to 100 instead of 300.
+= Fixed rendering issues with the Ancient Arrow and slightly retextured it.
+= Added uses for Blazing Mesh in the end game, making it output ready resources; more items; as well as open up a new source of Gaia Ingots and Draconium Dust.
+= Added Amethyst and Sapphires to Sluices.
+= Removed Thermal  quests with blocks that were removed from the mod.
+= Made Mining Dimension much easier to go to with 2x Compressed Cobblestone instead of 5x.
+= Disabled Greek Fantasy Boss Bar
+= Increased Rabbit Spawns
+= Removed (Most) Minecolonies and Create from adding already known recipes to their mods (i.e adding a crafting recipe for crafting table through villagers/automated shaped crafting)
+= Added effects to Ancient Arrow with a cooldown, like the Medallion. 
+= Fixed a creative recipe being broken only in Extended Crafting.
+= Removed more missing items from Rewards and Quests.
+= Removed Duplicate Recipe for Sluices
+= Removed Duplicate Recipe for Flux.
+= Changed some pricings for Persistent Traders to convey current Economy prices.
+= Added Bismuth to Sluices to allow for it's automation.
+Removals:
+- Equipment Compare [Malfunctioning]
+- Alex's Mobs [Major lag issues & malfunctioning]
+- Two Players One Horse [Un-necessary]
+- Awesome Dungeon [Un-necessary]
+- Small Ships [Curseforge issues, crash issues and lag issues]
+- Bountiful [Un-necessary]
+- Buzzier Bees [Un-necessary]
+- Extended Caves [Un-necessary]
+- Integrated REST [Un-necessary]
+- Integrated Proxy [Un-necessary]
+- Integrated Crafting [Un-necessary]
+- Joy of Painting [Un-necessary]
+- Modern Online Picture Frame [Un-necessary]
+- Tinker's Mechworks [Un-necessary]
+- Paintings ++ [Un-necessary]
+- PackagedExCrafting and PackagedAuto [Un-Necessasy]
+- Platforms [Un-Necessasy]
+- Refined Storage Fluxified [Un-Necessasy]
+- Sledgehammer [No longer needed]
+- Simple Generators [Un-necessary]
+- Portality [Un-necessary]
+- Redstone Pen [Un-necessary]
+- Little Logistics [Un-necessary] 
