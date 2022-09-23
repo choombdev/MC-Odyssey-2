@@ -342,8 +342,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -5.5d
+			x: -2.5d
+			y: -4.0d
 			subtitle: "Housekeeping?"
 			description: ["The Vaccumulator Attracts nearby grounded items into its inventory! can also be filtered just in case you only want one or two items!"]
 			dependencies: ["086E00FDC4B9C080"]
@@ -393,31 +393,6 @@
 		}
 		{
 			x: -2.5d
-			y: -4.0d
-			subtitle: "Buzzy Bees!"
-			description: ["Ever wanted to automate a beehive without angering the bees? look no further than the Hive Hopper!"]
-			dependencies: ["086E00FDC4B9C080"]
-			id: "0C5AB0A2F0EC52CA"
-			tasks: [{
-				id: "3BAD0C658D0BA330"
-				type: "item"
-				item: "thermal:device_hive_extractor"
-			}]
-			rewards: [
-				{
-					id: "1E3FADCA4A1C1AC6"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "4997A9E3CC070438"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -2.5d
 			y: -2.5d
 			subtitle: "Because you're hot and you're cold...."
 			description: ["A fancy cobble generator that extracts different stone based on the block underneath it!"]
@@ -442,8 +417,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -1.0d
+			x: -3.5d
+			y: -1.5d
 			subtitle: "Fabreeze"
 			description: ["Ever wanted to just have a pleasant aroma fill your room? well now you can with all new Fabree- wait this isnt Fabreeze? it just spreads potion effects in a small area with a slot for boosting reagents? darn.... gotta work on my sales pitch."]
 			dependencies: ["086E00FDC4B9C080"]
@@ -461,31 +436,6 @@
 				}
 				{
 					id: "2CC37C3535B3BB48"
-					type: "loot"
-					table_id: 28899073401794277L
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: -1.5d
-			subtitle: "Here Fishy Fishy..."
-			description: ["An automated fishing machine, requires a large body of water!"]
-			dependencies: ["086E00FDC4B9C080"]
-			id: "467F04391F2242E1"
-			tasks: [{
-				id: "231F7DC2B5BB0E45"
-				type: "item"
-				item: "thermal:device_fisher"
-			}]
-			rewards: [
-				{
-					id: "31FD9A5F08113D35"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "7E37394AC91BEB11"
 					type: "loot"
 					table_id: 28899073401794277L
 				}

@@ -1,0 +1,34 @@
+{
+    "name": "Simulated Sun Chamber",
+    "icon": "mekanismgenerators:solar_panel",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Simulated Sun Chamber simulates sunlight to help replicate the effects of the Neuron Solar Activator [Note: A Cyclic Tank is missing in the middle in the visualization]"
+        },
+        {
+            "name": "Simulated Sun Chamber",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+                    ["////","/  /","/  /","////"],
+                    ["))))",")..)",")..)","))))"],
+                    ["),,)",",--,",",0-,","),,)"],
+                    ["),,)",",--,",",--,","),,)"],
+                    ["C)) ","))))","))))","*))+"]
+                  ],
+                  "mapping": {
+                    "C": "masterfulmachinery:mb_solaractivator_controller",
+                    ")":  "mekanism:steel_casing",
+                    "*":  "masterfulmachinery:mb_solaractivator_fluids_port_mekanism_gas_input",
+                    "+":  "masterfulmachinery:mb_solaractivator_fluids_port_mekanism_gas_output",
+                    ",":  "quark:blaze_lantern",
+                    "-":  "cyclic:tank",
+                    ".":  "forbidden_arcanus:arcane_glass",
+                    "/":  "mekanismgenerators:solar_generator"
+                    }
+                    }
+                }
+    ]
+}

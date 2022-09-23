@@ -1,0 +1,41 @@
+{
+    "name": "Crystal Lab",
+    "icon": "astralsorcery:rock_crystal",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Crystal Lab is a multiblock structure that allows you to synthesize Rock Crystals. It is used to create the Rock crystals needed for Astral Sorcery"
+        },
+        {
+            "name": "Crystal Lab",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+                    [ "  3   ", "  3   ", "  3   ", "333   ", "  3   ", "  3   ", "  3   "],
+                    [ "  .   ", " 5/5  ", " 545  ", ". 4   ", "  4   ", "      ", "  .   "],
+                    [ "  .   ", " ///  ", " /Z/  ", ".  0  ", "  4   ", "      ", "  .   "],
+                    [ "33.   ", "3///  ", "3/Z/  ", ".     ", "3     ", "3     ", "33.   "],
+                    [ "  .   ", " ///  ", " /Z/  ", ".     ", "  1   ", "  2   ", "  .   "],
+                    [ "))))) ", "))))* ", "))))) ", ")))))C", "))))) ", ")))), ", "))-)) "]
+
+                  ],
+                  "mapping": {
+                    "C": "masterfulmachinery:mb_crystal_controller",
+                    ")": "quark:polished_marble",
+                    "*": "masterfulmachinery:mb_crystal_items_port_items_output",
+                    ",": "masterfulmachinery:mb_crystal_items_port_items_input",
+                    "-": "masterfulmachinery:mb_crystal_energy_port_energy_input",
+                    ".": "astralsorcery:infused_wood",
+                    "/": "minecraft:iron_block",
+                    "Z": "create:fluid_tank",
+                    "1": "astralsorcery:altar_discovery",
+                    "2": "create:mechanical_arm",
+                    "3": "astralsorcery:infused_wood_slab",
+                    "4": "create:fluid_pipe",
+                    "5": "astralsorcery:illuminator"
+                    }
+                }
+            }
+    ]
+}

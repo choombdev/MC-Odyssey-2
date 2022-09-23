@@ -45,19 +45,19 @@ e.custom({
   "type": "masterfulmachinery:machine_process",
   "structureId": "mechanicalcrucible",
   "controllerId": "mb_lava",
-  "ticks": 500,
+  "ticks": 250,
   "inputs": [
       {
           "type": "masterfulmachinery:energy",
           "data":{
-              "amount" : 150
+              "amount" : 1000
           }
       },
       {
           "type": "masterfulmachinery:items",
           "data":{
               "item": "minecraft:cobblestone",
-              "count": 64
+              "count": 32
           }
       }
   ],

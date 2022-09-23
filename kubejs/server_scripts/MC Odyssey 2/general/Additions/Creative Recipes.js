@@ -221,7 +221,7 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
     A: 'mekanism:ultimate_fluid_tank',
     B: 'dimstorage:dimensional_tank',
     D: Item.of('industrialforegoing:supreme_black_hole_tank').ignoreNBT(),
-    E: Item.of('pedestals:coin/fluidtank').ignoreNBT(),
+    E: Item.of('pedestals:coin/fluidtank').ignoreNBT()
     
   })
 

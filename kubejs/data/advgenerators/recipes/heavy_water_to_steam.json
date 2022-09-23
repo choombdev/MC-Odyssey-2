@@ -1,0 +1,14 @@
+{
+    "type": "advgenerators:exchanger_heating",
+    "input": {
+      "fluids": {
+        "fluid": "mekanism:heavy_water"
+      },
+      "amount": 5
+    },
+    "output": {
+      "fluid": "advgenerators:steam",
+      "amount": 50
+    },
+    "heat": 10
+  }

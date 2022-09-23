@@ -1,0 +1,32 @@
+{
+    "name": "Simulated Moon Chamber",
+    "icon": "astralsorcery:aquamarine",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Simulated Moon Chamber simulates moonlight to help replicate the effects of the Lightwell [Note: A Cyclic Tank is missing in the middle in the visualization]"
+        },
+        {
+            "name": "Simulated Moon Chamber",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+            "pattern": [
+                ["))))", ")//)", ")//)", "))))"],
+                [")--)", ").0-", ")..-", ")--)"],
+                [")*))", "C)))", "+)))", "),))"]
+              ],
+              "mapping": {
+                ")": "mekanism:steel_casing",
+                "C": "masterfulmachinery:mb_well_controller",
+                "*": "masterfulmachinery:mb_well_energy_port_energy_input",
+                "+": "masterfulmachinery:mb_well_items_port_items_input",
+                ",": "masterfulmachinery:mb_well_fluids_port_fluids_output",
+                "-": "astralsorcery:black_marble_arch",
+                ".": "cyclic:tank",
+                "/": "cyclic:dark_glass"
+                }
+            }
+        }]
+    }
+            

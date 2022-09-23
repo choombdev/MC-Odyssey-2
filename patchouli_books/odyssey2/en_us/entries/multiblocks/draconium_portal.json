@@ -1,0 +1,39 @@
+{
+    "name": "Draconium Portal",
+    "icon": "draconicevolution:draconium_ingot",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "There exists a world where Dragons Roam Free, without interference of humans, where everything is built from a material called 'Draconium'. So, we built a portal and will interfere in their daily lives by stealing random bricks from their buildings, not cool."
+        },
+        {
+            "name": "Draconium Portal",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+                    [ "))))))" ,")3ZZ3)" ,").//.)"],
+                    [ ")    )" ,"Z1,,1Z" ,")/22/)"],
+                    [ ")    )" ,"Z10 1Z" ,")/22/)"],
+                    [ ")    )" ,"Z,  ,Z" ,")/22/)"],
+                    [ ")    )" ,"Z1  1)" ,")/22/)"],
+                    [ ")4  C)" ,"*),,)-" ,").//.)"]
+                  ],
+                  "mapping": {
+                    "C": "masterfulmachinery:mb_draconium_controller",
+                    "Z":"botania:elementium_block" , 
+                    "1": "emendatusenigmatica:enderium_block" , 
+                    "2": "twilightforest:carminite_block" , 
+                    "3": "minecraft:beacon" , 
+                    "4": "masterfulmachinery:mb_draconium_items_port_items_input" , 
+                    ")": "minecraft:netherite_block" , 
+                    "*": "masterfulmachinery:mb_draconium_items_port_items_output" , 
+                    ",": "emendatusenigmatica:cobalt_block" , 
+                    "-": "masterfulmachinery:mb_draconium_energy_port_energy_input" , 
+                    ".": "mekanism:teleporter" , 
+                    "/": "mekanism:teleporter_frame"
+                    }
+                  }
+                }
+    ]
+}

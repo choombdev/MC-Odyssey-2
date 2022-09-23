@@ -1,0 +1,34 @@
+{
+    "name": "Essence Extractor",
+    "icon": "minecraft:bone",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Well. Simply put, this is a machine that extracts essences from mob drops, a bit disgusting."
+        },
+        {
+            "name": "Essence Extractor",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+                    [ ")))))" ,")))))" ,"))Z))" ,")))))" ,")))))"],
+                    [ ")...)" ,"/   ." ,"/   ." ,"/   ." ,")...)"],
+                    [ ")...)" ,"/   ." ,"/ 0 ." ,"/   ." ,")...)"],
+                    [ ")...)" ,"/   ." ,"/   ." ,"/   ." ,")...)"],
+                    [ "))*))" ,")))))" ,"+)))C" ,")))))" ,"))-))"]
+                  ],
+                  "mapping": {
+                    "C": "masterfulmachinery:mb_essence_controller",
+                    "Z":  "quark:grate" ,
+                    ")":  "emendatusenigmatica:steel_block" ,
+                    "*":  "masterfulmachinery:mb_essence_items_port_items_input" ,
+                    "+":  "masterfulmachinery:mb_essence_energy_port_energy_input" ,
+                    "-":  "masterfulmachinery:mb_essence_fluids_port_fluids_output" ,
+                    ".":  "mekanismgenerators:reactor_glass" ,
+                    "/":  "create:mechanical_drill"
+                    }
+                    }
+                  }
+    ]
+}

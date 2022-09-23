@@ -1,0 +1,37 @@
+{
+    "name": "Gaia Portal",
+    "icon": "botania:life_essence",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A Mystical Portal leading to the realm where the Gaia Guardian resides. It is a very very dangerous place, so, instead of going there yourself, we've come up with a portal that simply kills a Gaurdian and returns the drops to you. It's a lot safer that way."
+        },
+        {
+            "name": "Gaia Portal",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+                    [ "    ", "*++*", "2--3"],
+                    [ "    ", "/  /", "-ZZ-"],
+                    [ "1  1", "/ 0/", "-ZZ-"],
+                    [ "    ", "/  /", "-ZZ-"],
+                    [ "C   ", "*++*", ",--."]
+                  ],
+                  "mapping": {
+                    "C": "masterfulmachinery:mb_gaia_controller[facing=west]",
+                    "Z": "iceandfire:dragonsteel_fire_block" , 
+                    "1": "minecraft:dragon_wall_head[facing=west]" , 
+                    "2": "eidolon:pewter_block", 
+                    "3": "masterfulmachinery:mb_gaia_energy_port_energy_input" , 
+                    "*": "botania:gaia_spreader", 
+                    "+": "botania:elementium_block", 
+                    ",": "masterfulmachinery:mb_gaia_items_port_items_input" , 
+                    "-": "eidolon:arcane_gold_block" , 
+                    ".": "masterfulmachinery:mb_gaia_items_port_items_output" , 
+                    "/": "botania:terrasteel_block"
+                    }
+            }
+        }
+    ]
+}

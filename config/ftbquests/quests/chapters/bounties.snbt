@@ -131,8 +131,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -16.5d
+			x: 1.5d
+			y: -14.5d
 			dependencies: ["71F2D0671AE021CB"]
 			id: "46F6F8D92E7F96D5"
 			tasks: [{
@@ -156,7 +156,7 @@
 		}
 		{
 			x: 1.0d
-			y: -17.0d
+			y: -16.0d
 			dependencies: ["71F2D0671AE021CB"]
 			id: "4C3DD98505FCC4CF"
 			tasks: [{
@@ -323,7 +323,7 @@
 		}
 		{
 			x: 0.0d
-			y: -17.0d
+			y: -16.0d
 			dependencies: ["71F2D0671AE021CB"]
 			id: "3BC8BB1CF003348D"
 			tasks: [{
@@ -365,7 +365,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -2.5d
 			y: -14.5d
 			dependencies: ["523A997774CB8A40"]
 			id: "3334EBE136241636"
@@ -482,8 +482,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -13.5d
+			x: 8.5d
+			y: -12.5d
 			dependencies: ["3188DD78CAA6832A"]
 			id: "07238929E22A58FB"
 			tasks: [{
@@ -698,23 +698,6 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: -13.5d
-			dependencies: ["3188DD78CAA6832A"]
-			id: "24D5BBF6F80F7FEF"
-			tasks: [{
-				id: "434E25DFBBE32C56"
-				type: "kill"
-				entity: "alexsmobs:endergrade"
-				value: 5L
-			}]
-			rewards: [{
-				id: "3EB07DF584CC4526"
-				type: "ftbmoney:money"
-				ftb_money: 1500L
-			}]
-		}
-		{
 			x: -4.5d
 			y: -13.5d
 			subtitle: "See you in Hell!"
@@ -814,78 +797,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -13.0d
-			dependencies: ["523A997774CB8A40"]
-			hide: false
-			id: "70A581D382D5A74A"
-			tasks: [{
-				id: "759EA9F32BB2379C"
-				type: "kill"
-				icon: {
-					id: "alexsmobs:cachalot_whale_tooth"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "alexsmobs:cachalot_whale"
-				value: 5L
-			}]
-			rewards: [
-				{
-					id: "244455C0B1D6AB41"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "4601D8646C884762"
-					type: "item"
-					item: {
-						id: "thermal:diving_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: -12.5d
-			dependencies: ["523A997774CB8A40"]
-			id: "7E69E988CE57BC3F"
-			tasks: [{
-				id: "000DAB7B8A8C2452"
-				type: "kill"
-				entity: "alexsmobs:orca"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "1543C37D8B2EF65D"
-					type: "ftbmoney:money"
-					ftb_money: 150L
-				}
-				{
-					id: "712667C644506524"
-					type: "item"
-					item: {
-						id: "thermal:diving_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -8.0d
-			y: -14.5d
+			x: -7.5d
+			y: -14.0d
 			subtitle: "Who you gonna call?"
 			dependencies: ["5702EBF2E5DCFDFE"]
 			id: "59AEABFFF760D13B"
@@ -1009,7 +922,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: -14.5d
 			dependencies: ["523A997774CB8A40"]
 			id: "0A3BEF298F4A0CE9"
@@ -1049,24 +962,6 @@
 					ftb_money: 500L
 				}
 			]
-		}
-		{
-			x: -8.0d
-			y: -15.5d
-			subtitle: "Let's just hope that wasn't Hamodran"
-			dependencies: ["5702EBF2E5DCFDFE"]
-			id: "61D03F9F98663605"
-			tasks: [{
-				id: "72978ED7EF84D7A8"
-				type: "kill"
-				entity: "alexsmobs:elephant"
-				value: 1L
-			}]
-			rewards: [{
-				id: "19438DBCA20FADB0"
-				type: "ftbmoney:money"
-				ftb_money: 1000L
-			}]
 		}
 		{
 			x: -3.0d
@@ -1175,41 +1070,6 @@
 							Potion: "mowziesmobs:long_poison_resist"
 						}
 					}
-				}
-			]
-		}
-		{
-			x: -12.5d
-			y: -12.5d
-			dependencies: ["3123DBA914A37109"]
-			hide: false
-			id: "6371EFC0C4A0A947"
-			tasks: [{
-				id: "784875589E4BB223"
-				type: "kill"
-				icon: {
-					id: "alexsmobs:maggot"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "alexsmobs:fly"
-				value: 5L
-			}]
-			rewards: [
-				{
-					id: "77DDD82ECF097773"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "000DA31873432D8F"
-					type: "item"
-					item: "alexsmobs:banana"
-					count: 8
 				}
 			]
 		}
@@ -1527,14 +1387,14 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -15.5d
+			x: -7.5d
+			y: -15.0d
 			dependencies: ["5702EBF2E5DCFDFE"]
 			id: "34FC39CA120E5680"
 			tasks: [{
 				id: "0BFAFDD6A9629370"
 				type: "kill"
-				icon: "alexsmobs:emu_feather"
+				icon: "minecraft:feather"
 				entity: "greekfantasy:harpy"
 				value: 5L
 			}]
@@ -1583,7 +1443,6 @@
 			min_required_dependencies: 15
 			dependencies: [
 				"61D1727D6A7F079E"
-				"7E69E988CE57BC3F"
 				"3334EBE136241636"
 				"18D1B299C32A1CAA"
 				"6FC2B8534876AD8D"
@@ -1592,13 +1451,10 @@
 				"05AA4CC2B1EB00F4"
 				"4EF3B05655EFCE14"
 				"713395638E40B4D8"
-				"45753C6F9AF0C8AD"
 				"5E17C063C8C09EA9"
-				"70A581D382D5A74A"
 				"5C1EBD8821BAFBB6"
 				"45AA175EB926E71B"
 				"152654C5017201D1"
-				"3DEC7ABBBB9932FD"
 				"37503CC76C2B5E4F"
 				"148E25FEC10EDA96"
 				"6F84027146FB4236"
@@ -1638,7 +1494,6 @@
 				"3CA0E97824DCC9FA"
 				"51D21BA06AEAE1E4"
 				"202ECE08307F6580"
-				"45EF676E4760F07A"
 				"1720F84A84CA3A1D"
 				"0C9225BE6221E640"
 				"7D352AF57C62EE84"
@@ -1679,9 +1534,7 @@
 				"5DD905A17C4A6784"
 				"23C8DB27A807732F"
 				"551E093A7921A76F"
-				"322BF7FC2B230282"
 				"227D6C356A7859CA"
-				"4D106A0C957E7D7E"
 				"09706A4856B6F9E9"
 				"7BFCDA8452ECE7F2"
 				"419381340EBD6AF1"
@@ -1711,12 +1564,10 @@
 			hide_dependency_lines: true
 			min_required_dependencies: 14
 			dependencies: [
-				"24D5BBF6F80F7FEF"
 				"4F5BFA1F98EB9AA8"
 				"68192927A9589F72"
 				"66342378935973B3"
 				"07238929E22A58FB"
-				"6B14A97DAFD4625A"
 				"0566CB2C64A7077C"
 				"7A58DBF89066B065"
 				"3DB73462DFE2FF20"
@@ -1761,7 +1612,6 @@
 			dependencies: [
 				"6E2F613AA87E0E86"
 				"074CE932DB164A4C"
-				"6371EFC0C4A0A947"
 				"7989109D42875864"
 				"32D78B1144B7D3A5"
 				"27C969A6188678C4"
@@ -1792,18 +1642,13 @@
 			hide_dependency_lines: true
 			min_required_dependencies: 8
 			dependencies: [
-				"61D03F9F98663605"
 				"4E9E61863E3EBD13"
 				"62881EB169DD82F1"
 				"59AEABFFF760D13B"
 				"11D2062DC76C1DF8"
 				"34FC39CA120E5680"
-				"0F4FCECB9505F148"
 				"47B83BD3099CB453"
-				"2F8211C822B6D27A"
 				"575EEE21DE8674CF"
-				"2B88890164DA5C44"
-				"074E60D909CFF662"
 			]
 			id: "523A997774CB8A40"
 			tasks: [{
@@ -1861,8 +1706,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -15.0d
+			x: -7.0d
+			y: -13.5d
 			dependencies: ["5702EBF2E5DCFDFE"]
 			id: "47B83BD3099CB453"
 			tasks: [{
@@ -1873,24 +1718,6 @@
 			}]
 			rewards: [{
 				id: "1323157B14A28771"
-				type: "ftbmoney:money"
-				ftb_money: 750L
-			}]
-		}
-		{
-			x: -8.5d
-			y: -14.0d
-			dependencies: ["5702EBF2E5DCFDFE"]
-			id: "2F8211C822B6D27A"
-			tasks: [{
-				id: "05C2F0F9E0CF2876"
-				type: "kill"
-				icon: "alexsmobs:dropbear_claw"
-				entity: "buzzier_bees:grizzly_bear"
-				value: 5L
-			}]
-			rewards: [{
-				id: "14CFE5B0393B503D"
 				type: "ftbmoney:money"
 				ftb_money: 750L
 			}]
@@ -2016,8 +1843,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -14.5d
+			x: 4.0d
+			y: -14.0d
 			dependencies: ["06ED1BB7C4554975"]
 			id: "551E093A7921A76F"
 			tasks: [{
@@ -2176,8 +2003,8 @@
 		}
 		{
 			title: "Dragon Egg"
-			x: 12.5d
-			y: -13.5d
+			x: 13.0d
+			y: -13.0d
 			subtitle: "A Hero?"
 			description: ["If you're a Hero, then prove it to me by bringing me a Dragon Egg!      *Consumes Egg*"]
 			dependencies: ["1DEC62B7DA1E94CB"]
@@ -2286,24 +2113,6 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -14.5d
-			dependencies: ["71F2D0671AE021CB"]
-			id: "45EF676E4760F07A"
-			tasks: [{
-				id: "4D48F02F9BDBC086"
-				type: "kill"
-				icon: "minecraft:bone"
-				entity: "alexsmobs:bone_serpent"
-				value: 5L
-			}]
-			rewards: [{
-				id: "363C7925D8D170F0"
-				type: "ftbmoney:money"
-				ftb_money: 1250L
-			}]
-		}
-		{
 			x: 4.5d
 			y: -14.5d
 			dependencies: ["06ED1BB7C4554975"]
@@ -2325,18 +2134,6 @@
 				id: "1DB1293CF8B1FD42"
 				type: "ftbmoney:money"
 				ftb_money: 1250L
-			}]
-		}
-		{
-			x: 4.0d
-			y: -14.0d
-			dependencies: ["06ED1BB7C4554975"]
-			id: "322BF7FC2B230282"
-			tasks: [{
-				id: "6E3F15D9A604EC0E"
-				type: "kill"
-				entity: "alexsmobs:straddler"
-				value: 5L
 			}]
 		}
 		{
@@ -2376,7 +2173,7 @@
 		}
 		{
 			x: -12.5d
-			y: -13.5d
+			y: -12.5d
 			dependencies: ["3123DBA914A37109"]
 			id: "32D78B1144B7D3A5"
 			tasks: [{
@@ -2391,37 +2188,6 @@
 				type: "ftbmoney:money"
 				ftb_money: 250L
 			}]
-		}
-		{
-			x: -3.0d
-			y: -13.0d
-			dependencies: ["523A997774CB8A40"]
-			id: "3DEC7ABBBB9932FD"
-			tasks: [{
-				id: "3E5F98A5B3F1D172"
-				type: "kill"
-				icon: "alexsmobs:shark_tooth"
-				entity: "alexsmobs:hammerhead_shark"
-				value: 10L
-			}]
-			rewards: [
-				{
-					id: "5B5B1A03367FD46B"
-					type: "ftbmoney:money"
-					ftb_money: 1000L
-				}
-				{
-					id: "22E524E9493576C6"
-					type: "item"
-					item: {
-						id: "thermal:diving_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 		}
 		{
 			x: -0.5d
@@ -2502,54 +2268,6 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -13.5d
-			dependencies: ["5702EBF2E5DCFDFE"]
-			id: "0F4FCECB9505F148"
-			tasks: [{
-				id: "7A67349C4D25DB55"
-				type: "kill"
-				entity: "alexsmobs:cockroach"
-				value: 5L
-			}]
-			rewards: [{
-				id: "6984004EC4660B69"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -2.5d
-			y: -12.5d
-			dependencies: ["523A997774CB8A40"]
-			id: "45753C6F9AF0C8AD"
-			tasks: [{
-				id: "67E4A3504A4C3CFC"
-				type: "kill"
-				icon: "alexsmobs:serrated_shark_tooth"
-				entity: "alexsmobs:frilled_shark"
-				value: 5L
-			}]
-			rewards: [
-				{
-					id: "3FADC96A5C33AA04"
-					type: "ftbmoney:money"
-					ftb_money: 700L
-				}
-				{
-					id: "4E34EAF7024E30B4"
-					type: "item"
-					item: {
-						id: "thermal:diving_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
 			x: -4.0d
 			y: -16.5d
 			dependencies: ["523A997774CB8A40"]
@@ -2585,83 +2303,6 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -13.0d
-			dependencies: ["1DEC62B7DA1E94CB"]
-			id: "334FF3ECC9C5CE83"
-			tasks: [{
-				id: "1560FA8CDACE782B"
-				type: "kill"
-				icon: "alexsmobs:void_worm_eye"
-				entity: "alexsmobs:void_worm"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "0EC91E94435AEAE5"
-					type: "ftbmoney:money"
-					ftb_money: 5000L
-				}
-				{
-					id: "0D23D3C3BF162DCA"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: -14.0d
-			subtitle: "They are acting pretty suspisious"
-			dependencies: ["5702EBF2E5DCFDFE"]
-			id: "2B88890164DA5C44"
-			tasks: [{
-				id: "56E9B74DA49E5CD5"
-				type: "kill"
-				entity: "alexsmobs:mungus"
-				value: 5L
-			}]
-			rewards: [{
-				id: "0B12C45F01B14EDA"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: 8.5d
-			y: -12.5d
-			dependencies: ["3188DD78CAA6832A"]
-			id: "6B14A97DAFD4625A"
-			tasks: [{
-				id: "05F3AB73B9525FAD"
-				type: "kill"
-				entity: "alexsmobs:enderiophage"
-				value: 5L
-			}]
-			rewards: [{
-				id: "4B104D5CB217DE4D"
-				type: "ftbmoney:money"
-				ftb_money: 1500L
-			}]
-		}
-		{
-			x: -7.0d
-			y: -14.5d
-			dependencies: ["5702EBF2E5DCFDFE"]
-			id: "074E60D909CFF662"
-			tasks: [{
-				id: "43BDF19067583D91"
-				type: "kill"
-				entity: "alexsmobs:guster"
-				value: 10L
-			}]
-			rewards: [{
-				id: "79120275D48C601A"
-				type: "ftbmoney:money"
-				ftb_money: 650L
-			}]
-		}
-		{
 			x: -3.5d
 			y: -15.5d
 			dependencies: ["523A997774CB8A40"]
@@ -2685,24 +2326,6 @@
 					count: 4
 				}
 			]
-		}
-		{
-			x: 5.5d
-			y: -14.5d
-			dependencies: ["06ED1BB7C4554975"]
-			id: "4D106A0C957E7D7E"
-			tasks: [{
-				id: "4EA6D02B31A90922"
-				type: "kill"
-				icon: "silentgear:fluffy_feather"
-				entity: "alexsmobs:seagull"
-				value: 10L
-			}]
-			rewards: [{
-				id: "7DD5BDAF6CC8C3FF"
-				type: "ftbmoney:money"
-				ftb_money: 1500L
-			}]
 		}
 		{
 			x: -3.5d

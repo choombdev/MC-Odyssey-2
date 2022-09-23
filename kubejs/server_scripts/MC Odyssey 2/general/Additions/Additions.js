@@ -1,6 +1,18 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
 
+
+// Redstone Alloy Dust
+event.shapeless('silents_mechanisms:redstone_alloy_dust', ['emendatusenigmatica:iron_dust', 'minecraft:redstone'])
+// Crystallized Obsidian
+event.recipes.mekanismMetallurgicInfusing('cyclic:gem_obsidian', 'mekanism:ingot_refined_obsidian', 'mekanism:redstone', 20)
+// Netherite Barrel
+event.shapeless('metalbarrels:wood_to_netherite', ['metalbarrels:iron_to_diamond', 'minecraft:netherite_ingot'])
+  
+// Bitumen to Coal / Bitumen to Smelt
+event.shapeless('minecraft:coal', [ '2x emendatusenigmatica:bitumen_gem'])
+event.smelting('emendatusenigmatica:bitumen_gem','emendatusenigmatica:bitumen_ore')
+
 // Quartz Glass
 event.remove({output:"betternether:quartz_glass"})
 event.shaped('betternether:quartz_glass', [

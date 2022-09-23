@@ -155,11 +155,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 250
+			generation_distance = 400
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 80
+			generation_separation = 100
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["minecraft:overworld"]
 			#Maximum height for generation placement. -1 to ignore
@@ -209,11 +209,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 250
+			generation_distance = 400
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 80
+			generation_separation = 100
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["minecraft:overworld"]
 			#Maximum height for generation placement. -1 to ignore
@@ -300,7 +300,7 @@
 		[mobs.grottol.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 2
+			spawn_rate = 1
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -358,7 +358,7 @@
 		[mobs.lantern.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 5
+			spawn_rate = 3
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 2
@@ -419,7 +419,7 @@
 		[mobs.barakoa.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 5
+			spawn_rate = 3
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -477,7 +477,7 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 15
+			spawn_rate = 5
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 2
@@ -535,7 +535,7 @@
 		[mobs.foliaath.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 70
+			spawn_rate = 35
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1

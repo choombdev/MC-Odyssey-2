@@ -1,0 +1,39 @@
+{
+    "name": "Industrial Stoneworker",
+    "icon": "astralsorcery:marble_raw",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Industrial Stoneworker uses modern technology to extract raw materials like Marble or Blackstone from thin air."
+        },
+        {
+            "name": "Industrial Stoneworker",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+                    ["      ","      ","  0   ","      ","      "],
+                    ["      ","      ","  3   ","      ","      "],
+                    ["      ","  2   "," 212  ","  2   ","      "],
+                    ["///// ","/SSS/ ","/S1S/ ","/SSS/ ","///// "],
+                    [")   ) ","      ","  .   ","      ",")   ) "],
+                    [",   , ","      ","  -   ","      ",",   , "],
+                    ["))))) ",")   ) ",")   * ",")   ) ","))+))C"]
+                  ],
+                  "mapping": {
+                    "S": "minecraft:smooth_stone",
+                    "C": "masterfulmachinery:mb_stoneworker_controller",
+                    "1": "cyclic:battery",
+                    "2": "thermal:dynamo_stirling",
+                    "3": "masterfulmachinery:mb_stoneworker_energy_port_energy_input",
+                    ")": "minecraft:stone_bricks",
+                    "*": "masterfulmachinery:mb_stoneworker_items_port_items_output",
+                    "+": "masterfulmachinery:mb_stoneworker_items_port_items_input",
+                    ",": "minecraft:chiseled_stone_bricks",
+                    "-": "minecraft:cauldron",
+                    ".": "minecraft:oak_fence",
+                    "/": "minecraft:smooth_stone_slab"}
+                    }
+                }
+    ]
+}

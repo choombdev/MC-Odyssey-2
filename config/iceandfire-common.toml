@@ -408,7 +408,7 @@
 		"Hydra Caves Gen Chance" = 1000
 		#Maximum ghost health.
 		#Range: 1.0 ~ 10000.0
-		"Ghost Max Health" = 300.0
+		"Ghost Max Health" = 100.0
 		#Maximum ghost attack strength.
 		#Range: 0.0 ~ 10000.0
 		"Ghost Attack Strength" = 10.0

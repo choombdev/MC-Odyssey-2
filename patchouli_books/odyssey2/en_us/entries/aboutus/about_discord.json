@@ -1,0 +1,12 @@
+{
+    "name": "Discord",
+    "icon": "minecraft:book",
+    "category": "patchouli:aboutus",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Official $(l)$(l:https://discord.com/invite/JzSydC6UMR)Discord server$(/l)$(reset) is the perfect place to chat, join community events and giveaways, discuss Odyssey packs, get help and technical support and even join our Official Public Server, hosted by Bisecthosting! Remember, we're always looking for help!"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Flux Dust Generator",
+    "icon": "fluxnetworks:flux_dust",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This is a test entry, but it should show up!"
+        },
+        {
+            "name": "Flux Generator",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+
+                    [")))",")Z)",")1)"],
+                    ["-.-", ",0,","-,-"],
+                    ["-.-", "/ C","-,-"],
+                    [ ")*)", ")+,", "),)"]
+                ],
+                  "mapping": {
+                    "C" : "masterfulmachinery:mb_flux_controller",
+                    "Z": "create:mechanical_press",
+                    "1":  "masterfulmachinery:mb_flux_energy_port_energy_input",
+                    ")":  "fluxnetworks:flux_block",
+                    "*":  "masterfulmachinery:mb_flux_items_port_items_output",
+                    "+":  "minecraft:obsidian",
+                    ",":  "mekanism:block_refined_obsidian",
+                    "-":  "minecraft:stone_bricks",
+                    ".":  "minecraft:glass",
+                    "/":  "masterfulmachinery:mb_flux_items_port_items_input"
+                    }
+                  }
+            }
+    ]
+}

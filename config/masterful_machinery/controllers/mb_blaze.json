@@ -1,0 +1,35 @@
+{
+    "controllerId": "mb_blaze",
+    "name": "Blazin Blood Extractor",
+    "textureOverride": "kubejs:block/controllerbody",
+    "ports": [
+      {
+        "type": "masterfulmachinery:items",
+        "textureOverride": "kubejs:block/controllerbody",
+        "name": "Item",
+        "id": "items",
+        "data": {
+          "rows": 1,
+          "columns": 5
+        }
+      },
+      {
+        "type": "masterfulmachinery:fluids",
+        "textureOverride": "kubejs:block/controllerbody",
+        "name": "Fluids",
+        "id": "fluids",
+        "data": {
+          "capacity": 10000
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "name": "Energy",
+        "id": "energy",
+        "data": {
+          "capacity": 10000000
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "name": "Electric Crucible",
+    "icon": "minecraft:lava_bucket",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "An Energy-Friendly alternative to most Lava Generators, the Electric Crucible takes more cobblestone than normal but at a much lower RF cost to create Lava."
+        },
+        {
+            "name": "Electric Crucible",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern":[ 
+                [" 0 ","-.-","XXX"],
+                ["XCX","XXX","+XZ"]
+
+                ],
+                "mapping": {
+                  "C": "masterfulmachinery:mb_lava_controller",
+                  "X":  "mekanism:superheating_element" ,
+                  "+":  "masterfulmachinery:mb_lava_energy_port_energy_input" ,
+                  "Z":  "masterfulmachinery:mb_lava_items_port_items_input" ,
+                  "-":  "create:fluid_tank" ,
+                  ".":  "masterfulmachinery:mb_lava_fluids_port_fluids_output"}
+        }
+    }
+    ]
+}

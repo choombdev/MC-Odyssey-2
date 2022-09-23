@@ -1,0 +1,18 @@
+{
+    "name": "Introduction to Multiblocks",
+    "icon": "materfulmachinery:blueprint",
+    "category": "patchouli:multiblocks",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Multiblock Section will mostly be about Masterful Machinery and ways on how to use it. You can easily automate the building of the Multiblocks through Create Schematics, ones already in the pack. Remember that a Questline exists in the Advanced Technology section that should detail the items, inputs and drops."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:schematic_table",
+            "title": "Create Schematic Table",
+            "text": "The Create Schematic Table allows you to use either your own or already pre-created Schematics, ones of which are the Custom Multiblocks in the Pack! Simply create a new empty schematic and place it in the schematic table"
+        }
+    ]
+}

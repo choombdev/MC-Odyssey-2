@@ -1,0 +1,14 @@
+{
+    "type": "advgenerators:exchanger_cooling",
+    "input": {
+      "fluids": {
+        "fluid": "tconstruct:blazing_blood"
+      },
+      "amount": 1
+    },
+    "output": {
+      "item": "minecraft:netherrack",
+      "amount": 0.01
+    },
+    "heat": 100
+  }

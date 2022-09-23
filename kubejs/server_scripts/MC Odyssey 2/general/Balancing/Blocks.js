@@ -9,7 +9,7 @@ onEvent('recipes', event => {
       'XXX'
     ], {
       A: 'minecraft:nether_star',
-      X: 'compressium:cobblestone_5'
+      X: 'compressium:cobblestone_2'
 
     })
 // Quantum Quarry

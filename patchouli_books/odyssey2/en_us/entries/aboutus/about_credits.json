@@ -1,0 +1,12 @@
+{
+    "name": "Credits",
+    "icon": "minecraft:book",
+    "category": "patchouli:aboutus",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Credits to:$(br)-$(l)choomb$(reset): Pack Developer$(br)-$(l)RealCordex$(reset): Questmaker"
+        }
+    ]
+}

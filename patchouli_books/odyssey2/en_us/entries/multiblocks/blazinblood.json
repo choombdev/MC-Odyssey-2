@@ -1,0 +1,34 @@
+{
+    "name": "Blazin Blood Extractor",
+    "icon": "minecraft:blaze_rod",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Blazin' Blood Extractor uses electricity to crush, mix and extract Blazin' Blood from within Blazerods."
+        },
+        {
+            "name": "Blazin Blood Extractor",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+                    [")))))",")))))",")).))",")))))",")))))"],
+                    [")))))",")   )",") - )",")   )",")))))"],
+                    [")))))",")   )",")0- )",")   )",")))))"],
+                    [")))))",")   )",") - )",")   )",")))))"],
+                    [")))))",")***)",")***)",")***)",")+C,)"]
+
+                  ],
+                  "mapping": {
+                    "C": "masterfulmachinery:mb_blaze_controller",
+                    ")":"tconstruct:seared_bricks",
+                      "*":"mekanism:superheating_element",
+                      "+":"masterfulmachinery:mb_blaze_items_port_items_input",
+                      ",":"masterfulmachinery:mb_blaze_fluids_port_fluids_output",
+                      "-":"advgenerators:heating_chamber",
+                      ".":"masterfulmachinery:mb_blaze_energy_port_energy_input"
+                    }
+                }
+            }
+    ]
+}

@@ -223,7 +223,6 @@
 			}
 			weight: 65
 		}
-		{ item: "ob_aquamirae:luminescent_bubble_item", count: 6, weight: 60 }
 		{ item: "mowziesmobs:glowing_jelly", count: 10, weight: 70 }
 		{ item: "twilightforest:steeleaf_ingot", count: 16, weight: 65 }
 		{

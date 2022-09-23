@@ -172,16 +172,15 @@ event.recipes.extendedcrafting.shaped_table(Item.of('kubejs:ancient_leggings','{
 
   event.recipes.extendedcrafting.shaped_table('mekanism:creative_fluid_tank', [
     'EDABADE',
-    'EDCXCDE',
+    'EDAXADE',
     'EDABADE'
     ], {
   
     X: 'kubejs:ancientingot',
     A: 'mekanism:ultimate_fluid_tank',
     B: 'dimstorage:dimensional_tank',
-    C: Item.of('fluidtank:tank_silver').ignoreNBT(),
-    D: Item.of( 'industrialforegoing:supreme_black_hole_tank').ignoreNBT(),
-    E: Item.of('pedestals:coin/fluidtank').ignoreNBT(),
+    D: Item.of('industrialforegoing:supreme_black_hole_tank').ignoreNBT(),
+    E: Item.of('pedestals:coin/fluidtank').ignoreNBT()
     
   })
 

@@ -98,10 +98,11 @@ events.listen('recipes', function (e) {
           "block": "create:fluid_pipe"
         },
         "5": {
-          "block": "astralsorcery:well"
+          "block": "astralsorcery:illuminator"
         }
       }
     })  
+    
   // Recipe
   
   e.custom({

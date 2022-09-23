@@ -16,7 +16,8 @@ onEvent("recipes", (event) => {
         ['emendatusenigmatica:zinc_dirty_dust',0.09], 
         ['emendatusenigmatica:silver_dirty_dust',0.06], 
         ['emendatusenigmatica:aluminum_dirty_dust',0.05],
-        ['emendatusenigmatica:nickel_dirty_dust', 0.08]
+        ['emendatusenigmatica:nickel_dirty_dust', 0.08],
+        ['silents_mechanisms:bismuth_chunks', 0.1]
     ]);
 
 
@@ -36,7 +37,8 @@ onEvent("recipes", (event) => {
         ['emendatusenigmatica:zinc_dirty_dust',0.19], 
         ['emendatusenigmatica:silver_dirty_dust',0.16], 
         ['emendatusenigmatica:aluminum_dirty_dust',0.15],
-        ['emendatusenigmatica:nickel_dirty_dust', 0.18]
+        ['emendatusenigmatica:nickel_dirty_dust', 0.18],
+        ['silents_mechanisms:bismuth_chunks', 0.2]
     ]);
 
     sluice(["gold"], "#forge:gravel", [
@@ -55,7 +57,8 @@ onEvent("recipes", (event) => {
         ['emendatusenigmatica:zinc_dirty_dust',0.39], 
         ['emendatusenigmatica:silver_dirty_dust',0.36], 
         ['emendatusenigmatica:aluminum_dirty_dust',0.35],
-        ['emendatusenigmatica:nickel_dirty_dust', 0.38]
+        ['emendatusenigmatica:nickel_dirty_dust', 0.38],
+        ['silents_mechanisms:bismuth_chunks', 0.3]
     ]);
 
     sluice(["diamond"], "#forge:gravel", [
@@ -74,7 +77,8 @@ onEvent("recipes", (event) => {
         ['emendatusenigmatica:zinc_dirty_dust',0.5], 
         ['emendatusenigmatica:silver_dirty_dust',0.5], 
         ['emendatusenigmatica:aluminum_dirty_dust',0.5],
-        ['emendatusenigmatica:nickel_dirty_dust', 0.58]
+        ['emendatusenigmatica:nickel_dirty_dust', 0.58],
+        ['silents_mechanisms:bismuth_chunks', 0.4]
     ]);
 });
 

@@ -1,0 +1,36 @@
+{
+    "name": "Choombium Manufacturer",
+    "icon": "kubejs:choomburgert1",
+    "category": "patchouli:multiblocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Through perfect workmanship, the Choombium Manufacturer takes Choomburgers and converts them into ready Choombium Ingots"}
+        ,
+        {
+            "name": "Crystal Lab",
+            "type": "patchouli:multiblock",
+            "multiblock":{
+                "pattern": [
+                    [")))))",")   )",")   )",") X )",")   )",") X )",")   )",")   )",")))))"],
+                    [")   )"," *** "," */* "," *X* "," */* "," *X* "," */* "," *** ",")   )"],
+                    [")   )"," *** "," * * "," * * "," *0* "," * * "," * * "," *** ",")   )"],
+                    [")   )"," *** "," *.* "," *.* "," *.* "," *.* "," *.* "," *** ",")   )"],
+                    [")   )"," *** "," **+ "," *** "," ,*C "," *** "," **- "," *** ",")   )"]
+                  ],
+                  "mapping": {
+                    "C": "masterfulmachinery:mb_choombium_controller",
+                    "X": "immersiveengineering:fluid_pump",
+                    ")": "minecraft:white_concrete",
+                    "*": "minecraft:red_concrete",
+                    "+": "masterfulmachinery:mb_choombium_items_port_items_output",
+                    ",": "masterfulmachinery:mb_choombium_energy_port_energy_input",
+                    "-": "masterfulmachinery:mb_choombium_items_port_items_input",
+                    ".": "mob_grinding_utils:entity_conveyor",
+                    "/": "minecraft:dropper"
+                }
+            }
+            }
+
+    ]
+}

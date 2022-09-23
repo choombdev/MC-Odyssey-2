@@ -858,7 +858,7 @@
                 },
                 "Price": [{
                     "coin": "lightmanscurrency:coin_netherite",
-                    "count": 1000
+                    "count": 50
                 }]
             }, {
                 "TradeType": "SALE",
@@ -878,7 +878,7 @@
                 },
                 "Price": [{
                     "coin": "lightmanscurrency:coin_netherite",
-                    "count": 500
+                    "count": 10
                 }, {
                     "coin": "lightmanscurrency:coin_diamond",
                     "count": 5
@@ -933,7 +933,7 @@
                     "Count": 3
                 },
                 "Price": [{
-                    "coin": "lightmanscurrency:coin_netherite",
+                    "coin": "lightmanscurrency:coin_diamond",
                     "count": 50
                 }]
             }, {

@@ -2,7 +2,10 @@
 onEvent('jei.hide.items', event => {
   // alkahestry_tome
   event.hide('xreliquary:alkahestry_tome')
-  
+
+  // Uncrafting Blocks
+  event.hide('cyclic:uncrafter')
+  event.hide('twilightforest:uncrafting_table')
   // Jetpacks
   event.hide(Item.of('ironjetpacks:wood_jetpack', '{Throttle:1.0d}'))
   event.hide(Item.of('ironjetpacks:copper_jetpack', '{Throttle:1.0d}'))
@@ -103,4 +106,54 @@ onEvent('jei.add.items', event => {
   event.add('minecraft:blaze_spawn_egg')
 })
 
+
+	// Removing Create and Minecolonies
+
+	onEvent('jei.remove.categories', event => {
+		// Create
+		event.remove('create:automatic_shaped')
+		event.remove('create:automatic_shapeless')
+		event.remove('create:automatic_packing')
+    // Alkashetry Tome
+    event.remove('xreliquary:alkahestry_crafting')
+    event.remove('xreliquary:alkahestry_charging')
+
+    // Minecolonies
+  		event.remove('minecolonies:glassblower/smelting')
+  		event.remove('minecolonies:stonesmeltery/smelting')
+  		event.remove('minecolonies:fletcher/crafting')
+  		event.remove('minecolonies:baker/crafting')
+  		event.remove('minecolonies:dyer/crafting')
+  		event.remove('minecolonies:dyer/smelting')
+  		event.remove('minecolonies:farmer/crafting')
+  		event.remove('minecolonies:planter/crafting')
+  		event.remove('minecolonies:cowboy/custom')
+  		event.remove('minecolonies:beekeeper')
+  		event.remove('minecolonies:alchemist/brewing')
+  		event.remove('minecolonies:smelter/smelting')
+  		event.remove('minecolonies:lumberjack/custom')
+  		event.remove('minecolonies:cookassistant/crafting')
+  		event.remove('minecolonies:rabbitherder')
+  		event.remove('minecolonies:baker/smelting')
+  		event.remove('minecolonies:sifter/custom')
+  		event.remove('minecolonies:netherworker/custom')
+  		event.remove('minecolonies:concretemixer/custom')
+  		event.remove('minecolonies:crusher/custom')
+  		event.remove('minecolonies:mechanic/crafting')
+  		event.remove('minecolonies:stonemason/crafting')
+  		event.remove('minecolonies:sawmill/crafting')
+  		event.remove('minecolonies:swineherder')
+      event.remove('minecolonies:blacksmith')
+  		event.remove('minecolonies:blacksmith/crafting')
+  		event.remove('minecolonies:cookassistant/smelting')
+  		event.remove('minecolonies:enchanter/custom')
+  		event.remove('minecolonies:cowboy')
+  		event.remove('minecolonies:shepherd')
+  		event.remove('minecolonies:glassblower/crafting')
+  		event.remove('minecolonies:chickenherder')
+  		event.remove('minecolonies:alchemist/crafting')
+  		event.remove('minecolonies:composting')
+      event.remove('minecolonies:blacksmith')
+
+	})
 

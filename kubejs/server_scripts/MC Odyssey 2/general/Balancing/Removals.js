@@ -1,9 +1,10 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
-
 // Alkeshary Tome
 onEvent('recipes', event => {
-event.remove({output: Item.of('xreliquary:alkahestry_tome')})
-// Jetpacks
+    event.remove({output: Item.of('xreliquary:alkahestry_tome')})
+// Uncrafting Grinder
+event.remove({output:'cyclic:uncrafter'})
+    // Jetpacks
 event.remove({output:Item.of('ironjetpacks:wood_jetpack', '{Throttle:1.0d}')})
 event.remove({output:Item.of('ironjetpacks:copper_jetpack', '{Throttle:1.0d}')})
 event.remove({output:Item.of('ironjetpacks:stone_jetpack', '{Throttle:1.0d}')})
@@ -14,7 +15,6 @@ event.remove({output:'draconicevolution:nether_draconium_ore'})
 event.remove({output:'draconicevolution:draconium_dust'})
 event.remove({output:'draconicevolution:draconium_ingot'})
 event.remove({id: 'jaopca:immersiveengineering.dust_to_material.draconium'})
-
 // Draconium as Input
 event.remove({input:'draconicevolution:end_draconium_ore'})
 event.remove({input:'draconicevolution:overworld_draconium_ore'})

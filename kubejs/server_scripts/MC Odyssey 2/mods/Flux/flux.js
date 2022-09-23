@@ -2,7 +2,7 @@
 
 onEvent('recipes', event =>{
 
-    event.remove({id:'redstone_arsenal:flux_ingot'})
+    event.remove({output:'redstone_arsenal:flux_ingot'})
     event.shaped('redstone_arsenal:flux_ingot', [
       'OPO',
       'PSP',
@@ -14,7 +14,7 @@ onEvent('recipes', event =>{
     
     })
 
-    event.remove({id:'redstone_arsenal:flux_dust'})
+    event.remove({output:'redstone_arsenal:flux_dust'})
     event.shaped('redstone_arsenal:flux_dust', [
       'SOS',
       'OPO',
@@ -26,7 +26,7 @@ onEvent('recipes', event =>{
     
     })
 
-    event.remove({id:'redstone_arsenal:flux_gem'})
+    event.remove({output:'redstone_arsenal:flux_gem'})
     event.shaped('redstone_arsenal:flux_gem', [
       'PSO',
       'SQS',

@@ -324,7 +324,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -6.5d
 			y: -3.5d
 			description: ["We've got far too many decoration mods."]
 			id: "7DC0A7F9C095227E"
@@ -341,7 +341,7 @@
 		}
 		{
 			title: "Macaw's"
-			x: -7.0d
+			x: -7.5d
 			y: -4.5d
 			description: ["Hammers, Doors, Windows, Furniture and more!"]
 			dependencies: ["7DC0A7F9C095227E"]
@@ -382,7 +382,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -6.5d
 			y: -4.5d
 			dependencies: ["7DC0A7F9C095227E"]
 			id: "38507B92B83013F0"
@@ -428,7 +428,7 @@
 		}
 		{
 			title: "Framed Blocks!"
-			x: -5.0d
+			x: -5.5d
 			y: -4.5d
 			dependencies: ["7DC0A7F9C095227E"]
 			id: "16F78BF1C9686E86"
@@ -444,7 +444,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -7.5d
 			y: -2.5d
 			dependencies: ["7DC0A7F9C095227E"]
 			id: "1FC26D411DB05936"
@@ -461,22 +461,6 @@
 			}]
 			rewards: [{
 				id: "61E374FBAF11F02F"
-				type: "ftbmoney:money"
-				ftb_money: 100L
-			}]
-		}
-		{
-			x: -7.5d
-			y: -2.5d
-			dependencies: ["7DC0A7F9C095227E"]
-			id: "60281CBCFC102CC9"
-			tasks: [{
-				id: "1BB13D58415F6464"
-				type: "item"
-				item: "platforms:platformer"
-			}]
-			rewards: [{
-				id: "287E2D84EC0ACE85"
 				type: "ftbmoney:money"
 				ftb_money: 100L
 			}]
