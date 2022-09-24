@@ -1073,5 +1073,35 @@
 				}
 			]
 		}
+		{
+			x: -10.0d
+			y: 5.5d
+			description: ["A guide to everything Odyssey 2!"]
+			id: "6E5235A5D50B8C5A"
+			tasks: [
+				{
+					id: "2C6A9475BF565FE0"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:odyssey2"
+						}
+					}
+				}
+				{
+					id: "2346EEE10AE16CD4"
+					type: "checkmark"
+					title: "Click me!"
+				}
+			]
+			rewards: [{
+				id: "57B100F397A9490A"
+				type: "item"
+				item: "kubejs:choomburgert2"
+				count: 4
+			}]
+		}
 	]
 }

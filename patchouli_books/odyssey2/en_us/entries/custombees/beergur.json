@@ -1,0 +1,21 @@
+{
+    "name": "Beergur",
+    "icon": "kubejs:choomburgert2",
+    "category": "patchouli:custombees",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Beergurs are useful bees that help turn Ancient Debris into Choombium Ores or create Burger Patties in a Centrifuge with a chance at creating a Burger"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "resourcefulbees:beergur_bee",
+            "title": "Beergurs",
+            "text": "Beergurs are created through Breeding or found in the Overworld!"
+        }
+
+                
+            
+    ]
+}
+

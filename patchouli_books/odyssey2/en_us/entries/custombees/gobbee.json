@@ -1,0 +1,21 @@
+{
+    "name": "Gobbee",
+    "icon": "gobber2:gobber2_ingot",
+    "category": "patchouli:custombees",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Acquired through the Blood Magic Hellforge, you can create a Jar of Gobbee which will be spawn a Gobber Bee."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "resourcefulbees:bee_jar{Entity:'resourcefulbees:gobbee_bee'}",
+            "title": "Gobbee Jar",
+            "text": "The Gobbee is a Bee that helps in creating Gobber Blocks easily through either Centrifuges or Mutations, you need to use a Hellforge Altar where a Jar with a Bee (A recipe exists for which, as well), a Gobber Block and a Nether Gobber Ingot are used."
+        }
+
+                
+            
+    ]
+}
+

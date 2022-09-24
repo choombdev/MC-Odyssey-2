@@ -1,0 +1,48 @@
+{
+  "flower": "kubejs:choombium_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "traits": [],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#ec3521",
+    "primaryColor": "#450101",
+    "secondaryColor": "#32c704"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:ancient_debris",
+        "outputs": [
+          {"outputID": "kubejs:choombium_ore", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "farmersdelight:beef_patty",
+    "mainOutputWeight": 0.50,
+
+    "secondaryOutput" : "kubejs:choomburgert2",
+    "secondaryOutputWeight": 0.1,
+
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.6
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:overworld",
+    "lightLevel": "DAY"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Netherite",
+    "parent2": "Beeper"
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

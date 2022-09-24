@@ -1,0 +1,21 @@
+{
+    "name": "Choombee",
+    "icon": "kubejs:choombium_ingot",
+    "category": "patchouli:custombees",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Choombees are useful bees that help turn Netherite Blocks into Choombium Blocks or create Choombium Ingots in a Centrifuge"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "resourcefulbees:choombee_bee",
+            "title": "Choombee",
+            "text": "Choombees are created through Breeding!"
+        }
+
+                
+            
+    ]
+}
+

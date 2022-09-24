@@ -29,7 +29,7 @@ S:copyrightcolor = '#ffffff';
 
 B:allowgameintroskip = 'true';
 S:loadinganimationcolor = '#ffffffff';
-B:showanimationloadingstatus = 'true';
+B:showanimationloadingstatus = 'false';
 S:gameintroanimation = '';
 B:preloadanimations = 'false';
 S:customgameintroskiptext = '';
@@ -38,7 +38,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'MC Odyssey 2';
+S:customwindowtitle = 'Odyssey 2';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 

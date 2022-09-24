@@ -1,1 +1,22 @@
-[]
+[
+    {
+      "mob": ["minecraft:cow", "minecraft:pig", "minecraft:sheep", "minecraft:chicken"],
+      "result": "allow",
+      "block": ["minecraft:dirt", "minecraft:grass_block", "minecraft:coarse_dirt", "minecraft:podzol"]
+    },
+    {
+        "mob": ["minecraft:rabbit"],
+        "result": "allow",
+        "block": ["minecraft:sand", "minecraft:sandstone"]
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "hostile": "true",
+        "mincount": {
+          "amount": 15,
+          "hostile": true,
+          "perplayer": true
+        }
+    }
+  ]
+  

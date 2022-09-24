@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 26, 2021 12:08:34 PM
+To refresh this file, delete it and run /reload command again! Last updated: Sep 23, 2022 3:11:11 PM
 
 #tconstruct:crafting_station_blacklist
 - tconstruct:crafting_station
@@ -88,41 +88,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - immersiveengineering:hv_conn
 - immersiveengineering:hv_relay
 
-#packingtape:blacklist/problematic
-- minecraft:skull
-- minecraft:conduit
-- minecraft:banner
-- minecraft:piston
-
-#packingtape:blacklist/cheaty
-- minecraft:end_portal
-- minecraft:end_gateway
-
-#packingtape:blacklist/unsafe
-- minecraft:command_block
-- minecraft:structure_block
-- minecraft:jigsaw
-- minecraft:sign
-
-#packingtape:te_blacklist
-- #forge:immovable?
-- #forge:relocation_not_supported?
-- #packingtape:blacklist/multiblocks
-- #packingtape:blacklist/unsafe
-- #packingtape:blacklist/problematic
-- #packingtape:blacklist/cheaty
-- #packingtape:blacklist/pointless
-
 #mekanism:cardboard_blacklist
 - #forge:immovable
 - #forge:relocation_not_supported
-
-#packingtape:te_whitelist
-- #forge:movable?
-- #forge:relocation_supported?
-
-#packingtape:blacklist/multiblocks
-- minecraft:bed
 
 #forge:immovable
 - mekanismgenerators:advanced_solar_generator
@@ -200,9 +168,3 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - immersiveengineering:mv_relay
 - immersiveengineering:hv_conn
 - immersiveengineering:hv_relay
-
-#packingtape:blacklist/pointless
-- minecraft:enchanting_table
-- minecraft:bell
-- minecraft:comparator
-- minecraft:daylight_detector

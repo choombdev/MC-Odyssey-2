@@ -97,11 +97,19 @@
 				type: "item"
 				item: "appliedenergistics2:drive"
 			}]
-			rewards: [{
-				id: "5D312B7ABEB84EA2"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
+			rewards: [
+				{
+					id: "5D312B7ABEB84EA2"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "47A5F686886FD3D3"
+					type: "item"
+					item: "appliedenergistics2:formation_core"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -264,6 +272,19 @@
 					item: "appliedenergistics2:crafting_unit"
 				}
 			]
+			rewards: [
+				{
+					id: "54CDAF45695F6882"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "3773157E001131AD"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -291,6 +312,19 @@
 				type: "item"
 				item: "appliedenergistics2:cable_interface"
 			}]
+			rewards: [
+				{
+					id: "5671AFBEF332BE51"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "71A13ACCE783A9EE"
+					type: "item"
+					item: "appliedenergistics2:white_smart_cable"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -302,6 +336,19 @@
 				type: "item"
 				item: "appliedenergistics2:molecular_assembler"
 			}]
+			rewards: [
+				{
+					id: "651621EC391A92FE"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "11AF95F36F805E71"
+					type: "item"
+					item: "appliedenergistics2:logic_processor"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -6.0d

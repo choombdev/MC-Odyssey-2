@@ -21,7 +21,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
-  x = -123
+  x = -122
   action = movebutton
   y = -26
 }
@@ -67,14 +67,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = -121
+  x = -122
   action = movebutton
   y = 46
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 198
+  width = 200
   action = resizebutton
   height = 20
 }
@@ -96,7 +96,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -123
+  x = -122
   action = movebutton
   y = -49
 }
@@ -219,7 +219,7 @@ customization {
   width = 20
   actionid = 240e240b-66d3-4bb5-af3f-ac8c63413d441639926015619
   action = addbutton
-  y = 315
+  y = 316
   backgroundnormal = config\resources\DiscordButton.png
   value = https://discord.gg/JzSydC6UMR
   height = 20
@@ -237,7 +237,7 @@ customization {
   width = 20
   actionid = f24d4054-6b54-46da-830a-088df069381f1639926104142
   action = addbutton
-  y = 291
+  y = 292
   backgroundnormal = config\resources\GithubButton.png
   value = https://github.com/YahiaTGF/MC-Odyssey-2
   height = 20
@@ -269,7 +269,7 @@ customization {
   label = Create your own Server
   loopbackgroundanimations = true
   x = -122
-  width = 199
+  width = 200
   actionid = 3273c2c7-1805-4662-bf0f-ea554e6d99691640854563657
   action = addbutton
   y = 22

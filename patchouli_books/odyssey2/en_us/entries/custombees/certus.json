@@ -1,0 +1,21 @@
+{
+    "name": "Certus Quartz Bee",
+    "icon": "emendatusenigmatica:certus_quartz_gem",
+    "category": "patchouli:custombees",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Certus Quartz Bees are useful bees that help turn Stone Blocks into Certus Quartz Ores or create Certus Quartz Gems in a Centrifuge"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "resourcefulbees:certus_bee",
+            "title": "Certus Quartz Bee",
+            "text": "Certus Quartz Bee are created through Breeding or found in the Nether!"
+        }
+
+                
+            
+    ]
+}
+

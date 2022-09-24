@@ -366,7 +366,7 @@
 		}
 		{
 			x: -2.5d
-			y: -14.5d
+			y: -14.0d
 			dependencies: ["523A997774CB8A40"]
 			id: "3334EBE136241636"
 			tasks: [{
@@ -391,8 +391,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -17.0d
+			x: -3.0d
+			y: -16.0d
 			subtitle: "They sure can sing!"
 			dependencies: ["523A997774CB8A40"]
 			id: "152654C5017201D1"
@@ -455,7 +455,7 @@
 			}]
 		}
 		{
-			x: -11.5d
+			x: -10.5d
 			y: -13.5d
 			dependencies: ["3123DBA914A37109"]
 			hide: false
@@ -526,7 +526,7 @@
 		}
 		{
 			x: -4.0d
-			y: -15.0d
+			y: -14.5d
 			dependencies: ["523A997774CB8A40"]
 			id: "18D1B299C32A1CAA"
 			tasks: [{
@@ -595,7 +595,7 @@
 		}
 		{
 			x: -3.0d
-			y: -14.0d
+			y: -13.5d
 			subtitle: "Cozy fur!"
 			dependencies: ["523A997774CB8A40"]
 			id: "4EF3B05655EFCE14"
@@ -699,7 +699,7 @@
 		}
 		{
 			x: -4.5d
-			y: -13.5d
+			y: -12.5d
 			subtitle: "See you in Hell!"
 			dependencies: ["523A997774CB8A40"]
 			id: "05AA4CC2B1EB00F4"
@@ -797,7 +797,7 @@
 			]
 		}
 		{
-			x: -7.5d
+			x: -8.5d
 			y: -14.0d
 			subtitle: "Who you gonna call?"
 			dependencies: ["5702EBF2E5DCFDFE"]
@@ -889,7 +889,7 @@
 		}
 		{
 			x: -2.5d
-			y: -13.5d
+			y: -12.5d
 			dependencies: ["523A997774CB8A40"]
 			id: "6FC2B8534876AD8D"
 			tasks: [{
@@ -923,7 +923,7 @@
 		}
 		{
 			x: -4.5d
-			y: -14.5d
+			y: -14.0d
 			dependencies: ["523A997774CB8A40"]
 			id: "0A3BEF298F4A0CE9"
 			tasks: [{
@@ -965,7 +965,7 @@
 		}
 		{
 			x: -3.0d
-			y: -15.0d
+			y: -14.5d
 			dependencies: ["523A997774CB8A40"]
 			id: "61D1727D6A7F079E"
 			tasks: [{
@@ -998,8 +998,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -16.5d
+			x: -4.0d
+			y: -16.0d
 			dependencies: ["523A997774CB8A40"]
 			id: "45AA175EB926E71B"
 			tasks: [{
@@ -1387,8 +1387,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -15.0d
+			x: -6.5d
+			y: -14.0d
 			dependencies: ["5702EBF2E5DCFDFE"]
 			id: "34FC39CA120E5680"
 			tasks: [{
@@ -1414,6 +1414,7 @@
 		}
 		{
 			title: "Rank 7: Copper"
+			icon: "kubejs:medalliont1"
 			x: -11.5d
 			y: -11.5d
 			shape: "circle"
@@ -1434,13 +1435,14 @@
 		}
 		{
 			title: "Rank 4: Emerald"
+			icon: "kubejs:medalliont4"
 			x: 0.5d
 			y: -11.5d
 			shape: "pentagon"
 			subtitle: "Now we're getting somewhere!"
 			description: ["You've come a long way I see! We now grant you Rank 4: Emerald!"]
 			hide_dependency_lines: true
-			min_required_dependencies: 15
+			min_required_dependencies: 12
 			dependencies: [
 				"61D1727D6A7F079E"
 				"3334EBE136241636"
@@ -1455,9 +1457,7 @@
 				"5C1EBD8821BAFBB6"
 				"45AA175EB926E71B"
 				"152654C5017201D1"
-				"37503CC76C2B5E4F"
 				"148E25FEC10EDA96"
-				"6F84027146FB4236"
 			]
 			id: "71F2D0671AE021CB"
 			tasks: [{
@@ -1474,6 +1474,7 @@
 		}
 		{
 			title: "Rank 3: Ruby"
+			icon: "kubejs:medalliont5"
 			x: 4.5d
 			y: -11.5d
 			shape: "hexagon"
@@ -1492,7 +1493,6 @@
 				"2FECC36F76C7F5F0"
 				"3021B669D36A44E5"
 				"3CA0E97824DCC9FA"
-				"51D21BA06AEAE1E4"
 				"202ECE08307F6580"
 				"1720F84A84CA3A1D"
 				"0C9225BE6221E640"
@@ -1516,6 +1516,7 @@
 		}
 		{
 			title: "Rank 2: Gold"
+			icon: "kubejs:medalliont6"
 			x: 8.5d
 			y: -11.5d
 			shape: "hexagon"
@@ -1556,13 +1557,14 @@
 		}
 		{
 			title: "Rank 1: Platinum"
+			icon: "kubejs:medalliont7"
 			x: 12.5d
 			y: -11.5d
 			shape: "octagon"
 			subtitle: "Feel like you could defeat a God"
 			description: ["A Hero! Only Heroes reaches Rank 1 We will now grant you Rank 1: Platinum!"]
 			hide_dependency_lines: true
-			min_required_dependencies: 14
+			min_required_dependencies: 15
 			dependencies: [
 				"4F5BFA1F98EB9AA8"
 				"68192927A9589F72"
@@ -1602,6 +1604,7 @@
 		}
 		{
 			title: "Rank 6: Steel"
+			icon: "kubejs:medalliont2"
 			x: -7.5d
 			y: -11.5d
 			shape: "circle"
@@ -1640,7 +1643,7 @@
 			subtitle: "This is where the fun begins!"
 			description: ["You are really killing it with the bounties! Sorry about that, enough with the jokes.                                      We now grant you Rank 5: Sapphire!"]
 			hide_dependency_lines: true
-			min_required_dependencies: 8
+			min_required_dependencies: 6
 			dependencies: [
 				"4E9E61863E3EBD13"
 				"62881EB169DD82F1"
@@ -1682,8 +1685,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: -13.5d
+			x: -12.5d
+			y: -12.5d
 			dependencies: ["3123DBA914A37109"]
 			id: "37E2DF4897B95DB3"
 			tasks: [{
@@ -2137,23 +2140,6 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -14.5d
-			dependencies: ["71F2D0671AE021CB"]
-			id: "51D21BA06AEAE1E4"
-			tasks: [{
-				id: "475091745DE803C1"
-				type: "kill"
-				entity: "alexsmobs:dropbear"
-				value: 10L
-			}]
-			rewards: [{
-				id: "1A37353688F22013"
-				type: "ftbmoney:money"
-				ftb_money: 950L
-			}]
-		}
-		{
 			x: 1.0d
 			y: -15.0d
 			dependencies: ["71F2D0671AE021CB"]
@@ -2173,7 +2159,7 @@
 		}
 		{
 			x: -12.5d
-			y: -12.5d
+			y: -13.5d
 			dependencies: ["3123DBA914A37109"]
 			id: "32D78B1144B7D3A5"
 			tasks: [{
@@ -2209,7 +2195,7 @@
 		}
 		{
 			x: -4.0d
-			y: -14.0d
+			y: -13.5d
 			dependencies: ["523A997774CB8A40"]
 			id: "713395638E40B4D8"
 			tasks: [{
@@ -2233,7 +2219,7 @@
 		}
 		{
 			x: -3.5d
-			y: -14.5d
+			y: -14.0d
 			dependencies: ["523A997774CB8A40"]
 			id: "5E17C063C8C09EA9"
 			tasks: [{
@@ -2268,23 +2254,6 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -16.5d
-			dependencies: ["523A997774CB8A40"]
-			id: "37503CC76C2B5E4F"
-			tasks: [{
-				id: "24544C192577BD4D"
-				type: "kill"
-				entity: "alexsmobs:tiger"
-				value: 5L
-			}]
-			rewards: [{
-				id: "1E8664266C076FA9"
-				type: "ftbmoney:money"
-				ftb_money: 1000L
-			}]
-		}
-		{
 			x: 4.5d
 			y: -13.5d
 			dependencies: ["06ED1BB7C4554975"]
@@ -2304,32 +2273,7 @@
 		}
 		{
 			x: -3.5d
-			y: -15.5d
-			dependencies: ["523A997774CB8A40"]
-			id: "6F84027146FB4236"
-			tasks: [{
-				id: "3E2B7B8A110B9155"
-				type: "kill"
-				entity: "alexsmobs:warped_toad"
-				value: 5L
-			}]
-			rewards: [
-				{
-					id: "260D4FCA5F912F04"
-					type: "ftbmoney:money"
-					ftb_money: 850L
-				}
-				{
-					id: "325E0DCB364105C1"
-					type: "item"
-					item: "eidolon:warped_sprouts"
-					count: 4
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: -13.5d
+			y: -12.5d
 			dependencies: ["523A997774CB8A40"]
 			id: "148E25FEC10EDA96"
 			tasks: [{

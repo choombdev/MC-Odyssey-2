@@ -1,0 +1,27 @@
+{
+    "block.resourcefulbees.choombee_honeycomb_block": "Choombee Honeycomb Block",
+    "item.resourcefulbees.choombee_honeycomb": "Choombee Honeycomb",
+    "item.resourcefulbees.choombee_spawn_egg": "Choombee Bee Spawn Egg",
+    "entity.resourcefulbees.choombee_bee": "Choombee",
+    
+    "block.resourcefulbees.certus_honeycomb_block": "Certus Honeycomb Block",
+    "item.resourcefulbees.certus_honeycomb": "Certus Honeycomb",
+    "item.resourcefulbees.certus_spawn_egg": "Certus Bee Spawn Egg",
+    "entity.resourcefulbees.certus_bee": "Certus Bee",
+
+    "block.resourcefulbees.meat_beall_honeycomb_block": "Meat Beeall Honeycomb Block",
+    "item.resourcefulbees.meat_beall_honeycomb": "Meat Beall Honeycomb",
+    "item.resourcefulbees.meat_beall_spawn_egg": "Meat Beall Bee Spawn Egg",
+    "entity.resourcefulbees.meat_beall_bee": "Meat Beeall",
+
+    "block.resourcefulbees.beergur_honeycomb_block": "Beergur Honeycomb Block",
+    "item.resourcefulbees.beergur_honeycomb": "Beergur Honeycomb",
+    "item.resourcefulbees.beergur_spawn_egg": "Beergur Bee Spawn Egg",
+    "entity.resourcefulbees.beergur_bee": "Beergur",
+    
+    "block.resourcefulbees.gobbee_honeycomb_block": "Gobbee Honeycomb Block",
+    "item.resourcefulbees.gobbee_honeycomb": "Gobbee Honeycomb",
+    "item.resourcefulbees.gobbee_spawn_egg": "Gobbee Bee Spawn Egg",
+    "entity.resourcefulbees.gobbee_bee": "Gobbee"
+
+ }

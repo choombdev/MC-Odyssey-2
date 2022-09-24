@@ -1,0 +1,41 @@
+{
+  "flower": "gobber2:gobber2_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "traits": [],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#0A0926",
+    "primaryColor": "#142547",
+    "secondaryColor": "#64B0E7"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "kubejs:choombium_block",
+        "chance": 0.4,
+        "outputs": [
+          {"outputID": "gobber2:gobber2_block", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "gobber2:gobber2_globette",
+    "mainOutputWeight": 0.30
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Beergur",
+    "parent2": "Chombee"
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

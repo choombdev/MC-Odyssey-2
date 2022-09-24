@@ -1,0 +1,42 @@
+{
+  "flower": "kubejs:choombium_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "traits": [],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#36150e",
+    "primaryColor": "#1b2508",
+    "secondaryColor": "#a7ff00"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:netherite_block",
+        "outputs": [
+          {"outputID": "kubejs:choombium_block", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "kubejs:choombium_ingot",
+    "mainOutputWeight": 0.70
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:overworld",
+    "lightLevel": "DAY"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Netherite",
+    "parent2": "Beergur"
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

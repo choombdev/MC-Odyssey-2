@@ -1,6 +1,8 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
 
+  // Odyssey 2 Guide
+event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:odyssey2"}'), ['minecraft:book', 'minecraft:beef'])
 
 // Redstone Alloy Dust
 event.shapeless('silents_mechanisms:redstone_alloy_dust', ['emendatusenigmatica:iron_dust', 'minecraft:redstone'])

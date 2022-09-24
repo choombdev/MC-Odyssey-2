@@ -2535,8 +2535,8 @@
 			]
 		}
 		{
-			x: -13.5d
-			y: 2.0d
+			x: -15.0d
+			y: -1.0d
 			subtitle: "Yuck!"
 			description: [
 				"Unethically gather animal essence through this little grinder here."
@@ -2604,8 +2604,8 @@
 			]
 		}
 		{
-			x: -15.0d
-			y: 2.0d
+			x: -16.0d
+			y: -1.5d
 			subtitle: "Unlimited (wireless) power!"
 			description: [
 				"As fun as it is smashing redstone with obsidian, it should be automatable, no?"
@@ -2678,8 +2678,8 @@
 			]
 		}
 		{
-			x: -18.5d
-			y: 2.0d
+			x: -14.0d
+			y: 0.0d
 			subtitle: "Hot!"
 			description: [
 				"The Electric Crucible allows you to turn Cobblestone (And RF) into Lava in one big multiblock!"
@@ -2735,8 +2735,8 @@
 			]
 		}
 		{
-			x: -17.0d
-			y: 2.0d
+			x: -13.5d
+			y: 1.0d
 			subtitle: "Crystal Blue Persuasion"
 			description: [
 				"We need to c-- make some rock crystals!"
@@ -2928,7 +2928,7 @@
 		}
 		{
 			x: -16.0d
-			y: 0.5d
+			y: 2.0d
 			description: [
 				"Odyssey 2 has it's own custom made Multiblocks, available in JEI and helping you progress. "
 				"JEI only has the visuals and no item list, so, to avoid confusion, I'll be including all the required blocks in each quest!"
@@ -2952,6 +2952,414 @@
 				type: "checkmark"
 				title: "Now, the tough stuff."
 			}]
+		}
+		{
+			title: "Simulated Sun Chamber"
+			x: -14.5d
+			y: 4.0d
+			subtitle: "Greenhouses but cool"
+			description: [
+				"Don't want to wait for your Solar Neutron Activator? Use this instead!"
+				"RECIPES:"
+				"10mb Lithium and 500 RF => 10mb Tritium"
+				"10mb Nuclear Waste and 95 RF => 1mb Poloniuim"
+			]
+			dependencies: ["0AF7E2058DE01395"]
+			id: "3DD4A2CA908EEDA3"
+			tasks: [
+				{
+					id: "132EEB3096E1B943"
+					type: "item"
+					item: "masterfulmachinery:mb_solaractivator_controller"
+				}
+				{
+					id: "1359D6F65518EB8E"
+					type: "item"
+					item: "masterfulmachinery:mb_solaractivator_fluids_port_mekanism_gas_input"
+				}
+				{
+					id: "463D851D4A231A85"
+					type: "item"
+					item: "masterfulmachinery:mb_solaractivator_fluids_port_mekanism_gas_output"
+				}
+				{
+					id: "050B2FA9797F5D0E"
+					type: "item"
+					item: "masterfulmachinery:mb_solaractivator_energy_port_energy_input"
+				}
+				{
+					id: "2CC3045506D66360"
+					type: "item"
+					item: "forbidden_arcanus:arcane_glass"
+					count: 4L
+				}
+				{
+					id: "17269F83AC319C83"
+					type: "item"
+					item: "quark:blaze_lantern"
+					count: 16L
+				}
+				{
+					id: "73296FBDCA2E77F8"
+					type: "item"
+					item: "cyclic:tank"
+					count: 8L
+				}
+				{
+					id: "05199E91B7E39766"
+					type: "item"
+					item: "mekanism:steel_casing"
+					count: 32L
+				}
+				{
+					id: "21863C5E14689CE3"
+					type: "item"
+					title: "16 Solar Generators"
+					item: "mekanismgenerators:solar_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "01F5640CDC96BB7C"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "609886A3ECB858B0"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			title: "Simulated Moon Chamber"
+			x: -17.5d
+			y: 0.0d
+			subtitle: "Stealing The Moon?"
+			description: [
+				"Recreate Limited Astral Sorcery Moonlight to easily automate The Lightwell without having to make one!"
+				"RECIPES:"
+				"1 Aquamarine and 5000RF => 1000mb Liquid Starlight"
+			]
+			dependencies: ["15FEA01D1506FF34"]
+			id: "5FA8FBF8F7730CF3"
+			tasks: [
+				{
+					id: "0392BE964C1DAA41"
+					type: "item"
+					item: "masterfulmachinery:mb_well_controller"
+				}
+				{
+					id: "0A4A6983510B49E2"
+					type: "item"
+					item: "masterfulmachinery:mb_well_items_port_items_input"
+				}
+				{
+					id: "72D348EDC01AE32B"
+					type: "item"
+					item: "masterfulmachinery:mb_well_fluids_port_fluids_output"
+				}
+				{
+					id: "7BC33513F13BA1DF"
+					type: "item"
+					item: "masterfulmachinery:mb_well_energy_port_energy_input"
+				}
+				{
+					id: "55CA089EA6AC5DE5"
+					type: "item"
+					item: "cyclic:tank"
+					count: 4L
+				}
+				{
+					id: "5A00A83BB294EEDB"
+					type: "item"
+					item: "cyclic:dark_glass"
+					count: 4L
+				}
+				{
+					id: "07E0610A0E99C8EB"
+					type: "item"
+					item: "astralsorcery:black_marble_arch"
+					count: 4L
+				}
+				{
+					id: "7012F9F71F2619AB"
+					type: "item"
+					item: "mekanism:steel_casing"
+					count: 30L
+				}
+			]
+			rewards: [
+				{
+					id: "7EADEC300EAC22BA"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "101938C6ACEE74AC"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			title: "Industrial Stoneworker"
+			x: -17.0d
+			y: -1.0d
+			subtitle: "Carbonization of Stones"
+			description: [
+				"Through intricate chemical reactions, mining and 'other stuff', create Marble and Blackstone very easily!"
+				"RECIPES:"
+				"1 Coal, 1 White Dye, 1 Stone and 150 RF => 5 Marble"
+				"1 Bitumen, 1 White Dye, 1 Stone and 100 RF => 2 Marble"
+				"1 Coal, 1 Black Dye, 1 Stone and 300 RF => 3 Blackstone"
+				"1 Bitumen, 1 Black Dye, 1 Stone and 250 RF => 1 Blackstone"
+			]
+			dependencies: ["15FEA01D1506FF34"]
+			id: "0018B89DC63FB0CF"
+			tasks: [
+				{
+					id: "59B3E4F769D87143"
+					type: "item"
+					item: "masterfulmachinery:mb_stoneworker_controller"
+				}
+				{
+					id: "39590F019EF0E7B2"
+					type: "item"
+					item: "masterfulmachinery:mb_stoneworker_items_port_items_input"
+				}
+				{
+					id: "2042EBFEF722C85D"
+					type: "item"
+					item: "masterfulmachinery:mb_stoneworker_items_port_items_output"
+				}
+				{
+					id: "598F3424B39003BC"
+					type: "item"
+					item: "masterfulmachinery:mb_stoneworker_energy_port_energy_input"
+				}
+				{
+					id: "017C4FD1EFD63165"
+					type: "item"
+					item: {
+						id: "cyclic:battery"
+						Count: 1b
+						tag: {
+							energyttmax: 6400000
+							energytt: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "23931053996F1AF9"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "43F9A949B7F32D7D"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 4L
+				}
+				{
+					id: "16ABA1A1D31CEF96"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 4L
+				}
+				{
+					id: "1587D7A199E46EE8"
+					type: "item"
+					item: "minecraft:smooth_stone_slab"
+					count: 16L
+				}
+				{
+					id: "1B36B8021CAF3CF8"
+					type: "item"
+					item: "minecraft:smooth_stone"
+					count: 8L
+				}
+				{
+					id: "797CFC3165026400"
+					type: "item"
+					item: "thermal:dynamo_stirling"
+					count: 4L
+				}
+				{
+					id: "69FC2506D0C02EE3"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 18L
+				}
+			]
+			rewards: [
+				{
+					id: "080FF112C44B3632"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "7B86F6571E5D0FB2"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			title: "Blazin Blood Extractor"
+			x: -17.5d
+			y: 4.0d
+			subtitle: "The Process of Extracting Blood from 'Bones'."
+			description: [
+				"Through grinding, mixing and reforming of more than a few Blaze Rods, you can now extract Blaze Blood."
+				"RECIPES:"
+				"16 Blaze Rods and 1000 RF => 100mb Blazing Blood"
+			]
+			dependencies: ["0AF7E2058DE01395"]
+			id: "3A3EEE82E3D52096"
+			tasks: [
+				{
+					id: "02AA0C2F8D2B347E"
+					type: "item"
+					item: "masterfulmachinery:mb_blaze_controller"
+				}
+				{
+					id: "01C700FCBA870BF8"
+					type: "item"
+					item: "masterfulmachinery:mb_blaze_items_port_items_input"
+				}
+				{
+					id: "6DC2283B167A606D"
+					type: "item"
+					item: "masterfulmachinery:mb_blaze_fluids_port_fluids_output"
+				}
+				{
+					id: "3257A7BA4F837077"
+					type: "item"
+					item: "masterfulmachinery:mb_blaze_energy_port_energy_input"
+				}
+				{
+					id: "2D9650BB690DB5A2"
+					type: "item"
+					item: "advgenerators:heating_chamber"
+					count: 3L
+				}
+				{
+					id: "3603A999F30497A9"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 64L
+				}
+				{
+					id: "75714FF169BBEAE6"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 21L
+				}
+				{
+					id: "69650047F346B4D5"
+					type: "item"
+					item: "mekanism:superheating_element"
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "2E9A54060479E53C"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+				{
+					id: "2FE325F038016356"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 1.0d
+			subtitle: "Burger Ingots, don't try eating them."
+			description: [
+				"The Intricate Process of Creating an Ingot from Burgers."
+				"RECIPES:"
+				"1 Double Choomburger, 1 Signalum Ingot and 1500 RF => 1 Choombium Ingot"
+			]
+			dependencies: ["15FEA01D1506FF34"]
+			id: "07D313594E775921"
+			tasks: [
+				{
+					id: "7AE916885525EDD0"
+					type: "item"
+					item: "masterfulmachinery:mb_choombium_controller"
+				}
+				{
+					id: "636CF851EA65C245"
+					type: "item"
+					item: "masterfulmachinery:mb_choombium_items_port_items_input"
+				}
+				{
+					id: "2C275A279983B103"
+					type: "item"
+					item: "masterfulmachinery:mb_choombium_items_port_items_output"
+				}
+				{
+					id: "613FD854746F134B"
+					type: "item"
+					item: "masterfulmachinery:mb_choombium_energy_port_energy_input"
+				}
+				{
+					id: "1330342356437836"
+					type: "item"
+					item: "minecraft:dropper"
+					count: 3L
+				}
+				{
+					id: "23CD6C8DB3A70386"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+					count: 4L
+				}
+				{
+					id: "25548EEB6E18B50F"
+					type: "item"
+					item: "mob_grinding_utils:entity_conveyor"
+					count: 5L
+				}
+				{
+					id: "62DD1B195FB6965D"
+					type: "item"
+					title: "65x Red Concrete"
+					item: "minecraft:red_concrete"
+					count: 64L
+				}
+				{
+					id: "4102174C4EB85AC2"
+					type: "item"
+					item: "minecraft:white_concrete"
+					count: 40L
+				}
+			]
+			rewards: [
+				{
+					id: "0A04F86C9962C775"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "40569DD68AC17DFB"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
 		}
 	]
 }
