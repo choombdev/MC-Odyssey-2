@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "The Simulated Sun Chamber simulates sunlight to help replicate the effects of the Neuron Solar Activator [Note: A Cyclic Tank is missing in the middle in the visualization]"
+            "text": "The Simulated Sun Chamber simulates sunlight to help replicate the effects of the Neuron Solar Activator [Note: A Cyclic Tank is missing in the middle in the visualization]."
         },
         {
             "name": "Simulated Sun Chamber",
@@ -16,19 +16,22 @@
                     ["))))",")..)",")..)","))))"],
                     ["),,)",",--,",",0-,","),,)"],
                     ["),,)",",--,",",--,","),,)"],
-                    ["C)) ","))))","))))","*))+"]
+                    ["C))E","))))","L)))","*))+"]
                   ],
                   "mapping": {
                     "C": "masterfulmachinery:mb_solaractivator_controller",
                     ")":  "mekanism:steel_casing",
-                    "*":  "masterfulmachinery:mb_solaractivator_fluids_port_mekanism_gas_input",
-                    "+":  "masterfulmachinery:mb_solaractivator_fluids_port_mekanism_gas_output",
+                    "*":  "masterfulmachinery:mb_solaractivator_gas_port_mekanism_gas_input",
+                    "+":  "masterfulmachinery:mb_solaractivator_gas_port_mekanism_gas_output",
                     ",":  "quark:blaze_lantern",
                     "-":  "cyclic:tank",
                     ".":  "forbidden_arcanus:arcane_glass",
-                    "/":  "mekanismgenerators:solar_generator"
+                    "/":  "mekanismgenerators:solar_generator",
+                    "L":  "masterfulmachinery:mb_solaractivator_fluid_port_fluids_input",
+                    "E":  "masterfulmachinery:mb_solaractivator_energy_port_energy_input"
                     }
-                    }
+                    },
+                    "text": "To create Polonium, you'll need to acquire Energized Draconium through a series of painful liquifications and mixing procedures but, if you have more Energized Draconium than you need, you can use it to power your factory!"
                 }
     ]
 }

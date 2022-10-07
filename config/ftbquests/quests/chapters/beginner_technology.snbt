@@ -942,8 +942,8 @@
 			]
 		}
 		{
-			x: -8.0d
-			y: 5.5d
+			x: -4.5d
+			y: 0.0d
 			subtitle: "Looking in here will show you who's awesome!"
 			description: ["Solar flux is a great passive RF providing mod, this questline will reward you for using it!"]
 			id: "5BAA9C833AF69168"
@@ -959,8 +959,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 6.0d
+			x: -7.5d
+			y: 0.0d
 			id: "509D309238176812"
 			tasks: [{
 				id: "35796AAE6AB88EAD"
@@ -1054,8 +1054,8 @@
 			]
 		}
 		{
-			x: -8.0d
-			y: 7.0d
+			x: -4.5d
+			y: 1.5d
 			subtitle: "The first of many"
 			description: ["Solar panels require direct sunlight to operate, but i'm sure you knew that already!"]
 			dependencies: ["5BAA9C833AF69168"]
@@ -1072,8 +1072,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 8.5d
+			x: -4.5d
+			y: 3.0d
 			subtitle: "Climbing up the solar ladder"
 			description: ["Each upgrade gets exponentially more expensive, can you make it to the top?"]
 			dependencies: ["4EEEADB39C5A1E07"]
@@ -1090,8 +1090,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 8.5d
+			x: -3.0d
+			y: 3.0d
 			subtitle: "Triple Trouble"
 			description: ["Fun fact: solar panels need to be cleaned on a regular basis for maximum efficiency! (not in this mod, just a real life fact)"]
 			dependencies: ["4D70D1918986C245"]
@@ -1108,8 +1108,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 7.0d
+			x: -3.0d
+			y: 1.5d
 			subtitle: "Praise the Quad Sun!"
 			description: ["Fun fact: At around 1,000 acres, the world’s largest solar power plant is located in the Mojave Desert!"]
 			dependencies: ["541350A2D9F641D5"]
@@ -1133,8 +1133,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 7.0d
+			x: -1.5d
+			y: 1.5d
 			subtitle: "Solar wars: Revenge of the fifth!"
 			description: ["Fun fact: To power the whole earth with solar energy, it would require 191,000 square miles of solar panels."]
 			dependencies: ["6CFA09DCF85948B2"]
@@ -1158,8 +1158,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 8.5d
+			x: -1.5d
+			y: 3.0d
 			subtitle: "Lunar is so last year"
 			description: ["Fun fact: The average solar panel system operates at 20% efficiency, meaning that it converts 20% of the sunlight that hits it into electricity."]
 			dependencies: ["1BB55106C2CE4F60"]
@@ -1183,8 +1183,8 @@
 			]
 		}
 		{
-			x: -10.5d
-			y: 7.0d
+			x: -8.0d
+			y: 1.0d
 			dependencies: ["509D309238176812"]
 			id: "04699271C55827C4"
 			tasks: [{
@@ -1199,8 +1199,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 8.0d
+			x: -7.5d
+			y: 2.0d
 			dependencies: ["04699271C55827C4"]
 			id: "6D39BAF314E8692A"
 			tasks: [{
@@ -1222,8 +1222,8 @@
 			]
 		}
 		{
-			x: -11.0d
-			y: 8.5d
+			x: -8.5d
+			y: 2.5d
 			dependencies: ["6D39BAF314E8692A"]
 			id: "206C8E56453F5635"
 			tasks: [{
@@ -1245,8 +1245,8 @@
 			]
 		}
 		{
-			x: -10.0d
-			y: 9.5d
+			x: -7.5d
+			y: 3.5d
 			dependencies: ["206C8E56453F5635"]
 			id: "1840E3C5CC2D4000"
 			tasks: [{
@@ -2141,8 +2141,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 1.5d
+			x: -6.0d
+			y: -0.5d
 			description: ["Very useful for telling what goes in and out of your RF system."]
 			id: "628937F23E5901EF"
 			tasks: [{
@@ -2154,213 +2154,6 @@
 				id: "299001A3A5CF7C07"
 				type: "ftbmoney:money"
 				ftb_money: 250L
-			}]
-		}
-		{
-			title: "Little Logistics"
-			x: -3.75d
-			y: 5.25d
-			subtitle: "Everything you need to know about Little Logistics"
-			size: 1.5d
-			id: "7BD6E13612CCED60"
-			tasks: [{
-				id: "24F29C34592EF6B5"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "littlelogistics:guide"
-					}
-				}
-			}]
-			rewards: [{
-				id: "72803FBB99A0621A"
-				type: "ftbmoney:money"
-				ftb_money: 150L
-			}]
-		}
-		{
-			title: "Docks"
-			x: -5.5d
-			y: 5.0d
-			description: ["Remember when hooking up docks together look at the top of the blocks so it's aligned"]
-			dependencies: ["7BD6E13612CCED60"]
-			id: "156E35E8387F04F0"
-			tasks: [
-				{
-					id: "50E911D3CD1AEBA8"
-					type: "item"
-					item: "littlelogistics:tug_dock"
-				}
-				{
-					id: "16C56BF657CDF458"
-					type: "item"
-					item: "littlelogistics:barge_dock"
-					count: 3L
-				}
-			]
-			rewards: [{
-				id: "3F3F27C0C52CA92A"
-				type: "ftbmoney:money"
-				ftb_money: 300L
-			}]
-		}
-		{
-			title: "Vessels Part 1"
-			x: -2.5d
-			y: 6.5d
-			subtitle: "Use the chains to connect!"
-			dependencies: ["7BD6E13612CCED60"]
-			id: "7C7C68BB4E66E205"
-			tasks: [
-				{
-					id: "3CA6DACB99A8BD35"
-					type: "item"
-					item: "littlelogistics:tug"
-				}
-				{
-					id: "1FB89AD1F35E4772"
-					type: "item"
-					item: "littlelogistics:fluid_barge"
-				}
-				{
-					id: "31370307294747F2"
-					type: "item"
-					item: "littlelogistics:barge"
-				}
-				{
-					id: "0A3BAC9800055C2F"
-					type: "item"
-					item: "littlelogistics:seater_barge"
-				}
-				{
-					id: "4FC90169DF0934B7"
-					type: "item"
-					item: {
-						id: "littlelogistics:spring"
-						Count: 1b
-						tag: { }
-					}
-					count: 4L
-				}
-			]
-			rewards: [{
-				id: "6885BCFD1DD2F070"
-				type: "ftbmoney:money"
-				ftb_money: 500L
-			}]
-		}
-		{
-			x: -1.5d
-			y: 5.0d
-			subtitle: "With this you can set up a route for your tug!"
-			dependencies: ["7BD6E13612CCED60"]
-			id: "54C1B6B407A940E2"
-			tasks: [{
-				id: "1E582053D4EA2A3B"
-				type: "item"
-				item: "littlelogistics:tug_route"
-			}]
-			rewards: [{
-				id: "742A6D2B3CB6062B"
-				type: "ftbmoney:money"
-				ftb_money: 150L
-			}]
-		}
-		{
-			title: "Vessels Part 2"
-			x: -2.0d
-			y: 7.5d
-			dependencies: ["7C7C68BB4E66E205"]
-			id: "345FD37F1824794E"
-			tasks: [
-				{
-					id: "19039075A3B84A66"
-					type: "item"
-					item: "littlelogistics:energy_tug"
-				}
-				{
-					id: "658BA055FAF69E22"
-					type: "item"
-					item: "littlelogistics:fishing_barge"
-				}
-				{
-					id: "06E1AE090EB1AEA0"
-					type: "item"
-					item: "littlelogistics:chunk_loader_barge"
-				}
-			]
-			rewards: [{
-				id: "286EF89182722BE2"
-				type: "ftbmoney:money"
-				ftb_money: 700L
-			}]
-		}
-		{
-			x: -4.0d
-			y: 3.5d
-			dependencies: ["7BD6E13612CCED60"]
-			id: "1B8C2E1273EAAE1A"
-			tasks: [{
-				id: "6DFDEE3F6FF8167D"
-				type: "item"
-				item: "littlelogistics:guide_rail_corner"
-				count: 4L
-			}]
-			rewards: [{
-				id: "6EFA962F3B341927"
-				type: "ftbmoney:money"
-				ftb_money: 400L
-			}]
-		}
-		{
-			x: -2.5d
-			y: 4.0d
-			dependencies: ["7BD6E13612CCED60"]
-			id: "7594F8A41C06354E"
-			tasks: [{
-				id: "2B2F927BE133F1C7"
-				type: "item"
-				item: "littlelogistics:guide_rail_tug"
-				count: 8L
-			}]
-			rewards: [{
-				id: "455EFDB466D70023"
-				type: "ftbmoney:money"
-				ftb_money: 400L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 6.5d
-			dependencies: ["7C7C68BB4E66E205"]
-			id: "1EC109AFDFD94577"
-			tasks: [{
-				id: "6FFDB29AB4E9F374"
-				type: "item"
-				item: "littlelogistics:fluid_hopper"
-			}]
-			rewards: [{
-				id: "67A5D94449EA7E6E"
-				type: "ftbmoney:money"
-				ftb_money: 250L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 8.0d
-			dependencies: ["345FD37F1824794E"]
-			id: "74E2257B48E874D9"
-			tasks: [{
-				id: "14846241D1BFA14A"
-				type: "item"
-				item: "littlelogistics:vessel_charger"
-			}]
-			rewards: [{
-				id: "55DFE19A1E63760D"
-				type: "ftbmoney:money"
-				ftb_money: 450L
 			}]
 		}
 		{

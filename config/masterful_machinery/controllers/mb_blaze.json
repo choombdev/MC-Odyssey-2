@@ -27,7 +27,7 @@
         "name": "Energy",
         "id": "energy",
         "data": {
-          "capacity": 10000000
+          "capacity": 10000
         }
       }
     ]

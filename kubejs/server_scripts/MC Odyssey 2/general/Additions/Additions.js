@@ -1,6 +1,18 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
 
+  // Enigmatic Hammer
+  event.shaped('emendatusenigmatica:enigmatic_hammer', [
+    ' IS',
+    ' SI',
+    'B  '
+  ], {
+    I: 'minecraft:iron_ingot',
+    S: 'minecraft:stick',
+    B: 'minecraft:iron_block'
+
+  }
+    )
   // Odyssey 2 Guide
 event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:odyssey2"}'), ['minecraft:book', 'minecraft:beef'])
 
@@ -55,6 +67,10 @@ event.shaped('minecraft:chest', [
 
 // Cast Iron
 event.shapeless('emendatusenigmatica:cast_iron_dust', ['emendatusenigmatica:iron_dust', '#supplementaries:fire_sources']).damageItem(1)
+event.shapeless('emendatusenigmatica:cast_iron_plate', ['emendatusenigmatica:cast_iron_ingot', 'immersiveengineering:hammer','emendatusenigmatica:cast_iron_ingot']).damageItem(1)
+
+event.recipes.createPressing('emendatusenigmatica:cast_iron_plate', 'emendatusenigmatica:cast_iron_ingot')
+
 event.recipes.createCompacting('emendatusenigmatica:cast_iron_dust', 'emendatusenigmatica:iron_dust').heated()
 
 // Bat Wing

@@ -1481,12 +1481,11 @@
 			subtitle: "How do you think of the Bounties so far?"
 			description: ["We now grant you Rank 3: Ruby!"]
 			hide_dependency_lines: true
-			min_required_dependencies: 15
+			min_required_dependencies: 14
 			dependencies: [
 				"24537A865C991668"
 				"04A3555B060CF2A4"
 				"4640D9448095595F"
-				"4D0CD495E9DAAAFF"
 				"022CD6C9C42A8735"
 				"201254114AD1FD20"
 				"5636E5E12F8D46BE"
@@ -1523,11 +1522,10 @@
 			subtitle: "Now you will have access to some Big Bounties"
 			description: ["We now grant you Rank 2: Gold!"]
 			hide_dependency_lines: true
-			min_required_dependencies: 14
+			min_required_dependencies: 13
 			dependencies: [
 				"3441E259E915A6F0"
 				"159BA3B0010586CD"
-				"6CAFF89335A3BA62"
 				"4B4AFCD20BF1C420"
 				"752CAFFC934128D7"
 				"365706CF926BC36B"
@@ -1887,23 +1885,6 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -13.5d
-			dependencies: ["71F2D0671AE021CB"]
-			id: "4D0CD495E9DAAAFF"
-			tasks: [{
-				id: "2EBC7450B1C5D280"
-				type: "kill"
-				entity: "the_afterlight:corrupted_skeleton"
-				value: 10L
-			}]
-			rewards: [{
-				id: "6AEF4E82EFC37005"
-				type: "ftbmoney:money"
-				ftb_money: 950L
-			}]
-		}
-		{
 			x: -4.5d
 			y: -15.5d
 			dependencies: ["523A997774CB8A40"]
@@ -2251,24 +2232,6 @@
 				id: "3DC1952A8439CF1E"
 				type: "ftbmoney:money"
 				ftb_money: 1500L
-			}]
-		}
-		{
-			x: 4.5d
-			y: -13.5d
-			dependencies: ["06ED1BB7C4554975"]
-			id: "6CAFF89335A3BA62"
-			tasks: [{
-				id: "595D9154275AF05F"
-				type: "kill"
-				icon: "tconstruct:bloodbone"
-				entity: "the_afterlight:crimson_skeleton"
-				value: 10L
-			}]
-			rewards: [{
-				id: "17969DB4F761D92C"
-				type: "ftbmoney:money"
-				ftb_money: 1000L
 			}]
 		}
 		{

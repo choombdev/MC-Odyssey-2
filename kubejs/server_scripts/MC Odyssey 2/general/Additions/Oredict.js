@@ -6,8 +6,8 @@ onEvent('recipes', event => {
   event.remove({id:"compressium:cobble_stone_1"})
   event.shapeless('compressium:cobblestone_1',  ['9x #forge:cobblestone'])
 
-    event.shapeless('4x minecraft:cobblestone', ['#forge:cobblestone','#forge:cobblestone', '#forge:cobblestone',  '#forge:cobblestone'])
-    event.shapeless('4x minecraft:stone', ['#forge:stone','#forge:stone','#forge:stone', '#forge:stone'])
+    event.shapeless('5x minecraft:cobblestone', ['#forge:cobblestone','#forge:cobblestone','#forge:cobblestone', '#forge:cobblestone',  '#forge:cobblestone'])
+    event.shapeless('5x minecraft:stone', ['#forge:stone','#forge:stone','#forge:stone','#forge:stone', '#forge:stone'])
 
     event.shapeless('appliedenergistics2:certus_quartz_crystal', ['emendatusenigmatica:certus_quartz_gem'])
     event.shapeless('emendatusenigmatica:certus_quartz_gem', ['appliedenergistics2:certus_quartz_crystal'])
@@ -29,6 +29,7 @@ onEvent('recipes', event => {
     event.shapeless('appliedenergistics2:ender_dust', ['emendatusenigmatica:ender_dust'])
 
     event.replaceOutput({},'emendatusenigmatica:enigmatic_hammer', 'immersiveengineering:hammer')
+
   // Ender Scale
   
   event.shapeless('3x mysticalagriculture:dragon_egg_essence', ['forbidden_arcanus:dragon_scale'])
@@ -53,7 +54,8 @@ onEvent('recipes', event => {
   })
   event.shaped('tconstruct:dragon_scale', [
     ' SS',
-    '  S'
+    '   ',
+    'S  '
   ], {
     S: 'mysticalagriculture:dragon_egg_essence'
   })

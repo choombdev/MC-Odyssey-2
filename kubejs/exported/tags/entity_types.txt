@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 23, 2022 3:11:11 PM
+To refresh this file, delete it and run /reload command again! Last updated: Sep 28, 2022 1:26:34 PM
 
 #supplementaries:cage_baby_catchable
 - minecraft:cow
@@ -229,6 +229,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - resourcefulbees:zombie_bee
 - resourcefulbees:diamond_bee
 - resourcefulbees:slimy_bee
+- resourcefulbees:beergur_bee
 - resourcefulbees:dungeon_bee
 - resourcefulbees:dragon_bee
 - resourcefulbees:redstone_bee
@@ -245,11 +246,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - resourcefulbees:icy_bee
 - resourcefulbees:creeper_bee
 - resourcefulbees:abbee_bee
+- resourcefulbees:gobbee_bee
 - resourcefulbees:skeleton_bee
 - resourcefulbees:oreo_bee
+- resourcefulbees:choombee_bee
 - resourcefulbees:emerald_bee
 - resourcefulbees:coal_bee
 - resourcefulbees:rainbow_glass_bee
+- resourcefulbees:certus_bee
 
 #environmental:unaffected_by_serenity
 

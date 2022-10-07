@@ -10,9 +10,6 @@
     "redstone": true,
     "repeater": true
   },
-  "tmechworks": {
-    "redstone_machine": true
-  },
   "botanypots": {
     "show_progress": true,
     "show_time": true,
@@ -49,9 +46,6 @@
     "painting": true,
     "harvest_tool_new_line": false,
     "trapped_chest": true
-  },
-  "woot": {
-    "display_layout_items": true
   },
   "waila": {
     "show_registry": false,

@@ -129,6 +129,14 @@ event.remove({output:'draconicevolution:awakened_draconium_ingot'})
             A: 'mysticalagriculture:lumium_essence'
     })
 
+    event.shaped('4x emendatusenigmatica:silver_ingot', [
+        'AAA',
+        'A A',
+        'AAA'
+        ],{
+            A: 'mysticalagriculture:silver_essence'
+    })
+
     // Platinum
     event.shaped('4x silents_mechanisms:platinum_ingot', [
         'AAA',

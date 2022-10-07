@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 23, 2022 3:11:10 PM
+To refresh this file, delete it and run /reload command again! Last updated: Sep 28, 2022 1:26:34 PM
 
 #darkutils:trap
 - darkutils:rune_slowness
@@ -158,6 +158,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:emerald_block
 
 #forge:ores/redstone
+- minecraft:redstone_ore
+- atum:redstone_ore
 - emendatusenigmatica:redstone_ore
 - emendatusenigmatica:redstone_andesite_ore
 - emendatusenigmatica:redstone_granite_ore
@@ -189,8 +191,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:redstone_violecite_ore
 - emendatusenigmatica:redstone_raw_marble_ore
 - byg:cryptic_redstone_ore
-- minecraft:redstone_ore
-- atum:redstone_ore
 
 #tconstruct:harvestable
 - minecraft:pumpkin
@@ -657,8 +657,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:everdawn_aquite_ore
 
 #forge:storage_blocks/sapphire
-- emendatusenigmatica:sapphire_block
 - thermal:sapphire_block
+- emendatusenigmatica:sapphire_block
 
 #computercraft:turtle
 - computercraft:turtle_normal
@@ -999,8 +999,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #minecraft:slabs
 
 #forge:storage_blocks/ruby
-- emendatusenigmatica:ruby_block
 - thermal:ruby_block
+- emendatusenigmatica:ruby_block
 
 #forge:wool/blue
 - minecraft:blue_wool
@@ -1194,8 +1194,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #forge:storage_blocks/silver
 - occultism:silver_block
 - silents_mechanisms:silver_block
-- emendatusenigmatica:silver_block
 - thermal:silver_block
+- emendatusenigmatica:silver_block
 - immersiveengineering:storage_silver
 
 #byg:ground_azalea
@@ -1284,6 +1284,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:wall_torch
 
 #forge:chests/wooden
+- minecraft:chest
+- minecraft:trapped_chest
+- atum:palm_crate
+- atum:deadwood_crate
 - blue_skies:bluebright_chest
 - blue_skies:starlit_chest
 - blue_skies:frostbright_chest
@@ -1291,10 +1295,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:dusk_chest
 - blue_skies:maple_chest
 - blue_skies:cherry_chest
-- minecraft:chest
-- minecraft:trapped_chest
-- atum:palm_crate
-- atum:deadwood_crate
 - endergetic:poise_chest
 - endergetic:poise_trapped_chest
 - environmental:willow_chest
@@ -1330,8 +1330,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - immersiveengineering:storage_aluminum
 
 #forge:storage_blocks/sulfur
-- emendatusenigmatica:sulfur_block
 - thermal:sulfur_block
+- emendatusenigmatica:sulfur_block
 
 #structurize:timber_frames/brown_terracotta/acacia
 - structurize:plain_acacia_brown_terracotta_timber_frame
@@ -1628,6 +1628,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - engineersdecor:gas_concrete_slab
 - engineersdecor:panzerglass_slab
 - engineersdecor:old_industrial_wood_slab
+- framedblocks:framed_slab
 - mowziesmobs:painted_acacia_slab
 - #minecraft:wooden_slabs
 - minecraft:stone_slab
@@ -1668,6 +1669,40 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - graveyard:tg_deepslate_tile_slab
 - #pneumaticcraft:slabs
 - #pneumaticcraft:slabs
+- atum:dirty_bone_slab
+- atum:limestone_slab
+- atum:limestone_cracked_slab
+- atum:limestone_small_slab
+- atum:limestone_large_slab
+- atum:limestone_cracked_brick_slab
+- atum:limestone_chiseled_slab
+- atum:limestone_carved_slab
+- atum:alabaster_smooth_slab
+- atum:alabaster_polished_slab
+- atum:alabaster_carved_slab
+- atum:alabaster_tiled_slab
+- atum:alabaster_pillar_slab
+- atum:porphyry_smooth_slab
+- atum:porphyry_polished_slab
+- atum:porphyry_carved_slab
+- atum:porphyry_tiled_slab
+- atum:porphyry_pillar_slab
+- atum:ceramic_slab_white
+- atum:ceramic_slab_orange
+- atum:ceramic_slab_magenta
+- atum:ceramic_slab_light_blue
+- atum:ceramic_slab_yellow
+- atum:ceramic_slab_lime
+- atum:ceramic_slab_pink
+- atum:ceramic_slab_gray
+- atum:ceramic_slab_light_gray
+- atum:ceramic_slab_cyan
+- atum:ceramic_slab_purple
+- atum:ceramic_slab_blue
+- atum:ceramic_slab_brown
+- atum:ceramic_slab_green
+- atum:ceramic_slab_red
+- atum:ceramic_slab_black
 - byg:aspen_slab
 - byg:baobab_slab
 - byg:blue_enchanted_slab
@@ -1766,41 +1801,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - mysticalagriculture:soulstone_bricks_slab
 - mysticalagriculture:soulstone_smooth_slab
 - iceandfire:dread_stone_slab
-- framedblocks:framed_slab
-- atum:dirty_bone_slab
-- atum:limestone_slab
-- atum:limestone_cracked_slab
-- atum:limestone_small_slab
-- atum:limestone_large_slab
-- atum:limestone_cracked_brick_slab
-- atum:limestone_chiseled_slab
-- atum:limestone_carved_slab
-- atum:alabaster_smooth_slab
-- atum:alabaster_polished_slab
-- atum:alabaster_carved_slab
-- atum:alabaster_tiled_slab
-- atum:alabaster_pillar_slab
-- atum:porphyry_smooth_slab
-- atum:porphyry_polished_slab
-- atum:porphyry_carved_slab
-- atum:porphyry_tiled_slab
-- atum:porphyry_pillar_slab
-- atum:ceramic_slab_white
-- atum:ceramic_slab_orange
-- atum:ceramic_slab_magenta
-- atum:ceramic_slab_light_blue
-- atum:ceramic_slab_yellow
-- atum:ceramic_slab_lime
-- atum:ceramic_slab_pink
-- atum:ceramic_slab_gray
-- atum:ceramic_slab_light_gray
-- atum:ceramic_slab_cyan
-- atum:ceramic_slab_purple
-- atum:ceramic_slab_blue
-- atum:ceramic_slab_brown
-- atum:ceramic_slab_green
-- atum:ceramic_slab_red
-- atum:ceramic_slab_black
 - twilightforest:aurora_slab
 - #forge:slabs/plastic
 - #forge:slabs/plastic/glow
@@ -2079,8 +2079,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - structurize:side_framed_horizontal_jungle_crimson_timber_frame
 
 #forge:storage_blocks/niter
-- emendatusenigmatica:potassium_nitrate_block
 - thermal:niter_block
+- emendatusenigmatica:potassium_nitrate_block
 
 #structurize:timber_frames/yellow_terracotta/jungle
 - structurize:plain_jungle_yellow_terracotta_timber_frame
@@ -2125,6 +2125,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:greenheart_pressure_plate
 - tconstruct:skyroot_pressure_plate
 - tconstruct:bloodshroom_pressure_plate
+- atum:palm_pressure_plate
+- atum:deadwood_pressure_plate
 - byg:aspen_pressure_plate
 - byg:baobab_pressure_plate
 - byg:blue_enchanted_pressure_plate
@@ -2154,8 +2156,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:bulbis_pressure_plate
 - byg:nightshade_pressure_plate
 - byg:imparius_pressure_plate
-- atum:palm_pressure_plate
-- atum:deadwood_pressure_plate
 - twilightforest:twilight_oak_plate
 - twilightforest:canopy_plate
 - twilightforest:mangrove_plate
@@ -2580,6 +2580,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #forge:dirt
 
 #forge:ores/sapphire
+- thermal:sapphire_ore
 - emendatusenigmatica:sapphire_ore
 - emendatusenigmatica:sapphire_andesite_ore
 - emendatusenigmatica:sapphire_granite_ore
@@ -2610,7 +2611,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:sapphire_sulphuric_rock_ore
 - emendatusenigmatica:sapphire_violecite_ore
 - emendatusenigmatica:sapphire_raw_marble_ore
-- thermal:sapphire_ore
 
 #forge:ores/lignite
 - byg:lignite_ore
@@ -2712,8 +2712,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:storage_blocks/lumium
 - silents_mechanisms:lumium_block
-- emendatusenigmatica:lumium_block
 - thermal:lumium_block
+- emendatusenigmatica:lumium_block
 
 #buildinggadgets:blacklist/generic
 - #minecraft:doors
@@ -2779,8 +2779,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #forge:storage_blocks/bronze
 - silents_mechanisms:bronze_block
 - mekanism:block_bronze
-- emendatusenigmatica:bronze_block
 - thermal:bronze_block
+- emendatusenigmatica:bronze_block
 
 #structurize:shingles/thatched
 - #structurize:shingles/thatched/oak
@@ -2877,6 +2877,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - pamhc2trees:pinenut_sapling
 - #tconstruct:slimy_saplings
 - silentgear:netherwood_sapling
+- atum:palm_sapling
 - integrateddynamics:menril_sapling
 - byg:aspen_sapling
 - byg:baobab_sapling
@@ -2930,7 +2931,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:maple_sapling
 - blue_skies:cherry_sapling
 - blue_skies:crescent_fruit_sapling
-- atum:palm_sapling
 - twilightforest:twilight_oak_sapling
 - twilightforest:canopy_sapling
 - twilightforest:mangrove_sapling
@@ -2969,6 +2969,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:copper_ore
 - silents_mechanisms:copper_ore
 - mekanism:copper_ore
+- thermal:copper_ore
 - emendatusenigmatica:copper_ore
 - emendatusenigmatica:copper_andesite_ore
 - emendatusenigmatica:copper_granite_ore
@@ -3000,7 +3001,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:copper_violecite_ore
 - emendatusenigmatica:copper_raw_marble_ore
 - iceandfire:copper_ore
-- thermal:copper_ore
 - create:copper_ore
 - immersiveengineering:ore_copper
 
@@ -3070,6 +3070,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:skyroot_fence
 - tconstruct:bloodshroom_fence
 - silentgear:netherwood_fence
+- atum:palm_fence
+- atum:deadwood_fence
 - integrateddynamics:menril_fence
 - byg:aspen_fence
 - byg:baobab_fence
@@ -3108,8 +3110,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:maple_fence
 - blue_skies:cherry_fence
 - eidolon:polished_planks_fence
-- atum:palm_fence
-- atum:deadwood_fence
 - #twilightforest:fences
 - resourcefulbees:waxed_fence
 - ars_nouveau:archwood_fence
@@ -3433,6 +3433,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:light_gray_wool
 
 #forge:ores/ruby
+- thermal:ruby_ore
 - emendatusenigmatica:ruby_ore
 - emendatusenigmatica:ruby_andesite_ore
 - emendatusenigmatica:ruby_granite_ore
@@ -3463,7 +3464,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:ruby_sulphuric_rock_ore
 - emendatusenigmatica:ruby_violecite_ore
 - emendatusenigmatica:ruby_raw_marble_ore
-- thermal:ruby_ore
 
 #capsule:excluded
 - #tombstone:graves
@@ -3882,6 +3882,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - undergarden:tremblecrust
 - #pneumaticcraft:reinforced_stone
 - #pneumaticcraft:compressed_stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- atum:limestone
 - byg:soapstone
 - byg:scoria_stone
 - byg:dacite
@@ -3894,15 +3903,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:red_rock
 - byg:ether_stone
 - #blue_skies:stone
-- minecraft:andesite
-- minecraft:diorite
-- minecraft:granite
-- minecraft:infested_stone
-- minecraft:stone
-- minecraft:polished_andesite
-- minecraft:polished_diorite
-- minecraft:polished_granite
-- atum:limestone
 - create:limestone
 - create:polished_limestone
 - create:weathered_limestone
@@ -4240,6 +4240,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:ores/nickel
 - silents_mechanisms:nickel_ore
+- thermal:nickel_ore
 - emendatusenigmatica:nickel_ore
 - emendatusenigmatica:nickel_andesite_ore
 - emendatusenigmatica:nickel_granite_ore
@@ -4270,7 +4271,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:nickel_sulphuric_rock_ore
 - emendatusenigmatica:nickel_violecite_ore
 - emendatusenigmatica:nickel_raw_marble_ore
-- thermal:nickel_ore
 - immersiveengineering:ore_nickel
 
 #forge:ores/yellorite
@@ -4329,6 +4329,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:greenheart_fence_gate
 - tconstruct:skyroot_fence_gate
 - tconstruct:bloodshroom_fence_gate
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- atum:palm_fence_gate
+- atum:deadwood_fence_gate
 - byg:aspen_fence_gate
 - byg:baobab_fence_gate
 - byg:blue_enchanted_fence_gate
@@ -4365,16 +4375,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:dusk_fence_gate
 - blue_skies:maple_fence_gate
 - blue_skies:cherry_fence_gate
-- minecraft:oak_fence_gate
-- minecraft:spruce_fence_gate
-- minecraft:birch_fence_gate
-- minecraft:jungle_fence_gate
-- minecraft:acacia_fence_gate
-- minecraft:dark_oak_fence_gate
-- minecraft:crimson_fence_gate
-- minecraft:warped_fence_gate
-- atum:palm_fence_gate
-- atum:deadwood_fence_gate
 - #twilightforest:fence_gates
 - endergetic:poise_fence_gate
 - environmental:willow_fence_gate
@@ -5320,9 +5320,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:greenheart_fence_gate
 - tconstruct:skyroot_fence_gate
 - tconstruct:bloodshroom_fence_gate
-- eidolon:polished_planks_fence_gate
 - atum:palm_fence_gate
 - atum:deadwood_fence_gate
+- eidolon:polished_planks_fence_gate
 - #twilightforest:fence_gates
 - #forge:fence_gates/plastic
 - minecraft:acacia_fence_gate
@@ -5590,8 +5590,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:storage_blocks/nickel
 - silents_mechanisms:nickel_block
-- emendatusenigmatica:nickel_block
 - thermal:nickel_block
+- emendatusenigmatica:nickel_block
 - immersiveengineering:storage_nickel
 
 #forge:ores/dark_runestone
@@ -6204,6 +6204,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:ores/diamond
 - undergarden:diamond_ore
+- minecraft:diamond_ore
+- atum:diamond_ore
 - emendatusenigmatica:diamond_ore
 - emendatusenigmatica:diamond_andesite_ore
 - emendatusenigmatica:diamond_granite_ore
@@ -6234,8 +6236,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:diamond_sulphuric_rock_ore
 - emendatusenigmatica:diamond_violecite_ore
 - emendatusenigmatica:diamond_raw_marble_ore
-- minecraft:diamond_ore
-- atum:diamond_ore
 
 #minecraft:doors
 - #minecraft:wooden_doors
@@ -6264,10 +6264,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - betternether:mushroom_fir_door
 - betternether:anchor_tree_door
 - betternether:nether_sakura_door
-- #pneumaticcraft:doors
-- integrateddynamics:menril_door
-- blue_skies:crystallized_door
 - framedblocks:framed_door
+- #pneumaticcraft:doors
 - atum:limestone_door
 - atum:limestone_cracked_door
 - atum:limestone_brick_small_door
@@ -6275,6 +6273,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - atum:limestone_brick_cracked_brick_door
 - atum:limestone_brick_chiseled_door
 - atum:limestone_brick_carved_door
+- integrateddynamics:menril_door
+- blue_skies:crystallized_door
 - ars_nouveau:archwood_door
 - upgrade_aquatic:tooth_door
 - upgrade_aquatic:glass_door
@@ -6793,8 +6793,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:red_clear_stained_glass
 - tconstruct:black_clear_stained_glass
 - valhelsia_structures:metal_framed_glass
-- blue_skies:crystal_glass
-- blue_skies:midnight_glass
 - thermal:obsidian_glass
 - thermal:signalum_glass
 - thermal:lumium_glass
@@ -6849,6 +6847,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - atum:green_stained_deadwood_framed_crystal_glass
 - atum:red_stained_deadwood_framed_crystal_glass
 - atum:black_stained_deadwood_framed_crystal_glass
+- blue_skies:crystal_glass
+- blue_skies:midnight_glass
 - create:tiled_glass
 - create:framed_glass
 - create:horizontal_framed_glass
@@ -6884,6 +6884,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:end_stones
 - outer_end:azure_grass
+- minecraft:end_stone
 - byg:ivis_phylium
 - byg:ether_stone
 - byg:nightshade_phylium
@@ -6896,7 +6897,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:bulbis_phycelium
 - byg:purpur_stone
 - byg:imparius_phylium
-- minecraft:end_stone
 
 #forge:storage_blocks/fluorite
 - mekanism:block_fluorite
@@ -6979,6 +6979,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #tconstruct:slimy_soil/vanilla
 
 #forge:ores/quartz
+- minecraft:nether_quartz_ore
 - emendatusenigmatica:quartz_ore
 - emendatusenigmatica:quartz_andesite_ore
 - emendatusenigmatica:quartz_granite_ore
@@ -7009,7 +7010,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:quartz_sulphuric_rock_ore
 - emendatusenigmatica:quartz_violecite_ore
 - emendatusenigmatica:quartz_raw_marble_ore
-- minecraft:nether_quartz_ore
 
 #structurize:shingles/thatched/acacia
 - structurize:thatched_acacia_shingle
@@ -7215,6 +7215,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - outer_end:azure_stem
 - #tconstruct:slimy_logs
 - #silentgear:netherwood_logs
+- #forge:palm_logs
+- #forge:deadwood_logs
 - #byg:aspen_logs
 - #byg:baobab_logs
 - #byg:blue_enchanted_logs
@@ -7277,8 +7279,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:stripped_cherry_wood
 - blue_skies:crystallized_log
 - blue_skies:crystallized_wood
-- #forge:palm_logs
-- #forge:deadwood_logs
 - #twilightforest:logs
 - ars_nouveau:blue_archwood_log
 - ars_nouveau:red_archwood_log
@@ -7368,6 +7368,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:grass_block
 - minecraft:podzol
 - valhelsia_structures:grass_block
+- atum:sand
+- atum:limestone_gravel
+- atum:fertile_soil
 - byg:meadow_grass_block
 - byg:overgrown_stone
 - byg:podzol_dacite
@@ -7377,9 +7380,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:lunar_grass_block
 - blue_skies:turquoise_cherry_grass_block
 - blue_skies:lunar_cherry_grass_block
-- atum:sand
-- atum:limestone_gravel
-- atum:fertile_soil
 
 #quark:wraith_spawnable
 - minecraft:soul_sand
@@ -7708,10 +7708,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:storage_blocks/enderium
 - silents_mechanisms:enderium_block
-- emendatusenigmatica:enderium_block
 - thermal:enderium_block
+- emendatusenigmatica:enderium_block
 
 #forge:sand
+- #forge:sand/colorless
+- #forge:sand/red
 - byg:white_sand
 - byg:black_sand
 - byg:blue_sand
@@ -7720,8 +7722,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:end_sand
 - blue_skies:crystal_sand
 - blue_skies:midnight_sand
-- #forge:sand/colorless
-- #forge:sand/red
 - #forge:sand/soulless
 
 #rsgauges:logs
@@ -7854,6 +7854,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:ores/iron
 - undergarden:iron_ore
+- minecraft:iron_ore
+- atum:iron_ore
 - emendatusenigmatica:iron_ore
 - emendatusenigmatica:iron_andesite_ore
 - emendatusenigmatica:iron_granite_ore
@@ -7884,8 +7886,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:iron_sulphuric_rock_ore
 - emendatusenigmatica:iron_violecite_ore
 - emendatusenigmatica:iron_raw_marble_ore
-- minecraft:iron_ore
-- atum:iron_ore
 
 #twilightforest:logs
 - #twilightforest:twilight_oak_logs
@@ -7949,6 +7949,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:greenheart_button
 - tconstruct:skyroot_button
 - tconstruct:bloodshroom_button
+- atum:palm_button
+- atum:deadwood_button
 - byg:aspen_button
 - byg:baobab_button
 - byg:blue_enchanted_button
@@ -7985,8 +7987,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:dusk_button
 - blue_skies:maple_button
 - blue_skies:cherry_button
-- atum:palm_button
-- atum:deadwood_button
 - twilightforest:twilight_oak_button
 - twilightforest:canopy_button
 - twilightforest:mangrove_button
@@ -8092,8 +8092,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - ironchest:silver_chest?
 
 #forge:storage_blocks/bitumen
-- emendatusenigmatica:bitumen_block
 - thermal:bitumen_block
+- emendatusenigmatica:bitumen_block
 
 #structurize:timber_frames/bricks/jungle
 - structurize:plain_jungle_bricks_timber_frame
@@ -8325,13 +8325,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - envirocore:xerothium_tile_small_slab
 
 #forge:netherrack
+- minecraft:netherrack
 - byg:overgrown_netherrack
 - byg:overgrown_crimson_blackstone
 - byg:blue_netherrack
 - byg:brimstone
 - byg:embur_nylium
 - byg:sythian_nylium
-- minecraft:netherrack
 
 #chisel:factory
 - chisel:factory/dots
@@ -8645,8 +8645,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:green_clear_stained_glass
 - tconstruct:red_clear_stained_glass
 - tconstruct:black_clear_stained_glass
-- blue_skies:crystal_glass
-- blue_skies:midnight_glass
 - minecraft:white_stained_glass
 - minecraft:orange_stained_glass
 - minecraft:magenta_stained_glass
@@ -8663,6 +8661,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:green_stained_glass
 - minecraft:red_stained_glass
 - minecraft:black_stained_glass
+- blue_skies:crystal_glass
+- blue_skies:midnight_glass
 
 #refinedstorage:storage_blocks/items/infinite
 - extradisks:infinite_storage_block
@@ -9022,8 +9022,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #forge:storage_blocks/tin
 - silents_mechanisms:tin_block
 - mekanism:block_tin
-- emendatusenigmatica:tin_block
 - thermal:tin_block
+- emendatusenigmatica:tin_block
 
 #minecraft:mineable/pickaxe
 - mcwlights:lava_lamp
@@ -9490,6 +9490,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - outer_end:azure_leaves
 - #tconstruct:slimy_leaves
 - silentgear:netherwood_leaves
+- atum:palm_leaves
+- atum:dry_leaves
 - integrateddynamics:menril_leaves
 - byg:baobab_leaves
 - byg:blooming_witch_hazel_leaves
@@ -9556,8 +9558,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:crystallized_leaves
 - blue_skies:cherry_leaves
 - blue_skies:crescent_fruit_leaves
-- atum:palm_leaves
-- atum:dry_leaves
 - twilightforest:rainboak_leaves
 - twilightforest:twilight_oak_leaves
 - twilightforest:canopy_leaves
@@ -10697,13 +10697,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - resourcefulbees:gold_honeycomb_block
 - resourcefulbees:zombie_honeycomb_block
 - resourcefulbees:rgbee_honeycomb_block
+- resourcefulbees:choombee_honeycomb_block
+- resourcefulbees:beergur_honeycomb_block
 - resourcefulbees:creeper_honeycomb_block
 - resourcefulbees:netherite_honeycomb_block
 - resourcefulbees:wither_honeycomb_block
 - resourcefulbees:coal_honeycomb_block
 - resourcefulbees:diamond_honeycomb_block
 - resourcefulbees:redstone_honeycomb_block
+- resourcefulbees:certus_honeycomb_block
 - resourcefulbees:skeleton_honeycomb_block
+- resourcefulbees:gobbee_honeycomb_block
 - resourcefulbees:iron_honeycomb_block
 - resourcefulbees:rainbow_glass_honeycomb_block
 - resourcefulbees:starry_honeycomb_block
@@ -10731,6 +10735,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - engineersdecor:old_industrial_wood_planks
 - silentgear:netherwood_planks
 - mowziesmobs:painted_acacia
+- atum:palm_planks
+- atum:deadwood_planks
 - integrateddynamics:menril_planks
 - byg:aspen_planks
 - byg:baobab_planks
@@ -10769,8 +10775,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:maple_planks
 - blue_skies:cherry_planks
 - eidolon:polished_planks
-- atum:palm_planks
-- atum:deadwood_planks
 - twilightforest:twilight_oak_planks
 - twilightforest:canopy_planks
 - twilightforest:mangrove_planks
@@ -10897,15 +10901,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - undergarden:depthrock
 - undergarden:shiverstone
 - undergarden:tremblecrust
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
 - byg:red_rock
 - byg:dacite_cobblestone
 - byg:scoria_cobblestone
 - byg:soapstone
 - byg:cobbled_ether_stone
 - #blue_skies:cobblestone
-- minecraft:cobblestone
-- minecraft:infested_cobblestone
-- minecraft:mossy_cobblestone
 - upgrade_aquatic:kelpy_cobblestone
 - upgrade_aquatic:tongue_kelpy_cobblestone
 - upgrade_aquatic:thorny_kelpy_cobblestone
@@ -11267,10 +11271,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - atum:pink_stained_deadwood_framed_crystal_glass
 
 #forge:chests
+- framedblocks:framed_chest
 - #forge:chests/electric
 - #forge:chests/personal
 - #pneumaticcraft:chests
-- framedblocks:framed_chest
 - #forge:chests/ender
 - #forge:chests/trapped
 - #forge:chests/wooden
@@ -11425,6 +11429,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - structurize:purple_slate_crimson_shingle
 
 #forge:fence_gates
+- #forge:fence_gates/wooden
 - byg:aspen_fence_gate
 - byg:baobab_fence_gate
 - byg:blue_enchanted_fence_gate
@@ -11454,7 +11459,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:bulbis_fence_gate
 - byg:nightshade_fence_gate
 - byg:imparius_fence_gate
-- #forge:fence_gates/wooden
 - #twilightforest:fence_gates
 - #forge:fence_gates/plastic
 - quark:nether_brick_fence_gate
@@ -11488,8 +11492,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:copper_block
 - silents_mechanisms:copper_block
 - mekanism:block_copper
-- emendatusenigmatica:copper_block
 - thermal:copper_block
+- emendatusenigmatica:copper_block
 - create:copper_block
 - immersiveengineering:storage_copper
 
@@ -11595,6 +11599,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #forge:ores/lead
 - silents_mechanisms:lead_ore
 - mekanism:lead_ore
+- thermal:lead_ore
 - emendatusenigmatica:lead_ore
 - emendatusenigmatica:lead_andesite_ore
 - emendatusenigmatica:lead_granite_ore
@@ -11626,7 +11631,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:lead_violecite_ore
 - emendatusenigmatica:lead_raw_marble_ore
 - eidolon:lead_ore
-- thermal:lead_ore
 - immersiveengineering:ore_lead
 
 #structurize:timber_frames/bricks/acacia
@@ -11686,8 +11690,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:storage_blocks/invar
 - silents_mechanisms:invar_block
-- emendatusenigmatica:invar_block
 - thermal:invar_block
+- emendatusenigmatica:invar_block
 
 #forge:storage_blocks/dimensional
 - emendatusenigmatica:dimensional_block
@@ -11953,9 +11957,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - structurize:blackstone_spruce_shingle
 
 #forge:sand/colorless
-- byg:end_sand
 - minecraft:sand
 - atum:sand
+- byg:end_sand
 - snad:snad
 
 #structurize:timber_frames/red_terracotta/acacia
@@ -12343,6 +12347,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - betternether:nether_brick_wall
 - betternether:soul_sandstone_wall
 - betternether:basalt_bricks_wall
+- framedblocks:framed_wall
 - minecraft:cobblestone_wall
 - minecraft:mossy_cobblestone_wall
 - minecraft:brick_wall
@@ -12366,6 +12371,39 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - graveyard:tg_deepslate_tile_wall
 - #pneumaticcraft:walls
 - #pneumaticcraft:walls
+- atum:limestone_wall
+- atum:limestone_cracked_wall
+- atum:small_wall
+- atum:large_wall
+- atum:cracked_brick_wall
+- atum:chiseled_wall
+- atum:carved_wall
+- atum:alabaster_smooth_wall
+- atum:alabaster_polished_wall
+- atum:alabaster_carved_wall
+- atum:alabaster_tiled_wall
+- atum:alabaster_pillar_wall
+- atum:porphyry_smooth_wall
+- atum:porphyry_polished_wall
+- atum:porphyry_carved_wall
+- atum:porphyry_tiled_wall
+- atum:porphyry_pillar_wall
+- atum:ceramic_wall_white
+- atum:ceramic_wall_orange
+- atum:ceramic_wall_magenta
+- atum:ceramic_wall_light_blue
+- atum:ceramic_wall_yellow
+- atum:ceramic_wall_lime
+- atum:ceramic_wall_pink
+- atum:ceramic_wall_gray
+- atum:ceramic_wall_light_gray
+- atum:ceramic_wall_cyan
+- atum:ceramic_wall_purple
+- atum:ceramic_wall_blue
+- atum:ceramic_wall_brown
+- atum:ceramic_wall_green
+- atum:ceramic_wall_red
+- atum:ceramic_wall_black
 - byg:dacite_cobblestone_wall
 - byg:dacite_wall
 - byg:dacite_tile_wall
@@ -12432,40 +12470,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - mysticalagriculture:soulstone_cobble_wall
 - mysticalagriculture:soulstone_bricks_wall
 - iceandfire:dragon_bone_wall
-- framedblocks:framed_wall
-- atum:limestone_wall
-- atum:limestone_cracked_wall
-- atum:small_wall
-- atum:large_wall
-- atum:cracked_brick_wall
-- atum:chiseled_wall
-- atum:carved_wall
-- atum:alabaster_smooth_wall
-- atum:alabaster_polished_wall
-- atum:alabaster_carved_wall
-- atum:alabaster_tiled_wall
-- atum:alabaster_pillar_wall
-- atum:porphyry_smooth_wall
-- atum:porphyry_polished_wall
-- atum:porphyry_carved_wall
-- atum:porphyry_tiled_wall
-- atum:porphyry_pillar_wall
-- atum:ceramic_wall_white
-- atum:ceramic_wall_orange
-- atum:ceramic_wall_magenta
-- atum:ceramic_wall_light_blue
-- atum:ceramic_wall_yellow
-- atum:ceramic_wall_lime
-- atum:ceramic_wall_pink
-- atum:ceramic_wall_gray
-- atum:ceramic_wall_light_gray
-- atum:ceramic_wall_cyan
-- atum:ceramic_wall_purple
-- atum:ceramic_wall_blue
-- atum:ceramic_wall_brown
-- atum:ceramic_wall_green
-- atum:ceramic_wall_red
-- atum:ceramic_wall_black
 - elementalcraft:purerock_wall
 - elementalcraft:whiterock_brick_wall
 - elementalcraft:whiterock_wall
@@ -12741,9 +12745,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #forge:storage_blocks/lead
 - silents_mechanisms:lead_block
 - mekanism:block_lead
+- thermal:lead_block
 - emendatusenigmatica:lead_block
 - eidolon:lead_block
-- thermal:lead_block
 - immersiveengineering:storage_lead
 
 #pneumaticcraft:wall_lamps_inverted
@@ -12827,6 +12831,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #minecraft:sand
 - minecraft:sand
 - minecraft:red_sand
+- atum:sand
 - byg:white_sand
 - byg:black_sand
 - byg:blue_sand
@@ -12835,7 +12840,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:end_sand
 - blue_skies:crystal_sand
 - blue_skies:midnight_sand
-- atum:sand
 
 #structurize:timber_frames/paper
 - #structurize:timber_frames/paper/oak
@@ -13108,6 +13112,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - mcwtrpdoors:crimson_ranch_trapdoor
 - mcwtrpdoors:warped_ranch_trapdoor
 - silentgear:netherwood_trapdoor
+- atum:palm_hatch
+- atum:deadwood_hatch
 - byg:aspen_trapdoor
 - byg:baobab_trapdoor
 - byg:blue_enchanted_trapdoor
@@ -13144,8 +13150,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:dusk_trapdoor
 - blue_skies:maple_trapdoor
 - blue_skies:cherry_trapdoor
-- atum:palm_hatch
-- atum:deadwood_hatch
 - twilightforest:twilight_oak_trapdoor
 - twilightforest:canopy_trapdoor
 - twilightforest:mangrove_trapdoor
@@ -13227,6 +13231,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - structurize:side_framed_horizontal_spruce_white_terracotta_timber_frame
 
 #forge:ores/cinnabar
+- thermal:cinnabar_ore
 - emendatusenigmatica:cinnabar_ore
 - emendatusenigmatica:cinnabar_andesite_ore
 - emendatusenigmatica:cinnabar_granite_ore
@@ -13257,7 +13262,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:cinnabar_sulphuric_rock_ore
 - emendatusenigmatica:cinnabar_violecite_ore
 - emendatusenigmatica:cinnabar_raw_marble_ore
-- thermal:cinnabar_ore
 
 #forge:barrels/gold
 - metalbarrels:gold_barrel
@@ -13484,6 +13488,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - betternether:anchor_tree_door
 - betternether:nether_sakura_door
 - silentgear:netherwood_door
+- atum:palm_door
+- atum:deadwood_door
 - integrateddynamics:menril_door
 - byg:aspen_door
 - byg:baobab_door
@@ -13522,8 +13528,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:maple_door
 - blue_skies:cherry_door
 - blue_skies:crystallized_door
-- atum:palm_door
-- atum:deadwood_door
 - twilightforest:twilight_oak_door
 - twilightforest:canopy_door
 - twilightforest:mangrove_door
@@ -13730,6 +13734,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - structurize:side_framed_horizontal_spruce_spruce_timber_frame
 
 #forge:ores/gold
+- #minecraft:gold_ores
 - emendatusenigmatica:gold_ore
 - emendatusenigmatica:gold_andesite_ore
 - emendatusenigmatica:gold_granite_ore
@@ -13760,7 +13765,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:gold_sulphuric_rock_ore
 - emendatusenigmatica:gold_violecite_ore
 - emendatusenigmatica:gold_raw_marble_ore
-- #minecraft:gold_ores
 
 #lootr:chests
 - lootr:lootr_chest
@@ -14010,6 +14014,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - cataclysm:obsidian_brick_wall
 
 #forge:ores/apatite
+- thermal:apatite_ore
 - emendatusenigmatica:apatite_ore
 - emendatusenigmatica:apatite_andesite_ore
 - emendatusenigmatica:apatite_granite_ore
@@ -14040,7 +14045,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:apatite_sulphuric_rock_ore
 - emendatusenigmatica:apatite_violecite_ore
 - emendatusenigmatica:apatite_raw_marble_ore
-- thermal:apatite_ore
 
 #minecraft:buttons
 - #minecraft:wooden_buttons
@@ -14051,6 +14055,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - undergarden:smogstem_button
 - undergarden:wigglewood_button
 - undergarden:grongle_button
+- atum:limestone_button
 - byg:aspen_button
 - byg:baobab_button
 - byg:blue_enchanted_button
@@ -14080,7 +14085,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:bulbis_button
 - byg:nightshade_button
 - byg:imparius_button
-- atum:limestone_button
 - ars_nouveau:archwood_button
 - forbidden_arcanus:polished_darkstone_button
 - quark:gold_button
@@ -14597,6 +14601,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - betternether:anchor_tree_vine
 - betternether:anchor_tree_ladder
 - betternether:nether_sakura_ladder
+- framedblocks:framed_ladder
+- atum:palm_ladder
+- atum:deadwood_ladder
+- atum:bone_ladder
+- atum:ophidian_tongue
+- atum:palm_scaffolding
+- atum:deadwood_scaffolding
 - byg:weeping_roots
 - byg:weeping_roots_plant
 - byg:sythian_scaffolding
@@ -14615,13 +14626,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:imparius_vine_plant
 - #blue_skies:ladders
 - #blue_skies:vines
-- framedblocks:framed_ladder
-- atum:palm_ladder
-- atum:deadwood_ladder
-- atum:bone_ladder
-- atum:ophidian_tongue
-- atum:palm_scaffolding
-- atum:deadwood_scaffolding
 - twilightforest:iron_ladder
 - endergetic:poise_ladder
 - environmental:ice_chain
@@ -15173,6 +15177,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:ores/coal
 - undergarden:coal_ore
+- minecraft:coal_ore
+- atum:coal_ore
 - emendatusenigmatica:coal_ore
 - emendatusenigmatica:coal_andesite_ore
 - emendatusenigmatica:coal_granite_ore
@@ -15203,8 +15209,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:coal_sulphuric_rock_ore
 - emendatusenigmatica:coal_violecite_ore
 - emendatusenigmatica:coal_raw_marble_ore
-- minecraft:coal_ore
-- atum:coal_ore
 
 #structurize:timber_frames/stone/crimson
 - structurize:plain_crimson_stone_timber_frame
@@ -15512,6 +15516,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - mcwtrpdoors:metal_trapdoor
 - mcwtrpdoors:metal_full_trapdoor
 - mcwtrpdoors:metal_warning_trapdoor
+- framedblocks:framed_trapdoor
 - byg:aspen_trapdoor
 - byg:baobab_trapdoor
 - byg:blue_enchanted_trapdoor
@@ -15542,7 +15547,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - byg:nightshade_trapdoor
 - byg:imparius_trapdoor
 - blue_skies:crystallized_trapdoor
-- framedblocks:framed_trapdoor
 - ars_nouveau:archwood_trapdoor
 - upgrade_aquatic:tooth_trapdoor
 - upgrade_aquatic:glass_trapdoor
@@ -15715,8 +15719,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:green_clear_stained_glass_pane
 - tconstruct:red_clear_stained_glass_pane
 - tconstruct:black_clear_stained_glass_pane
-- blue_skies:crystal_glass_pane
-- blue_skies:midnight_glass_pane
 - minecraft:white_stained_glass_pane
 - minecraft:orange_stained_glass_pane
 - minecraft:magenta_stained_glass_pane
@@ -15733,6 +15735,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:green_stained_glass_pane
 - minecraft:red_stained_glass_pane
 - minecraft:black_stained_glass_pane
+- blue_skies:crystal_glass_pane
+- blue_skies:midnight_glass_pane
 
 #forbidden_arcanus:hanging_candelabras
 - forbidden_arcanus:hanging_stone_candelabra
@@ -16059,8 +16063,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:stripped_cherry_wood
 
 #forge:storage_blocks/apatite
-- emendatusenigmatica:apatite_block
 - thermal:apatite_block
+- emendatusenigmatica:apatite_block
 
 #forge:wool/magenta
 - minecraft:magenta_wool
@@ -16237,6 +16241,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #structurize:timber_frames/orange_terracotta/cactus
 
 #forge:ores/lapis
+- minecraft:lapis_ore
+- atum:lapis_ore
 - emendatusenigmatica:lapis_ore
 - emendatusenigmatica:lapis_andesite_ore
 - emendatusenigmatica:lapis_granite_ore
@@ -16267,8 +16273,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:lapis_sulphuric_rock_ore
 - emendatusenigmatica:lapis_violecite_ore
 - emendatusenigmatica:lapis_raw_marble_ore
-- minecraft:lapis_ore
-- atum:lapis_ore
 
 #structurize:timber_frames/birch/dark_oak
 - structurize:plain_dark_oak_birch_timber_frame
@@ -16361,6 +16365,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - graveyard:moss_block
 - graveyard:tg_coarse_dirt
 - graveyard:tg_rooted_dirt
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:mycelium
 - byg:meadow_grass_block
 - byg:meadow_dirt
 - byg:peat
@@ -16391,11 +16400,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:coarse_lunar_dirt
 - blue_skies:turquoise_cherry_grass_block
 - blue_skies:lunar_cherry_grass_block
-- minecraft:dirt
-- minecraft:grass_block
-- minecraft:coarse_dirt
-- minecraft:podzol
-- minecraft:mycelium
 - farmersdelight:rich_soil
 - environmental:mud
 
@@ -16859,6 +16863,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #forge:ores/uranium
 - #forge:ores/fluorite
 - #forge:ores/lead
+- #forge:ores/coal
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+- #forge:ores/apatite
+- #forge:ores/cinnabar
+- #forge:ores/copper
+- #forge:ores/lead
+- #forge:ores/nickel
+- #forge:ores/niter
+- #forge:ores/ruby
+- #forge:ores/sapphire
+- #forge:ores/silver
+- #forge:ores/sulfur
+- #forge:ores/tin
+- #forge:ores/nebu
 - emendatusenigmatica:coal_ore
 - emendatusenigmatica:iron_ore
 - emendatusenigmatica:gold_ore
@@ -17848,27 +17873,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - iceandfire:sapphire_ore
 - iceandfire:copper_ore
 - iceandfire:amythest_ore
-- #forge:ores/coal
-- #forge:ores/diamond
-- #forge:ores/emerald
-- #forge:ores/gold
-- #forge:ores/iron
-- #forge:ores/lapis
-- #forge:ores/redstone
-- #forge:ores/quartz
-- #forge:ores/netherite_scrap
-- #forge:ores/apatite
-- #forge:ores/cinnabar
-- #forge:ores/copper
-- #forge:ores/lead
-- #forge:ores/nickel
-- #forge:ores/niter
-- #forge:ores/ruby
-- #forge:ores/sapphire
-- #forge:ores/silver
-- #forge:ores/sulfur
-- #forge:ores/tin
-- #forge:ores/nebu
 - #forge:ores/ironwood
 - #forge:ores/knightmetal
 - elementalcraft:crystalore
@@ -18471,6 +18475,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - powah:dry_ice
 
 #forge:sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
 - byg:black_sandstone
 - byg:black_chiseled_sandstone
 - byg:black_cut_sandstone
@@ -18493,14 +18505,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:midnight_sandstone
 - blue_skies:chiseled_midnight_sandstone
 - blue_skies:cut_midnight_sandstone
-- minecraft:sandstone
-- minecraft:cut_sandstone
-- minecraft:chiseled_sandstone
-- minecraft:smooth_sandstone
-- minecraft:red_sandstone
-- minecraft:cut_red_sandstone
-- minecraft:chiseled_red_sandstone
-- minecraft:smooth_red_sandstone
 - forbidden_arcanus:soulless_sandstone
 - forbidden_arcanus:cut_soulless_sandstone
 - forbidden_arcanus:polished_soulless_sandstone
@@ -18549,8 +18553,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - structurize:moss_slate_oak_shingle
 
 #forge:storage_blocks/cinnabar
-- emendatusenigmatica:cinnabar_block
 - thermal:cinnabar_block
+- emendatusenigmatica:cinnabar_block
 
 #forge:storage_blocks/potassium_nitrate
 - emendatusenigmatica:potassium_nitrate_block
@@ -18700,8 +18704,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:storage_blocks/signalum
 - silents_mechanisms:signalum_block
-- emendatusenigmatica:signalum_block
 - thermal:signalum_block
+- emendatusenigmatica:signalum_block
 
 #envirocore:pladium_walls
 - envirocore:pladium_wall
@@ -18775,6 +18779,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #forge:ores/tin
 - silents_mechanisms:tin_ore
 - mekanism:tin_ore
+- thermal:tin_ore
 - emendatusenigmatica:tin_ore
 - emendatusenigmatica:tin_andesite_ore
 - emendatusenigmatica:tin_granite_ore
@@ -18805,7 +18810,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:tin_sulphuric_rock_ore
 - emendatusenigmatica:tin_violecite_ore
 - emendatusenigmatica:tin_raw_marble_ore
-- thermal:tin_ore
 
 #structurize:timber_frames/purple_terracotta/jungle
 - structurize:plain_jungle_purple_terracotta_timber_frame
@@ -19255,6 +19259,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:grass_path
 
 #forge:ores/sulfur
+- thermal:sulfur_ore
 - emendatusenigmatica:sulfur_ore
 - emendatusenigmatica:sulfur_andesite_ore
 - emendatusenigmatica:sulfur_granite_ore
@@ -19285,7 +19290,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:sulfur_sulphuric_rock_ore
 - emendatusenigmatica:sulfur_violecite_ore
 - emendatusenigmatica:sulfur_raw_marble_ore
-- thermal:sulfur_ore
 
 #supplementaries:walls
 - #minecraft:walls
@@ -19348,13 +19352,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:greenheart_fence
 - tconstruct:skyroot_fence
 - tconstruct:bloodshroom_fence
-- blue_skies:bluebright_fence
-- blue_skies:starlit_fence
-- blue_skies:frostbright_fence
-- blue_skies:lunar_fence
-- blue_skies:dusk_fence
-- blue_skies:maple_fence
-- blue_skies:cherry_fence
 - minecraft:oak_fence
 - minecraft:spruce_fence
 - minecraft:birch_fence
@@ -19363,6 +19360,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:dark_oak_fence
 - minecraft:crimson_fence
 - minecraft:warped_fence
+- blue_skies:bluebright_fence
+- blue_skies:starlit_fence
+- blue_skies:frostbright_fence
+- blue_skies:lunar_fence
+- blue_skies:dusk_fence
+- blue_skies:maple_fence
+- blue_skies:cherry_fence
 - #twilightforest:fences
 - resourcefulbees:waxed_fence
 - ars_nouveau:archwood_fence
@@ -19450,6 +19454,46 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #forge:storage_blocks/lead
 - #forge:storage_blocks/uranium
 - #forge:storage_blocks/compressed_iron
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/diamond
+- #forge:storage_blocks/emerald
+- #forge:storage_blocks/gold
+- #forge:storage_blocks/iron
+- #forge:storage_blocks/lapis
+- #forge:storage_blocks/quartz
+- #forge:storage_blocks/redstone
+- #forge:storage_blocks/netherite
+- #forge:storage_blocks/apatite
+- #forge:storage_blocks/bamboo
+- #forge:storage_blocks/bitumen
+- #forge:storage_blocks/bronze
+- #forge:storage_blocks/charcoal
+- #forge:storage_blocks/cinnabar
+- #forge:storage_blocks/coal_coke
+- #forge:storage_blocks/constantan
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/electrum
+- #forge:storage_blocks/enderium
+- #forge:storage_blocks/gunpowder
+- #forge:storage_blocks/invar
+- #forge:storage_blocks/lead
+- #forge:storage_blocks/lumium
+- #forge:storage_blocks/nickel
+- #forge:storage_blocks/niter
+- #forge:storage_blocks/ruby
+- #forge:storage_blocks/sapphire
+- #forge:storage_blocks/signalum
+- #forge:storage_blocks/silver
+- #forge:storage_blocks/slag
+- #forge:storage_blocks/sugar_cane
+- #forge:storage_blocks/sulfur
+- #forge:storage_blocks/tar
+- #forge:storage_blocks/tin
+- #forge:storage_blocks/nebu
+- psi:psimetal_block
+- psi:psigem_block
+- psi:ebony_psimetal_block
+- psi:ivory_psimetal_block
 - emendatusenigmatica:copper_block
 - emendatusenigmatica:aluminum_block
 - emendatusenigmatica:silver_block
@@ -19503,46 +19547,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - eidolon:lead_block
 - eidolon:pewter_block
 - eidolon:arcane_gold_block
-- #forge:storage_blocks/coal
-- #forge:storage_blocks/diamond
-- #forge:storage_blocks/emerald
-- #forge:storage_blocks/gold
-- #forge:storage_blocks/iron
-- #forge:storage_blocks/lapis
-- #forge:storage_blocks/quartz
-- #forge:storage_blocks/redstone
-- #forge:storage_blocks/netherite
-- #forge:storage_blocks/apatite
-- #forge:storage_blocks/bamboo
-- #forge:storage_blocks/bitumen
-- #forge:storage_blocks/bronze
-- #forge:storage_blocks/charcoal
-- #forge:storage_blocks/cinnabar
-- #forge:storage_blocks/coal_coke
-- #forge:storage_blocks/constantan
-- #forge:storage_blocks/copper
-- #forge:storage_blocks/electrum
-- #forge:storage_blocks/enderium
-- #forge:storage_blocks/gunpowder
-- #forge:storage_blocks/invar
-- #forge:storage_blocks/lead
-- #forge:storage_blocks/lumium
-- #forge:storage_blocks/nickel
-- #forge:storage_blocks/niter
-- #forge:storage_blocks/ruby
-- #forge:storage_blocks/sapphire
-- #forge:storage_blocks/signalum
-- #forge:storage_blocks/silver
-- #forge:storage_blocks/slag
-- #forge:storage_blocks/sugar_cane
-- #forge:storage_blocks/sulfur
-- #forge:storage_blocks/tar
-- #forge:storage_blocks/tin
-- #forge:storage_blocks/nebu
-- psi:psimetal_block
-- psi:psigem_block
-- psi:ebony_psimetal_block
-- psi:ivory_psimetal_block
 - #forge:storage_blocks/arctic_fur
 - #forge:storage_blocks/carminite
 - #forge:storage_blocks/fiery
@@ -19871,6 +19875,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - engineersdecor:rebar_concrete_tile_stairs
 - engineersdecor:gas_concrete_stairs
 - engineersdecor:old_industrial_wood_stairs
+- framedblocks:framed_stairs
 - #minecraft:wooden_stairs
 - minecraft:cobblestone_stairs
 - minecraft:sandstone_stairs
@@ -19906,6 +19911,39 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - graveyard:tg_deepslate_tile_stairs
 - #pneumaticcraft:stairs
 - #pneumaticcraft:stairs
+- atum:smooth_stairs
+- atum:cracked_stairs
+- atum:small_stairs
+- atum:large_stairs
+- atum:cracked_brick_stairs
+- atum:chiseled_stairs
+- atum:carved_stairs
+- atum:alabaster_smooth_stairs
+- atum:alabaster_polished_stairs
+- atum:alabaster_carved_stairs
+- atum:alabaster_tiled_stairs
+- atum:alabaster_pillar_stairs
+- atum:porphyry_smooth_stairs
+- atum:porphyry_polished_stairs
+- atum:porphyry_carved_stairs
+- atum:porphyry_tiled_stairs
+- atum:porphyry_pillar_stairs
+- atum:ceramic_stairs_white
+- atum:ceramic_stairs_orange
+- atum:ceramic_stairs_magenta
+- atum:ceramic_stairs_light_blue
+- atum:ceramic_stairs_yellow
+- atum:ceramic_stairs_lime
+- atum:ceramic_stairs_pink
+- atum:ceramic_stairs_gray
+- atum:ceramic_stairs_light_gray
+- atum:ceramic_stairs_cyan
+- atum:ceramic_stairs_purple
+- atum:ceramic_stairs_blue
+- atum:ceramic_stairs_brown
+- atum:ceramic_stairs_green
+- atum:ceramic_stairs_red
+- atum:ceramic_stairs_black
 - integrateddynamics:crystalized_chorus_block_stairs
 - integrateddynamics:crystalized_chorus_brick_stairs
 - integrateddynamics:crystalized_menril_block_stairs
@@ -20005,40 +20043,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - mysticalagriculture:soulstone_stairs
 - mysticalagriculture:soulstone_cobble_stairs
 - mysticalagriculture:soulstone_bricks_stairs
-- framedblocks:framed_stairs
-- atum:smooth_stairs
-- atum:cracked_stairs
-- atum:small_stairs
-- atum:large_stairs
-- atum:cracked_brick_stairs
-- atum:chiseled_stairs
-- atum:carved_stairs
-- atum:alabaster_smooth_stairs
-- atum:alabaster_polished_stairs
-- atum:alabaster_carved_stairs
-- atum:alabaster_tiled_stairs
-- atum:alabaster_pillar_stairs
-- atum:porphyry_smooth_stairs
-- atum:porphyry_polished_stairs
-- atum:porphyry_carved_stairs
-- atum:porphyry_tiled_stairs
-- atum:porphyry_pillar_stairs
-- atum:ceramic_stairs_white
-- atum:ceramic_stairs_orange
-- atum:ceramic_stairs_magenta
-- atum:ceramic_stairs_light_blue
-- atum:ceramic_stairs_yellow
-- atum:ceramic_stairs_lime
-- atum:ceramic_stairs_pink
-- atum:ceramic_stairs_gray
-- atum:ceramic_stairs_light_gray
-- atum:ceramic_stairs_cyan
-- atum:ceramic_stairs_purple
-- atum:ceramic_stairs_blue
-- atum:ceramic_stairs_brown
-- atum:ceramic_stairs_green
-- atum:ceramic_stairs_red
-- atum:ceramic_stairs_black
 - twilightforest:castle_stairs_brick
 - twilightforest:castle_stairs_worn
 - twilightforest:castle_stairs_cracked
@@ -20900,6 +20904,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:skyroot_planks_stairs
 - tconstruct:bloodshroom_planks_stairs
 - silentgear:netherwood_stairs
+- atum:palm_stairs
+- atum:deadwood_stairs
 - integrateddynamics:menril_planks_stairs
 - byg:aspen_stairs
 - byg:baobab_stairs
@@ -20938,8 +20944,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:maple_stairs
 - blue_skies:cherry_stairs
 - eidolon:polished_planks_stairs
-- atum:palm_stairs
-- atum:deadwood_stairs
 - twilightforest:twilight_oak_stairs
 - twilightforest:canopy_stairs
 - twilightforest:mangrove_stairs
@@ -21029,6 +21033,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #betternether:other_nether_ground
 
 #forge:ores/emerald
+- minecraft:emerald_ore
+- atum:emerald_ore
 - emendatusenigmatica:emerald_ore
 - emendatusenigmatica:emerald_andesite_ore
 - emendatusenigmatica:emerald_granite_ore
@@ -21061,8 +21067,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:emerald_raw_marble_ore
 - blue_skies:everbright_emerald_ore
 - blue_skies:everdawn_emerald_ore
-- minecraft:emerald_ore
-- atum:emerald_ore
 
 #blue_skies:stone
 - blue_skies:turquoise_stone
@@ -21801,8 +21805,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:storage_blocks/electrum
 - silents_mechanisms:electrum_block
-- emendatusenigmatica:electrum_block
 - thermal:electrum_block
+- emendatusenigmatica:electrum_block
 - immersiveengineering:storage_electrum
 
 #structurize:timber_frames/magenta_terracotta/crimson
@@ -21844,7 +21848,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - undergarden:shard_wall_torch
 - valhelsia_structures:doused_torch
 - valhelsia_structures:doused_soul_torch
-- blue_skies:moonstone
 - atum:palm_torch
 - atum:deadwood_torch
 - atum:limestone_torch
@@ -21865,6 +21868,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - atum:torch_of_seth
 - atum:torch_of_shu
 - atum:torch_of_tefnut
+- blue_skies:moonstone
 - forbidden_arcanus:candle
 
 #mekanismadditions:glow_panels
@@ -21995,8 +21999,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - structurize:side_framed_horizontal_birch_stone_timber_frame
 
 #forge:storage_blocks/constantan
-- emendatusenigmatica:constantan_block
 - thermal:constantan_block
+- emendatusenigmatica:constantan_block
 - immersiveengineering:storage_constantan
 
 #structurize:timber_frames/brown_terracotta/dark_oak
@@ -22297,6 +22301,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #undergarden:grongle_logs
 - #tconstruct:greenheart_logs
 - #tconstruct:skyroot_logs
+- #forge:palm_logs
+- #forge:deadwood_logs
 - integrateddynamics:menril_log
 - integrateddynamics:menril_log_filled
 - #byg:aspen_logs
@@ -22355,8 +22361,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:cherry_wood
 - blue_skies:stripped_cherry_log
 - blue_skies:stripped_cherry_wood
-- #forge:palm_logs
-- #forge:deadwood_logs
 - #twilightforest:twilight_oak_logs
 - #twilightforest:canopy_logs
 - #twilightforest:mangrove_logs
@@ -22439,6 +22443,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:bloodshroom_planks_slab
 - silentgear:netherwood_slab
 - mowziesmobs:painted_acacia_slab
+- atum:palm_slab
+- atum:deadwood_slab
 - integrateddynamics:menril_slab
 - byg:aspen_slab
 - byg:baobab_slab
@@ -22477,8 +22483,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:maple_slab
 - blue_skies:cherry_slab
 - eidolon:polished_planks_slab
-- atum:palm_slab
-- atum:deadwood_slab
 - twilightforest:twilight_oak_slab
 - twilightforest:canopy_slab
 - twilightforest:mangrove_slab
@@ -22866,6 +22870,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #forge:ores/silver
 - occultism:silver_ore
 - silents_mechanisms:silver_ore
+- thermal:silver_ore
 - emendatusenigmatica:silver_ore
 - emendatusenigmatica:silver_andesite_ore
 - emendatusenigmatica:silver_granite_ore
@@ -22897,7 +22902,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - emendatusenigmatica:silver_violecite_ore
 - emendatusenigmatica:silver_raw_marble_ore
 - iceandfire:silver_ore
-- thermal:silver_ore
 - immersiveengineering:ore_silver
 
 #iceandfire:myrmex_harvestables
