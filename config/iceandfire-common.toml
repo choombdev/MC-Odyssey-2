@@ -42,7 +42,7 @@
 		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 600
+		"Generate Dragon Roost Chance" = 1000
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
 		"Dragon Den Gold Amount" = 4
@@ -53,10 +53,10 @@
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist From Spawn" = 1000
+		"Dangerous World Gen Dist From Spawn" = 1600
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist Seperation" = 750
+		"Dangerous World Gen Dist Seperation" = 1250
 		#Whether to generate glacier biomes or not
 		"Generate Glaciers" = true
 		#Glacier Spawn Weight. Higher number = more common
@@ -66,7 +66,7 @@
 		"Generate Mausoleums" = true
 		#One out of this number chance per chunk to generate a mausoleum.
 		#Range: 1 ~ 10000
-		"Mausoleum Gen Chance" = 3000
+		"Mausoleum Gen Chance" = 9000
 		#Whether to generate graveyards or not
 		"Generate Graveyards" = true
 		#Graveyard rarity.
@@ -101,7 +101,7 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 3500.0
+		"Dragon Health" = 2250.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
 		"Dragon Attack Damage" = 30
@@ -179,7 +179,7 @@
 		"Spawn Cyclopes Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Cyclops Cave Chance" = 400
+		"Spawn Cyclops Cave Chance" = 700
 		#True if wandering cyclopes are allowed to spawn
 		"Spawn Wandering Cyclopes" = true
 		#1 out of this number chance per chunk for generation
@@ -224,7 +224,7 @@
 		"Death Worm Target Search Length" = 64
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Health" = 300.0
+		"Death Worm Base Health" = 200.0
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
 		"Death Worm Base Attack Strength" = 16.0

@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["the_aether", "[main/ERROR] [mezz.jei.ingredients.IngredientManager/]: Could not find any matching ingredients to remove: 1 mob_charm_fragment xreliquary:mob_charm_fragment"]
+	regex = [""]
+

@@ -183,55 +183,55 @@
 
 	[mob_spawns.ara_spawn]
 		#Range: 0 ~ 1000
-		chance = 5
+		chance = 3
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[mob_spawns.centaur_spawn]
 		#Range: 0 ~ 1000
-		chance = 10
+		chance = 3
 		whitelist = true
 		biome_types = ["PLAINS", "CONIFEROUS"]
 
 	[mob_spawns.cerastes_spawn]
 		#Range: 0 ~ 1000
-		chance = 15
+		chance = 5
 		whitelist = true
 		biome_types = ["minecraft:desert", "minecraft:desert_lakes", "minecraft:desert_hills"]
 
 	[mob_spawns.cyclopes_spawn]
 		#Range: 0 ~ 1000
-		chance = 20
+		chance = 7
 		whitelist = true
 		biome_types = ["MOUNTAIN", "PLATEAU"]
 
 	[mob_spawns.cyprian_spawn]
 		#Range: 0 ~ 1000
-		chance = 15
+		chance = 6
 		whitelist = true
 		biome_types = ["PLAINS", "CONIFEROUS"]
 
 	[mob_spawns.drakaina_spawn]
 		#Range: 0 ~ 1000
-		chance = 45
+		chance = 25
 		whitelist = false
 		biome_types = ["END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[mob_spawns.dryad_spawn]
 		#Range: 0 ~ 1000
-		chance = 24
+		chance = 10
 		whitelist = true
 		biome_types = ["FOREST", "CONIFEROUS", "JUNGLE"]
 
 	[mob_spawns.empusa_spawn]
 		#Range: 0 ~ 1000
-		chance = 30
+		chance = 10
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[mob_spawns.fury_spawn]
 		#Range: 0 ~ 1000
-		chance = 9
+		chance = 3
 		whitelist = true
 		biome_types = ["minecraft:nether_wastes"]
 
@@ -243,13 +243,13 @@
 
 	[mob_spawns.gorgon_spawn]
 		#Range: 0 ~ 1000
-		chance = 30
+		chance = 10
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[mob_spawns.harpy_spawn]
 		#Range: 0 ~ 1000
-		chance = 5
+		chance = 3
 		whitelist = true
 		biome_types = ["minecraft:desert", "minecraft:wooded_mountains"]
 
@@ -261,7 +261,7 @@
 
 	[mob_spawns.lampad_spawn]
 		#Range: 0 ~ 1000
-		chance = 20
+		chance = 10
 		whitelist = true
 		biome_types = ["minecraft:crimson_forest", "minecraft:warped_forest"]
 
@@ -273,25 +273,25 @@
 
 	[mob_spawns.makhai_spawn]
 		#Range: 0 ~ 1000
-		chance = 25
+		chance = 10
 		whitelist = false
 		biome_types = []
 
 	[mob_spawns.minotaur_spawn]
 		#Range: 0 ~ 1000
-		chance = 60
+		chance = 30
 		whitelist = false
 		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
 
 	[mob_spawns.naiad_spawn]
 		#Range: 0 ~ 1000
-		chance = 12
+		chance = 8
 		whitelist = true
 		biome_types = ["WATER"]
 
 	[mob_spawns.orthus_spawn]
 		#Range: 0 ~ 1000
-		chance = 20
+		chance = 10
 		whitelist = true
 		biome_types = ["NETHER"]
 
@@ -303,7 +303,7 @@
 
 	[mob_spawns.satyr_spawn]
 		#Range: 0 ~ 1000
-		chance = 22
+		chance = 14
 		whitelist = true
 		biome_types = ["FOREST", "CONIFEROUS", "JUNGLE"]
 
@@ -315,19 +315,19 @@
 
 	[mob_spawns.siren_spawn]
 		#Range: 0 ~ 1000
-		chance = 10
+		chance = 6
 		whitelist = true
 		biome_types = ["minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
 
 	[mob_spawns.unicorn_spawn]
 		#Range: 0 ~ 1000
-		chance = 11
+		chance = 15
 		whitelist = true
 		biome_types = ["minecraft:sunflower_plains", "minecraft:flower_forest"]
 
 	[mob_spawns.whirl_spawn]
 		#Range: 0 ~ 1000
-		chance = 6
+		chance = 3
 		whitelist = true
 		biome_types = ["OCEAN"]
 
@@ -346,7 +346,7 @@
 
 	[features.marble]
 		#Range: 0 ~ 1000
-		chance = 1000
+		chance = 0
 		whitelist = true
 		biome_types = ["OVERWORLD"]
 

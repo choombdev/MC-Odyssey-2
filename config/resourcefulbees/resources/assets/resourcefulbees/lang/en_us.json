@@ -22,6 +22,27 @@
     "block.resourcefulbees.gobbee_honeycomb_block": "Gobbee Honeycomb Block",
     "item.resourcefulbees.gobbee_honeycomb": "Gobbee Honeycomb",
     "item.resourcefulbees.gobbee_spawn_egg": "Gobbee Bee Spawn Egg",
-    "entity.resourcefulbees.gobbee_bee": "Gobbee"
+    "entity.resourcefulbees.gobbee_bee": "Gobbee",
+
+    "block.resourcefulbees.fire_dragon_bee_honeycomb_block": "Fire Dragon Bee Honeycomb Block",
+    "item.resourcefulbees.fire_dragon_bee_honeycomb": "Fire Dragon Bee Honeycomb",
+    "item.resourcefulbees.fire_dragon_bee_spawn_egg": "Fire Dragon Bee Spawn Egg",
+    "entity.resourcefulbees.fire_dragon_bee_bee": "Fire Dragon Bee",
+
+    
+    "block.resourcefulbees.ice_dragon_bee_honeycomb_block": "Ice Dragon Bee Honeycomb Block",
+    "item.resourcefulbees.ice_dragon_bee_honeycomb": "Ice Dragon Bee Honeycomb",
+    "item.resourcefulbees.ice_dragon_bee_spawn_egg": "Ice Dragon Bee Spawn Egg",
+    "entity.resourcefulbees.ice_dragon_bee_bee": "Ice Dragon Bee",
+
+    "block.resourcefulbees.lightning_dragon_bee_honeycomb_block": "Lightning Dragon Bee Honeycomb Block",
+    "item.resourcefulbees.lightning_dragon_bee_honeycomb": "Lightning Dragon Bee Honeycomb",
+    "item.resourcefulbees.lightning_dragon_bee_spawn_egg": "Lightning Dragon Bee Spawn Egg",
+    "entity.resourcefulbees.lightning_dragon_bee_bee": "Lightning Dragon Bee",
+
+    "block.resourcefulbees.gaia_honeycomb_block": "Gaia Honeycomb Block",
+    "item.resourcefulbees.gaia_honeycomb": "Gaia Honeycomb",
+    "item.resourcefulbees.gaia_spawn_egg": "Gaia Spawn Egg",
+    "entity.resourcefulbees.gaia_bee": "Gaia Bee"
 
  }

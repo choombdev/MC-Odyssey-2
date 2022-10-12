@@ -1,0 +1,35 @@
+{
+  "flower": "draconicevolution:draconium_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "traits": [ "ender", "nether", "wither"],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#9d9da6",
+    "primaryColor": "#80819e",
+    "secondaryColor": "#36363d"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "botanai:life_essence",
+    "bottleOutput": "minecraft:dragon_breath",
+    "mainOutputWeight": 0.35,
+    "bottleOutputWeight": 0.5
+    },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Gobbee",
+    "parent2": "Lightning_Dragon_Bee",
+    "feedItem": "botania:gaia_ingot",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

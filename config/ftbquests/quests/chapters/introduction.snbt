@@ -1103,5 +1103,27 @@
 				count: 4
 			}]
 		}
+		{
+			x: -8.5d
+			y: 7.0d
+			id: "34CA98BA6A230EB4"
+			tasks: [{
+				id: "474420BEC781661C"
+				type: "item"
+				item: "biomesinjars:empty_biome_jar"
+			}]
+			rewards: [
+				{
+					id: "338E21C35F53D5AB"
+					type: "ftbmoney:money"
+					ftb_money: 850L
+				}
+				{
+					id: "058B4050C7812AFD"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
 	]
 }

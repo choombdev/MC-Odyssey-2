@@ -2973,16 +2973,6 @@
 					item: "masterfulmachinery:mb_solaractivator_controller"
 				}
 				{
-					id: "1359D6F65518EB8E"
-					type: "item"
-					item: "masterfulmachinery:mb_solaractivator_fluids_port_mekanism_gas_input"
-				}
-				{
-					id: "463D851D4A231A85"
-					type: "item"
-					item: "masterfulmachinery:mb_solaractivator_fluids_port_mekanism_gas_output"
-				}
-				{
 					id: "050B2FA9797F5D0E"
 					type: "item"
 					item: "masterfulmachinery:mb_solaractivator_energy_port_energy_input"
@@ -3016,6 +3006,21 @@
 					type: "item"
 					title: "16 Solar Generators"
 					item: "mekanismgenerators:solar_generator"
+				}
+				{
+					id: "7CE08AE4486C02F6"
+					type: "item"
+					item: "masterfulmachinery:mb_solaractivator_fluid_port_fluids_input"
+				}
+				{
+					id: "04E42D9B27FD9DB7"
+					type: "item"
+					item: "masterfulmachinery:mb_solaractivator_gas_port_mekanism_gas_input"
+				}
+				{
+					id: "237DB596FD624A7F"
+					type: "item"
+					item: "masterfulmachinery:mb_solaractivator_gas_port_mekanism_gas_output"
 				}
 			]
 			rewards: [

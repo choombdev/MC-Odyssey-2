@@ -83,7 +83,6 @@ onEvent('recipes', event => {
     event.recipes.immersiveengineeringCrusher(crushednetherrack, netherrack)
     event.recipes.immersiveengineeringCrusher(crushedendstone, endstone)
     event.recipes.immersiveengineeringCrusher(dust, sand)
-    event.recipes.createCrushing(crushednetherrack, netherrack)
     event.recipes.createCrushing(crushedendstone, endstone)
     event.recipes.createCrushing(dust, sand)
 

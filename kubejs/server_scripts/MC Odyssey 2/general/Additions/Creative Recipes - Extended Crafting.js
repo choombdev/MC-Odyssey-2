@@ -381,20 +381,6 @@ event.recipes.extendedcrafting.shaped_table(Item.of('kubejs:ancient_leggings','{
     Z:'botania:terrasteel_ingot'
   })
 
-  event.recipes.extendedcrafting.shaped_table('mowziesmobs:earth_talisman', [
-    'XZZX',
-    'FAYF',
-    'XZZX'
-    ], {
-  
-    Y: 'draconicevolution:wyvern_core',
-    X: 'mysticalagradditions:dragon_egg_crux',
-    A: 'mysticalagradditions:insanium_gemstone',
-    F: 'forbidden_arcanus:dark_nether_star', 
-    Z: 'mana-and-artifice:greater_mote_earth',
-  })
-
-
 
   event.recipes.extendedcrafting.shaped_table('create:creative_motor', [
     'BYB',

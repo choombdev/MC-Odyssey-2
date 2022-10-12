@@ -198,13 +198,6 @@ event.shaped('ars_nouveau:mana_gem_block', [
   })
   
 // Cast Iron
-  event.remove({output: 'ftbjarmod:cast_iron_ingot'})
+  event.remove({output:'ftbjarmod:cast_iron_ingot'})
   event.campfireCooking('emendatusenigmatica:cast_iron_ingot','minecraft:iron_ingot')
-
-
-
-
 })
-
-
-

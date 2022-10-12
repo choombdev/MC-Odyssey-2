@@ -1391,5 +1391,335 @@
 				ftb_money: 350L
 			}]
 		}
+		{
+			title: "Gotta Catch 'Em All"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Don't."
+			description: ["Welcome to Resourceful bees!"]
+			id: "437D62D8C97A513B"
+			tasks: [{
+				id: "2C8DEEC880BBC401"
+				type: "item"
+				item: "resourcefulbees:beepedia"
+			}]
+			rewards: [{
+				id: "32A9A48D48F2FC1C"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			title: "Gathering Honey"
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"Once your hive has enough honey, start gathering using a scraper."
+				"Don't forget to use a Smoker, unless you want to get stinged."
+			]
+			dependencies: ["437D62D8C97A513B"]
+			id: "1DBA575AA1B41D2A"
+			tasks: [
+				{
+					id: "6E014772D0CA08EB"
+					type: "item"
+					item: "resourcefulbees:scraper"
+				}
+				{
+					id: "1558AE4F6035ADDB"
+					type: "item"
+					item: {
+						id: "resourcefulbees:smoker"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1B220E208DF9DC28"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			description: [
+				"Once you've stolen some hives and created your own hives, create a small enclosure and place all your bees inside"
+				"Once you've done so, remember to give them the flowers they need so they can start making honey!"
+			]
+			dependencies: ["437D62D8C97A513B"]
+			id: "0AF6C92EBEBABDC8"
+			tasks: [{
+				id: "3C038C4FEA845BE2"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+		}
+		{
+			title: "Actually Catching them all"
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["437D62D8C97A513B"]
+			id: "1BE9C6A319657723"
+			tasks: [{
+				id: "299783CF3E6690A9"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+			}]
+			rewards: [
+				{
+					id: "06401C5D5DAE1BC5"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "312BC0C7C9DC7E77"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+			]
+		}
+		{
+			title: "Using honey!"
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Get to Cranking"
+			description: ["The Centrifuge is one of the most important blocks in the mod, letting you actually process the honeycombs you're getting."]
+			dependencies: [
+				"0AF6C92EBEBABDC8"
+				"1BE9C6A319657723"
+				"1DBA575AA1B41D2A"
+			]
+			id: "01844BEFDD3015CA"
+			tasks: [{
+				id: "3C225C5D66AAEC54"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+		}
+		{
+			title: "RF Powered Centrifuge"
+			x: 1.0d
+			y: 5.0d
+			subtitle: "My hands hurt"
+			dependencies: ["3FB339ECB7E54E87"]
+			id: "1372CAACD68EEF43"
+			tasks: [{
+				id: "6ACC1B9DF9F448DF"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+			rewards: [
+				{
+					id: "26AF98BB7B29F6CF"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "6C261A5F463BAFF8"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			title: "Actually Catching Them All Pt2"
+			x: -3.0d
+			y: 5.0d
+			description: ["More bees in one item!"]
+			dependencies: ["3FB339ECB7E54E87"]
+			id: "691A8D51C9DDB7C1"
+			tasks: [{
+				id: "1686887D504BB73F"
+				type: "item"
+				item: "resourcefulbees:bee_box"
+			}]
+			rewards: [
+				{
+					id: "3D237AADB9D3FE43"
+					type: "ftbmoney:money"
+					ftb_money: 600L
+				}
+				{
+					id: "35FAC86D4ED8CEAA"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["01844BEFDD3015CA"]
+			id: "3FB339ECB7E54E87"
+			tasks: [{
+				id: "5DA5F75798551AB6"
+				type: "item"
+				item: "resourcefulbees:wax"
+			}]
+			rewards: [{
+				id: "6B7E6DD06BCEAF77"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["3FB339ECB7E54E87"]
+			id: "471B8D00DD20180F"
+			tasks: [{
+				id: "2411C614FA257FBC"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+			rewards: [
+				{
+					id: "2CFD0D3336B8EB3E"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "3416ED69A2B6D211"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["471B8D00DD20180F"]
+			id: "6C52715796CBCD04"
+			tasks: [{
+				id: "196C8BE2648228D2"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+			rewards: [
+				{
+					id: "3605766BEAF25DDA"
+					type: "loot"
+					table_id: 28899073401794277L
+				}
+				{
+					id: "06C7C5D31FCF5844"
+					type: "ftbmoney:money"
+					ftb_money: 450L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			dependencies: ["6C52715796CBCD04"]
+			id: "2EE2AA16E34146B2"
+			tasks: [{
+				id: "7B722A27B2659D9F"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+			rewards: [
+				{
+					id: "4D5C94563A879B76"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+				{
+					id: "787E30FC31D65B25"
+					type: "ftbmoney:money"
+					ftb_money: 650L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			description: [
+				"Now, let's get to the actual beekeeping."
+				"For more information on the Multiblock, check the Fifty Shades of Bees book."
+				"The Apiary helps you do most things in just one place. Whether it's breeding, collecting honecombs or just simply storing your bees."
+			]
+			dependencies: ["6C52715796CBCD04"]
+			id: "168198763B718842"
+			tasks: [
+				{
+					id: "7897E7BA23E3278C"
+					type: "item"
+					item: "resourcefulbees:t1_apiary"
+				}
+				{
+					id: "3657F88566DC3758"
+					type: "item"
+					item: "resourcefulbees:apiary_storage"
+				}
+				{
+					id: "7B7A1166F77A978B"
+					type: "item"
+					item: "resourcefulbees:apiary_breeder"
+				}
+			]
+			rewards: [
+				{
+					id: "7DF3E4E927D7FCFE"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+				{
+					id: "5B9D7BE85DB9C3FB"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["3FB339ECB7E54E87"]
+			id: "6663182064667B3B"
+			tasks: [{
+				id: "46B33533C4DD1F90"
+				type: "item"
+				item: "resourcefulbees:honey_generator"
+			}]
+			rewards: [
+				{
+					id: "01249D4E52866F25"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "369ECB7AC4E4847E"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["3FB339ECB7E54E87"]
+			id: "73ABCB0534C2E7F2"
+			tasks: [{
+				id: "468C0375783D4CB4"
+				type: "item"
+				item: "resourcefulbees:ender_beecon"
+			}]
+			rewards: [
+				{
+					id: "4642D5866DE1970E"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+				{
+					id: "664D53B5A94AC29B"
+					type: "loot"
+					table_id: 9158549027443165248L
+				}
+			]
+		}
 	]
 }

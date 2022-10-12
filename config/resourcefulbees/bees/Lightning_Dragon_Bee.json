@@ -1,0 +1,45 @@
+{
+  "flower": "iceandfire:dragonforge_lightning_brick",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "traits": [ "ender", "nether", "wither"],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#4549ed",
+    "primaryColor": "#17197a",
+    "secondaryColor": "#353782"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "gobber2:gobber2_block_end",
+        "chance": 0.4,
+        "outputs": [
+          {"outputID": "iceandfire:dragonsteel_lightning_block", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "iceandfire:dragonsteel_lightning_ingot",
+    "bottleOutput": "iceandfire:lightning_dragon_blood",
+    "mainOutputWeight": 0.05,
+    "bottleOutputWeight": 0.5
+    },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Dragon",
+    "parent2": "Gobbee",
+    "feedItem": "iceandfire:summoning_crystal_lightning",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

@@ -49,27 +49,8 @@
 		}
 		{
 			x: -8.0d
-			y: 2.0d
-			dependencies: ["644D12387E0E5350"]
-			id: "70A96CE61C8191C9"
-			tasks: [{
-				id: "0ADA8180671FA8C5"
-				type: "item"
-				item: "elementalcraft:elementpipe_impaired"
-			}]
-			rewards: [{
-				id: "10AE3089BBEDCEBD"
-				type: "ftbmoney:money"
-				ftb_money: 100L
-			}]
-		}
-		{
-			x: -8.0d
-			y: 3.5d
-			dependencies: [
-				"70A96CE61C8191C9"
-				"3BC86E4F4F74AE9C"
-			]
+			y: 2.5d
+			dependencies: ["3BC86E4F4F74AE9C"]
 			id: "7DF55AAC29181052"
 			tasks: [{
 				id: "4DBEDD9425B03B08"
@@ -106,11 +87,18 @@
 			y: 0.5d
 			dependencies: ["4B7624003F6E48A7"]
 			id: "644D12387E0E5350"
-			tasks: [{
-				id: "63A57A3B6BA60494"
-				type: "item"
-				item: "elementalcraft:tank_small"
-			}]
+			tasks: [
+				{
+					id: "63A57A3B6BA60494"
+					type: "item"
+					item: "elementalcraft:tank_small"
+				}
+				{
+					id: "75080809F8684FDF"
+					type: "item"
+					item: "elementalcraft:extractor"
+				}
+			]
 			rewards: [{
 				id: "52D5669342650337"
 				type: "ftbmoney:money"
@@ -118,14 +106,14 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 0.5d
+			x: -8.0d
+			y: -1.5d
 			dependencies: ["1FA03DB31A5D26CF"]
 			id: "4B7624003F6E48A7"
 			tasks: [{
-				id: "5AB19EE7313B5E04"
+				id: "113FC9DB5FE59B6F"
 				type: "item"
-				item: "elementalcraft:extractor"
+				item: "elementalcraft:elementpipe_impaired"
 			}]
 			rewards: [{
 				id: "6D5F6D41B16C6DCE"

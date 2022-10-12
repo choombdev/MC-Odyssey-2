@@ -29,7 +29,15 @@ event.remove({output:'draconicevolution:awakened_draconium_ingot'})
         }) 
         
 
-
+    // Nature Essence - Grass
+    event.shaped('minecraft:grass', [
+        '   ',
+        ' E ',
+        'E E'
+        ],{
+            E: 'mysticalagriculture:nature_essence'
+        }) 
+        
     // Deepslate
 
     event.shaped('32x quark:deepslate', [

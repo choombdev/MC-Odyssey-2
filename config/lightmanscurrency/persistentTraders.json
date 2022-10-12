@@ -917,11 +917,11 @@
                 "TradeType": "SALE",
                 "SellItem": {
                     "id": "minecraft:enchanted_golden_apple",
-                    "Count": 64
+                    "Count": 16
                 },
                 "Price": [{
                     "coin": "lightmanscurrency:coin_gold",
-                    "count": 1
+                    "count": 5
                 }, {
                     "coin": "lightmanscurrency:coin_iron",
                     "count": 5

@@ -1,9 +1,8 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
-// [, , , , , , ,  ,, ,  'emendatusenigmatica:enderium_ingot', 'mekanism:ultimate_control_circuit' 'mekanism:alloy_atomic'
-    event.remove({id:"mekanism:controlcircuit/advanced"})
-    event.remove({id:"mekanism:controlcircuit/elite"})
-    event.remove({id:"mekanism:controlcircuit/ultimate"})
+    event.remove({id:"mekanism:control_circuit/advanced"})
+    event.remove({id:"mekanism:control_circuit/elite"})
+    event.remove({id:"mekanism:control_circuit/ultimate"})
    
    
        event.shaped('mekanism:advanced_control_circuit', [
