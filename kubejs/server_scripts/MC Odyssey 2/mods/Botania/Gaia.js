@@ -11,5 +11,3 @@ onEvent('recipes', event => {
   ]).superheated()
 
 })
-
-// 'minecraft:bone', 'xreliquary:rib_bone', 'industrialforegoing:pink_slime', 'xreliquary:slime_pearl', 'mekanismadditions:obsidian_tnt', 'xreliquary:catalyzing_gland']

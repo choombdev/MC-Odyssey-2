@@ -39,8 +39,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -14.5d
+			x: 8.5d
+			y: -15.0d
 			dependencies: ["3188DD78CAA6832A"]
 			id: "056F69FA3504B395"
 			tasks: [{
@@ -70,8 +70,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -14.5d
+			x: 9.5d
+			y: -14.0d
 			dependencies: ["3188DD78CAA6832A"]
 			id: "0566CB2C64A7077C"
 			tasks: [{
@@ -93,24 +93,6 @@
 					ftb_money: 1750L
 				}
 			]
-		}
-		{
-			x: 4.5d
-			y: -17.0d
-			dependencies: ["06ED1BB7C4554975"]
-			id: "419381340EBD6AF1"
-			tasks: [{
-				id: "5B228D3E8343D9ED"
-				type: "kill"
-				icon: "mowziesmobs:grant_suns_blessing"
-				entity: "mowziesmobs:barako"
-				value: 1L
-			}]
-			rewards: [{
-				id: "3A5839F37BE45D3C"
-				type: "loot"
-				table_id: 9158549027443165248L
-			}]
 		}
 		{
 			x: 4.0d
@@ -156,7 +138,7 @@
 		}
 		{
 			x: 1.0d
-			y: -16.0d
+			y: -14.0d
 			dependencies: ["71F2D0671AE021CB"]
 			id: "4C3DD98505FCC4CF"
 			tasks: [{
@@ -254,75 +236,7 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: -14.5d
-			dependencies: ["3188DD78CAA6832A"]
-			id: "1BFD0FD3E14A9BBF"
-			tasks: [{
-				id: "460FEFACAAAFB9DB"
-				type: "kill"
-				icon: "mowziesmobs:naga_fang"
-				entity: "mowziesmobs:naga"
-				value: 1L
-			}]
-			rewards: [{
-				id: "773C496F0501BB44"
-				type: "ftbmoney:money"
-				ftb_money: 1500L
-			}]
-		}
-		{
-			x: 8.5d
-			y: -16.5d
-			dependencies: ["3188DD78CAA6832A"]
-			id: "2A56B2F774EE408B"
-			tasks: [{
-				id: "609D015A92F99F9F"
-				type: "kill"
-				icon: "mowziesmobs:wrought_axe"
-				entity: "mowziesmobs:ferrous_wroughtnaut"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "49617F88C8608919"
-					type: "ftbmoney:money"
-					ftb_money: 4000L
-				}
-				{
-					id: "6FAF71C2A6D7669F"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: 8.5d
-			y: -15.0d
-			dependencies: ["3188DD78CAA6832A"]
-			id: "0CB3804099099063"
-			tasks: [{
-				id: "2BAA6ABF9B3A760F"
-				type: "kill"
-				icon: "outer_end:cobalt_crystal_bud"
-				entity: "mowziesmobs:frostmaw"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "1059212D40451D3F"
-					type: "ftbmoney:money"
-					ftb_money: 4000L
-				}
-				{
-					id: "51D5106F58B741FE"
-					type: "loot"
-					table_id: 9158549027443165248L
-				}
-			]
-		}
-		{
-			x: 0.0d
+			x: 0.5d
 			y: -16.0d
 			dependencies: ["71F2D0671AE021CB"]
 			id: "3BC8BB1CF003348D"
@@ -1032,48 +946,6 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -14.0d
-			dependencies: ["71F2D0671AE021CB"]
-			id: "201254114AD1FD20"
-			tasks: [{
-				id: "1A6B237F32BC003D"
-				type: "kill"
-				icon: {
-					id: "mowziesmobs:barakoa_mask_fear"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "mowziesmobs:barakoaya"
-				value: 5L
-			}]
-			rewards: [
-				{
-					id: "089DA945853484B5"
-					type: "ftbmoney:money"
-					ftb_money: 500L
-				}
-				{
-					id: "03861A098FB0CACB"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "mowziesmobs:long_poison_resist"
-						}
-					}
-				}
-			]
-		}
-		{
 			icon: { id: "undergarden:utheric_shard", Count: 2b }
 			x: 5.5d
 			y: -13.5d
@@ -1481,13 +1353,12 @@
 			subtitle: "How do you think of the Bounties so far?"
 			description: ["We now grant you Rank 3: Ruby!"]
 			hide_dependency_lines: true
-			min_required_dependencies: 14
+			min_required_dependencies: 13
 			dependencies: [
 				"24537A865C991668"
 				"04A3555B060CF2A4"
 				"4640D9448095595F"
 				"022CD6C9C42A8735"
-				"201254114AD1FD20"
 				"5636E5E12F8D46BE"
 				"2FECC36F76C7F5F0"
 				"3021B669D36A44E5"
@@ -1522,7 +1393,7 @@
 			subtitle: "Now you will have access to some Big Bounties"
 			description: ["We now grant you Rank 2: Gold!"]
 			hide_dependency_lines: true
-			min_required_dependencies: 13
+			min_required_dependencies: 12
 			dependencies: [
 				"3441E259E915A6F0"
 				"159BA3B0010586CD"
@@ -1536,7 +1407,6 @@
 				"227D6C356A7859CA"
 				"09706A4856B6F9E9"
 				"7BFCDA8452ECE7F2"
-				"419381340EBD6AF1"
 				"0582B20522B76DE5"
 				"51484E4812AC6E1C"
 			]
@@ -1562,7 +1432,7 @@
 			subtitle: "Feel like you could defeat a God"
 			description: ["A Hero! Only Heroes reaches Rank 1 We will now grant you Rank 1: Platinum!"]
 			hide_dependency_lines: true
-			min_required_dependencies: 15
+			min_required_dependencies: 10
 			dependencies: [
 				"4F5BFA1F98EB9AA8"
 				"68192927A9589F72"
@@ -1571,14 +1441,11 @@
 				"0566CB2C64A7077C"
 				"7A58DBF89066B065"
 				"3DB73462DFE2FF20"
-				"2A56B2F774EE408B"
 				"3A63D52BFF0F2924"
 				"3EB3FD37A6EA61EE"
-				"0CB3804099099063"
 				"308F3700AFEC2C86"
 				"6EF5BC7299133CB8"
 				"056F69FA3504B395"
-				"1BFD0FD3E14A9BBF"
 			]
 			id: "1DEC62B7DA1E94CB"
 			tasks: [{
@@ -2276,8 +2143,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -14.5d
+			x: 7.5d
+			y: -14.0d
 			dependencies: ["3188DD78CAA6832A"]
 			id: "66342378935973B3"
 			tasks: [{
