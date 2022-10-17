@@ -104,6 +104,8 @@
 			title: "Visit the Atum"
 			x: -1.5d
 			y: -0.5d
+			subtitle: "A land of sand and dragons"
+			description: ["The Atum is where you can find Ice and Fire Dragons, Myrmex, Hydras and Worms!"]
 			id: "058808A43B34BC7D"
 			tasks: [{
 				id: "111E8C199658EB80"

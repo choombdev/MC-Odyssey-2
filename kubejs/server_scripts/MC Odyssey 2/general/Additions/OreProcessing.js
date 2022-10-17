@@ -86,10 +86,74 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(crushedendstone, endstone)
     event.recipes.createCrushing(dust, sand)
 
+ 
+
+    // Missing Plates
+    
+    // Plate Iron
+        event.shapeless('emendatusenigmatica:cast_iron_plate', ['immersiveengineering:hammer', 'emendatusenigmatica:cast_iron_ingot']).damageItem(0)
+        event.recipes.createPressing('emendatusenigmatica:cast_iron_plate', 'emendatusenigmatica:cast_iron_ingot')
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:cast_iron_plate', 'emendatusenigmatica:cast_iron_ingot', 'immersiveengineering:mold_plate')
     // Diamond Plates
-    event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:diamond_plate', 'minecraft:diamond', 'immersiveengineering:mold_plate')
-    event.recipes.thermal.press('emendatusenigmatica:diamond_plate', 'minecraft:diamond')
-    event.recipes.createPressing('emendatusenigmatica:diamond_plate', 'minecraft:diamond')
+       event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:diamond_plate', 'minecraft:diamond', 'immersiveengineering:mold_plate')
+       event.recipes.thermal.press('emendatusenigmatica:diamond_plate', 'minecraft:diamond')
+       event.recipes.createPressing('emendatusenigmatica:diamond_plate', 'minecraft:diamond')
+    // Iridium
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:iridium_plate', 'emendatusenigmatica:iridium_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:iridium_plate', 'emendatusenigmatica:iridium_ingot')
+    // Signalum
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:signalum_plate', 'emendatusenigmatica:signalum_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:signalum_plate', 'emendatusenigmatica:signalum_ingot')
+        event.shapeless('emendatusenigmatica:signalum_ingot', ['immersiveengineering:hammer', 'emendatusenigmatica:signalum_ingot']).damageItem(0)
+    // Lumium
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:lumium_plate', 'emendatusenigmatica:lumium_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:lumium_plate', 'emendatusenigmatica:lumium_ingot')
+        event.shapeless('emendatusenigmatica:lumium_ingot', ['immersiveengineering:hammer', 'emendatusenigmatica:lumium_ingot']).damageItem(0)
+    // Aluminum
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:aluminum_plate', 'emendatusenigmatica:aluminum_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:aluminum_plate', 'emendatusenigmatica:aluminum_ingot')
+        event.recipes.thermal.press('emendatusenigmatica:aluminum_plate', 'emendatusenigmatica:aluminum_ingot')
+    // Silver
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:silver_plate', 'emendatusenigmatica:silver_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:silver_plate', 'emendatusenigmatica:silver_ingot')
+    // Lead
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:lead_plate', 'emendatusenigmatica:lead_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:lead_plate', 'emendatusenigmatica:lead_ingot')
+    // Nickel
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:nickel_plate', 'emendatusenigmatica:nickel_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:nickel_plate', 'emendatusenigmatica:nickel_ingot')
+    // Uranium
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:uranium_plate', 'emendatusenigmatica:uranium_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:uranium_plate', 'emendatusenigmatica:uranium_ingot')
+    // Osmium
+        event.shapeless('emendatusenigmatica:osmium_ingot', ['immersiveengineering:hammer', 'emendatusenigmatica:osmium_ingot']).damageItem(0)
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:osmium_plate', 'emendatusenigmatica:osmium_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:osmium_plate', 'emendatusenigmatica:osmium_ingot')
+    // Tin
+        event.shapeless('emendatusenigmatica:tin_ingot', ['immersiveengineering:hammer', 'emendatusenigmatica:tin_ingot']).damageItem(0)
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:tin_plate', 'emendatusenigmatica:tin_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:tin_plate', 'emendatusenigmatica:tin_ingot')
+    // Cobalt
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:cobalt_plate', 'emendatusenigmatica:cobalt_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:cobalt_plate', 'emendatusenigmatica:cobalt_ingot')
+    // Bronze
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:bronze_plate', 'emendatusenigmatica:bronze_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:bronze_plate', 'emendatusenigmatica:bronze_ingot')
+    // Constantan
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:constantan_plate', 'emendatusenigmatica:constantan_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:constantan_plate', 'emendatusenigmatica:constantan_ingot')
+    // Electrum
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:electrum_plate', 'emendatusenigmatica:electrum_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:electrum_plate', 'emendatusenigmatica:electrum_ingot')
+    // Invar
+        event.shapeless('emendatusenigmatica:invar_ingot', ['immersiveengineering:hammer', 'emendatusenigmatica:invar_ingot']).damageItem(0)
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:invar_plate', 'emendatusenigmatica:invar_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:invar_plate', 'emendatusenigmatica:invar_ingot')
+    // Enderium
+        event.shapeless('emendatusenigmatica:enderium_ingot', ['immersiveengineering:hammer', 'emendatusenigmatica:enderium_ingot']).damageItem(0)
+        event.recipes.immersiveengineeringMetalPress('emendatusenigmatica:enderium_plate', 'emendatusenigmatica:enderium_ingot', 'immersiveengineering:mold_plate')
+        event.recipes.createPressing('emendatusenigmatica:enderium_plate', 'emendatusenigmatica:enderium_ingot')
+
     })
 
 

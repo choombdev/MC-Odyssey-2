@@ -3,13 +3,25 @@
     [
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "overworld"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "atum:atum"
       },
       {
-        "type": "BIOME_CATEGORY",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "desert"
+        "value": "atum:dense_woods"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "atum:sand_plains"
       }
     ]
   ]

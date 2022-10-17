@@ -437,6 +437,17 @@ event.recipes.createMechanicalCrafting(Item.of('kubejs:ancient_leggings','{Unbre
     F: 'create:flywheel'
   })
 
+event.recipes.createMechanicalCrafting('create:creative_blaze_cake', [
+  'BBB',
+  'EIE',
+  'CCC'
+],{
+  B: 'kubejs:energized_draconium_bucket',
+  C: 'create:blaze_cake_base',
+  I: 'draconicevolution:draconium_core',
+  E: 'iceandfire:dragonegg_red'
+})
+
   event.recipes.createMechanicalCrafting('pneumaticcraft:creative_compressor', [
     'BYB',
     'FAF',

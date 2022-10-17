@@ -1,7 +1,9 @@
 // This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
-// Alkeshary Tome
 onEvent('recipes', event => {
-    event.remove({output: Item.of('xreliquary:alkahestry_tome')})
+// Totem of Undying - Greek Fantasy
+event.remove({id: 'greekfantasy:golden_fleece_to_totem'})
+// Alkeshary Tome
+event.remove({output: Item.of('xreliquary:alkahestry_tome')})
 // Uncrafting Grinder
 event.remove({output:'cyclic:uncrafter'})
     // Jetpacks

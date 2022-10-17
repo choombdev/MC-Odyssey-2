@@ -868,7 +868,7 @@
                 },
                 "Price": [{
                     "coin": "lightmanscurrency:coin_netherite",
-                    "count": 50
+                    "count": 30
                 }]
             }, {
                 "TradeType": "SALE",
@@ -878,7 +878,7 @@
                 },
                 "Price": [{
                     "coin": "lightmanscurrency:coin_netherite",
-                    "count": 10
+                    "count": 1
                 }, {
                     "coin": "lightmanscurrency:coin_diamond",
                     "count": 5
@@ -1200,7 +1200,30 @@
                 }]
             }]
         }
-
-
-    ]
+    ],
+    "id":"undergroudntavernsell",
+    "type":"lightmanscurrency:item_trader",
+    "TraderName":"Underground Cavern",
+    "OwnerName":"Minecraft",
+    "Trades":[{
+        "TradeType":"SALE",
+        "SellItem":
+        {"id":"refinedstorage:creative_wireless_grid","Count":1},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":50}]},
+        {"TradeType":"SALE","SellItem":{"id":"refinedstorage:creative_wireless_fluid_grid","Count":1},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":50}]},
+        {"TradeType":"SALE","SellItem":{"id":"refinedstorage:creative_wireless_crafting_monitor","Count":1},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":50}]},
+        {"TradeType":"SALE","SellItem":{"id":"tconstruct:creative_slot","Count":1,"tag":"{slot:\"upgrades\"}"},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":25}]},
+        {"TradeType":"SALE","SellItem":{"id":"tconstruct:creative_slot","Count":1,"tag":"{slot:\"defense\"}"},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":25}]},
+        {"TradeType":"SALE","SellItem":{"id":"tconstruct:creative_slot","Count":1,"tag":"{slot:\"abilities\"}"},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":25}]},
+        {"TradeType":"SALE","SellItem":{"id":"tconstruct:creative_slot","Count":1,"tag":"{slot:\"souls\"}"},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":25}]},
+        {"TradeType":"SALE","SellItem":{"id":"tconstruct:creative_slot","Count":1,"tag":"{slot:\"sensor\"}"},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":25}]},
+        {"TradeType":"SALE","SellItem":{"id":"pneumaticcraft:creative_compressed_iron_block","Count":1},
+        "Price":[{"coin":"lightmanscurrency:coin_netherite","count":60}]}]
 }

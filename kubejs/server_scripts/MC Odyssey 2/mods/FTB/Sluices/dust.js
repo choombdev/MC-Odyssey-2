@@ -38,7 +38,8 @@
             ["mysticalagriculture:prosperity_shard", 0.62],
             ['mana-and-artifice:vinteum_dust', 0.4],
             ['emendatusenigmatica:sapphire_gem', 0.5],
-            ['iceandfire:amythest_gem', 0.2]
+            ['iceandfire:amythest_gem', 0.2],
+            ['emendatusenigmatica:fluorite_gem', 0.1]
     
         ]);
     });

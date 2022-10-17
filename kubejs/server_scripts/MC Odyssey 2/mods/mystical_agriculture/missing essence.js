@@ -26,8 +26,27 @@ event.remove({output:'draconicevolution:awakened_draconium_ingot'})
          E: 'minecraft:prismarine_crystals',
          A: 'minecraft:air',
          S: 'minecraft:end_stone'
-        }) 
+        })
         
+        
+
+    // Blaze Essence - Powder
+    event.shaped('6x minecraft:blaze_powder', [
+        ' EE',
+        ' E ',
+        'E E'
+        ],{
+            E: 'mysticalagriculture:blaze_essence'
+        }) 
+    
+    // Enderman Essence - Dust
+    event.shaped('2x emendatusenigmatica:ender_dust', [
+        'EE ',
+        ' E ',
+        '  E'
+        ],{
+            E: 'mysticalagriculture:enderman_essence'
+        }) 
 
     // Nature Essence - Grass
     event.shaped('minecraft:grass', [

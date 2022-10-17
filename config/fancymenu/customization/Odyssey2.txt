@@ -18,7 +18,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -126
+  y = -66
 }
 
 customization {
@@ -31,7 +31,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -57
+  y = 4
 }
 
 customization {
@@ -54,7 +54,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -80
+  y = -20
 }
 
 customization {
@@ -62,7 +62,7 @@ customization {
   orientation = mid-centered
   x = 4
   action = movebutton
-  y = -103
+  y = -43
 }
 
 customization {
@@ -70,22 +70,21 @@ customization {
   orientation = mid-centered
   x = 4
   action = movebutton
-  y = -80
+  y = -20
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = opengui
-  x = 378
+  x = -102
   width = 98
   actionid = 160f6e41-6bde-412a-9a7b-871d35713c361665249397635
   action = addbutton
-  y = 167
+  y = -43
   label = Mods
   value = net.minecraftforge.fml.client.gui.screen.ModListScreen
-
   height = 20
 }
 

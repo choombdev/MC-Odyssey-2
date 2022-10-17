@@ -1,0 +1,41 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "mysticalagriculture:mana_seeds"
+    },
+    "categories":["farmland"],
+    "growthTicks": 3,
+    "growthModifier": 1.2,
+    "display": {
+      "block": "mysticalagriculture:mana_crop",
+      "properties": {
+        "age": 7
+      }
+    },
+    "results": [
+      {
+        "chance": 0.75,
+        "output": {
+          "item": "mysticalagriculture:mana_essence"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      },
+      {
+        "chance": 0.05,
+        "output": {
+          "item": "mysticalagriculture:mana_seeds"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      },
+      {
+        "chance": 0.01,
+        "output": {
+          "item": "mysticalagriculture:fertilized_essence"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      }
+    ]
+  }

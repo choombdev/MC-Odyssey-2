@@ -3,25 +3,30 @@
     [
       {
         "type": "BIOME_DICT",
-        "negate": false,
+        "negate": true,
         "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "swamp"
       }
     ],
     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "overworld"
+        "value": "atum:atum"
       },
       {
-        "type": "BIOME_CATEGORY",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "swamp"
+        "value": "atum:dense_woods"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "atum:sand_plains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "atum:sand_hills"
       }
     ]
   ]

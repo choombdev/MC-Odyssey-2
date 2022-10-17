@@ -1,0 +1,14 @@
+{
+    "name": "Mana",
+    "type": "resource",
+    "tier": "mysticalagriculture:2",
+    "ingredient": {
+      "item": "emendatusenigmatica:arcane_gem"
+    },
+    "colors": {
+        "flower": "78bdfa",
+        "essence": "628db3",
+        "seeds": "54718a"
+      }
+      }
+  
